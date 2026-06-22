@@ -1,0 +1,14 @@
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.catalog = {
+  "libraries": [
+    {
+      "id": "grade-5-math",
+      "grade": 5,
+      "subject": "Mathematics",
+      "title": "Mathematics - Grade 5",
+      "basePath": "content/grade-5/math",
+      "indexFile": "content/grade-5/math/index.json",
+      "dataKey": "grade5Math"
+    }
+  ]
+};

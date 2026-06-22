@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Star - Teacher</title>
+    <link rel="icon" href="Favicon/favicon.ico" sizes="any" />
+    <link rel="icon" href="Favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="Favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="Favicon/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Practice Star home">
+        <span class="brand-mark" aria-hidden="true">★</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="student.html">Student</a>
+        <a aria-current="page" href="teacher.html">Teacher</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero image-hero" aria-label="Practice Star teacher page">
+        <img class="header-art" src="Images/Teacher%20Header.png" alt="Practice Star teacher and parent dashboard" />
+      </section>
+
+      <section id="authPanel" class="panel auth-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Teacher account</p>
+          <h2 id="authTitle">Create an account or log in</h2>
+        </div>
+
+        <div id="loggedOutArea" class="two-column auth-forms">
+          <form id="signupForm" class="starter-form">
+            <h3>Create Account</h3>
+            <div>
+              <label for="signupEmail">Email</label>
+              <input id="signupEmail" type="email" autocomplete="email" />
+            </div>
+            <div>
+              <label for="signupPassword">Password</label>
+              <input id="signupPassword" type="password" autocomplete="new-password" />
+            </div>
+            <button type="submit">Create Account</button>
+          </form>
+
+          <form id="loginForm" class="starter-form">
+            <h3>Log In</h3>
+            <div>
+              <label for="loginEmail">Email</label>
+              <input id="loginEmail" type="email" autocomplete="email" />
+            </div>
+            <div>
+              <label for="loginPassword">Password</label>
+              <input id="loginPassword" type="password" autocomplete="current-password" />
+            </div>
+            <button class="secondary" type="submit">Log In</button>
+          </form>
+        </div>
+
+        <div id="loggedInArea" class="account-row hidden">
+          <p class="status-text">Logged in as <strong id="teacherEmail"></strong></p>
+          <div class="code-box compact-code account-code">
+            <span>Student code</span>
+            <strong id="classCodeDisplay">Not ready</strong>
+          </div>
+          <button id="logoutButton" class="secondary" type="button">Log Out</button>
+        </div>
+        <p id="authMessage" class="status-text" role="status"></p>
+      </section>
+
+      <section id="dashboardPanel" class="hidden">
+        <div class="dashboard-tabs" role="tablist" aria-label="Teacher dashboard sections">
+          <button id="curriculumDashboardTab" class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="curriculumDashboardPanel">Curriculum</button>
+          <button id="studentsDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="studentsDashboardPanel">Students</button>
+          <button id="spellingDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="spellingDashboardPanel">Create a Spelling List</button>
+          <button id="quizDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="quizDashboardPanel">Create a Quiz</button>
+        </div>
+
+        <div id="curriculumDashboardPanel" class="dashboard-tab-panel active" role="tabpanel" aria-labelledby="curriculumDashboardTab">
+        <section id="curriculumHomePanel" class="panel compact-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Content library</p>
+            <h2>Curriculum</h2>
+            <p class="hint">Browse built-in lessons by subject, grade, and unit. Choose what students can see.</p>
+          </div>
+          <div id="curriculumSummary" class="notice">Loading curriculum...</div>
+          <div id="curriculumUnits" class="curriculum-grid"></div>
+        </section>
+
+        <section id="curriculumLessonPanel" class="panel compact-panel hidden">
+          <div class="section-heading">
+            <p class="eyebrow">Unit lessons</p>
+            <h2 id="curriculumUnitTitle">Unit</h2>
+            <p id="curriculumUnitGoal" class="hint"></p>
+          </div>
+          <button id="backToCurriculumButton" class="secondary small-button" type="button">Back to Curriculum</button>
+          <div id="curriculumLessons" class="lesson-list"></div>
+        </section>
+
+        <section id="curriculumPreviewPanel" class="panel compact-panel hidden">
+          <div class="section-heading">
+            <p class="eyebrow">Lesson preview</p>
+            <h2 id="curriculumPreviewTitle">Lesson</h2>
+            <p id="curriculumPreviewMeta" class="hint"></p>
+          </div>
+          <button id="backToUnitButton" class="secondary small-button" type="button">Back to Unit Lessons</button>
+          <div id="curriculumPreviewContent" class="preview-box"></div>
+        </section>
+        </div>
+
+        <div id="studentsDashboardPanel" class="dashboard-tab-panel" role="tabpanel" aria-labelledby="studentsDashboardTab">
+        <section class="panel compact-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Roster</p>
+            <h2>Allowed students</h2>
+            <p class="hint">Students need the student code, their first name, and their PIN to open shared activities.</p>
+          </div>
+          <form id="studentRosterForm" class="starter-form">
+            <div class="two-column">
+              <div>
+                <label for="rosterStudentName">Student first name</label>
+                <input id="rosterStudentName" type="text" autocomplete="off" placeholder="Wendy" />
+              </div>
+              <div class="form-action-end">
+                <button type="submit">Add Student</button>
+              </div>
+            </div>
+          </form>
+          <p id="rosterStatus" class="status-text" role="status"></p>
+          <div id="studentRosterList" class="card-list"></div>
+        </section>
+        </div>
+
+        <div id="spellingDashboardPanel" class="dashboard-tab-panel" role="tabpanel" aria-labelledby="spellingDashboardTab">
+        <section class="panel compact-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Spelling lists</p>
+            <h2>Create a word list</h2>
+            <p class="hint">Enter one spelling word per line. You can paste a list from a document or type words manually.</p>
+          </div>
+
+          <form id="teacherWordListForm" class="starter-form">
+            <input id="activeListId" type="hidden" />
+            <div>
+              <label for="wordListName">List name</label>
+              <input id="wordListName" type="text" placeholder="Week 1 spelling words" />
+            </div>
+            <div>
+              <label for="wordListWords">Words</label>
+              <textarea
+                id="wordListWords"
+                rows="8"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
+                placeholder="Enter one word per line"
+              ></textarea>
+            </div>
+            <div class="actions">
+              <button type="submit">Save List</button>
+              <button id="newListButton" class="secondary" type="button">New List</button>
+              <button id="deleteListButton" class="danger" type="button">Delete List</button>
+            </div>
+          </form>
+          <p id="teacherStatus" class="status-text" role="status"></p>
+        </section>
+
+        <section class="panel compact-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Spelling library</p>
+            <h2>Your spelling lists</h2>
+          </div>
+          <div id="wordListCards" class="card-list"></div>
+        </section>
+        </div>
+
+        <div id="quizDashboardPanel" class="dashboard-tab-panel" role="tabpanel" aria-labelledby="quizDashboardTab">
+        <section class="panel compact-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Quizzes</p>
+            <h2>Create a quiz</h2>
+            <p class="hint">For now, quizzes can use multiple choice or true/false questions. This keeps checking answers simple and fair.</p>
+          </div>
+
+          <form id="quizForm" class="starter-form">
+            <input id="activeQuizId" type="hidden" />
+            <div>
+              <label for="quizTitle">Quiz title</label>
+              <input id="quizTitle" type="text" placeholder="Science review" />
+            </div>
+
+            <div class="quiz-builder-box">
+              <div class="two-column">
+                <div>
+                  <label for="questionType">Question type</label>
+                  <select id="questionType">
+                    <option value="multipleChoice">Multiple choice</option>
+                    <option value="trueFalse">True or false</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="correctAnswer">Correct answer</label>
+                  <select id="correctAnswer"></select>
+                </div>
+              </div>
+
+              <div>
+                <label for="questionPrompt">Question</label>
+                <textarea id="questionPrompt" rows="3" placeholder="Which planet is closest to the Sun?"></textarea>
+              </div>
+
+              <div id="choiceFields" class="choice-editor-grid">
+                <div>
+                  <label for="choiceOne">Choice 1</label>
+                  <input id="choiceOne" type="text" />
+                </div>
+                <div>
+                  <label for="choiceTwo">Choice 2</label>
+                  <input id="choiceTwo" type="text" />
+                </div>
+                <div>
+                  <label for="choiceThree">Choice 3</label>
+                  <input id="choiceThree" type="text" />
+                </div>
+                <div>
+                  <label for="choiceFour">Choice 4</label>
+                  <input id="choiceFour" type="text" />
+                </div>
+              </div>
+
+              <div class="actions">
+                <button id="addQuestionButton" type="button">Add Question</button>
+                <button id="clearQuestionButton" class="secondary" type="button">Clear Question</button>
+              </div>
+            </div>
+
+            <div id="questionList" class="question-list"></div>
+
+            <div class="actions">
+              <button type="submit">Save Quiz</button>
+              <button id="newQuizButton" class="secondary" type="button">New Quiz</button>
+              <button id="deleteQuizButton" class="danger" type="button">Delete Quiz</button>
+            </div>
+          </form>
+          <p id="quizStatus" class="status-text" role="status"></p>
+        </section>
+
+        <section class="panel compact-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Quiz library</p>
+            <h2>Your quizzes</h2>
+          </div>
+          <div id="quizCards" class="card-list"></div>
+        </section>
+        </div>
+
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="content/catalog-data.js"></script>
+    <script src="content/grade-5/math/index-data.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-1-whole-numbers-and-operations.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-2-fractions-decimals-and-percents.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-3-algebra-and-patterning.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-4-data-and-probability.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-5-spatial-sense.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-6-financial-literacy.js"></script>
+    <script src="shared.js"></script>
+    <script src="teacher.js"></script>
+  </body>
+</html>
