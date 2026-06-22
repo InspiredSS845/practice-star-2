@@ -1,0 +1,8322 @@
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5Math = window.PracticeStarContent.grade5Math || { subject: "Mathematics", grade: 5, units: [] };
+window.PracticeStarContent.grade5Math.units.push({
+  "id": "grade-5-math-unit-1",
+  "title": "Whole Numbers and Operations",
+  "strand": "Number",
+  "unitGoal": "Students will strengthen their understanding of whole numbers, place value, estimation, and the four operations. They will use strategies to solve problems accurately and explain their thinking clearly.",
+  "lessons": [
+    {
+      "id": "grade-5-math-unit-1-place-value",
+      "title": "Place Value",
+      "type": "lesson",
+      "teacherSummary": "Students build place value understanding from ones and tens through hundred thousands.",
+      "studentActivity": {
+        "type": "placeValueBuild",
+        "title": "Place Value Quest",
+        "mission": "Earn practice stars by finding the value of digits.",
+        "reward": {
+          "stars": 10
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Quick Check",
+            "prompt": "10 ones make...",
+            "choices": [
+              "1 ten",
+              "10 tens",
+              "1 hundred"
+            ],
+            "correctAnswer": "1 ten",
+            "feedback": "Yes. 10 ones make 1 ten.",
+            "hint": "Count ten single ones. They can be bundled into 1 ten."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Find the Place",
+            "prompt": "In 26, the 2 is in which place?",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "tens",
+            "feedback": "Correct. The 2 is in the tens place.",
+            "hint": "In 26, the 6 is in the ones place. The 2 is one place to the left."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Find the Tens",
+            "prompt": "In the number 46, which digit belongs in the tens place?",
+            "choices": [
+              "4",
+              "6",
+              "40"
+            ],
+            "correctAnswer": "4",
+            "feedback": "Yes. In 46, the 4 is in the tens place.",
+            "hint": "Look at the digit just to the left of the 6."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Try It",
+            "prompt": "In 34, the 3 tells how many...",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "tens",
+            "feedback": "Yes. The 3 tells how many tens.",
+            "hint": "The 4 is in the ones place. The 3 is in the tens place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Find the Number",
+            "prompt": "Which number has 7 tens?",
+            "choices": [
+              "17",
+              "70",
+              "107"
+            ],
+            "correctAnswer": "70",
+            "feedback": "Right. 70 has 7 tens and 0 ones.",
+            "hint": "Look for the 7 in the tens place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Find the Digit",
+            "prompt": "Which digit is in the tens place in 58?",
+            "choices": [
+              "8",
+              "58",
+              "5"
+            ],
+            "correctAnswer": "5",
+            "feedback": "Yes. In 58, the 5 is in the tens place.",
+            "hint": "The tens place is the digit just to the left of the ones place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Find the Tens",
+            "prompt": "In the number 72, which digit belongs in the tens place?",
+            "choices": [
+              "2",
+              "7",
+              "70"
+            ],
+            "correctAnswer": "7",
+            "feedback": "Correct. 72 has 7 tens and 2 ones.",
+            "hint": "In 72, the 7 is in the tens place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Expanded Form",
+            "prompt": "Which shows 49?",
+            "choices": [
+              "4 + 9",
+              "400 + 9",
+              "40 + 9"
+            ],
+            "correctAnswer": "40 + 9",
+            "feedback": "Yes. 49 is 4 tens and 9 ones.",
+            "hint": "The 4 in 49 is worth 40."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "True or False",
+            "prompt": "In 86, the 8 is worth 80.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The 8 is in the tens place.",
+            "hint": "8 tens is 80."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ones and Tens",
+            "title": "Level 1 Check",
+            "prompt": "Which number has 9 tens and 5 ones?",
+            "choices": [
+              "59",
+              "95",
+              "905"
+            ],
+            "correctAnswer": "95",
+            "feedback": "Yes. 9 tens and 5 ones makes 95.",
+            "hint": "9 tens is 90. Add 5 ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Quick Check",
+            "prompt": "10 tens make...",
+            "choices": [
+              "1 one",
+              "1 hundred",
+              "10 hundreds"
+            ],
+            "correctAnswer": "1 hundred",
+            "feedback": "Yes. 10 tens make 1 hundred.",
+            "hint": "A hundred is made from ten groups of ten."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Find the Place",
+            "prompt": "In 142, the 1 is in which place?",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "hundreds",
+            "feedback": "Correct. The 1 is in the hundreds place.",
+            "hint": "Read the places from right to left: ones, tens, hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Find the Digit",
+            "prompt": "In 325, which digit tells how many hundreds?",
+            "choices": [
+              "2",
+              "5",
+              "3"
+            ],
+            "correctAnswer": "3",
+            "feedback": "Yes. The 3 tells how many hundreds.",
+            "hint": "The hundreds place is the first digit in a three-digit number."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Find the Place",
+            "prompt": "In 305, the 3 tells how many...",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "hundreds",
+            "feedback": "Right. The 3 tells how many hundreds.",
+            "hint": "In 305, the 3 is in the hundreds place even though there are 0 tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Find the Tens",
+            "prompt": "In the number 648, which digit belongs in the tens place?",
+            "choices": [
+              "4",
+              "6",
+              "8"
+            ],
+            "correctAnswer": "4",
+            "feedback": "Yes. 648 has 6 hundreds, 4 tens, and 8 ones.",
+            "hint": "The middle digit tells the tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Expanded Form",
+            "prompt": "Which shows 276?",
+            "choices": [
+              "20 + 70 + 6",
+              "200 + 70 + 6",
+              "200 + 7 + 6"
+            ],
+            "correctAnswer": "200 + 70 + 6",
+            "feedback": "Correct. 276 has 2 hundreds, 7 tens, and 6 ones.",
+            "hint": "The 2 is worth 200 and the 7 is worth 70."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Find the Number",
+            "prompt": "Which number has 4 hundreds?",
+            "choices": [
+              "48",
+              "405",
+              "94"
+            ],
+            "correctAnswer": "405",
+            "feedback": "Yes. 405 has 4 hundreds.",
+            "hint": "Look for a three-digit number with 4 in the hundreds place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Find the Place",
+            "prompt": "In 987, the 8 is in which place?",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "tens",
+            "feedback": "Correct. The 8 is in the tens place.",
+            "hint": "The 8 is the middle digit, so it is worth 80."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "True or False",
+            "prompt": "In 620, the 2 is worth 200.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. The 2 is in the tens place, so it is worth 20.",
+            "hint": "The 6 is worth 600, but the 2 is worth 20."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Hundreds",
+            "title": "Level 2 Check",
+            "prompt": "Which number has 8 hundreds, 0 tens, and 4 ones?",
+            "choices": [
+              "840",
+              "84",
+              "804"
+            ],
+            "correctAnswer": "804",
+            "feedback": "Great. 804 has 8 hundreds, 0 tens, and 4 ones.",
+            "hint": "0 tens means there is a 0 in the middle."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Quick Check",
+            "prompt": "10 hundreds make...",
+            "choices": [
+              "1 thousand",
+              "10 thousands",
+              "1 hundred"
+            ],
+            "correctAnswer": "1 thousand",
+            "feedback": "Yes. 10 hundreds make 1 thousand.",
+            "hint": "A thousand is ten groups of one hundred."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Find the Place",
+            "prompt": "In 1,426, the 1 is in which place?",
+            "choices": [
+              "hundreds",
+              "thousands",
+              "ten thousands"
+            ],
+            "correctAnswer": "thousands",
+            "feedback": "Correct. The 1 is in the thousands place.",
+            "hint": "From right to left: ones, tens, hundreds, thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Find the Digit",
+            "prompt": "In 3,582, which digit tells how many thousands?",
+            "choices": [
+              "5",
+              "8",
+              "3"
+            ],
+            "correctAnswer": "3",
+            "feedback": "Yes. The 3 tells how many thousands.",
+            "hint": "The thousands digit is just left of the hundreds digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Find the Value",
+            "prompt": "In 4,719, what is the 4 worth?",
+            "choices": [
+              "4",
+              "400",
+              "4,000"
+            ],
+            "correctAnswer": "4,000",
+            "feedback": "Right. The 4 is in the thousands place, so it is worth 4,000.",
+            "hint": "4 thousands means 4,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Find the Number",
+            "prompt": "Which number has 6 thousands?",
+            "choices": [
+              "624",
+              "60,240",
+              "6,240"
+            ],
+            "correctAnswer": "6,240",
+            "feedback": "Correct. 6,240 has 6 thousands.",
+            "hint": "Look for 6 in the thousands place, not the ten-thousands place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Find the Place",
+            "prompt": "In 8,305, the 3 is in which place?",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "hundreds",
+            "feedback": "Yes. The 3 is in the hundreds place.",
+            "hint": "The 0 is in the tens place, and the 5 is in the ones place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Expanded Form",
+            "prompt": "Which shows 2,647?",
+            "choices": [
+              "200 + 600 + 40 + 7",
+              "2,000 + 600 + 40 + 7",
+              "2,000 + 60 + 40 + 7"
+            ],
+            "correctAnswer": "2,000 + 600 + 40 + 7",
+            "feedback": "Yes. 2,647 is 2 thousands, 6 hundreds, 4 tens, and 7 ones.",
+            "hint": "Each digit keeps the value of its place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "True or False",
+            "prompt": "In 7,450, the 7 is worth 700.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. The 7 is in the thousands place, so it is worth 7,000.",
+            "hint": "7 hundreds would be 700, but this 7 is in the thousands place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Find the Value",
+            "prompt": "In 9,182, what is the 1 worth?",
+            "choices": [
+              "1",
+              "100",
+              "1,000"
+            ],
+            "correctAnswer": "100",
+            "feedback": "Right. The 1 is in the hundreds place.",
+            "hint": "The 9 is thousands, the 1 is hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Thousands",
+            "title": "Level 3 Check",
+            "prompt": "Which number has 5 thousands, 0 hundreds, 8 tens, and 6 ones?",
+            "choices": [
+              "5,806",
+              "5,086",
+              "508"
+            ],
+            "correctAnswer": "5,086",
+            "feedback": "Great. 5,086 has 5 thousands, 0 hundreds, 8 tens, and 6 ones.",
+            "hint": "A 0 is needed in the hundreds place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Quick Check",
+            "prompt": "10 thousands make...",
+            "choices": [
+              "1 thousand",
+              "1 ten thousand",
+              "10 ten thousands"
+            ],
+            "correctAnswer": "1 ten thousand",
+            "feedback": "Yes. 10 thousands make 1 ten thousand.",
+            "hint": "When you have ten groups of 1,000, you have 10,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Find the Place",
+            "prompt": "In 24,819, the 2 is in which place?",
+            "choices": [
+              "thousands",
+              "ten thousands",
+              "hundreds"
+            ],
+            "correctAnswer": "ten thousands",
+            "feedback": "Correct. The 2 is in the ten-thousands place.",
+            "hint": "In a five-digit number, the first digit is ten thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Find the Digit",
+            "prompt": "In 63,507, which digit tells how many ten thousands?",
+            "choices": [
+              "3",
+              "6",
+              "5"
+            ],
+            "correctAnswer": "6",
+            "feedback": "Yes. The 6 tells how many ten thousands.",
+            "hint": "The ten-thousands place is the first digit in 63,507."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Find the Value",
+            "prompt": "In 58,214, what is the 5 worth?",
+            "choices": [
+              "5,000",
+              "50,000",
+              "500,000"
+            ],
+            "correctAnswer": "50,000",
+            "feedback": "Right. The 5 is in the ten-thousands place.",
+            "hint": "5 ten thousands is 50,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Find the Number",
+            "prompt": "Which number has 7 ten thousands?",
+            "choices": [
+              "7,482",
+              "74,820",
+              "704"
+            ],
+            "correctAnswer": "74,820",
+            "feedback": "Correct. 74,820 has 7 ten thousands.",
+            "hint": "Look for a five-digit number that starts with 7."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Find the Place",
+            "prompt": "In 91,604, the 1 is in which place?",
+            "choices": [
+              "ones",
+              "thousands",
+              "ten thousands"
+            ],
+            "correctAnswer": "thousands",
+            "feedback": "Yes. The 1 is in the thousands place.",
+            "hint": "The 9 is ten thousands. The 1 is thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Expanded Form",
+            "prompt": "Which shows 36,405?",
+            "choices": [
+              "3,000 + 6,000 + 400 + 5",
+              "30,000 + 600 + 400 + 5",
+              "30,000 + 6,000 + 400 + 5"
+            ],
+            "correctAnswer": "30,000 + 6,000 + 400 + 5",
+            "feedback": "Yes. 36,405 has 3 ten thousands, 6 thousands, 4 hundreds, 0 tens, and 5 ones.",
+            "hint": "The 3 is worth 30,000 and the 6 is worth 6,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "True or False",
+            "prompt": "In 42,731, the 4 is worth 40,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The 4 is in the ten-thousands place.",
+            "hint": "4 ten thousands is 40,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Find the Value",
+            "prompt": "In 75,290, what is the 5 worth?",
+            "choices": [
+              "5",
+              "5,000",
+              "50,000"
+            ],
+            "correctAnswer": "5,000",
+            "feedback": "Right. The 5 is in the thousands place.",
+            "hint": "The 7 is ten thousands. The 5 is thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Ten Thousands",
+            "title": "Level 4 Check",
+            "prompt": "Which number has 8 ten thousands, 3 thousands, 0 hundreds, 2 tens, and 1 one?",
+            "choices": [
+              "80,321",
+              "8,321",
+              "83,021"
+            ],
+            "correctAnswer": "83,021",
+            "feedback": "Great. 83,021 has each digit in the right place.",
+            "hint": "The number needs to start with 83 and have 0 in the hundreds place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Quick Check",
+            "prompt": "10 ten thousands make...",
+            "choices": [
+              "1 thousand",
+              "1 hundred thousand",
+              "10 hundred thousands"
+            ],
+            "correctAnswer": "1 hundred thousand",
+            "feedback": "Yes. 10 ten thousands make 1 hundred thousand.",
+            "hint": "Ten groups of 10,000 make 100,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Find the Place",
+            "prompt": "In 426,819, the 4 is in which place?",
+            "choices": [
+              "ten thousands",
+              "hundred thousands",
+              "thousands"
+            ],
+            "correctAnswer": "hundred thousands",
+            "feedback": "Correct. The 4 is in the hundred-thousands place.",
+            "hint": "A six-digit number starts with the hundred-thousands place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Find the Digit",
+            "prompt": "In 305,728, which digit tells how many hundred thousands?",
+            "choices": [
+              "0",
+              "3",
+              "5"
+            ],
+            "correctAnswer": "3",
+            "feedback": "Yes. The 3 tells how many hundred thousands.",
+            "hint": "The first digit in 305,728 is in the hundred-thousands place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Find the Value",
+            "prompt": "In 741,203, what is the 7 worth?",
+            "choices": [
+              "7,000",
+              "70,000",
+              "700,000"
+            ],
+            "correctAnswer": "700,000",
+            "feedback": "Right. The 7 is in the hundred-thousands place.",
+            "hint": "7 hundred thousands is 700,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Find the Number",
+            "prompt": "Which number has 2 hundred thousands?",
+            "choices": [
+              "206,418",
+              "24,681",
+              "20,641"
+            ],
+            "correctAnswer": "206,418",
+            "feedback": "Correct. 206,418 has 2 hundred thousands.",
+            "hint": "Look for a six-digit number that starts with 2."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Find the Place",
+            "prompt": "In 518,904, the 1 is in which place?",
+            "choices": [
+              "thousands",
+              "ten thousands",
+              "hundred thousands"
+            ],
+            "correctAnswer": "ten thousands",
+            "feedback": "Yes. The 1 is in the ten-thousands place.",
+            "hint": "The 5 is hundred thousands, and the 1 is ten thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Expanded Form",
+            "prompt": "Which shows 684,032?",
+            "choices": [
+              "60,000 + 80,000 + 4,000 + 30 + 2",
+              "600,000 + 8,000 + 4,000 + 30 + 2",
+              "600,000 + 80,000 + 4,000 + 30 + 2"
+            ],
+            "correctAnswer": "600,000 + 80,000 + 4,000 + 30 + 2",
+            "feedback": "Yes. 684,032 has 6 hundred thousands, 8 ten thousands, 4 thousands, 0 hundreds, 3 tens, and 2 ones.",
+            "hint": "The 6 is worth 600,000 and the 8 is worth 80,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "True or False",
+            "prompt": "In 920,516, the 2 is worth 2,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. The 2 is in the ten-thousands place, so it is worth 20,000.",
+            "hint": "The 2 is one place left of thousands, so it is ten thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Find the Value",
+            "prompt": "In 473,219, what is the 7 worth?",
+            "choices": [
+              "7,000",
+              "70,000",
+              "700,000"
+            ],
+            "correctAnswer": "70,000",
+            "feedback": "Right. The 7 is in the ten-thousands place.",
+            "hint": "The 4 is hundred thousands. The 7 is ten thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 5: Hundred Thousands",
+            "title": "Level 5 Check",
+            "prompt": "Which number has 5 hundred thousands, 0 ten thousands, 6 thousands, 4 hundreds, 0 tens, and 9 ones?",
+            "choices": [
+              "560,409",
+              "506,409",
+              "56,409"
+            ],
+            "correctAnswer": "506,409",
+            "feedback": "Excellent. 506,409 keeps every digit in the right place.",
+            "hint": "The number starts with 50, then has 6 thousands, 4 hundreds, 0 tens, and 9 ones."
+          }
+        ]
+      },
+      "successCriteria": [
+        "I can name the place of a digit from ones to hundred thousands.",
+        "I can tell what a digit is worth.",
+        "I can build and read numbers using place value."
+      ],
+      "vocabulary": [
+        "digit",
+        "place value",
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands",
+        "ten thousands",
+        "hundred thousands",
+        "expanded form"
+      ],
+      "teacherOverview": "Short student game focused on place value from ones through hundred thousands, using quick checks, digit-place questions, values, and expanded form.",
+      "lessonContent": "",
+      "practiceIdeas": [],
+      "quiz": {
+        "title": "Place Value Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
+        "questions": [
+          {
+            "section": "Part A: Ones, Tens, and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "In 47, which digit is in the tens place?",
+            "choices": [
+              "4",
+              "7",
+              "40"
+            ],
+            "correctAnswer": "4",
+            "reviewNote": "The tens place is one place to the left of the ones place."
+          },
+          {
+            "section": "Part A: Ones, Tens, and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "In 63, the 6 tells how many...",
+            "choices": [
+              "ones",
+              "tens",
+              "hundreds"
+            ],
+            "correctAnswer": "tens",
+            "reviewNote": "In a two-digit number, the first digit tells the tens."
+          },
+          {
+            "section": "Part A: Ones, Tens, and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "Which number has 8 tens and 2 ones?",
+            "choices": [
+              "28",
+              "82",
+              "802"
+            ],
+            "correctAnswer": "82",
+            "reviewNote": "8 tens is 80, and 2 ones makes 82."
+          },
+          {
+            "section": "Part A: Ones, Tens, and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "Which shows 356 in expanded form?",
+            "choices": [
+              "300 + 50 + 6",
+              "30 + 50 + 6",
+              "300 + 5 + 6"
+            ],
+            "correctAnswer": "300 + 50 + 6",
+            "reviewNote": "The 3 is worth 300, the 5 is worth 50, and the 6 is worth 6."
+          },
+          {
+            "section": "Part A: Ones, Tens, and Hundreds",
+            "type": "trueFalse",
+            "prompt": "In 208, the 2 is worth 200.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The 2 is in the hundreds place, so it is worth 200."
+          },
+          {
+            "section": "Part B: Thousands",
+            "type": "multipleChoice",
+            "prompt": "In 4,819, which digit is in the thousands place?",
+            "choices": [
+              "4",
+              "8",
+              "1"
+            ],
+            "correctAnswer": "4",
+            "reviewNote": "The thousands place is the first digit in a four-digit number."
+          },
+          {
+            "section": "Part B: Thousands",
+            "type": "multipleChoice",
+            "prompt": "In 6,274, the 6 is worth...",
+            "choices": [
+              "6",
+              "600",
+              "6,000"
+            ],
+            "correctAnswer": "6,000",
+            "reviewNote": "A digit in the thousands place is worth that many thousands."
+          },
+          {
+            "section": "Part B: Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which number has 3 thousands, 5 hundreds, 0 tens, and 9 ones?",
+            "choices": [
+              "3,509",
+              "3,590",
+              "5,309"
+            ],
+            "correctAnswer": "3,509",
+            "reviewNote": "Use each place in order: thousands, hundreds, tens, ones."
+          },
+          {
+            "section": "Part B: Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which shows 7,042 in expanded form?",
+            "choices": [
+              "7,000 + 40 + 2",
+              "700 + 40 + 2",
+              "7,000 + 400 + 2"
+            ],
+            "correctAnswer": "7,000 + 40 + 2",
+            "reviewNote": "The 0 in the hundreds place means there are no hundreds to add."
+          },
+          {
+            "section": "Part B: Thousands",
+            "type": "trueFalse",
+            "prompt": "In 9,305, the 3 is in the tens place.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "In 9,305, the places are thousands, hundreds, tens, ones."
+          },
+          {
+            "section": "Part C: Ten Thousands",
+            "type": "multipleChoice",
+            "prompt": "In 58,216, which digit is in the ten thousands place?",
+            "choices": [
+              "5",
+              "8",
+              "2"
+            ],
+            "correctAnswer": "5",
+            "reviewNote": "The ten thousands place is the first digit in a five-digit number."
+          },
+          {
+            "section": "Part C: Ten Thousands",
+            "type": "multipleChoice",
+            "prompt": "In 74,903, the 7 is worth...",
+            "choices": [
+              "7,000",
+              "70,000",
+              "700,000"
+            ],
+            "correctAnswer": "70,000",
+            "reviewNote": "A digit in the ten thousands place is worth that many ten thousands."
+          },
+          {
+            "section": "Part C: Ten Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which number has 6 ten thousands, 1 thousand, 4 hundreds, 0 tens, and 8 ones?",
+            "choices": [
+              "61,408",
+              "16,408",
+              "61,480"
+            ],
+            "correctAnswer": "61,408",
+            "reviewNote": "Read the places from left to right: ten thousands, thousands, hundreds, tens, ones."
+          },
+          {
+            "section": "Part C: Ten Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which shows 32,705 in expanded form?",
+            "choices": [
+              "30,000 + 2,000 + 700 + 5",
+              "3,000 + 2,000 + 700 + 5",
+              "30,000 + 20,000 + 700 + 5"
+            ],
+            "correctAnswer": "30,000 + 2,000 + 700 + 5",
+            "reviewNote": "The 3 is worth 30,000 and the 2 is worth 2,000."
+          },
+          {
+            "section": "Part C: Ten Thousands",
+            "type": "trueFalse",
+            "prompt": "In 45,090, the 5 is worth 5,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The 5 is in the thousands place, so it is worth 5,000."
+          },
+          {
+            "section": "Part D: Hundred Thousands",
+            "type": "multipleChoice",
+            "prompt": "In 482,615, which digit is in the hundred thousands place?",
+            "choices": [
+              "4",
+              "8",
+              "2"
+            ],
+            "correctAnswer": "4",
+            "reviewNote": "The hundred thousands place is the first digit in a six-digit number."
+          },
+          {
+            "section": "Part D: Hundred Thousands",
+            "type": "multipleChoice",
+            "prompt": "In 739,028, the 7 is worth...",
+            "choices": [
+              "7,000",
+              "70,000",
+              "700,000"
+            ],
+            "correctAnswer": "700,000",
+            "reviewNote": "A digit in the hundred thousands place is worth that many hundred thousands."
+          },
+          {
+            "section": "Part D: Hundred Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which number has 2 hundred thousands, 0 ten thousands, 9 thousands, 4 hundreds, 6 tens, and 1 one?",
+            "choices": [
+              "209,461",
+              "290,461",
+              "209,416"
+            ],
+            "correctAnswer": "209,461",
+            "reviewNote": "A 0 in the ten thousands place still holds that place."
+          },
+          {
+            "section": "Part D: Hundred Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which shows 605,230 in expanded form?",
+            "choices": [
+              "600,000 + 5,000 + 200 + 30",
+              "60,000 + 5,000 + 200 + 30",
+              "600,000 + 50,000 + 200 + 30"
+            ],
+            "correctAnswer": "600,000 + 5,000 + 200 + 30",
+            "reviewNote": "The zeros mean there are no ten thousands and no ones."
+          },
+          {
+            "section": "Part D: Hundred Thousands",
+            "type": "trueFalse",
+            "prompt": "In 814,672, the 1 is worth 1,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "The 1 is in the ten thousands place, so it is worth 10,000."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-reading-writing-large-numbers",
+      "title": "Reading and Writing Large Numbers",
+      "type": "lesson",
+      "learningGoal": "Students will read and write large whole numbers in standard form, word form, and expanded form.",
+      "successCriteria": [
+        "I can read large numbers by looking at each period.",
+        "I can write numbers from word form into standard form.",
+        "I can write numbers in expanded form.",
+        "I can use zeros as placeholders when a place has no value."
+      ],
+      "vocabulary": [
+        "standard form",
+        "word form",
+        "expanded form",
+        "period",
+        "thousands period",
+        "ones period",
+        "placeholder zero"
+      ],
+      "teacherOverview": "Student mission focused on reading and writing numbers to the hundred thousands using standard form, word form, expanded form, commas, and zeros as placeholders.",
+      "lessonContent": "",
+      "practiceIdeas": [],
+      "quiz": {
+        "title": "Reading and Writing Large Numbers Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
+        "questions": [
+          {
+            "section": "Part A: Reading Number Periods",
+            "type": "multipleChoice",
+            "prompt": "In 36,924, what number is in the thousands period?",
+            "choices": [
+              "924",
+              "36",
+              "6"
+            ],
+            "correctAnswer": "36",
+            "reviewNote": "The thousands period is the part before the comma."
+          },
+          {
+            "section": "Part A: Reading Number Periods",
+            "type": "multipleChoice",
+            "prompt": "In 417,058, what number is in the ones period?",
+            "choices": [
+              "058",
+              "417",
+              "58,000"
+            ],
+            "correctAnswer": "058",
+            "reviewNote": "The ones period is the three digits after the comma."
+          },
+          {
+            "section": "Part A: Reading Number Periods",
+            "type": "multipleChoice",
+            "prompt": "Which is the correct comma placement for 78542?",
+            "choices": [
+              "785,42",
+              "7,8542",
+              "78,542"
+            ],
+            "correctAnswer": "78,542",
+            "reviewNote": "Count three digits from the right to place the comma."
+          },
+          {
+            "section": "Part A: Reading Number Periods",
+            "type": "multipleChoice",
+            "prompt": "Which starts reading 604,219 correctly?",
+            "choices": [
+              "sixty-four thousand",
+              "six hundred four thousand",
+              "six thousand four"
+            ],
+            "correctAnswer": "six hundred four thousand",
+            "reviewNote": "Read the thousands period first, then say thousand."
+          },
+          {
+            "section": "Part A: Reading Number Periods",
+            "type": "trueFalse",
+            "prompt": "In 93,807, the 807 is in the ones period.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The ones period is after the comma."
+          },
+          {
+            "section": "Part B: Word Form to Standard Form",
+            "type": "multipleChoice",
+            "prompt": "Write fifty-eight thousand, six hundred two in standard form.",
+            "choices": [
+              "58,602",
+              "58,620",
+              "508,602"
+            ],
+            "correctAnswer": "58,602",
+            "reviewNote": "Fifty-eight thousand is 58,000, and six hundred two is 602."
+          },
+          {
+            "section": "Part B: Word Form to Standard Form",
+            "type": "multipleChoice",
+            "prompt": "Write four hundred nine thousand, seventy in standard form.",
+            "choices": [
+              "490,070",
+              "409,700",
+              "409,070"
+            ],
+            "correctAnswer": "409,070",
+            "reviewNote": "Seventy is written 070 after the comma."
+          },
+          {
+            "section": "Part B: Word Form to Standard Form",
+            "type": "multipleChoice",
+            "prompt": "Which number means two hundred thirty thousand, five?",
+            "choices": [
+              "230,500",
+              "230,005",
+              "203,005"
+            ],
+            "correctAnswer": "230,005",
+            "reviewNote": "Five in the ones period is written 005."
+          },
+          {
+            "section": "Part B: Word Form to Standard Form",
+            "type": "multipleChoice",
+            "prompt": "Which number means seven hundred twelve thousand, eighty-four?",
+            "choices": [
+              "712,084",
+              "712,840",
+              "702,084"
+            ],
+            "correctAnswer": "712,084",
+            "reviewNote": "Eighty-four is written 084 after the comma."
+          },
+          {
+            "section": "Part B: Word Form to Standard Form",
+            "type": "trueFalse",
+            "prompt": "One hundred six thousand, three is written 106,300.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Three in the ones period should be written 003, so the number is 106,003."
+          },
+          {
+            "section": "Part C: Standard Form to Word Form",
+            "type": "multipleChoice",
+            "prompt": "Which reads 27,416 correctly?",
+            "choices": [
+              "two hundred seventy thousand, forty-six",
+              "twenty-seven thousand, forty-six",
+              "twenty-seven thousand, four hundred sixteen"
+            ],
+            "correctAnswer": "twenty-seven thousand, four hundred sixteen",
+            "reviewNote": "Read 27, say thousand, then read 416."
+          },
+          {
+            "section": "Part C: Standard Form to Word Form",
+            "type": "multipleChoice",
+            "prompt": "Which reads 302,050 correctly?",
+            "choices": [
+              "thirty-two thousand, fifty",
+              "three hundred two thousand, fifty",
+              "three hundred twenty thousand, five"
+            ],
+            "correctAnswer": "three hundred two thousand, fifty",
+            "reviewNote": "302 is the thousands period, and 050 is fifty."
+          },
+          {
+            "section": "Part C: Standard Form to Word Form",
+            "type": "multipleChoice",
+            "prompt": "Which reads 680,009 correctly?",
+            "choices": [
+              "six hundred eighty thousand, nine",
+              "sixty-eight thousand, nine",
+              "six hundred eight thousand, ninety"
+            ],
+            "correctAnswer": "six hundred eighty thousand, nine",
+            "reviewNote": "009 is read as nine."
+          },
+          {
+            "section": "Part C: Standard Form to Word Form",
+            "type": "multipleChoice",
+            "prompt": "Which is NOT a correct reading of 74,012?",
+            "choices": [
+              "seventy-four thousand, twelve",
+              "74 thousand and 12",
+              "seventy-four thousand, one hundred two"
+            ],
+            "correctAnswer": "seventy-four thousand, one hundred two",
+            "reviewNote": "012 is twelve, not one hundred two."
+          },
+          {
+            "section": "Part C: Standard Form to Word Form",
+            "type": "trueFalse",
+            "prompt": "505,600 is read five hundred five thousand, six hundred.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "505 is read five hundred five, then say thousand, then read 600."
+          },
+          {
+            "section": "Part D: Expanded Form",
+            "type": "multipleChoice",
+            "prompt": "Which shows 43,218 in expanded form?",
+            "choices": [
+              "4,000 + 3,000 + 200 + 10 + 8",
+              "40,000 + 3,000 + 200 + 10 + 8",
+              "40,000 + 300 + 200 + 10 + 8"
+            ],
+            "correctAnswer": "40,000 + 3,000 + 200 + 10 + 8",
+            "reviewNote": "Each digit is written as its value."
+          },
+          {
+            "section": "Part D: Expanded Form",
+            "type": "multipleChoice",
+            "prompt": "Which shows 705,046 in expanded form?",
+            "choices": [
+              "700,000 + 5,000 + 40 + 6",
+              "700,000 + 50,000 + 40 + 6",
+              "700,000 + 5,000 + 400 + 6"
+            ],
+            "correctAnswer": "700,000 + 5,000 + 40 + 6",
+            "reviewNote": "Only nonzero place values are included."
+          },
+          {
+            "section": "Part D: Expanded Form",
+            "type": "multipleChoice",
+            "prompt": "What number is 500,000 + 60,000 + 4,000 + 300 + 2?",
+            "choices": [
+              "564,320",
+              "564,302",
+              "546,302"
+            ],
+            "correctAnswer": "564,302",
+            "reviewNote": "There are 0 tens, so the ones period is 302."
+          },
+          {
+            "section": "Part D: Expanded Form",
+            "type": "multipleChoice",
+            "prompt": "What number is 90,000 + 8,000 + 700 + 40?",
+            "choices": [
+              "98,704",
+              "908,740",
+              "98,740"
+            ],
+            "correctAnswer": "98,740",
+            "reviewNote": "There are 0 ones, so the number ends in 40."
+          },
+          {
+            "section": "Part D: Expanded Form",
+            "type": "trueFalse",
+            "prompt": "600,000 + 30,000 + 2,000 + 90 equals 632,900.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "The expanded form equals 632,090 because 90 goes in the tens place."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "readingWritingLargeNumbers",
+        "title": "Large Number Reader",
+        "mission": "Earn practice stars by reading, writing, and building large numbers.",
+        "reward": {
+          "stars": 10
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Find the Break",
+            "prompt": "In 24,681, the comma separates...",
+            "choices": [
+              "thousands and ones",
+              "hundreds and tens",
+              "ones and tens"
+            ],
+            "correctAnswer": "thousands and ones",
+            "feedback": "Correct. The comma separates the thousands period from the ones period.",
+            "hint": "Look at the part before and after the comma."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Read the First Part",
+            "prompt": "In 37,405, what number is in the thousands period?",
+            "choices": [
+              "405",
+              "37",
+              "7"
+            ],
+            "correctAnswer": "37",
+            "feedback": "Yes. 37 is in the thousands period.",
+            "hint": "The thousands period is the part before the comma."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Read the Last Part",
+            "prompt": "In 58,219, what number is in the ones period?",
+            "choices": [
+              "58",
+              "9",
+              "219"
+            ],
+            "correctAnswer": "219",
+            "feedback": "Right. 219 is in the ones period.",
+            "hint": "The ones period is the part after the comma."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Choose the Word",
+            "prompt": "Which starts reading 62,508 correctly?",
+            "choices": [
+              "six hundred thousand",
+              "sixty-two thousand",
+              "sixty thousand two"
+            ],
+            "correctAnswer": "sixty-two thousand",
+            "feedback": "Yes. Read 62 first, then say thousand.",
+            "hint": "Read the part before the comma, then say thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Add the Comma",
+            "prompt": "Which is the correct way to write 43672 with a comma?",
+            "choices": [
+              "43,672",
+              "436,72",
+              "4,3672"
+            ],
+            "correctAnswer": "43,672",
+            "feedback": "Correct. Count three digits from the right, then place the comma.",
+            "hint": "The last three digits belong in the ones period."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Read a Number",
+            "prompt": "How do you start reading 125,304?",
+            "choices": [
+              "one thousand twenty-five",
+              "twelve thousand five hundred",
+              "one hundred twenty-five thousand"
+            ],
+            "correctAnswer": "one hundred twenty-five thousand",
+            "feedback": "Great. 125 is in the thousands period.",
+            "hint": "Read 125 first, then say thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "Find the Period",
+            "prompt": "In 709,018, the 709 is in which period?",
+            "choices": [
+              "ones period",
+              "thousands period",
+              "hundreds period"
+            ],
+            "correctAnswer": "thousands period",
+            "feedback": "Yes. 709 is before the comma, so it is in the thousands period.",
+            "hint": "The part before the comma is the thousands period."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Periods",
+            "title": "True or False",
+            "prompt": "In 84,260, the 260 is in the ones period.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 260 is after the comma.",
+            "hint": "Look after the comma."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Build It",
+            "prompt": "Write forty-six thousand, two hundred fifteen in standard form.",
+            "choices": [
+              "46,215",
+              "46,250",
+              "406,215"
+            ],
+            "correctAnswer": "46,215",
+            "feedback": "Yes. Forty-six thousand is 46,000, then add 215.",
+            "hint": "Put 46 before the comma and 215 after it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Build It",
+            "prompt": "Write seventy-two thousand, nine hundred four in standard form.",
+            "choices": [
+              "72,940",
+              "72,904",
+              "702,904"
+            ],
+            "correctAnswer": "72,904",
+            "feedback": "Correct. The ones period is 904.",
+            "hint": "Nine hundred four needs a 0 in the tens place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Build It",
+            "prompt": "Write three hundred eight thousand, fifty-six in standard form.",
+            "choices": [
+              "380,056",
+              "308,506",
+              "308,056"
+            ],
+            "correctAnswer": "308,056",
+            "feedback": "Right. Fifty-six is written 056 in the ones period.",
+            "hint": "Use zeros to hold empty places."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Build It",
+            "prompt": "Write six hundred twenty thousand, seven in standard form.",
+            "choices": [
+              "620,700",
+              "620,007",
+              "62,007"
+            ],
+            "correctAnswer": "620,007",
+            "feedback": "Yes. Seven in the ones period is 007.",
+            "hint": "The ones period must have three digits after the comma."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Choose the Number",
+            "prompt": "Which number means ninety thousand, four hundred thirty?",
+            "choices": [
+              "90,430",
+              "90,043",
+              "900,430"
+            ],
+            "correctAnswer": "90,430",
+            "feedback": "Correct. Ninety thousand is 90,000, plus 430.",
+            "hint": "The ones period is 430."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Choose the Number",
+            "prompt": "Which number means five hundred one thousand, twenty?",
+            "choices": [
+              "510,020",
+              "501,200",
+              "501,020"
+            ],
+            "correctAnswer": "501,020",
+            "feedback": "Great. Twenty is written 020 in the ones period.",
+            "hint": "Use 020 for twenty after the comma."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "True or False",
+            "prompt": "Two hundred six thousand, nine is written 206,009.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Yes. Nine is written 009 in the ones period.",
+            "hint": "Single digits after the comma need two placeholder zeros."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Word Form to Standard Form",
+            "title": "Find the Match",
+            "prompt": "Which matches four hundred thirty thousand, six hundred?",
+            "choices": [
+              "403,600",
+              "430,060",
+              "430,600"
+            ],
+            "correctAnswer": "430,600",
+            "feedback": "Yes. Six hundred is 600.",
+            "hint": "The ones period is 600."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Read It",
+            "prompt": "Which reads 18,342 correctly?",
+            "choices": [
+              "eighteen thousand, three hundred forty-two",
+              "one hundred eighty thousand, thirty-four",
+              "eighteen hundred, three hundred forty-two"
+            ],
+            "correctAnswer": "eighteen thousand, three hundred forty-two",
+            "feedback": "Correct. Read 18, say thousand, then read 342.",
+            "hint": "Read the part before the comma first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Read It",
+            "prompt": "Which reads 94,070 correctly?",
+            "choices": [
+              "nine hundred forty thousand, seven",
+              "ninety-four thousand, seventy",
+              "ninety-four thousand, seven hundred"
+            ],
+            "correctAnswer": "ninety-four thousand, seventy",
+            "feedback": "Yes. 070 is seventy.",
+            "hint": "The zero in the hundreds place means no hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Read It",
+            "prompt": "Which reads 305,608 correctly?",
+            "choices": [
+              "thirty-five thousand, six hundred eight",
+              "three hundred fifty thousand, sixty-eight",
+              "three hundred five thousand, six hundred eight"
+            ],
+            "correctAnswer": "three hundred five thousand, six hundred eight",
+            "feedback": "Right. 305 is read three hundred five.",
+            "hint": "Read 305 before saying thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Read It",
+            "prompt": "Which reads 720,014 correctly?",
+            "choices": [
+              "seventy-two thousand, fourteen",
+              "seven hundred twenty thousand, fourteen",
+              "seven hundred two thousand, fourteen"
+            ],
+            "correctAnswer": "seven hundred twenty thousand, fourteen",
+            "feedback": "Correct. 014 is fourteen.",
+            "hint": "After the comma, 014 is read as fourteen."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Read It",
+            "prompt": "Which reads 409,300 correctly?",
+            "choices": [
+              "four hundred nine thousand, three hundred",
+              "forty-nine thousand, three hundred",
+              "four hundred ninety thousand, thirty"
+            ],
+            "correctAnswer": "four hundred nine thousand, three hundred",
+            "feedback": "Yes. The thousands period is 409.",
+            "hint": "Read the part before the comma as 409."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Find the Match",
+            "prompt": "Which word form matches 63,005?",
+            "choices": [
+              "six hundred three thousand, five",
+              "sixty-three thousand, fifty",
+              "sixty-three thousand, five"
+            ],
+            "correctAnswer": "sixty-three thousand, five",
+            "feedback": "Right. 005 is read as five.",
+            "hint": "Zeros hold places, but you do not read them aloud."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "True or False",
+            "prompt": "150,040 is read one hundred fifty thousand, forty.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 040 is forty.",
+            "hint": "The ones period 040 is read as forty."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Standard Form to Word Form",
+            "title": "Find the Error",
+            "prompt": "Which is NOT a correct reading of 82,016?",
+            "choices": [
+              "eighty-two thousand, sixteen",
+              "82 thousand and 16",
+              "eighty-two thousand, one hundred six"
+            ],
+            "correctAnswer": "eighty-two thousand, one hundred six",
+            "feedback": "Correct. 016 is sixteen, not one hundred six.",
+            "hint": "The 1 is in the tens place of the ones period."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Choose Expanded Form",
+            "prompt": "Which shows 54,318 in expanded form?",
+            "choices": [
+              "50,000 + 4,000 + 300 + 10 + 8",
+              "5,000 + 4,000 + 300 + 10 + 8",
+              "50,000 + 400 + 300 + 10 + 8"
+            ],
+            "correctAnswer": "50,000 + 4,000 + 300 + 10 + 8",
+            "feedback": "Yes. Each digit is written as its value.",
+            "hint": "The 5 is worth 50,000 and the 4 is worth 4,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Choose Expanded Form",
+            "prompt": "Which shows 206,074 in expanded form?",
+            "choices": [
+              "200,000 + 60,000 + 70 + 4",
+              "200,000 + 6,000 + 70 + 4",
+              "200,000 + 6,000 + 700 + 4"
+            ],
+            "correctAnswer": "200,000 + 6,000 + 70 + 4",
+            "feedback": "Correct. The zeros mean some places are skipped.",
+            "hint": "Only include places that have a nonzero value."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Build from Expanded Form",
+            "prompt": "What number is 300,000 + 40,000 + 2,000 + 500 + 9?",
+            "choices": [
+              "342,590",
+              "324,509",
+              "342,509"
+            ],
+            "correctAnswer": "342,509",
+            "feedback": "Right. The tens place is 0, so the number is 342,509.",
+            "hint": "Put each value into its place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Build from Expanded Form",
+            "prompt": "What number is 80,000 + 7,000 + 60 + 2?",
+            "choices": [
+              "87,602",
+              "87,062",
+              "807,062"
+            ],
+            "correctAnswer": "87,062",
+            "feedback": "Yes. There are 0 hundreds, so write 062 after the comma.",
+            "hint": "The ones period is 062."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Choose Expanded Form",
+            "prompt": "Which shows 690,005 in expanded form?",
+            "choices": [
+              "600,000 + 90,000 + 5",
+              "600,000 + 9,000 + 5",
+              "60,000 + 90,000 + 5"
+            ],
+            "correctAnswer": "600,000 + 90,000 + 5",
+            "feedback": "Correct. 690,005 has 600,000, 90,000, and 5.",
+            "hint": "The 9 is in the ten-thousands place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "True or False",
+            "prompt": "400,000 + 8,000 + 30 equals 408,030.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Yes. The missing places use zeros.",
+            "hint": "Write 408 before the comma and 030 after it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Find the Match",
+            "prompt": "Which number matches 700,000 + 20,000 + 900 + 1?",
+            "choices": [
+              "702,901",
+              "720,901",
+              "729,001"
+            ],
+            "correctAnswer": "720,901",
+            "feedback": "Right. There are no thousands and no tens.",
+            "hint": "Write 720, then 901."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Expanded Form",
+            "title": "Find the Match",
+            "prompt": "Which expanded form matches 118,040?",
+            "choices": [
+              "100,000 + 18,000 + 400",
+              "100,000 + 10,000 + 800 + 40",
+              "100,000 + 10,000 + 8,000 + 40"
+            ],
+            "correctAnswer": "100,000 + 10,000 + 8,000 + 40",
+            "feedback": "Correct. 118,040 has 8 thousands and 40.",
+            "hint": "Read each digit by its place value."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-comparing-ordering-numbers",
+      "title": "Comparing and Ordering Numbers",
+      "type": "lesson",
+      "learningGoal": "Students will compare and order whole numbers using place value, number length, and careful digit-by-digit checking.",
+      "successCriteria": [
+        "I can compare numbers using greater than, less than, and equal to.",
+        "I can use place value to decide which number is larger or smaller.",
+        "I can order numbers from least to greatest and greatest to least.",
+        "I can explain why one number is greater or less than another."
+      ],
+      "vocabulary": [
+        "compare",
+        "order",
+        "greater than",
+        "less than",
+        "equal to",
+        "least",
+        "greatest",
+        "ascending order",
+        "descending order"
+      ],
+      "teacherOverview": "Student mission focused on comparing and ordering whole numbers to the hundred thousands using place value, number length, symbols, least/greatest language, and ordered lists.",
+      "lessonContent": "",
+      "practiceIdeas": [],
+      "quiz": {
+        "title": "Comparing and Ordering Numbers Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
+        "questions": [
+          {
+            "section": "Part A: Compare Numbers",
+            "type": "multipleChoice",
+            "prompt": "Which number is greater?",
+            "choices": [
+              "68,204",
+              "68,240",
+              "68,024"
+            ],
+            "correctAnswer": "68,240",
+            "reviewNote": "Compare the last three digits because 68 thousand is the same."
+          },
+          {
+            "section": "Part A: Compare Numbers",
+            "type": "multipleChoice",
+            "prompt": "Which number is less?",
+            "choices": [
+              "307,015",
+              "370,015",
+              "307,150"
+            ],
+            "correctAnswer": "307,015",
+            "reviewNote": "307,015 is less than 307,150 because 015 is less than 150."
+          },
+          {
+            "section": "Part A: Compare Numbers",
+            "type": "multipleChoice",
+            "prompt": "Choose the correct symbol: 94,806 ___ 94,860",
+            "choices": [
+              ">",
+              "=",
+              "<"
+            ],
+            "correctAnswer": "<",
+            "reviewNote": "94,806 is less because 806 is less than 860."
+          },
+          {
+            "section": "Part A: Compare Numbers",
+            "type": "multipleChoice",
+            "prompt": "Which pair is equal?",
+            "choices": [
+              "205,070 and 205,700",
+              "410,009 and 410,009",
+              "83,600 and 86,300"
+            ],
+            "correctAnswer": "410,009 and 410,009",
+            "reviewNote": "Equal numbers have the exact same digits in each place."
+          },
+          {
+            "section": "Part A: Compare Numbers",
+            "type": "trueFalse",
+            "prompt": "56,780 is greater than 56,708.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "780 is greater than 708."
+          },
+          {
+            "section": "Part B: Use Place Value",
+            "type": "multipleChoice",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "451,092",
+              "415,902",
+              "415,920"
+            ],
+            "correctAnswer": "451,092",
+            "reviewNote": "Compare the ten-thousands digit: 5 is greater than 1."
+          },
+          {
+            "section": "Part B: Use Place Value",
+            "type": "multipleChoice",
+            "prompt": "Which number is least?",
+            "choices": [
+              "900,045",
+              "99,045",
+              "90,045"
+            ],
+            "correctAnswer": "90,045",
+            "reviewNote": "90,045 is the smallest because it has fewer thousands than 99,045 and fewer digits than 900,045."
+          },
+          {
+            "section": "Part B: Use Place Value",
+            "type": "multipleChoice",
+            "prompt": "Which number has the greatest value?",
+            "choices": [
+              "208,700",
+              "280,070",
+              "208,970"
+            ],
+            "correctAnswer": "280,070",
+            "reviewNote": "280,070 has 8 ten-thousands, more than the others."
+          },
+          {
+            "section": "Part B: Use Place Value",
+            "type": "multipleChoice",
+            "prompt": "Choose the correct symbol: 602,040 ___ 620,004",
+            "choices": [
+              "<",
+              ">",
+              "="
+            ],
+            "correctAnswer": "<",
+            "reviewNote": "602,040 is less than 620,004 because 0 ten-thousands is less than 2 ten-thousands."
+          },
+          {
+            "section": "Part B: Use Place Value",
+            "type": "trueFalse",
+            "prompt": "109,990 is less than 110,009.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "109 thousand is less than 110 thousand."
+          },
+          {
+            "section": "Part C: Order Least to Greatest",
+            "type": "multipleChoice",
+            "prompt": "Which list is least to greatest?",
+            "choices": [
+              "3,502; 3,250; 3,205",
+              "3,250; 3,205; 3,502",
+              "3,205; 3,250; 3,502"
+            ],
+            "correctAnswer": "3,205; 3,250; 3,502",
+            "reviewNote": "Compare 205, 250, and 502 after the 3 thousand."
+          },
+          {
+            "section": "Part C: Order Least to Greatest",
+            "type": "multipleChoice",
+            "prompt": "Which list is least to greatest?",
+            "choices": [
+              "84,006; 48,600; 48,060",
+              "48,060; 48,600; 84,006",
+              "48,600; 48,060; 84,006"
+            ],
+            "correctAnswer": "48,060; 48,600; 84,006",
+            "reviewNote": "48 thousand numbers come before 84 thousand."
+          },
+          {
+            "section": "Part C: Order Least to Greatest",
+            "type": "multipleChoice",
+            "prompt": "When ordered least to greatest, which number comes first? 512,080; 502,180; 520,018",
+            "choices": [
+              "502,180",
+              "512,080",
+              "520,018"
+            ],
+            "correctAnswer": "502,180",
+            "reviewNote": "502 thousand is less than 512 thousand and 520 thousand."
+          },
+          {
+            "section": "Part C: Order Least to Greatest",
+            "type": "multipleChoice",
+            "prompt": "When ordered least to greatest, which number comes last? 75,909; 75,990; 75,099",
+            "choices": [
+              "75,909",
+              "75,099",
+              "75,990"
+            ],
+            "correctAnswer": "75,990",
+            "reviewNote": "990 is the greatest last-three-digit group."
+          },
+          {
+            "section": "Part C: Order Least to Greatest",
+            "type": "trueFalse",
+            "prompt": "204,040; 204,004; 204,400 is in least to greatest order.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "204,004 should come before 204,040 because 004 is less than 040."
+          },
+          {
+            "section": "Part D: Order Greatest to Least",
+            "type": "multipleChoice",
+            "prompt": "Which list is greatest to least?",
+            "choices": [
+              "708,050; 708,500; 780,050",
+              "780,050; 708,500; 708,050",
+              "708,500; 780,050; 708,050"
+            ],
+            "correctAnswer": "780,050; 708,500; 708,050",
+            "reviewNote": "780 thousand is greatest. Then compare 708,500 and 708,050."
+          },
+          {
+            "section": "Part D: Order Greatest to Least",
+            "type": "multipleChoice",
+            "prompt": "Which number is the greatest?",
+            "choices": [
+              "610,069",
+              "601,609",
+              "601,960"
+            ],
+            "correctAnswer": "610,069",
+            "reviewNote": "610 thousand is greater than 601 thousand."
+          },
+          {
+            "section": "Part D: Order Greatest to Least",
+            "type": "multipleChoice",
+            "prompt": "In greatest to least order, which number is in the middle? 94,400; 94,040; 94,404",
+            "choices": [
+              "94,040",
+              "94,404",
+              "94,400"
+            ],
+            "correctAnswer": "94,400",
+            "reviewNote": "94,404 is greatest, 94,040 is least, so 94,400 is in the middle."
+          },
+          {
+            "section": "Part D: Order Greatest to Least",
+            "type": "multipleChoice",
+            "prompt": "Which list is greatest to least?",
+            "choices": [
+              "305,120; 305,201; 305,210",
+              "305,210; 305,201; 305,120",
+              "305,201; 305,210; 305,120"
+            ],
+            "correctAnswer": "305,210; 305,201; 305,120",
+            "reviewNote": "All start with 305, so compare 210, 201, and 120."
+          },
+          {
+            "section": "Part D: Order Greatest to Least",
+            "type": "trueFalse",
+            "prompt": "89,999 is greater than 100,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "100,000 has six digits, so it is greater than 89,999."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "comparingOrderingNumbers",
+        "title": "Number Line Challenge",
+        "mission": "Earn practice stars by choosing larger numbers, smaller numbers, and correct number order.",
+        "reward": {
+          "stars": 10
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Choose the Bigger Number",
+            "prompt": "Which number is greater?",
+            "choices": [
+              "45",
+              "54",
+              "Both are equal"
+            ],
+            "correctAnswer": "54",
+            "feedback": "Correct. 54 has 5 tens, and 45 has 4 tens.",
+            "hint": "Compare the tens first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Choose the Smaller Number",
+            "prompt": "Which number is less?",
+            "choices": [
+              "127",
+              "172",
+              "Both are equal"
+            ],
+            "correctAnswer": "127",
+            "feedback": "Yes. Both have 1 hundred, but 127 has fewer tens.",
+            "hint": "The hundreds match, so compare the tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Equal or Not",
+            "prompt": "Which statement is true?",
+            "choices": [
+              "406 = 460",
+              "406 > 460",
+              "406 < 460"
+            ],
+            "correctAnswer": "406 < 460",
+            "feedback": "Right. 406 is less than 460.",
+            "hint": "Both have 4 hundreds. Compare the tens next."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Pick the Symbol",
+            "prompt": "Choose the symbol that makes this true: 839 ___ 893",
+            "choices": [
+              ">",
+              "<",
+              "="
+            ],
+            "correctAnswer": "<",
+            "feedback": "Correct. 839 is less than 893.",
+            "hint": "The hundreds match. Compare the tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Choose the Greater Number",
+            "prompt": "Which number is greater?",
+            "choices": [
+              "2,451",
+              "2,415",
+              "Both are equal"
+            ],
+            "correctAnswer": "2,451",
+            "feedback": "Yes. 2,451 has 5 tens, and 2,415 has 1 ten.",
+            "hint": "The thousands and hundreds match. Compare the tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Choose the Smaller Number",
+            "prompt": "Which number is less?",
+            "choices": [
+              "6,302",
+              "Both are equal",
+              "6,230"
+            ],
+            "correctAnswer": "6,230",
+            "feedback": "Right. 6,230 has 2 hundreds, and 6,302 has 3 hundreds.",
+            "hint": "The thousands match. Compare the hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "True or False",
+            "prompt": "5,098 is greater than 5,908.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. 5,098 is less because it has 0 hundreds and 5,908 has 9 hundreds.",
+            "hint": "The thousands match. Compare the hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Find the Match",
+            "prompt": "Which pair shows equal numbers?",
+            "choices": [
+              "7,040 and 7,400",
+              "8,006 and 8,006",
+              "9,610 and 9,160"
+            ],
+            "correctAnswer": "8,006 and 8,006",
+            "feedback": "Yes. Every digit matches.",
+            "hint": "Equal means exactly the same value."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Count the Digits",
+            "prompt": "Which number is greater?",
+            "choices": [
+              "100,102",
+              "98,765",
+              "99,999"
+            ],
+            "correctAnswer": "100,102",
+            "feedback": "Correct. A six-digit number is greater than these five-digit numbers.",
+            "hint": "Compare how many digits each number has."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Compare Left to Right",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "348,219",
+              "348,912",
+              "384,129"
+            ],
+            "correctAnswer": "384,129",
+            "feedback": "Yes. 384,129 has 8 ten-thousands, which is more than 4 ten-thousands.",
+            "hint": "Compare from the left until the digits are different."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Compare Carefully",
+            "prompt": "Which number is least?",
+            "choices": [
+              "72,605",
+              "72,506",
+              "72,560"
+            ],
+            "correctAnswer": "72,506",
+            "feedback": "Right. The hundreds are the same, but 72,506 has fewer tens.",
+            "hint": "The first three digits match: 72,5. Compare the tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Pick the Symbol",
+            "prompt": "Choose the symbol that makes this true: 451,008 ___ 451,080",
+            "choices": [
+              "<",
+              ">",
+              "="
+            ],
+            "correctAnswer": "<",
+            "feedback": "Correct. 451,008 is less than 451,080.",
+            "hint": "Compare the last three digits: 008 and 080."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Different Lengths",
+            "prompt": "Which is greater?",
+            "choices": [
+              "87,999",
+              "99,888",
+              "102,004"
+            ],
+            "correctAnswer": "102,004",
+            "feedback": "Yes. 102,004 has six digits.",
+            "hint": "A hundred-thousands number is greater than these ten-thousands numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Close Numbers",
+            "prompt": "Which number is less?",
+            "choices": [
+              "306,705",
+              "306,570",
+              "306,750"
+            ],
+            "correctAnswer": "306,570",
+            "feedback": "Correct. 306,570 has 5 hundreds, while the others have 7 hundreds.",
+            "hint": "The first three digits match. Compare the hundreds in the ones period."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "True or False",
+            "prompt": "204,090 is less than 204,009.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Right. 204,090 is greater because 90 is greater than 9.",
+            "hint": "Compare 090 and 009."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Place Value",
+            "title": "Find the Greatest",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "610,405",
+              "601,450",
+              "610,045"
+            ],
+            "correctAnswer": "610,405",
+            "feedback": "Yes. 610,405 is greater than 610,045 because 405 is greater than 045.",
+            "hint": "Two numbers start with 610. Compare the last three digits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Put in Order",
+            "prompt": "Which list is least to greatest?",
+            "choices": [
+              "513, 351, 315",
+              "351, 315, 513",
+              "315, 351, 513"
+            ],
+            "correctAnswer": "315, 351, 513",
+            "feedback": "Correct. 315 is least and 513 is greatest.",
+            "hint": "Start with the smallest hundreds digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Put in Order",
+            "prompt": "Which list is least to greatest?",
+            "choices": [
+              "2,804, 2,480, 2,408",
+              "2,408, 2,480, 2,804",
+              "2,480, 2,408, 2,804"
+            ],
+            "correctAnswer": "2,408, 2,480, 2,804",
+            "feedback": "Yes. Compare hundreds and tens after the same thousands digit.",
+            "hint": "All start with 2 thousand. Compare the hundreds next."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Find the First Number",
+            "prompt": "In least to greatest order, which number comes first?",
+            "choices": [
+              "45,260",
+              "45,620",
+              "45,602"
+            ],
+            "correctAnswer": "45,260",
+            "feedback": "Right. 45,260 is the smallest.",
+            "hint": "The first two digits match. Compare the hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Find the Last Number",
+            "prompt": "In least to greatest order, which number comes last?",
+            "choices": [
+              "308,900",
+              "308,090",
+              "380,009"
+            ],
+            "correctAnswer": "380,009",
+            "feedback": "Correct. 380,009 has more ten-thousands.",
+            "hint": "Compare 308 and 380."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Choose the Order",
+            "prompt": "Order these least to greatest: 76,104; 76,014; 76,140",
+            "choices": [
+              "76,140; 76,104; 76,014",
+              "76,014; 76,104; 76,140",
+              "76,104; 76,014; 76,140"
+            ],
+            "correctAnswer": "76,014; 76,104; 76,140",
+            "feedback": "Yes. 014 is least, then 104, then 140.",
+            "hint": "The 76 thousand part is the same. Compare the last three digits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Choose the Order",
+            "prompt": "Which list is least to greatest?",
+            "choices": [
+              "109,875; 190,578; 901,758",
+              "901,758; 190,578; 109,875",
+              "190,578; 109,875; 901,758"
+            ],
+            "correctAnswer": "109,875; 190,578; 901,758",
+            "feedback": "Right. Compare the hundred-thousands digit first.",
+            "hint": "1 hundred thousand comes before 9 hundred thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "True or False",
+            "prompt": "12,309; 12,390; 12,903 is in least to greatest order.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 309 is less than 390, and 390 is less than 903.",
+            "hint": "The 12 thousand part is the same."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Order Least to Greatest",
+            "title": "Find the Middle",
+            "prompt": "When ordered least to greatest, which number is in the middle? 64,280; 64,208; 64,802",
+            "choices": [
+              "64,208",
+              "64,802",
+              "64,280"
+            ],
+            "correctAnswer": "64,280",
+            "feedback": "Yes. 64,208 is least, 64,802 is greatest, so 64,280 is in the middle.",
+            "hint": "Compare the last three digits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Put in Order",
+            "prompt": "Which list is greatest to least?",
+            "choices": [
+              "480,512; 804,512; 840,512",
+              "840,512; 804,512; 480,512",
+              "804,512; 840,512; 480,512"
+            ],
+            "correctAnswer": "840,512; 804,512; 480,512",
+            "feedback": "Correct. Start with the greatest number.",
+            "hint": "Compare hundred-thousands first, then ten-thousands."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Find the Greatest",
+            "prompt": "Which score is greatest?",
+            "choices": [
+              "99,089",
+              "98,990",
+              "98,999"
+            ],
+            "correctAnswer": "99,089",
+            "feedback": "Yes. 99,089 has 9 thousands and 9 ten-thousands.",
+            "hint": "Compare 98 thousand and 99 thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Find the Least",
+            "prompt": "Which distance is least?",
+            "choices": [
+              "300,400",
+              "304,000",
+              "300,040"
+            ],
+            "correctAnswer": "300,040",
+            "feedback": "Right. 300,040 is the smallest.",
+            "hint": "All are near 300,000. Compare the thousands and hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Choose the Symbol",
+            "prompt": "Which symbol makes this true: 620,015 ___ 602,150",
+            "choices": [
+              "<",
+              ">",
+              "="
+            ],
+            "correctAnswer": ">",
+            "feedback": "Correct. 620,015 is greater than 602,150.",
+            "hint": "Compare the ten-thousands digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Choose the Order",
+            "prompt": "Order greatest to least: 75,075; 75,750; 75,705",
+            "choices": [
+              "75,750; 75,705; 75,075",
+              "75,075; 75,705; 75,750",
+              "75,705; 75,750; 75,075"
+            ],
+            "correctAnswer": "75,750; 75,705; 75,075",
+            "feedback": "Yes. Compare the last three digits: 750, 705, 075.",
+            "hint": "The 75 thousand part is the same."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Find the Middle",
+            "prompt": "In greatest to least order, which number is in the middle? 402,060; 420,006; 402,600",
+            "choices": [
+              "420,006",
+              "402,060",
+              "402,600"
+            ],
+            "correctAnswer": "402,600",
+            "feedback": "Right. 420,006 is greatest, 402,060 is least, so 402,600 is in the middle.",
+            "hint": "First compare 420 and 402, then compare 600 and 060."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "True or False",
+            "prompt": "700,010 is greater than 70,010.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 700,010 has six digits, and 70,010 has five digits.",
+            "hint": "Count the digits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Order Greatest to Least",
+            "title": "Level 4 Check",
+            "prompt": "Which list is greatest to least?",
+            "choices": [
+              "506,120; 506,201; 506,210",
+              "506,210; 506,201; 506,120",
+              "506,201; 506,210; 506,120"
+            ],
+            "correctAnswer": "506,210; 506,201; 506,120",
+            "feedback": "Excellent. You compared the last three digits carefully.",
+            "hint": "All start with 506. Compare 210, 201, and 120."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-rounding-estimating",
+      "title": "Rounding and Estimating",
+      "type": "lesson",
+      "learningGoal": "Students will round whole numbers and use rounded numbers to make reasonable estimates.",
+      "successCriteria": [
+        "I can round numbers to the nearest ten, hundred, and thousand.",
+        "I can look at the digit to the right of the place I am rounding to.",
+        "I can use rounded numbers to estimate sums and differences.",
+        "I can decide whether an estimate is reasonable."
+      ],
+      "vocabulary": [
+        "rounding",
+        "estimating",
+        "nearest ten",
+        "nearest hundred",
+        "nearest thousand",
+        "reasonable estimate",
+        "about"
+      ],
+      "teacherOverview": "Student mission focused on rounding to tens, hundreds, and thousands, then using rounded numbers to estimate sums and differences.",
+      "lessonContent": "",
+      "practiceIdeas": [],
+      "quiz": {
+        "title": "Rounding and Estimating Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
+        "questions": [
+          {
+            "section": "Part A: Round to Tens and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "Round 76 to the nearest ten.",
+            "choices": [
+              "70",
+              "80",
+              "76"
+            ],
+            "correctAnswer": "80",
+            "reviewNote": "The ones digit is 6, so round up."
+          },
+          {
+            "section": "Part A: Round to Tens and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "Round 243 to the nearest ten.",
+            "choices": [
+              "240",
+              "250",
+              "200"
+            ],
+            "correctAnswer": "240",
+            "reviewNote": "The ones digit is 3, so round down."
+          },
+          {
+            "section": "Part A: Round to Tens and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "Round 682 to the nearest hundred.",
+            "choices": [
+              "600",
+              "680",
+              "700"
+            ],
+            "correctAnswer": "700",
+            "reviewNote": "The tens digit is 8, so round up."
+          },
+          {
+            "section": "Part A: Round to Tens and Hundreds",
+            "type": "multipleChoice",
+            "prompt": "Round 1,347 to the nearest hundred.",
+            "choices": [
+              "1,400",
+              "1,300",
+              "1,000"
+            ],
+            "correctAnswer": "1,300",
+            "reviewNote": "The tens digit is 4, so round down."
+          },
+          {
+            "section": "Part A: Round to Tens and Hundreds",
+            "type": "trueFalse",
+            "prompt": "519 rounded to the nearest hundred is 500.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The tens digit is 1, so round down."
+          },
+          {
+            "section": "Part B: Round to Thousands",
+            "type": "multipleChoice",
+            "prompt": "Round 5,672 to the nearest thousand.",
+            "choices": [
+              "6,000",
+              "5,000",
+              "5,700"
+            ],
+            "correctAnswer": "6,000",
+            "reviewNote": "The hundreds digit is 6, so round up."
+          },
+          {
+            "section": "Part B: Round to Thousands",
+            "type": "multipleChoice",
+            "prompt": "Round 24,381 to the nearest thousand.",
+            "choices": [
+              "25,000",
+              "20,000",
+              "24,000"
+            ],
+            "correctAnswer": "24,000",
+            "reviewNote": "The hundreds digit is 3, so round down."
+          },
+          {
+            "section": "Part B: Round to Thousands",
+            "type": "multipleChoice",
+            "prompt": "Round 89,500 to the nearest thousand.",
+            "choices": [
+              "89,000",
+              "90,000",
+              "80,000"
+            ],
+            "correctAnswer": "90,000",
+            "reviewNote": "The hundreds digit is 5, so round up."
+          },
+          {
+            "section": "Part B: Round to Thousands",
+            "type": "multipleChoice",
+            "prompt": "Which number rounds to 41,000 to the nearest thousand?",
+            "choices": [
+              "40,750",
+              "40,499",
+              "41,700"
+            ],
+            "correctAnswer": "40,750",
+            "reviewNote": "40,750 rounds up to 41,000."
+          },
+          {
+            "section": "Part B: Round to Thousands",
+            "type": "trueFalse",
+            "prompt": "132,449 rounded to the nearest thousand is 133,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "The hundreds digit is 4, so it rounds to 132,000."
+          },
+          {
+            "section": "Part C: Choose the Right Place",
+            "type": "multipleChoice",
+            "prompt": "When rounding to the nearest ten, which digit do you check?",
+            "choices": [
+              "tens digit",
+              "hundreds digit",
+              "ones digit"
+            ],
+            "correctAnswer": "ones digit",
+            "reviewNote": "Check the digit just to the right of the tens place."
+          },
+          {
+            "section": "Part C: Choose the Right Place",
+            "type": "multipleChoice",
+            "prompt": "When rounding to the nearest hundred, which digit do you check?",
+            "choices": [
+              "ones digit",
+              "tens digit",
+              "thousands digit"
+            ],
+            "correctAnswer": "tens digit",
+            "reviewNote": "Check the digit just to the right of the hundreds place."
+          },
+          {
+            "section": "Part C: Choose the Right Place",
+            "type": "multipleChoice",
+            "prompt": "When rounding to the nearest thousand, which digit do you check?",
+            "choices": [
+              "hundreds digit",
+              "thousands digit",
+              "ten-thousands digit"
+            ],
+            "correctAnswer": "hundreds digit",
+            "reviewNote": "Check the digit just to the right of the thousands place."
+          },
+          {
+            "section": "Part C: Choose the Right Place",
+            "type": "multipleChoice",
+            "prompt": "Which rule is correct?",
+            "choices": [
+              "5 or more rounds down",
+              "Only 9 rounds up",
+              "5 or more rounds up"
+            ],
+            "correctAnswer": "5 or more rounds up",
+            "reviewNote": "Digits 5, 6, 7, 8, and 9 tell you to round up."
+          },
+          {
+            "section": "Part C: Choose the Right Place",
+            "type": "trueFalse",
+            "prompt": "When rounding to the nearest hundred, the ones digit decides.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "The tens digit decides when rounding to the nearest hundred."
+          },
+          {
+            "section": "Part D: Estimate",
+            "type": "multipleChoice",
+            "prompt": "Estimate 418 + 291 by rounding to the nearest hundred.",
+            "choices": [
+              "600",
+              "700",
+              "800"
+            ],
+            "correctAnswer": "700",
+            "reviewNote": "418 rounds to 400 and 291 rounds to 300."
+          },
+          {
+            "section": "Part D: Estimate",
+            "type": "multipleChoice",
+            "prompt": "Estimate 927 - 386 by rounding to the nearest hundred.",
+            "choices": [
+              "500",
+              "600",
+              "400"
+            ],
+            "correctAnswer": "500",
+            "reviewNote": "927 rounds to 900 and 386 rounds to 400."
+          },
+          {
+            "section": "Part D: Estimate",
+            "type": "multipleChoice",
+            "prompt": "Estimate 7,430 + 2,680 by rounding to the nearest thousand.",
+            "choices": [
+              "9,000",
+              "11,000",
+              "10,000"
+            ],
+            "correctAnswer": "10,000",
+            "reviewNote": "7,430 rounds to 7,000 and 2,680 rounds to 3,000."
+          },
+          {
+            "section": "Part D: Estimate",
+            "type": "multipleChoice",
+            "prompt": "Estimate 8,840 - 3,260 by rounding to the nearest thousand.",
+            "choices": [
+              "5,000",
+              "6,000",
+              "4,000"
+            ],
+            "correctAnswer": "6,000",
+            "reviewNote": "8,840 rounds to 9,000 and 3,260 rounds to 3,000."
+          },
+          {
+            "section": "Part D: Estimate",
+            "type": "trueFalse",
+            "prompt": "A reasonable estimate for 596 + 402 is about 1,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "596 is about 600 and 402 is about 400."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "roundingEstimating",
+        "title": "Estimate Explorer",
+        "mission": "Earn practice stars by rounding numbers and choosing smart estimates.",
+        "reward": {
+          "stars": 10
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Round to Ten",
+            "prompt": "Round 43 to the nearest ten.",
+            "choices": [
+              "50",
+              "40",
+              "43"
+            ],
+            "correctAnswer": "40",
+            "feedback": "Correct. 43 is closer to 40 than 50.",
+            "hint": "Look at the ones digit. 3 means round down."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Round to Ten",
+            "prompt": "Round 68 to the nearest ten.",
+            "choices": [
+              "70",
+              "60",
+              "80"
+            ],
+            "correctAnswer": "70",
+            "feedback": "Yes. 8 ones means round up.",
+            "hint": "5 or more means round up."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Round to Ten",
+            "prompt": "Round 125 to the nearest ten.",
+            "choices": [
+              "120",
+              "100",
+              "130"
+            ],
+            "correctAnswer": "130",
+            "feedback": "Right. 5 ones means round up to 130.",
+            "hint": "Look at the ones digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Choose the Rule",
+            "prompt": "When rounding to the nearest ten, which digit do you check?",
+            "choices": [
+              "tens digit",
+              "ones digit",
+              "hundreds digit"
+            ],
+            "correctAnswer": "ones digit",
+            "feedback": "Correct. The ones digit tells you whether to round the tens up or down.",
+            "hint": "Check the digit just to the right of the tens place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Round to Ten",
+            "prompt": "Round 394 to the nearest ten.",
+            "choices": [
+              "390",
+              "400",
+              "300"
+            ],
+            "correctAnswer": "390",
+            "feedback": "Yes. 4 ones means round down.",
+            "hint": "The ones digit is 4."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Round to Ten",
+            "prompt": "Round 587 to the nearest ten.",
+            "choices": [
+              "580",
+              "600",
+              "590"
+            ],
+            "correctAnswer": "590",
+            "feedback": "Correct. 7 ones means round up.",
+            "hint": "Look at the ones digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "True or False",
+            "prompt": "246 rounded to the nearest ten is 250.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Yes. 6 ones means round up.",
+            "hint": "Look at the ones digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Nearest Ten",
+            "title": "Level Check",
+            "prompt": "Which number rounds to 80 to the nearest ten?",
+            "choices": [
+              "84",
+              "76",
+              "85"
+            ],
+            "correctAnswer": "76",
+            "feedback": "Right. 76 rounds up to 80.",
+            "hint": "Numbers from 75 to 84 round to 80."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Round to Hundred",
+            "prompt": "Round 342 to the nearest hundred.",
+            "choices": [
+              "300",
+              "340",
+              "400"
+            ],
+            "correctAnswer": "300",
+            "feedback": "Correct. 42 is less than 50, so round down.",
+            "hint": "Look at the tens digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Round to Hundred",
+            "prompt": "Round 768 to the nearest hundred.",
+            "choices": [
+              "700",
+              "760",
+              "800"
+            ],
+            "correctAnswer": "800",
+            "feedback": "Yes. The tens digit is 6, so round up.",
+            "hint": "5 or more in the tens place means round up."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Round to Hundred",
+            "prompt": "Round 1,249 to the nearest hundred.",
+            "choices": [
+              "1,300",
+              "1,200",
+              "1,000"
+            ],
+            "correctAnswer": "1,200",
+            "feedback": "Right. The tens digit is 4, so round down.",
+            "hint": "Check the tens digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Round to Hundred",
+            "prompt": "Round 3,581 to the nearest hundred.",
+            "choices": [
+              "3,600",
+              "3,500",
+              "4,000"
+            ],
+            "correctAnswer": "3,600",
+            "feedback": "Correct. The tens digit is 8, so round up.",
+            "hint": "Look at the tens digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Choose the Rule",
+            "prompt": "When rounding to the nearest hundred, which digit do you check?",
+            "choices": [
+              "ones digit",
+              "thousands digit",
+              "tens digit"
+            ],
+            "correctAnswer": "tens digit",
+            "feedback": "Yes. The tens digit is just to the right of the hundreds place.",
+            "hint": "Check the digit right after the hundreds place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Round to Hundred",
+            "prompt": "Round 6,450 to the nearest hundred.",
+            "choices": [
+              "6,400",
+              "6,500",
+              "6,000"
+            ],
+            "correctAnswer": "6,500",
+            "feedback": "Correct. 50 means round up.",
+            "hint": "The tens digit is 5."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "True or False",
+            "prompt": "2,349 rounded to the nearest hundred is 2,400.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Right. The tens digit is 4, so it rounds to 2,300.",
+            "hint": "The tens digit decides."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nearest Hundred",
+            "title": "Level Check",
+            "prompt": "Which number rounds to 900 to the nearest hundred?",
+            "choices": [
+              "851",
+              "849",
+              "950"
+            ],
+            "correctAnswer": "851",
+            "feedback": "Yes. 851 rounds to 900.",
+            "hint": "850 through 949 round to 900."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Round to Thousand",
+            "prompt": "Round 4,382 to the nearest thousand.",
+            "choices": [
+              "4,400",
+              "5,000",
+              "4,000"
+            ],
+            "correctAnswer": "4,000",
+            "feedback": "Correct. The hundreds digit is 3, so round down.",
+            "hint": "Look at the hundreds digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Round to Thousand",
+            "prompt": "Round 7,650 to the nearest thousand.",
+            "choices": [
+              "7,000",
+              "8,000",
+              "7,600"
+            ],
+            "correctAnswer": "8,000",
+            "feedback": "Yes. The hundreds digit is 6, so round up.",
+            "hint": "5 or more in the hundreds place means round up."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Round to Thousand",
+            "prompt": "Round 18,240 to the nearest thousand.",
+            "choices": [
+              "18,000",
+              "19,000",
+              "20,000"
+            ],
+            "correctAnswer": "18,000",
+            "feedback": "Right. The hundreds digit is 2, so round down.",
+            "hint": "Check the hundreds digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Round to Thousand",
+            "prompt": "Round 53,781 to the nearest thousand.",
+            "choices": [
+              "53,000",
+              "50,000",
+              "54,000"
+            ],
+            "correctAnswer": "54,000",
+            "feedback": "Correct. The hundreds digit is 7, so round up.",
+            "hint": "Look at the hundreds digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Choose the Rule",
+            "prompt": "When rounding to the nearest thousand, which digit do you check?",
+            "choices": [
+              "thousands digit",
+              "hundreds digit",
+              "tens digit"
+            ],
+            "correctAnswer": "hundreds digit",
+            "feedback": "Yes. The hundreds digit tells whether the thousands go up or stay.",
+            "hint": "Check the digit just to the right of the thousands place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Round to Thousand",
+            "prompt": "Round 106,499 to the nearest thousand.",
+            "choices": [
+              "106,000",
+              "107,000",
+              "100,000"
+            ],
+            "correctAnswer": "106,000",
+            "feedback": "Correct. The hundreds digit is 4, so round down.",
+            "hint": "The hundreds digit is 4."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "True or False",
+            "prompt": "29,500 rounded to the nearest thousand is 30,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Yes. 500 means round up.",
+            "hint": "The hundreds digit is 5."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Nearest Thousand",
+            "title": "Level Check",
+            "prompt": "Which number rounds to 62,000 to the nearest thousand?",
+            "choices": [
+              "61,499",
+              "62,700",
+              "61,620"
+            ],
+            "correctAnswer": "61,620",
+            "feedback": "Right. 61,620 rounds up to 62,000.",
+            "hint": "61,500 through 62,499 round to 62,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Estimate a Sum",
+            "prompt": "Estimate 384 + 219 by rounding to the nearest hundred.",
+            "choices": [
+              "500",
+              "600",
+              "700"
+            ],
+            "correctAnswer": "600",
+            "feedback": "Correct. 384 rounds to 400 and 219 rounds to 200, so about 600.",
+            "hint": "Round each number first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Estimate a Difference",
+            "prompt": "Estimate 782 - 318 by rounding to the nearest hundred.",
+            "choices": [
+              "500",
+              "400",
+              "300"
+            ],
+            "correctAnswer": "500",
+            "feedback": "Yes. 782 rounds to 800 and 318 rounds to 300, so about 500.",
+            "hint": "Round both numbers to hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Estimate a Sum",
+            "prompt": "Estimate 4,620 + 2,310 by rounding to the nearest thousand.",
+            "choices": [
+              "6,000",
+              "8,000",
+              "7,000"
+            ],
+            "correctAnswer": "7,000",
+            "feedback": "Right. 4,620 rounds to 5,000 and 2,310 rounds to 2,000.",
+            "hint": "Round to the nearest thousand first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Choose Reasonable",
+            "prompt": "A school has 492 pencils and buys 318 more. Which is a reasonable estimate?",
+            "choices": [
+              "400 pencils",
+              "800 pencils",
+              "1,200 pencils"
+            ],
+            "correctAnswer": "800 pencils",
+            "feedback": "Correct. 492 is about 500 and 318 is about 300.",
+            "hint": "Use friendly rounded numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Estimate a Difference",
+            "prompt": "Estimate 9,840 - 4,120 by rounding to the nearest thousand.",
+            "choices": [
+              "6,000",
+              "5,000",
+              "4,000"
+            ],
+            "correctAnswer": "6,000",
+            "feedback": "Yes. 9,840 rounds to 10,000 and 4,120 rounds to 4,000.",
+            "hint": "Round to thousands first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Find the Better Estimate",
+            "prompt": "Which is the best estimate for 1,249 + 3,751?",
+            "choices": [
+              "4,000",
+              "6,000",
+              "5,000"
+            ],
+            "correctAnswer": "5,000",
+            "feedback": "Right. 1,249 is about 1,000 and 3,751 is about 4,000.",
+            "hint": "Use nearest thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "True or False",
+            "prompt": "A good estimate for 598 + 203 is about 800.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 598 is about 600 and 203 is about 200.",
+            "hint": "Round to hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Estimating",
+            "title": "Level Check",
+            "prompt": "Estimate 6,430 - 2,760 by rounding to the nearest thousand.",
+            "choices": [
+              "4,000",
+              "3,000",
+              "5,000"
+            ],
+            "correctAnswer": "3,000",
+            "feedback": "Excellent. 6,430 rounds to 6,000 and 2,760 rounds to 3,000.",
+            "hint": "Round both numbers to thousands."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-addition-strategies",
+      "title": "Addition Strategies",
+      "type": "lesson",
+      "learningGoal": "Students will use flexible strategies to add whole numbers accurately and check whether their answers are reasonable.",
+      "successCriteria": [
+        "I can break numbers apart to make addition easier.",
+        "I can use compensation to create friendlier numbers.",
+        "I can add multi-digit numbers using place value and regrouping.",
+        "I can estimate to check whether an addition answer makes sense."
+      ],
+      "vocabulary": [
+        "sum",
+        "addend",
+        "addition strategy",
+        "break apart",
+        "compensation",
+        "regrouping",
+        "estimate",
+        "reasonable answer"
+      ],
+      "teacherOverview": "Student mission focused on Grade 5 addition strategies: friendly numbers, breaking apart addends, compensation, multi-digit addition, and checking with estimates.",
+      "lessonContent": "",
+      "practiceIdeas": [],
+      "quiz": {
+        "title": "Addition Strategies Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
+        "questions": [
+          {
+            "section": "Part A: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "Which split helps solve 97 + 36?",
+            "choices": [
+              "97 + 7 + 36",
+              "97 + 3 + 33",
+              "90 + 36"
+            ],
+            "correctAnswer": "97 + 3 + 33",
+            "reviewNote": "Use 3 from 36 to make 97 into 100."
+          },
+          {
+            "section": "Part A: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "What is 497 + 28?",
+            "choices": [
+              "525",
+              "515",
+              "535"
+            ],
+            "correctAnswer": "525",
+            "reviewNote": "497 + 3 = 500, then add 25."
+          },
+          {
+            "section": "Part A: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "Which first step helps with 1,996 + 47?",
+            "choices": [
+              "add 7 to 1,996",
+              "add 40 to 1,996",
+              "add 4 to 1,996"
+            ],
+            "correctAnswer": "add 4 to 1,996",
+            "reviewNote": "1,996 needs 4 to reach 2,000."
+          },
+          {
+            "section": "Part A: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "What is 1,996 + 47?",
+            "choices": [
+              "2,033",
+              "2,043",
+              "2,053"
+            ],
+            "correctAnswer": "2,043",
+            "reviewNote": "Make 2,000, then add the remaining 43."
+          },
+          {
+            "section": "Part A: Friendly Numbers",
+            "type": "trueFalse",
+            "prompt": "To solve 688 + 19, you can add 12 first to make 700.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "688 is 12 away from 700."
+          },
+          {
+            "section": "Part B: Break Apart Addends",
+            "type": "multipleChoice",
+            "prompt": "Which breaks apart 532 + 246 by place value?",
+            "choices": [
+              "500 + 30 + 2 + 200 + 40 + 6",
+              "532 + 200 + 4 + 6",
+              "500 + 246 + 32"
+            ],
+            "correctAnswer": "500 + 30 + 2 + 200 + 40 + 6",
+            "reviewNote": "Break each addend into hundreds, tens, and ones."
+          },
+          {
+            "section": "Part B: Break Apart Addends",
+            "type": "multipleChoice",
+            "prompt": "What is 532 + 246?",
+            "choices": [
+              "768",
+              "788",
+              "778"
+            ],
+            "correctAnswer": "778",
+            "reviewNote": "500 + 200 = 700, 30 + 40 = 70, and 2 + 6 = 8."
+          },
+          {
+            "section": "Part B: Break Apart Addends",
+            "type": "multipleChoice",
+            "prompt": "What is 4,210 + 3,580?",
+            "choices": [
+              "7,690",
+              "7,790",
+              "8,790"
+            ],
+            "correctAnswer": "7,790",
+            "reviewNote": "4,000 + 3,000 = 7,000 and 210 + 580 = 790."
+          },
+          {
+            "section": "Part B: Break Apart Addends",
+            "type": "multipleChoice",
+            "prompt": "Which sum is 6,305 + 2,472?",
+            "choices": [
+              "8,777",
+              "8,677",
+              "8,877"
+            ],
+            "correctAnswer": "8,777",
+            "reviewNote": "Add each place value carefully."
+          },
+          {
+            "section": "Part B: Break Apart Addends",
+            "type": "trueFalse",
+            "prompt": "830 + 165 can be broken into 800 + 100, 30 + 6, and 0 + 5.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "165 has 6 tens, so it should be 60, not 6."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "Which has the same sum as 598 + 246?",
+            "choices": [
+              "600 + 246",
+              "596 + 246",
+              "600 + 244"
+            ],
+            "correctAnswer": "600 + 244",
+            "reviewNote": "Move 2 from 246 to 598."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "What is 598 + 246?",
+            "choices": [
+              "846",
+              "844",
+              "834"
+            ],
+            "correctAnswer": "844",
+            "reviewNote": "600 + 244 = 844."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "Which has the same sum as 2,999 + 418?",
+            "choices": [
+              "3,000 + 417",
+              "3,000 + 418",
+              "2,900 + 418"
+            ],
+            "correctAnswer": "3,000 + 417",
+            "reviewNote": "Move 1 from 418 to 2,999."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "What is 2,999 + 418?",
+            "choices": [
+              "3,407",
+              "3,517",
+              "3,417"
+            ],
+            "correctAnswer": "3,417",
+            "reviewNote": "3,000 + 417 = 3,417."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "trueFalse",
+            "prompt": "749 + 251 has the same sum as 750 + 250.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "One addend increased by 1 and the other decreased by 1."
+          },
+          {
+            "section": "Part D: Add and Check",
+            "type": "multipleChoice",
+            "prompt": "What is 6,784 + 3,529?",
+            "choices": [
+              "9,313",
+              "10,313",
+              "10,203"
+            ],
+            "correctAnswer": "10,313",
+            "reviewNote": "Line up place values and regroup carefully."
+          },
+          {
+            "section": "Part D: Add and Check",
+            "type": "multipleChoice",
+            "prompt": "Which estimate best checks 6,784 + 3,529?",
+            "choices": [
+              "10,000",
+              "9,000",
+              "12,000"
+            ],
+            "correctAnswer": "10,000",
+            "reviewNote": "7,000 + 4,000 is about 11,000, and 10,313 is reasonable; among these, 10,000 is closest."
+          },
+          {
+            "section": "Part D: Add and Check",
+            "type": "multipleChoice",
+            "prompt": "What is 45,608 + 27,493?",
+            "choices": [
+              "72,101",
+              "73,001",
+              "73,101"
+            ],
+            "correctAnswer": "73,101",
+            "reviewNote": "Add by place value and regroup."
+          },
+          {
+            "section": "Part D: Add and Check",
+            "type": "multipleChoice",
+            "prompt": "A student says 18,275 + 14,725 = 32,000. What is the correct sum?",
+            "choices": [
+              "32,000",
+              "33,000",
+              "34,000"
+            ],
+            "correctAnswer": "33,000",
+            "reviewNote": "18,275 + 14,725 makes exactly 33,000."
+          },
+          {
+            "section": "Part D: Add and Check",
+            "type": "trueFalse",
+            "prompt": "305,090 + 14,910 = 319,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "305,090 + 14,910 equals 320,000."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "additionStrategies",
+        "title": "Addition Power-Up",
+        "mission": "Earn practice stars by choosing smart addition strategies and finding accurate sums.",
+        "reward": {
+          "stars": 10
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Make a Ten",
+            "prompt": "Which way makes 48 + 7 easier?",
+            "choices": [
+              "48 + 8 + 7",
+              "48 + 2 + 5",
+              "40 + 7"
+            ],
+            "correctAnswer": "48 + 2 + 5",
+            "feedback": "Correct. 48 + 2 makes 50, then add 5.",
+            "hint": "Try to make 50 first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Make a Hundred",
+            "prompt": "Which split helps with 96 + 18?",
+            "choices": [
+              "96 + 4 + 14",
+              "96 + 6 + 18",
+              "90 + 18"
+            ],
+            "correctAnswer": "96 + 4 + 14",
+            "feedback": "Yes. 96 + 4 makes 100, then add 14.",
+            "hint": "Find how much 96 needs to reach 100."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Choose the Friendly Step",
+            "prompt": "For 275 + 26, what could you add first to reach 300?",
+            "choices": [
+              "26",
+              "75",
+              "25"
+            ],
+            "correctAnswer": "25",
+            "feedback": "Right. 275 + 25 = 300.",
+            "hint": "How far is 275 from 300?"
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Find the Sum",
+            "prompt": "Use a friendly number: 198 + 35 = ?",
+            "choices": [
+              "223",
+              "233",
+              "243"
+            ],
+            "correctAnswer": "233",
+            "feedback": "Correct. 198 + 2 = 200, then add 33.",
+            "hint": "Move 2 from 35 to 198."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Pick the Strategy",
+            "prompt": "Which is a good first move for 397 + 48?",
+            "choices": [
+              "397 + 3",
+              "397 + 8",
+              "397 + 40"
+            ],
+            "correctAnswer": "397 + 3",
+            "feedback": "Yes. 397 + 3 makes 400.",
+            "hint": "Make the first number friendly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Find the Sum",
+            "prompt": "299 + 64 = ?",
+            "choices": [
+              "353",
+              "373",
+              "363"
+            ],
+            "correctAnswer": "363",
+            "feedback": "Right. 299 + 1 = 300, then add 63.",
+            "hint": "Use 1 from 64 to make 300."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "True or False",
+            "prompt": "To add 596 + 28, you can add 4 first to make 600.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Then you would still add 24.",
+            "hint": "596 is 4 away from 600."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Level Check",
+            "prompt": "What is 695 + 27?",
+            "choices": [
+              "712",
+              "722",
+              "732"
+            ],
+            "correctAnswer": "722",
+            "feedback": "Excellent. 695 + 5 = 700, then add 22.",
+            "hint": "Make 700 first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Break Apart",
+            "prompt": "Which shows 426 + 253 broken apart by place value?",
+            "choices": [
+              "400 + 20 + 6 + 200 + 50 + 3",
+              "426 + 200 + 5 + 3",
+              "400 + 253 + 26"
+            ],
+            "correctAnswer": "400 + 20 + 6 + 200 + 50 + 3",
+            "feedback": "Correct. Each number is split into hundreds, tens, and ones.",
+            "hint": "Break both numbers into place values."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Add Parts",
+            "prompt": "300 + 500 = ?",
+            "choices": [
+              "80",
+              "8,000",
+              "800"
+            ],
+            "correctAnswer": "800",
+            "feedback": "Yes. 3 hundreds + 5 hundreds = 8 hundreds.",
+            "hint": "Add the hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Add Parts",
+            "prompt": "40 + 70 = ?",
+            "choices": [
+              "100",
+              "110",
+              "11"
+            ],
+            "correctAnswer": "110",
+            "feedback": "Right. 4 tens + 7 tens = 11 tens.",
+            "hint": "40 plus 70 crosses 100."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Use Place Value",
+            "prompt": "What is 426 + 253?",
+            "choices": [
+              "679",
+              "669",
+              "689"
+            ],
+            "correctAnswer": "679",
+            "feedback": "Correct. 600 + 70 + 9 = 679.",
+            "hint": "Add hundreds, tens, and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Break Apart",
+            "prompt": "Which is a good way to add 1,240 + 3,520?",
+            "choices": [
+              "1,240 + 3 + 520",
+              "1,000 + 520 only",
+              "1,000 + 3,000, then 240 + 520"
+            ],
+            "correctAnswer": "1,000 + 3,000, then 240 + 520",
+            "feedback": "Yes. Break it into thousands and the rest.",
+            "hint": "Add similar place-value parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Find the Sum",
+            "prompt": "2,315 + 1,482 = ?",
+            "choices": [
+              "3,687",
+              "3,797",
+              "3,897"
+            ],
+            "correctAnswer": "3,797",
+            "feedback": "Right. Add thousands, hundreds, tens, and ones carefully.",
+            "hint": "2,000 + 1,000 = 3,000, then add the rest."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "True or False",
+            "prompt": "724 + 135 can be thought of as 700 + 100, 20 + 30, and 4 + 5.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. That is breaking apart by place value.",
+            "hint": "Compare hundreds, tens, and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart Addends",
+            "title": "Level Check",
+            "prompt": "What is 5,430 + 2,260?",
+            "choices": [
+              "7,690",
+              "7,590",
+              "8,690"
+            ],
+            "correctAnswer": "7,690",
+            "feedback": "Excellent. 5,000 + 2,000 = 7,000 and 430 + 260 = 690.",
+            "hint": "Break apart thousands and hundreds/tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Balance the Change",
+            "prompt": "To solve 398 + 247, if you change 398 to 400, what should happen to 247?",
+            "choices": [
+              "add 2 to 247",
+              "leave it the same",
+              "subtract 2 from 247"
+            ],
+            "correctAnswer": "subtract 2 from 247",
+            "feedback": "Correct. If one addend goes up by 2, the other goes down by 2.",
+            "hint": "Keep the total the same."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Use Compensation",
+            "prompt": "398 + 247 is the same as...",
+            "choices": [
+              "400 + 247",
+              "400 + 245",
+              "396 + 247"
+            ],
+            "correctAnswer": "400 + 245",
+            "feedback": "Yes. 398 became 400, so 247 became 245.",
+            "hint": "Move 2 from 247 to 398."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Find the Sum",
+            "prompt": "398 + 247 = ?",
+            "choices": [
+              "645",
+              "647",
+              "635"
+            ],
+            "correctAnswer": "645",
+            "feedback": "Right. 400 + 245 = 645.",
+            "hint": "Use the friendly expression 400 + 245."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Make a Friendly Number",
+            "prompt": "Which expression has the same sum as 699 + 186?",
+            "choices": [
+              "700 + 186",
+              "698 + 186",
+              "700 + 185"
+            ],
+            "correctAnswer": "700 + 185",
+            "feedback": "Correct. Move 1 from 186 to 699.",
+            "hint": "Make 699 into 700."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Find the Sum",
+            "prompt": "699 + 186 = ?",
+            "choices": [
+              "875",
+              "885",
+              "895"
+            ],
+            "correctAnswer": "885",
+            "feedback": "Yes. 700 + 185 = 885.",
+            "hint": "Use compensation."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Choose the Match",
+            "prompt": "Which has the same sum as 1,998 + 306?",
+            "choices": [
+              "2,000 + 304",
+              "2,000 + 306",
+              "1,900 + 306"
+            ],
+            "correctAnswer": "2,000 + 304",
+            "feedback": "Right. Move 2 from 306 to 1,998.",
+            "hint": "Make 1,998 into 2,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "True or False",
+            "prompt": "549 + 251 has the same sum as 550 + 250.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. One addend went up by 1 and the other went down by 1.",
+            "hint": "The total stays balanced."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Level Check",
+            "prompt": "Use compensation: 4,999 + 628 = ?",
+            "choices": [
+              "5,527",
+              "5,637",
+              "5,627"
+            ],
+            "correctAnswer": "5,627",
+            "feedback": "Excellent. 5,000 + 627 = 5,627.",
+            "hint": "Move 1 from 628 to 4,999."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Column Addition",
+            "prompt": "What is 3,486 + 2,759?",
+            "choices": [
+              "6,145",
+              "6,245",
+              "5,245"
+            ],
+            "correctAnswer": "6,245",
+            "feedback": "Correct. Regroup ones, tens, and hundreds carefully.",
+            "hint": "Add by place value from right to left."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Estimate First",
+            "prompt": "Which is the best estimate for 3,486 + 2,759?",
+            "choices": [
+              "6,000",
+              "5,000",
+              "8,000"
+            ],
+            "correctAnswer": "6,000",
+            "feedback": "Yes. 3,486 is about 3,000 and 2,759 is about 3,000.",
+            "hint": "Round to the nearest thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Check Reasonableness",
+            "prompt": "If 3,486 + 2,759 is about 6,000, which exact answer is reasonable?",
+            "choices": [
+              "9,245",
+              "245",
+              "6,245"
+            ],
+            "correctAnswer": "6,245",
+            "feedback": "Right. 6,245 is close to the estimate.",
+            "hint": "Pick the answer close to 6,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Multi-Digit Sum",
+            "prompt": "What is 24,608 + 13,947?",
+            "choices": [
+              "37,555",
+              "38,555",
+              "39,555"
+            ],
+            "correctAnswer": "38,555",
+            "feedback": "Correct. Add each place and regroup.",
+            "hint": "8 + 7 = 15, so regroup from ones to tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Estimate to Check",
+            "prompt": "Which is a good estimate for 24,608 + 13,947?",
+            "choices": [
+              "39,000",
+              "29,000",
+              "49,000"
+            ],
+            "correctAnswer": "39,000",
+            "feedback": "Yes. 25,000 + 14,000 is about 39,000.",
+            "hint": "Round each number to the nearest thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Find the Error",
+            "prompt": "A student says 4,875 + 2,126 = 6,001. What is wrong?",
+            "choices": [
+              "The sum should be 6,901",
+              "The answer is correct",
+              "The sum should be 7,001"
+            ],
+            "correctAnswer": "The sum should be 7,001",
+            "feedback": "Correct. 4,875 + 2,126 = 7,001.",
+            "hint": "Add 4,875 + 2,000 first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "True or False",
+            "prompt": "18,450 + 21,550 = 40,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 18,450 + 21,550 makes exactly 40,000.",
+            "hint": "450 + 550 = 1,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Add and Check",
+            "title": "Level Check",
+            "prompt": "What is 306,418 + 92,507?",
+            "choices": [
+              "399,925",
+              "398,925",
+              "397,925"
+            ],
+            "correctAnswer": "398,925",
+            "feedback": "Excellent. That is a strong Grade 5 addition sum.",
+            "hint": "Line up the place values carefully."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-subtraction-strategies",
+      "title": "Subtraction Strategies",
+      "type": "lesson",
+      "learningGoal": "Students will use flexible strategies to subtract whole numbers accurately and check whether their answers are reasonable.",
+      "successCriteria": [
+        "I can count up to find a difference.",
+        "I can break numbers apart to subtract by place value.",
+        "I can use compensation to make subtraction easier.",
+        "I can subtract multi-digit numbers with regrouping and check with estimation."
+      ],
+      "vocabulary": [
+        "difference",
+        "minuend",
+        "subtrahend",
+        "subtraction strategy",
+        "counting up",
+        "break apart",
+        "compensation",
+        "regrouping",
+        "estimate"
+      ],
+      "teacherOverview": "Student mission focused on Grade 5 subtraction strategies: counting up, breaking apart, compensation, multi-digit regrouping, and checking with estimates.",
+      "lessonContent": "",
+      "practiceIdeas": [],
+      "quiz": {
+        "title": "Subtraction Strategies Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
+        "questions": [
+          {
+            "section": "Part A: Count Up",
+            "type": "multipleChoice",
+            "prompt": "Use counting up: 300 - 268 = ?",
+            "choices": [
+              "42",
+              "32",
+              "28"
+            ],
+            "correctAnswer": "32",
+            "reviewNote": "268 to 300 is 32."
+          },
+          {
+            "section": "Part A: Count Up",
+            "type": "multipleChoice",
+            "prompt": "Which count-up path helps solve 92 - 67?",
+            "choices": [
+              "67 to 70, then 70 to 92",
+              "92 to 100, then 67 to 70",
+              "67 to 90 only"
+            ],
+            "correctAnswer": "67 to 70, then 70 to 92",
+            "reviewNote": "3 + 22 = 25."
+          },
+          {
+            "section": "Part A: Count Up",
+            "type": "multipleChoice",
+            "prompt": "92 - 67 = ?",
+            "choices": [
+              "35",
+              "23",
+              "25"
+            ],
+            "correctAnswer": "25",
+            "reviewNote": "67 to 92 is 25."
+          },
+          {
+            "section": "Part A: Count Up",
+            "type": "multipleChoice",
+            "prompt": "1,000 - 948 = ?",
+            "choices": [
+              "62",
+              "52",
+              "48"
+            ],
+            "correctAnswer": "52",
+            "reviewNote": "948 to 1,000 is 52."
+          },
+          {
+            "section": "Part A: Count Up",
+            "type": "trueFalse",
+            "prompt": "Counting up can be useful when numbers are close together.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Counting up is efficient for close numbers."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "Which breaks apart 759 - 326 by place value?",
+            "choices": [
+              "700 - 300, 50 - 20, 9 - 6",
+              "759 - 300 - 2 - 6",
+              "700 - 326, then 59"
+            ],
+            "correctAnswer": "700 - 300, 50 - 20, 9 - 6",
+            "reviewNote": "Break hundreds, tens, and ones apart."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "759 - 326 = ?",
+            "choices": [
+              "443",
+              "533",
+              "433"
+            ],
+            "correctAnswer": "433",
+            "reviewNote": "400 + 30 + 3 = 433."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "6,780 - 4,230 = ?",
+            "choices": [
+              "2,450",
+              "2,550",
+              "3,550"
+            ],
+            "correctAnswer": "2,550",
+            "reviewNote": "6,000 - 4,000 = 2,000 and 780 - 230 = 550."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "Which expression helps solve 9,640 - 3,510?",
+            "choices": [
+              "9,000 - 3,000 and 640 - 510",
+              "9,640 - 3 - 510",
+              "9,000 - 510 only"
+            ],
+            "correctAnswer": "9,000 - 3,000 and 640 - 510",
+            "reviewNote": "Subtract similar place-value chunks."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "trueFalse",
+            "prompt": "864 - 421 can be broken into 800 - 400, 60 - 2, and 4 - 1.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "421 has 2 tens, so it should be 20, not 2."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "Which has the same difference as 604 - 299?",
+            "choices": [
+              "604 - 300",
+              "603 - 299",
+              "605 - 300"
+            ],
+            "correctAnswer": "605 - 300",
+            "reviewNote": "Add 1 to both numbers to make 299 into 300."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "604 - 299 = ?",
+            "choices": [
+              "315",
+              "305",
+              "295"
+            ],
+            "correctAnswer": "305",
+            "reviewNote": "605 - 300 = 305."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "Which has the same difference as 2,006 - 998?",
+            "choices": [
+              "2,008 - 1,000",
+              "2,006 - 1,000",
+              "2,000 - 998"
+            ],
+            "correctAnswer": "2,008 - 1,000",
+            "reviewNote": "Add 2 to both numbers to make 998 into 1,000."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "multipleChoice",
+            "prompt": "2,006 - 998 = ?",
+            "choices": [
+              "1,108",
+              "998",
+              "1,008"
+            ],
+            "correctAnswer": "1,008",
+            "reviewNote": "2,008 - 1,000 = 1,008."
+          },
+          {
+            "section": "Part C: Compensation",
+            "type": "trueFalse",
+            "prompt": "801 - 399 has the same difference as 802 - 400.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Both numbers increased by 1."
+          },
+          {
+            "section": "Part D: Subtract and Check",
+            "type": "multipleChoice",
+            "prompt": "What is 8,306 - 4,879?",
+            "choices": [
+              "3,527",
+              "3,427",
+              "4,427"
+            ],
+            "correctAnswer": "3,427",
+            "reviewNote": "This subtraction requires regrouping."
+          },
+          {
+            "section": "Part D: Subtract and Check",
+            "type": "multipleChoice",
+            "prompt": "Which estimate best checks 8,306 - 4,879?",
+            "choices": [
+              "3,000",
+              "4,000",
+              "5,000"
+            ],
+            "correctAnswer": "3,000",
+            "reviewNote": "8,000 - 5,000 is about 3,000."
+          },
+          {
+            "section": "Part D: Subtract and Check",
+            "type": "multipleChoice",
+            "prompt": "What is 52,000 - 18,675?",
+            "choices": [
+              "34,325",
+              "32,325",
+              "33,325"
+            ],
+            "correctAnswer": "33,325",
+            "reviewNote": "Regroup across zeros carefully."
+          },
+          {
+            "section": "Part D: Subtract and Check",
+            "type": "multipleChoice",
+            "prompt": "A student says 10,000 - 6,485 = 4,515. What is the correct difference?",
+            "choices": [
+              "4,515",
+              "3,515",
+              "3,615"
+            ],
+            "correctAnswer": "3,515",
+            "reviewNote": "6,485 + 3,515 = 10,000."
+          },
+          {
+            "section": "Part D: Subtract and Check",
+            "type": "trueFalse",
+            "prompt": "200,000 - 75,250 = 125,750.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "200,000 - 75,250 equals 124,750."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "subtractionStrategies",
+        "title": "Subtraction Rescue",
+        "mission": "Earn practice stars by choosing smart subtraction strategies and finding accurate differences.",
+        "reward": {
+          "stars": 10
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Find the Difference",
+            "prompt": "Use counting up: 100 - 76 = ?",
+            "choices": [
+              "34",
+              "24",
+              "26"
+            ],
+            "correctAnswer": "24",
+            "feedback": "Correct. 76 to 100 is 24.",
+            "hint": "Count from 76 up to 100."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Count Up",
+            "prompt": "Which count-up path helps solve 83 - 58?",
+            "choices": [
+              "58 to 60, then 60 to 83",
+              "83 to 90, then 90 to 100",
+              "58 to 83, then 83 to 100"
+            ],
+            "correctAnswer": "58 to 60, then 60 to 83",
+            "feedback": "Yes. 2 + 23 = 25.",
+            "hint": "Start at the smaller number and count up to the bigger number."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Find the Difference",
+            "prompt": "83 - 58 = ?",
+            "choices": [
+              "35",
+              "23",
+              "25"
+            ],
+            "correctAnswer": "25",
+            "feedback": "Right. 58 to 83 is 25.",
+            "hint": "58 to 60 is 2, and 60 to 83 is 23."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Money Difference",
+            "prompt": "A toy costs $125. You have $200. How much more than the toy do you have?",
+            "choices": [
+              "$85",
+              "$75",
+              "$65"
+            ],
+            "correctAnswer": "$75",
+            "feedback": "Correct. 125 to 200 is 75.",
+            "hint": "Count up from 125 to 200."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Choose the Strategy",
+            "prompt": "Counting up works especially well when numbers are...",
+            "choices": [
+              "close together",
+              "both even only",
+              "both single digits"
+            ],
+            "correctAnswer": "close together",
+            "feedback": "Yes. Counting up is useful for close numbers.",
+            "hint": "Think about 1,000 - 975."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Find the Difference",
+            "prompt": "1,000 - 975 = ?",
+            "choices": [
+              "35",
+              "75",
+              "25"
+            ],
+            "correctAnswer": "25",
+            "feedback": "Correct. 975 to 1,000 is 25.",
+            "hint": "975 to 1,000 is one quarter of 100."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "True or False",
+            "prompt": "To solve 500 - 468, you can count up from 468 to 500.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Counting up can find the difference.",
+            "hint": "Start at the number being subtracted."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Count Up",
+            "title": "Level Check",
+            "prompt": "500 - 468 = ?",
+            "choices": [
+              "42",
+              "32",
+              "38"
+            ],
+            "correctAnswer": "32",
+            "feedback": "Excellent. 468 to 500 is 32.",
+            "hint": "468 to 470 is 2, and 470 to 500 is 30."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Break Apart",
+            "prompt": "Which shows 684 - 231 broken apart by place value?",
+            "choices": [
+              "600 - 200, 80 - 30, 4 - 1",
+              "684 - 200 - 3 - 1",
+              "600 - 231, then 84"
+            ],
+            "correctAnswer": "600 - 200, 80 - 30, 4 - 1",
+            "feedback": "Correct. Subtract hundreds, tens, and ones.",
+            "hint": "Break both numbers into place values."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Subtract Parts",
+            "prompt": "600 - 200 = ?",
+            "choices": [
+              "800",
+              "40",
+              "400"
+            ],
+            "correctAnswer": "400",
+            "feedback": "Yes. 6 hundreds - 2 hundreds = 4 hundreds.",
+            "hint": "Subtract the hundreds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Subtract Parts",
+            "prompt": "80 - 30 = ?",
+            "choices": [
+              "110",
+              "50",
+              "5"
+            ],
+            "correctAnswer": "50",
+            "feedback": "Right. 8 tens - 3 tens = 5 tens.",
+            "hint": "Subtract the tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Find the Difference",
+            "prompt": "684 - 231 = ?",
+            "choices": [
+              "453",
+              "443",
+              "553"
+            ],
+            "correctAnswer": "453",
+            "feedback": "Correct. 400 + 50 + 3 = 453.",
+            "hint": "Combine the place-value differences."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Break Apart",
+            "prompt": "Which is a good way to solve 4,860 - 2,320?",
+            "choices": [
+              "4,860 - 2 - 320",
+              "4,000 - 320 only",
+              "4,000 - 2,000 and 860 - 320"
+            ],
+            "correctAnswer": "4,000 - 2,000 and 860 - 320",
+            "feedback": "Yes. Break into thousands and the rest.",
+            "hint": "Subtract similar place-value chunks."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Find the Difference",
+            "prompt": "4,860 - 2,320 = ?",
+            "choices": [
+              "2,640",
+              "2,540",
+              "2,440"
+            ],
+            "correctAnswer": "2,540",
+            "feedback": "Right. 4,000 - 2,000 = 2,000 and 860 - 320 = 540.",
+            "hint": "Break apart the thousands and the hundreds/tens."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "True or False",
+            "prompt": "875 - 342 can be broken into 800 - 300, 70 - 40, and 5 - 2.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. That uses place value.",
+            "hint": "Compare hundreds, tens, and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Level Check",
+            "prompt": "875 - 342 = ?",
+            "choices": [
+              "533",
+              "543",
+              "523"
+            ],
+            "correctAnswer": "533",
+            "feedback": "Excellent. 500 + 30 + 3 = 533.",
+            "hint": "Subtract hundreds, tens, and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Adjust Both Numbers",
+            "prompt": "Which has the same difference as 503 - 198?",
+            "choices": [
+              "503 - 200",
+              "501 - 198",
+              "505 - 200"
+            ],
+            "correctAnswer": "505 - 200",
+            "feedback": "Correct. Add 2 to both numbers to make 198 into 200.",
+            "hint": "In subtraction, adding the same amount to both numbers keeps the difference."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Find the Difference",
+            "prompt": "503 - 198 = ?",
+            "choices": [
+              "315",
+              "305",
+              "295"
+            ],
+            "correctAnswer": "305",
+            "feedback": "Yes. 505 - 200 = 305.",
+            "hint": "Use the friendly expression."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Make It Friendly",
+            "prompt": "Which has the same difference as 1,004 - 599?",
+            "choices": [
+              "1,005 - 600",
+              "1,004 - 600",
+              "1,000 - 599"
+            ],
+            "correctAnswer": "1,005 - 600",
+            "feedback": "Right. Add 1 to both numbers.",
+            "hint": "Make 599 into 600."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Find the Difference",
+            "prompt": "1,004 - 599 = ?",
+            "choices": [
+              "415",
+              "395",
+              "405"
+            ],
+            "correctAnswer": "405",
+            "feedback": "Correct. 1,005 - 600 = 405.",
+            "hint": "Use compensation."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Choose the Match",
+            "prompt": "Which has the same difference as 3,002 - 997?",
+            "choices": [
+              "3,000 - 1,000",
+              "3,005 - 1,000",
+              "3,002 - 1,000"
+            ],
+            "correctAnswer": "3,005 - 1,000",
+            "feedback": "Yes. Add 3 to both numbers.",
+            "hint": "Make 997 into 1,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Find the Difference",
+            "prompt": "3,002 - 997 = ?",
+            "choices": [
+              "2,005",
+              "2,105",
+              "1,995"
+            ],
+            "correctAnswer": "2,005",
+            "feedback": "Right. 3,005 - 1,000 = 2,005.",
+            "hint": "Use the friendly expression."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "True or False",
+            "prompt": "702 - 299 has the same difference as 703 - 300.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Both numbers increased by 1.",
+            "hint": "Adding the same amount to both numbers keeps the difference."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Compensation",
+            "title": "Level Check",
+            "prompt": "702 - 299 = ?",
+            "choices": [
+              "413",
+              "303",
+              "403"
+            ],
+            "correctAnswer": "403",
+            "feedback": "Excellent. 703 - 300 = 403.",
+            "hint": "Make 299 into 300."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Regrouping",
+            "prompt": "What is 5,204 - 2,876?",
+            "choices": [
+              "2,428",
+              "2,328",
+              "3,328"
+            ],
+            "correctAnswer": "2,328",
+            "feedback": "Correct. Regroup carefully across place values.",
+            "hint": "Line up the digits and subtract right to left."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Estimate First",
+            "prompt": "Which is a good estimate for 5,204 - 2,876?",
+            "choices": [
+              "2,000",
+              "3,000",
+              "4,000"
+            ],
+            "correctAnswer": "2,000",
+            "feedback": "Yes. 5,204 is about 5,000 and 2,876 is about 3,000.",
+            "hint": "Round to the nearest thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Check Reasonableness",
+            "prompt": "If 5,204 - 2,876 is about 2,000, which exact answer is reasonable?",
+            "choices": [
+              "8,080",
+              "328",
+              "2,328"
+            ],
+            "correctAnswer": "2,328",
+            "feedback": "Right. 2,328 is close to the estimate.",
+            "hint": "Pick the answer near 2,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Multi-Digit Difference",
+            "prompt": "What is 43,615 - 18,927?",
+            "choices": [
+              "25,688",
+              "24,688",
+              "24,788"
+            ],
+            "correctAnswer": "24,688",
+            "feedback": "Correct. This needs careful regrouping.",
+            "hint": "Subtract by place value from right to left."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Estimate to Check",
+            "prompt": "Which estimate best checks 43,615 - 18,927?",
+            "choices": [
+              "25,000",
+              "15,000",
+              "35,000"
+            ],
+            "correctAnswer": "25,000",
+            "feedback": "Yes. 44,000 - 19,000 is about 25,000.",
+            "hint": "Round each number to the nearest thousand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Find the Error",
+            "prompt": "A student says 7,000 - 2,485 = 5,515. What is wrong?",
+            "choices": [
+              "The difference should be 5,485",
+              "The answer is correct",
+              "The difference should be 4,515"
+            ],
+            "correctAnswer": "The difference should be 4,515",
+            "feedback": "Correct. 7,000 - 2,485 = 4,515.",
+            "hint": "Check with addition: 2,485 + 4,515 = 7,000."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "True or False",
+            "prompt": "30,000 - 12,750 = 17,250.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. 12,750 + 17,250 = 30,000.",
+            "hint": "Use addition to check subtraction."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Subtract and Check",
+            "title": "Level Check",
+            "prompt": "What is 406,000 - 89,475?",
+            "choices": [
+              "317,525",
+              "316,525",
+              "315,525"
+            ],
+            "correctAnswer": "316,525",
+            "feedback": "Excellent. That is careful Grade 5 subtraction.",
+            "hint": "Regroup across zeros carefully."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-multiplication-strategies",
+      "title": "Multiplication Strategies",
+      "type": "lesson",
+      "learningGoal": "Students will use flexible multiplication strategies to multiply whole numbers and check that their answers are reasonable.",
+      "successCriteria": [
+        "I can connect multiplication to equal groups and arrays.",
+        "I can break numbers apart by place value to multiply.",
+        "I can use friendly numbers and compensation.",
+        "I can use partial products and estimates to check my answer."
+      ],
+      "vocabulary": [
+        "factor",
+        "product",
+        "equal groups",
+        "array",
+        "break apart",
+        "partial product",
+        "compensation",
+        "estimate",
+        "reasonable"
+      ],
+      "teacherOverview": "This student activity builds multiplication from equal groups into Grade 5 strategies such as break-apart thinking, compensation, partial products, and estimation. The final quiz checks the same strategies with new numbers.",
+      "lessonContent": "Students practise multiplication strategies through short interactive questions. They begin with equal groups, then use place value, friendly numbers, and partial products for larger numbers.",
+      "practiceIdeas": [
+        "Use the student activity to practise multiplication strategies before assigning the final quiz.",
+        "Have students explain which strategy they chose for one problem they solved.",
+        "Use incorrect quiz answers to identify which strategy needs review."
+      ],
+      "quiz": {
+        "title": "Multiplication Strategies Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question carefully. Use multiplication strategies and estimates to check your thinking. You will see your score at the end.",
+        "questions": [
+          {
+            "section": "Part A: Groups and Arrays",
+            "type": "multipleChoice",
+            "prompt": "A shelf has 7 rows with 9 books in each row. How many books are there?",
+            "choices": [
+              "56",
+              "63",
+              "72"
+            ],
+            "correctAnswer": "63",
+            "reviewNote": "Use 7 × 9 = 63."
+          },
+          {
+            "section": "Part A: Groups and Arrays",
+            "type": "multipleChoice",
+            "prompt": "Which pair of factors makes 48?",
+            "choices": [
+              "6 and 8",
+              "7 and 8",
+              "5 and 9"
+            ],
+            "correctAnswer": "6 and 8",
+            "reviewNote": "6 × 8 = 48."
+          },
+          {
+            "section": "Part A: Groups and Arrays",
+            "type": "trueFalse",
+            "prompt": "If 8 × 7 = 56, then 7 × 8 also equals 56.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The order of the factors can change, but the product stays the same."
+          },
+          {
+            "section": "Part A: Groups and Arrays",
+            "type": "multipleChoice",
+            "prompt": "What number makes 9 × ? = 81 true?",
+            "choices": [
+              "8",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "reviewNote": "9 × 9 = 81."
+          },
+          {
+            "section": "Part A: Groups and Arrays",
+            "type": "multipleChoice",
+            "prompt": "An array has 5 rows and 12 columns. What is the total?",
+            "choices": [
+              "50",
+              "60",
+              "72"
+            ],
+            "correctAnswer": "60",
+            "reviewNote": "5 × 12 = 60."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 18 × 7?",
+            "choices": [
+              "(10 × 7) + (8 × 7)",
+              "(10 × 8) + (7 × 7)",
+              "(18 × 10) - 7"
+            ],
+            "correctAnswer": "(10 × 7) + (8 × 7)",
+            "reviewNote": "Break 18 into 10 and 8."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "Use 24 × 6 = (20 × 6) + (4 × 6). What is the product?",
+            "choices": [
+              "134",
+              "154",
+              "144"
+            ],
+            "correctAnswer": "144",
+            "reviewNote": "120 + 24 = 144."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "trueFalse",
+            "prompt": "35 × 4 can be broken into 30 × 4 and 5 × 4.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "35 is 30 + 5."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "What is 46 × 5 using 40 × 5 and 6 × 5?",
+            "choices": [
+              "220",
+              "230",
+              "240"
+            ],
+            "correctAnswer": "230",
+            "reviewNote": "200 + 30 = 230."
+          },
+          {
+            "section": "Part B: Break Apart",
+            "type": "multipleChoice",
+            "prompt": "Which expression matches 57 × 3?",
+            "choices": [
+              "(50 × 3) + (7 × 3)",
+              "(50 × 7) + (3 × 3)",
+              "(57 × 10) - 3"
+            ],
+            "correctAnswer": "(50 × 3) + (7 × 3)",
+            "reviewNote": "57 is 50 + 7."
+          },
+          {
+            "section": "Part C: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 99 × 6?",
+            "choices": [
+              "(100 × 6) + (1 × 6)",
+              "(90 × 6) - 9",
+              "(100 × 6) - (1 × 6)"
+            ],
+            "correctAnswer": "(100 × 6) - (1 × 6)",
+            "reviewNote": "99 is one less than 100."
+          },
+          {
+            "section": "Part C: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "What is 49 × 7 using 50 × 7 - 7?",
+            "choices": [
+              "353",
+              "343",
+              "333"
+            ],
+            "correctAnswer": "343",
+            "reviewNote": "350 - 7 = 343."
+          },
+          {
+            "section": "Part C: Friendly Numbers",
+            "type": "trueFalse",
+            "prompt": "To solve 31 × 8 with compensation, you can do 30 × 8 - 8.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "31 is one more than 30, so you would add 8."
+          },
+          {
+            "section": "Part C: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "For 198 × 5, what should you do after 200 × 5?",
+            "choices": [
+              "subtract 10",
+              "add 10",
+              "subtract 5"
+            ],
+            "correctAnswer": "subtract 10",
+            "reviewNote": "198 is 2 less than 200, so subtract 2 groups of 5."
+          },
+          {
+            "section": "Part C: Friendly Numbers",
+            "type": "multipleChoice",
+            "prompt": "What is 102 × 4?",
+            "choices": [
+              "398",
+              "420",
+              "408"
+            ],
+            "correctAnswer": "408",
+            "reviewNote": "100 × 4 + 2 × 4 = 408."
+          },
+          {
+            "section": "Part D: Partial Products and Estimate",
+            "type": "multipleChoice",
+            "prompt": "Which estimate best checks 61 × 8?",
+            "choices": [
+              "50 × 8 = 400",
+              "60 × 8 = 480",
+              "61 × 10 = 610"
+            ],
+            "correctAnswer": "60 × 8 = 480",
+            "reviewNote": "61 is close to 60."
+          },
+          {
+            "section": "Part D: Partial Products and Estimate",
+            "type": "multipleChoice",
+            "prompt": "What is 32 × 14?",
+            "choices": [
+              "448",
+              "348",
+              "462"
+            ],
+            "correctAnswer": "448",
+            "reviewNote": "32 × 10 = 320 and 32 × 4 = 128, so 448."
+          },
+          {
+            "section": "Part D: Partial Products and Estimate",
+            "type": "trueFalse",
+            "prompt": "76 × 20 equals 1,520.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "76 × 2 = 152, so 76 × 20 = 1,520."
+          },
+          {
+            "section": "Part D: Partial Products and Estimate",
+            "type": "multipleChoice",
+            "prompt": "Which answer is reasonable for 87 × 4?",
+            "choices": [
+              "3,480",
+              "128",
+              "348"
+            ],
+            "correctAnswer": "348",
+            "reviewNote": "87 × 4 is close to 90 × 4 = 360."
+          },
+          {
+            "section": "Part D: Partial Products and Estimate",
+            "type": "trueFalse",
+            "prompt": "43 × 18 can be found with 43 × 10 plus 43 × 80.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "18 is 10 + 8, not 10 + 80."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "multiplicationStrategies",
+        "title": "Multiplication Mission",
+        "mission": "Earn practice stars by choosing smart multiplication strategies and checking for reasonable answers.",
+        "reward": {
+          "type": "stars",
+          "amount": 10,
+          "label": "Practice stars"
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Equal Groups",
+            "prompt": "There are 6 bags with 4 marbles in each bag. Which multiplication sentence matches?",
+            "choices": [
+              "6 × 4",
+              "6 + 4",
+              "6 - 4"
+            ],
+            "correctAnswer": "6 × 4",
+            "feedback": "Correct. 6 equal groups of 4 can be written as 6 × 4.",
+            "hint": "Look for the number of groups and the amount in each group."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Find the Product",
+            "prompt": "What is 7 × 8?",
+            "choices": [
+              "48",
+              "56",
+              "64"
+            ],
+            "correctAnswer": "56",
+            "feedback": "Correct. 7 groups of 8 make 56.",
+            "hint": "Think of 5 groups of 8, then 2 more groups of 8."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Array Thinking",
+            "prompt": "An array has 9 rows and 6 columns. How many items are in the array?",
+            "choices": [
+              "45",
+              "63",
+              "54"
+            ],
+            "correctAnswer": "54",
+            "feedback": "Correct. 9 × 6 = 54.",
+            "hint": "Rows times columns gives the total."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Factor Match",
+            "prompt": "Which pair of factors makes 72?",
+            "choices": [
+              "7 and 8",
+              "8 and 9",
+              "6 and 9"
+            ],
+            "correctAnswer": "8 and 9",
+            "feedback": "Correct. 8 × 9 = 72.",
+            "hint": "A factor pair multiplies to make the product."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Use a Known Fact",
+            "prompt": "If 6 × 7 = 42, what is 7 × 6?",
+            "choices": [
+              "42",
+              "36",
+              "49"
+            ],
+            "correctAnswer": "42",
+            "feedback": "Correct. The order can switch, but the product stays the same.",
+            "hint": "Multiplication can be turned around."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Missing Factor",
+            "prompt": "What number makes 5 × ? = 45 true?",
+            "choices": [
+              "8",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "feedback": "Correct. 5 × 9 = 45.",
+            "hint": "Count by fives until you reach 45."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Product Practice",
+            "prompt": "A classroom has 4 tables with 8 students at each table. How many students?",
+            "choices": [
+              "32",
+              "28",
+              "36"
+            ],
+            "correctAnswer": "32",
+            "feedback": "Correct. 4 × 8 = 32.",
+            "hint": "Use equal groups."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Quick Check",
+            "prompt": "Which equation has a product of 63?",
+            "choices": [
+              "6 × 8",
+              "7 × 9",
+              "8 × 8"
+            ],
+            "correctAnswer": "7 × 9",
+            "feedback": "Correct. 7 × 9 = 63.",
+            "hint": "Product means the answer to multiplication."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Split a Factor",
+            "prompt": "Which break-apart strategy helps solve 14 × 6?",
+            "choices": [
+              "(10 × 4) + (6 × 6)",
+              "(14 × 10) + 6",
+              "(10 × 6) + (4 × 6)"
+            ],
+            "correctAnswer": "(10 × 6) + (4 × 6)",
+            "feedback": "Correct. Break 14 into 10 and 4.",
+            "hint": "Split the two-digit number by place value."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Add Partial Products",
+            "prompt": "Use 12 × 7 = (10 × 7) + (2 × 7). What is 12 × 7?",
+            "choices": [
+              "84",
+              "74",
+              "94"
+            ],
+            "correctAnswer": "84",
+            "feedback": "Correct. 70 + 14 = 84.",
+            "hint": "Find each part, then add them."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Place Value Parts",
+            "prompt": "Which expression matches 23 × 5?",
+            "choices": [
+              "(20 × 3) + (5 × 5)",
+              "(20 × 5) + (3 × 5)",
+              "(23 × 10) - 5"
+            ],
+            "correctAnswer": "(20 × 5) + (3 × 5)",
+            "feedback": "Correct. 23 is 20 + 3.",
+            "hint": "Break 23 into tens and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Two Products",
+            "prompt": "What is 16 × 8 using 10 × 8 and 6 × 8?",
+            "choices": [
+              "118",
+              "136",
+              "128"
+            ],
+            "correctAnswer": "128",
+            "feedback": "Correct. 80 + 48 = 128.",
+            "hint": "Add the two partial products."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Bigger Factor",
+            "prompt": "Which break-apart strategy matches 34 × 6?",
+            "choices": [
+              "(30 × 4) + (6 × 6)",
+              "(30 × 6) + (4 × 6)",
+              "(34 × 10) - 6"
+            ],
+            "correctAnswer": "(30 × 6) + (4 × 6)",
+            "feedback": "Correct. 34 is 30 + 4.",
+            "hint": "Use tens and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Partial Product Sum",
+            "prompt": "Calculate 28 × 4 by using (20 × 4) + (8 × 4).",
+            "choices": [
+              "112",
+              "102",
+              "122"
+            ],
+            "correctAnswer": "112",
+            "feedback": "Correct. 80 + 32 = 112.",
+            "hint": "Do each part first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Choose the Strategy",
+            "prompt": "Which is a good way to solve 19 × 5?",
+            "choices": [
+              "(20 × 5) + (1 × 5)",
+              "(10 × 9) + 5",
+              "(20 × 5) - (1 × 5)"
+            ],
+            "correctAnswer": "(20 × 5) - (1 × 5)",
+            "feedback": "Correct. 19 is one less than 20.",
+            "hint": "A nearby friendly number can help."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Break Apart",
+            "title": "Level Check",
+            "prompt": "What is 42 × 7 using 40 × 7 and 2 × 7?",
+            "choices": [
+              "294",
+              "284",
+              "304"
+            ],
+            "correctAnswer": "294",
+            "feedback": "Correct. 280 + 14 = 294.",
+            "hint": "Multiply each place-value part."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Compensation",
+            "prompt": "Which strategy helps solve 29 × 6?",
+            "choices": [
+              "(30 × 6) + (1 × 6)",
+              "(30 × 6) - (1 × 6)",
+              "(20 × 6) - 9"
+            ],
+            "correctAnswer": "(30 × 6) - (1 × 6)",
+            "feedback": "Correct. 29 is one less than 30.",
+            "hint": "Use 30, then adjust down."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Adjust Down",
+            "prompt": "Use compensation: 49 × 8 = (50 × 8) - ?",
+            "choices": [
+              "49",
+              "50",
+              "8"
+            ],
+            "correctAnswer": "8",
+            "feedback": "Correct. You subtract one group of 8.",
+            "hint": "49 is one less than 50."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Find the Product",
+            "prompt": "What is 39 × 7 using 40 × 7 - 7?",
+            "choices": [
+              "273",
+              "263",
+              "287"
+            ],
+            "correctAnswer": "273",
+            "feedback": "Correct. 280 - 7 = 273.",
+            "hint": "Use 40 groups, then remove 1 group."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Friendly Number",
+            "prompt": "Which friendly number would help with 98 × 5?",
+            "choices": [
+              "90",
+              "100",
+              "95"
+            ],
+            "correctAnswer": "100",
+            "feedback": "Correct. 100 × 5 is easy, then subtract 2 groups of 5.",
+            "hint": "Pick a nearby number that is easy to multiply."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Compensation Amount",
+            "prompt": "For 102 × 6, which strategy works?",
+            "choices": [
+              "(100 × 6) - (2 × 6)",
+              "(102 × 10) - 6",
+              "(100 × 6) + (2 × 6)"
+            ],
+            "correctAnswer": "(100 × 6) + (2 × 6)",
+            "feedback": "Correct. 102 is 2 more than 100.",
+            "hint": "Adjust up when the number is more than the friendly number."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Mental Math",
+            "prompt": "What is 51 × 9 using 50 × 9 + 9?",
+            "choices": [
+              "450",
+              "459",
+              "469"
+            ],
+            "correctAnswer": "459",
+            "feedback": "Correct. 450 + 9 = 459.",
+            "hint": "51 is one more than 50."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Choose the Adjustment",
+            "prompt": "To solve 199 × 4, what should you do after 200 × 4?",
+            "choices": [
+              "subtract 4",
+              "add 4",
+              "subtract 199"
+            ],
+            "correctAnswer": "subtract 4",
+            "feedback": "Correct. 199 is one less than 200, so remove one group of 4.",
+            "hint": "One extra group was included."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Friendly Numbers",
+            "title": "Level Check",
+            "prompt": "What is 97 × 6 using 100 × 6 - 3 × 6?",
+            "choices": [
+              "592",
+              "572",
+              "582"
+            ],
+            "correctAnswer": "582",
+            "feedback": "Correct. 600 - 18 = 582.",
+            "hint": "97 is 3 less than 100."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Estimate First",
+            "prompt": "Which estimate is best for 48 × 7?",
+            "choices": [
+              "50 × 7 = 350",
+              "40 × 7 = 280",
+              "48 × 10 = 480"
+            ],
+            "correctAnswer": "50 × 7 = 350",
+            "feedback": "Correct. 48 is close to 50.",
+            "hint": "Round to a nearby friendly number."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Partial Products",
+            "prompt": "Use partial products: 36 × 24 = (36 × 20) + (36 × 4). What is the product?",
+            "choices": [
+              "744",
+              "864",
+              "896"
+            ],
+            "correctAnswer": "864",
+            "feedback": "Correct. 720 + 144 = 864.",
+            "hint": "Multiply by the tens part and the ones part."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Reasonable Answer",
+            "prompt": "Which answer is reasonable for 52 × 6?",
+            "choices": [
+              "3,120",
+              "82",
+              "312"
+            ],
+            "correctAnswer": "312",
+            "feedback": "Correct. 52 × 6 is close to 50 × 6 = 300.",
+            "hint": "Estimate to check the size of the answer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Two-Digit Strategy",
+            "prompt": "Which expression matches 43 × 18?",
+            "choices": [
+              "(43 × 10) + (43 × 8)",
+              "(43 × 1) + (43 × 8)",
+              "(40 × 18) - 3"
+            ],
+            "correctAnswer": "(43 × 10) + (43 × 8)",
+            "feedback": "Correct. 18 is 10 + 8.",
+            "hint": "Break the second factor apart."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Calculate Carefully",
+            "prompt": "What is 27 × 15?",
+            "choices": [
+              "375",
+              "405",
+              "415"
+            ],
+            "correctAnswer": "405",
+            "feedback": "Correct. 27 × 10 = 270 and 27 × 5 = 135, so 405.",
+            "hint": "Break 15 into 10 and 5."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Check the Estimate",
+            "prompt": "Before solving 89 × 6, which estimate helps?",
+            "choices": [
+              "80 × 6 = 480",
+              "89 × 10 = 890",
+              "90 × 6 = 540"
+            ],
+            "correctAnswer": "90 × 6 = 540",
+            "feedback": "Correct. 89 is close to 90.",
+            "hint": "Use a nearby multiple of ten."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Find the Product",
+            "prompt": "What is 124 × 3?",
+            "choices": [
+              "362",
+              "372",
+              "392"
+            ],
+            "correctAnswer": "372",
+            "feedback": "Correct. 100 × 3 + 20 × 3 + 4 × 3 = 372.",
+            "hint": "Break 124 into hundreds, tens, and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Partial Products and Estimate",
+            "title": "Mission Check",
+            "prompt": "What is 68 × 32?",
+            "choices": [
+              "2,176",
+              "2,076",
+              "2,286"
+            ],
+            "correctAnswer": "2,176",
+            "feedback": "Excellent. 68 × 30 = 2,040 and 68 × 2 = 136, so 2,176.",
+            "hint": "Break 32 into 30 and 2."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-division-strategies",
+      "title": "Division Strategies",
+      "type": "lesson",
+      "learningGoal": "Students will use flexible division strategies to divide whole numbers, estimate quotients, check with multiplication, and interpret remainders.",
+      "successCriteria": [
+        "I can connect division to equal groups and sharing.",
+        "I can use related multiplication facts to divide.",
+        "I can break numbers into friendly parts to divide.",
+        "I can estimate and check quotients, including answers with remainders."
+      ],
+      "vocabulary": [
+        "dividend",
+        "divisor",
+        "quotient",
+        "remainder",
+        "equal groups",
+        "related fact",
+        "partial quotient",
+        "estimate",
+        "check"
+      ],
+      "teacherOverview": "This student activity builds division from equal sharing and grouping into Grade 5 strategies such as related facts, partial quotients, estimation, checking with multiplication, and interpreting remainders in context.",
+      "lessonContent": "Students practise division through short interactive questions. They start with equal groups, then use multiplication facts, friendly parts, estimates, and remainder reasoning.",
+      "practiceIdeas": [
+        "Use the student activity before assigning the final quiz.",
+        "Ask students to explain whether a remainder should be rounded up, kept as a remainder, or ignored in a context.",
+        "Use final quiz review notes to decide which division strategy needs more practice."
+      ],
+      "quiz": {
+        "title": "Division Strategies Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each question carefully. Use division strategies, estimates, and multiplication checks. You will see your score at the end.",
+        "questions": [
+          {
+            "section": "Part A: Equal Groups",
+            "type": "multipleChoice",
+            "prompt": "54 markers are shared equally among 6 students. How many markers does each student get?",
+            "choices": [
+              "9",
+              "8",
+              "10"
+            ],
+            "correctAnswer": "9",
+            "reviewNote": "54 ÷ 6 = 9."
+          },
+          {
+            "section": "Part A: Equal Groups",
+            "type": "multipleChoice",
+            "prompt": "There are 72 chairs in rows of 8. How many rows are there?",
+            "choices": [
+              "8",
+              "10",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "reviewNote": "72 ÷ 8 = 9."
+          },
+          {
+            "section": "Part A: Equal Groups",
+            "type": "trueFalse",
+            "prompt": "36 ÷ 4 means 36 split into 4 equal groups.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Division can mean sharing into equal groups."
+          },
+          {
+            "section": "Part A: Equal Groups",
+            "type": "multipleChoice",
+            "prompt": "Which multiplication fact helps solve 63 ÷ 7?",
+            "choices": [
+              "7 × 8 = 56",
+              "7 × 9 = 63",
+              "6 × 9 = 54"
+            ],
+            "correctAnswer": "7 × 9 = 63",
+            "reviewNote": "Use the related multiplication fact."
+          },
+          {
+            "section": "Part A: Equal Groups",
+            "type": "multipleChoice",
+            "prompt": "What is 88 ÷ 11?",
+            "choices": [
+              "8",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "8",
+            "reviewNote": "11 × 8 = 88."
+          },
+          {
+            "section": "Part B: Related Facts",
+            "type": "multipleChoice",
+            "prompt": "If 12 × 9 = 108, what is 108 ÷ 12?",
+            "choices": [
+              "8",
+              "12",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "reviewNote": "108 ÷ 12 = 9."
+          },
+          {
+            "section": "Part B: Related Facts",
+            "type": "multipleChoice",
+            "prompt": "What number makes 7 × ? = 98 true?",
+            "choices": [
+              "12",
+              "14",
+              "16"
+            ],
+            "correctAnswer": "14",
+            "reviewNote": "7 × 14 = 98."
+          },
+          {
+            "section": "Part B: Related Facts",
+            "type": "trueFalse",
+            "prompt": "If 6 × 15 = 90, then 90 ÷ 15 = 5.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "90 ÷ 15 = 6."
+          },
+          {
+            "section": "Part B: Related Facts",
+            "type": "multipleChoice",
+            "prompt": "Which division sentence belongs with 13 × 4 = 52?",
+            "choices": [
+              "52 ÷ 4 = 13",
+              "52 ÷ 13 = 5",
+              "13 ÷ 4 = 52"
+            ],
+            "correctAnswer": "52 ÷ 4 = 13",
+            "reviewNote": "52 divided into 4 equal groups gives 13."
+          },
+          {
+            "section": "Part B: Related Facts",
+            "type": "multipleChoice",
+            "prompt": "What is 360 ÷ 10?",
+            "choices": [
+              "360",
+              "3,600",
+              "36"
+            ],
+            "correctAnswer": "36",
+            "reviewNote": "36 groups of 10 make 360."
+          },
+          {
+            "section": "Part C: Partial Quotients",
+            "type": "multipleChoice",
+            "prompt": "Which split uses two friendly parts to solve 168 ÷ 6?",
+            "choices": [
+              "100 + 68",
+              "120 + 48",
+              "160 + 80"
+            ],
+            "correctAnswer": "120 + 48",
+            "reviewNote": "120 and 48 both divide easily by 6, and together they make 168."
+          },
+          {
+            "section": "Part C: Partial Quotients",
+            "type": "multipleChoice",
+            "prompt": "Use 135 ÷ 5 = (100 ÷ 5) + (35 ÷ 5). What is the quotient?",
+            "choices": [
+              "27",
+              "25",
+              "29"
+            ],
+            "correctAnswer": "27",
+            "reviewNote": "20 + 7 = 27."
+          },
+          {
+            "section": "Part C: Partial Quotients",
+            "type": "trueFalse",
+            "prompt": "248 ÷ 4 can be broken into 200 ÷ 4 and 48 ÷ 4.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "200 + 48 = 248, and both parts divide by 4."
+          },
+          {
+            "section": "Part C: Partial Quotients",
+            "type": "multipleChoice",
+            "prompt": "What is 336 ÷ 7?",
+            "choices": [
+              "46",
+              "52",
+              "48"
+            ],
+            "correctAnswer": "48",
+            "reviewNote": "280 ÷ 7 = 40 and 56 ÷ 7 = 8, so 48."
+          },
+          {
+            "section": "Part C: Partial Quotients",
+            "type": "multipleChoice",
+            "prompt": "Which first chunk is helpful for 672 ÷ 8?",
+            "choices": [
+              "600 ÷ 8 = 80",
+              "640 ÷ 8 = 80",
+              "672 ÷ 10 = 67"
+            ],
+            "correctAnswer": "640 ÷ 8 = 80",
+            "reviewNote": "640 divides evenly by 8."
+          },
+          {
+            "section": "Part D: Remainders and Checks",
+            "type": "multipleChoice",
+            "prompt": "What is 59 ÷ 6?",
+            "choices": [
+              "9 R5",
+              "8 R11",
+              "10 R1"
+            ],
+            "correctAnswer": "9 R5",
+            "reviewNote": "6 × 9 = 54 with 5 left over."
+          },
+          {
+            "section": "Part D: Remainders and Checks",
+            "type": "multipleChoice",
+            "prompt": "41 students need tables. Each table seats 6 students. How many tables are needed?",
+            "choices": [
+              "6 tables",
+              "8 tables",
+              "7 tables"
+            ],
+            "correctAnswer": "7 tables",
+            "reviewNote": "6 tables seat 36 students, so one more table is needed."
+          },
+          {
+            "section": "Part D: Remainders and Checks",
+            "type": "trueFalse",
+            "prompt": "The remainder in a division answer can be larger than the divisor.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A remainder must be less than the divisor."
+          },
+          {
+            "section": "Part D: Remainders and Checks",
+            "type": "multipleChoice",
+            "prompt": "Which check proves 156 ÷ 12 = 13?",
+            "choices": [
+              "13 + 12 = 25",
+              "13 × 12 = 156",
+              "156 × 12 = 1,872"
+            ],
+            "correctAnswer": "13 × 12 = 156",
+            "reviewNote": "Use multiplication to check division."
+          },
+          {
+            "section": "Part D: Remainders and Checks",
+            "type": "trueFalse",
+            "prompt": "812 ÷ 4 = 203.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "4 × 203 = 812."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "divisionStrategies",
+        "title": "Division Quest",
+        "mission": "Earn practice stars by choosing smart division strategies, checking your quotient, and thinking carefully about remainders.",
+        "reward": {
+          "type": "stars",
+          "amount": 10,
+          "label": "Practice stars"
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Share Fairly",
+            "prompt": "36 counters are shared equally into 6 groups. How many are in each group?",
+            "choices": [
+              "5",
+              "6",
+              "7"
+            ],
+            "correctAnswer": "6",
+            "feedback": "Correct. 36 ÷ 6 = 6.",
+            "hint": "Think: 6 times what equals 36?"
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Find the Group Size",
+            "prompt": "48 pencils are packed into 8 equal boxes. How many pencils are in each box?",
+            "choices": [
+              "6",
+              "7",
+              "8"
+            ],
+            "correctAnswer": "6",
+            "feedback": "Correct. 48 ÷ 8 = 6.",
+            "hint": "Use a multiplication fact you know."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Count the Groups",
+            "prompt": "There are 45 stickers. Each page holds 5 stickers. How many pages are needed?",
+            "choices": [
+              "8",
+              "10",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "feedback": "Correct. 45 ÷ 5 = 9.",
+            "hint": "Count by fives to 45."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Division Sentence",
+            "prompt": "Which equation matches 56 cards split into 7 equal piles?",
+            "choices": [
+              "56 ÷ 8 = 7",
+              "56 ÷ 7 = 8",
+              "56 - 7 = 49"
+            ],
+            "correctAnswer": "56 ÷ 7 = 8",
+            "feedback": "Correct. 56 split into 7 groups gives 8 in each group.",
+            "hint": "The number of equal piles is the divisor."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Fact Match",
+            "prompt": "Which multiplication fact helps solve 72 ÷ 9?",
+            "choices": [
+              "9 × 8 = 72",
+              "9 × 7 = 63",
+              "8 × 8 = 64"
+            ],
+            "correctAnswer": "9 × 8 = 72",
+            "feedback": "Correct. Division and multiplication are connected.",
+            "hint": "Look for a fact with 72 as the product."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Quick Quotient",
+            "prompt": "What is 81 ÷ 9?",
+            "choices": [
+              "8",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "feedback": "Correct. 9 × 9 = 81.",
+            "hint": "Quotient means the answer to division."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Equal Teams",
+            "prompt": "64 students are put into 8 equal teams. How many students per team?",
+            "choices": [
+              "8",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "8",
+            "feedback": "Correct. 64 ÷ 8 = 8.",
+            "hint": "Use 8 times what equals 64."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Equal Groups",
+            "title": "Level Check",
+            "prompt": "What is 42 ÷ 6?",
+            "choices": [
+              "6",
+              "7",
+              "8"
+            ],
+            "correctAnswer": "7",
+            "feedback": "Correct. 6 × 7 = 42.",
+            "hint": "Use the related multiplication fact."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Fact Family",
+            "prompt": "If 7 × 8 = 56, what is 56 ÷ 8?",
+            "choices": [
+              "8",
+              "6",
+              "7"
+            ],
+            "correctAnswer": "7",
+            "feedback": "Correct. 56 ÷ 8 = 7.",
+            "hint": "Use the factor that is missing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Missing Number",
+            "prompt": "What number makes ? × 6 = 54 true?",
+            "choices": [
+              "9",
+              "8",
+              "7"
+            ],
+            "correctAnswer": "9",
+            "feedback": "Correct. 9 × 6 = 54.",
+            "hint": "This helps solve 54 ÷ 6."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Turn It Around",
+            "prompt": "Which division sentence belongs with 12 × 4 = 48?",
+            "choices": [
+              "48 ÷ 12 = 4",
+              "48 ÷ 4 = 12",
+              "12 ÷ 4 = 3"
+            ],
+            "correctAnswer": "48 ÷ 4 = 12",
+            "feedback": "Correct. 48 divided by 4 equal groups gives 12.",
+            "hint": "The product becomes the number being divided."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Quotient Practice",
+            "prompt": "What is 96 ÷ 12?",
+            "choices": [
+              "7",
+              "9",
+              "8"
+            ],
+            "correctAnswer": "8",
+            "feedback": "Correct. 12 × 8 = 96.",
+            "hint": "Think of 12 times tables."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Choose the Fact",
+            "prompt": "Which fact helps solve 84 ÷ 7?",
+            "choices": [
+              "7 × 11 = 77",
+              "7 × 12 = 84",
+              "8 × 12 = 96"
+            ],
+            "correctAnswer": "7 × 12 = 84",
+            "feedback": "Correct. 84 ÷ 7 = 12.",
+            "hint": "Find a multiplication fact with 84."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Divide by Ten",
+            "prompt": "What is 250 ÷ 10?",
+            "choices": [
+              "25",
+              "250",
+              "2,500"
+            ],
+            "correctAnswer": "25",
+            "feedback": "Correct. 25 groups of 10 make 250.",
+            "hint": "Dividing by 10 makes the number ten times smaller."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Missing Divisor",
+            "prompt": "72 ÷ ? = 8. What is the missing number?",
+            "choices": [
+              "8",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "9",
+            "feedback": "Correct. 72 ÷ 9 = 8.",
+            "hint": "Ask: 8 times what equals 72?"
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Related Facts",
+            "title": "Level Check",
+            "prompt": "What is 132 ÷ 11?",
+            "choices": [
+              "12",
+              "11",
+              "13"
+            ],
+            "correctAnswer": "12",
+            "feedback": "Correct. 11 × 12 = 132.",
+            "hint": "Use the related multiplication fact."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Break Apart",
+            "prompt": "Which break-apart strategy helps solve 84 ÷ 4?",
+            "choices": [
+              "(80 ÷ 8) + (4 ÷ 4)",
+              "(80 ÷ 4) + (4 ÷ 4)",
+              "(84 ÷ 8) + 4"
+            ],
+            "correctAnswer": "(80 ÷ 4) + (4 ÷ 4)",
+            "feedback": "Correct. Break 84 into 80 and 4.",
+            "hint": "Choose parts that divide easily by 4."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Add the Parts",
+            "prompt": "Use 96 ÷ 3 = (90 ÷ 3) + (6 ÷ 3). What is 96 ÷ 3?",
+            "choices": [
+              "23",
+              "33",
+              "32"
+            ],
+            "correctAnswer": "32",
+            "feedback": "Correct. 30 + 2 = 32.",
+            "hint": "Divide each part, then add."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Friendly Parts",
+            "prompt": "Which split helps solve 156 ÷ 6?",
+            "choices": [
+              "120 + 36",
+              "100 + 56",
+              "150 + 6"
+            ],
+            "correctAnswer": "120 + 36",
+            "feedback": "Correct. 120 and 36 are both easy to divide by 6.",
+            "hint": "Pick parts that divide nicely."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Find the Quotient",
+            "prompt": "What is 156 ÷ 6 using 120 ÷ 6 and 36 ÷ 6?",
+            "choices": [
+              "24",
+              "26",
+              "28"
+            ],
+            "correctAnswer": "26",
+            "feedback": "Correct. 20 + 6 = 26.",
+            "hint": "Add the partial quotients."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Break Hundreds",
+            "prompt": "Which strategy matches 248 ÷ 4?",
+            "choices": [
+              "(240 ÷ 8) + (8 ÷ 4)",
+              "(248 ÷ 2) + 4",
+              "(200 ÷ 4) + (48 ÷ 4)"
+            ],
+            "correctAnswer": "(200 ÷ 4) + (48 ÷ 4)",
+            "feedback": "Correct. 200 ÷ 4 = 50 and 48 ÷ 4 = 12.",
+            "hint": "Use place value and friendly parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Partial Quotient Sum",
+            "prompt": "What is 248 ÷ 4?",
+            "choices": [
+              "52",
+              "62",
+              "72"
+            ],
+            "correctAnswer": "62",
+            "feedback": "Correct. 50 + 12 = 62.",
+            "hint": "Use 200 ÷ 4 and 48 ÷ 4."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Choose the First Chunk",
+            "prompt": "For 432 ÷ 6, which is a helpful first chunk?",
+            "choices": [
+              "360 ÷ 6 = 60",
+              "400 ÷ 6 = 60",
+              "432 ÷ 10 = 43"
+            ],
+            "correctAnswer": "360 ÷ 6 = 60",
+            "feedback": "Correct. 360 divides evenly by 6.",
+            "hint": "A first chunk should be easy to divide."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Partial Quotients",
+            "title": "Level Check",
+            "prompt": "What is 432 ÷ 6?",
+            "choices": [
+              "62",
+              "82",
+              "72"
+            ],
+            "correctAnswer": "72",
+            "feedback": "Correct. 360 ÷ 6 = 60 and 72 ÷ 6 = 12, so 72.",
+            "hint": "Break the number into friendly parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Estimate First",
+            "prompt": "Which estimate helps check 389 ÷ 8?",
+            "choices": [
+              "400 ÷ 8 = 50",
+              "300 ÷ 8 = 40",
+              "389 ÷ 10 = 38"
+            ],
+            "correctAnswer": "400 ÷ 8 = 50",
+            "feedback": "Correct. 389 is close to 400.",
+            "hint": "Use a nearby number that divides easily."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Remainder Meaning",
+            "prompt": "29 students need vans. Each van holds 6 students. How many vans are needed?",
+            "choices": [
+              "4 vans",
+              "5 vans",
+              "6 vans"
+            ],
+            "correctAnswer": "5 vans",
+            "feedback": "Correct. 4 vans hold only 24 students, so a fifth van is needed.",
+            "hint": "A leftover student still needs a seat."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Find the Remainder",
+            "prompt": "What is 47 ÷ 5?",
+            "choices": [
+              "8 R7",
+              "10 R3",
+              "9 R2"
+            ],
+            "correctAnswer": "9 R2",
+            "feedback": "Correct. 5 × 9 = 45 with 2 left over.",
+            "hint": "The remainder must be less than the divisor."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Check with Multiplication",
+            "prompt": "Which check proves 138 ÷ 6 = 23?",
+            "choices": [
+              "23 × 6 = 138",
+              "23 + 6 = 29",
+              "138 × 6 = 828"
+            ],
+            "correctAnswer": "23 × 6 = 138",
+            "feedback": "Correct. Multiply the quotient by the divisor.",
+            "hint": "Division can be checked with multiplication."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Reasonable Answer",
+            "prompt": "Which answer is reasonable for 615 ÷ 5?",
+            "choices": [
+              "1,230",
+              "123",
+              "13"
+            ],
+            "correctAnswer": "123",
+            "feedback": "Correct. 600 ÷ 5 = 120, so 123 is reasonable.",
+            "hint": "Estimate first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Careful Division",
+            "prompt": "What is 738 ÷ 6?",
+            "choices": [
+              "113",
+              "132",
+              "123"
+            ],
+            "correctAnswer": "123",
+            "feedback": "Correct. 6 × 123 = 738.",
+            "hint": "Break 738 into 600, 120, and 18."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Interpret the Remainder",
+            "prompt": "34 apples are packed 8 per bag. How many full bags can be made?",
+            "choices": [
+              "5 full bags",
+              "4 full bags",
+              "3 full bags"
+            ],
+            "correctAnswer": "4 full bags",
+            "feedback": "Correct. 4 full bags use 32 apples, with 2 left over.",
+            "hint": "Full bags cannot include a partial bag."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Remainders and Checks",
+            "title": "Mission Check",
+            "prompt": "What is 925 ÷ 5?",
+            "choices": [
+              "185",
+              "175",
+              "195"
+            ],
+            "correctAnswer": "185",
+            "feedback": "Excellent. 5 × 185 = 925.",
+            "hint": "Use 900 ÷ 5 and 25 ÷ 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-multi-step-word-problems",
+      "title": "Multi-Step Word Problems",
+      "type": "lesson",
+      "learningGoal": "Students will solve multi-step word problems by choosing the correct operations, solving in a sensible order, and checking whether answers are reasonable.",
+      "successCriteria": [
+        "I can identify what a word problem is asking.",
+        "I can choose the operation or operations needed.",
+        "I can solve two-step and multi-step problems in a sensible order.",
+        "I can estimate or check my answer to see if it makes sense."
+      ],
+      "vocabulary": [
+        "operation",
+        "multi-step problem",
+        "hidden step",
+        "estimate",
+        "reasonable",
+        "equation",
+        "remainder",
+        "compare"
+      ],
+      "teacherOverview": "This student activity helps Grade 5 students slow down and plan before solving word problems. It reviews all four operations from Unit 1 and emphasizes operation choice, order of steps, reasonable estimates, and interpreting remainders.",
+      "lessonContent": "Students practise short, interactive word problems. They begin by choosing a plan, then solve two-step problems, multiplication and division stories, and mixed problems that require checking the meaning of the answer.",
+      "practiceIdeas": [
+        "Have students underline the final question before solving a word problem.",
+        "Ask students to say the operation plan before calculating.",
+        "Use incorrect quiz answers to review whether the student missed the first step, chose the wrong operation, or made a calculation error."
+      ],
+      "quiz": {
+        "title": "Multi-Step Word Problems Final Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Read each problem carefully. Choose the best answer. You will see your score and review notes at the end.",
+        "questions": [
+          {
+            "section": "Part A: Make a Plan",
+            "type": "multipleChoice",
+            "prompt": "A class has 28 books and gets 17 more. Then 9 books are returned to the library. What should be done first?",
+            "choices": [
+              "28 - 9",
+              "28 + 17",
+              "17 + 9"
+            ],
+            "correctAnswer": "28 + 17",
+            "reviewNote": "Follow the story order: first the class gets more books."
+          },
+          {
+            "section": "Part A: Make a Plan",
+            "type": "multipleChoice",
+            "prompt": "A box has 6 rows of 14 tiles and 8 extra tiles. Which operations are needed?",
+            "choices": [
+              "multiply, then add",
+              "add, then divide",
+              "subtract, then multiply"
+            ],
+            "correctAnswer": "multiply, then add",
+            "reviewNote": "Equal rows point to multiplication, then add the extras."
+          },
+          {
+            "section": "Part A: Make a Plan",
+            "type": "trueFalse",
+            "prompt": "In a multi-step word problem, it can help to find the hidden first step before answering the final question.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Many word problems need one answer before the final answer."
+          },
+          {
+            "section": "Part A: Make a Plan",
+            "type": "multipleChoice",
+            "prompt": "A school needs 700 points. It has 425 points and earns 138 more. What is the final question probably asking?",
+            "choices": [
+              "how many students are in school",
+              "how many points were lost",
+              "how many more points are needed"
+            ],
+            "correctAnswer": "how many more points are needed",
+            "reviewNote": "After earning points, compare to the goal."
+          },
+          {
+            "section": "Part A: Make a Plan",
+            "type": "multipleChoice",
+            "prompt": "Which estimate helps check 49 × 21?",
+            "choices": [
+              "40 × 20 = 800",
+              "50 × 20 = 1,000",
+              "50 + 20 = 70"
+            ],
+            "correctAnswer": "50 × 20 = 1,000",
+            "reviewNote": "Use nearby friendly numbers for multiplication."
+          },
+          {
+            "section": "Part B: Add and Subtract Steps",
+            "type": "multipleChoice",
+            "prompt": "A store has 650 pencils. It sells 185, then receives 92 more. How many pencils are there now?",
+            "choices": [
+              "557",
+              "465",
+              "567"
+            ],
+            "correctAnswer": "557",
+            "reviewNote": "650 - 185 = 465, then 465 + 92 = 557."
+          },
+          {
+            "section": "Part B: Add and Subtract Steps",
+            "type": "multipleChoice",
+            "prompt": "A goal is 900 cans. Students collect 276 cans and then 318 cans. How many more are needed?",
+            "choices": [
+              "594",
+              "316",
+              "306"
+            ],
+            "correctAnswer": "306",
+            "reviewNote": "276 + 318 = 594, then 900 - 594 = 306."
+          },
+          {
+            "section": "Part B: Add and Subtract Steps",
+            "type": "trueFalse",
+            "prompt": "If a problem asks how many are left after two amounts are used, you can add the used amounts first.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Adding the used amounts first helps you subtract once from the starting amount."
+          },
+          {
+            "section": "Part B: Add and Subtract Steps",
+            "type": "multipleChoice",
+            "prompt": "A student has $130. She spends $45 and then earns $28. How much does she have?",
+            "choices": [
+              "$85",
+              "$113",
+              "$123"
+            ],
+            "correctAnswer": "$113",
+            "reviewNote": "130 - 45 = 85, then 85 + 28 = 113."
+          },
+          {
+            "section": "Part B: Add and Subtract Steps",
+            "type": "multipleChoice",
+            "prompt": "Team Red scores 184 and 97. Team Blue scores 300. How many more points does Team Blue have?",
+            "choices": [
+              "19",
+              "281",
+              "29"
+            ],
+            "correctAnswer": "19",
+            "reviewNote": "Team Red has 281, and 300 - 281 = 19."
+          },
+          {
+            "section": "Part C: Multiply or Divide First",
+            "type": "multipleChoice",
+            "prompt": "There are 8 boxes with 32 crayons in each box. The teacher gives away 75 crayons. How many crayons are left?",
+            "choices": [
+              "256",
+              "191",
+              "181"
+            ],
+            "correctAnswer": "181",
+            "reviewNote": "8 × 32 = 256, then 256 - 75 = 181."
+          },
+          {
+            "section": "Part C: Multiply or Divide First",
+            "type": "multipleChoice",
+            "prompt": "120 cards are shared among 10 students. Each student gets 4 more cards. How many cards does each student get?",
+            "choices": [
+              "12",
+              "16",
+              "14"
+            ],
+            "correctAnswer": "16",
+            "reviewNote": "120 ÷ 10 = 12, then 12 + 4 = 16."
+          },
+          {
+            "section": "Part C: Multiply or Divide First",
+            "type": "trueFalse",
+            "prompt": "If 38 students ride in vans that hold 8 students each, 4 vans are enough.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "4 vans hold 32 students, so 5 vans are needed."
+          },
+          {
+            "section": "Part C: Multiply or Divide First",
+            "type": "multipleChoice",
+            "prompt": "A bakery has 11 trays with 24 cookies each and sells 80 cookies. How many cookies are left?",
+            "choices": [
+              "184",
+              "264",
+              "194"
+            ],
+            "correctAnswer": "184",
+            "reviewNote": "11 × 24 = 264, then 264 - 80 = 184."
+          },
+          {
+            "section": "Part C: Multiply or Divide First",
+            "type": "multipleChoice",
+            "prompt": "144 papers are put equally into 12 folders. Then 5 papers are added to each folder. How many papers are in each folder?",
+            "choices": [
+              "12",
+              "19",
+              "17"
+            ],
+            "correctAnswer": "17",
+            "reviewNote": "144 ÷ 12 = 12, then 12 + 5 = 17."
+          },
+          {
+            "section": "Part D: Mixed Problem Solving",
+            "type": "multipleChoice",
+            "prompt": "A school buys 7 packs of 18 markers and 4 packs of 25 markers. How many markers are bought?",
+            "choices": [
+              "126",
+              "226",
+              "236"
+            ],
+            "correctAnswer": "226",
+            "reviewNote": "7 × 18 = 126 and 4 × 25 = 100, then add to get 226."
+          },
+          {
+            "section": "Part D: Mixed Problem Solving",
+            "type": "multipleChoice",
+            "prompt": "A club has 500 tickets. It sells 8 groups of 37 tickets. How many tickets are left?",
+            "choices": [
+              "204",
+              "296",
+              "214"
+            ],
+            "correctAnswer": "204",
+            "reviewNote": "8 × 37 = 296, then 500 - 296 = 204."
+          },
+          {
+            "section": "Part D: Mixed Problem Solving",
+            "type": "trueFalse",
+            "prompt": "If an answer is about 3,000 but your estimate is about 300, you should check your work.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A very different estimate is a warning sign."
+          },
+          {
+            "section": "Part D: Mixed Problem Solving",
+            "type": "multipleChoice",
+            "prompt": "95 books are packed 12 per box. How many full boxes can be packed?",
+            "choices": [
+              "8 full boxes",
+              "9 full boxes",
+              "7 full boxes"
+            ],
+            "correctAnswer": "7 full boxes",
+            "reviewNote": "7 full boxes use 84 books. 8 full boxes would need 96 books."
+          },
+          {
+            "section": "Part D: Mixed Problem Solving",
+            "type": "trueFalse",
+            "prompt": "For 125 pencils packed 10 per box, there are 13 full boxes and 5 pencils left over.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "There are 12 full boxes and 5 pencils left over. 13 full boxes would need 130 pencils."
+          }
+        ]
+      },
+      "studentActivity": {
+        "type": "multiStepWordProblems",
+        "title": "Problem Solver Mission",
+        "mission": "Earn practice stars by choosing a plan, solving in steps, and checking that each answer makes sense.",
+        "reward": {
+          "type": "stars",
+          "amount": 10,
+          "label": "Practice stars"
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Choose the First Step",
+            "prompt": "Mia has 36 stickers. She buys 18 more, then gives 20 away. What should she do first?",
+            "choices": [
+              "36 - 20",
+              "18 + 20",
+              "36 + 18"
+            ],
+            "correctAnswer": "36 + 18",
+            "feedback": "Correct. First find how many stickers she has after buying more.",
+            "hint": "Follow the story in order."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Choose the Operations",
+            "prompt": "A class has 4 boxes of 12 pencils and 9 extra pencils. Which operations are needed?",
+            "choices": [
+              "multiply, then add",
+              "add, then subtract",
+              "divide, then add"
+            ],
+            "correctAnswer": "multiply, then add",
+            "feedback": "Correct. Find 4 groups of 12, then add 9.",
+            "hint": "Boxes of the same size usually means multiplication."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Question Clue",
+            "prompt": "A bus has 48 seats. There are 35 students and 6 adults. What is the problem asking?",
+            "choices": [
+              "how many buses are needed",
+              "how many seats are left",
+              "how many students are there"
+            ],
+            "correctAnswer": "how many seats are left",
+            "feedback": "Correct. It asks what remains after people sit down.",
+            "hint": "Look for what the final question asks."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Hidden Step",
+            "prompt": "A store had 90 apples. It sold 24 in the morning and 31 in the afternoon. What hidden step helps?",
+            "choices": [
+              "90 + 24",
+              "31 - 24",
+              "24 + 31"
+            ],
+            "correctAnswer": "24 + 31",
+            "feedback": "Correct. First find how many apples were sold altogether.",
+            "hint": "Combine the two amounts sold."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Pick the Equation",
+            "prompt": "A teacher makes 6 groups of 8 cards, then adds 5 more cards. Which equation matches?",
+            "choices": [
+              "(6 × 8) + 5",
+              "(6 + 8) × 5",
+              "(6 × 5) + 8"
+            ],
+            "correctAnswer": "(6 × 8) + 5",
+            "feedback": "Correct. Make 6 equal groups, then add 5.",
+            "hint": "Use parentheses for the first step."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Estimate the Answer",
+            "prompt": "Luca buys items for $48 and $31. About how much did he spend?",
+            "choices": [
+              "about $20",
+              "about $80",
+              "about $120"
+            ],
+            "correctAnswer": "about $80",
+            "feedback": "Correct. 48 is close to 50 and 31 is close to 30.",
+            "hint": "Round before estimating."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Reasonable or Not",
+            "prompt": "A school has 9 classes with about 28 students each. Is 2,500 students reasonable?",
+            "choices": [
+              "No",
+              "Yes",
+              "Maybe, because 9 is close to 10"
+            ],
+            "correctAnswer": "No",
+            "feedback": "Correct. 10 groups of 30 is about 300, not 2,500.",
+            "hint": "Estimate with friendly numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Make a Plan",
+            "title": "Level Check",
+            "prompt": "Nora has 120 beads. She uses 35 red beads and 28 blue beads. What should she find first?",
+            "choices": [
+              "120 + 35",
+              "120 ÷ 28",
+              "35 + 28"
+            ],
+            "correctAnswer": "35 + 28",
+            "feedback": "Correct. First find the total beads used.",
+            "hint": "The two used amounts go together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Two-Step Difference",
+            "prompt": "A library had 245 books on a shelf. Students borrowed 68, then returned 19. How many books are on the shelf now?",
+            "choices": [
+              "177",
+              "196",
+              "226"
+            ],
+            "correctAnswer": "196",
+            "feedback": "Correct. 245 - 68 = 177, then 177 + 19 = 196.",
+            "hint": "Subtract borrowed books, then add returned books."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Combine Then Subtract",
+            "prompt": "A goal is 500 cans. One class collects 138 cans and another collects 207. How many more cans are needed?",
+            "choices": [
+              "155",
+              "345",
+              "165"
+            ],
+            "correctAnswer": "155",
+            "feedback": "Correct. 138 + 207 = 345, then 500 - 345 = 155.",
+            "hint": "Find the total collected first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Compare Totals",
+            "prompt": "Team A scores 126 points and then 98 points. Team B scores 240 points. How many more points does Team B have?",
+            "choices": [
+              "26",
+              "14",
+              "16"
+            ],
+            "correctAnswer": "16",
+            "feedback": "Correct. Team A has 224, and 240 - 224 = 16.",
+            "hint": "Add Team A first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Money Story",
+            "prompt": "A student saves $75, gets $40 for a birthday, then spends $28. How much money is left?",
+            "choices": [
+              "$115",
+              "$87",
+              "$97"
+            ],
+            "correctAnswer": "$87",
+            "feedback": "Correct. 75 + 40 = 115, then 115 - 28 = 87.",
+            "hint": "Money received is added, money spent is subtracted."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "More Than One Step",
+            "prompt": "A garden has 340 seeds. 125 are planted Monday and 96 Tuesday. How many seeds are left?",
+            "choices": [
+              "119",
+              "221",
+              "129"
+            ],
+            "correctAnswer": "119",
+            "feedback": "Correct. 125 + 96 = 221, then 340 - 221 = 119.",
+            "hint": "Find the total planted first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Missing Amount",
+            "prompt": "A fundraiser needs $600. It has $245 and then earns $189 more. How much more is needed?",
+            "choices": [
+              "$434",
+              "$176",
+              "$166"
+            ],
+            "correctAnswer": "$166",
+            "feedback": "Correct. 245 + 189 = 434, then 600 - 434 = 166.",
+            "hint": "Find how much they have now."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Check the Order",
+            "prompt": "A tank has 850 L of water. 275 L are used, then 190 L are added. How much water is in the tank?",
+            "choices": [
+              "385 L",
+              "765 L",
+              "675 L"
+            ],
+            "correctAnswer": "765 L",
+            "feedback": "Correct. 850 - 275 = 575, then 575 + 190 = 765.",
+            "hint": "The story says use first, then add."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Steps",
+            "title": "Level Check",
+            "prompt": "A store starts with 1,000 flyers. It gives out 325 in the morning and 418 in the afternoon. How many are left?",
+            "choices": [
+              "257",
+              "743",
+              "267"
+            ],
+            "correctAnswer": "257",
+            "feedback": "Correct. 325 + 418 = 743, then 1,000 - 743 = 257.",
+            "hint": "Total given out comes first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Equal Groups First",
+            "prompt": "There are 7 boxes with 24 markers in each box. The teacher gives away 35 markers. How many are left?",
+            "choices": [
+              "168",
+              "143",
+              "133"
+            ],
+            "correctAnswer": "133",
+            "feedback": "Correct. 7 × 24 = 168, then 168 - 35 = 133.",
+            "hint": "Find the total markers first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Share Then Add",
+            "prompt": "96 cards are shared equally among 8 players. Each player also gets 3 bonus cards. How many cards does each player get?",
+            "choices": [
+              "12",
+              "15",
+              "18"
+            ],
+            "correctAnswer": "15",
+            "feedback": "Correct. 96 ÷ 8 = 12, then 12 + 3 = 15.",
+            "hint": "Find the fair share first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Groups and Extras",
+            "prompt": "A bakery packs 18 muffins in each tray. There are 9 trays and 14 extra muffins. How many muffins are there?",
+            "choices": [
+              "176",
+              "162",
+              "186"
+            ],
+            "correctAnswer": "176",
+            "feedback": "Correct. 18 × 9 = 162, then 162 + 14 = 176.",
+            "hint": "Multiply trays first, then add extras."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Divide Then Compare",
+            "prompt": "180 stickers are shared equally among 6 students. Sam has 42 stickers. How many fewer stickers does one student get than Sam?",
+            "choices": [
+              "30",
+              "18",
+              "12"
+            ],
+            "correctAnswer": "12",
+            "feedback": "Correct. 180 ÷ 6 = 30, then 42 - 30 = 12.",
+            "hint": "Find one student share first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Multiply Then Subtract",
+            "prompt": "A theatre has 12 rows with 25 seats in each row. If 64 seats are empty, how many seats are filled?",
+            "choices": [
+              "300",
+              "236",
+              "246"
+            ],
+            "correctAnswer": "236",
+            "feedback": "Correct. 12 × 25 = 300, then 300 - 64 = 236.",
+            "hint": "Find all seats first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Use Division",
+            "prompt": "A teacher has 144 sheets of paper. She puts 12 sheets in each folder and keeps 4 folders. How many sheets are in those folders?",
+            "choices": [
+              "48",
+              "12",
+              "56"
+            ],
+            "correctAnswer": "48",
+            "feedback": "Correct. 4 folders with 12 sheets each is 48.",
+            "hint": "The 144 is extra information for this question."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Remainder Context",
+            "prompt": "50 students ride in vans that hold 8 students each. How many vans are needed?",
+            "choices": [
+              "6 vans",
+              "8 vans",
+              "7 vans"
+            ],
+            "correctAnswer": "7 vans",
+            "feedback": "Correct. 6 vans hold 48 students, so 1 more van is needed.",
+            "hint": "A leftover student still needs a seat."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply or Divide First",
+            "title": "Level Check",
+            "prompt": "A farm has 15 baskets with 18 apples each. It sells 95 apples. How many apples are left?",
+            "choices": [
+              "270",
+              "175",
+              "185"
+            ],
+            "correctAnswer": "175",
+            "feedback": "Correct. 15 × 18 = 270, then 270 - 95 = 175.",
+            "hint": "Multiply first, then subtract."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Three Steps",
+            "prompt": "A school orders 8 boxes of 30 notebooks and 6 boxes of 25 notebooks. How many notebooks are ordered?",
+            "choices": [
+              "390",
+              "240",
+              "400"
+            ],
+            "correctAnswer": "390",
+            "feedback": "Correct. 8 × 30 = 240 and 6 × 25 = 150, then 240 + 150 = 390.",
+            "hint": "Find each group total, then add."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Choose the Better Answer",
+            "prompt": "A trip costs $18 per student for 24 students. The class has $500. About how much money will be left?",
+            "choices": [
+              "about $430",
+              "about $20",
+              "about $70"
+            ],
+            "correctAnswer": "about $70",
+            "feedback": "Correct. 18 × 24 is about 20 × 25 = 500, but exact cost is 432, leaving 68.",
+            "hint": "Estimate first, then think about the exact amount."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Two Groups",
+            "prompt": "A coach buys 5 packs of 16 cones and 3 packs of 12 cones. How many cones does the coach buy?",
+            "choices": [
+              "80",
+              "116",
+              "126"
+            ],
+            "correctAnswer": "116",
+            "feedback": "Correct. 5 × 16 = 80 and 3 × 12 = 36, so 116.",
+            "hint": "Find both pack totals."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Leftover Meaning",
+            "prompt": "123 books are packed into boxes of 10. How many full boxes and books left over?",
+            "choices": [
+              "12 boxes and 3 left",
+              "13 boxes and 3 left",
+              "12 boxes and 30 left"
+            ],
+            "correctAnswer": "12 boxes and 3 left",
+            "feedback": "Correct. 12 full boxes hold 120 books, with 3 left.",
+            "hint": "A full box needs 10 books."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Compare Plans",
+            "prompt": "Plan A costs $145 plus $38. Plan B costs $200. How much cheaper is Plan B or Plan A?",
+            "choices": [
+              "Plan B is $17 cheaper",
+              "They cost the same",
+              "Plan A is $17 cheaper"
+            ],
+            "correctAnswer": "Plan A is $17 cheaper",
+            "feedback": "Correct. Plan A costs $183, which is $17 less than $200.",
+            "hint": "Find Plan A total first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Estimate Check",
+            "prompt": "A store sells 29 packs with 21 cards in each pack. Is 609 a reasonable total?",
+            "choices": [
+              "No, it should be about 60",
+              "Yes",
+              "No, it should be about 6,000"
+            ],
+            "correctAnswer": "Yes",
+            "feedback": "Correct. 29 × 21 is close to 30 × 20 = 600.",
+            "hint": "Estimate with friendly numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Find the Missing Step",
+            "prompt": "A class needs 240 points. They earn 9 badges worth 18 points each. What should they do after 9 × 18?",
+            "choices": [
+              "subtract from 240",
+              "divide by 18",
+              "add 240"
+            ],
+            "correctAnswer": "subtract from 240",
+            "feedback": "Correct. After finding points earned, subtract from the goal.",
+            "hint": "The question asks how many more points are needed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Problem Solving",
+            "title": "Mission Check",
+            "prompt": "A club has 420 tickets. It sells 6 groups of 45 tickets. How many tickets are left?",
+            "choices": [
+              "270",
+              "160",
+              "150"
+            ],
+            "correctAnswer": "150",
+            "feedback": "Excellent. 6 × 45 = 270, then 420 - 270 = 150.",
+            "hint": "Multiply the groups sold first, then subtract."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-review",
+      "title": "Review",
+      "type": "review",
+      "teacherOverview": "This review activity mixes the major ideas from Grade 5 Math Unit 1. It is intended as practice before the Unit Test and should help students switch between strategies instead of practising one skill at a time.",
+      "practiceIdeas": [
+        "Assign the review mission before the Unit Test.",
+        "Use the final review quiz to see which lesson topics need one more practice round.",
+        "Encourage students to estimate before calculating when the numbers are large."
+      ],
+      "quiz": {
+        "title": "Unit 1 Review Quiz",
+        "type": "finalLessonQuiz",
+        "instructions": "Answer each review question carefully. This quiz mixes skills from the whole unit. You will see your score and review notes at the end.",
+        "questions": [
+          {
+            "section": "Part A: Number Sense",
+            "type": "multipleChoice",
+            "prompt": "In 735,842, what is the value of the 3?",
+            "choices": [
+              "3,000",
+              "300,000",
+              "30,000"
+            ],
+            "correctAnswer": "30,000",
+            "reviewNote": "The 3 is in the ten thousands place."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "type": "multipleChoice",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "680,415",
+              "680,145",
+              "679,999"
+            ],
+            "correctAnswer": "680,415",
+            "reviewNote": "Compare from left to right."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "type": "multipleChoice",
+            "prompt": "Round 92,486 to the nearest thousand.",
+            "choices": [
+              "93,000",
+              "92,000",
+              "92,500"
+            ],
+            "correctAnswer": "92,000",
+            "reviewNote": "The hundreds digit is 4, so the thousands stay the same."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "type": "trueFalse",
+            "prompt": "504,060 has a 4 in the thousands place.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The 4 is in the thousands place."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "type": "multipleChoice",
+            "prompt": "Which expression matches 76,305?",
+            "choices": [
+              "70,000 + 60,000 + 300 + 5",
+              "7,000 + 6,000 + 300 + 5",
+              "70,000 + 6,000 + 300 + 5"
+            ],
+            "correctAnswer": "70,000 + 6,000 + 300 + 5",
+            "reviewNote": "Use each place-value part."
+          },
+          {
+            "section": "Part B: Operations",
+            "type": "multipleChoice",
+            "prompt": "What is 18,475 + 26,839?",
+            "choices": [
+              "45,314",
+              "44,314",
+              "45,214"
+            ],
+            "correctAnswer": "45,314",
+            "reviewNote": "Line up place values and add."
+          },
+          {
+            "section": "Part B: Operations",
+            "type": "multipleChoice",
+            "prompt": "What is 70,000 - 24,685?",
+            "choices": [
+              "46,315",
+              "45,315",
+              "45,415"
+            ],
+            "correctAnswer": "45,315",
+            "reviewNote": "Regroup carefully across zeros."
+          },
+          {
+            "section": "Part B: Operations",
+            "type": "multipleChoice",
+            "prompt": "What is 38 × 14?",
+            "choices": [
+              "522",
+              "542",
+              "532"
+            ],
+            "correctAnswer": "532",
+            "reviewNote": "38 × 10 = 380 and 38 × 4 = 152, so 532."
+          },
+          {
+            "section": "Part B: Operations",
+            "type": "multipleChoice",
+            "prompt": "What is 315 ÷ 5?",
+            "choices": [
+              "63",
+              "53",
+              "73"
+            ],
+            "correctAnswer": "63",
+            "reviewNote": "300 ÷ 5 = 60 and 15 ÷ 5 = 3."
+          },
+          {
+            "section": "Part B: Operations",
+            "type": "trueFalse",
+            "prompt": "49 × 6 can be solved with 50 × 6 - 6.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "49 is one less than 50, so subtract one group of 6."
+          },
+          {
+            "section": "Part C: Strategies and Checking",
+            "type": "multipleChoice",
+            "prompt": "Which estimate helps check 598 + 407?",
+            "choices": [
+              "500 + 400 = 900",
+              "600 + 400 = 1,000",
+              "600 - 400 = 200"
+            ],
+            "correctAnswer": "600 + 400 = 1,000",
+            "reviewNote": "Round both numbers to friendly numbers."
+          },
+          {
+            "section": "Part C: Strategies and Checking",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 156 ÷ 6?",
+            "choices": [
+              "(100 ÷ 6) + (56 ÷ 6)",
+              "(156 ÷ 10) + 6",
+              "(120 ÷ 6) + (36 ÷ 6)"
+            ],
+            "correctAnswer": "(120 ÷ 6) + (36 ÷ 6)",
+            "reviewNote": "Choose parts that divide easily by 6."
+          },
+          {
+            "section": "Part C: Strategies and Checking",
+            "type": "trueFalse",
+            "prompt": "The remainder in 47 ÷ 5 is 7.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "47 ÷ 5 = 9 R2. A remainder must be less than the divisor."
+          },
+          {
+            "section": "Part C: Strategies and Checking",
+            "type": "multipleChoice",
+            "prompt": "Which check proves 136 ÷ 8 = 17?",
+            "choices": [
+              "17 × 8 = 136",
+              "17 + 8 = 25",
+              "136 × 8 = 1,088"
+            ],
+            "correctAnswer": "17 × 8 = 136",
+            "reviewNote": "Use multiplication to check division."
+          },
+          {
+            "section": "Part C: Strategies and Checking",
+            "type": "multipleChoice",
+            "prompt": "Which answer is reasonable for 89 × 7?",
+            "choices": [
+              "6,230",
+              "623",
+              "96"
+            ],
+            "correctAnswer": "623",
+            "reviewNote": "89 × 7 is close to 90 × 7 = 630."
+          },
+          {
+            "section": "Part D: Word Problems",
+            "type": "multipleChoice",
+            "prompt": "A school buys 9 boxes of 36 notebooks and gives away 85. How many notebooks are left?",
+            "choices": [
+              "324",
+              "249",
+              "239"
+            ],
+            "correctAnswer": "239",
+            "reviewNote": "9 × 36 = 324, then 324 - 85 = 239."
+          },
+          {
+            "section": "Part D: Word Problems",
+            "type": "multipleChoice",
+            "prompt": "A fundraiser goal is $1,200. Students raise $475 and then $386. How much more is needed?",
+            "choices": [
+              "$339",
+              "$861",
+              "$349"
+            ],
+            "correctAnswer": "$339",
+            "reviewNote": "475 + 386 = 861, then 1,200 - 861 = 339."
+          },
+          {
+            "section": "Part D: Word Problems",
+            "type": "trueFalse",
+            "prompt": "If 43 students need vans that hold 8 students each, 5 vans are enough.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "5 vans hold 40 students, so 6 vans are needed."
+          },
+          {
+            "section": "Part D: Word Problems",
+            "type": "multipleChoice",
+            "prompt": "A store has 12 shelves with 28 books each and 19 extra books. How many books are there?",
+            "choices": [
+              "336",
+              "355",
+              "365"
+            ],
+            "correctAnswer": "355",
+            "reviewNote": "12 × 28 = 336, then add 19."
+          },
+          {
+            "section": "Part D: Word Problems",
+            "type": "trueFalse",
+            "prompt": "When a word problem has equal groups, multiplication or division may be needed.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Equal groups often point to multiplication or division."
+          }
+        ]
+      },
+      "learningGoal": "Students will review place value, rounding, estimation, the four operations, and multi-step word problems from Unit 1.",
+      "successCriteria": [
+        "I can read, compare, round, and write whole numbers.",
+        "I can use addition, subtraction, multiplication, and division strategies.",
+        "I can estimate and check whether my answer is reasonable.",
+        "I can solve multi-step word problems by choosing the correct operations."
+      ],
+      "vocabulary": [
+        "place value",
+        "estimate",
+        "sum",
+        "difference",
+        "product",
+        "quotient",
+        "remainder",
+        "operation",
+        "reasonable"
+      ],
+      "lessonContent": "Students complete a mixed review mission covering number sense, addition, subtraction, multiplication, division, estimation, and multi-step word problems.",
+      "studentActivity": {
+        "type": "unitReview",
+        "title": "Unit 1 Review Mission",
+        "mission": "Earn practice stars by reviewing whole numbers, operations, estimates, and word problems from Unit 1.",
+        "reward": {
+          "type": "stars",
+          "amount": 10,
+          "label": "Practice stars"
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Place Value",
+            "prompt": "In 482,615, what is the value of the 8?",
+            "choices": [
+              "80,000",
+              "8,000",
+              "800,000"
+            ],
+            "correctAnswer": "80,000",
+            "feedback": "Correct. The 8 is in the ten thousands place.",
+            "hint": "Read the place from right to left."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Standard Form",
+            "prompt": "Which number is 300,000 + 40,000 + 7,000 + 600 + 20 + 5?",
+            "choices": [
+              "304,765",
+              "374,625",
+              "347,625"
+            ],
+            "correctAnswer": "347,625",
+            "feedback": "Correct. Those place-value parts make 347,625.",
+            "hint": "Line up each part by place value."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Compare Numbers",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "528,104",
+              "528,410",
+              "527,999"
+            ],
+            "correctAnswer": "528,410",
+            "feedback": "Correct. 528,410 is greatest.",
+            "hint": "Compare from left to right."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Order Numbers",
+            "prompt": "Which list is in order from least to greatest?",
+            "choices": [
+              "64,905; 65,049; 65,490",
+              "65,490; 65,049; 64,905",
+              "65,049; 64,905; 65,490"
+            ],
+            "correctAnswer": "64,905; 65,049; 65,490",
+            "feedback": "Correct. The numbers grow from smallest to largest.",
+            "hint": "Compare thousands first, then hundreds, tens, and ones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Round It",
+            "prompt": "Round 47,863 to the nearest thousand.",
+            "choices": [
+              "47,000",
+              "47,900",
+              "48,000"
+            ],
+            "correctAnswer": "48,000",
+            "feedback": "Correct. 47,863 rounds to 48,000.",
+            "hint": "Look at the hundreds digit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Estimate",
+            "prompt": "Which is the best estimate for 398 + 612?",
+            "choices": [
+              "300 + 600 = 900",
+              "400 + 600 = 1,000",
+              "398 + 600 = 998"
+            ],
+            "correctAnswer": "400 + 600 = 1,000",
+            "feedback": "Correct. 398 is close to 400 and 612 is close to 600.",
+            "hint": "Use friendly numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Expanded Form",
+            "prompt": "Which expression matches 92,407?",
+            "choices": [
+              "90,000 + 2,000 + 400 + 7",
+              "90,000 + 20,000 + 400 + 7",
+              "9,000 + 2,000 + 400 + 7"
+            ],
+            "correctAnswer": "90,000 + 2,000 + 400 + 7",
+            "feedback": "Correct. 92,407 has 9 ten-thousands and 2 thousands.",
+            "hint": "Only include place values that are present."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Level Check",
+            "prompt": "Which number has a 6 in the thousands place?",
+            "choices": [
+              "164,205",
+              "142,605",
+              "146,205"
+            ],
+            "correctAnswer": "146,205",
+            "feedback": "Correct. In 146,205, the 6 is in the thousands place.",
+            "hint": "Find the thousands place before choosing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Friendly Addition",
+            "prompt": "Which strategy helps solve 397 + 86?",
+            "choices": [
+              "397 + 100",
+              "400 + 83",
+              "300 + 86"
+            ],
+            "correctAnswer": "400 + 83",
+            "feedback": "Correct. Move 3 from 86 to make 397 into 400.",
+            "hint": "Make a friendly number."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Add Carefully",
+            "prompt": "What is 24,786 + 13,459?",
+            "choices": [
+              "38,245",
+              "37,245",
+              "38,145"
+            ],
+            "correctAnswer": "38,245",
+            "feedback": "Correct. 24,786 + 13,459 = 38,245.",
+            "hint": "Line up place values."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Count Up",
+            "prompt": "Use counting up: 500 - 468 = ?",
+            "choices": [
+              "42",
+              "22",
+              "32"
+            ],
+            "correctAnswer": "32",
+            "feedback": "Correct. 468 to 500 is 32.",
+            "hint": "Count from 468 up to 500."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Subtract Carefully",
+            "prompt": "What is 60,000 - 18,725?",
+            "choices": [
+              "42,275",
+              "41,275",
+              "41,375"
+            ],
+            "correctAnswer": "41,275",
+            "feedback": "Correct. 60,000 - 18,725 = 41,275.",
+            "hint": "Regroup carefully across zeros."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Choose the Operation",
+            "prompt": "A school had 1,250 tickets and sold 875. Which operation finds how many are left?",
+            "choices": [
+              "subtraction",
+              "addition",
+              "multiplication"
+            ],
+            "correctAnswer": "subtraction",
+            "feedback": "Correct. “Left” usually means subtract.",
+            "hint": "Think about whether the amount goes down."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Estimate Difference",
+            "prompt": "Which estimate helps check 9,842 - 3,196?",
+            "choices": [
+              "9,000 - 4,000 = 5,000",
+              "10,000 + 3,000 = 13,000",
+              "10,000 - 3,000 = 7,000"
+            ],
+            "correctAnswer": "10,000 - 3,000 = 7,000",
+            "feedback": "Correct. The exact answer should be near 7,000.",
+            "hint": "Round both numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Compensation",
+            "prompt": "Which is a good way to solve 702 - 398?",
+            "choices": [
+              "702 + 398",
+              "704 - 400",
+              "700 - 300"
+            ],
+            "correctAnswer": "704 - 400",
+            "feedback": "Correct. Adding 2 to both numbers keeps the difference the same.",
+            "hint": "Make 398 into 400."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Add and Subtract Review",
+            "title": "Level Check",
+            "prompt": "A goal is 2,000 points. A team has 1,375. How many more points are needed?",
+            "choices": [
+              "625",
+              "725",
+              "575"
+            ],
+            "correctAnswer": "625",
+            "feedback": "Correct. 2,000 - 1,375 = 625.",
+            "hint": "Subtract from the goal."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Equal Groups",
+            "prompt": "There are 9 boxes with 18 books in each box. How many books are there?",
+            "choices": [
+              "152",
+              "172",
+              "162"
+            ],
+            "correctAnswer": "162",
+            "feedback": "Correct. 9 × 18 = 162.",
+            "hint": "Multiply equal groups."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Break Apart Multiply",
+            "prompt": "Which strategy matches 34 × 7?",
+            "choices": [
+              "(30 × 4) + (7 × 7)",
+              "(30 × 7) + (4 × 7)",
+              "(34 × 10) - 7"
+            ],
+            "correctAnswer": "(30 × 7) + (4 × 7)",
+            "feedback": "Correct. Break 34 into 30 and 4.",
+            "hint": "Use place value parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Find the Product",
+            "prompt": "What is 46 × 12?",
+            "choices": [
+              "552",
+              "542",
+              "562"
+            ],
+            "correctAnswer": "552",
+            "feedback": "Correct. 46 × 10 = 460 and 46 × 2 = 92, so 552.",
+            "hint": "Break 12 into 10 and 2."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Related Fact",
+            "prompt": "Which multiplication fact helps solve 96 ÷ 8?",
+            "choices": [
+              "8 × 11 = 88",
+              "9 × 12 = 108",
+              "8 × 12 = 96"
+            ],
+            "correctAnswer": "8 × 12 = 96",
+            "feedback": "Correct. 96 ÷ 8 = 12.",
+            "hint": "Use the related multiplication fact."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Partial Quotients",
+            "prompt": "Use 168 ÷ 6 = (120 ÷ 6) + (48 ÷ 6). What is the quotient?",
+            "choices": [
+              "26",
+              "28",
+              "38"
+            ],
+            "correctAnswer": "28",
+            "feedback": "Correct. 20 + 8 = 28.",
+            "hint": "Divide each part, then add."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Remainder",
+            "prompt": "What is 53 ÷ 6?",
+            "choices": [
+              "8 R5",
+              "9 R1",
+              "7 R11"
+            ],
+            "correctAnswer": "8 R5",
+            "feedback": "Correct. 6 × 8 = 48, with 5 left over.",
+            "hint": "The remainder must be less than the divisor."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Estimate Product",
+            "prompt": "Which estimate helps check 87 × 5?",
+            "choices": [
+              "80 × 5 = 400",
+              "87 × 10 = 870",
+              "90 × 5 = 450"
+            ],
+            "correctAnswer": "90 × 5 = 450",
+            "feedback": "Correct. 87 is close to 90.",
+            "hint": "Use a nearby multiple of ten."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Multiply and Divide Review",
+            "title": "Level Check",
+            "prompt": "What is 728 ÷ 8?",
+            "choices": [
+              "81",
+              "91",
+              "98"
+            ],
+            "correctAnswer": "91",
+            "feedback": "Correct. 8 × 91 = 728.",
+            "hint": "Check division with multiplication."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Plan First",
+            "prompt": "A club buys 7 packs of 24 pencils and gives away 53 pencils. How many pencils are left?",
+            "choices": [
+              "115",
+              "168",
+              "125"
+            ],
+            "correctAnswer": "115",
+            "feedback": "Correct. 7 × 24 = 168, then 168 - 53 = 115.",
+            "hint": "Multiply first, then subtract."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Share and Add",
+            "prompt": "144 cards are shared among 12 players. Each player gets 5 extra cards. How many cards does each player get?",
+            "choices": [
+              "12",
+              "19",
+              "17"
+            ],
+            "correctAnswer": "17",
+            "feedback": "Correct. 144 ÷ 12 = 12, then 12 + 5 = 17.",
+            "hint": "Divide first, then add."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Compare After Adding",
+            "prompt": "Team A scores 235 and 189 points. Team B scores 450. How many more points does Team B have?",
+            "choices": [
+              "424",
+              "26",
+              "36"
+            ],
+            "correctAnswer": "26",
+            "feedback": "Correct. Team A has 424 points, and 450 - 424 = 26.",
+            "hint": "Add Team A first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Use Remainder Meaning",
+            "prompt": "38 students need tables. Each table seats 6 students. How many tables are needed?",
+            "choices": [
+              "7 tables",
+              "6 tables",
+              "8 tables"
+            ],
+            "correctAnswer": "7 tables",
+            "feedback": "Correct. 6 tables seat 36 students, so 1 more table is needed.",
+            "hint": "A leftover student still needs a seat."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Estimate to Check",
+            "prompt": "A theatre has 21 rows with 29 seats each. Is 609 a reasonable total?",
+            "choices": [
+              "No, it should be about 60",
+              "No, it should be about 6,000",
+              "Yes"
+            ],
+            "correctAnswer": "Yes",
+            "feedback": "Correct. 21 × 29 is close to 20 × 30 = 600.",
+            "hint": "Estimate with friendly numbers."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Find What Is Needed",
+            "prompt": "A class needs 1,000 points. They earn 18 badges worth 35 points each. How many more points are needed?",
+            "choices": [
+              "630",
+              "370",
+              "380"
+            ],
+            "correctAnswer": "370",
+            "feedback": "Correct. 18 × 35 = 630, then 1,000 - 630 = 370.",
+            "hint": "Find earned points first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Multi-Step Money",
+            "prompt": "A student has $250. She buys 3 items for $48 each. How much money is left?",
+            "choices": [
+              "$106",
+              "$144",
+              "$116"
+            ],
+            "correctAnswer": "$106",
+            "feedback": "Correct. 3 × 48 = 144, then 250 - 144 = 106.",
+            "hint": "Multiply the cost first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 4: Mixed Challenge",
+            "title": "Review Mission Check",
+            "prompt": "A store has 900 flyers. It gives 8 groups of 75 flyers away. How many flyers are left?",
+            "choices": [
+              "600",
+              "275",
+              "300"
+            ],
+            "correctAnswer": "300",
+            "feedback": "Excellent. 8 × 75 = 600, then 900 - 600 = 300.",
+            "hint": "Multiply first, then subtract."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-math-unit-1-test",
+      "title": "Unit Test",
+      "type": "unitTest",
+      "teacherOverview": "This 30-question Unit 1 test is designed as the formal assessment for Whole Numbers and Operations. The recommended unit mark weighting is 40% lesson/review quizzes and 60% unit test.",
+      "assessment": {
+        "title": "Unit 1 Test: Whole Numbers and Operations",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Place value",
+            "type": "multipleChoice",
+            "prompt": "In 684,209, what is the value of the 8?",
+            "choices": [
+              "8,000",
+              "80,000",
+              "800,000"
+            ],
+            "correctAnswer": "80,000",
+            "reviewNote": "The 8 is in the ten thousands place."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Reading and writing numbers",
+            "type": "multipleChoice",
+            "prompt": "Which number is six hundred five thousand, seventy-two?",
+            "choices": [
+              "605,072",
+              "650,072",
+              "605,720"
+            ],
+            "correctAnswer": "605,072",
+            "reviewNote": "Six hundred five thousand, seventy-two is 605,072."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Comparing numbers",
+            "type": "multipleChoice",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "724,810",
+              "742,018",
+              "742,108"
+            ],
+            "correctAnswer": "742,108",
+            "reviewNote": "Compare digits from left to right."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Ordering numbers",
+            "type": "multipleChoice",
+            "prompt": "Which list is ordered from least to greatest?",
+            "choices": [
+              "60,708; 60,078; 59,870",
+              "59,870; 60,078; 60,708",
+              "60,078; 59,870; 60,708"
+            ],
+            "correctAnswer": "59,870; 60,078; 60,708",
+            "reviewNote": "Least to greatest means the numbers increase."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Rounding",
+            "type": "multipleChoice",
+            "prompt": "Round 386,451 to the nearest ten thousand.",
+            "choices": [
+              "390,000",
+              "380,000",
+              "386,000"
+            ],
+            "correctAnswer": "390,000",
+            "reviewNote": "The thousands digit is 6, so 386,451 rounds to 390,000."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Expanded form",
+            "type": "multipleChoice",
+            "prompt": "Which expression matches 407,650?",
+            "choices": [
+              "400,000 + 70,000 + 600 + 50",
+              "40,000 + 7,000 + 600 + 50",
+              "400,000 + 7,000 + 600 + 50"
+            ],
+            "correctAnswer": "400,000 + 7,000 + 600 + 50",
+            "reviewNote": "Use the value of each digit."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Estimation",
+            "type": "multipleChoice",
+            "prompt": "Which estimate best checks 48,905 + 31,286 using nearest ten-thousands?",
+            "choices": [
+              "40,000 + 30,000 = 70,000",
+              "50,000 + 30,000 = 80,000",
+              "50,000 + 3,000 = 53,000"
+            ],
+            "correctAnswer": "50,000 + 30,000 = 80,000",
+            "reviewNote": "To estimate to the nearest ten-thousands, 48,905 rounds to 50,000 and 31,286 rounds to 30,000."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Place value",
+            "type": "trueFalse",
+            "prompt": "In 920,415, the 2 is in the ten thousands place.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The 2 is in the ten thousands place."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Addition",
+            "type": "multipleChoice",
+            "prompt": "What is 27,486 + 34,795?",
+            "choices": [
+              "62,281",
+              "61,281",
+              "62,181"
+            ],
+            "correctAnswer": "62,281",
+            "reviewNote": "Line up place values and add."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Addition strategy",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 698 + 247?",
+            "choices": [
+              "698 + 300",
+              "600 + 247",
+              "700 + 245"
+            ],
+            "correctAnswer": "700 + 245",
+            "reviewNote": "Move 2 from 247 to make 698 into 700."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Subtraction",
+            "type": "multipleChoice",
+            "prompt": "What is 80,000 - 36,482?",
+            "choices": [
+              "44,518",
+              "43,518",
+              "43,618"
+            ],
+            "correctAnswer": "43,518",
+            "reviewNote": "Regroup carefully across zeros."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Subtraction strategy",
+            "type": "multipleChoice",
+            "prompt": "Use counting up: 1,000 - 764 = ?",
+            "choices": [
+              "236",
+              "246",
+              "226"
+            ],
+            "correctAnswer": "236",
+            "reviewNote": "764 to 1,000 is 236."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Compensation",
+            "type": "multipleChoice",
+            "prompt": "Which expression keeps the same difference as 702 - 398?",
+            "choices": [
+              "700 - 400",
+              "702 + 398",
+              "704 - 400"
+            ],
+            "correctAnswer": "704 - 400",
+            "reviewNote": "Add 2 to both numbers to make 398 into 400."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Estimation",
+            "type": "trueFalse",
+            "prompt": "The answer to 9,812 - 3,106 should be close to 7,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "10,000 - 3,000 is about 7,000."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Multiplication",
+            "type": "multipleChoice",
+            "prompt": "What is 36 × 18?",
+            "choices": [
+              "638",
+              "648",
+              "658"
+            ],
+            "correctAnswer": "648",
+            "reviewNote": "36 × 10 = 360 and 36 × 8 = 288, so 648."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Multiplication strategy",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 49 × 7?",
+            "choices": [
+              "(50 × 7) - 7",
+              "(50 × 7) + 7",
+              "(40 × 7) - 9"
+            ],
+            "correctAnswer": "(50 × 7) - 7",
+            "reviewNote": "49 is one less than 50."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Partial products",
+            "type": "multipleChoice",
+            "prompt": "Which expression matches 62 × 14?",
+            "choices": [
+              "(62 × 1) + (62 × 4)",
+              "(60 × 14) - 2",
+              "(62 × 10) + (62 × 4)"
+            ],
+            "correctAnswer": "(62 × 10) + (62 × 4)",
+            "reviewNote": "Break 14 into 10 and 4."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Division",
+            "type": "multipleChoice",
+            "prompt": "What is 576 ÷ 6?",
+            "choices": [
+              "86",
+              "96",
+              "106"
+            ],
+            "correctAnswer": "96",
+            "reviewNote": "6 × 96 = 576."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Partial quotients",
+            "type": "multipleChoice",
+            "prompt": "Which split uses two friendly parts to solve 288 ÷ 8?",
+            "choices": [
+              "240 + 48",
+              "200 + 88",
+              "280 + 80"
+            ],
+            "correctAnswer": "240 + 48",
+            "reviewNote": "240 and 48 both divide easily by 8, and together they make 288."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Remainders",
+            "type": "multipleChoice",
+            "prompt": "What is 67 ÷ 8?",
+            "choices": [
+              "7 R11",
+              "9 R5",
+              "8 R3"
+            ],
+            "correctAnswer": "8 R3",
+            "reviewNote": "8 × 8 = 64 with 3 left over."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Remainders",
+            "type": "trueFalse",
+            "prompt": "A remainder should always be larger than the divisor.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A remainder must be less than the divisor."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Checking",
+            "type": "trueFalse",
+            "prompt": "Multiplication can be used to check a division answer.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "For example, 96 ÷ 6 = 16 can be checked with 16 × 6 = 96."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "A school buys 8 boxes of 32 markers and gives away 79 markers. How many markers are left?",
+            "choices": [
+              "256",
+              "177",
+              "187"
+            ],
+            "correctAnswer": "177",
+            "reviewNote": "8 × 32 = 256, then 256 - 79 = 177."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "A fundraiser goal is $1,500. Students raise $685 and then $429. How much more money is needed?",
+            "choices": [
+              "$386",
+              "$1,114",
+              "$396"
+            ],
+            "correctAnswer": "$386",
+            "reviewNote": "685 + 429 = 1,114, then 1,500 - 1,114 = 386."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "156 cards are shared equally among 12 players. Each player gets 4 extra cards. How many cards does each player get?",
+            "choices": [
+              "13",
+              "19",
+              "17"
+            ],
+            "correctAnswer": "17",
+            "reviewNote": "156 ÷ 12 = 13, then 13 + 4 = 17."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Remainder in context",
+            "type": "multipleChoice",
+            "prompt": "46 students need vans. Each van holds 8 students. How many vans are needed?",
+            "choices": [
+              "5 vans",
+              "6 vans",
+              "7 vans"
+            ],
+            "correctAnswer": "6 vans",
+            "reviewNote": "5 vans hold only 40 students, so 6 vans are needed."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "A store has 15 shelves with 28 books on each shelf and 37 extra books. How many books are there?",
+            "choices": [
+              "457",
+              "420",
+              "467"
+            ],
+            "correctAnswer": "457",
+            "reviewNote": "15 × 28 = 420, then 420 + 37 = 457."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Reasonableness",
+            "type": "multipleChoice",
+            "prompt": "A trip costs $19 per student for 31 students. Which estimate best checks the total cost?",
+            "choices": [
+              "20 + 30 = 50",
+              "10 × 30 = 300",
+              "20 × 30 = 600"
+            ],
+            "correctAnswer": "20 × 30 = 600",
+            "reviewNote": "19 × 31 is close to 20 × 30."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Problem solving",
+            "type": "trueFalse",
+            "prompt": "In a multi-step problem, the first number you see is always the first number you should use.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "You need to read the whole problem and decide what is being asked."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Reasonableness",
+            "type": "trueFalse",
+            "prompt": "If your exact answer is much larger than your estimate, your estimate must be wrong.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A big difference means you should check both your estimate and your exact work. The exact answer may be the mistake."
+          }
+        ]
+      },
+      "learningGoal": "Students will show their understanding of whole numbers, place value, rounding, estimation, the four operations, and multi-step word problems from Unit 1.",
+      "successCriteria": [
+        "I can use place value to read, write, compare, order, and round whole numbers.",
+        "I can add, subtract, multiply, and divide whole numbers using strategies.",
+        "I can estimate and check whether my answers are reasonable.",
+        "I can solve multi-step word problems and interpret remainders in context."
+      ],
+      "grading": {
+        "type": "unitAssessment",
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "totalQuestions": 30,
+        "scoreType": "percentage"
+      },
+      "quiz": {
+        "title": "Unit 1 Test: Whole Numbers and Operations",
+        "type": "unitTest",
+        "instructions": "This is the Unit 1 test. Read each question carefully. There are no hints during the test. You will see your score at the end.",
+        "gradingWeight": 60,
+        "questions": [
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Place value",
+            "type": "multipleChoice",
+            "prompt": "In 684,209, what is the value of the 8?",
+            "choices": [
+              "8,000",
+              "80,000",
+              "800,000"
+            ],
+            "correctAnswer": "80,000",
+            "reviewNote": "The 8 is in the ten thousands place."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Reading and writing numbers",
+            "type": "multipleChoice",
+            "prompt": "Which number is six hundred five thousand, seventy-two?",
+            "choices": [
+              "605,072",
+              "650,072",
+              "605,720"
+            ],
+            "correctAnswer": "605,072",
+            "reviewNote": "Six hundred five thousand, seventy-two is 605,072."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Comparing numbers",
+            "type": "multipleChoice",
+            "prompt": "Which number is greatest?",
+            "choices": [
+              "724,810",
+              "742,018",
+              "742,108"
+            ],
+            "correctAnswer": "742,108",
+            "reviewNote": "Compare digits from left to right."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Ordering numbers",
+            "type": "multipleChoice",
+            "prompt": "Which list is ordered from least to greatest?",
+            "choices": [
+              "60,708; 60,078; 59,870",
+              "59,870; 60,078; 60,708",
+              "60,078; 59,870; 60,708"
+            ],
+            "correctAnswer": "59,870; 60,078; 60,708",
+            "reviewNote": "Least to greatest means the numbers increase."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Rounding",
+            "type": "multipleChoice",
+            "prompt": "Round 386,451 to the nearest ten thousand.",
+            "choices": [
+              "390,000",
+              "380,000",
+              "386,000"
+            ],
+            "correctAnswer": "390,000",
+            "reviewNote": "The thousands digit is 6, so 386,451 rounds to 390,000."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Expanded form",
+            "type": "multipleChoice",
+            "prompt": "Which expression matches 407,650?",
+            "choices": [
+              "400,000 + 70,000 + 600 + 50",
+              "40,000 + 7,000 + 600 + 50",
+              "400,000 + 7,000 + 600 + 50"
+            ],
+            "correctAnswer": "400,000 + 7,000 + 600 + 50",
+            "reviewNote": "Use the value of each digit."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Estimation",
+            "type": "multipleChoice",
+            "prompt": "Which estimate best checks 48,905 + 31,286 using nearest ten-thousands?",
+            "choices": [
+              "40,000 + 30,000 = 70,000",
+              "50,000 + 30,000 = 80,000",
+              "50,000 + 3,000 = 53,000"
+            ],
+            "correctAnswer": "50,000 + 30,000 = 80,000",
+            "reviewNote": "To estimate to the nearest ten-thousands, 48,905 rounds to 50,000 and 31,286 rounds to 30,000."
+          },
+          {
+            "section": "Part A: Number Sense",
+            "skill": "Place value",
+            "type": "trueFalse",
+            "prompt": "In 920,415, the 2 is in the ten thousands place.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The 2 is in the ten thousands place."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Addition",
+            "type": "multipleChoice",
+            "prompt": "What is 27,486 + 34,795?",
+            "choices": [
+              "62,281",
+              "61,281",
+              "62,181"
+            ],
+            "correctAnswer": "62,281",
+            "reviewNote": "Line up place values and add."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Addition strategy",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 698 + 247?",
+            "choices": [
+              "698 + 300",
+              "600 + 247",
+              "700 + 245"
+            ],
+            "correctAnswer": "700 + 245",
+            "reviewNote": "Move 2 from 247 to make 698 into 700."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Subtraction",
+            "type": "multipleChoice",
+            "prompt": "What is 80,000 - 36,482?",
+            "choices": [
+              "44,518",
+              "43,518",
+              "43,618"
+            ],
+            "correctAnswer": "43,518",
+            "reviewNote": "Regroup carefully across zeros."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Subtraction strategy",
+            "type": "multipleChoice",
+            "prompt": "Use counting up: 1,000 - 764 = ?",
+            "choices": [
+              "236",
+              "246",
+              "226"
+            ],
+            "correctAnswer": "236",
+            "reviewNote": "764 to 1,000 is 236."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Compensation",
+            "type": "multipleChoice",
+            "prompt": "Which expression keeps the same difference as 702 - 398?",
+            "choices": [
+              "700 - 400",
+              "702 + 398",
+              "704 - 400"
+            ],
+            "correctAnswer": "704 - 400",
+            "reviewNote": "Add 2 to both numbers to make 398 into 400."
+          },
+          {
+            "section": "Part B: Addition and Subtraction",
+            "skill": "Estimation",
+            "type": "trueFalse",
+            "prompt": "The answer to 9,812 - 3,106 should be close to 7,000.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "10,000 - 3,000 is about 7,000."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Multiplication",
+            "type": "multipleChoice",
+            "prompt": "What is 36 × 18?",
+            "choices": [
+              "638",
+              "648",
+              "658"
+            ],
+            "correctAnswer": "648",
+            "reviewNote": "36 × 10 = 360 and 36 × 8 = 288, so 648."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Multiplication strategy",
+            "type": "multipleChoice",
+            "prompt": "Which strategy helps solve 49 × 7?",
+            "choices": [
+              "(50 × 7) - 7",
+              "(50 × 7) + 7",
+              "(40 × 7) - 9"
+            ],
+            "correctAnswer": "(50 × 7) - 7",
+            "reviewNote": "49 is one less than 50."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Partial products",
+            "type": "multipleChoice",
+            "prompt": "Which expression matches 62 × 14?",
+            "choices": [
+              "(62 × 1) + (62 × 4)",
+              "(60 × 14) - 2",
+              "(62 × 10) + (62 × 4)"
+            ],
+            "correctAnswer": "(62 × 10) + (62 × 4)",
+            "reviewNote": "Break 14 into 10 and 4."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Division",
+            "type": "multipleChoice",
+            "prompt": "What is 576 ÷ 6?",
+            "choices": [
+              "86",
+              "96",
+              "106"
+            ],
+            "correctAnswer": "96",
+            "reviewNote": "6 × 96 = 576."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Partial quotients",
+            "type": "multipleChoice",
+            "prompt": "Which split uses two friendly parts to solve 288 ÷ 8?",
+            "choices": [
+              "240 + 48",
+              "200 + 88",
+              "280 + 80"
+            ],
+            "correctAnswer": "240 + 48",
+            "reviewNote": "240 and 48 both divide easily by 8, and together they make 288."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Remainders",
+            "type": "multipleChoice",
+            "prompt": "What is 67 ÷ 8?",
+            "choices": [
+              "7 R11",
+              "9 R5",
+              "8 R3"
+            ],
+            "correctAnswer": "8 R3",
+            "reviewNote": "8 × 8 = 64 with 3 left over."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Remainders",
+            "type": "trueFalse",
+            "prompt": "A remainder should always be larger than the divisor.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A remainder must be less than the divisor."
+          },
+          {
+            "section": "Part C: Multiplication and Division",
+            "skill": "Checking",
+            "type": "trueFalse",
+            "prompt": "Multiplication can be used to check a division answer.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "For example, 96 ÷ 6 = 16 can be checked with 16 × 6 = 96."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "A school buys 8 boxes of 32 markers and gives away 79 markers. How many markers are left?",
+            "choices": [
+              "256",
+              "177",
+              "187"
+            ],
+            "correctAnswer": "177",
+            "reviewNote": "8 × 32 = 256, then 256 - 79 = 177."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "A fundraiser goal is $1,500. Students raise $685 and then $429. How much more money is needed?",
+            "choices": [
+              "$386",
+              "$1,114",
+              "$396"
+            ],
+            "correctAnswer": "$386",
+            "reviewNote": "685 + 429 = 1,114, then 1,500 - 1,114 = 386."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "156 cards are shared equally among 12 players. Each player gets 4 extra cards. How many cards does each player get?",
+            "choices": [
+              "13",
+              "19",
+              "17"
+            ],
+            "correctAnswer": "17",
+            "reviewNote": "156 ÷ 12 = 13, then 13 + 4 = 17."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Remainder in context",
+            "type": "multipleChoice",
+            "prompt": "46 students need vans. Each van holds 8 students. How many vans are needed?",
+            "choices": [
+              "5 vans",
+              "6 vans",
+              "7 vans"
+            ],
+            "correctAnswer": "6 vans",
+            "reviewNote": "5 vans hold only 40 students, so 6 vans are needed."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Multi-step word problems",
+            "type": "multipleChoice",
+            "prompt": "A store has 15 shelves with 28 books on each shelf and 37 extra books. How many books are there?",
+            "choices": [
+              "457",
+              "420",
+              "467"
+            ],
+            "correctAnswer": "457",
+            "reviewNote": "15 × 28 = 420, then 420 + 37 = 457."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Reasonableness",
+            "type": "multipleChoice",
+            "prompt": "A trip costs $19 per student for 31 students. Which estimate best checks the total cost?",
+            "choices": [
+              "20 + 30 = 50",
+              "10 × 30 = 300",
+              "20 × 30 = 600"
+            ],
+            "correctAnswer": "20 × 30 = 600",
+            "reviewNote": "19 × 31 is close to 20 × 30."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Problem solving",
+            "type": "trueFalse",
+            "prompt": "In a multi-step problem, the first number you see is always the first number you should use.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "You need to read the whole problem and decide what is being asked."
+          },
+          {
+            "section": "Part D: Multi-Step Problems",
+            "skill": "Reasonableness",
+            "type": "trueFalse",
+            "prompt": "If your exact answer is much larger than your estimate, your estimate must be wrong.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A big difference means you should check both your estimate and your exact work. The exact answer may be the mistake."
+          }
+        ]
+      }
+    }
+  ]
+});

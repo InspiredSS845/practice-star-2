@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Star - Student</title>
+    <link rel="icon" href="Favicon/favicon.ico" sizes="any" />
+    <link rel="icon" href="Favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="Favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="Favicon/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Practice Star home">
+        <span class="brand-mark" aria-hidden="true">★</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a aria-current="page" href="student.html">Student</a>
+        <a href="teacher.html">Teacher</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero image-hero" aria-label="Practice Star student page">
+        <img class="header-art" src="Images/Student%20Header.png" alt="Practice Star student practice page" />
+      </section>
+
+      <section id="codeScreen" class="panel screen active">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2>Enter your practice code</h2>
+        </div>
+        <form id="studentCodeForm" class="starter-form">
+          <div class="three-column">
+            <div>
+              <label for="studentCode">Student code from your teacher</label>
+              <input
+                id="studentCode"
+                type="text"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="characters"
+                spellcheck="false"
+                placeholder="STARAB23"
+              />
+            </div>
+            <div>
+              <label for="studentName">First name</label>
+              <input
+                id="studentName"
+                type="text"
+                autocomplete="given-name"
+                autocorrect="off"
+                spellcheck="false"
+                placeholder="Alex"
+              />
+            </div>
+            <div>
+              <label for="studentPin">PIN</label>
+              <input
+                id="studentPin"
+                type="text"
+                inputmode="numeric"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
+                placeholder="4827"
+              />
+            </div>
+          </div>
+          <label class="remember-row">
+            <input id="rememberStudentLogin" type="checkbox" checked />
+            <span>Remember me on this device</span>
+          </label>
+          <button id="forgetStudentLogin" class="secondary small-button hidden" type="button">Forget Saved Login</button>
+          <button type="submit">Find My Practice</button>
+        </form>
+        <p id="studentMessage" class="status-text" role="status"></p>
+      </section>
+
+      <section id="readyScreen" class="panel screen">
+        <div class="section-heading">
+          <p class="eyebrow">Ready</p>
+          <h2 id="readyTitle">Spelling list found</h2>
+          <p id="readyDetails" class="hint"></p>
+        </div>
+        <div id="continueNotice" class="notice"></div>
+        <div class="actions">
+          <button id="continueButton" type="button">Continue Practice</button>
+          <button id="startOverButton" class="secondary" type="button">Start Practice</button>
+        </div>
+      </section>
+
+      <section id="activityScreen" class="panel screen">
+        <div class="section-heading">
+          <p class="eyebrow">Choose practice</p>
+          <h2 id="activityTitle">Class activities</h2>
+          <p id="activityDetails" class="hint"></p>
+        </div>
+        <div class="actions student-session-actions">
+          <button id="studentLogoutButton" class="secondary small-button" type="button">Log Out</button>
+        </div>
+        <div id="studentProgressSummary" class="student-progress-summary"></div>
+        <div id="activityList" class="card-list"></div>
+      </section>
+
+      <section id="learningScreen" class="panel screen" aria-live="polite">
+        <div class="top-row">
+          <div>
+            <p class="label">Mission step <span id="learningStepNumber">1</span> of <span id="learningTotalSteps">1</span></p>
+            <div class="progress-track" aria-hidden="true">
+              <div id="learningProgressBar" class="progress-bar"></div>
+            </div>
+          </div>
+          <div class="score-badge">Stars: <span id="learningStars">0</span></div>
+        </div>
+
+        <div class="learning-title-row">
+          <h2 id="learningLessonTitle">Place Value</h2>
+          <span id="learningLevelTitle" class="stage-pill">Level 1</span>
+        </div>
+        <div id="learningCard" class="learning-card"></div>
+        <div class="actions">
+          <button id="learningExitButton" class="secondary" type="button">Back to Activities</button>
+        </div>
+      </section>
+
+      <section id="rewardScreen" class="panel screen">
+        <div class="section-heading">
+          <p class="eyebrow">Mission complete</p>
+          <h2 id="rewardTitle">Stars earned!</h2>
+          <p id="rewardDetails" class="final-score"></p>
+        </div>
+        <div id="starSummaryPreview" class="star-summary-preview"></div>
+        <div class="actions">
+          <button id="rewardDoneButton" type="button">Back to Activities</button>
+        </div>
+      </section>
+
+      <section id="practiceScreen" class="panel screen" aria-live="polite">
+        <div class="top-row">
+          <div>
+            <p class="label">Word <span id="wordNumber">1</span> of <span id="totalWords">1</span></p>
+            <div class="progress-track" aria-hidden="true">
+              <div id="progressBar" class="progress-bar"></div>
+            </div>
+          </div>
+          <div class="score-badge">Stars: <span id="scoreCount">0</span></div>
+        </div>
+
+        <div class="word-card">
+          <span id="levelPill" class="stage-pill">Clue 1</span>
+          <p id="clueLabel" class="prompt">Look closely at the word.</p>
+          <h2 id="wordClue">word</h2>
+          <p id="practiceTip" class="stage-note">Type the word below.</p>
+        </div>
+
+        <form id="answerForm" class="answer-area">
+          <label for="answerInput">Your spelling</label>
+          <input
+            id="answerInput"
+            type="text"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="none"
+            spellcheck="false"
+            inputmode="text"
+          />
+          <button id="checkButton" type="submit">Check</button>
+        </form>
+
+        <div id="feedback" class="feedback" role="status">You are ready.</div>
+      </section>
+
+      <section id="resultsScreen" class="panel screen">
+        <div class="section-heading">
+          <p class="eyebrow">Practice saved</p>
+          <h2 id="resultTitle">Great work!</h2>
+          <p id="finalScore" class="final-score"></p>
+        </div>
+        <div id="resultsList" class="review-list"></div>
+        <div class="actions">
+          <button id="practiceAgainButton" type="button">Practice Again</button>
+          <button id="doneButton" class="secondary" type="button">Done</button>
+        </div>
+      </section>
+
+      <section id="quizScreen" class="panel screen" aria-live="polite">
+        <div class="top-row">
+          <div>
+            <p class="label">Question <span id="quizQuestionNumber">1</span> of <span id="quizTotalQuestions">1</span></p>
+            <div class="progress-track" aria-hidden="true">
+              <div id="quizProgressBar" class="progress-bar"></div>
+            </div>
+          </div>
+          <div class="score-badge">Score: <span id="quizScore">0</span></div>
+        </div>
+
+        <div class="question-card">
+          <p id="quizTypeLabel" class="question-label">Quiz</p>
+          <h2 id="quizPrompt" class="quiz-prompt">Question</h2>
+        </div>
+
+        <div id="quizChoices" class="choice-grid"></div>
+        <div id="quizFeedback" class="feedback" role="status">Choose an answer.</div>
+        <button id="quizNextButton" class="next-button" type="button">Next Question</button>
+      </section>
+
+      <section id="quizResultsScreen" class="panel screen">
+        <div class="section-heading">
+          <p class="eyebrow">Quiz saved</p>
+          <h2 id="quizResultTitle">Great work!</h2>
+          <p id="quizFinalScore" class="final-score"></p>
+        </div>
+        <div id="quizResultsList" class="review-list"></div>
+        <div class="actions">
+          <button id="quizDoneButton" type="button">Back to Activities</button>
+        </div>
+      </section>
+
+      <section id="finalQuizScreen" class="panel screen">
+        <div class="section-heading">
+          <p class="eyebrow">Final lesson quiz</p>
+          <h2 id="finalQuizTitle">Place Value Final Quiz</h2>
+          <p id="finalQuizDetails" class="hint"></p>
+        </div>
+        <form id="finalQuizForm" class="final-quiz-form"></form>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="content/catalog-data.js"></script>
+    <script src="content/grade-5/math/index-data.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-1-whole-numbers-and-operations.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-2-fractions-decimals-and-percents.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-3-algebra-and-patterning.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-4-data-and-probability.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-5-spatial-sense.js"></script>
+    <script src="content/grade-5/math/unit-data/unit-6-financial-literacy.js"></script>
+    <script src="shared.js"></script>
+    <script src="student.js"></script>
+  </body>
+</html>
