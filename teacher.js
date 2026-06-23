@@ -200,6 +200,7 @@ async function loadCurriculum() {
 
   curriculumLibraries = window.PracticeStar.curriculumLibraries();
   if (curriculumLibraries.length) {
+    await fillMissingFileBackedCurriculum();
     renderCurriculum();
     return;
   }
@@ -219,6 +220,28 @@ async function loadCurriculum() {
     curriculumUnits.innerHTML = "";
     showCurriculumView("home");
   }
+}
+
+async function fillMissingFileBackedCurriculum() {
+  const librariesToLoad = curriculumLibraries.filter((library) =>
+    library.indexFile && (!library.units || library.units.length === 0)
+  );
+
+  if (!librariesToLoad.length) {
+    return;
+  }
+
+  const loadedLibraries = await Promise.all(librariesToLoad.map(async (library) => {
+    try {
+      return await loadCurriculumLibraryFromFiles(library);
+    } catch (_error) {
+      return library;
+    }
+  }));
+
+  curriculumLibraries = curriculumLibraries.map((library) =>
+    loadedLibraries.find((loadedLibrary) => loadedLibrary.id === library.id) || library
+  );
 }
 
 async function loadCurriculumLibraryFromFiles(library) {
