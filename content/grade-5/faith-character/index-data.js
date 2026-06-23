@@ -61,7 +61,7 @@ window.PracticeStarContent.grade5FaithCharacter = {
           "studentActivity": {
             "type": "faithCharacterMission",
             "title": "I Am Unique Mission",
-            "mission": "Earn practice stars by answering questions about dignity, gifts, gratitude, and using strengths to help others.",
+            "mission": "Earn practice stars by thinking through real-life choices about dignity, gifts, gratitude, humility, and service.",
             "reward": {
               "stars": 10
             },
@@ -69,122 +69,122 @@ window.PracticeStarContent.grade5FaithCharacter = {
               {
                 "kind": "question",
                 "level": "Level 1: God-Given Dignity",
-                "title": "True or False",
-                "prompt": "Every person has worth because God made people with care and purpose.",
-                "choices": ["True", "False"],
-                "correctAnswer": "True",
-                "feedback": "Yes. Christians believe each person has God-given dignity.",
-                "hint": "Think about whether worth comes from being popular, talented, or made by God."
-              },
-              {
-                "kind": "question",
-                "level": "Level 1: God-Given Dignity",
-                "title": "Choose Respect",
-                "prompt": "Which choice shows respect for someone who is different from you?",
-                "choices": ["Listen kindly", "Make a joke about them", "Ignore them"],
-                "correctAnswer": "Listen kindly",
-                "feedback": "Correct. Listening kindly protects dignity.",
-                "hint": "Respect means treating the person as valuable."
+                "title": "A Classmate Feels Small",
+                "prompt": "A classmate says, \"I am not good at sports, so I do not really matter on this team.\" Which response best protects their dignity?",
+                "choices": ["You have worth, and there are many ways to contribute.", "You will matter more once you find something you are best at.", "Try not to think about it so nobody feels awkward."],
+                "correctAnswer": "You have worth, and there are many ways to contribute.",
+                "feedback": "Yes. Dignity is not earned by being the best at one skill.",
+                "hint": "Look for the answer that separates a person's worth from one ability."
               },
               {
                 "kind": "question",
                 "level": "Level 1: God-Given Dignity",
                 "title": "True or False",
-                "prompt": "A person's value depends on having the same gifts as everyone else.",
+                "prompt": "Respecting someone's dignity means pretending everyone has exactly the same strengths.",
                 "choices": ["True", "False"],
                 "correctAnswer": "False",
-                "feedback": "Right. People can have different gifts and still have the same God-given worth.",
-                "hint": "Different gifts do not make one person more valuable than another."
+                "feedback": "Correct. People can have different strengths and still have equal worth.",
+                "hint": "Dignity does not require sameness."
               },
               {
                 "kind": "question",
                 "level": "Level 1: God-Given Dignity",
                 "title": "Psalm Connection",
-                "prompt": "Psalm 139 helps Christians remember that people are...",
-                "choices": ["made with care by God", "valuable only when they win", "all good at the same things"],
-                "correctAnswer": "made with care by God",
-                "feedback": "Yes. The passage points to God's care in making each person.",
-                "hint": "The verse is about being made by God."
+                "prompt": "A Christian reading Psalm 139:14 would most likely connect it to which idea?",
+                "choices": ["Gratitude for being made by God and respect for others.", "A reason to avoid improving because people are already complete.", "Proof that some people should receive more respect than others."],
+                "correctAnswer": "Gratitude for being made by God and respect for others.",
+                "feedback": "Right. The passage can lead to gratitude and respect, not pride or passivity.",
+                "hint": "Choose the answer that keeps both gratitude and respect."
+              },
+              {
+                "kind": "question",
+                "level": "Level 1: God-Given Dignity",
+                "title": "Jealousy Moment",
+                "prompt": "You notice a classmate has a gift you wish you had. Which response shows dignity and maturity?",
+                "choices": ["Notice what is good in their gift and keep practising your own next step.", "Stop trying because their gift makes yours less important.", "Point out one of their weaknesses so things feel more equal."],
+                "correctAnswer": "Notice what is good in their gift and keep practising your own next step.",
+                "feedback": "Yes. You can honour another person's gift without giving up on your own growth.",
+                "hint": "Look for the answer that avoids both envy and comparison."
               },
               {
                 "kind": "question",
                 "level": "Level 2: Gifts and Strengths",
-                "title": "Many Kinds of Gifts",
-                "prompt": "Which can be a real gift or strength?",
-                "choices": ["Encouraging others", "Only being the loudest", "Only winning prizes"],
-                "correctAnswer": "Encouraging others",
-                "feedback": "Correct. Encouraging others is a meaningful strength.",
-                "hint": "Some gifts are quiet and relational."
+                "title": "Gift and Growth",
+                "prompt": "Which statement best balances thankfulness for gifts with a willingness to grow?",
+                "choices": ["I can be thankful for strengths and still practise where I need to improve.", "If something is a gift, I should never need practice.", "If I struggle in one area, I probably do not have useful gifts."],
+                "correctAnswer": "I can be thankful for strengths and still practise where I need to improve.",
+                "feedback": "Correct. Gratitude and growth belong together.",
+                "hint": "The best answer does not pretend gifts remove the need for practice."
               },
               {
                 "kind": "question",
                 "level": "Level 2: Gifts and Strengths",
                 "title": "True or False",
-                "prompt": "Quiet gifts, practical gifts, creative gifts, and learning gifts can all matter.",
+                "prompt": "Humility means hiding every strength so no one notices it.",
                 "choices": ["True", "False"],
-                "correctAnswer": "True",
-                "feedback": "Yes. Gifts can show up in many different ways.",
-                "hint": "Think beyond gifts that get attention."
+                "correctAnswer": "False",
+                "feedback": "Right. Humility is not pretending gifts do not exist; it is using them without pride.",
+                "hint": "Think about whether humility means honesty or hiding."
               },
               {
                 "kind": "question",
                 "level": "Level 2: Gifts and Strengths",
-                "title": "Gratitude",
-                "prompt": "What is a healthy way to respond to a gift or strength?",
-                "choices": ["Be thankful and use it well", "Brag so others feel small", "Hide it because gifts are bad"],
-                "correctAnswer": "Be thankful and use it well",
-                "feedback": "Right. Gratitude helps us use gifts wisely.",
-                "hint": "The best answer includes thankfulness and responsibility."
+                "title": "Helping Without Taking Over",
+                "prompt": "You are good at explaining math, and a friend is stuck. Which choice uses that gift wisely?",
+                "choices": ["Ask if they want a hint and help them do their own thinking.", "Take the pencil and solve it quickly so the work is finished.", "Wait to help until the teacher can see how useful you are."],
+                "correctAnswer": "Ask if they want a hint and help them do their own thinking.",
+                "feedback": "Yes. Helpful service respects the other person's dignity and learning.",
+                "hint": "The best answer helps without controlling."
               },
               {
                 "kind": "question",
                 "level": "Level 2: Gifts and Strengths",
-                "title": "Comparing",
-                "prompt": "Which thought best avoids unhealthy comparison?",
-                "choices": ["God gives different gifts for good purposes", "My gifts make me better than others", "Only one kind of gift matters"],
-                "correctAnswer": "God gives different gifts for good purposes",
-                "feedback": "Yes. This keeps dignity and gratitude together.",
-                "hint": "Look for the answer that honours different people."
+                "title": "Private Reflection",
+                "prompt": "Which reflection prompt is thoughtful but still privacy-safe?",
+                "choices": ["Name one strength and one way it could serve someone.", "Share a private family problem to prove you trust the class.", "Rank your faith compared with your classmates."],
+                "correctAnswer": "Name one strength and one way it could serve someone.",
+                "feedback": "Correct. It invites thought without forcing private sharing.",
+                "hint": "Choose the prompt that asks for learning, not private disclosure."
               },
               {
                 "kind": "question",
                 "level": "Level 3: Using Gifts for Good",
-                "title": "Serve With Gifts",
-                "prompt": "Which choice uses a gift to help someone?",
-                "choices": ["Use patience to help a younger student", "Use a talent only to show off", "Use skill to make someone feel embarrassed"],
-                "correctAnswer": "Use patience to help a younger student",
-                "feedback": "Correct. Gifts can be used to serve and encourage.",
-                "hint": "Choose the answer that helps someone else."
+                "title": "Creative Gift",
+                "prompt": "You enjoy drawing, and your group is making a class poster. Which choice uses your gift for service?",
+                "choices": ["Design the poster while inviting useful ideas from others.", "Refuse changes because art is your gift, not theirs.", "Only help if everyone promises to compliment your drawing."],
+                "correctAnswer": "Design the poster while inviting useful ideas from others.",
+                "feedback": "Yes. A gift can lead while still making room for others.",
+                "hint": "Look for service joined with humility."
               },
               {
                 "kind": "question",
                 "level": "Level 3: Using Gifts for Good",
                 "title": "True or False",
-                "prompt": "Using a gift for good can be a small act, like encouraging, helping, or listening.",
+                "prompt": "A small act that nobody notices can still be faithful service.",
                 "choices": ["True", "False"],
                 "correctAnswer": "True",
-                "feedback": "Yes. Small faithful choices matter.",
-                "hint": "Service does not always have to be big or public."
+                "feedback": "Correct. Service does not have to be public to matter.",
+                "hint": "Think about whether service needs attention in order to count."
               },
               {
                 "kind": "question",
                 "level": "Level 3: Using Gifts for Good",
-                "title": "Safe Reflection",
-                "prompt": "Which reflection choice is privacy-safe?",
-                "choices": ["Write one simple gift I am thankful for", "Share a private family problem with everyone", "Grade how sincere my faith feels"],
-                "correctAnswer": "Write one simple gift I am thankful for",
-                "feedback": "Right. Faith and character reflections should be thoughtful and safe.",
-                "hint": "The best answer does not ask for private information."
+                "title": "Receiving Praise",
+                "prompt": "A teacher praises your work in front of the class. Which response shows gratitude and humility?",
+                "choices": ["Say thank you, give credit where needed, and keep using the gift well.", "Explain why others could not have done the work as well.", "Reject every kind word because accepting praise is always pride."],
+                "correctAnswer": "Say thank you, give credit where needed, and keep using the gift well.",
+                "feedback": "Yes. Gratitude can receive encouragement without turning it into pride.",
+                "hint": "The best answer is neither bragging nor pretending."
               },
               {
                 "kind": "question",
                 "level": "Level 3: Using Gifts for Good",
                 "title": "Mission Check",
-                "prompt": "What is the main idea of this lesson?",
-                "choices": ["I have God-given dignity and can use gifts for good", "Only public talents matter", "People should compare gifts to find who is best"],
-                "correctAnswer": "I have God-given dignity and can use gifts for good",
-                "feedback": "Yes. You named the lesson's main idea.",
-                "hint": "Look for dignity, gifts, and helping others."
+                "prompt": "Which sentence best summarizes the lesson?",
+                "choices": ["My worth is secure in God, and my gifts are for gratitude, growth, and service.", "My gifts prove I am more valuable when I succeed.", "If I struggle in one area, I should avoid serving until I am better."],
+                "correctAnswer": "My worth is secure in God, and my gifts are for gratitude, growth, and service.",
+                "feedback": "Correct. This brings together dignity, growth, gratitude, and service.",
+                "hint": "Look for the answer that includes worth, gifts, and purpose."
               }
             ]
           },
@@ -195,82 +195,82 @@ window.PracticeStarContent.grade5FaithCharacter = {
               {
                 "type": "trueFalse",
                 "section": "God-Given Dignity",
-                "prompt": "Christians believe every person has worth because God made people with care and purpose.",
+                "prompt": "God-given dignity means people should be treated with respect even when their gifts and struggles are different.",
                 "choices": ["True", "False"],
                 "correctAnswer": "True",
-                "reviewNote": "Worth comes from God-given dignity, not popularity or performance."
+                "reviewNote": "Dignity does not depend on everyone having the same strengths."
               },
               {
                 "type": "multipleChoice",
                 "section": "God-Given Dignity",
-                "prompt": "Which answer best shows respect for another person's dignity?",
-                "choices": ["Listen kindly", "Laugh at their weakness", "Only include people like me"],
-                "correctAnswer": "Listen kindly",
-                "reviewNote": "Respect protects the value of another person."
+                "prompt": "A student says, \"I am not special because I am not the best at anything.\" Which answer best fits this lesson?",
+                "choices": ["Your worth is not measured by being the best; gifts can be quiet, growing, or used in small ways.", "You should choose one thing and prove you are better than most people.", "It is better not to think about gifts because comparison is unavoidable."],
+                "correctAnswer": "Your worth is not measured by being the best; gifts can be quiet, growing, or used in small ways.",
+                "reviewNote": "The lesson separates worth from performance and comparison."
               },
               {
                 "type": "trueFalse",
                 "section": "Gifts and Strengths",
-                "prompt": "Only loud or public talents count as real gifts.",
-                "choices": ["True", "False"],
-                "correctAnswer": "False",
-                "reviewNote": "Quiet, practical, creative, relational, and spiritual gifts can all matter."
-              },
-              {
-                "type": "multipleChoice",
-                "section": "Gifts and Strengths",
-                "prompt": "What is a good response when you notice a gift or strength in yourself?",
-                "choices": ["Be thankful and use it wisely", "Use it to make others feel small", "Pretend no one else has gifts"],
-                "correctAnswer": "Be thankful and use it wisely",
-                "reviewNote": "Gratitude helps students use gifts responsibly."
-              },
-              {
-                "type": "multipleChoice",
-                "section": "Gifts and Strengths",
-                "prompt": "Which statement avoids unhealthy comparison?",
-                "choices": ["Different gifts can serve good purposes", "My gift makes me more valuable", "Only my kind of gift matters"],
-                "correctAnswer": "Different gifts can serve good purposes",
-                "reviewNote": "Different gifts do not change a person's God-given worth."
-              },
-              {
-                "type": "trueFalse",
-                "section": "Using Gifts for Good",
-                "prompt": "A gift can be used to encourage, serve, help, or care for someone else.",
+                "prompt": "A student can name a strength honestly without bragging, if the response includes gratitude and humility.",
                 "choices": ["True", "False"],
                 "correctAnswer": "True",
-                "reviewNote": "Faith and character learning connects gifts with loving action."
+                "reviewNote": "Humility does not require pretending strengths are not real."
+              },
+              {
+                "type": "multipleChoice",
+                "section": "Gifts and Strengths",
+                "prompt": "Which choice best shows stewardship of a gift?",
+                "choices": ["Using a strength to help while still respecting other people's ideas.", "Keeping a strength private because using it could never be humble.", "Using a strength mainly when it earns attention or praise."],
+                "correctAnswer": "Using a strength to help while still respecting other people's ideas.",
+                "reviewNote": "Stewardship means using gifts responsibly and lovingly."
+              },
+              {
+                "type": "multipleChoice",
+                "section": "Gifts and Strengths",
+                "prompt": "Which answer best explains Christian uniqueness in this lesson?",
+                "choices": ["Each person has God-given worth and can use different gifts for good.", "Each person should try to become unique by being better than classmates.", "Each person has worth only after discovering an impressive talent."],
+                "correctAnswer": "Each person has God-given worth and can use different gifts for good.",
+                "reviewNote": "Uniqueness is connected to dignity, gratitude, and service."
+              },
+              {
+                "type": "trueFalse",
+                "section": "Using Gifts for Good",
+                "prompt": "A gift is only useful if many people notice it.",
+                "choices": ["True", "False"],
+                "correctAnswer": "False",
+                "reviewNote": "Quiet or unseen service can still matter."
               },
               {
                 "type": "multipleChoice",
                 "section": "Using Gifts for Good",
-                "prompt": "Which choice uses a gift well?",
-                "choices": ["Helping someone practise with patience", "Showing off so others feel less important", "Keeping every strength only for myself"],
-                "correctAnswer": "Helping someone practise with patience",
-                "reviewNote": "Gifts are used well when they help, encourage, or serve."
+                "prompt": "You feel jealous of a classmate's gift. Which response best shows maturity?",
+                "choices": ["Name what is good in their gift, then choose one next step for your own growth.", "Decide their gift makes your strengths less meaningful.", "Find a weakness in their work so you do not feel behind."],
+                "correctAnswer": "Name what is good in their gift, then choose one next step for your own growth.",
+                "reviewNote": "This response honours another person without giving up on growth."
               },
               {
                 "type": "trueFalse",
                 "section": "Safe Reflection",
-                "prompt": "A student should be graded on how sincere their private faith feels.",
+                "prompt": "A privacy-safe reflection can ask students to name a gift and a service step without asking for private family details.",
                 "choices": ["True", "False"],
-                "correctAnswer": "False",
-                "reviewNote": "The lesson checks understanding and thoughtful response, not private faith sincerity."
+                "correctAnswer": "True",
+                "reviewNote": "The reflection should check thoughtfulness without forcing private disclosure."
               },
               {
                 "type": "multipleChoice",
                 "section": "Safe Reflection",
-                "prompt": "Which reflection is safest for this lesson?",
-                "choices": ["One gift I am thankful for is...", "A private family problem is...", "Everyone must share their prayer aloud"],
-                "correctAnswer": "One gift I am thankful for is...",
-                "reviewNote": "Reflections should avoid forcing private family or faith disclosures."
+                "prompt": "Which reflection answer is most appropriate for this lesson?",
+                "choices": ["I am thankful that I can listen well, and I can use that by helping a new student feel welcome.", "My family problem proves I understand dignity better than others.", "I should only mention gifts that make me look impressive to the class."],
+                "correctAnswer": "I am thankful that I can listen well, and I can use that by helping a new student feel welcome.",
+                "reviewNote": "A strong response names a gift and connects it to service without oversharing."
               },
               {
                 "type": "multipleChoice",
                 "section": "Lesson Summary",
-                "prompt": "What is the main message of I Am Unique?",
-                "choices": ["I have God-given dignity and can use gifts for good", "Only the strongest students matter", "Gifts are mainly for winning attention"],
-                "correctAnswer": "I have God-given dignity and can use gifts for good",
-                "reviewNote": "This lesson joins dignity, gratitude, and service."
+                "prompt": "Which summary best captures the whole lesson?",
+                "choices": ["My dignity is secure in God, and my gifts can grow and serve others.", "My dignity becomes stronger when my gifts are more visible.", "My gifts matter most when they help me stand out from others."],
+                "correctAnswer": "My dignity is secure in God, and my gifts can grow and serve others.",
+                "reviewNote": "The lesson connects dignity, growth, gratitude, and service."
               }
             ]
           },
