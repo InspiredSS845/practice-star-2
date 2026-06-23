@@ -15,6 +15,8 @@ const dashboardTabButtons = document.querySelectorAll(".tab-button");
 const dashboardTabPanels = document.querySelectorAll(".dashboard-tab-panel");
 const curriculumHomePanel = document.querySelector("#curriculumHomePanel");
 const curriculumSummary = document.querySelector("#curriculumSummary");
+const curriculumGradeTabs = document.querySelector("#curriculumGradeTabs");
+const curriculumSubjectTabs = document.querySelector("#curriculumSubjectTabs");
 const curriculumUnits = document.querySelector("#curriculumUnits");
 const curriculumLessonPanel = document.querySelector("#curriculumLessonPanel");
 const curriculumUnitTitle = document.querySelector("#curriculumUnitTitle");
@@ -64,6 +66,8 @@ let activeTeacher = null;
 let curriculumLibraries = [];
 let activeCurriculumUnitId = "";
 let activeCurriculumLibraryId = "";
+let activeCurriculumGrade = 5;
+let activeCurriculumSubject = "Mathematics";
 
 function currentTeacher() {
   return activeTeacher;
@@ -242,15 +246,40 @@ async function loadCurriculumLibraryFromFiles(library) {
 
 function renderCurriculum() {
   showCurriculumView("home");
-  const libraryCount = curriculumLibraries.length;
-  const unitCount = curriculumLibraries.reduce((total, library) => total + (library.units || []).length, 0);
-  const lessonCount = curriculumLibraries.reduce((total, library) =>
-    total + (library.units || []).reduce((unitTotal, unit) => unitTotal + (unit.lessons || []).length, 0), 0);
-  curriculumSummary.textContent = libraryCount === 1
-    ? `${curriculumLibraries[0].subject} - Grade ${curriculumLibraries[0].grade}: ${unitCount} units and ${lessonCount} lessons, reviews, and tests.`
-    : `${libraryCount} curriculum libraries: ${unitCount} units and ${lessonCount} lessons, reviews, and tests.`;
-  curriculumUnits.innerHTML = curriculumLibraries
-    .flatMap((library) => (library.units || []).map((unit, index) => ({ library, unit, index })))
+  ensureActiveCurriculumSelection();
+  renderCurriculumControls();
+
+  const library = activeCurriculumLibrary();
+  const units = library?.units || [];
+  const lessonCount = units.reduce((total, unit) => total + (unit.lessons || []).length, 0);
+
+  if (!library) {
+    curriculumSummary.textContent = "Choose a grade and subject to browse the curriculum library.";
+    curriculumUnits.innerHTML = "";
+    return;
+  }
+
+  curriculumSummary.textContent = units.length
+    ? `${library.subject} - Grade ${library.grade}: ${units.length} units and ${lessonCount} lessons, reviews, and tests.`
+    : `${library.subject} - Grade ${library.grade}: planned curriculum shell. Units and lessons will be added next.`;
+
+  if (!units.length) {
+    curriculumUnits.innerHTML = `
+      <article class="unit-card planned-subject-card">
+        <div>
+          <span class="stage-pill">Planned</span>
+          <p class="hint">${window.PracticeStar.escapeHtml(library.subject)} - Grade ${window.PracticeStar.escapeHtml(library.grade)}</p>
+          <h3>${window.PracticeStar.escapeHtml(library.title || library.subject)}</h3>
+          <p>${window.PracticeStar.escapeHtml(library.description || "This subject is ready for unit planning.")}</p>
+          <p class="hint">This tab is a placeholder so the site structure can grow one subject at a time.</p>
+        </div>
+      </article>
+    `;
+    return;
+  }
+
+  curriculumUnits.innerHTML = units
+    .map((unit, index) => ({ library, unit, index }))
     .map(({ library, unit, index }) => `
       <article class="unit-card">
         <div>
@@ -268,6 +297,80 @@ function renderCurriculum() {
   document.querySelectorAll(".view-unit-button").forEach((button) => {
     button.addEventListener("click", () => {
       renderCurriculumUnit(button.dataset.libraryId, button.dataset.unitId);
+    });
+  });
+}
+
+function uniqueValues(values) {
+  return Array.from(new Set(values.filter((value) => value !== "" && value !== null && value !== undefined)));
+}
+
+function curriculumGrades() {
+  return uniqueValues(curriculumLibraries.map((library) => Number(library.grade))).sort((a, b) => a - b);
+}
+
+function curriculumSubjectsForGrade(grade) {
+  return curriculumLibraries
+    .filter((library) => Number(library.grade) === Number(grade))
+    .map((library) => library.subject);
+}
+
+function activeCurriculumLibrary() {
+  return curriculumLibraries.find((library) =>
+    Number(library.grade) === Number(activeCurriculumGrade) &&
+    library.subject === activeCurriculumSubject
+  ) || null;
+}
+
+function ensureActiveCurriculumSelection() {
+  const grades = curriculumGrades();
+  if (!grades.includes(Number(activeCurriculumGrade))) {
+    activeCurriculumGrade = grades[0] || 5;
+  }
+
+  const subjects = curriculumSubjectsForGrade(activeCurriculumGrade);
+  if (!subjects.includes(activeCurriculumSubject)) {
+    activeCurriculumSubject = subjects[0] || "";
+  }
+}
+
+function renderCurriculumControls() {
+  const grades = curriculumGrades();
+  curriculumGradeTabs.innerHTML = grades
+    .map((grade) => `
+      <button
+        class="pill-tab${Number(grade) === Number(activeCurriculumGrade) ? " active" : ""}"
+        type="button"
+        data-grade="${grade}"
+        aria-pressed="${Number(grade) === Number(activeCurriculumGrade) ? "true" : "false"}"
+      >Grade ${window.PracticeStar.escapeHtml(grade)}</button>
+    `)
+    .join("");
+
+  const subjects = curriculumSubjectsForGrade(activeCurriculumGrade);
+  curriculumSubjectTabs.innerHTML = subjects
+    .map((subject, index) => `
+      <button
+        class="pill-tab${subject === activeCurriculumSubject ? " active" : ""}"
+        type="button"
+        data-subject-index="${index}"
+        aria-pressed="${subject === activeCurriculumSubject ? "true" : "false"}"
+      >${window.PracticeStar.escapeHtml(subject)}</button>
+    `)
+    .join("");
+
+  curriculumGradeTabs.querySelectorAll("button[data-grade]").forEach((button) => {
+    button.addEventListener("click", () => {
+      activeCurriculumGrade = Number(button.dataset.grade);
+      activeCurriculumSubject = curriculumSubjectsForGrade(activeCurriculumGrade)[0] || "";
+      renderCurriculum();
+    });
+  });
+
+  curriculumSubjectTabs.querySelectorAll("button[data-subject-index]").forEach((button) => {
+    button.addEventListener("click", () => {
+      activeCurriculumSubject = subjects[Number(button.dataset.subjectIndex)] || "";
+      renderCurriculum();
     });
   });
 }

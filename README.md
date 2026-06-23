@@ -18,6 +18,8 @@ Practice Star is a kid-friendly spelling and quiz practice app for teachers, par
 - Grade 5 Math curriculum content structure started
 - Teacher Curriculum tab can browse Grade 5 Math units and lessons
 - Teacher Curriculum tab can preview lesson sections
+- Teacher Curriculum tab now has a Grade 5 picker and subject tabs for Math, Language, Science and Technology, Social Studies, Health, Arts, French, and Faith and Character
+- Non-math subjects are planned shells so curriculum can be added one subject at a time without breaking Math
 
 ## Current Storage
 

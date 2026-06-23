@@ -8,6 +8,62 @@
       "basePath": "content/grade-5/math",
       "indexFile": "content/grade-5/math/index.json",
       "dataKey": "grade5Math"
+    },
+    {
+      "id": "grade-5-language",
+      "grade": 5,
+      "subject": "Language",
+      "title": "Language - Grade 5",
+      "status": "planned",
+      "description": "Reading, writing, oral communication, media literacy, vocabulary, grammar, and research skills will be built here."
+    },
+    {
+      "id": "grade-5-science",
+      "grade": 5,
+      "subject": "Science and Technology",
+      "title": "Science and Technology - Grade 5",
+      "status": "planned",
+      "description": "Life systems, matter and energy, structures and mechanisms, Earth and space systems, and STEM investigation units will be built here."
+    },
+    {
+      "id": "grade-5-social-studies",
+      "grade": 5,
+      "subject": "Social Studies",
+      "title": "Social Studies - Grade 5",
+      "status": "planned",
+      "description": "Heritage and identity, people and environments, inquiry skills, mapping, citizenship, and respectful worldview review will be built here."
+    },
+    {
+      "id": "grade-5-health",
+      "grade": 5,
+      "subject": "Health",
+      "title": "Health - Grade 5",
+      "status": "planned",
+      "description": "Healthy living, safety, emotional well-being, decision making, and family-preview-sensitive topics will be built here."
+    },
+    {
+      "id": "grade-5-arts",
+      "grade": 5,
+      "subject": "Arts",
+      "title": "Arts - Grade 5",
+      "status": "planned",
+      "description": "Music, visual arts, drama, dance, creative response, and portfolio-style activities will be built here."
+    },
+    {
+      "id": "grade-5-french",
+      "grade": 5,
+      "subject": "French",
+      "title": "French - Grade 5",
+      "status": "planned",
+      "description": "Listening, speaking, reading, writing, vocabulary, everyday communication, and simple cultural learning will be built here."
+    },
+    {
+      "id": "grade-5-faith-character",
+      "grade": 5,
+      "subject": "Faith and Character",
+      "title": "Faith and Character - Grade 5",
+      "status": "planned",
+      "description": "Christian character, Bible learning, service, stewardship, and Bible and Church History units will be built here as a custom library."
     }
   ]
 }

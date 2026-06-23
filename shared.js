@@ -1453,7 +1453,10 @@ const PracticeStar = (() => {
       .map((library) => {
         const data = window.PracticeStarContent?.[library.dataKey];
         if (!data) {
-          return null;
+          return {
+            ...library,
+            units: []
+          };
         }
         return {
           ...library,
