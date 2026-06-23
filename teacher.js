@@ -611,47 +611,22 @@ function renderLessonQuiz(quiz) {
   `;
 }
 
-function renderFaithActivityPlan(activity) {
-  if (!activity) {
-    return `<p>Student activity plan will be added later.</p>`;
-  }
-
-  const steps = activity.steps || [];
-  return `
-    <h4>${window.PracticeStar.escapeHtml(activity.title || "Student Activity")}</h4>
-    <p>${window.PracticeStar.escapeHtml(activity.mission || "")}</p>
-    <div class="activity-step-grid faith-step-grid">
-      ${steps.map((step, index) => `
-        <article class="activity-step-card">
-          <span class="stage-pill">Step ${index + 1}</span>
-          <h4>${window.PracticeStar.escapeHtml(step.title || "Activity Step")}</h4>
-          <p><strong>${window.PracticeStar.escapeHtml(step.prompt || "")}</strong></p>
-        </article>
-      `).join("")}
-    </div>
-  `;
-}
-
-function renderFaithLessonPreview(lesson) {
+function renderFaithTeacherNotes(lesson) {
   const bible = lesson.bibleConnection || {};
   return `
     <div class="preview-section faith-model-section">
       <span class="stage-pill">Model Lesson</span>
-      <h3>Teacher Purpose</h3>
+      <h3>Teacher Notes</h3>
       <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "Teacher overview will be added later.")}</p>
       ${lesson.learningGoal ? `<p><strong>Learning goal:</strong> ${window.PracticeStar.escapeHtml(lesson.learningGoal)}</p>` : ""}
       ${lesson.christianFocus ? `<p><strong>Christian focus:</strong> ${window.PracticeStar.escapeHtml(lesson.christianFocus)}</p>` : ""}
-      <p class="hint">This is a teacher-previewed model lesson. Student sharing controls will be added after the Faith lesson format is settled.</p>
+      <p class="hint">This lesson is now built like the Math lessons: a shareable student mission plus a scored final quiz.</p>
     </div>
     <div class="preview-section">
       <h3>Optional Bible Connection</h3>
       <p><strong>${window.PracticeStar.escapeHtml(bible.reference || "Teacher-selected passage")}</strong></p>
       ${bible.teacherNote ? `<p>${window.PracticeStar.escapeHtml(bible.teacherNote)}</p>` : ""}
       ${bible.discussionPrompt ? `<p><strong>Discussion prompt:</strong> ${window.PracticeStar.escapeHtml(bible.discussionPrompt)}</p>` : ""}
-    </div>
-    <div class="preview-section student-preview-section">
-      <h3>Student Activity</h3>
-      ${renderFaithActivityPlan(lesson.studentActivityPlan)}
     </div>
     <div class="preview-section">
       <h3>Privacy-Safe Reflection</h3>
@@ -696,8 +671,29 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   curriculumPreviewTitle.textContent = lesson.title;
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
   if (library.status === "shell") {
-    if (lesson.status === "model") {
-      curriculumPreviewContent.innerHTML = renderFaithLessonPreview(lesson);
+    if (lesson.status === "model" && (lesson.studentActivity || lesson.quiz?.questions?.length)) {
+      curriculumPreviewContent.innerHTML = `
+        <div class="preview-section student-preview-section">
+          <h3>Ready-to-Share Student Activity</h3>
+          ${renderAudienceControls({ ...visibleActivityAssignment, id: activityId, itemType: "activity" }, students, "activity")}
+          ${renderStudentActivity(lesson.studentActivity)}
+        </div>
+        <div class="preview-section">
+          <h3>Ready-to-Share Quiz</h3>
+          ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
+          ${renderLessonQuiz(lesson.quiz)}
+        </div>
+        ${renderFaithTeacherNotes(lesson)}
+      `;
+      attachAudienceControlHandlers(curriculumPreviewContent, ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
+        const teacher = currentTeacher();
+        window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
+          isShared,
+          shareMode,
+          targetStudentIds
+        });
+        renderCurriculumLessonPreview(libraryId, unitId, lessonId);
+      });
     } else {
       curriculumPreviewContent.innerHTML = `
         <div class="preview-section">
