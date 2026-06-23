@@ -21,6 +21,7 @@ Practice Star is a kid-friendly curriculum, practice, and progress app for teach
 - Teacher Curriculum tab now has a Grade 5 picker and subject tabs for Math, Language, Science and Technology, Social Studies, Health, Arts, French, and Faith and Character
 - Non-math subjects are planned shells so curriculum can be added one subject at a time without breaking Math
 - Faith and Character now has a Grade 5 shell with 7 Christian custom-library collections and 70 planned items
+- Faith and Character has its first model lesson: "I Am Unique" in Belonging, Identity, and Dignity
 
 ## Current Storage
 
@@ -55,7 +56,7 @@ Spelling lists, quizzes, activity content, and progress still use browser storag
 
 ## Next Backend Steps
 
-1. Create the first full Grade 5 Math lesson and quiz.
-2. Add curriculum sharing controls for teachers.
+1. Build the remaining Faith and Character lessons using the "I Am Unique" model.
+2. Add curriculum sharing controls for Faith and Character once the lesson format is settled.
 3. Move spelling lists and quizzes to Supabase.
 4. Move student activity loading and progress saving to Supabase.

@@ -414,6 +414,22 @@ function curriculumUnitById(libraryId, unitId) {
   return { library, unit };
 }
 
+function curriculumLessonLabel(library, lesson) {
+  if (library.status === "shell") {
+    return lesson.status === "model" ? "Model lesson" : "Planned item";
+  }
+
+  if (lesson.type === "unitTest") {
+    return "Unit test";
+  }
+
+  if (lesson.type === "review") {
+    return "Review";
+  }
+
+  return "Lesson";
+}
+
 function renderCurriculumUnit(libraryId, unitId) {
   const { library, unit } = curriculumUnitById(libraryId, unitId);
   if (!library || !unit) {
@@ -430,7 +446,7 @@ function renderCurriculumUnit(libraryId, unitId) {
       <article class="lesson-row">
         <div>
           <strong>${index + 1}. ${window.PracticeStar.escapeHtml(lesson.title)}</strong>
-          <p class="hint">${library.status === "shell" ? "Planned item" : lesson.type === "unitTest" ? "Unit test" : lesson.type === "review" ? "Review" : "Lesson"}</p>
+          <p class="hint">${curriculumLessonLabel(library, lesson)}</p>
         </div>
         <button class="secondary small-button preview-lesson-button" type="button" data-library-id="${library.id}" data-unit-id="${unit.id}" data-lesson-id="${lesson.id}">Preview</button>
       </article>
@@ -595,6 +611,68 @@ function renderLessonQuiz(quiz) {
   `;
 }
 
+function renderFaithActivityPlan(activity) {
+  if (!activity) {
+    return `<p>Student activity plan will be added later.</p>`;
+  }
+
+  const steps = activity.steps || [];
+  return `
+    <h4>${window.PracticeStar.escapeHtml(activity.title || "Student Activity")}</h4>
+    <p>${window.PracticeStar.escapeHtml(activity.mission || "")}</p>
+    <div class="activity-step-grid faith-step-grid">
+      ${steps.map((step, index) => `
+        <article class="activity-step-card">
+          <span class="stage-pill">Step ${index + 1}</span>
+          <h4>${window.PracticeStar.escapeHtml(step.title || "Activity Step")}</h4>
+          <p><strong>${window.PracticeStar.escapeHtml(step.prompt || "")}</strong></p>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderFaithLessonPreview(lesson) {
+  const bible = lesson.bibleConnection || {};
+  return `
+    <div class="preview-section faith-model-section">
+      <span class="stage-pill">Model Lesson</span>
+      <h3>Teacher Purpose</h3>
+      <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "Teacher overview will be added later.")}</p>
+      ${lesson.learningGoal ? `<p><strong>Learning goal:</strong> ${window.PracticeStar.escapeHtml(lesson.learningGoal)}</p>` : ""}
+      ${lesson.christianFocus ? `<p><strong>Christian focus:</strong> ${window.PracticeStar.escapeHtml(lesson.christianFocus)}</p>` : ""}
+      <p class="hint">This is a teacher-previewed model lesson. Student sharing controls will be added after the Faith lesson format is settled.</p>
+    </div>
+    <div class="preview-section">
+      <h3>Optional Bible Connection</h3>
+      <p><strong>${window.PracticeStar.escapeHtml(bible.reference || "Teacher-selected passage")}</strong></p>
+      ${bible.teacherNote ? `<p>${window.PracticeStar.escapeHtml(bible.teacherNote)}</p>` : ""}
+      ${bible.discussionPrompt ? `<p><strong>Discussion prompt:</strong> ${window.PracticeStar.escapeHtml(bible.discussionPrompt)}</p>` : ""}
+    </div>
+    <div class="preview-section student-preview-section">
+      <h3>Student Activity</h3>
+      ${renderFaithActivityPlan(lesson.studentActivityPlan)}
+    </div>
+    <div class="preview-section">
+      <h3>Privacy-Safe Reflection</h3>
+      ${renderListItems(lesson.reflectionPrompts, "Reflection prompts will be added later.")}
+      ${lesson.privacyNote ? `<p class="hint">${window.PracticeStar.escapeHtml(lesson.privacyNote)}</p>` : ""}
+    </div>
+    <div class="preview-section">
+      <h3>Gentle Completion Check</h3>
+      ${renderListItems(lesson.completionCheck, "Completion checks will be added later.")}
+    </div>
+    <div class="preview-section">
+      <h3>Teacher Guardrails</h3>
+      ${renderListItems(lesson.teacherGuardrails, "Teacher guardrails will be added later.")}
+    </div>
+    <div class="preview-section">
+      <h3>Home Connection</h3>
+      <p>${window.PracticeStar.escapeHtml(lesson.homeConnection || "Optional home connection will be added later.")}</p>
+    </div>
+  `;
+}
+
 async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const { library, unit } = curriculumUnitById(libraryId, unitId);
   const lesson = unit?.lessons.find((item) => item.id === lessonId);
@@ -618,22 +696,26 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   curriculumPreviewTitle.textContent = lesson.title;
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
   if (library.status === "shell") {
-    curriculumPreviewContent.innerHTML = `
-      <div class="preview-section">
-        <h3>Planned Faith and Character Item</h3>
-        <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "This planned item will be expanded into a teacher-previewed activity.")}</p>
-        <p class="hint">This shell is not ready to share with students yet. Student prompts, Bible references, reflection settings, and privacy choices should be reviewed before assignment.</p>
-      </div>
-      <div class="preview-section">
-        <h3>Christian Content Guardrails</h3>
-        <ul>
-          <li>Keep wording explicitly Christian, gracious, and age-appropriate.</li>
-          <li>Do not grade private faith, prayer sincerity, or personal family beliefs.</li>
-          <li>Keep Bible references and prayer wording editable for the teacher, family, church, or school context.</li>
-          <li>Preview sensitive prompts before students see them.</li>
-        </ul>
-      </div>
-    `;
+    if (lesson.status === "model") {
+      curriculumPreviewContent.innerHTML = renderFaithLessonPreview(lesson);
+    } else {
+      curriculumPreviewContent.innerHTML = `
+        <div class="preview-section">
+          <h3>Planned Faith and Character Item</h3>
+          <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "This planned item will be expanded into a teacher-previewed activity.")}</p>
+          <p class="hint">This shell is not ready to share with students yet. Student prompts, Bible references, reflection settings, and privacy choices should be reviewed before assignment.</p>
+        </div>
+        <div class="preview-section">
+          <h3>Christian Content Guardrails</h3>
+          <ul>
+            <li>Keep wording explicitly Christian, gracious, and age-appropriate.</li>
+            <li>Do not grade private faith, prayer sincerity, or personal family beliefs.</li>
+            <li>Keep Bible references and prayer wording editable for the teacher, family, church, or school context.</li>
+            <li>Preview sensitive prompts before students see them.</li>
+          </ul>
+        </div>
+      `;
+    }
     return;
   }
 

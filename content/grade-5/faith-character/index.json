@@ -16,7 +16,60 @@
       "strand": "Christian Character",
       "unitGoal": "Students will recognize that each person has worth and that classroom communities should help people feel safe, seen, respected, and valued as people made by God.",
       "lessons": [
-        { "id": "grade-5-faith-character-identity-unique", "title": "I Am Unique", "type": "lesson", "teacherOverview": "Planned Christian character activity about noticing personal gifts, strengths, and God-given dignity without asking students to share private family details." },
+        {
+          "id": "grade-5-faith-character-identity-unique",
+          "title": "I Am Unique",
+          "type": "lesson",
+          "status": "model",
+          "teacherOverview": "Students notice gifts, strengths, interests, and growth areas while practising gratitude for how God made each person. The activity avoids asking students to reveal private family details or deeply personal struggles.",
+          "learningGoal": "Students will recognize that each person has God-given dignity and can name gifts, strengths, and interests without comparing themselves to others.",
+          "christianFocus": "Each person has worth because God made people with care and purpose. The lesson invites gratitude and respect, not pride or comparison.",
+          "bibleConnection": {
+            "reference": "Psalm 139:14",
+            "teacherNote": "Use the wording from the Bible translation preferred by the family, church, or school. Teachers may replace or add a different passage.",
+            "discussionPrompt": "What does this passage help Christians remember about the value of each person?"
+          },
+          "teacherGuardrails": [
+            "Do not rank gifts or make students compare whose gifts are better.",
+            "Allow students to choose simple, non-private answers.",
+            "Treat quiet, practical, creative, academic, physical, relational, and spiritual gifts with equal respect.",
+            "Reflection should be completed for thoughtfulness, not graded for faith sincerity."
+          ],
+          "studentActivityPlan": {
+            "title": "My Gifts and Gratitude Map",
+            "mission": "Notice gifts and strengths God has given you, then choose one way to use a gift to help someone else.",
+            "steps": [
+              {
+                "title": "Notice",
+                "prompt": "Write or draw three things you enjoy, care about, or are learning to do."
+              },
+              {
+                "title": "Name Gifts",
+                "prompt": "Choose two strengths or gifts. They can be quiet, creative, practical, academic, physical, relational, or spiritual."
+              },
+              {
+                "title": "Use It for Good",
+                "prompt": "Choose one gift and name one simple way you could use it to serve, encourage, help, or care for someone."
+              },
+              {
+                "title": "Thankfulness",
+                "prompt": "Complete this sentence: God, thank You for making me able to..."
+              }
+            ]
+          },
+          "reflectionPrompts": [
+            "One gift or strength I am thankful for is...",
+            "One way I can use this gift to help someone is...",
+            "One thing I am still learning or growing in is..."
+          ],
+          "completionCheck": [
+            "Student named at least one gift or strength.",
+            "Student connected a gift to helping or encouraging others.",
+            "Student completed a private or teacher-reviewed reflection."
+          ],
+          "privacyNote": "Suggested default: teacher-visible only. Do not require students to share private reflections with the class.",
+          "homeConnection": "Optional family prompt: Tell your child one gift, strength, or good habit you see growing in them, and name one way that gift could bless others."
+        },
         { "id": "grade-5-faith-character-identity-belongs", "title": "Everyone Belongs", "type": "lesson", "teacherOverview": "Planned activity about welcome, inclusion, and love of neighbour in classroom community." },
         { "id": "grade-5-faith-character-identity-names-stories", "title": "Names, Stories, and Respect", "type": "lesson", "teacherOverview": "Planned activity about listening respectfully and honouring each person's story." },
         { "id": "grade-5-faith-character-identity-words-build-up", "title": "Words That Build Up", "type": "lesson", "teacherOverview": "Planned activity about choosing speech that encourages, repairs, and protects dignity." },

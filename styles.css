@@ -394,6 +394,15 @@ h1 {
   background: #fff8d8;
 }
 
+.faith-model-section {
+  border-color: #dbcfff;
+  background: #fbf7ff;
+}
+
+.faith-step-grid {
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+}
+
 .preview-details {
   margin-top: 12px;
 }
