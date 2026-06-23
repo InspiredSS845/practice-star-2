@@ -1,0 +1,140 @@
+{
+  "subject": "Faith and Character",
+  "grade": 5,
+  "title": "Faith and Character - Grade 5",
+  "description": "An optional Christian custom library for character formation, Bible-connected reflection, service, stewardship, and Bible and Church History.",
+  "contentGuardrails": [
+    "This library is explicitly Christian in purpose and tone.",
+    "Reflection prompts should invite thoughtful response without grading a student's private faith or sincerity.",
+    "Bible references, prayer wording, and faith language should remain teacher-editable.",
+    "Sensitive prompts should be previewed by the teacher before students see them."
+  ],
+  "units": [
+    {
+      "id": "grade-5-faith-character-belonging-identity-dignity",
+      "title": "Belonging, Identity, and Dignity",
+      "strand": "Christian Character",
+      "unitGoal": "Students will recognize that each person has worth and that classroom communities should help people feel safe, seen, respected, and valued as people made by God.",
+      "lessons": [
+        { "id": "grade-5-faith-character-identity-unique", "title": "I Am Unique", "type": "lesson", "teacherOverview": "Planned Christian character activity about noticing personal gifts, strengths, and God-given dignity without asking students to share private family details." },
+        { "id": "grade-5-faith-character-identity-belongs", "title": "Everyone Belongs", "type": "lesson", "teacherOverview": "Planned activity about welcome, inclusion, and love of neighbour in classroom community." },
+        { "id": "grade-5-faith-character-identity-names-stories", "title": "Names, Stories, and Respect", "type": "lesson", "teacherOverview": "Planned activity about listening respectfully and honouring each person's story." },
+        { "id": "grade-5-faith-character-identity-words-build-up", "title": "Words That Build Up", "type": "lesson", "teacherOverview": "Planned activity about choosing speech that encourages, repairs, and protects dignity." },
+        { "id": "grade-5-faith-character-identity-welcoming", "title": "Welcoming Others", "type": "lesson", "teacherOverview": "Planned scenario activity about noticing who may feel left out and choosing a welcoming response." },
+        { "id": "grade-5-faith-character-identity-respecting-differences", "title": "Respecting Differences", "type": "lesson", "teacherOverview": "Planned activity about showing respect while keeping Christian convictions clear and gracious." },
+        { "id": "grade-5-faith-character-identity-gratitude-gifts", "title": "Gratitude for Gifts and Strengths", "type": "lesson", "teacherOverview": "Planned gratitude activity about using gifts to serve others." },
+        { "id": "grade-5-faith-character-identity-class-covenant", "title": "Creating a Class Covenant", "type": "lesson", "teacherOverview": "Planned activity for shaping classroom promises around respect, care, truthfulness, and welcome." },
+        { "id": "grade-5-faith-character-identity-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on belonging, dignity, and what students want to practice next." },
+        { "id": "grade-5-faith-character-identity-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned identity shield, belonging reflection, or class covenant response." }
+      ]
+    },
+    {
+      "id": "grade-5-faith-character-kindness-empathy-compassion",
+      "title": "Kindness, Empathy, and Compassion",
+      "strand": "Christian Character",
+      "unitGoal": "Students will practice noticing feelings, listening well, and choosing caring responses that reflect love of neighbour.",
+      "lessons": [
+        { "id": "grade-5-faith-character-kindness-looks-like", "title": "What Kindness Looks Like", "type": "lesson", "teacherOverview": "Planned activity about recognizing kindness in words, actions, tone, and follow-through." },
+        { "id": "grade-5-faith-character-kindness-reading-feelings", "title": "Reading Feelings", "type": "lesson", "teacherOverview": "Planned activity about noticing emotions without making assumptions or embarrassing others." },
+        { "id": "grade-5-faith-character-kindness-listening-care", "title": "Listening With Care", "type": "lesson", "teacherOverview": "Planned practice for attentive listening and gentle questions." },
+        { "id": "grade-5-faith-character-kindness-helping", "title": "Helping Without Taking Over", "type": "lesson", "teacherOverview": "Planned scenarios about offering help respectfully." },
+        { "id": "grade-5-faith-character-kindness-including", "title": "Including Someone Left Out", "type": "lesson", "teacherOverview": "Planned scenario activity about inclusion, courage, and compassion." },
+        { "id": "grade-5-faith-character-kindness-apology-encouragement", "title": "Words for Apology and Encouragement", "type": "lesson", "teacherOverview": "Planned activity about helpful apology language and truthful encouragement." },
+        { "id": "grade-5-faith-character-kindness-compassion-action", "title": "Compassion in Action", "type": "lesson", "teacherOverview": "Planned activity connecting compassion to small concrete choices." },
+        { "id": "grade-5-faith-character-kindness-challenge", "title": "Planning a Kindness Challenge", "type": "lesson", "teacherOverview": "Planned class or home kindness challenge with teacher-selected boundaries." },
+        { "id": "grade-5-faith-character-kindness-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on empathy, kindness, and love of neighbour." },
+        { "id": "grade-5-faith-character-kindness-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned kindness challenge plan or empathy scenario response." }
+      ]
+    },
+    {
+      "id": "grade-5-faith-character-honesty-responsibility-integrity",
+      "title": "Honesty, Responsibility, and Integrity",
+      "strand": "Christian Character",
+      "unitGoal": "Students will explore truthful choices, responsibility, trust, and repair after mistakes.",
+      "lessons": [
+        { "id": "grade-5-faith-character-integrity-truth-trust", "title": "Truth and Trust", "type": "lesson", "teacherOverview": "Planned activity about how truthfulness supports trust and community." },
+        { "id": "grade-5-faith-character-integrity-owning-choices", "title": "Owning My Choices", "type": "lesson", "teacherOverview": "Planned scenario activity about responsibility without shame." },
+        { "id": "grade-5-faith-character-integrity-small-choices", "title": "Small Choices Matter", "type": "lesson", "teacherOverview": "Planned activity about small habits and integrity." },
+        { "id": "grade-5-faith-character-integrity-repairing-harm", "title": "Repairing Harm", "type": "lesson", "teacherOverview": "Planned activity about apology, repair, and wise adult help when needed." },
+        { "id": "grade-5-faith-character-integrity-school", "title": "Responsibility at School", "type": "lesson", "teacherOverview": "Planned activity about classroom responsibility and follow-through." },
+        { "id": "grade-5-faith-character-integrity-home-community", "title": "Responsibility at Home or in Community", "type": "lesson", "teacherOverview": "Planned reflection that avoids requiring private family disclosures." },
+        { "id": "grade-5-faith-character-integrity-unseen", "title": "Integrity When No One Is Watching", "type": "lesson", "teacherOverview": "Planned activity about choosing what is right even when it is quiet or unseen." },
+        { "id": "grade-5-faith-character-integrity-better-choice", "title": "Making a Better Choice Plan", "type": "lesson", "teacherOverview": "Planned activity for next-step planning after a mistake." },
+        { "id": "grade-5-faith-character-integrity-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on truth, responsibility, and repair." },
+        { "id": "grade-5-faith-character-integrity-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned responsibility checklist, repair plan, or scenario reflection." }
+      ]
+    },
+    {
+      "id": "grade-5-faith-character-courage-resilience-hope",
+      "title": "Courage, Resilience, and Hope",
+      "strand": "Christian Character",
+      "unitGoal": "Students will learn how courage, perseverance, help-seeking, and hopeful thinking can support growth through challenge.",
+      "lessons": [
+        { "id": "grade-5-faith-character-courage-meaning", "title": "What Courage Means", "type": "lesson", "teacherOverview": "Planned activity about courage as wise, faithful action, not pretending nothing is hard." },
+        { "id": "grade-5-faith-character-courage-trying-again", "title": "Trying Again", "type": "lesson", "teacherOverview": "Planned activity about perseverance and learning from attempts." },
+        { "id": "grade-5-faith-character-courage-help", "title": "Asking for Help", "type": "lesson", "teacherOverview": "Planned activity about wise help-seeking from trusted adults and friends." },
+        { "id": "grade-5-faith-character-courage-mistakes", "title": "Learning From Mistakes", "type": "lesson", "teacherOverview": "Planned activity about growth, humility, and next steps." },
+        { "id": "grade-5-faith-character-courage-encouraging", "title": "Encouraging Myself and Others", "type": "lesson", "teacherOverview": "Planned activity about encouragement that is truthful and hopeful." },
+        { "id": "grade-5-faith-character-courage-hopeful-thinking", "title": "Hopeful Thinking", "type": "lesson", "teacherOverview": "Planned activity connecting hope with trust, patience, and wise action." },
+        { "id": "grade-5-faith-character-courage-next-step", "title": "Choosing a Next Step", "type": "lesson", "teacherOverview": "Planned activity for breaking challenges into manageable next steps." },
+        { "id": "grade-5-faith-character-courage-toolbox", "title": "My Resilience Toolbox", "type": "lesson", "teacherOverview": "Planned activity for collecting healthy strategies and trusted supports." },
+        { "id": "grade-5-faith-character-courage-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on courage, resilience, help, and hope." },
+        { "id": "grade-5-faith-character-courage-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned resilience strategy card or story response." }
+      ]
+    },
+    {
+      "id": "grade-5-faith-character-service-stewardship-community",
+      "title": "Service, Stewardship, and Community",
+      "strand": "Christian Service",
+      "unitGoal": "Students will connect character learning to service, care for creation and shared spaces, and contribution to the common good.",
+      "lessons": [
+        { "id": "grade-5-faith-character-service-meaning", "title": "What It Means to Serve", "type": "lesson", "teacherOverview": "Planned activity about service as humble love in action." },
+        { "id": "grade-5-faith-character-service-classroom-needs", "title": "Needs in Our Classroom", "type": "lesson", "teacherOverview": "Planned activity for noticing practical needs and helpful responses." },
+        { "id": "grade-5-faith-character-service-community-needs", "title": "Needs in Our Community", "type": "lesson", "teacherOverview": "Planned activity for age-appropriate community awareness." },
+        { "id": "grade-5-faith-character-service-shared-spaces", "title": "Caring for Shared Spaces", "type": "lesson", "teacherOverview": "Planned activity about stewardship of classrooms, homes, churches, and neighbourhood spaces." },
+        { "id": "grade-5-faith-character-service-stewardship-gratitude", "title": "Stewardship and Gratitude", "type": "lesson", "teacherOverview": "Planned activity connecting gratitude, care, and responsible use of what God provides." },
+        { "id": "grade-5-faith-character-service-small-acts", "title": "Small Acts With Big Impact", "type": "lesson", "teacherOverview": "Planned activity about faithful small actions." },
+        { "id": "grade-5-faith-character-service-action-plan", "title": "Planning a Service Action", "type": "lesson", "teacherOverview": "Planned teacher-guided service planning activity." },
+        { "id": "grade-5-faith-character-service-reflecting", "title": "Reflecting on Service", "type": "lesson", "teacherOverview": "Planned reflection about what students noticed, learned, and appreciated through service." },
+        { "id": "grade-5-faith-character-service-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on service, stewardship, gratitude, and community care." },
+        { "id": "grade-5-faith-character-service-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned service project plan or stewardship reflection." }
+      ]
+    },
+    {
+      "id": "grade-5-faith-character-peace-forgiveness-leadership",
+      "title": "Peace, Forgiveness, and Leadership",
+      "strand": "Christian Character",
+      "unitGoal": "Students will practice peaceful problem solving, healthy forgiveness, boundary-aware conflict repair, and leadership through service.",
+      "lessons": [
+        { "id": "grade-5-faith-character-peace-words", "title": "Peaceful Words", "type": "lesson", "teacherOverview": "Planned activity about choosing calm and truthful words during conflict." },
+        { "id": "grade-5-faith-character-peace-cooling-down", "title": "Cooling Down Before Responding", "type": "lesson", "teacherOverview": "Planned activity about pausing, praying or reflecting, and seeking help before responding." },
+        { "id": "grade-5-faith-character-peace-solving-conflict", "title": "Solving Conflict Fairly", "type": "lesson", "teacherOverview": "Planned scenarios for fair conflict repair with trusted adult support when needed." },
+        { "id": "grade-5-faith-character-peace-forgiveness-boundaries", "title": "Forgiveness and Boundaries", "type": "lesson", "teacherOverview": "Planned sensitive activity distinguishing forgiveness, repair, trust, and safety." },
+        { "id": "grade-5-faith-character-peace-making-amends", "title": "Making Amends", "type": "lesson", "teacherOverview": "Planned activity about apology, restitution, and changed behaviour." },
+        { "id": "grade-5-faith-character-peace-leadership-service", "title": "Leadership Through Service", "type": "lesson", "teacherOverview": "Planned activity about leadership as responsibility and service." },
+        { "id": "grade-5-faith-character-peace-leading-example", "title": "Leading by Example", "type": "lesson", "teacherOverview": "Planned activity about steady choices that help others." },
+        { "id": "grade-5-faith-character-peace-plan", "title": "Preparing a Peace Plan", "type": "lesson", "teacherOverview": "Planned activity for building a personal or class peace plan." },
+        { "id": "grade-5-faith-character-peace-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on peace, forgiveness, boundaries, and leadership." },
+        { "id": "grade-5-faith-character-peace-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned peace plan, role play, or leadership reflection." }
+      ]
+    },
+    {
+      "id": "grade-5-faith-character-bible-church-history",
+      "title": "Bible and Church History",
+      "strand": "Bible and Church History",
+      "unitGoal": "Students will learn the broad story of Scripture and selected parts of church history in a respectful, age-appropriate way, connecting Bible knowledge with Christian identity, worship, service, and faithful living.",
+      "lessons": [
+        { "id": "grade-5-faith-character-bible-big-story", "title": "The Big Story of the Bible", "type": "lesson", "teacherOverview": "Planned Bible overview activity tracing creation, fall, promise, redemption, and restoration in age-appropriate language." },
+        { "id": "grade-5-faith-character-bible-creation-promise-covenant", "title": "Creation, Fall, Promise, and Covenant", "type": "lesson", "teacherOverview": "Planned activity about key Old Testament themes and God's faithfulness." },
+        { "id": "grade-5-faith-character-bible-jesus-gospels", "title": "Jesus in the Gospels", "type": "lesson", "teacherOverview": "Planned activity about Jesus' life, teaching, death, and resurrection with teacher-selected scripture references." },
+        { "id": "grade-5-faith-character-bible-acts-early-church", "title": "The Early Church in Acts", "type": "lesson", "teacherOverview": "Planned activity about the early church, prayer, witness, community, and mission." },
+        { "id": "grade-5-faith-character-bible-christians-history", "title": "Christians Through History", "type": "lesson", "teacherOverview": "Planned survey of selected Christians through history, avoiding denominational arguments unless a teacher customizes the activity." },
+        { "id": "grade-5-faith-character-bible-worship-scripture-prayer", "title": "Worship, Scripture, and Prayer", "type": "lesson", "teacherOverview": "Planned activity about Christian practices, with wording editable for family, church, or school tradition." },
+        { "id": "grade-5-faith-character-bible-mission-service-witness", "title": "Mission, Service, and Witness", "type": "lesson", "teacherOverview": "Planned activity connecting faith, service, and witness in gracious age-appropriate ways." },
+        { "id": "grade-5-faith-character-bible-my-place", "title": "My Place in God's Story", "type": "lesson", "teacherOverview": "Planned reflection about belonging, calling, service, and faithful living without grading private faith." },
+        { "id": "grade-5-faith-character-bible-reflection", "title": "Collection Reflection", "type": "review", "teacherOverview": "Gentle reflection on Scripture, church history, worship, service, and what students want to keep learning." },
+        { "id": "grade-5-faith-character-bible-culminating-task", "title": "Culminating Task", "type": "lesson", "teacherOverview": "Planned Bible timeline, church history profile, family or church heritage reflection, or short presentation plan." }
+      ]
+    }
+  ]
+}

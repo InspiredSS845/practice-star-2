@@ -63,7 +63,10 @@ window.PracticeStarContent.catalog = {
       "grade": 5,
       "subject": "Faith and Character",
       "title": "Faith and Character - Grade 5",
-      "status": "planned",
+      "status": "shell",
+      "basePath": "content/grade-5/faith-character",
+      "indexFile": "content/grade-5/faith-character/index.json",
+      "dataKey": "grade5FaithCharacter",
       "description": "Christian character, Bible learning, service, stewardship, and Bible and Church History units will be built here as a custom library."
     }
   ]

@@ -229,6 +229,9 @@ async function loadCurriculumLibraryFromFiles(library) {
   const curriculumIndex = await indexResponse.json();
   const basePath = library.basePath || library.indexFile.split("/").slice(0, -1).join("/");
   const units = await Promise.all((curriculumIndex.units || []).map(async (unit) => {
+    if (!unit.file) {
+      return unit;
+    }
     const unitResponse = await fetch(`${basePath}/${unit.file}`);
     if (!unitResponse.ok) {
       throw new Error(`${unit.title} could not be loaded.`);
@@ -252,6 +255,7 @@ function renderCurriculum() {
   const library = activeCurriculumLibrary();
   const units = library?.units || [];
   const lessonCount = units.reduce((total, unit) => total + (unit.lessons || []).length, 0);
+  const isShellLibrary = library?.status === "shell";
 
   if (!library) {
     curriculumSummary.textContent = "Choose a grade and subject to browse the curriculum library.";
@@ -259,7 +263,9 @@ function renderCurriculum() {
     return;
   }
 
-  curriculumSummary.textContent = units.length
+  curriculumSummary.textContent = isShellLibrary
+    ? `${library.subject} - Grade ${library.grade}: ${units.length} collections and ${lessonCount} planned items.`
+    : units.length
     ? `${library.subject} - Grade ${library.grade}: ${units.length} units and ${lessonCount} lessons, reviews, and tests.`
     : `${library.subject} - Grade ${library.grade}: planned curriculum shell. Units and lessons will be added next.`;
 
@@ -287,7 +293,7 @@ function renderCurriculum() {
           <p class="hint">${window.PracticeStar.escapeHtml(library.subject)} - Grade ${window.PracticeStar.escapeHtml(library.grade)}</p>
           <h3>Unit ${index + 1}: ${window.PracticeStar.escapeHtml(unit.title)}</h3>
           <p>${window.PracticeStar.escapeHtml(unit.unitGoal || "Lesson details will be added as the curriculum library grows.")}</p>
-          <p class="hint">${unit.lessons.length} lesson${unit.lessons.length === 1 ? "" : "s"}, reviews, and tests</p>
+          <p class="hint">${unit.lessons.length} ${library.status === "shell" ? "planned item" : "lesson"}${unit.lessons.length === 1 ? "" : "s"}${library.status === "shell" ? "" : ", reviews, and tests"}</p>
         </div>
         <button class="secondary view-unit-button" type="button" data-library-id="${library.id}" data-unit-id="${unit.id}">View Lessons</button>
       </article>
@@ -401,7 +407,7 @@ function renderCurriculumUnit(libraryId, unitId) {
       <article class="lesson-row">
         <div>
           <strong>${index + 1}. ${window.PracticeStar.escapeHtml(lesson.title)}</strong>
-          <p class="hint">${lesson.type === "unitTest" ? "Unit test" : lesson.type === "review" ? "Review" : "Lesson"}</p>
+          <p class="hint">${library.status === "shell" ? "Planned item" : lesson.type === "unitTest" ? "Unit test" : lesson.type === "review" ? "Review" : "Lesson"}</p>
         </div>
         <button class="secondary small-button preview-lesson-button" type="button" data-library-id="${library.id}" data-unit-id="${unit.id}" data-lesson-id="${lesson.id}">Preview</button>
       </article>
@@ -588,6 +594,26 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   showCurriculumView("preview");
   curriculumPreviewTitle.textContent = lesson.title;
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
+  if (library.status === "shell") {
+    curriculumPreviewContent.innerHTML = `
+      <div class="preview-section">
+        <h3>Planned Faith and Character Item</h3>
+        <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "This planned item will be expanded into a teacher-previewed activity.")}</p>
+        <p class="hint">This shell is not ready to share with students yet. Student prompts, Bible references, reflection settings, and privacy choices should be reviewed before assignment.</p>
+      </div>
+      <div class="preview-section">
+        <h3>Christian Content Guardrails</h3>
+        <ul>
+          <li>Keep wording explicitly Christian, gracious, and age-appropriate.</li>
+          <li>Do not grade private faith, prayer sincerity, or personal family beliefs.</li>
+          <li>Keep Bible references and prayer wording editable for the teacher, family, church, or school context.</li>
+          <li>Preview sensitive prompts before students see them.</li>
+        </ul>
+      </div>
+    `;
+    return;
+  }
+
   if (lesson.type === "unitTest") {
     curriculumPreviewContent.innerHTML = `
       <div class="preview-section">
