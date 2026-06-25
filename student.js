@@ -249,7 +249,7 @@ function currentStudentLoginForDevice() {
 function logOutStudent(message = "Logged out.", forgetSavedLogin = false) {
   const currentStudentLogin = currentStudentLoginForDevice();
   let savedStudentLogin = forgetSavedLogin ? null : getSavedStudentLogin();
-  if (!forgetSavedLogin && currentStudentLogin && (rememberStudentLogin.checked || savedStudentLogin)) {
+  if (!forgetSavedLogin && currentStudentLogin) {
     saveStudentLogin(currentStudentLogin.code, currentStudentLogin.name);
     savedStudentLogin = currentStudentLogin;
   }
