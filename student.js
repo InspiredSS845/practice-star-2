@@ -504,8 +504,7 @@ function renderActivities(classBundle, student) {
   activeStudentName = student.name;
   const teacherId = classBundle.teacher?.id || "";
   const learningActivities = pilotLearningActivities().filter((item) =>
-    window.PracticeStar.contentItemIsSharedWithStudent(teacherId, item.id, "activity", student.id) ||
-    window.PracticeStar.contentItemIsSharedWithStudent(teacherId, `${item.id}:activity`, "activity", student.id)
+    window.PracticeStar.contentItemIsSharedWithStudent(teacherId, item.id, "activity", student.id)
   );
   const lessonQuizzes = pilotLessonQuizzes().filter((item) =>
     window.PracticeStar.contentItemIsSharedWithStudent(teacherId, item.id, "finalQuiz", student.id)

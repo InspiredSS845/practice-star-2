@@ -658,6 +658,14 @@ function hasSavedAudienceSettings(assignment) {
   );
 }
 
+function audienceSettingsFromAssignment(assignment) {
+  return {
+    isShared: assignment?.isShared === true,
+    shareMode: assignment?.shareMode === "selected" ? "selected" : "all",
+    targetStudentIds: Array.isArray(assignment?.targetStudentIds) ? assignment.targetStudentIds.filter(Boolean) : []
+  };
+}
+
 async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const { library, unit } = curriculumUnitById(libraryId, unitId);
   const lesson = unit?.lessons.find((item) => item.id === lessonId);
@@ -672,9 +680,19 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const activityId = lesson.id;
   const legacyActivityId = `${lesson.id}:activity`;
   const quizId = `${lesson.id}:final-quiz`;
-  const activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
-  const legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
-  const visibleActivityAssignment = hasSavedAudienceSettings(activityAssignment) ? activityAssignment : legacyActivityAssignment;
+  let activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
+  let legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
+  if (!hasSavedAudienceSettings(activityAssignment) && hasSavedAudienceSettings(legacyActivityAssignment)) {
+    await window.PracticeStar.setContentAssignment(
+      teacher.id,
+      activityId,
+      "activity",
+      audienceSettingsFromAssignment(legacyActivityAssignment)
+    );
+    activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
+    legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
+  }
+  const visibleActivityAssignment = activityAssignment;
   const quizAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, quizId, "finalQuiz");
   activeCurriculumUnitId = unit.id;
   activeCurriculumLibraryId = library.id;

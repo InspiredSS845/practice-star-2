@@ -938,7 +938,7 @@ const PracticeStar = (() => {
   async function syncContentAssignmentsForStudentLogin(code, name, pin, teacherId = "") {
     const client = getSupabaseClient();
     if (!client) {
-      return [];
+      return { ok: true, assignments: [] };
     }
 
     const { data, error } = await client.rpc("content_assignments_for_student", {
@@ -949,12 +949,16 @@ const PracticeStar = (() => {
 
     if (error) {
       console.warn("Student content assignment sync error:", error);
-      return [];
+      replaceContentAssignmentsForTeacher(teacherId, []);
+      return {
+        ok: false,
+        message: `Shared lessons could not refresh: ${error.message}`
+      };
     }
 
     const assignments = (data || []).map(contentAssignmentFromRow);
     replaceContentAssignmentsForTeacher(teacherId, assignments);
-    return assignments;
+    return { ok: true, assignments };
   }
 
   async function setContentAssignment(teacherId, itemId, itemType, settings = {}) {
@@ -1127,7 +1131,13 @@ const PracticeStar = (() => {
         return { ok: false, message: "Name or PIN did not match this class." };
       }
 
-      await syncContentAssignmentsForStudentLogin(cleanCode, cleanName, cleanPin, match.teacher_id);
+      const assignmentSync = await syncContentAssignmentsForStudentLogin(cleanCode, cleanName, cleanPin, match.teacher_id);
+      if (!assignmentSync.ok) {
+        return {
+          ok: false,
+          message: assignmentSync.message
+        };
+      }
       const localData = getData();
       const teacher = {
         id: match.teacher_id,
