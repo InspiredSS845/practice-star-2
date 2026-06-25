@@ -116,10 +116,15 @@ function getSavedStudentLogin() {
   }
 }
 
-function saveStudentLogin(code, name, pin) {
+function setRememberedStudentFields(isRemembered) {
+  studentCode.readOnly = isRemembered;
+  studentName.readOnly = isRemembered;
+}
+
+function saveStudentLogin(code, name) {
   window.localStorage.setItem(
     savedStudentLoginKey,
-    JSON.stringify({ code, name, pin })
+    JSON.stringify({ code, name })
   );
   forgetStudentLogin.classList.remove("hidden");
 }
@@ -127,6 +132,7 @@ function saveStudentLogin(code, name, pin) {
 function clearSavedStudentLogin() {
   window.localStorage.removeItem(savedStudentLoginKey);
   forgetStudentLogin.classList.add("hidden");
+  setRememberedStudentFields(false);
 }
 
 function getLearningRewards() {
@@ -215,14 +221,26 @@ function clearLearningProgress() {
   window.localStorage.setItem(learningProgressKey, JSON.stringify(progress));
 }
 
-function fillStudentLogin({ code, name, pin }) {
+function fillStudentLogin({ code, name }) {
   studentCode.value = code || "";
   studentName.value = name || "";
-  studentPin.value = pin || "";
+  studentPin.value = "";
 }
 
-function logOutStudent(message = "Logged out.") {
-  clearSavedStudentLogin();
+function showSavedStudentPrompt(savedStudentLogin, message = "") {
+  fillStudentLogin(savedStudentLogin);
+  setRememberedStudentFields(true);
+  rememberStudentLogin.checked = true;
+  forgetStudentLogin.classList.remove("hidden");
+  studentMessage.textContent = message || `${savedStudentLogin.name}, enter your PIN to start.`;
+  studentPin.focus();
+}
+
+function logOutStudent(message = "Logged out.", forgetSavedLogin = false) {
+  const savedStudentLogin = forgetSavedLogin ? null : getSavedStudentLogin();
+  if (forgetSavedLogin) {
+    clearSavedStudentLogin();
+  }
   activeList = null;
   activeSession = null;
   activeClass = null;
@@ -231,9 +249,14 @@ function logOutStudent(message = "Logged out.") {
   activeStudentName = "";
   studentCodeForm.reset();
   rememberStudentLogin.checked = true;
-  studentMessage.textContent = message;
   showScreen(codeScreen);
-  studentCode.focus();
+  if (savedStudentLogin) {
+    showSavedStudentPrompt(savedStudentLogin, message);
+  } else {
+    setRememberedStudentFields(false);
+    studentMessage.textContent = message;
+    studentCode.focus();
+  }
 }
 
 function showScreen(screen) {
@@ -1327,7 +1350,7 @@ studentCodeForm.addEventListener("submit", async (event) => {
 
   if (access.ok) {
     if (rememberStudentLogin.checked) {
-      saveStudentLogin(code, name, pin);
+      saveStudentLogin(code, name);
     } else {
       clearSavedStudentLogin();
     }
@@ -1340,7 +1363,7 @@ studentCodeForm.addEventListener("submit", async (event) => {
 });
 
 forgetStudentLogin.addEventListener("click", () => {
-  logOutStudent("Saved login removed from this browser.");
+  logOutStudent("Saved login removed from this browser.", true);
 });
 
 studentLogoutButton.addEventListener("click", () => logOutStudent());
@@ -1367,24 +1390,10 @@ rewardDoneButton.addEventListener("click", () => renderActivities(activeClass, a
 
 async function initStudentPage() {
   const savedStudentLogin = getSavedStudentLogin();
-  if (savedStudentLogin) {
-    fillStudentLogin(savedStudentLogin);
-    forgetStudentLogin.classList.remove("hidden");
-    studentMessage.textContent = "Checking saved login...";
-    const access = await window.PracticeStar.studentAccessForClassCode(
-      savedStudentLogin.code,
-      savedStudentLogin.name,
-      savedStudentLogin.pin
-    );
-    if (access.ok) {
-      studentMessage.textContent = "";
-      renderActivities(access, access.student);
-    } else {
-      clearSavedStudentLogin();
-      studentMessage.textContent = "Saved login needs to be checked with your teacher.";
-      studentCode.focus();
-    }
+  if (savedStudentLogin?.code && savedStudentLogin?.name) {
+    showSavedStudentPrompt(savedStudentLogin);
   } else {
+    clearSavedStudentLogin();
     studentCode.focus();
   }
 }
