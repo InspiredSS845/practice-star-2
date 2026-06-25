@@ -236,8 +236,23 @@ function showSavedStudentPrompt(savedStudentLogin, message = "") {
   studentPin.focus();
 }
 
+function currentStudentLoginForDevice() {
+  const code = window.PracticeStar.normalizeCode(
+    activeClass?.code || activeClass?.teacher?.classCode || studentCode.value || ""
+  );
+  const name = window.PracticeStar.normalizeName(
+    activeStudent?.name || activeStudentName || studentName.value || ""
+  );
+  return code && name ? { code, name } : null;
+}
+
 function logOutStudent(message = "Logged out.", forgetSavedLogin = false) {
-  const savedStudentLogin = forgetSavedLogin ? null : getSavedStudentLogin();
+  const currentStudentLogin = currentStudentLoginForDevice();
+  let savedStudentLogin = forgetSavedLogin ? null : getSavedStudentLogin();
+  if (!forgetSavedLogin && currentStudentLogin && (rememberStudentLogin.checked || savedStudentLogin)) {
+    saveStudentLogin(currentStudentLogin.code, currentStudentLogin.name);
+    savedStudentLogin = currentStudentLogin;
+  }
   if (forgetSavedLogin) {
     clearSavedStudentLogin();
   }
