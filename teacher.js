@@ -698,11 +698,15 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
       `;
       attachAudienceControlHandlers(curriculumPreviewContent, async ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
         const teacher = currentTeacher();
-        await window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
+        const settings = {
           isShared,
           shareMode,
           targetStudentIds
-        });
+        };
+        await window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, settings);
+        if (itemType === "activity" && itemId === activityId) {
+          await window.PracticeStar.setContentAssignment(teacher.id, legacyActivityId, itemType, settings);
+        }
         await renderCurriculumLessonPreview(libraryId, unitId, lessonId);
       });
     } else {
@@ -759,11 +763,15 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
 
   attachAudienceControlHandlers(curriculumPreviewContent, async ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
     const teacher = currentTeacher();
-    await window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
+    const settings = {
       isShared,
       shareMode,
       targetStudentIds
-    });
+    };
+    await window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, settings);
+    if (itemType === "activity" && itemId === activityId) {
+      await window.PracticeStar.setContentAssignment(teacher.id, legacyActivityId, itemType, settings);
+    }
     await renderCurriculumLessonPreview(libraryId, unitId, lessonId);
   });
 }
