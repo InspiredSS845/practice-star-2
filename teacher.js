@@ -648,6 +648,16 @@ function renderFaithTeacherNotes(lesson) {
   `;
 }
 
+function hasSavedAudienceSettings(assignment) {
+  return Boolean(
+    assignment?.id ||
+    assignment?.isShared ||
+    assignment?.shareMode === "selected" ||
+    assignment?.targetStudentIds?.length ||
+    assignment?.retakeStudentIds?.length
+  );
+}
+
 async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const { library, unit } = curriculumUnitById(libraryId, unitId);
   const lesson = unit?.lessons.find((item) => item.id === lessonId);
@@ -664,7 +674,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const quizId = `${lesson.id}:final-quiz`;
   const activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
   const legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
-  const visibleActivityAssignment = activityAssignment.isShared ? activityAssignment : legacyActivityAssignment;
+  const visibleActivityAssignment = hasSavedAudienceSettings(activityAssignment) ? activityAssignment : legacyActivityAssignment;
   const quizAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, quizId, "finalQuiz");
   activeCurriculumUnitId = unit.id;
   activeCurriculumLibraryId = library.id;
