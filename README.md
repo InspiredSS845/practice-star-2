@@ -15,6 +15,7 @@ Practice Star is a kid-friendly curriculum, practice, and progress app for teach
 - Supabase Auth connected for teacher signup, login, and logout
 - Students tab connected to Supabase
 - Student code/name/PIN check connected to Supabase
+- Built-in curriculum lesson sharing connected to Supabase
 - Grade 5 Math curriculum content structure started
 - Teacher Curriculum tab can browse Grade 5 Math units and lessons
 - Teacher Curriculum tab can preview lesson sections
@@ -31,7 +32,9 @@ The Students tab now saves roster students and PINs in Supabase.
 
 Student login now checks the Supabase roster.
 
-Spelling lists, quizzes, activity content, and progress still use browser storage while we migrate carefully.
+Built-in curriculum lesson sharing now saves in Supabase so "all students" and "selected students" work across devices.
+
+Spelling lists, custom quizzes, activity progress, and quiz progress still use browser storage while we migrate carefully.
 
 ## Project Files
 
@@ -52,11 +55,12 @@ Spelling lists, quizzes, activity content, and progress still use browser storag
 - `supabase-config.js` - Supabase browser connection settings
 - `SQL Files/001_initial_schema.sql` - first Supabase database setup
 - `SQL Files/002_student_access_function.sql` - secure student code/name/PIN check
+- `SQL Files/006_content_assignments.sql` - online sharing for built-in curriculum lessons and quizzes
 - `docs/SUPABASE_SETUP.md` - Supabase setup notes
 
 ## Next Backend Steps
 
 1. Build the remaining Faith and Character lessons using the shareable "I Am Unique" model.
-2. Add curriculum sharing controls for Faith and Character once the lesson format is settled.
-3. Move spelling lists and quizzes to Supabase.
-4. Move student activity loading and progress saving to Supabase.
+2. Move spelling lists and custom quizzes to Supabase.
+3. Move student activity progress and quiz progress fully to Supabase.
+4. Expand curriculum sharing from Grade 5 into the future grade picker.

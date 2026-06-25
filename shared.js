@@ -126,6 +126,74 @@ const PracticeStar = (() => {
     return true;
   }
 
+  function normalizedIdList(value) {
+    return Array.isArray(value) ? value.map(String).filter(Boolean) : [];
+  }
+
+  function contentAssignmentFromRow(row = {}) {
+    return {
+      id: row.id || uid("assignment"),
+      teacherId: row.teacher_id || row.teacherId || "",
+      itemId: row.item_id || row.itemId || "",
+      itemType: row.item_type || row.itemType || "",
+      isShared: row.is_shared === true || row.isShared === true,
+      shareMode: (row.share_mode || row.shareMode) === "selected" ? "selected" : "all",
+      targetStudentIds: normalizedIdList(row.target_student_ids || row.targetStudentIds),
+      retakeStudentIds: normalizedIdList(row.retake_student_ids || row.retakeStudentIds),
+      createdAt: row.created_at || row.createdAt || new Date().toISOString(),
+      updatedAt: row.updated_at || row.updatedAt || new Date().toISOString()
+    };
+  }
+
+  function contentAssignmentKey(assignment) {
+    return `${assignment.teacherId}::${assignment.itemId}::${assignment.itemType}`;
+  }
+
+  function contentAssignmentToRow(assignment) {
+    return {
+      teacher_id: assignment.teacherId,
+      item_id: assignment.itemId,
+      item_type: assignment.itemType,
+      is_shared: assignment.isShared === true,
+      share_mode: assignment.shareMode === "selected" ? "selected" : "all",
+      target_student_ids: assignment.shareMode === "selected" ? normalizedIdList(assignment.targetStudentIds) : [],
+      retake_student_ids: normalizedIdList(assignment.retakeStudentIds)
+    };
+  }
+
+  function upsertContentAssignmentInData(data, assignment) {
+    data.contentAssignments ||= [];
+    const normalizedAssignment = {
+      ...assignment,
+      targetStudentIds: normalizedIdList(assignment.targetStudentIds),
+      retakeStudentIds: normalizedIdList(assignment.retakeStudentIds)
+    };
+    const index = data.contentAssignments.findIndex(
+      (item) =>
+        item.teacherId === normalizedAssignment.teacherId &&
+        item.itemId === normalizedAssignment.itemId &&
+        item.itemType === normalizedAssignment.itemType
+    );
+    if (index >= 0) {
+      data.contentAssignments[index] = {
+        ...data.contentAssignments[index],
+        ...normalizedAssignment
+      };
+      return data.contentAssignments[index];
+    }
+    data.contentAssignments.push(normalizedAssignment);
+    return normalizedAssignment;
+  }
+
+  function cacheContentAssignments(assignments = []) {
+    if (!assignments.length) {
+      return;
+    }
+    const data = getData();
+    assignments.forEach((assignment) => upsertContentAssignmentInData(data, assignment));
+    saveData(data);
+  }
+
   function normalizeEmail(email) {
     return email.trim().toLowerCase();
   }
@@ -808,7 +876,76 @@ const PracticeStar = (() => {
     return getData().contentAssignments.filter((assignment) => assignment.teacherId === teacherId);
   }
 
-  function setContentAssignment(teacherId, itemId, itemType, settings = {}) {
+  async function syncContentAssignmentsForTeacher(teacherId) {
+    const client = getSupabaseClient();
+    const localAssignments = contentAssignmentsForTeacher(teacherId);
+    if (!client || !teacherId) {
+      return localAssignments;
+    }
+
+    const { data, error } = await client
+      .from("content_assignments")
+      .select("id, teacher_id, item_id, item_type, is_shared, share_mode, target_student_ids, retake_student_ids, created_at, updated_at")
+      .eq("teacher_id", teacherId);
+
+    if (error) {
+      console.warn("Content assignment sync error:", error);
+      return contentAssignmentsForTeacher(teacherId);
+    }
+
+    const assignments = (data || []).map(contentAssignmentFromRow);
+    cacheContentAssignments(assignments);
+    const onlineAssignmentKeys = new Set(assignments.map(contentAssignmentKey));
+    const localAssignmentsToUpload = localAssignments.filter((assignment) =>
+      !onlineAssignmentKeys.has(contentAssignmentKey(assignment)) &&
+      (
+        assignment.isShared === true ||
+        normalizedIdList(assignment.targetStudentIds).length > 0 ||
+        normalizedIdList(assignment.retakeStudentIds).length > 0
+      )
+    );
+
+    if (localAssignmentsToUpload.length) {
+      const { data: uploadedRows, error: uploadError } = await client
+        .from("content_assignments")
+        .upsert(localAssignmentsToUpload.map(contentAssignmentToRow), {
+          onConflict: "teacher_id,item_id,item_type"
+        })
+        .select("id, teacher_id, item_id, item_type, is_shared, share_mode, target_student_ids, retake_student_ids, created_at, updated_at");
+
+      if (uploadError) {
+        console.warn("Content assignment upload error:", uploadError);
+      } else {
+        cacheContentAssignments((uploadedRows || []).map(contentAssignmentFromRow));
+      }
+    }
+
+    return contentAssignmentsForTeacher(teacherId);
+  }
+
+  async function syncContentAssignmentsForStudentLogin(code, name, pin) {
+    const client = getSupabaseClient();
+    if (!client) {
+      return [];
+    }
+
+    const { data, error } = await client.rpc("content_assignments_for_student", {
+      p_student_code: normalizeCode(code),
+      p_first_name: normalizeName(name),
+      p_pin: String(pin || "").trim().replace(/\D/g, "")
+    });
+
+    if (error) {
+      console.warn("Student content assignment sync error:", error);
+      return [];
+    }
+
+    const assignments = (data || []).map(contentAssignmentFromRow);
+    cacheContentAssignments(assignments);
+    return assignments;
+  }
+
+  async function setContentAssignment(teacherId, itemId, itemType, settings = {}) {
     const data = getData();
     let assignment = getContentAssignment(data, teacherId, itemId, itemType);
     if (!assignment) {
@@ -835,9 +972,35 @@ const PracticeStar = (() => {
     if (Array.isArray(settings.targetStudentIds)) {
       assignment.targetStudentIds = settings.targetStudentIds.filter(Boolean);
     }
+    if (Array.isArray(settings.retakeStudentIds)) {
+      assignment.retakeStudentIds = settings.retakeStudentIds.filter(Boolean);
+    }
     assignment.updatedAt = new Date().toISOString();
     saveData(data);
-    return assignment;
+
+    const client = getSupabaseClient();
+    if (!client || !teacherId) {
+      return assignment;
+    }
+
+    const { data: savedRow, error } = await client
+      .from("content_assignments")
+      .upsert(contentAssignmentToRow(assignment), {
+        onConflict: "teacher_id,item_id,item_type"
+      })
+      .select("id, teacher_id, item_id, item_type, is_shared, share_mode, target_student_ids, retake_student_ids, created_at, updated_at")
+      .single();
+
+    if (error) {
+      console.warn("Content assignment save error:", error);
+      return assignment;
+    }
+
+    const savedAssignment = contentAssignmentFromRow(savedRow);
+    const freshData = getData();
+    upsertContentAssignmentInData(freshData, savedAssignment);
+    saveData(freshData);
+    return savedAssignment;
   }
 
   function contentItemIsSharedWithStudent(teacherId, itemId, itemType, studentId) {
@@ -876,6 +1039,12 @@ const PracticeStar = (() => {
     );
     assignment.updatedAt = new Date().toISOString();
     saveData(data);
+    await setContentAssignment(teacherId, quizId, "finalQuiz", {
+      isShared: assignment.isShared,
+      shareMode: assignment.shareMode,
+      targetStudentIds: assignment.targetStudentIds,
+      retakeStudentIds: assignment.retakeStudentIds
+    });
 
     const client = getSupabaseClient();
     if (client) {
@@ -946,6 +1115,7 @@ const PracticeStar = (() => {
         return { ok: false, message: "Name or PIN did not match this class." };
       }
 
+      await syncContentAssignmentsForStudentLogin(cleanCode, cleanName, cleanPin);
       const localData = getData();
       const teacher = {
         id: match.teacher_id,
@@ -1586,6 +1756,7 @@ const PracticeStar = (() => {
     setQuizAudience,
     setQuizSharing,
     setText,
+    syncContentAssignmentsForTeacher,
     setWordListAudience,
     setWordListSharing,
     studentAccessForClassCode,

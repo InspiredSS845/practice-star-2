@@ -658,6 +658,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const lessonType = lesson.type === "unitTest" ? "Unit test" : lesson.type === "review" ? "Review" : "Lesson";
   const teacher = currentTeacher();
   const students = await window.PracticeStar.studentsForTeacher(teacher.id);
+  await window.PracticeStar.syncContentAssignmentsForTeacher(teacher.id);
   const activityId = lesson.id;
   const legacyActivityId = `${lesson.id}:activity`;
   const quizId = `${lesson.id}:final-quiz`;
@@ -685,14 +686,14 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
         </div>
         ${renderFaithTeacherNotes(lesson)}
       `;
-      attachAudienceControlHandlers(curriculumPreviewContent, ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
+      attachAudienceControlHandlers(curriculumPreviewContent, async ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
         const teacher = currentTeacher();
-        window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
+        await window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
           isShared,
           shareMode,
           targetStudentIds
         });
-        renderCurriculumLessonPreview(libraryId, unitId, lessonId);
+        await renderCurriculumLessonPreview(libraryId, unitId, lessonId);
       });
     } else {
       curriculumPreviewContent.innerHTML = `
@@ -746,14 +747,14 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
     `;
   }
 
-  attachAudienceControlHandlers(curriculumPreviewContent, ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
+  attachAudienceControlHandlers(curriculumPreviewContent, async ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
     const teacher = currentTeacher();
-    window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
+    await window.PracticeStar.setContentAssignment(teacher.id, itemId, itemType, {
       isShared,
       shareMode,
       targetStudentIds
     });
-    renderCurriculumLessonPreview(libraryId, unitId, lessonId);
+    await renderCurriculumLessonPreview(libraryId, unitId, lessonId);
   });
 }
 
