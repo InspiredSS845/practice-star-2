@@ -194,6 +194,18 @@ const PracticeStar = (() => {
     saveData(data);
   }
 
+  function replaceContentAssignmentsForTeacher(teacherId, assignments = []) {
+    if (!teacherId) {
+      cacheContentAssignments(assignments);
+      return;
+    }
+
+    const data = getData();
+    data.contentAssignments = data.contentAssignments.filter((assignment) => assignment.teacherId !== teacherId);
+    assignments.forEach((assignment) => upsertContentAssignmentInData(data, assignment));
+    saveData(data);
+  }
+
   function normalizeEmail(email) {
     return email.trim().toLowerCase();
   }
@@ -923,7 +935,7 @@ const PracticeStar = (() => {
     return contentAssignmentsForTeacher(teacherId);
   }
 
-  async function syncContentAssignmentsForStudentLogin(code, name, pin) {
+  async function syncContentAssignmentsForStudentLogin(code, name, pin, teacherId = "") {
     const client = getSupabaseClient();
     if (!client) {
       return [];
@@ -941,7 +953,7 @@ const PracticeStar = (() => {
     }
 
     const assignments = (data || []).map(contentAssignmentFromRow);
-    cacheContentAssignments(assignments);
+    replaceContentAssignmentsForTeacher(teacherId, assignments);
     return assignments;
   }
 
@@ -1115,7 +1127,7 @@ const PracticeStar = (() => {
         return { ok: false, message: "Name or PIN did not match this class." };
       }
 
-      await syncContentAssignmentsForStudentLogin(cleanCode, cleanName, cleanPin);
+      await syncContentAssignmentsForStudentLogin(cleanCode, cleanName, cleanPin, match.teacher_id);
       const localData = getData();
       const teacher = {
         id: match.teacher_id,
