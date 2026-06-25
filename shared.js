@@ -206,6 +206,32 @@ const PracticeStar = (() => {
     saveData(data);
   }
 
+  function addCurrentActivityAliases(assignments = []) {
+    const assignmentKeys = new Set(assignments.map(contentAssignmentKey));
+    const aliases = [];
+
+    assignments.forEach((assignment) => {
+      if (assignment.itemType !== "activity" || !assignment.itemId.endsWith(":activity")) {
+        return;
+      }
+
+      const currentItemId = assignment.itemId.slice(0, -":activity".length);
+      const currentKey = `${assignment.teacherId}::${currentItemId}::activity`;
+      if (assignmentKeys.has(currentKey)) {
+        return;
+      }
+
+      assignmentKeys.add(currentKey);
+      aliases.push({
+        ...assignment,
+        id: `${assignment.id || uid("assignment")}_current`,
+        itemId: currentItemId
+      });
+    });
+
+    return [...assignments, ...aliases];
+  }
+
   function normalizeEmail(email) {
     return email.trim().toLowerCase();
   }
@@ -956,7 +982,7 @@ const PracticeStar = (() => {
       };
     }
 
-    const assignments = (data || []).map(contentAssignmentFromRow);
+    const assignments = addCurrentActivityAliases((data || []).map(contentAssignmentFromRow));
     replaceContentAssignmentsForTeacher(teacherId, assignments);
     return { ok: true, assignments };
   }
