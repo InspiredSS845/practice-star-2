@@ -103,10 +103,14 @@ let learningCanEarnStars = true;
 let currentRun = null;
 let answered = false;
 let readyForNext = false;
+let activityRefreshTimer = null;
+let activityRefreshInFlight = false;
+let lastActivityRefreshAt = 0;
 const savedStudentLoginKey = "practiceStar2SavedStudentLogin";
 const learningRewardsKey = "practiceStar2LearningRewardsV3";
 const learningProgressKey = "practiceStar2LearningProgressV2";
 const learningSectionStarBonus = 10;
+const activityRefreshIntervalMs = 20000;
 
 function getSavedStudentLogin() {
   try {
@@ -256,6 +260,7 @@ function logOutStudent(message = "Logged out.", forgetSavedLogin = false) {
   if (forgetSavedLogin) {
     clearSavedStudentLogin();
   }
+  stopActivityRefreshLoop();
   activeList = null;
   activeSession = null;
   activeClass = null;
@@ -536,10 +541,73 @@ function renderStudentProgressSummary() {
   `;
 }
 
+function studentRefreshCredentials() {
+  const code = window.PracticeStar.normalizeCode(
+    activeClass?.code || activeClass?.teacher?.classCode || studentCode.value || ""
+  );
+  const name = window.PracticeStar.normalizeName(
+    activeStudent?.name || activeStudentName || studentName.value || ""
+  );
+  const pin = activeStudent?.pin || studentPin.value || "";
+  return code && name && pin ? { code, name, pin } : null;
+}
+
+function stopActivityRefreshLoop() {
+  if (activityRefreshTimer) {
+    window.clearInterval(activityRefreshTimer);
+    activityRefreshTimer = null;
+  }
+}
+
+function startActivityRefreshLoop() {
+  if (activityRefreshTimer) {
+    return;
+  }
+  activityRefreshTimer = window.setInterval(() => {
+    if (!document.hidden && activityScreen.classList.contains("active")) {
+      refreshStudentActivities();
+    }
+  }, activityRefreshIntervalMs);
+}
+
+async function refreshStudentActivities({ force = false, silent = true } = {}) {
+  const credentials = studentRefreshCredentials();
+  if (!credentials || activityRefreshInFlight) {
+    return false;
+  }
+  if (!force && !activityScreen.classList.contains("active")) {
+    return false;
+  }
+
+  activityRefreshInFlight = true;
+  try {
+    if (!silent && activityScreen.classList.contains("active")) {
+      activityDetails.textContent = "Refreshing activities...";
+    }
+    const access = await window.PracticeStar.studentAccessForClassCode(
+      credentials.code,
+      credentials.name,
+      credentials.pin
+    );
+    lastActivityRefreshAt = Date.now();
+    if (access.ok) {
+      renderActivities(access, access.student);
+      return true;
+    }
+    if (!silent && activityScreen.classList.contains("active")) {
+      activityDetails.textContent = access.message;
+    }
+    return false;
+  } finally {
+    activityRefreshInFlight = false;
+  }
+}
+
 function renderActivities(classBundle, student) {
   activeClass = classBundle;
   activeStudent = student;
   activeStudentName = student.name;
+  startActivityRefreshLoop();
   const teacherId = classBundle.teacher?.id || "";
   const learningActivities = pilotLearningActivities().filter((item) =>
     window.PracticeStar.contentItemIsSharedWithStudent(teacherId, item.id, "activity", student.id)
@@ -1393,15 +1461,50 @@ practiceAgainButton.addEventListener("click", () => {
 });
 doneButton.addEventListener("click", () => {
   if (activeClass) {
-    renderActivities(activeClass, activeStudent);
+    refreshStudentActivities({ force: true, silent: false }).then((refreshed) => {
+      if (!refreshed) {
+        renderActivities(activeClass, activeStudent);
+      }
+    });
   } else {
     showScreen(codeScreen);
     studentCode.focus();
   }
 });
-quizDoneButton.addEventListener("click", () => renderActivities(activeClass, activeStudent));
-learningExitButton.addEventListener("click", () => renderActivities(activeClass, activeStudent));
-rewardDoneButton.addEventListener("click", () => renderActivities(activeClass, activeStudent));
+quizDoneButton.addEventListener("click", () => {
+  refreshStudentActivities({ force: true, silent: false }).then((refreshed) => {
+    if (!refreshed) {
+      renderActivities(activeClass, activeStudent);
+    }
+  });
+});
+learningExitButton.addEventListener("click", () => {
+  refreshStudentActivities({ force: true, silent: false }).then((refreshed) => {
+    if (!refreshed) {
+      renderActivities(activeClass, activeStudent);
+    }
+  });
+});
+rewardDoneButton.addEventListener("click", () => {
+  refreshStudentActivities({ force: true, silent: false }).then((refreshed) => {
+    if (!refreshed) {
+      renderActivities(activeClass, activeStudent);
+    }
+  });
+});
+
+function refreshVisibleActivityScreen() {
+  if (
+    !document.hidden &&
+    activityScreen.classList.contains("active") &&
+    Date.now() - lastActivityRefreshAt > 3000
+  ) {
+    refreshStudentActivities();
+  }
+}
+
+document.addEventListener("visibilitychange", refreshVisibleActivityScreen);
+window.addEventListener("focus", refreshVisibleActivityScreen);
 
 async function initStudentPage() {
   const savedStudentLogin = getSavedStudentLogin();
