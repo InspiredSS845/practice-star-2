@@ -1218,8 +1218,8 @@ async function renderQuizCards() {
 
   attachAudienceControlHandlers(quizCards, async ({ itemId, isShared, shareMode, targetStudentIds }) => {
     const teacher = currentTeacher();
-    await window.PracticeStar.setQuizSharing(teacher.id, itemId, isShared);
-    await window.PracticeStar.setQuizAudience(teacher.id, itemId, shareMode, targetStudentIds);
+    const sharedQuiz = await window.PracticeStar.setQuizSharing(teacher.id, itemId, isShared);
+    await window.PracticeStar.setQuizAudience(teacher.id, sharedQuiz?.id || itemId, shareMode, targetStudentIds);
     await renderQuizCards();
   });
 }

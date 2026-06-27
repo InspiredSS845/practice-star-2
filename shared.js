@@ -1283,6 +1283,15 @@ const PracticeStar = (() => {
     quiz.targetStudentIds ||= [];
     quiz.updatedAt = new Date().toISOString();
     saveData(data);
+    if (!isUuid(quiz.id)) {
+      const result = await saveQuiz({
+        teacherId,
+        quizId: quiz.id,
+        title: quiz.title,
+        questions: quiz.questions
+      });
+      return result.ok ? result.quiz : quiz;
+    }
     return saveQuizSharingToSupabase(teacherId, quiz);
   }
 
@@ -1296,6 +1305,15 @@ const PracticeStar = (() => {
     quiz.targetStudentIds = Array.isArray(targetStudentIds) ? targetStudentIds.filter(Boolean) : [];
     quiz.updatedAt = new Date().toISOString();
     saveData(data);
+    if (!isUuid(quiz.id)) {
+      const result = await saveQuiz({
+        teacherId,
+        quizId: quiz.id,
+        title: quiz.title,
+        questions: quiz.questions
+      });
+      return result.ok ? result.quiz : quiz;
+    }
     return saveQuizSharingToSupabase(teacherId, quiz);
   }
 
