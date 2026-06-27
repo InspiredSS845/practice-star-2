@@ -947,7 +947,101 @@ const PracticeStar = (() => {
     return data.teachers.find((teacher) => teacher.classCode === cleanCode) || null;
   }
 
-  function saveQuiz({ teacherId, quizId, title, questions }) {
+  function quizFromRow(row = {}) {
+    const rowQuestions = Array.isArray(row.questions)
+      ? row.questions
+      : Array.isArray(row.quiz_questions)
+        ? row.quiz_questions
+          .slice()
+          .sort((a, b) => (Number(a.sort_order) || 0) - (Number(b.sort_order) || 0))
+          .map((questionRow) => {
+            const choices = Array.isArray(questionRow.quiz_choices)
+              ? questionRow.quiz_choices
+                .slice()
+                .sort((a, b) => (Number(a.sort_order) || 0) - (Number(b.sort_order) || 0))
+                .map((choiceRow) => choiceRow.choice_text)
+              : Array.isArray(questionRow.choices)
+                ? questionRow.choices
+                : [];
+            return {
+              id: questionRow.id || uid("question"),
+              type: questionRow.question_type || questionRow.type || "multipleChoice",
+              prompt: questionRow.prompt || "",
+              choices,
+              correctAnswer: questionRow.correct_answer || questionRow.correctAnswer || ""
+            };
+          })
+        : [];
+
+    return {
+      id: row.id || uid("quiz"),
+      teacherId: row.teacher_id || row.teacherId || "",
+      title: row.title || "Untitled quiz",
+      questions: rowQuestions.map((question) => normalizeQuizQuestion(question)).filter(Boolean),
+      isShared: row.is_shared === true || row.isShared === true,
+      shareMode: (row.share_mode || row.shareMode) === "selected" ? "selected" : "all",
+      targetStudentIds: normalizedIdList(row.target_student_ids || row.targetStudentIds),
+      createdAt: row.created_at || row.createdAt || new Date().toISOString(),
+      updatedAt: row.updated_at || row.updatedAt || new Date().toISOString()
+    };
+  }
+
+  function upsertQuizInData(data, quiz) {
+    data.quizzes ||= [];
+    const index = data.quizzes.findIndex((item) => item.id === quiz.id && item.teacherId === quiz.teacherId);
+    if (index >= 0) {
+      data.quizzes[index] = {
+        ...data.quizzes[index],
+        ...quiz,
+        questions: Array.isArray(quiz.questions) ? quiz.questions : []
+      };
+      return data.quizzes[index];
+    }
+    data.quizzes.push(quiz);
+    return quiz;
+  }
+
+  function replaceQuizzesForTeacher(teacherId, quizzes = []) {
+    const data = getData();
+    data.quizzes = data.quizzes.filter((quiz) => quiz.teacherId !== teacherId);
+    quizzes.forEach((quiz) => upsertQuizInData(data, quiz));
+    saveData(data);
+  }
+
+  async function syncQuizzesForTeacher(teacherId) {
+    const client = getSupabaseClient();
+    const localQuizzes = quizzesForTeacher(teacherId);
+    if (!client || !teacherId) {
+      return localQuizzes;
+    }
+
+    const unsyncedQuizzes = localQuizzes.filter((quiz) => !isUuid(quiz.id) && quiz.questions?.length);
+    for (const quiz of unsyncedQuizzes) {
+      await saveQuiz({
+        teacherId,
+        quizId: quiz.id,
+        title: quiz.title,
+        questions: quiz.questions
+      });
+    }
+
+    const { data, error } = await client
+      .from("quizzes")
+      .select("id, teacher_id, title, is_shared, share_mode, target_student_ids, created_at, updated_at, quiz_questions(id, question_type, prompt, correct_answer, sort_order, quiz_choices(choice_text, sort_order))")
+      .eq("teacher_id", teacherId)
+      .order("title", { ascending: true });
+
+    if (error) {
+      console.warn("Quiz sync error:", error);
+      return quizzesForTeacher(teacherId);
+    }
+
+    const quizzes = (data || []).map(quizFromRow);
+    replaceQuizzesForTeacher(teacherId, quizzes);
+    return quizzesForTeacher(teacherId);
+  }
+
+  async function saveQuiz({ teacherId, quizId, title, questions }) {
     const cleanTitle = title.trim() || "Untitled quiz";
     const cleanQuestions = questions
       .map((question) => normalizeQuizQuestion(question))
@@ -966,6 +1060,7 @@ const PracticeStar = (() => {
       (quiz) => quiz.id === quizId && quiz.teacherId === teacherId
     );
 
+    let savedQuiz = existing || null;
     if (existing) {
       existing.title = cleanTitle;
       existing.questions = cleanQuestions;
@@ -974,23 +1069,116 @@ const PracticeStar = (() => {
       existing.targetStudentIds ||= [];
       existing.updatedAt = new Date().toISOString();
       saveData(data);
-      return { ok: true, quiz: existing, message: `Saved ${cleanTitle}.` };
+    } else {
+      savedQuiz = {
+        id: uid("quiz"),
+        teacherId,
+        title: cleanTitle,
+        questions: cleanQuestions,
+        isShared: false,
+        shareMode: "all",
+        targetStudentIds: [],
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString()
+      };
+      data.quizzes.push(savedQuiz);
+      saveData(data);
     }
 
-    const quiz = {
-      id: uid("quiz"),
-      teacherId,
+    const client = getSupabaseClient();
+    if (!client) {
+      return { ok: true, quiz: savedQuiz, message: `${quizId ? "Saved" : "Created"} ${cleanTitle}.` };
+    }
+
+    const quizPayload = {
+      teacher_id: teacherId,
       title: cleanTitle,
-      questions: cleanQuestions,
-      isShared: false,
-      shareMode: "all",
-      targetStudentIds: [],
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
+      is_shared: savedQuiz.isShared === true,
+      share_mode: savedQuiz.shareMode === "selected" ? "selected" : "all",
+      target_student_ids: savedQuiz.shareMode === "selected" ? normalizedIdList(savedQuiz.targetStudentIds) : []
     };
-    data.quizzes.push(quiz);
-    saveData(data);
-    return { ok: true, quiz, message: `Created ${cleanTitle}.` };
+
+    const query = isUuid(savedQuiz.id)
+      ? client
+        .from("quizzes")
+        .update(quizPayload)
+        .eq("teacher_id", teacherId)
+        .eq("id", savedQuiz.id)
+        .select("id, teacher_id, title, is_shared, share_mode, target_student_ids, created_at, updated_at")
+        .single()
+      : client
+        .from("quizzes")
+        .insert(quizPayload)
+        .select("id, teacher_id, title, is_shared, share_mode, target_student_ids, created_at, updated_at")
+        .single();
+
+    const { data: savedRow, error } = await query;
+    if (error) {
+      return { ok: false, quiz: savedQuiz, message: `Could not save this quiz online: ${error.message}` };
+    }
+
+    const { data: oldQuestions, error: oldQuestionsError } = await client
+      .from("quiz_questions")
+      .select("id")
+      .eq("quiz_id", savedRow.id);
+
+    if (oldQuestionsError) {
+      return { ok: false, quiz: savedQuiz, message: `Could not update the quiz questions online: ${oldQuestionsError.message}` };
+    }
+
+    const oldQuestionIds = (oldQuestions || []).map((question) => question.id);
+    if (oldQuestionIds.length) {
+      await client
+        .from("quiz_choices")
+        .delete()
+        .in("question_id", oldQuestionIds);
+      const { error: deleteQuestionsError } = await client
+        .from("quiz_questions")
+        .delete()
+        .eq("quiz_id", savedRow.id);
+      if (deleteQuestionsError) {
+        return { ok: false, quiz: savedQuiz, message: `Could not replace quiz questions online: ${deleteQuestionsError.message}` };
+      }
+    }
+
+    for (const [questionIndex, question] of cleanQuestions.entries()) {
+      const { data: questionRow, error: questionError } = await client
+        .from("quiz_questions")
+        .insert({
+          quiz_id: savedRow.id,
+          question_type: question.type,
+          prompt: question.prompt,
+          correct_answer: question.correctAnswer,
+          sort_order: questionIndex
+        })
+        .select("id")
+        .single();
+
+      if (questionError) {
+        return { ok: false, quiz: savedQuiz, message: `Could not save a quiz question online: ${questionError.message}` };
+      }
+
+      const { error: choicesError } = await client
+        .from("quiz_choices")
+        .insert((question.choices || []).map((choice, choiceIndex) => ({
+          question_id: questionRow.id,
+          choice_text: choice,
+          sort_order: choiceIndex
+        })));
+
+      if (choicesError) {
+        return { ok: false, quiz: savedQuiz, message: `Could not save answer choices online: ${choicesError.message}` };
+      }
+    }
+
+    const onlineQuiz = quizFromRow({ ...savedRow, questions: cleanQuestions });
+    const freshData = getData();
+    freshData.quizzes = freshData.quizzes.filter((item) =>
+      !(item.teacherId === teacherId && (item.id === savedQuiz.id || item.id === quizId))
+    );
+    upsertQuizInData(freshData, onlineQuiz);
+    saveData(freshData);
+    return { ok: true, quiz: onlineQuiz, message: `${quizId ? "Saved" : "Created"} ${cleanTitle}.` };
   }
 
   function normalizeQuizQuestion(question) {
@@ -1035,7 +1223,7 @@ const PracticeStar = (() => {
       .sort((a, b) => a.title.localeCompare(b.title));
   }
 
-  function deleteQuiz(teacherId, quizId) {
+  async function deleteQuiz(teacherId, quizId) {
     const data = getData();
     const before = data.quizzes.length;
     data.quizzes = data.quizzes.filter(
@@ -1043,10 +1231,48 @@ const PracticeStar = (() => {
     );
     data.quizAttempts = data.quizAttempts.filter((attempt) => attempt.quizId !== quizId);
     saveData(data);
+    const client = getSupabaseClient();
+    if (client && isUuid(quizId)) {
+      await client
+        .from("quizzes")
+        .delete()
+        .eq("teacher_id", teacherId)
+        .eq("id", quizId);
+    }
     return before !== data.quizzes.length;
   }
 
-  function setQuizSharing(teacherId, quizId, isShared) {
+  async function saveQuizSharingToSupabase(teacherId, quiz) {
+    const client = getSupabaseClient();
+    if (!client || !isUuid(quiz?.id)) {
+      return quiz || null;
+    }
+
+    const { data, error } = await client
+      .from("quizzes")
+      .update({
+        is_shared: quiz.isShared === true,
+        share_mode: quiz.shareMode === "selected" ? "selected" : "all",
+        target_student_ids: quiz.shareMode === "selected" ? normalizedIdList(quiz.targetStudentIds) : []
+      })
+      .eq("teacher_id", teacherId)
+      .eq("id", quiz.id)
+      .select("id, teacher_id, title, is_shared, share_mode, target_student_ids, created_at, updated_at")
+      .single();
+
+    if (error) {
+      console.warn("Quiz sharing save error:", error);
+      return quiz;
+    }
+
+    const savedQuiz = quizFromRow({ ...data, questions: quiz.questions });
+    const freshData = getData();
+    upsertQuizInData(freshData, savedQuiz);
+    saveData(freshData);
+    return savedQuiz;
+  }
+
+  async function setQuizSharing(teacherId, quizId, isShared) {
     const data = getData();
     const quiz = data.quizzes.find((item) => item.id === quizId && item.teacherId === teacherId);
     if (!quiz) {
@@ -1057,10 +1283,10 @@ const PracticeStar = (() => {
     quiz.targetStudentIds ||= [];
     quiz.updatedAt = new Date().toISOString();
     saveData(data);
-    return quiz;
+    return saveQuizSharingToSupabase(teacherId, quiz);
   }
 
-  function setQuizAudience(teacherId, quizId, shareMode, targetStudentIds = []) {
+  async function setQuizAudience(teacherId, quizId, shareMode, targetStudentIds = []) {
     const data = getData();
     const quiz = data.quizzes.find((item) => item.id === quizId && item.teacherId === teacherId);
     if (!quiz) {
@@ -1070,7 +1296,7 @@ const PracticeStar = (() => {
     quiz.targetStudentIds = Array.isArray(targetStudentIds) ? targetStudentIds.filter(Boolean) : [];
     quiz.updatedAt = new Date().toISOString();
     saveData(data);
-    return quiz;
+    return saveQuizSharingToSupabase(teacherId, quiz);
   }
 
   function getContentAssignment(data, teacherId, itemId, itemType) {
@@ -1196,6 +1422,31 @@ const PracticeStar = (() => {
     const lists = (data || []).map(wordListFromRow);
     replaceWordListsForTeacher(teacherId, lists);
     return { ok: true, lists };
+  }
+
+  async function syncQuizzesForStudentLogin(code, name, pin, teacherId = "") {
+    const client = getSupabaseClient();
+    if (!client) {
+      return { ok: true, quizzes: [] };
+    }
+
+    const { data, error } = await client.rpc("quizzes_for_student", {
+      p_student_code: normalizeCode(code),
+      p_first_name: normalizeName(name),
+      p_pin: String(pin || "").trim().replace(/\D/g, "")
+    });
+
+    if (error) {
+      replaceQuizzesForTeacher(teacherId, []);
+      return {
+        ok: false,
+        message: `Quizzes could not refresh: ${error.message}`
+      };
+    }
+
+    const quizzes = (data || []).map(quizFromRow);
+    replaceQuizzesForTeacher(teacherId, quizzes);
+    return { ok: true, quizzes };
   }
 
   async function setContentAssignment(teacherId, itemId, itemType, settings = {}) {
@@ -1382,6 +1633,13 @@ const PracticeStar = (() => {
           message: wordListSync.message
         };
       }
+      const quizSync = await syncQuizzesForStudentLogin(cleanCode, cleanName, cleanPin, match.teacher_id);
+      if (!quizSync.ok) {
+        return {
+          ok: false,
+          message: quizSync.message
+        };
+      }
       const localData = getData();
       const teacher = {
         id: match.teacher_id,
@@ -1402,7 +1660,7 @@ const PracticeStar = (() => {
         teacher,
         code: match.student_code,
         lists: wordListSync.lists,
-        quizzes: localData.quizzes.filter((quiz) => quiz.teacherId === teacher.id && isItemSharedWithStudent(quiz, student.id))
+        quizzes: quizSync.quizzes
       };
     }
 
@@ -2023,6 +2281,7 @@ const PracticeStar = (() => {
     setQuizSharing,
     setText,
     syncContentAssignmentsForTeacher,
+    syncQuizzesForTeacher,
     syncWordListsForTeacher,
     setWordListAudience,
     setWordListSharing,

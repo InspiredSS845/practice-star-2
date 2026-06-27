@@ -1172,6 +1172,7 @@ function clearQuizForm() {
 
 async function renderQuizCards() {
   const teacher = currentTeacher();
+  await window.PracticeStar.syncQuizzesForTeacher(teacher.id);
   const quizzes = window.PracticeStar.quizzesForTeacher(teacher.id);
   const students = await window.PracticeStar.studentsForTeacher(teacher.id);
 
@@ -1215,11 +1216,11 @@ async function renderQuizCards() {
     });
   });
 
-  attachAudienceControlHandlers(quizCards, ({ itemId, isShared, shareMode, targetStudentIds }) => {
+  attachAudienceControlHandlers(quizCards, async ({ itemId, isShared, shareMode, targetStudentIds }) => {
     const teacher = currentTeacher();
-    window.PracticeStar.setQuizSharing(teacher.id, itemId, isShared);
-    window.PracticeStar.setQuizAudience(teacher.id, itemId, shareMode, targetStudentIds);
-    renderQuizCards();
+    await window.PracticeStar.setQuizSharing(teacher.id, itemId, isShared);
+    await window.PracticeStar.setQuizAudience(teacher.id, itemId, shareMode, targetStudentIds);
+    await renderQuizCards();
   });
 }
 
@@ -1326,7 +1327,7 @@ newQuizButton.addEventListener("click", clearQuizForm);
 quizForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const teacher = currentTeacher();
-  const result = window.PracticeStar.saveQuiz({
+  const result = await window.PracticeStar.saveQuiz({
     teacherId: teacher?.id,
     quizId: activeQuizId.value,
     title: quizTitle.value,
@@ -1347,7 +1348,7 @@ deleteQuizButton.addEventListener("click", async () => {
     quizStatus.textContent = "Choose a quiz to delete first.";
     return;
   }
-  const deleted = window.PracticeStar.deleteQuiz(teacher.id, activeQuizId.value);
+  const deleted = await window.PracticeStar.deleteQuiz(teacher.id, activeQuizId.value);
   clearQuizForm();
   quizStatus.textContent = deleted ? "Quiz deleted." : "Could not delete that quiz.";
   await renderQuizCards();

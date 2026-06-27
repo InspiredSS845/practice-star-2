@@ -17,6 +17,7 @@ Practice Star is a kid-friendly curriculum, practice, and progress app for teach
 - Student code/name/PIN check connected to Supabase
 - Built-in curriculum lesson sharing connected to Supabase
 - Spelling lists and spelling-list sharing connected to Supabase
+- Custom quizzes and quiz sharing connected to Supabase
 - Grade 5 Math curriculum content structure started
 - Teacher Curriculum tab can browse Grade 5 Math units and lessons
 - Teacher Curriculum tab can preview lesson sections
@@ -37,7 +38,9 @@ Built-in curriculum lesson sharing now saves in Supabase so "all students" and "
 
 Spelling lists now save in Supabase so shared lists can appear on student devices.
 
-Custom quizzes, activity progress, and quiz progress still use browser storage while we migrate carefully.
+Custom quizzes now save in Supabase so shared quizzes can appear on student devices.
+
+Activity progress and quiz progress still use browser storage while we migrate carefully.
 
 ## Project Files
 
@@ -60,6 +63,7 @@ Custom quizzes, activity progress, and quiz progress still use browser storage w
 - `SQL Files/002_student_access_function.sql` - secure student code/name/PIN check
 - `SQL Files/006_content_assignments.sql` - online sharing for built-in curriculum lessons and quizzes
 - `SQL Files/008_spelling_list_sharing.sql` - online sharing for spelling lists
+- `SQL Files/009_custom_quiz_sharing.sql` - online sharing for custom quizzes
 - `docs/SUPABASE_SETUP.md` - Supabase setup notes
 
 ## Next Backend Steps
