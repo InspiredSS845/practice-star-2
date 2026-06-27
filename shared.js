@@ -130,6 +130,10 @@ const PracticeStar = (() => {
     return Array.isArray(value) ? value.map(String).filter(Boolean) : [];
   }
 
+  function isUuid(value) {
+    return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(String(value || ""));
+  }
+
   function contentAssignmentFromRow(row = {}) {
     return {
       id: row.id || uid("assignment"),
@@ -662,7 +666,85 @@ const PracticeStar = (() => {
     return before !== data.students.length;
   }
 
-  function saveWordList({ teacherId, listId, name, words }) {
+  function wordListFromRow(row = {}) {
+    const rowWords = Array.isArray(row.words)
+      ? row.words
+      : Array.isArray(row.spelling_words)
+        ? row.spelling_words
+          .slice()
+          .sort((a, b) => (Number(a.sort_order) || 0) - (Number(b.sort_order) || 0))
+          .map((wordRow) => wordRow.word)
+        : [];
+
+    return {
+      id: row.id || uid("list"),
+      teacherId: row.teacher_id || row.teacherId || "",
+      name: row.name || "Untitled spelling list",
+      words: rowWords.map((word) => String(word).trim()).filter(Boolean),
+      isShared: row.is_shared === true || row.isShared === true,
+      shareMode: (row.share_mode || row.shareMode) === "selected" ? "selected" : "all",
+      targetStudentIds: normalizedIdList(row.target_student_ids || row.targetStudentIds),
+      createdAt: row.created_at || row.createdAt || new Date().toISOString(),
+      updatedAt: row.updated_at || row.updatedAt || new Date().toISOString()
+    };
+  }
+
+  function upsertWordListInData(data, list) {
+    data.lists ||= [];
+    const index = data.lists.findIndex((item) => item.id === list.id && item.teacherId === list.teacherId);
+    if (index >= 0) {
+      data.lists[index] = {
+        ...data.lists[index],
+        ...list,
+        words: Array.isArray(list.words) ? list.words : []
+      };
+      return data.lists[index];
+    }
+    data.lists.push(list);
+    return list;
+  }
+
+  function replaceWordListsForTeacher(teacherId, lists = []) {
+    const data = getData();
+    data.lists = data.lists.filter((list) => list.teacherId !== teacherId);
+    lists.forEach((list) => upsertWordListInData(data, list));
+    saveData(data);
+  }
+
+  async function syncWordListsForTeacher(teacherId) {
+    const client = getSupabaseClient();
+    const localLists = listsForTeacher(teacherId);
+    if (!client || !teacherId) {
+      return localLists;
+    }
+
+    const unsyncedLists = localLists.filter((list) => !isUuid(list.id) && list.words?.length);
+    for (const list of unsyncedLists) {
+      await saveWordList({
+        teacherId,
+        listId: list.id,
+        name: list.name,
+        words: list.words
+      });
+    }
+
+    const { data, error } = await client
+      .from("spelling_lists")
+      .select("id, teacher_id, name, is_shared, share_mode, target_student_ids, created_at, updated_at, spelling_words(word, sort_order)")
+      .eq("teacher_id", teacherId)
+      .order("name", { ascending: true });
+
+    if (error) {
+      console.warn("Spelling list sync error:", error);
+      return listsForTeacher(teacherId);
+    }
+
+    const lists = (data || []).map(wordListFromRow);
+    replaceWordListsForTeacher(teacherId, lists);
+    return listsForTeacher(teacherId);
+  }
+
+  async function saveWordList({ teacherId, listId, name, words }) {
     const cleanName = name.trim() || "Untitled spelling list";
     const cleanWords = uniqueWords(words.map((word) => word.trim()).filter(Boolean));
     const data = getData();
@@ -679,6 +761,7 @@ const PracticeStar = (() => {
       (list) => list.id === listId && list.teacherId === teacherId
     );
 
+    let savedList = existing || null;
     if (existing) {
       existing.name = cleanName;
       existing.words = cleanWords;
@@ -687,26 +770,91 @@ const PracticeStar = (() => {
       existing.targetStudentIds ||= [];
       existing.updatedAt = new Date().toISOString();
       saveData(data);
-      return { ok: true, list: existing, message: `Saved ${cleanName}.` };
+    } else {
+      savedList = {
+        id: uid("list"),
+        teacherId,
+        name: cleanName,
+        words: cleanWords,
+        isShared: false,
+        shareMode: "all",
+        targetStudentIds: [],
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString()
+      };
+      data.lists.push(savedList);
+      saveData(data);
     }
 
-    const list = {
-      id: uid("list"),
-      teacherId,
-      name: cleanName,
-      words: cleanWords,
-      isShared: false,
-      shareMode: "all",
-      targetStudentIds: [],
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
+    const client = getSupabaseClient();
+    if (!client) {
+      return { ok: true, list: savedList, message: `${listId ? "Saved" : "Created"} ${cleanName}.` };
+    }
+
+    const shareSettings = {
+      is_shared: savedList.isShared === true,
+      share_mode: savedList.shareMode === "selected" ? "selected" : "all",
+      target_student_ids: savedList.shareMode === "selected" ? normalizedIdList(savedList.targetStudentIds) : []
     };
-    data.lists.push(list);
-    saveData(data);
-    return { ok: true, list, message: `Created ${cleanName}.` };
+    const listPayload = {
+      teacher_id: teacherId,
+      name: cleanName,
+      ...shareSettings
+    };
+
+    const query = isUuid(savedList.id)
+      ? client
+        .from("spelling_lists")
+        .update(listPayload)
+        .eq("teacher_id", teacherId)
+        .eq("id", savedList.id)
+        .select("id, teacher_id, name, is_shared, share_mode, target_student_ids, created_at, updated_at")
+        .single()
+      : client
+        .from("spelling_lists")
+        .insert(listPayload)
+        .select("id, teacher_id, name, is_shared, share_mode, target_student_ids, created_at, updated_at")
+        .single();
+
+    const { data: savedRow, error } = await query;
+    if (error) {
+      return { ok: false, list: savedList, message: `Could not save this list online: ${error.message}` };
+    }
+
+    const { error: deleteWordsError } = await client
+      .from("spelling_words")
+      .delete()
+      .eq("list_id", savedRow.id);
+
+    if (deleteWordsError) {
+      return { ok: false, list: savedList, message: `Could not update the words online: ${deleteWordsError.message}` };
+    }
+
+    if (cleanWords.length) {
+      const { error: insertWordsError } = await client
+        .from("spelling_words")
+        .insert(cleanWords.map((word, index) => ({
+          list_id: savedRow.id,
+          word,
+          sort_order: index
+        })));
+
+      if (insertWordsError) {
+        return { ok: false, list: savedList, message: `Could not save the words online: ${insertWordsError.message}` };
+      }
+    }
+
+    const onlineList = wordListFromRow({ ...savedRow, words: cleanWords });
+    const freshData = getData();
+    freshData.lists = freshData.lists.filter((item) =>
+      !(item.teacherId === teacherId && (item.id === savedList.id || item.id === listId))
+    );
+    upsertWordListInData(freshData, onlineList);
+    saveData(freshData);
+    return { ok: true, list: onlineList, message: `${listId ? "Saved" : "Created"} ${cleanName}.` };
   }
 
-  function deleteWordList(teacherId, listId) {
+  async function deleteWordList(teacherId, listId) {
     const data = getData();
     const before = data.lists.length;
     data.lists = data.lists.filter(
@@ -714,6 +862,14 @@ const PracticeStar = (() => {
     );
     data.sessions = data.sessions.filter((session) => session.listId !== listId);
     saveData(data);
+    const client = getSupabaseClient();
+    if (client && isUuid(listId)) {
+      await client
+        .from("spelling_lists")
+        .delete()
+        .eq("teacher_id", teacherId)
+        .eq("id", listId);
+    }
     return before !== data.lists.length;
   }
 
@@ -728,7 +884,37 @@ const PracticeStar = (() => {
     return getData().lists.find((list) => list.code === cleanCode) || null;
   }
 
-  function setWordListSharing(teacherId, listId, isShared) {
+  async function saveWordListSharingToSupabase(teacherId, list) {
+    const client = getSupabaseClient();
+    if (!client || !isUuid(list?.id)) {
+      return list || null;
+    }
+
+    const { data, error } = await client
+      .from("spelling_lists")
+      .update({
+        is_shared: list.isShared === true,
+        share_mode: list.shareMode === "selected" ? "selected" : "all",
+        target_student_ids: list.shareMode === "selected" ? normalizedIdList(list.targetStudentIds) : []
+      })
+      .eq("teacher_id", teacherId)
+      .eq("id", list.id)
+      .select("id, teacher_id, name, is_shared, share_mode, target_student_ids, created_at, updated_at")
+      .single();
+
+    if (error) {
+      console.warn("Spelling list sharing save error:", error);
+      return list;
+    }
+
+    const savedList = wordListFromRow({ ...data, words: list.words });
+    const freshData = getData();
+    upsertWordListInData(freshData, savedList);
+    saveData(freshData);
+    return savedList;
+  }
+
+  async function setWordListSharing(teacherId, listId, isShared) {
     const data = getData();
     const list = data.lists.find((item) => item.id === listId && item.teacherId === teacherId);
     if (!list) {
@@ -739,10 +925,10 @@ const PracticeStar = (() => {
     list.targetStudentIds ||= [];
     list.updatedAt = new Date().toISOString();
     saveData(data);
-    return list;
+    return saveWordListSharingToSupabase(teacherId, list);
   }
 
-  function setWordListAudience(teacherId, listId, shareMode, targetStudentIds = []) {
+  async function setWordListAudience(teacherId, listId, shareMode, targetStudentIds = []) {
     const data = getData();
     const list = data.lists.find((item) => item.id === listId && item.teacherId === teacherId);
     if (!list) {
@@ -752,7 +938,7 @@ const PracticeStar = (() => {
     list.targetStudentIds = Array.isArray(targetStudentIds) ? targetStudentIds.filter(Boolean) : [];
     list.updatedAt = new Date().toISOString();
     saveData(data);
-    return list;
+    return saveWordListSharingToSupabase(teacherId, list);
   }
 
   function getTeacherByClassCode(code) {
@@ -987,6 +1173,31 @@ const PracticeStar = (() => {
     return { ok: true, assignments };
   }
 
+  async function syncWordListsForStudentLogin(code, name, pin, teacherId = "") {
+    const client = getSupabaseClient();
+    if (!client) {
+      return { ok: true, lists: [] };
+    }
+
+    const { data, error } = await client.rpc("spelling_lists_for_student", {
+      p_student_code: normalizeCode(code),
+      p_first_name: normalizeName(name),
+      p_pin: String(pin || "").trim().replace(/\D/g, "")
+    });
+
+    if (error) {
+      replaceWordListsForTeacher(teacherId, []);
+      return {
+        ok: false,
+        message: `Spelling lists could not refresh: ${error.message}`
+      };
+    }
+
+    const lists = (data || []).map(wordListFromRow);
+    replaceWordListsForTeacher(teacherId, lists);
+    return { ok: true, lists };
+  }
+
   async function setContentAssignment(teacherId, itemId, itemType, settings = {}) {
     const data = getData();
     let assignment = getContentAssignment(data, teacherId, itemId, itemType);
@@ -1164,6 +1375,13 @@ const PracticeStar = (() => {
           message: assignmentSync.message
         };
       }
+      const wordListSync = await syncWordListsForStudentLogin(cleanCode, cleanName, cleanPin, match.teacher_id);
+      if (!wordListSync.ok) {
+        return {
+          ok: false,
+          message: wordListSync.message
+        };
+      }
       const localData = getData();
       const teacher = {
         id: match.teacher_id,
@@ -1183,7 +1401,7 @@ const PracticeStar = (() => {
         student,
         teacher,
         code: match.student_code,
-        lists: localData.lists.filter((list) => list.teacherId === teacher.id && isItemSharedWithStudent(list, student.id)),
+        lists: wordListSync.lists,
         quizzes: localData.quizzes.filter((quiz) => quiz.teacherId === teacher.id && isItemSharedWithStudent(quiz, student.id))
       };
     }
@@ -1805,6 +2023,7 @@ const PracticeStar = (() => {
     setQuizSharing,
     setText,
     syncContentAssignmentsForTeacher,
+    syncWordListsForTeacher,
     setWordListAudience,
     setWordListSharing,
     studentAccessForClassCode,

@@ -997,6 +997,7 @@ async function renderStudentRoster() {
 
 async function renderLists() {
   const teacher = currentTeacher();
+  await window.PracticeStar.syncWordListsForTeacher(teacher.id);
   const lists = window.PracticeStar.listsForTeacher(teacher.id);
   const students = await window.PracticeStar.studentsForTeacher(teacher.id);
 
@@ -1040,11 +1041,11 @@ async function renderLists() {
     });
   });
 
-  attachAudienceControlHandlers(wordListCards, ({ itemId, isShared, shareMode, targetStudentIds }) => {
-      const teacher = currentTeacher();
-    window.PracticeStar.setWordListSharing(teacher.id, itemId, isShared);
-    window.PracticeStar.setWordListAudience(teacher.id, itemId, shareMode, targetStudentIds);
-    renderLists();
+  attachAudienceControlHandlers(wordListCards, async ({ itemId, isShared, shareMode, targetStudentIds }) => {
+    const teacher = currentTeacher();
+    await window.PracticeStar.setWordListSharing(teacher.id, itemId, isShared);
+    await window.PracticeStar.setWordListAudience(teacher.id, itemId, shareMode, targetStudentIds);
+    await renderLists();
   });
 }
 
@@ -1272,7 +1273,7 @@ studentRosterForm.addEventListener("submit", async (event) => {
 teacherWordListForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const teacher = currentTeacher();
-  const result = window.PracticeStar.saveWordList({
+  const result = await window.PracticeStar.saveWordList({
     teacherId: teacher?.id,
     listId: activeListId.value,
     name: wordListName.value,
@@ -1296,7 +1297,7 @@ deleteListButton.addEventListener("click", async () => {
     return;
   }
 
-  const deleted = window.PracticeStar.deleteWordList(teacher.id, activeListId.value);
+  const deleted = await window.PracticeStar.deleteWordList(teacher.id, activeListId.value);
   clearListForm();
   teacherStatus.textContent = deleted ? "List deleted." : "Could not delete that list.";
   await renderLists();
