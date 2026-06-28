@@ -1094,6 +1094,14 @@ textarea:focus {
   background: #f8f4ff;
 }
 
+.quiz-builder-box .actions {
+  align-items: stretch;
+}
+
+.quiz-builder-box .actions button {
+  flex: 1 1 140px;
+}
+
 .choice-editor-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(180px, 1fr));
@@ -1113,6 +1121,50 @@ textarea:focus {
   padding: 12px;
   border-radius: 8px;
   background: var(--soft);
+}
+
+.quiz-library-panel,
+.current-quiz-panel {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+  padding: 16px;
+  border: 4px solid #d8ecff;
+  border-radius: 8px;
+  background: #f8fbff;
+}
+
+.current-quiz-panel {
+  border-color: #eadfff;
+  background: #fbf8ff;
+}
+
+.quiz-library-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.quiz-library-header h2,
+.compact-heading h3 {
+  margin: 0;
+}
+
+.quiz-library-header .hint {
+  margin-top: 4px;
+}
+
+.quiz-library-toggle {
+  white-space: nowrap;
+}
+
+.quiz-library-panel.is-collapsed #quizCards {
+  display: none;
+}
+
+.compact-heading {
+  margin-bottom: 0;
 }
 
 .quiz-preview-section,
@@ -1731,7 +1783,8 @@ body.learning-mode .top-row {
   .learning-place-chart,
   .metric-grid,
   .answer-area,
-  .top-row {
+  .top-row,
+  .quiz-library-header {
     display: grid;
     grid-template-columns: 1fr;
   }

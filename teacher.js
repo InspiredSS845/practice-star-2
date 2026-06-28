@@ -59,9 +59,14 @@ const questionList = document.querySelector("#questionList");
 const newQuizButton = document.querySelector("#newQuizButton");
 const deleteQuizButton = document.querySelector("#deleteQuizButton");
 const quizStatus = document.querySelector("#quizStatus");
+const quizLibraryPanel = document.querySelector("#quizLibraryPanel");
+const quizLibraryCount = document.querySelector("#quizLibraryCount");
+const quizLibraryToggle = document.querySelector("#quizLibraryToggle");
 const quizCards = document.querySelector("#quizCards");
 
 let draftQuestions = [];
+let quizLibraryQuizCount = 0;
+let isQuizLibraryCollapsed = false;
 let activeTeacher = null;
 let curriculumLibraries = [];
 let activeCurriculumUnitId = "";
@@ -1170,11 +1175,35 @@ function clearQuizForm() {
   quizTitle.focus();
 }
 
+function updateQuizLibraryState(quizCount) {
+  quizLibraryQuizCount = quizCount;
+  const canCollapse = quizCount > 1;
+
+  if (!canCollapse) {
+    isQuizLibraryCollapsed = false;
+  }
+
+  quizLibraryPanel.classList.toggle("is-collapsible", canCollapse);
+  quizLibraryPanel.classList.toggle("is-collapsed", canCollapse && isQuizLibraryCollapsed);
+  quizLibraryToggle.hidden = !canCollapse;
+  quizLibraryToggle.textContent = isQuizLibraryCollapsed ? "Show quizzes" : "Hide quizzes";
+  quizLibraryToggle.setAttribute("aria-expanded", String(!isQuizLibraryCollapsed));
+
+  if (quizCount === 0) {
+    quizLibraryCount.textContent = "No quizzes yet.";
+  } else if (quizCount === 1) {
+    quizLibraryCount.textContent = "1 quiz saved.";
+  } else {
+    quizLibraryCount.textContent = `${quizCount} quizzes saved.`;
+  }
+}
+
 async function renderQuizCards() {
   const teacher = currentTeacher();
   await window.PracticeStar.syncQuizzesForTeacher(teacher.id);
   const quizzes = window.PracticeStar.quizzesForTeacher(teacher.id);
   const students = await window.PracticeStar.studentsForTeacher(teacher.id);
+  updateQuizLibraryState(quizzes.length);
 
   if (quizzes.length === 0) {
     quizCards.innerHTML = `<p class="empty-note">No quizzes yet. Create your first quiz above.</p>`;
@@ -1323,6 +1352,13 @@ backToUnitButton.addEventListener("click", () => {
 addQuestionButton.addEventListener("click", addQuestion);
 clearQuestionButton.addEventListener("click", clearQuestionForm);
 newQuizButton.addEventListener("click", clearQuizForm);
+quizLibraryToggle.addEventListener("click", () => {
+  if (quizLibraryQuizCount <= 1) {
+    return;
+  }
+  isQuizLibraryCollapsed = !isQuizLibraryCollapsed;
+  updateQuizLibraryState(quizLibraryQuizCount);
+});
 
 quizForm.addEventListener("submit", async (event) => {
   event.preventDefault();
