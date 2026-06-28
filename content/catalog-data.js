@@ -59,15 +59,15 @@ window.PracticeStarContent.catalog = {
       "description": "Listening, speaking, reading, writing, vocabulary, everyday communication, and simple cultural learning will be built here."
     },
     {
-      "id": "grade-5-faith-character",
+      "id": "grade-5-bible-church-history",
       "grade": 5,
-      "subject": "Faith and Character",
-      "title": "Faith and Character - Grade 5",
-      "status": "shell",
-      "basePath": "content/grade-5/faith-character",
-      "indexFile": "content/grade-5/faith-character/index.json",
-      "dataKey": "grade5FaithCharacter",
-      "description": "Christian character, Bible learning, service, stewardship, and Bible and Church History units will be built here as a custom library."
+      "subject": "Bible and Church History",
+      "title": "Bible and Church History - Grade 5",
+      "status": "planned",
+      "basePath": "content/grade-5/bible-church-history",
+      "indexFile": "content/grade-5/bible-church-history/index.json",
+      "dataKey": "grade5BibleChurchHistory",
+      "description": "Bible and Church History units will be planned with the school before lessons are added."
     }
   ]
 };

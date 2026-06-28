@@ -1,7 +1,7 @@
 # Grade 5 Content Files
 
 Grade 5 Math is now split by unit.
-Faith and Character has a custom Christian library shell with planned collections.
+Bible and Church History has a Christian planning shell ready for school curriculum alignment.
 
 The app finds this curriculum through `../catalog.json` and `../catalog-data.js`.
 That catalog is where future grades and subjects will be added.
@@ -19,11 +19,11 @@ Edit these files going forward:
 The matching browser files are in `math/index-data.js` and `math/unit-data/`.
 Those browser files let the app load curriculum while testing from a local file.
 
-Faith and Character uses:
+Bible and Church History uses:
 
-- `faith-character/index.json`
-- `faith-character/index-data.js`
+- `bible-church-history/index.json`
+- `bible-church-history/index-data.js`
 
-The shell is intentionally not treated as official Ontario curriculum. It is a custom Christian library for character, Bible-connected reflection, service, stewardship, and Bible and Church History planning.
+The shell is intentionally not treated as official Ontario curriculum. It is a custom Christian library that will be planned with the school before lessons are added.
 
 The old `math.json` and `math-data.js` files are kept only as a backup from before the split.

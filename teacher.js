@@ -616,10 +616,10 @@ function renderLessonQuiz(quiz) {
   `;
 }
 
-function renderFaithTeacherNotes(lesson) {
+function renderChristianTeacherNotes(lesson) {
   const bible = lesson.bibleConnection || {};
   return `
-    <div class="preview-section faith-model-section">
+    <div class="preview-section christian-model-section">
       <span class="stage-pill">Model Lesson</span>
       <h3>Teacher Notes</h3>
       <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "Teacher overview will be added later.")}</p>
@@ -717,7 +717,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
           ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
           ${renderLessonQuiz(lesson.quiz)}
         </div>
-        ${renderFaithTeacherNotes(lesson)}
+        ${renderChristianTeacherNotes(lesson)}
       `;
       attachAudienceControlHandlers(curriculumPreviewContent, async ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
         const teacher = currentTeacher();
@@ -735,7 +735,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
     } else {
       curriculumPreviewContent.innerHTML = `
         <div class="preview-section">
-          <h3>Planned Faith and Character Item</h3>
+          <h3>Planned ${window.PracticeStar.escapeHtml(library.subject)} Item</h3>
           <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "This planned item will be expanded into a teacher-previewed activity.")}</p>
           <p class="hint">This shell is not ready to share with students yet. Student prompts, Bible references, reflection settings, and privacy choices should be reviewed before assignment.</p>
         </div>
