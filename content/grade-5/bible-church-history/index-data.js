@@ -88,6 +88,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = {
       "title": "Creation to the Patriarchs",
       "strand": "Bible Timeline",
       "unitGoal": "Students practise the first major Bible timeline section from creation through Joseph with a creation-focused foundation.",
+      "file": "units/unit-2-creation-to-the-patriarchs.json",
+      "dataFile": "unit-data/unit-2-creation-to-the-patriarchs.js",
       "lessons": [
         {
           "id": "grade-5-bible-church-history-unit-2-god-created-everything",

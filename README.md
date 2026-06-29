@@ -68,7 +68,7 @@ Activity progress and quiz progress still use browser storage while we migrate c
 
 ## Next Backend Steps
 
-1. Build Unit 2 Bible and Church History as the next student-facing question activity set and final quiz.
+1. Build Unit 3 Bible and Church History as the next student-facing question activity set and final quiz.
 2. Move spelling lists and custom quizzes to Supabase.
 3. Move student activity progress and quiz progress fully to Supabase.
 4. Expand curriculum sharing from Grade 5 into the future grade picker.

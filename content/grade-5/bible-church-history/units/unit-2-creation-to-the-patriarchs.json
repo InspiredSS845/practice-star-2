@@ -1,0 +1,1980 @@
+{
+  "id": "grade-5-bible-church-history-unit-2",
+  "title": "Creation to the Patriarchs",
+  "strand": "Bible Timeline",
+  "unitGoal": "Students practise the first major Bible timeline section from creation through Joseph with a creation-focused foundation.",
+  "lessons": [
+    {
+      "id": "grade-5-bible-church-history-unit-2-god-created-everything",
+      "title": "God Created Everything",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the Bible's teaching that God created everything by His Word and that creation belongs to Him.",
+      "teacherOverview": "Students practise the Bible's teaching that God created everything by His Word and that creation belongs to Him.",
+      "bibleConnection": {
+        "reference": "Genesis 1:1-31; Exodus 20:11; Hebrews 11:3",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "God Created Everything Mission",
+        "mission": "Show that you understand creation as God's true work, not an accident or an unguided process.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Creator and Creation",
+            "title": "The Beginning",
+            "prompt": "Which statement best matches Genesis 1:1?",
+            "choices": [
+              "God created the heavens and the earth in the beginning",
+              "God gave order to matter that was already eternal",
+              "God began working after creation already existed in a rough form"
+            ],
+            "correctAnswer": "God created the heavens and the earth in the beginning",
+            "feedback": "Correct. Genesis begins with God creating the heavens and the earth.",
+            "hint": "The Bible starts with God, not with matter or chance."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Creator and Creation",
+            "title": "By God's Word",
+            "prompt": "Genesis 1 shows God creating mainly by...",
+            "choices": [
+              "speaking His powerful word",
+              "forming the world through a process He did not direct by His word",
+              "waiting for nature to arrange itself without His command"
+            ],
+            "correctAnswer": "speaking His powerful word",
+            "feedback": "Yes. God speaks, and creation obeys.",
+            "hint": "Look for the repeated words, 'And God said.'"
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Creator and Creation",
+            "title": "Six Days",
+            "prompt": "Which answer best fits the Bible's creation week?",
+            "choices": [
+              "God created in six days and rested on the seventh",
+              "God created in a way that cannot be connected to days",
+              "God began creation and then waited for long ages to finish it"
+            ],
+            "correctAnswer": "God created in six days and rested on the seventh",
+            "feedback": "Correct. Scripture presents creation in six days, with God resting on the seventh.",
+            "hint": "Exodus 20:11 also connects creation with six days and the Sabbath."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Good Creation",
+            "title": "Very Good",
+            "prompt": "When God finished creating, He called His creation...",
+            "choices": [
+              "very good",
+              "unfinished but improving",
+              "mostly good except for the physical world"
+            ],
+            "correctAnswer": "very good",
+            "feedback": "Right. God's finished creation was very good.",
+            "hint": "The problem of sin comes after creation, not as part of God's good design."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Good Creation",
+            "title": "No Accident",
+            "prompt": "Which sentence best fits a Christian view of creation?",
+            "choices": [
+              "Creation exists because God made it on purpose",
+              "Creation slowly became meaningful when people noticed it",
+              "Creation can be explained without God's command or design"
+            ],
+            "correctAnswer": "Creation exists because God made it on purpose",
+            "feedback": "Yes. Creation has purpose because God created it.",
+            "hint": "The Bible teaches that God is Creator and Lord."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Good Creation",
+            "title": "True or False",
+            "prompt": "The Bible teaches that God made the world and all life.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God created the world and all life.",
+            "hint": "Creation belongs to God because He made it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Creation and Worship",
+            "title": "Creator's Authority",
+            "prompt": "Because God created everything, He has the right to...",
+            "choices": [
+              "rule creation and tell people what is good",
+              "let creation decide what is good",
+              "rule only the spiritual parts of life"
+            ],
+            "correctAnswer": "rule creation and tell people what is good",
+            "feedback": "Correct. The Creator has authority over what He made.",
+            "hint": "God's authority comes before human opinion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Creation and Worship",
+            "title": "A Good Response",
+            "prompt": "A right response to God as Creator is...",
+            "choices": [
+              "worship, gratitude, and obedience",
+              "respect for nature without worshiping God",
+              "valuing creation while forgetting it belongs to God"
+            ],
+            "correctAnswer": "worship, gratitude, and obedience",
+            "feedback": "Yes. Creation should lead us to worship and obey the Creator.",
+            "hint": "We care for creation because it belongs to God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Creation and Worship",
+            "title": "Creation and Science",
+            "prompt": "When Christians study creation, they should remember that...",
+            "choices": [
+              "God's Word is true and creation is His world",
+              "science replaces the need for God's Word",
+              "the Bible matters for worship but not for origins"
+            ],
+            "correctAnswer": "God's Word is true and creation is His world",
+            "feedback": "Right. God's Word is true, and creation is His world.",
+            "hint": "Careful study should not be separated from trust in God's Word."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "God Created Everything Quiz",
+        "questions": [
+          {
+            "section": "Creation Basics",
+            "skill": "Creator",
+            "type": "multipleChoice",
+            "prompt": "Genesis 1:1 teaches that...",
+            "choices": [
+              "God created the heavens and the earth",
+              "God found a world that was already complete",
+              "God gave purpose to matter He did not create"
+            ],
+            "correctAnswer": "God created the heavens and the earth",
+            "reviewNote": "Genesis begins with God as Creator."
+          },
+          {
+            "section": "Creation Basics",
+            "skill": "Creation Week",
+            "type": "multipleChoice",
+            "prompt": "Which answer best fits the Bible's creation week?",
+            "choices": [
+              "God created in six days and rested on the seventh",
+              "God created slowly through long ages before resting",
+              "God rested first and then creation developed"
+            ],
+            "correctAnswer": "God created in six days and rested on the seventh",
+            "reviewNote": "Scripture presents creation in six days and rest on the seventh."
+          },
+          {
+            "section": "Creation Basics",
+            "skill": "Goodness",
+            "type": "trueFalse",
+            "prompt": "God's finished creation was very good before sin entered the world.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Sin enters after God's very good creation."
+          },
+          {
+            "section": "Creation and Authority",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "Creation has purpose because...",
+            "choices": [
+              "God made it on purpose",
+              "people later decided it was meaningful",
+              "nature gave itself meaning over time"
+            ],
+            "correctAnswer": "God made it on purpose",
+            "reviewNote": "Creation has purpose because God created it."
+          },
+          {
+            "section": "Creation and Authority",
+            "skill": "Response",
+            "type": "multipleChoice",
+            "prompt": "Because God is Creator, people should respond with...",
+            "choices": [
+              "worship, gratitude, and obedience",
+              "self-rule apart from God",
+              "interest in nature without trust in God"
+            ],
+            "correctAnswer": "worship, gratitude, and obedience",
+            "reviewNote": "God as Creator deserves worship and obedience."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-made-in-gods-image",
+      "title": "Made in God's Image",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the Bible's teaching that every human being has dignity because people are made in God's image.",
+      "teacherOverview": "Students practise the Bible's teaching that every human being has dignity because people are made in God's image.",
+      "bibleConnection": {
+        "reference": "Genesis 1:26-28; Genesis 2:18-25; Psalm 139:13-16",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Made in God's Image Mission",
+        "mission": "Show that you understand human dignity, male and female, sacred life, stewardship, and marriage as God's good design.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Human Dignity",
+            "title": "Image of God",
+            "prompt": "Being made in God's image means human beings...",
+            "choices": [
+              "reflect God in a special way among His creatures",
+              "represent God while no longer needing His authority",
+              "receive worth mainly through ability and wise choices"
+            ],
+            "correctAnswer": "reflect God in a special way among His creatures",
+            "feedback": "Correct. People reflect God in a special way among His creatures.",
+            "hint": "Image of God is about God's design and gift, not earned status."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Human Dignity",
+            "title": "Where Worth Comes From",
+            "prompt": "A person's worth comes first from...",
+            "choices": [
+              "being made by God in His image",
+              "being useful to other people",
+              "being old enough to make choices"
+            ],
+            "correctAnswer": "being made by God in His image",
+            "feedback": "Yes. Human worth is given by God.",
+            "hint": "Worth does not depend on age, ability, health, or popularity."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Human Dignity",
+            "title": "True or False",
+            "prompt": "Every human life is sacred because people are made by God in His image.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Human life is sacred because people bear God's image.",
+            "hint": "This includes the smallest, weakest, youngest, and oldest people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Male and Female",
+            "title": "God's Design",
+            "prompt": "Genesis teaches that God created humanity...",
+            "choices": [
+              "male and female in His image",
+              "with bodies that do not matter to identity",
+              "with different value depending on their roles"
+            ],
+            "correctAnswer": "male and female in His image",
+            "feedback": "Right. Male and female are both made in God's image.",
+            "hint": "Both men and women have equal dignity before God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Male and Female",
+            "title": "Bodies Matter",
+            "prompt": "Which sentence best fits the Bible's view of the human body?",
+            "choices": [
+              "God made our bodies, so they are part of His good design",
+              "The body matters less than what a person feels inside",
+              "Bodies are only temporary shells with no created meaning"
+            ],
+            "correctAnswer": "God made our bodies, so they are part of His good design",
+            "feedback": "Correct. God made human bodies as part of His good design.",
+            "hint": "Creation includes the body, not only the mind or feelings."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Male and Female",
+            "title": "Marriage",
+            "prompt": "Genesis 2 presents marriage as God's design for...",
+            "choices": [
+              "one man and one woman",
+              "any close friendship that people choose",
+              "a promise that can mean different things in every generation"
+            ],
+            "correctAnswer": "one man and one woman",
+            "feedback": "Correct. Genesis presents marriage as one man and one woman.",
+            "hint": "Jesus also points back to this creation design."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Stewardship",
+            "title": "Ruling Creation",
+            "prompt": "When God tells people to rule over creation, He means they should...",
+            "choices": [
+              "care for it under His authority",
+              "use it selfishly because people are more important",
+              "worship creation as equal with the Creator"
+            ],
+            "correctAnswer": "care for it under His authority",
+            "feedback": "Yes. People are stewards under God's authority.",
+            "hint": "Stewardship means responsible care for what belongs to God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Stewardship",
+            "title": "Equal Dignity",
+            "prompt": "Which example best shows belief in the image of God?",
+            "choices": [
+              "Treating people with dignity even when they are weak or different",
+              "Respecting people more when they are successful",
+              "Giving worth only to people who agree with us"
+            ],
+            "correctAnswer": "Treating people with dignity even when they are weak or different",
+            "feedback": "Correct. The image of God calls us to honor every human being.",
+            "hint": "Dignity is not earned by success or agreement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Stewardship",
+            "title": "Love and Truth",
+            "prompt": "A Christian view of human dignity should include...",
+            "choices": [
+              "kindness joined with God's truth",
+              "kindness that avoids every hard truth",
+              "truth spoken without patience or mercy"
+            ],
+            "correctAnswer": "kindness joined with God's truth",
+            "feedback": "Right. Christians should hold kindness and truth together.",
+            "hint": "Love does not erase God's design, and truth should not be harsh."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Made in God's Image Quiz",
+        "questions": [
+          {
+            "section": "Image of God",
+            "skill": "Dignity",
+            "type": "multipleChoice",
+            "prompt": "Human beings have worth because...",
+            "choices": [
+              "they are made by God in His image",
+              "they become valuable after helping others",
+              "they choose their own purpose first"
+            ],
+            "correctAnswer": "they are made by God in His image",
+            "reviewNote": "Worth comes from God's creation and image."
+          },
+          {
+            "section": "Image of God",
+            "skill": "Sacred Life",
+            "type": "trueFalse",
+            "prompt": "Every human life is sacred because people bear God's image.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Human life is sacred because God made people in His image."
+          },
+          {
+            "section": "Creation Design",
+            "skill": "Male and Female",
+            "type": "multipleChoice",
+            "prompt": "Genesis teaches that God created humanity...",
+            "choices": [
+              "male and female in His image",
+              "with bodies that have no created meaning",
+              "with worth only inside marriage"
+            ],
+            "correctAnswer": "male and female in His image",
+            "reviewNote": "Male and female are both made in God's image."
+          },
+          {
+            "section": "Creation Design",
+            "skill": "Marriage",
+            "type": "multipleChoice",
+            "prompt": "Genesis 2 presents marriage as...",
+            "choices": [
+              "one man and one woman",
+              "any relationship with strong feelings",
+              "a human idea later added to creation"
+            ],
+            "correctAnswer": "one man and one woman",
+            "reviewNote": "Genesis presents marriage as one man and one woman."
+          },
+          {
+            "section": "Stewardship",
+            "skill": "Creation Care",
+            "type": "multipleChoice",
+            "prompt": "A steward of creation should...",
+            "choices": [
+              "care for creation under God's authority",
+              "treat creation as useful but not entrusted by God",
+              "treat creation as equal with God"
+            ],
+            "correctAnswer": "care for creation under God's authority",
+            "reviewNote": "People care for creation because it belongs to God."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-the-fall",
+      "title": "The Fall",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the Bible's teaching about temptation, sin, judgment, mercy, and God's first promise of rescue.",
+      "teacherOverview": "Students practise the Bible's teaching about temptation, sin, judgment, mercy, and God's first promise of rescue.",
+      "bibleConnection": {
+        "reference": "Genesis 3:1-24; Romans 5:12",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "The Fall Mission",
+        "mission": "Show that you understand what happened when sin entered God's good world and why God's mercy still matters.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Temptation",
+            "title": "The Serpent's Question",
+            "prompt": "The serpent's first question pushed Eve to...",
+            "choices": [
+              "doubt God's word and goodness",
+              "ask Adam to explain the garden rules",
+              "study creation more carefully"
+            ],
+            "correctAnswer": "doubt God's word and goodness",
+            "feedback": "Correct. The serpent attacked trust in God's word and goodness.",
+            "hint": "Temptation often begins by twisting what God has said."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Temptation",
+            "title": "What Changed",
+            "prompt": "What did Adam and Eve do in Genesis 3?",
+            "choices": [
+              "They disobeyed God's command",
+              "They misunderstood a command God had not clearly given",
+              "They discovered that God's warning was only symbolic"
+            ],
+            "correctAnswer": "They disobeyed God's command",
+            "feedback": "Yes. Adam and Eve chose to disobey God's command.",
+            "hint": "Sin is not only confusion. It is rebellion against God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Temptation",
+            "title": "True or False",
+            "prompt": "The Fall happened after God's creation had already been declared very good.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Sin entered after God's very good creation.",
+            "hint": "The Bible does not make sin part of God's good design."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sin and Shame",
+            "title": "Hiding",
+            "prompt": "After Adam and Eve sinned, they...",
+            "choices": [
+              "hid from God in shame and fear",
+              "came to God honestly without fear",
+              "lost interest in blaming anyone"
+            ],
+            "correctAnswer": "hid from God in shame and fear",
+            "feedback": "Right. Sin brought shame, fear, and hiding.",
+            "hint": "Their relationship with God was broken."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sin and Shame",
+            "title": "Blame",
+            "prompt": "When God questioned Adam and Eve, they showed...",
+            "choices": [
+              "blame shifting instead of humble confession",
+              "complete repentance without excuses",
+              "that sin had not affected their relationships"
+            ],
+            "correctAnswer": "blame shifting instead of humble confession",
+            "feedback": "Correct. They shifted blame rather than confessing humbly.",
+            "hint": "Sin damages relationships with God and with other people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sin and Shame",
+            "title": "Result of Sin",
+            "prompt": "According to the Bible, sin brought...",
+            "choices": [
+              "death, brokenness, and separation from God",
+              "a better way for people to become wise",
+              "a private choice with no effect beyond Adam and Eve"
+            ],
+            "correctAnswer": "death, brokenness, and separation from God",
+            "feedback": "Yes. Sin brought death and brokenness into the world.",
+            "hint": "Romans 5:12 connects sin with death."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Judgment and Mercy",
+            "title": "God Searched",
+            "prompt": "When God called, 'Where are you?' He was showing...",
+            "choices": [
+              "that He came to deal with sin and seek the sinners",
+              "that He did not know where Adam and Eve were",
+              "that He was giving them a way to hide the consequences"
+            ],
+            "correctAnswer": "that He came to deal with sin and seek the sinners",
+            "feedback": "Correct. God knew everything, but He came to confront and seek them.",
+            "hint": "God's question invited them into the truth."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Judgment and Mercy",
+            "title": "First Promise",
+            "prompt": "Genesis 3:15 points forward to...",
+            "choices": [
+              "God's promised victory over the serpent",
+              "people repairing sin by their own effort",
+              "a time when sin would no longer need judgment"
+            ],
+            "correctAnswer": "God's promised victory over the serpent",
+            "feedback": "Right. Genesis 3:15 gives the first promise of rescue.",
+            "hint": "Christians see this promise fulfilled in Christ."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Judgment and Mercy",
+            "title": "Mercy and Consequences",
+            "prompt": "Which sentence best describes Genesis 3?",
+            "choices": [
+              "God judged sin and also showed mercy",
+              "God showed mercy by saying sin did not matter",
+              "God gave consequences but no promise of future rescue"
+            ],
+            "correctAnswer": "God judged sin and also showed mercy",
+            "feedback": "Correct. Genesis 3 includes both judgment and mercy.",
+            "hint": "God's mercy does not pretend sin is harmless."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "The Fall Quiz",
+        "questions": [
+          {
+            "section": "Temptation",
+            "skill": "Doubt",
+            "type": "multipleChoice",
+            "prompt": "The serpent tempted Eve by pushing her to...",
+            "choices": [
+              "doubt God's word and goodness",
+              "ask more careful questions about obedience",
+              "remember God's command more clearly"
+            ],
+            "correctAnswer": "doubt God's word and goodness",
+            "reviewNote": "The serpent twisted God's word and challenged His goodness."
+          },
+          {
+            "section": "Sin",
+            "skill": "Disobedience",
+            "type": "multipleChoice",
+            "prompt": "Adam and Eve's sin was...",
+            "choices": [
+              "disobeying God's command",
+              "eating from every tree in the garden",
+              "asking God for wisdom"
+            ],
+            "correctAnswer": "disobeying God's command",
+            "reviewNote": "They disobeyed the command God gave."
+          },
+          {
+            "section": "Sin",
+            "skill": "Result",
+            "type": "trueFalse",
+            "prompt": "Sin brought death and brokenness into God's good world.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Sin brought death and brokenness."
+          },
+          {
+            "section": "Mercy",
+            "skill": "Promise",
+            "type": "multipleChoice",
+            "prompt": "Genesis 3:15 points forward to...",
+            "choices": [
+              "God's promised victory over the serpent",
+              "human effort fixing sin completely",
+              "people slowly learning to fix sin by wisdom"
+            ],
+            "correctAnswer": "God's promised victory over the serpent",
+            "reviewNote": "Genesis 3:15 points to God's promise of rescue."
+          },
+          {
+            "section": "Mercy",
+            "skill": "Judgment",
+            "type": "multipleChoice",
+            "prompt": "Genesis 3 shows that God...",
+            "choices": [
+              "judges sin and shows mercy",
+              "ignores sin when people are ashamed",
+              "shows mercy by removing consequences"
+            ],
+            "correctAnswer": "judges sin and shows mercy",
+            "reviewNote": "God's judgment and mercy both appear in Genesis 3."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-cain-abel-spread-of-sin",
+      "title": "Cain, Abel, and the Spread of Sin",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise recognizing worship, anger, murder, mercy, and the spread of sin after the Fall.",
+      "teacherOverview": "Students practise recognizing worship, anger, murder, mercy, and the spread of sin after the Fall.",
+      "bibleConnection": {
+        "reference": "Genesis 4:1-16; Hebrews 11:4; 1 John 3:12",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Cain, Abel, and the Spread of Sin Mission",
+        "mission": "Show that you understand Cain and Abel as a serious account of worship, anger, sin, and mercy.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Worship",
+            "title": "Cain and Abel",
+            "prompt": "Cain and Abel both brought...",
+            "choices": [
+              "offerings to the Lord",
+              "animals from the flock",
+              "grain from the ground"
+            ],
+            "correctAnswer": "offerings to the Lord",
+            "feedback": "Correct. Both brothers brought offerings, but God regarded Abel and his offering.",
+            "hint": "The difference is deeper than simply naming the object brought."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Worship",
+            "title": "Abel's Faith",
+            "prompt": "Hebrews 11 helps us understand Abel's offering by connecting it with...",
+            "choices": [
+              "faith",
+              "being the older brother",
+              "offering from better material"
+            ],
+            "correctAnswer": "faith",
+            "feedback": "Yes. Hebrews connects Abel's offering with faith.",
+            "hint": "The Bible points us beyond the surface details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Worship",
+            "title": "Cain's Response",
+            "prompt": "When Cain's offering was not regarded, Cain became...",
+            "choices": [
+              "angry and downcast",
+              "humble and quick to repent",
+              "confused but peaceful"
+            ],
+            "correctAnswer": "angry and downcast",
+            "feedback": "Correct. Cain became angry and downcast.",
+            "hint": "God warned Cain before Cain murdered Abel."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sin's Warning",
+            "title": "Crouching Sin",
+            "prompt": "God warned Cain that sin was...",
+            "choices": [
+              "crouching at the door and desired to rule him",
+              "already gone because Cain felt sorry",
+              "mostly a feeling that would pass if ignored"
+            ],
+            "correctAnswer": "crouching at the door and desired to rule him",
+            "feedback": "Right. God warned Cain that sin wanted to rule him.",
+            "hint": "Cain needed to master sin, not feed it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sin's Warning",
+            "title": "Anger",
+            "prompt": "Cain's story shows that anger can become dangerous when...",
+            "choices": [
+              "it is nursed instead of brought under God's warning",
+              "a person has a strong feeling for a short time",
+              "someone asks an honest question"
+            ],
+            "correctAnswer": "it is nursed instead of brought under God's warning",
+            "feedback": "Correct. Cain let anger grow into murder.",
+            "hint": "The warning came before the murder."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sin's Warning",
+            "title": "True or False",
+            "prompt": "The Bible treats Abel's murder as a serious sin against God and against a human being made in God's image.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Murder is serious because human life belongs to God.",
+            "hint": "Genesis 4 shows how quickly sin spread after the Fall."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Judgment and Mercy",
+            "title": "Where Is Abel?",
+            "prompt": "God's question, 'Where is Abel your brother?' gave Cain...",
+            "choices": [
+              "a chance to tell the truth",
+              "new information God did not have",
+              "permission to explain why Abel deserved harm"
+            ],
+            "correctAnswer": "a chance to tell the truth",
+            "feedback": "Correct. God knew what happened and confronted Cain.",
+            "hint": "God's questions often bring sinners into the light."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Judgment and Mercy",
+            "title": "Cain's Punishment",
+            "prompt": "Cain's punishment included...",
+            "choices": [
+              "being driven from the ground and becoming a wanderer",
+              "being made king over his family",
+              "being told that murder was not a lasting problem"
+            ],
+            "correctAnswer": "being driven from the ground and becoming a wanderer",
+            "feedback": "Yes. Cain was judged and became a wanderer.",
+            "hint": "God's judgment fit Cain's sin and life."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Judgment and Mercy",
+            "title": "God's Mark",
+            "prompt": "The mark God gave Cain showed...",
+            "choices": [
+              "mercy that protected Cain from being killed",
+              "a sign that Cain's punishment was finished",
+              "that Abel's life was less important"
+            ],
+            "correctAnswer": "mercy that protected Cain from being killed",
+            "feedback": "Correct. God judged Cain but also showed mercy.",
+            "hint": "Mercy did not mean Cain's sin was excused."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Cain, Abel, and the Spread of Sin Quiz",
+        "questions": [
+          {
+            "section": "Worship",
+            "skill": "Offerings",
+            "type": "multipleChoice",
+            "prompt": "Cain and Abel both brought...",
+            "choices": [
+              "offerings to the Lord",
+              "animals from the flock",
+              "grain from the ground"
+            ],
+            "correctAnswer": "offerings to the Lord",
+            "reviewNote": "Both brought offerings, but Abel's was connected with faith."
+          },
+          {
+            "section": "Worship",
+            "skill": "Faith",
+            "type": "multipleChoice",
+            "prompt": "Hebrews 11 connects Abel's offering with...",
+            "choices": [
+              "faith",
+              "birth order",
+              "better farming"
+            ],
+            "correctAnswer": "faith",
+            "reviewNote": "Hebrews says Abel offered by faith."
+          },
+          {
+            "section": "Warning",
+            "skill": "Sin",
+            "type": "multipleChoice",
+            "prompt": "God warned Cain that sin was...",
+            "choices": [
+              "crouching at the door",
+              "mostly just a feeling Cain could handle later",
+              "mostly a family disagreement"
+            ],
+            "correctAnswer": "crouching at the door",
+            "reviewNote": "God warned Cain before Cain murdered Abel."
+          },
+          {
+            "section": "Sin",
+            "skill": "Murder",
+            "type": "trueFalse",
+            "prompt": "Cain's murder of Abel shows sin spreading after the Fall.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Genesis 4 shows sin spreading in human relationships."
+          },
+          {
+            "section": "Mercy",
+            "skill": "Mark",
+            "type": "multipleChoice",
+            "prompt": "The mark God gave Cain showed...",
+            "choices": [
+              "mercy and protection after judgment",
+              "a sign that Cain's punishment was finished",
+              "that Cain did not need correction"
+            ],
+            "correctAnswer": "mercy and protection after judgment",
+            "reviewNote": "God judged Cain and still showed mercy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-noah-and-the-flood",
+      "title": "Noah and the Flood",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the Bible's teaching about human wickedness, God's judgment, rescue through the ark, covenant, and faithfulness.",
+      "teacherOverview": "Students practise the Bible's teaching about human wickedness, God's judgment, rescue through the ark, covenant, and faithfulness.",
+      "bibleConnection": {
+        "reference": "Genesis 6:5-22; Genesis 7-9; Hebrews 11:7",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Noah and the Flood Mission",
+        "mission": "Show that you understand the Flood as both judgment and rescue, with God's covenant faithfulness after it.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Wickedness and Grace",
+            "title": "The World in Noah's Day",
+            "prompt": "Genesis says the world in Noah's day was marked by...",
+            "choices": [
+              "great human wickedness and violence",
+              "minor mistakes that people were already fixing",
+              "people mostly faithful but needing a stronger warning"
+            ],
+            "correctAnswer": "great human wickedness and violence",
+            "feedback": "Correct. Genesis describes great wickedness and violence.",
+            "hint": "The Flood is not presented as a small correction."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Wickedness and Grace",
+            "title": "Noah Found Grace",
+            "prompt": "Noah found favor with God, which means...",
+            "choices": [
+              "God showed grace to Noah",
+              "Noah lived without needing God's mercy",
+              "Noah earned rescue by being better than everyone else"
+            ],
+            "correctAnswer": "God showed grace to Noah",
+            "feedback": "Yes. Noah found grace or favor with God.",
+            "hint": "Noah obeyed God, but rescue was still God's mercy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Wickedness and Grace",
+            "title": "True or False",
+            "prompt": "Hebrews 11 describes Noah as acting by faith when he built the ark.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Hebrews connects Noah's obedience with faith.",
+            "hint": "Faith listens to God's warning."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Judgment and Rescue",
+            "title": "The Ark",
+            "prompt": "The ark was God's appointed way to...",
+            "choices": [
+              "rescue Noah, his family, and the animals He brought",
+              "help Noah escape without caring for any living creatures",
+              "prove that people could survive judgment by their own skill"
+            ],
+            "correctAnswer": "rescue Noah, his family, and the animals He brought",
+            "feedback": "Correct. God used the ark as His appointed rescue.",
+            "hint": "The ark was not Noah's idea apart from God's command."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Judgment and Rescue",
+            "title": "The Flood",
+            "prompt": "The Flood shows that God's judgment is...",
+            "choices": [
+              "real and serious",
+              "a lesson about consequences more than real judgment",
+              "opposed to His mercy in every way"
+            ],
+            "correctAnswer": "real and serious",
+            "feedback": "Right. God's judgment is real and serious.",
+            "hint": "The same account also shows God's mercy in rescue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Judgment and Rescue",
+            "title": "God Shut the Door",
+            "prompt": "When Genesis says the Lord shut Noah in, it shows...",
+            "choices": [
+              "God's care and control over the rescue",
+              "Noah's final step of obedience after finishing the ark",
+              "the family's decision that the Flood was beginning"
+            ],
+            "correctAnswer": "God's care and control over the rescue",
+            "feedback": "Correct. God was in control of the rescue and judgment.",
+            "hint": "The Lord, not chance, ruled the event."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Covenant",
+            "title": "After the Flood",
+            "prompt": "After the Flood, Noah built...",
+            "choices": [
+              "an altar to worship the Lord",
+              "a city to keep people together forever",
+              "a tower to protect people from another flood"
+            ],
+            "correctAnswer": "an altar to worship the Lord",
+            "feedback": "Yes. Noah responded with worship.",
+            "hint": "Rescue should lead to worship and gratitude."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Covenant",
+            "title": "The Rainbow",
+            "prompt": "The rainbow sign reminded Noah's family that...",
+            "choices": [
+              "God would keep His covenant promise",
+              "storms would never happen again",
+              "the Flood had been only a natural disaster"
+            ],
+            "correctAnswer": "God would keep His covenant promise",
+            "feedback": "Correct. The rainbow was a sign of God's covenant promise.",
+            "hint": "The promise was about never again destroying all flesh with a flood."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Covenant",
+            "title": "Judgment and Mercy",
+            "prompt": "Which sentence best describes Noah and the Flood?",
+            "choices": [
+              "God judged wickedness and rescued by grace",
+              "God ignored wickedness because Noah was kind",
+              "God rescued Noah because judgment was unnecessary"
+            ],
+            "correctAnswer": "God judged wickedness and rescued by grace",
+            "feedback": "Correct. The account shows both judgment and gracious rescue.",
+            "hint": "Judgment and mercy both matter in the Flood account."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Noah and the Flood Quiz",
+        "questions": [
+          {
+            "section": "Before the Flood",
+            "skill": "Wickedness",
+            "type": "multipleChoice",
+            "prompt": "Genesis describes Noah's world as full of...",
+            "choices": [
+              "great wickedness and violence",
+              "small problems that were improving",
+              "faithfulness among most people"
+            ],
+            "correctAnswer": "great wickedness and violence",
+            "reviewNote": "Genesis describes great human wickedness and violence."
+          },
+          {
+            "section": "Before the Flood",
+            "skill": "Grace",
+            "type": "multipleChoice",
+            "prompt": "Noah found favor with God means...",
+            "choices": [
+              "God showed grace to Noah",
+              "Noah's obedience earned rescue without grace",
+              "Noah rescued himself"
+            ],
+            "correctAnswer": "God showed grace to Noah",
+            "reviewNote": "Favor points to God's grace."
+          },
+          {
+            "section": "Rescue",
+            "skill": "Ark",
+            "type": "multipleChoice",
+            "prompt": "The ark was God's appointed way to...",
+            "choices": [
+              "rescue Noah, his family, and the animals",
+              "give Noah time to persuade others by his own plan",
+              "avoid judging wickedness"
+            ],
+            "correctAnswer": "rescue Noah, his family, and the animals",
+            "reviewNote": "God commanded the ark for rescue."
+          },
+          {
+            "section": "Covenant",
+            "skill": "Rainbow",
+            "type": "trueFalse",
+            "prompt": "The rainbow was a sign of God's covenant promise.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The rainbow was a sign of God's covenant."
+          },
+          {
+            "section": "Theme",
+            "skill": "Judgment and Mercy",
+            "type": "multipleChoice",
+            "prompt": "The Flood account shows...",
+            "choices": [
+              "judgment against sin and rescue by grace",
+              "mercy without judgment",
+              "judgment without any rescue"
+            ],
+            "correctAnswer": "judgment against sin and rescue by grace",
+            "reviewNote": "The account shows both judgment and mercy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-babel",
+      "title": "Babel",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the Bible's teaching about pride, disobedience, languages, nations, and God's rule over people.",
+      "teacherOverview": "Students practise the Bible's teaching about pride, disobedience, languages, nations, and God's rule over people.",
+      "bibleConnection": {
+        "reference": "Genesis 11:1-9",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Babel Mission",
+        "mission": "Show that you understand Babel as a story about pride, disobedience, judgment, and God's rule over the nations.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: The Plan",
+            "title": "One Language",
+            "prompt": "At Babel, the people began with...",
+            "choices": [
+              "one language and a shared plan",
+              "many languages and no way to work together",
+              "separate nations already spread across the earth"
+            ],
+            "correctAnswer": "one language and a shared plan",
+            "feedback": "Correct. Genesis 11 begins with one language and shared words.",
+            "hint": "The scattering comes later."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: The Plan",
+            "title": "A Name for Themselves",
+            "prompt": "The people wanted to make a name for themselves, which showed...",
+            "choices": [
+              "pride and self-glory",
+              "humble worship of God",
+              "obedience to fill the earth"
+            ],
+            "correctAnswer": "pride and self-glory",
+            "feedback": "Right. They wanted glory for themselves.",
+            "hint": "Their plan was centered on their own name."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: The Plan",
+            "title": "Staying Together",
+            "prompt": "The people's desire not to be scattered was a problem because...",
+            "choices": [
+              "God had commanded people to fill the earth",
+              "staying together mattered more than filling the earth",
+              "a strong city could keep people secure without God's command"
+            ],
+            "correctAnswer": "God had commanded people to fill the earth",
+            "feedback": "Correct. The problem was proud disobedience, not bricks or building.",
+            "hint": "God had told people to fill the earth."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God's Judgment",
+            "title": "God Came Down",
+            "prompt": "When Genesis says the Lord came down, it shows...",
+            "choices": [
+              "human pride is small before God",
+              "people could build high enough to reach God's throne",
+              "the tower had nearly reached heaven"
+            ],
+            "correctAnswer": "human pride is small before God",
+            "feedback": "Yes. The phrase shows how small human pride is before God.",
+            "hint": "The people thought they were great, but God is the true Lord."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God's Judgment",
+            "title": "Confused Language",
+            "prompt": "God confused the people's language so that...",
+            "choices": [
+              "their proud plan could not continue as before",
+              "they could worship Him in only one place",
+              "their unity would become stronger in smaller groups"
+            ],
+            "correctAnswer": "their proud plan could not continue as before",
+            "feedback": "Correct. Their plan was stopped by God's judgment.",
+            "hint": "God's judgment also spread people across the earth."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God's Judgment",
+            "title": "True or False",
+            "prompt": "Babel teaches that God rules over all nations and languages.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God rules over peoples, nations, and languages.",
+            "hint": "Babel is not outside God's rule."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Lessons from Babel",
+            "title": "Main Sin",
+            "prompt": "The main sin at Babel was...",
+            "choices": [
+              "proud self-glory and disobedience",
+              "working together on a difficult project",
+              "using strong materials to build a city"
+            ],
+            "correctAnswer": "proud self-glory and disobedience",
+            "feedback": "Right. The problem was pride and disobedience.",
+            "hint": "Working together is not sinful by itself."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Lessons from Babel",
+            "title": "Scattered",
+            "prompt": "After Babel, people were scattered...",
+            "choices": [
+              "over the face of the earth",
+              "into nearby families but not into nations yet",
+              "only after Abraham's family began"
+            ],
+            "correctAnswer": "over the face of the earth",
+            "feedback": "Correct. God scattered them over the earth.",
+            "hint": "This moved people toward filling the earth."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Lessons from Babel",
+            "title": "A Better Name",
+            "prompt": "Babel warns us that people should seek...",
+            "choices": [
+              "God's glory above their own name",
+              "a famous name before obeying God",
+              "unity even when it means disobeying God"
+            ],
+            "correctAnswer": "God's glory above their own name",
+            "feedback": "Yes. People should seek God's glory, not proud self-glory.",
+            "hint": "Unity is good only when it is joined to obedience."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Babel Quiz",
+        "questions": [
+          {
+            "section": "Babel",
+            "skill": "Pride",
+            "type": "multipleChoice",
+            "prompt": "The people at Babel wanted to...",
+            "choices": [
+              "make a name for themselves",
+              "scatter in obedience to God",
+              "build an altar after rescue"
+            ],
+            "correctAnswer": "make a name for themselves",
+            "reviewNote": "Their plan centered on their own name."
+          },
+          {
+            "section": "Babel",
+            "skill": "Disobedience",
+            "type": "multipleChoice",
+            "prompt": "Their plan not to be scattered was wrong because...",
+            "choices": [
+              "God had commanded people to fill the earth",
+              "staying together mattered more than filling the earth",
+              "a strong city could keep people secure without God's command"
+            ],
+            "correctAnswer": "God had commanded people to fill the earth",
+            "reviewNote": "The problem was proud disobedience."
+          },
+          {
+            "section": "Babel",
+            "skill": "Judgment",
+            "type": "multipleChoice",
+            "prompt": "God confused their language so that...",
+            "choices": [
+              "their proud plan could not continue as before",
+              "all languages would become unimportant",
+              "they could finish the tower more safely"
+            ],
+            "correctAnswer": "their proud plan could not continue as before",
+            "reviewNote": "God stopped their proud plan."
+          },
+          {
+            "section": "Babel",
+            "skill": "Rule",
+            "type": "trueFalse",
+            "prompt": "Babel teaches that God rules over nations and languages.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God rules over all peoples and languages."
+          },
+          {
+            "section": "Babel",
+            "skill": "Lesson",
+            "type": "multipleChoice",
+            "prompt": "Babel warns people to seek...",
+            "choices": [
+              "God's glory above their own name",
+              "unity even in disobedience",
+              "fame before obedience"
+            ],
+            "correctAnswer": "God's glory above their own name",
+            "reviewNote": "Babel warns against proud self-glory."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-abraham-isaac-jacob",
+      "title": "Abraham, Isaac, and Jacob",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise covenant promises, faith, family failure, and God's faithfulness through Abraham, Isaac, and Jacob.",
+      "teacherOverview": "Students practise covenant promises, faith, family failure, and God's faithfulness through Abraham, Isaac, and Jacob.",
+      "bibleConnection": {
+        "reference": "Genesis 12:1-3; Genesis 15:1-6; Genesis 17:1-8; Genesis 22:1-18; Genesis 28:10-17",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Abraham, Isaac, and Jacob Mission",
+        "mission": "Show that you understand God's covenant promises and His faithfulness through Abraham, Isaac, and Jacob.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: God's Promise to Abraham",
+            "title": "Called by God",
+            "prompt": "When God called Abram, He told him to...",
+            "choices": [
+              "leave his country and go where God would show him",
+              "stay in Babel and build a stronger family name",
+              "earn God's promise by first becoming a king"
+            ],
+            "correctAnswer": "leave his country and go where God would show him",
+            "feedback": "Correct. Abram was called to leave and trust God's promise.",
+            "hint": "Faith followed God's call."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: God's Promise to Abraham",
+            "title": "Three Promise Themes",
+            "prompt": "God's promises to Abraham included...",
+            "choices": [
+              "land, offspring, and blessing",
+              "a throne, a temple, and exile",
+              "a flood, a tower, and new languages"
+            ],
+            "correctAnswer": "land, offspring, and blessing",
+            "feedback": "Yes. Land, offspring, and blessing are major promise themes.",
+            "hint": "God promised to bless all families of the earth through Abraham."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: God's Promise to Abraham",
+            "title": "Faith Counted",
+            "prompt": "Genesis 15 says Abram believed the Lord, and God...",
+            "choices": [
+              "counted it to him as righteousness",
+              "waited until Abram had no doubts before blessing him",
+              "made Abram earn the promise by perfect obedience first"
+            ],
+            "correctAnswer": "counted it to him as righteousness",
+            "feedback": "Correct. Abram believed God, and it was counted to him as righteousness.",
+            "hint": "God's promise rests on His grace and faithfulness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Isaac",
+            "title": "Promised Son",
+            "prompt": "Isaac's birth showed that...",
+            "choices": [
+              "God keeps promises even when they seem impossible",
+              "Isaac's birth depended mainly on Abraham and Sarah's planning",
+              "the promise could continue through any family line"
+            ],
+            "correctAnswer": "God keeps promises even when they seem impossible",
+            "feedback": "Right. Isaac's birth showed God's faithfulness.",
+            "hint": "Sarah was past the normal age for having children."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Isaac",
+            "title": "Mount Moriah",
+            "prompt": "When God tested Abraham with Isaac, the account showed...",
+            "choices": [
+              "God's provision and Abraham's trust",
+              "Abraham had to prove he deserved Isaac",
+              "that human sacrifice became God's normal command"
+            ],
+            "correctAnswer": "God's provision and Abraham's trust",
+            "feedback": "Correct. God provided the ram, and Abraham trusted Him.",
+            "hint": "The Lord provided in the place of Isaac."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Isaac",
+            "title": "True or False",
+            "prompt": "God's covenant promise continued through Isaac.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The covenant promise continued through Isaac.",
+            "hint": "God kept His promise across generations."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Jacob",
+            "title": "Jacob's Family",
+            "prompt": "Jacob's story shows that God's plan continued...",
+            "choices": [
+              "despite family sin and conflict",
+              "because Jacob's family usually made faithful choices",
+              "because Jacob finally made up for earlier sins"
+            ],
+            "correctAnswer": "despite family sin and conflict",
+            "feedback": "Yes. God's faithfulness continued despite family sin and conflict.",
+            "hint": "The Bible tells the truth about family failures."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Jacob",
+            "title": "Bethel",
+            "prompt": "At Bethel, God promised Jacob...",
+            "choices": [
+              "His presence and covenant faithfulness",
+              "freedom from every future family problem",
+              "success because Jacob had already learned every lesson"
+            ],
+            "correctAnswer": "His presence and covenant faithfulness",
+            "feedback": "Correct. God repeated covenant promises and promised His presence.",
+            "hint": "Jacob received God's promise by grace."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Jacob",
+            "title": "God's Faithfulness",
+            "prompt": "The patriarch stories teach that...",
+            "choices": [
+              "God keeps His promises through imperfect people",
+              "God's promises fail when families struggle",
+              "God's promises depend on the strongest person in the family"
+            ],
+            "correctAnswer": "God keeps His promises through imperfect people",
+            "feedback": "Right. God is faithful even when His people are weak.",
+            "hint": "The main hero of these accounts is God."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Abraham, Isaac, and Jacob Quiz",
+        "questions": [
+          {
+            "section": "Abraham",
+            "skill": "Call",
+            "type": "multipleChoice",
+            "prompt": "God called Abram to...",
+            "choices": [
+              "leave his country and go where God would show him",
+              "stay in Babel and make his name great",
+              "build an ark for his family"
+            ],
+            "correctAnswer": "leave his country and go where God would show him",
+            "reviewNote": "Abram was called to leave and trust God."
+          },
+          {
+            "section": "Abraham",
+            "skill": "Promise",
+            "type": "multipleChoice",
+            "prompt": "God's promises to Abraham included...",
+            "choices": [
+              "land, offspring, and blessing",
+              "law, temple, and exile",
+              "flood, rainbow, and languages"
+            ],
+            "correctAnswer": "land, offspring, and blessing",
+            "reviewNote": "These are major covenant promise themes."
+          },
+          {
+            "section": "Isaac",
+            "skill": "Faithfulness",
+            "type": "trueFalse",
+            "prompt": "Isaac's birth showed that God keeps promises even when they seem impossible.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Isaac's birth showed God's faithfulness."
+          },
+          {
+            "section": "Jacob",
+            "skill": "Family Failure",
+            "type": "multipleChoice",
+            "prompt": "Jacob's story shows God's plan continuing...",
+            "choices": [
+              "despite family sin and conflict",
+              "because Jacob's family usually made faithful choices",
+              "because Jacob finally made up for earlier sins"
+            ],
+            "correctAnswer": "despite family sin and conflict",
+            "reviewNote": "God kept His promises despite family failures."
+          },
+          {
+            "section": "Patriarchs",
+            "skill": "Main Theme",
+            "type": "multipleChoice",
+            "prompt": "The patriarch stories especially show...",
+            "choices": [
+              "God's faithfulness to His covenant promises",
+              "human families fixing sin by themselves",
+              "the end of God's promise after Abraham"
+            ],
+            "correctAnswer": "God's faithfulness to His covenant promises",
+            "reviewNote": "God is faithful to His promises."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-joseph-and-providence",
+      "title": "Joseph and Providence",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Joseph's story as an account of evil choices, suffering, forgiveness, and God's good purposes.",
+      "teacherOverview": "Students practise Joseph's story as an account of evil choices, suffering, forgiveness, and God's good purposes.",
+      "bibleConnection": {
+        "reference": "Genesis 37; Genesis 39-50; Genesis 50:20",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Joseph and Providence Mission",
+        "mission": "Show that you understand how God worked through Joseph's suffering without excusing the evil done to him.",
+        "reward": {
+          "stars": 9
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Joseph's Trouble",
+            "title": "Family Jealousy",
+            "prompt": "Joseph's brothers sold him because they were...",
+            "choices": [
+              "jealous and hateful toward him",
+              "trying to protect him from Egypt",
+              "obeying a clear command from God"
+            ],
+            "correctAnswer": "jealous and hateful toward him",
+            "feedback": "Correct. Their jealousy and hatred led to evil choices.",
+            "hint": "God later used the situation, but their action was still wrong."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Joseph's Trouble",
+            "title": "In Egypt",
+            "prompt": "In Egypt, Joseph experienced...",
+            "choices": [
+              "both suffering and God's faithful presence",
+              "hardship that God used right away to make life easy",
+              "success because no one sinned against him"
+            ],
+            "correctAnswer": "both suffering and God's faithful presence",
+            "feedback": "Yes. Joseph suffered, and the Lord was with him.",
+            "hint": "Genesis repeats that the Lord was with Joseph."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Joseph's Trouble",
+            "title": "True or False",
+            "prompt": "Joseph was treated unjustly, but God had not abandoned him.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Joseph suffered unjustly, but God was with him.",
+            "hint": "God's presence does not mean life is always easy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God Gives Wisdom",
+            "title": "Dreams",
+            "prompt": "Joseph made clear that interpreting dreams belonged to...",
+            "choices": [
+              "God",
+              "Joseph's natural cleverness",
+              "Pharaoh's court training"
+            ],
+            "correctAnswer": "God",
+            "feedback": "Correct. Joseph gave credit to God.",
+            "hint": "Joseph did not act as if the wisdom came from himself."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God Gives Wisdom",
+            "title": "Famine",
+            "prompt": "God used Joseph in Egypt to...",
+            "choices": [
+              "preserve many lives during famine",
+              "punish his brothers without mercy",
+              "make Egypt replace God's covenant family"
+            ],
+            "correctAnswer": "preserve many lives during famine",
+            "feedback": "Right. God used Joseph to preserve many lives.",
+            "hint": "This included Joseph's own family."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God Gives Wisdom",
+            "title": "Responsibility",
+            "prompt": "Joseph's leadership in Egypt showed...",
+            "choices": [
+              "wisdom, planning, and service under God's providence",
+              "revenge against everyone who had wronged him",
+              "that faithful service removes the need for careful planning"
+            ],
+            "correctAnswer": "wisdom, planning, and service under God's providence",
+            "feedback": "Correct. Joseph served wisely under God's providence.",
+            "hint": "Providence means God's wise rule over events."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Forgiveness and Providence",
+            "title": "His Brothers Return",
+            "prompt": "When Joseph saw his brothers again, he eventually...",
+            "choices": [
+              "forgave them and cared for his family",
+              "pretended their sin had never mattered",
+              "tested them but held forgiveness back permanently"
+            ],
+            "correctAnswer": "forgave them and cared for his family",
+            "feedback": "Yes. Joseph forgave and cared for them.",
+            "hint": "Forgiveness did not mean their sin was good."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Forgiveness and Providence",
+            "title": "Genesis 50:20",
+            "prompt": "Joseph said his brothers meant evil against him, but God meant it for...",
+            "choices": [
+              "good, to preserve many lives",
+              "revenge, to prove Joseph was right",
+              "preserving life while excusing their guilt"
+            ],
+            "correctAnswer": "good, to preserve many lives",
+            "feedback": "Correct. Joseph saw God's good purpose even through evil actions.",
+            "hint": "God's good purpose did not make the brothers' evil good."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Forgiveness and Providence",
+            "title": "Providence",
+            "prompt": "Joseph's story teaches that God's providence means...",
+            "choices": [
+              "God can work His good purposes even through hard events",
+              "evil choices stop being evil when God uses them",
+              "God's good purposes are always clear right away"
+            ],
+            "correctAnswer": "God can work His good purposes even through hard events",
+            "feedback": "Right. God can work good purposes through hard events.",
+            "hint": "The Bible does not excuse evil, but it does show God's wise rule."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Joseph and Providence Quiz",
+        "questions": [
+          {
+            "section": "Joseph",
+            "skill": "Family Sin",
+            "type": "multipleChoice",
+            "prompt": "Joseph's brothers sold him because of...",
+            "choices": [
+              "jealousy and hatred",
+              "a plan to protect him",
+              "obedience to God's command"
+            ],
+            "correctAnswer": "jealousy and hatred",
+            "reviewNote": "Their action was sinful, even though God later used it."
+          },
+          {
+            "section": "Joseph",
+            "skill": "God's Presence",
+            "type": "trueFalse",
+            "prompt": "Joseph suffered unjustly, but God had not abandoned him.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The Lord was with Joseph."
+          },
+          {
+            "section": "Joseph",
+            "skill": "Dreams",
+            "type": "multipleChoice",
+            "prompt": "Joseph said dream interpretation belonged to...",
+            "choices": [
+              "God",
+              "Pharaoh",
+              "Joseph's family"
+            ],
+            "correctAnswer": "God",
+            "reviewNote": "Joseph gave credit to God."
+          },
+          {
+            "section": "Providence",
+            "skill": "Famine",
+            "type": "multipleChoice",
+            "prompt": "God used Joseph in Egypt to...",
+            "choices": [
+              "preserve many lives during famine",
+              "remove His promises from Jacob's family",
+              "make Joseph's brothers' sin good"
+            ],
+            "correctAnswer": "preserve many lives during famine",
+            "reviewNote": "God used Joseph to preserve life."
+          },
+          {
+            "section": "Providence",
+            "skill": "Genesis 50:20",
+            "type": "multipleChoice",
+            "prompt": "Joseph's words in Genesis 50:20 teach that...",
+            "choices": [
+              "God can mean good even through evil human actions",
+              "evil choices become good if they have useful results",
+              "forgiveness removes the need to call sin evil"
+            ],
+            "correctAnswer": "God can mean good even through evil human actions",
+            "reviewNote": "God's good purpose does not excuse evil actions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-2-final-quiz",
+      "title": "Unit 2 Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "Students complete a scored quiz on creation, image of God, the Fall, Cain and Abel, Noah, Babel, the patriarchs, and Joseph.",
+      "teacherOverview": "Students complete a scored quiz on creation, image of God, the Fall, Cain and Abel, Noah, Babel, the patriarchs, and Joseph.",
+      "quiz": {
+        "title": "Creation to the Patriarchs: Unit 2 Final Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Creation",
+            "skill": "Creator",
+            "type": "multipleChoice",
+            "prompt": "Genesis 1:1 teaches that...",
+            "choices": [
+              "God created the heavens and the earth",
+              "God gave purpose to a world He did not create",
+              "God waited for creation to form itself"
+            ],
+            "correctAnswer": "God created the heavens and the earth",
+            "reviewNote": "Genesis begins with God as Creator."
+          },
+          {
+            "section": "Part A: Creation",
+            "skill": "Creation Week",
+            "type": "multipleChoice",
+            "prompt": "Which answer best fits the Bible's creation week?",
+            "choices": [
+              "God created in six days and rested on the seventh",
+              "God rested before creation was complete",
+              "God used long ages before giving the world meaning"
+            ],
+            "correctAnswer": "God created in six days and rested on the seventh",
+            "reviewNote": "Scripture presents creation in six days with rest on the seventh."
+          },
+          {
+            "section": "Part A: Creation",
+            "skill": "Image of God",
+            "type": "multipleChoice",
+            "prompt": "Human beings have dignity because...",
+            "choices": [
+              "they are made by God in His image",
+              "they are able to choose their own value",
+              "they become valuable when they are useful"
+            ],
+            "correctAnswer": "they are made by God in His image",
+            "reviewNote": "Human dignity comes from being made in God's image."
+          },
+          {
+            "section": "Part A: Creation",
+            "skill": "Male and Female",
+            "type": "trueFalse",
+            "prompt": "Genesis teaches that God created humanity male and female in His image.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Male and female are both made in God's image."
+          },
+          {
+            "section": "Part B: Fall and Spread of Sin",
+            "skill": "Fall",
+            "type": "multipleChoice",
+            "prompt": "The serpent tempted Eve by pushing her to...",
+            "choices": [
+              "doubt God's word and goodness",
+              "remember God's command more clearly",
+              "ask Adam to worship with her"
+            ],
+            "correctAnswer": "doubt God's word and goodness",
+            "reviewNote": "The serpent twisted God's word and challenged His goodness."
+          },
+          {
+            "section": "Part B: Fall and Spread of Sin",
+            "skill": "Result of Sin",
+            "type": "trueFalse",
+            "prompt": "Sin brought death and brokenness into God's good world.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Sin brought death and brokenness after creation."
+          },
+          {
+            "section": "Part B: Fall and Spread of Sin",
+            "skill": "First Promise",
+            "type": "multipleChoice",
+            "prompt": "Genesis 3:15 points forward to...",
+            "choices": [
+              "God's promised victory over the serpent",
+              "people fixing sin by their own effort",
+              "sin slowly becoming less serious"
+            ],
+            "correctAnswer": "God's promised victory over the serpent",
+            "reviewNote": "Genesis 3:15 gives the first promise of rescue."
+          },
+          {
+            "section": "Part B: Fall and Spread of Sin",
+            "skill": "Cain",
+            "type": "multipleChoice",
+            "prompt": "God warned Cain that sin was...",
+            "choices": [
+              "crouching at the door",
+              "mostly just a feeling Cain could handle later",
+              "mostly Abel's problem"
+            ],
+            "correctAnswer": "crouching at the door",
+            "reviewNote": "God warned Cain before Cain murdered Abel."
+          },
+          {
+            "section": "Part C: Noah and Babel",
+            "skill": "Noah",
+            "type": "multipleChoice",
+            "prompt": "The ark was God's appointed way to...",
+            "choices": [
+              "rescue Noah, his family, and the animals",
+              "show Noah's skill apart from God's command",
+              "delay judgment without dealing with sin"
+            ],
+            "correctAnswer": "rescue Noah, his family, and the animals",
+            "reviewNote": "God commanded the ark for rescue."
+          },
+          {
+            "section": "Part C: Noah and Babel",
+            "skill": "Covenant",
+            "type": "trueFalse",
+            "prompt": "The rainbow was a sign of God's covenant promise after the Flood.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The rainbow was a covenant sign."
+          },
+          {
+            "section": "Part C: Noah and Babel",
+            "skill": "Babel",
+            "type": "multipleChoice",
+            "prompt": "The people at Babel wanted to...",
+            "choices": [
+              "make a name for themselves",
+              "scatter in obedience to God",
+              "build an altar after rescue"
+            ],
+            "correctAnswer": "make a name for themselves",
+            "reviewNote": "Babel centered on proud self-glory."
+          },
+          {
+            "section": "Part C: Noah and Babel",
+            "skill": "Languages",
+            "type": "multipleChoice",
+            "prompt": "God confused the languages at Babel so that...",
+            "choices": [
+              "their proud plan could not continue as before",
+              "all people would worship in one city",
+              "they could finish the tower with more care"
+            ],
+            "correctAnswer": "their proud plan could not continue as before",
+            "reviewNote": "God stopped their proud plan and scattered them."
+          },
+          {
+            "section": "Part D: Patriarchs and Joseph",
+            "skill": "Abraham",
+            "type": "multipleChoice",
+            "prompt": "God's promises to Abraham included...",
+            "choices": [
+              "land, offspring, and blessing",
+              "flood, rainbow, and languages",
+              "law, temple, and exile"
+            ],
+            "correctAnswer": "land, offspring, and blessing",
+            "reviewNote": "Land, offspring, and blessing are major promise themes."
+          },
+          {
+            "section": "Part D: Patriarchs and Joseph",
+            "skill": "Isaac",
+            "type": "trueFalse",
+            "prompt": "Isaac's birth showed that God keeps promises even when they seem impossible.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Isaac's birth showed God's faithfulness."
+          },
+          {
+            "section": "Part D: Patriarchs and Joseph",
+            "skill": "Jacob",
+            "type": "multipleChoice",
+            "prompt": "Jacob's story shows God's plan continuing...",
+            "choices": [
+              "despite family sin and conflict",
+              "because Jacob's family usually made faithful choices",
+              "because Jacob finally made up for earlier sins"
+            ],
+            "correctAnswer": "despite family sin and conflict",
+            "reviewNote": "God kept His promises despite family failures."
+          },
+          {
+            "section": "Part D: Patriarchs and Joseph",
+            "skill": "Joseph",
+            "type": "multipleChoice",
+            "prompt": "Joseph's brothers sold him because of...",
+            "choices": [
+              "jealousy and hatred",
+              "a plan to protect him from famine",
+              "obedience to a command from God"
+            ],
+            "correctAnswer": "jealousy and hatred",
+            "reviewNote": "Their action was sinful, even though God later used it."
+          },
+          {
+            "section": "Part D: Patriarchs and Joseph",
+            "skill": "Providence",
+            "type": "multipleChoice",
+            "prompt": "Joseph's words in Genesis 50:20 teach that...",
+            "choices": [
+              "God can mean good even through evil human actions",
+              "evil choices become good when they help later",
+              "forgiveness removes the need to call sin evil"
+            ],
+            "correctAnswer": "God can mean good even through evil human actions",
+            "reviewNote": "God's good purpose does not excuse evil actions."
+          },
+          {
+            "section": "Part E: Timeline",
+            "skill": "Order",
+            "type": "multipleChoice",
+            "prompt": "Which order is correct?",
+            "choices": [
+              "Creation, Fall, Flood, Babel, Abraham, Joseph",
+              "Creation, Babel, Joseph, Fall, Flood, Abraham",
+              "Flood, Creation, Fall, Abraham, Babel, Joseph"
+            ],
+            "correctAnswer": "Creation, Fall, Flood, Babel, Abraham, Joseph",
+            "reviewNote": "This is the correct order for this unit's Bible timeline."
+          }
+        ]
+      }
+    }
+  ]
+}
