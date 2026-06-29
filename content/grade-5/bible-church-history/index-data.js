@@ -22,6 +22,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = {
       "title": "The Bible Is God's Word",
       "strand": "Bible Foundations",
       "unitGoal": "Students practise recognizing the Bible as God's true, inspired, trustworthy Word and learn how to navigate it.",
+      "file": "units/unit-1-the-bible-is-gods-word.json",
+      "dataFile": "unit-data/unit-1-the-bible-is-gods-word.js",
       "lessons": [
         {
           "id": "grade-5-bible-church-history-unit-1-what-is-the-bible",

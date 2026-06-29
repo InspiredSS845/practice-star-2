@@ -706,18 +706,23 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
   if (library.status === "shell") {
     if (lesson.status === "model" && (lesson.studentActivity || lesson.quiz?.questions?.length)) {
-      curriculumPreviewContent.innerHTML = `
+      const activitySection = lesson.studentActivity ? `
         <div class="preview-section student-preview-section">
           <h3>Ready-to-Share Student Activity</h3>
           ${renderAudienceControls({ ...visibleActivityAssignment, id: activityId, itemType: "activity" }, students, "activity")}
           ${renderStudentActivity(lesson.studentActivity)}
         </div>
+      ` : "";
+      const quizSection = lesson.quiz?.questions?.length ? `
         <div class="preview-section">
-          <h3>Ready-to-Share Quiz</h3>
+          <h3>${lesson.type === "unitTest" ? "Ready-to-Share Unit Quiz" : "Ready-to-Share Quiz"}</h3>
           ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
           ${renderLessonQuiz(lesson.quiz)}
         </div>
-        ${renderChristianTeacherNotes(lesson)}
+      ` : "";
+      curriculumPreviewContent.innerHTML = `
+        ${activitySection}
+        ${quizSection}
       `;
       attachAudienceControlHandlers(curriculumPreviewContent, async ({ itemId, itemType, isShared, shareMode, targetStudentIds }) => {
         const teacher = currentTeacher();

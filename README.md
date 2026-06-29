@@ -55,8 +55,9 @@ Activity progress and quiz progress still use browser storage while we migrate c
 - `content/grade-5/math/index.json` - Grade 5 Math curriculum index
 - `content/grade-5/math/units/` - separate Grade 5 Math unit JSON files
 - `content/grade-5/math/index-data.js` and `content/grade-5/math/unit-data/` - browser-friendly curriculum files for local testing
-- `content/grade-5/bible-church-history/index.json` - Grade 5 Bible and Church History planned unit cards
-- `content/grade-5/bible-church-history/index-data.js` - browser-friendly Bible and Church History unit cards for local testing
+- `content/grade-5/bible-church-history/index.json` - Grade 5 Bible and Church History curriculum index
+- `content/grade-5/bible-church-history/units/` - separate Bible and Church History unit JSON files
+- `content/grade-5/bible-church-history/index-data.js` and `content/grade-5/bible-church-history/unit-data/` - browser-friendly Bible and Church History curriculum files for local testing
 - `supabase-config.js` - Supabase browser connection settings
 - `SQL Files/001_initial_schema.sql` - first Supabase database setup
 - `SQL Files/002_student_access_function.sql` - secure student code/name/PIN check
@@ -67,7 +68,7 @@ Activity progress and quiz progress still use browser storage while we migrate c
 
 ## Next Backend Steps
 
-1. Build Unit 1 Bible and Church History as the model student-facing question activity set and final quiz.
+1. Build Unit 2 Bible and Church History as the next student-facing question activity set and final quiz.
 2. Move spelling lists and custom quizzes to Supabase.
 3. Move student activity progress and quiz progress fully to Supabase.
 4. Expand curriculum sharing from Grade 5 into the future grade picker.
