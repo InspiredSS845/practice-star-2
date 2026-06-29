@@ -74,11 +74,24 @@ let activeCurriculumLibraryId = "";
 let activeCurriculumGrade = 5;
 let activeCurriculumSubject = "Mathematics";
 
+function appIsReady() {
+  if (window.PracticeStar) {
+    return true;
+  }
+  authMessage.textContent = "Practice Star is still loading. Please refresh this page once, then try logging in again.";
+  return false;
+}
+
 function currentTeacher() {
   return activeTeacher;
 }
 
 async function renderTeacherPage(message = "") {
+  if (!appIsReady()) {
+    dashboardPanel.classList.add("hidden");
+    return;
+  }
+
   const teacher = await window.PracticeStar.getCurrentTeacher();
   activeTeacher = teacher;
   const isLoggedIn = Boolean(teacher);
@@ -1260,6 +1273,9 @@ async function renderQuizCards() {
 
 signupForm.addEventListener("submit", async (event) => {
   event.preventDefault();
+  if (!appIsReady()) {
+    return;
+  }
   authMessage.textContent = "Checking account...";
   try {
     const result = await window.PracticeStar.createTeacher(signupEmail.value, signupPassword.value);
@@ -1275,6 +1291,9 @@ signupForm.addEventListener("submit", async (event) => {
 
 loginForm.addEventListener("submit", async (event) => {
   event.preventDefault();
+  if (!appIsReady()) {
+    return;
+  }
   authMessage.textContent = "Logging in...";
   try {
     const result = await window.PracticeStar.loginTeacher(loginEmail.value, loginPassword.value);

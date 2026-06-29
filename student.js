@@ -112,6 +112,14 @@ const learningProgressKey = "practiceStar2LearningProgressV2";
 const learningSectionStarBonus = 10;
 const activityRefreshIntervalMs = 20000;
 
+function appIsReady() {
+  if (window.PracticeStar) {
+    return true;
+  }
+  studentMessage.textContent = "Practice Star is still loading. Please refresh this page once, then try again.";
+  return false;
+}
+
 function getSavedStudentLogin() {
   try {
     return JSON.parse(window.localStorage.getItem(savedStudentLoginKey)) || null;
@@ -1419,6 +1427,9 @@ function showQuizResults() {
 
 studentCodeForm.addEventListener("submit", async (event) => {
   event.preventDefault();
+  if (!appIsReady()) {
+    return;
+  }
   const code = window.PracticeStar.normalizeCode(studentCode.value);
   const name = window.PracticeStar.normalizeName(studentName.value);
   const pin = studentPin.value;
