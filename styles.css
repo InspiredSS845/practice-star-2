@@ -999,6 +999,15 @@ textarea:focus {
   align-items: center;
 }
 
+.activity-row.completed-activity-row {
+  border-color: #b8f0cf;
+  background: #f3fff8;
+}
+
+.completion-hint {
+  color: #177645;
+}
+
 .list-card p,
 .activity-row p,
 .student-card p,

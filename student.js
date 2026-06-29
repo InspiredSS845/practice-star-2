@@ -155,9 +155,13 @@ function getLearningRewards() {
   }
 }
 
-function rewardClaimKey() {
+function learningActivityKey(activityId) {
   const studentKey = activeStudent?.id || activeStudentName || "student";
-  return `${studentKey}:${activeLearningActivityId || activeLearningActivity?.title || "activity"}`;
+  return `${studentKey}:${activityId || "activity"}`;
+}
+
+function rewardClaimKey() {
+  return learningActivityKey(activeLearningActivityId || activeLearningActivity?.title || "activity");
 }
 
 function hasClaimedLearningReward() {
@@ -225,6 +229,22 @@ function saveLearningProgress(mode = "question", savedStepIndex = learningStepIn
 
 function getLearningCheckpoint() {
   return getLearningProgress()[learningProgressClaimKey()] || null;
+}
+
+function learningActivityState(activityId) {
+  const key = learningActivityKey(activityId);
+  const completed = Boolean(getLearningRewards()[key]);
+  const inProgress = Boolean(getLearningProgress()[key]);
+  return {
+    completed,
+    inProgress,
+    buttonLabel: completed ? "Review" : inProgress ? "Continue" : "Start",
+    note: completed
+      ? "Completed - you can review this mission any time."
+      : inProgress
+        ? "In progress - continue where you left off."
+        : ""
+  };
 }
 
 function clearLearningProgress() {
@@ -654,15 +674,19 @@ function renderActivities(classBundle, student) {
     </article>
   `);
 
-  const learningCards = learningActivities.map((item) => `
-    <article class="activity-row learning-activity-row">
-      <div>
-        <h3>${window.PracticeStar.escapeHtml(item.lessonTitle)}: ${window.PracticeStar.escapeHtml(item.title)}</h3>
-        <p class="hint">Learning mission - ${window.PracticeStar.escapeHtml(item.unitTitle)}</p>
-      </div>
-      <button class="start-activity-button" type="button" data-type="learning" data-id="${item.id}">${getLearningProgress()[`${activeStudent?.id || activeStudentName || "student"}:${item.id}`] ? "Continue" : "Start"}</button>
-    </article>
-  `);
+  const learningCards = learningActivities.map((item) => {
+    const state = learningActivityState(item.id);
+    return `
+      <article class="activity-row learning-activity-row${state.completed ? " completed-activity-row" : ""}">
+        <div>
+          <h3>${window.PracticeStar.escapeHtml(item.lessonTitle)}: ${window.PracticeStar.escapeHtml(item.title)}</h3>
+          <p class="hint">Learning mission - ${window.PracticeStar.escapeHtml(item.unitTitle)}</p>
+          ${state.note ? `<p class="hint completion-hint">${window.PracticeStar.escapeHtml(state.note)}</p>` : ""}
+        </div>
+        <button class="start-activity-button" type="button" data-type="learning" data-id="${item.id}">${state.buttonLabel}</button>
+      </article>
+    `;
+  });
 
   const finalQuizCards = lessonQuizzes.map((item) => {
     const priorAttempt = window.PracticeStar.quizAttemptForStudent(item.id, activeStudent?.id || "", activeStudentName);
