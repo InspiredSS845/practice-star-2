@@ -63,11 +63,11 @@ window.PracticeStarContent.catalog = {
       "grade": 5,
       "subject": "Bible and Church History",
       "title": "Bible and Church History - Grade 5",
-      "status": "planned",
+      "status": "shell",
       "basePath": "content/grade-5/bible-church-history",
       "indexFile": "content/grade-5/bible-church-history/index.json",
       "dataKey": "grade5BibleChurchHistory",
-      "description": "Bible and Church History units will be planned with the school before lessons are added."
+      "description": "Bible and Church History has seven planned Grade 5 unit cards ready for student activity development."
     }
   ]
 };

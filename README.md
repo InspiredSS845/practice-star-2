@@ -23,7 +23,7 @@ Practice Star is a kid-friendly curriculum, practice, and progress app for teach
 - Teacher Curriculum tab can preview lesson sections
 - Teacher Curriculum tab now has a Grade 5 picker and subject tabs for Math, Language, Science and Technology, Social Studies, Health, Arts, French, and Bible and Church History
 - Non-math subjects are planned shells so curriculum can be added one subject at a time without breaking Math
-- Bible and Church History now has a Grade 5 planning shell ready for school curriculum alignment
+- Bible and Church History now has seven Grade 5 planned unit cards ready for student activity development
 
 ## Current Storage
 
@@ -55,8 +55,8 @@ Activity progress and quiz progress still use browser storage while we migrate c
 - `content/grade-5/math/index.json` - Grade 5 Math curriculum index
 - `content/grade-5/math/units/` - separate Grade 5 Math unit JSON files
 - `content/grade-5/math/index-data.js` and `content/grade-5/math/unit-data/` - browser-friendly curriculum files for local testing
-- `content/grade-5/bible-church-history/index.json` - Grade 5 Bible and Church History planning shell
-- `content/grade-5/bible-church-history/index-data.js` - browser-friendly Bible and Church History shell for local testing
+- `content/grade-5/bible-church-history/index.json` - Grade 5 Bible and Church History planned unit cards
+- `content/grade-5/bible-church-history/index-data.js` - browser-friendly Bible and Church History unit cards for local testing
 - `supabase-config.js` - Supabase browser connection settings
 - `SQL Files/001_initial_schema.sql` - first Supabase database setup
 - `SQL Files/002_student_access_function.sql` - secure student code/name/PIN check
@@ -67,7 +67,7 @@ Activity progress and quiz progress still use browser storage while we migrate c
 
 ## Next Backend Steps
 
-1. Plan the Grade 5 Bible and Church History units with the school before adding student-facing lessons.
+1. Build Unit 1 Bible and Church History as the model student-facing question activity set and final quiz.
 2. Move spelling lists and custom quizzes to Supabase.
 3. Move student activity progress and quiz progress fully to Supabase.
 4. Expand curriculum sharing from Grade 5 into the future grade picker.
