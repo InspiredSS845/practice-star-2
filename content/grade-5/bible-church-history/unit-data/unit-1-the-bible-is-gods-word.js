@@ -32,11 +32,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "One Book, Many Books",
             "prompt": "Which answer best describes the Bible?",
             "choices": [
-              "One connected story made of many books",
-              "A collection of religious ideas with no main story",
-              "A book of advice that is helpful but not God's Word"
+              "God's Word arranged in many books with one true story",
+              "A collection of books with some shared themes but no single message",
+              "A record of religious writings that Christians respect like other old books"
             ],
-            "correctAnswer": "One connected story made of many books",
+            "correctAnswer": "God's Word arranged in many books with one true story",
             "feedback": "Yes. The Bible has many books, but it tells one true story from God.",
             "hint": "Think about the Bible as a library that still has one main message."
           },
@@ -46,9 +46,9 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "Two Main Parts",
             "prompt": "What are the two main parts of the Bible called?",
             "choices": [
-              "Law and Letters",
+              "Law and Prophets",
               "Old Testament and New Testament",
-              "History and Poetry"
+              "Gospels and Letters"
             ],
             "correctAnswer": "Old Testament and New Testament",
             "feedback": "Correct. The Bible is arranged into the Old Testament and the New Testament.",
@@ -61,8 +61,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "In the Bible, a testament is connected to...",
             "choices": [
               "a covenant or promise relationship",
-              "a map of ancient roads",
-              "a list of book page numbers"
+              "a section named only by when it was written",
+              "a group of books that all have the same human author"
             ],
             "correctAnswer": "a covenant or promise relationship",
             "feedback": "Right. Testament language points to God's covenant promises.",
@@ -74,8 +74,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "The Main Center",
             "prompt": "Who is at the center of the Bible's rescue story?",
             "choices": [
-              "Moses, because he received the law",
-              "David, because he was Israel's king",
+              "Moses, because God used him to lead Israel out of Egypt",
+              "David, because God promised a king from his family line",
               "Jesus Christ, because God's rescue comes through Him"
             ],
             "correctAnswer": "Jesus Christ, because God's rescue comes through Him",
@@ -89,8 +89,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The Old Testament mainly looks forward to...",
             "choices": [
               "God's promised Savior",
-              "the end of all worship",
-              "a time when sin would not matter"
+              "Israel's kings keeping the covenant perfectly",
+              "the church spreading the gospel after Pentecost"
             ],
             "correctAnswer": "God's promised Savior",
             "feedback": "Correct. The Old Testament prepares for God's promised Savior.",
@@ -103,8 +103,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The New Testament tells how...",
             "choices": [
               "Jesus came, died, rose, and sent His followers to make disciples",
-              "God changed His mind about sin and holiness",
-              "the Old Testament stopped being God's Word"
+              "God began His covenant promises with Abraham and his family",
+              "Israel received the law and learned how to worship at the tabernacle"
             ],
             "correctAnswer": "Jesus came, died, rose, and sent His followers to make disciples",
             "feedback": "Yes. The New Testament tells the good news of Jesus and the early church.",
@@ -114,13 +114,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 3: Finding Your Way",
             "title": "Chapters and Verses",
-            "prompt": "Why do Bibles use chapters and verses?",
+            "prompt": "Which reason best explains why chapter and verse numbers are useful?",
             "choices": [
-              "To help people find a passage more easily",
-              "To show which parts are true and which parts are not",
-              "To replace careful reading with short answers"
+              "They help people find and discuss exact passages",
+              "They show which verses are more important than others",
+              "They mark where every Bible story begins and ends"
             ],
-            "correctAnswer": "To help people find a passage more easily",
+            "correctAnswer": "They help people find and discuss exact passages",
             "feedback": "Correct. Chapters and verses help us find and discuss passages.",
             "hint": "They are like helpful addresses in the Bible."
           },
@@ -130,11 +130,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "Bible Address",
             "prompt": "In the reference John 3:16, what does John name?",
             "choices": [
-              "the book",
-              "the chapter",
-              "the verse"
+              "the book of the Bible",
+              "the chapter in that book",
+              "the person receiving the words"
             ],
-            "correctAnswer": "the book",
+            "correctAnswer": "the book of the Bible",
             "feedback": "Right. John is the book, 3 is the chapter, and 16 is the verse.",
             "hint": "The book name comes first."
           },
@@ -142,7 +142,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 3: Finding Your Way",
             "title": "True or False",
-            "prompt": "A Bible reference usually helps you find the book, chapter, and verse.",
+            "prompt": "A Bible reference like John 3:16 gives enough information to find a specific place in Scripture.",
             "choices": [
               "True",
               "False"
@@ -162,11 +162,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "type": "multipleChoice",
             "prompt": "Which answer best describes the Bible?",
             "choices": [
-              "A random set of spiritual sayings",
-              "God's Word arranged as many books with one true story",
-              "A history book with no message for today"
+              "God's Word arranged in many books with one true story",
+              "A collection of books with some shared themes but no single message",
+              "A record of religious writings that Christians respect like other old books"
             ],
-            "correctAnswer": "God's Word arranged as many books with one true story",
+            "correctAnswer": "God's Word arranged in many books with one true story",
             "reviewNote": "The Bible has many books, but it is God's one true Word."
           },
           {
@@ -176,8 +176,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The Bible's two main parts are...",
             "choices": [
               "Old Testament and New Testament",
-              "Psalms and Proverbs",
-              "Gospels and Maps"
+              "Law and Prophets",
+              "Gospels and Letters"
             ],
             "correctAnswer": "Old Testament and New Testament",
             "reviewNote": "The two main parts are the Old and New Testaments."
@@ -188,11 +188,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "type": "multipleChoice",
             "prompt": "Who is at the center of the Bible's rescue story?",
             "choices": [
-              "Abraham",
-              "Jesus Christ",
-              "Paul"
+              "Moses, because God used him to lead Israel out of Egypt",
+              "David, because God promised a king from his family line",
+              "Jesus Christ, because God's rescue comes through Him"
             ],
-            "correctAnswer": "Jesus Christ",
+            "correctAnswer": "Jesus Christ, because God's rescue comes through Him",
             "reviewNote": "The Bible points to God's rescue through Jesus Christ."
           },
           {
@@ -201,18 +201,18 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "type": "multipleChoice",
             "prompt": "In John 3:16, the number 3 tells the...",
             "choices": [
-              "book",
-              "chapter",
-              "verse"
+              "book name",
+              "chapter number",
+              "verse number"
             ],
-            "correctAnswer": "chapter",
+            "correctAnswer": "chapter number",
             "reviewNote": "The first number is the chapter."
           },
           {
             "section": "Finding References",
             "skill": "Navigation",
             "type": "trueFalse",
-            "prompt": "Chapters and verses help us find Bible passages.",
+            "prompt": "Chapter and verse numbers are helpful, but they are not part of the original inspired wording.",
             "choices": [
               "True",
               "False"
@@ -248,11 +248,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "God's Message",
             "prompt": "When Christians say the Bible is inspired by God, they mean...",
             "choices": [
-              "God guided the human writers so they wrote His message",
-              "the writers guessed about God as best they could",
-              "only the easiest verses came from God"
+              "God guided human writers so they wrote His message",
+              "God gave good ideas, but the writers chose the main message themselves",
+              "God inspired only the main ideas, not the teaching details"
             ],
-            "correctAnswer": "God guided the human writers so they wrote His message",
+            "correctAnswer": "God guided human writers so they wrote His message",
             "feedback": "Yes. God used real human writers, but Scripture is His Word.",
             "hint": "Inspired does not mean people made up ideas about God."
           },
@@ -263,8 +263,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which statement is most accurate?",
             "choices": [
               "God used human writers with their own styles",
-              "God erased the writers' minds so they had no part",
-              "The writers corrected God's ideas before writing"
+              "Every Bible book sounds the same because God used one writing style",
+              "The writers added ideas that God later approved"
             ],
             "correctAnswer": "God used human writers with their own styles",
             "feedback": "Correct. God worked through real people, times, and writing styles.",
@@ -274,7 +274,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 1: What Inspired Means",
             "title": "All Scripture",
-            "prompt": "True or False: Christians receive all Scripture as God's Word, not only their favorite parts.",
+            "prompt": "Christians should receive all Scripture as God's Word, even when some passages are harder to understand.",
             "choices": [
               "True",
               "False"
@@ -290,8 +290,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why is the Bible more than human opinion?",
             "choices": [
               "Because God is the source of its message",
-              "Because old books are always correct",
-              "Because every reader already agrees with it"
+              "Because the human writers were sincere and careful",
+              "Because many people have respected it for a long time"
             ],
             "correctAnswer": "Because God is the source of its message",
             "feedback": "Yes. The Bible is trustworthy because God is truthful.",
@@ -304,8 +304,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why can Bible books sound different from each other?",
             "choices": [
               "God used different human authors and kinds of writing",
-              "Some books are less inspired than others",
-              "The Bible has no clear message"
+              "Some books are inspired in a stronger way than others",
+              "The message changed as God's people learned more"
             ],
             "correctAnswer": "God used different human authors and kinds of writing",
             "feedback": "Correct. Different styles do not make the Bible less true.",
@@ -318,8 +318,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "If Scripture is God's Word, a good response is to...",
             "choices": [
               "listen, believe, and obey",
-              "change it whenever it feels hard",
-              "read only the parts that sound easy"
+              "trust it only after it feels easy",
+              "agree with it but avoid hard obedience"
             ],
             "correctAnswer": "listen, believe, and obey",
             "feedback": "Right. God's Word calls for trust and obedience.",
@@ -332,8 +332,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "When a Bible passage is hard to understand, a wise first step is to...",
             "choices": [
               "read carefully and ask for help",
-              "decide it must be wrong",
-              "skip every hard part forever"
+              "choose the meaning that feels easiest",
+              "treat it as less important than clearer passages"
             ],
             "correctAnswer": "read carefully and ask for help",
             "feedback": "Yes. Hard passages call for careful reading, prayer, and help.",
@@ -343,7 +343,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 3: Trusting Scripture",
             "title": "Authority",
-            "prompt": "True or False: Because the Bible is God's Word, it can correct what people think and do.",
+            "prompt": "Because the Bible is God's Word, it has authority over both beliefs and choices.",
             "choices": [
               "True",
               "False"
@@ -359,8 +359,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which sentence best fits Christian belief about Scripture?",
             "choices": [
               "The Bible teaches God's truth even when people disagree with it",
-              "The Bible is true only when most people vote for it",
-              "The Bible should be changed to match every culture"
+              "The Bible is true in its main ideas but may need correction in hard parts",
+              "The Bible is most useful when it agrees with what a church already thinks"
             ],
             "correctAnswer": "The Bible teaches God's truth even when people disagree with it",
             "feedback": "Yes. God's truth does not depend on a vote.",
@@ -377,18 +377,18 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "type": "multipleChoice",
             "prompt": "Inspired by God means...",
             "choices": [
-              "God guided the human writers",
-              "the writers wrote without God",
-              "only the New Testament matters"
+              "God guided human writers so Scripture is His Word",
+              "God gave writers thoughts that were mostly their own ideas",
+              "God inspired only the New Testament writers"
             ],
-            "correctAnswer": "God guided the human writers",
+            "correctAnswer": "God guided human writers so Scripture is His Word",
             "reviewNote": "God spoke through human authors."
           },
           {
             "section": "Inspiration",
             "skill": "Human Authors",
             "type": "trueFalse",
-            "prompt": "God used human writers with real styles and situations.",
+            "prompt": "God used real human writers without making Scripture merely human opinion.",
             "choices": [
               "True",
               "False"
@@ -403,8 +403,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "If the Bible is God's Word, Christians should...",
             "choices": [
               "listen and obey",
-              "edit out hard teachings",
-              "trust feelings more than Scripture"
+              "agree with the easy parts first",
+              "treat difficult commands as optional"
             ],
             "correctAnswer": "listen and obey",
             "reviewNote": "God's Word calls us to trust and obey."
@@ -416,8 +416,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "When a passage is hard, a wise response is to...",
             "choices": [
               "read carefully and ask for help",
-              "assume God made a mistake",
-              "ignore the Bible completely"
+              "choose the meaning that best fits your opinion",
+              "set it aside as less trustworthy"
             ],
             "correctAnswer": "read carefully and ask for help",
             "reviewNote": "Hard passages should be handled carefully."
@@ -426,12 +426,12 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Trust",
             "skill": "Truth",
             "type": "trueFalse",
-            "prompt": "The Bible is true only when every person agrees with it.",
+            "prompt": "The Bible remains true even when people disagree about it.",
             "choices": [
               "True",
               "False"
             ],
-            "correctAnswer": "False",
+            "correctAnswer": "True",
             "reviewNote": "God's truth does not depend on human agreement."
           }
         ]
@@ -463,8 +463,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Christians trust the Bible because...",
             "choices": [
               "God is truthful and His Word is true",
-              "it never asks people to change",
-              "it only says what people already want"
+              "it has been read by many people for many years",
+              "it usually agrees with what Christians already think"
             ],
             "correctAnswer": "God is truthful and His Word is true",
             "feedback": "Correct. The Bible is trustworthy because God is trustworthy.",
@@ -477,8 +477,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "If my feelings disagree with Scripture, I should...",
             "choices": [
               "bring my feelings to God and listen to His Word",
-              "make Scripture say whatever I feel",
-              "assume feelings are always wiser than God"
+              "wait to read Scripture until my feelings change",
+              "choose the Bible parts that match what I feel"
             ],
             "correctAnswer": "bring my feelings to God and listen to His Word",
             "feedback": "Yes. Feelings matter, but they do not rule over God's Word.",
@@ -488,7 +488,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 1: Truth",
             "title": "True or False",
-            "prompt": "The Bible can be trusted even when a teaching is difficult.",
+            "prompt": "A difficult Bible teaching can still be trustworthy, even if I need help understanding it.",
             "choices": [
               "True",
               "False"
@@ -504,8 +504,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The Bible is like a measuring line because it...",
             "choices": [
               "helps us test ideas by God's truth",
-              "lets every person invent their own truth",
-              "keeps truth hidden from ordinary people"
+              "helps us compare people's opinions fairly",
+              "gives examples but not real commands"
             ],
             "correctAnswer": "helps us test ideas by God's truth",
             "feedback": "Right. Scripture helps us check what is true.",
@@ -518,8 +518,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which sentence best fits the Bible's teaching?",
             "choices": [
               "Love for God includes listening to Him",
-              "Love means sin never needs correction",
-              "Obedience matters only when it is easy"
+              "Love for God is mostly knowing facts about Him",
+              "Love is kind, so correction is never needed"
             ],
             "correctAnswer": "Love for God includes listening to Him",
             "feedback": "Yes. In Scripture, love and obedience belong together.",
@@ -529,7 +529,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 2: Authority",
             "title": "Correcting Us",
-            "prompt": "True or False: God's Word can correct a person while still showing God's mercy.",
+            "prompt": "God's Word can correct sin while also showing God's mercy.",
             "choices": [
               "True",
               "False"
@@ -545,8 +545,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "What is a wrong way to use the Bible?",
             "choices": [
               "Using a verse to win an argument without caring about truth or love",
-              "Reading the surrounding verses",
-              "Letting Scripture correct your own heart first"
+              "Asking what the passage meant to its first readers",
+              "Comparing one passage with another passage"
             ],
             "correctAnswer": "Using a verse to win an argument without caring about truth or love",
             "feedback": "Yes. God's Word should be handled with truth and love.",
@@ -559,8 +559,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why should we read more than one isolated sentence?",
             "choices": [
               "The surrounding passage helps us understand the meaning",
-              "Longer reading makes the Bible less true",
-              "Context only matters in history books"
+              "A single verse never has meaning by itself",
+              "Context matters only in Old Testament history"
             ],
             "correctAnswer": "The surrounding passage helps us understand the meaning",
             "feedback": "Correct. Context helps us read carefully.",
@@ -573,8 +573,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A student trusts God's Word best when the student...",
             "choices": [
               "tries to understand and obey it",
-              "memorizes words but refuses to listen",
-              "uses only verses that sound popular"
+              "can explain verses but avoids applying them",
+              "chooses verses that support a favorite opinion"
             ],
             "correctAnswer": "tries to understand and obey it",
             "feedback": "Right. Trust is shown by listening and obeying.",
@@ -592,8 +592,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why can Christians trust the Bible?",
             "choices": [
               "God is truthful",
-              "It changes with every opinion",
-              "It never challenges people"
+              "It has been important in history",
+              "It includes many different writers"
             ],
             "correctAnswer": "God is truthful",
             "reviewNote": "The Bible is trustworthy because God is truthful."
@@ -605,8 +605,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "If Scripture corrects me, I should...",
             "choices": [
               "listen humbly",
-              "change the verse",
-              "ignore every correction"
+              "look first for a verse that feels easier",
+              "assume the correction is for someone else"
             ],
             "correctAnswer": "listen humbly",
             "reviewNote": "God's Word can correct us for our good."
@@ -615,12 +615,12 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Love and Holiness",
             "skill": "Bible Teaching",
             "type": "trueFalse",
-            "prompt": "Biblical love means sin no longer matters.",
+            "prompt": "Biblical love can include mercy and correction at the same time.",
             "choices": [
               "True",
               "False"
             ],
-            "correctAnswer": "False",
+            "correctAnswer": "True",
             "reviewNote": "The Bible keeps love, mercy, repentance, holiness, and obedience together."
           },
           {
@@ -630,8 +630,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why does context matter?",
             "choices": [
               "It helps us understand a passage rightly",
-              "It makes the Bible less clear",
-              "It replaces the Bible's meaning"
+              "It makes short verses less important",
+              "It matters only when a passage is confusing"
             ],
             "correctAnswer": "It helps us understand a passage rightly",
             "reviewNote": "Context helps us read carefully."
@@ -640,7 +640,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Careful Reading",
             "skill": "Trust",
             "type": "trueFalse",
-            "prompt": "A hard teaching should be handled with careful reading, not quick dismissal.",
+            "prompt": "A hard teaching should be handled with careful reading instead of being quickly dismissed.",
             "choices": [
               "True",
               "False"
@@ -677,8 +677,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which books are often called the Law or the Pentateuch?",
             "choices": [
               "Genesis through Deuteronomy",
-              "Matthew through John",
-              "Romans through Jude"
+              "Joshua through Esther",
+              "Matthew through John"
             ],
             "correctAnswer": "Genesis through Deuteronomy",
             "feedback": "Correct. The first five books are often called the Law or Pentateuch.",
@@ -690,11 +690,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "History Books",
             "prompt": "Which description best fits Old Testament history books?",
             "choices": [
-              "They tell how God dealt with Israel in real events",
-              "They are only songs for worship",
-              "They are letters to early churches"
+              "They record real events in God's dealings with Israel",
+              "They give songs, prayers, and wisdom sayings",
+              "They explain church life after Jesus' resurrection"
             ],
-            "correctAnswer": "They tell how God dealt with Israel in real events",
+            "correctAnswer": "They record real events in God's dealings with Israel",
             "feedback": "Yes. They record real events in Israel's history.",
             "hint": "Think Joshua, Judges, Samuel, Kings, Ezra, and Nehemiah."
           },
@@ -705,8 +705,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Psalms and Proverbs are examples of...",
             "choices": [
               "poetry and wisdom",
-              "Gospels",
-              "New Testament letters"
+              "law and covenant commands",
+              "history of Israel's kings"
             ],
             "correctAnswer": "poetry and wisdom",
             "feedback": "Right. Psalms and Proverbs include poetry, prayer, praise, and wisdom.",
@@ -719,8 +719,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "What did God's prophets often do?",
             "choices": [
               "Called people back to God and spoke His message",
-              "Invented new gods for Israel",
-              "Replaced God's law with their own rules"
+              "Mainly predicted dates for every future event",
+              "Mainly wrote songs for temple worship"
             ],
             "correctAnswer": "Called people back to God and spoke His message",
             "feedback": "Correct. The prophets spoke God's message, warned against sin, and gave hope.",
@@ -733,8 +733,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which books are the four Gospels?",
             "choices": [
               "Matthew, Mark, Luke, and John",
-              "Genesis, Exodus, Leviticus, and Numbers",
-              "Acts, Romans, Corinthians, and Galatians"
+              "Joshua, Judges, Samuel, and Kings",
+              "Romans, Corinthians, Galatians, and Ephesians"
             ],
             "correctAnswer": "Matthew, Mark, Luke, and John",
             "feedback": "Yes. The Gospels tell the good news of Jesus Christ.",
@@ -747,8 +747,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The book of Acts tells about...",
             "choices": [
               "the risen Christ working through the early church",
-              "the building of Noah's ark",
-              "the exile in Babylon"
+              "Israel's rescue from Egypt and travel through the wilderness",
+              "the kings of Israel before the exile"
             ],
             "correctAnswer": "the risen Christ working through the early church",
             "feedback": "Correct. Acts tells about the early church and the spread of the gospel.",
@@ -761,8 +761,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Many New Testament letters were written to...",
             "choices": [
               "churches and believers",
-              "Egyptian kings",
-              "people before the flood"
+              "Jewish leaders before the exile",
+              "Israel's kings before David"
             ],
             "correctAnswer": "churches and believers",
             "feedback": "Right. The letters teach, correct, encourage, and explain the gospel.",
@@ -775,8 +775,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Revelation teaches Christians to...",
             "choices": [
               "stay faithful because Jesus wins",
-              "guess dates instead of obeying God",
-              "stop reading the rest of the Bible"
+              "focus on symbols without obeying Christ",
+              "treat the Old Testament as finished and unneeded"
             ],
             "correctAnswer": "stay faithful because Jesus wins",
             "feedback": "Yes. Revelation gives hope and calls God's people to faithfulness.",
@@ -786,7 +786,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 3: Letters and Revelation",
             "title": "True or False",
-            "prompt": "Knowing Bible sections can help you understand what kind of writing you are reading.",
+            "prompt": "Knowing Bible sections can help you choose good reading habits for each passage.",
             "choices": [
               "True",
               "False"
@@ -807,8 +807,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Genesis through Deuteronomy are often called...",
             "choices": [
               "the Law or Pentateuch",
-              "the Gospels",
-              "the New Testament letters"
+              "the History Books",
+              "the Gospels"
             ],
             "correctAnswer": "the Law or Pentateuch",
             "reviewNote": "The first five books are often called the Law or Pentateuch."
@@ -820,8 +820,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Psalms and Proverbs belong with...",
             "choices": [
               "poetry and wisdom",
-              "Acts",
-              "the four Gospels"
+              "law and covenant commands",
+              "history of Israel's kings"
             ],
             "correctAnswer": "poetry and wisdom",
             "reviewNote": "Psalms and Proverbs are poetry and wisdom books."
@@ -833,7 +833,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The four Gospels are...",
             "choices": [
               "Matthew, Mark, Luke, and John",
-              "Joshua, Judges, Ruth, and Samuel",
+              "Joshua, Judges, Samuel, and Kings",
               "Romans, Corinthians, Galatians, and Ephesians"
             ],
             "correctAnswer": "Matthew, Mark, Luke, and John",
@@ -843,7 +843,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "New Testament",
             "skill": "Acts",
             "type": "trueFalse",
-            "prompt": "Acts tells about the early church after Jesus rose from the dead.",
+            "prompt": "Acts belongs after the Gospels and tells about the early church after Jesus rose.",
             "choices": [
               "True",
               "False"
@@ -858,8 +858,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "New Testament letters often teach and encourage...",
             "choices": [
               "churches and believers",
-              "the animals in Eden",
-              "the Roman roads"
+              "Israel's kings before the exile",
+              "prophets warning Judah before Babylon"
             ],
             "correctAnswer": "churches and believers",
             "reviewNote": "The letters were written to churches, leaders, and believers."
@@ -892,11 +892,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "Bible Address Parts",
             "prompt": "In Genesis 1:1, what does Genesis name?",
             "choices": [
-              "the book",
-              "the chapter",
-              "the verse"
+              "the book of the Bible",
+              "the first chapter",
+              "the first verse"
             ],
-            "correctAnswer": "the book",
+            "correctAnswer": "the book of the Bible",
             "feedback": "Correct. Genesis is the book name.",
             "hint": "The book comes first."
           },
@@ -906,11 +906,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "Chapter Number",
             "prompt": "In Psalm 23:1, what does 23 name?",
             "choices": [
-              "the chapter",
-              "the verse",
-              "the testament"
+              "the psalm or chapter number",
+              "the verse number",
+              "the Testament section"
             ],
-            "correctAnswer": "the chapter",
+            "correctAnswer": "the psalm or chapter number",
             "feedback": "Yes. Psalm 23 is the chapter.",
             "hint": "The number before the colon is the chapter."
           },
@@ -920,11 +920,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "title": "Verse Number",
             "prompt": "In Romans 8:28, what does 28 name?",
             "choices": [
-              "the verse",
-              "the book",
-              "the chapter"
+              "the verse number",
+              "the chapter number",
+              "the book order in the New Testament"
             ],
-            "correctAnswer": "the verse",
+            "correctAnswer": "the verse number",
             "feedback": "Right. The number after the colon is the verse.",
             "hint": "The colon separates chapter and verse."
           },
@@ -935,8 +935,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "What does John 3:16-17 mean?",
             "choices": [
               "John chapter 3, verses 16 through 17",
-              "John chapters 3 through 17",
-              "John books 3, 16, and 17"
+              "John chapter 3, verse 16 and chapter 17",
+              "John chapters 3 through 16 and 17"
             ],
             "correctAnswer": "John chapter 3, verses 16 through 17",
             "feedback": "Correct. The dash shows a range of verses.",
@@ -950,7 +950,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "choices": [
               "the chapter",
               "the book",
-              "the testament"
+              "the Testament"
             ],
             "correctAnswer": "the chapter",
             "feedback": "Yes. You stay in Luke and move to chapter 15.",
@@ -960,7 +960,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 2: Ranges and Lists",
             "title": "True or False",
-            "prompt": "In Matthew 5:14-16, all the verses are in Matthew chapter 5.",
+            "prompt": "Matthew 5:14-16 stays in the same chapter while moving through several verses.",
             "choices": [
               "True",
               "False"
@@ -976,8 +976,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why should you sometimes read verses before and after a reference?",
             "choices": [
               "They help you understand the context",
-              "They make the reference untrue",
-              "They replace the verse you were finding"
+              "They usually change the basic meaning",
+              "They make the verse easier to memorize"
             ],
             "correctAnswer": "They help you understand the context",
             "feedback": "Right. Nearby verses help you understand the passage.",
@@ -990,8 +990,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which reference points to one exact verse?",
             "choices": [
               "Ephesians 2:10",
-              "Ephesians",
-              "New Testament"
+              "Ephesians 2",
+              "Ephesians 2:10-12"
             ],
             "correctAnswer": "Ephesians 2:10",
             "feedback": "Correct. It gives a book, chapter, and verse.",
@@ -1004,8 +1004,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A good habit when copying a Bible verse is to...",
             "choices": [
               "include the reference",
-              "hide the book name",
-              "change words that sound hard"
+              "include only the chapter number",
+              "include the reference only if someone asks"
             ],
             "correctAnswer": "include the reference",
             "feedback": "Yes. The reference helps others find the verse.",
@@ -1024,7 +1024,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "choices": [
               "book",
               "chapter",
-              "verse"
+              "section title"
             ],
             "correctAnswer": "book",
             "reviewNote": "The book name comes first."
@@ -1037,7 +1037,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "choices": [
               "chapter",
               "verse",
-              "book"
+              "book order"
             ],
             "correctAnswer": "chapter",
             "reviewNote": "The number before the colon is the chapter."
@@ -1050,7 +1050,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "choices": [
               "verse",
               "chapter",
-              "testament"
+              "book order"
             ],
             "correctAnswer": "verse",
             "reviewNote": "The number after the colon is the verse."
@@ -1062,8 +1062,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Matthew 6:9-13 means...",
             "choices": [
               "Matthew chapter 6, verses 9 through 13",
-              "Matthew chapters 6 through 13",
-              "Matthew books 6, 9, and 13"
+              "Matthew chapter 6, verse 9 and chapter 13",
+              "Matthew chapters 6 through 9 and 13"
             ],
             "correctAnswer": "Matthew chapter 6, verses 9 through 13",
             "reviewNote": "The dash shows a verse range."
@@ -1072,7 +1072,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Context",
             "skill": "Careful Reading",
             "type": "trueFalse",
-            "prompt": "Reading nearby verses can help you understand a Bible reference.",
+            "prompt": "Nearby verses can help you understand how a Bible reference fits in its passage.",
             "choices": [
               "True",
               "False"
@@ -1109,8 +1109,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A Bible genre is...",
             "choices": [
               "a kind of writing",
-              "a list of page numbers",
-              "a way to remove hard teachings"
+              "a section of either Testament",
+              "a Bible translation choice"
             ],
             "correctAnswer": "a kind of writing",
             "feedback": "Correct. Genre means the kind of writing you are reading.",
@@ -1120,7 +1120,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 1: What Genre Means",
             "title": "All Scripture",
-            "prompt": "True or False: Different Bible genres can all be true Scripture.",
+            "prompt": "Different Bible genres can all be true Scripture, even though they should be read carefully in different ways.",
             "choices": [
               "True",
               "False"
@@ -1136,8 +1136,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Knowing the genre helps you...",
             "choices": [
               "read the passage the way it was written",
-              "decide which parts of the Bible are not useful",
-              "avoid obeying Scripture"
+              "decide whether the passage counts as Scripture",
+              "make every passage work exactly the same way"
             ],
             "correctAnswer": "read the passage the way it was written",
             "feedback": "Right. Genre helps careful reading.",
@@ -1150,8 +1150,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A passage telling what happened to Israel in the wilderness is most likely...",
             "choices": [
               "history",
-              "a New Testament letter",
-              "a proverb"
+              "law",
+              "poetry"
             ],
             "correctAnswer": "history",
             "feedback": "Correct. It tells real events in time.",
@@ -1164,8 +1164,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A Psalm that uses picture language like a shepherd and sheep is...",
             "choices": [
               "poetry",
-              "a census list",
-              "a church letter"
+              "a parable",
+              "a historical report"
             ],
             "correctAnswer": "poetry",
             "feedback": "Yes. Psalms often use poetry and picture language.",
@@ -1179,7 +1179,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "choices": [
               "letters",
               "Gospels",
-              "Old Testament law books"
+              "wisdom poems"
             ],
             "correctAnswer": "letters",
             "feedback": "Correct. They are letters written to teach believers.",
@@ -1192,8 +1192,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A proverb usually gives...",
             "choices": [
               "wise teaching for life",
-              "a full biography",
-              "a travel map"
+              "a promise that works the same way in every situation",
+              "a full history of one person's life"
             ],
             "correctAnswer": "wise teaching for life",
             "feedback": "Right. Proverbs give wise sayings for life with God.",
@@ -1206,8 +1206,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Prophets often...",
             "choices": [
               "called people back to God and gave hope in His promises",
-              "made God's commands less serious",
-              "spoke only about farming tips"
+              "gave personal advice apart from God's covenant",
+              "mainly explained how temple music should sound"
             ],
             "correctAnswer": "called people back to God and gave hope in His promises",
             "feedback": "Yes. Prophets warned, corrected, and gave hope from God.",
@@ -1220,8 +1220,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The Gospels should be read as...",
             "choices": [
               "true accounts of Jesus' life, death, and resurrection",
-              "made-up stories with no real events",
-              "letters written before Moses"
+              "letters explaining problems in early churches",
+              "wisdom poems about daily choices"
             ],
             "correctAnswer": "true accounts of Jesus' life, death, and resurrection",
             "feedback": "Correct. The Gospels tell the good news of Jesus.",
@@ -1239,8 +1239,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A Bible genre is...",
             "choices": [
               "a kind of writing",
-              "a chapter number",
-              "a way to avoid context"
+              "a section of either Testament",
+              "a Bible translation choice"
             ],
             "correctAnswer": "a kind of writing",
             "reviewNote": "Genre means kind of writing."
@@ -1249,7 +1249,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Genre Basics",
             "skill": "Truth",
             "type": "trueFalse",
-            "prompt": "Poetry, history, law, prophecy, Gospels, and letters can all be true Scripture.",
+            "prompt": "A Psalm and a Gospel can both be true Scripture even though they are different kinds of writing.",
             "choices": [
               "True",
               "False"
@@ -1264,8 +1264,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Many Psalms are best described as...",
             "choices": [
               "poetry and prayer",
-              "New Testament letters",
-              "maps"
+              "law and covenant commands",
+              "letters to churches"
             ],
             "correctAnswer": "poetry and prayer",
             "reviewNote": "Psalms include poetry, prayer, praise, and lament."
@@ -1290,8 +1290,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Knowing a genre helps readers...",
             "choices": [
               "read carefully",
-              "change God's Word",
-              "ignore the passage"
+              "skip context",
+              "change the meaning"
             ],
             "correctAnswer": "read carefully",
             "reviewNote": "Genre helps us understand how a passage is written."
@@ -1325,8 +1325,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A good reason to memorize Scripture is to...",
             "choices": [
               "remember God's truth and obey Him",
-              "earn God's love by perfect scores",
-              "avoid reading whole passages"
+              "be able to quote verses without understanding them",
+              "replace reading the Bible in context"
             ],
             "correctAnswer": "remember God's truth and obey Him",
             "feedback": "Correct. Memory helps us keep God's Word in mind.",
@@ -1336,7 +1336,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 1: Why Memorize",
             "title": "Not Magic",
-            "prompt": "True or False: Saying a Bible verse is not magic; God's Word should be understood and trusted.",
+            "prompt": "Saying Bible words without understanding them is not the same as trusting and obeying God's Word.",
             "choices": [
               "True",
               "False"
@@ -1352,8 +1352,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Memorizing Scripture should involve...",
             "choices": [
               "understanding the meaning, not only repeating sounds",
-              "changing words to make them easier",
-              "never thinking about context"
+              "keeping the words separate from their context",
+              "repeating the sounds quickly enough to finish"
             ],
             "correctAnswer": "understanding the meaning, not only repeating sounds",
             "feedback": "Right. Understanding matters.",
@@ -1366,8 +1366,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Meditating on Scripture means...",
             "choices": [
               "thinking carefully about God's Word",
-              "emptying your mind of all truth",
-              "reading as fast as possible"
+              "thinking about a verse only once",
+              "emptying your mind and ignoring meaning"
             ],
             "correctAnswer": "thinking carefully about God's Word",
             "feedback": "Correct. Biblical meditation means thoughtful attention to God's Word.",
@@ -1380,8 +1380,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A memorized verse can help when...",
             "choices": [
               "you need to remember what is true",
-              "you want to win every argument",
-              "you want to avoid kindness"
+              "you want a quick answer without thinking",
+              "you want to correct others before yourself"
             ],
             "correctAnswer": "you need to remember what is true",
             "feedback": "Yes. God's Word helps us remember truth in daily life.",
@@ -1394,8 +1394,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A helpful way to respond to a memorized verse is to...",
             "choices": [
               "pray about it and ask God for help to obey",
-              "use it to show off",
-              "refuse to think about what it means"
+              "write it down but never apply it",
+              "use it to prove you are more spiritual"
             ],
             "correctAnswer": "pray about it and ask God for help to obey",
             "feedback": "Correct. Prayer and obedience go well with Scripture memory.",
@@ -1408,8 +1408,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "When choosing a verse to memorize, it helps to...",
             "choices": [
               "know where it comes from and what it means",
-              "pick words without reading the passage",
-              "choose only verses that never challenge you"
+              "choose the shortest verse whether or not you understand it",
+              "choose one that sounds strong without reading the passage"
             ],
             "correctAnswer": "know where it comes from and what it means",
             "feedback": "Right. Context and meaning matter.",
@@ -1419,12 +1419,12 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "kind": "question",
             "level": "Level 3: Wise Practice",
             "title": "Humility",
-            "prompt": "True or False: Memorizing many verses should make a person proud and harsh.",
+            "prompt": "Memorizing many verses should lead toward humility and obedience, not pride.",
             "choices": [
               "True",
               "False"
             ],
-            "correctAnswer": "False",
+            "correctAnswer": "True",
             "feedback": "Correct. God's Word should lead us toward humility and love.",
             "hint": "Knowledge without love becomes pride."
           },
@@ -1435,8 +1435,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which is the best sign that Scripture memory is helping?",
             "choices": [
               "The student remembers God's truth and seeks to obey",
-              "The student can recite words while ignoring God",
-              "The student uses verses to avoid repentance"
+              "The student can say the verse faster than others",
+              "The student uses verses mainly to correct other people"
             ],
             "correctAnswer": "The student remembers God's truth and seeks to obey",
             "feedback": "Yes. Scripture memory should help us trust and obey God.",
@@ -1453,23 +1453,23 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "type": "multipleChoice",
             "prompt": "A good reason to memorize Scripture is to...",
             "choices": [
-              "remember and obey God's truth",
-              "earn salvation by perfect memory",
-              "replace careful Bible reading"
+              "remember God's truth and obey Him",
+              "be able to quote verses without understanding them",
+              "replace reading the Bible in context"
             ],
-            "correctAnswer": "remember and obey God's truth",
+            "correctAnswer": "remember God's truth and obey Him",
             "reviewNote": "Memory helps us remember God's Word and respond faithfully."
           },
           {
             "section": "Purpose",
             "skill": "Not Magic",
             "type": "trueFalse",
-            "prompt": "Bible memory is magic if you say the words exactly.",
+            "prompt": "Bible memory is not magic; the words should be understood, trusted, and obeyed.",
             "choices": [
               "True",
               "False"
             ],
-            "correctAnswer": "False",
+            "correctAnswer": "True",
             "reviewNote": "Scripture memory is not magic. It should be understood, trusted, and obeyed."
           },
           {
@@ -1479,8 +1479,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Biblical meditation means...",
             "choices": [
               "thinking carefully about God's Word",
-              "emptying your mind of truth",
-              "never asking questions"
+              "repeating a verse without thinking about it",
+              "letting your mind choose its own truth"
             ],
             "correctAnswer": "thinking carefully about God's Word",
             "reviewNote": "Meditation is careful attention to God's Word."
@@ -1492,8 +1492,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Why include the reference when memorizing a verse?",
             "choices": [
               "It helps you find and check the passage",
-              "It makes the verse less important",
-              "It replaces the verse"
+              "It tells you which translation is best",
+              "It proves you understand the verse"
             ],
             "correctAnswer": "It helps you find and check the passage",
             "reviewNote": "The reference helps you find the verse again."
@@ -1502,7 +1502,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Practice",
             "skill": "Humility",
             "type": "trueFalse",
-            "prompt": "Scripture memory should lead to humility, love, trust, and obedience.",
+            "prompt": "Scripture memory should shape the way a person trusts and obeys God.",
             "choices": [
               "True",
               "False"
@@ -1531,8 +1531,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Which answer best describes the Bible?",
             "choices": [
               "God's Word arranged in many books with one true story",
-              "A set of helpful thoughts with no main message",
-              "A book that matters only to ancient people"
+              "A collection of books with some shared themes but no single message",
+              "A record of religious writings that Christians respect like other old books"
             ],
             "correctAnswer": "God's Word arranged in many books with one true story",
             "reviewNote": "The Bible is God's Word, arranged as many books with one true story."
@@ -1544,8 +1544,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "The two main parts of the Bible are...",
             "choices": [
               "Old Testament and New Testament",
-              "Psalms and Maps",
-              "Prophets and Page Numbers"
+              "Law and Prophets",
+              "Gospels and Letters"
             ],
             "correctAnswer": "Old Testament and New Testament",
             "reviewNote": "The Bible is arranged into the Old and New Testaments."
@@ -1556,11 +1556,11 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "type": "multipleChoice",
             "prompt": "Who is at the center of the Bible's rescue story?",
             "choices": [
-              "Jesus Christ",
-              "Solomon",
-              "Noah"
+              "Moses, because God used him to lead Israel out of Egypt",
+              "David, because God promised a king from his family line",
+              "Jesus Christ, because God's rescue comes through Him"
             ],
-            "correctAnswer": "Jesus Christ",
+            "correctAnswer": "Jesus Christ, because God's rescue comes through Him",
             "reviewNote": "The Bible points to God's rescue through Jesus Christ."
           },
           {
@@ -1570,8 +1570,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Inspired by God means...",
             "choices": [
               "God guided human writers so Scripture is His Word",
-              "the Bible writers guessed without God's help",
-              "only poetry in the Bible came from God"
+              "God gave writers thoughts that were mostly their own ideas",
+              "God inspired only the New Testament writers"
             ],
             "correctAnswer": "God guided human writers so Scripture is His Word",
             "reviewNote": "God spoke through human authors."
@@ -1580,7 +1580,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Part B: Inspiration and Trust",
             "skill": "Authority",
             "type": "trueFalse",
-            "prompt": "Because Scripture is God's Word, it can correct what people believe and do.",
+            "prompt": "Because Scripture is God's Word, it has authority over what people believe and how they live.",
             "choices": [
               "True",
               "False"
@@ -1595,8 +1595,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "If a Bible teaching is hard to understand, a wise response is to...",
             "choices": [
               "read carefully and ask for help",
-              "decide it cannot be true",
-              "change the words to fit your opinion"
+              "choose the meaning that feels easiest",
+              "set it aside as less trustworthy"
             ],
             "correctAnswer": "read carefully and ask for help",
             "reviewNote": "Hard passages call for careful reading."
@@ -1608,8 +1608,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Genesis through Deuteronomy are often called...",
             "choices": [
               "the Law or Pentateuch",
-              "the Gospels",
-              "the New Testament letters"
+              "the History Books",
+              "the Gospels"
             ],
             "correctAnswer": "the Law or Pentateuch",
             "reviewNote": "The first five books are often called the Law or Pentateuch."
@@ -1621,7 +1621,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Matthew, Mark, Luke, and John are...",
             "choices": [
               "the four Gospels",
-              "Old Testament poetry",
+              "Old Testament history books",
               "letters to churches"
             ],
             "correctAnswer": "the four Gospels",
@@ -1631,7 +1631,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Part C: Bible Organization",
             "skill": "Acts",
             "type": "trueFalse",
-            "prompt": "Acts tells about the early church after Jesus rose from the dead.",
+            "prompt": "Acts belongs after the Gospels and tells about the early church after Jesus rose.",
             "choices": [
               "True",
               "False"
@@ -1646,8 +1646,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "Many New Testament letters were written to...",
             "choices": [
               "churches and believers",
-              "the animals in Eden",
-              "people before creation"
+              "Jewish leaders before the exile",
+              "Israel's kings before David"
             ],
             "correctAnswer": "churches and believers",
             "reviewNote": "The letters teach, correct, and encourage believers."
@@ -1660,7 +1660,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "choices": [
               "the chapter",
               "the verse",
-              "the book"
+              "the book order"
             ],
             "correctAnswer": "the chapter",
             "reviewNote": "The number before the colon is the chapter."
@@ -1672,8 +1672,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "John 3:16-17 means...",
             "choices": [
               "John chapter 3, verses 16 through 17",
-              "John chapters 3 through 17",
-              "John books 3, 16, and 17"
+              "John chapter 3, verse 16 and chapter 17",
+              "John chapters 3 through 16 and 17"
             ],
             "correctAnswer": "John chapter 3, verses 16 through 17",
             "reviewNote": "The dash shows a range of verses."
@@ -1682,7 +1682,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Part D: References and Genres",
             "skill": "Context",
             "type": "trueFalse",
-            "prompt": "Reading nearby verses can help you understand a Bible reference.",
+            "prompt": "Nearby verses can help you understand how a Bible reference fits in its passage.",
             "choices": [
               "True",
               "False"
@@ -1697,8 +1697,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A Bible genre is...",
             "choices": [
               "a kind of writing",
-              "a chapter number",
-              "a way to remove hard teachings"
+              "a section of either Testament",
+              "a Bible translation choice"
             ],
             "correctAnswer": "a kind of writing",
             "reviewNote": "Genre means kind of writing."
@@ -1710,8 +1710,8 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "prompt": "A good reason to memorize Scripture is to...",
             "choices": [
               "remember God's truth and obey Him",
-              "show off perfect scores",
-              "avoid reading the Bible carefully"
+              "be able to quote verses without understanding them",
+              "replace reading the Bible in context"
             ],
             "correctAnswer": "remember God's truth and obey Him",
             "reviewNote": "Memory helps us remember and obey God's Word."
@@ -1720,7 +1720,7 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
             "section": "Part E: Scripture Memory",
             "skill": "Meditation",
             "type": "trueFalse",
-            "prompt": "Biblical meditation means thinking carefully about God's Word.",
+            "prompt": "Biblical meditation means carefully thinking about God's Word so it shapes trust and obedience.",
             "choices": [
               "True",
               "False"
