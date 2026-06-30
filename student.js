@@ -82,6 +82,7 @@ let quizRunScore = 0;
 let quizAnswered = false;
 let quizAnswers = [];
 let activeFinalQuiz = null;
+let finalQuizDisplayChoices = [];
 let activeLearningActivity = null;
 let activeLearningActivityId = "";
 let learningStepIndex = 0;
@@ -756,13 +757,17 @@ function renderLearningChart(step) {
   `;
 }
 
-function shuffledLearningChoices(choices) {
+function shuffledChoices(choices) {
   const shuffled = [...choices];
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
     const swapIndex = Math.floor(Math.random() * (index + 1));
     [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
   }
   return shuffled;
+}
+
+function shuffledLearningChoices(choices) {
+  return shuffledChoices(choices);
 }
 
 function groupLearningLevels(steps) {
@@ -1247,6 +1252,7 @@ function startFinalQuiz() {
 
   finalQuizTitle.textContent = activeFinalQuiz.title;
   finalQuizDetails.textContent = `${activeFinalQuiz.questions.length} questions. Answer each one carefully. You will see your score after you submit.`;
+  finalQuizDisplayChoices = activeFinalQuiz.questions.map((question) => shuffledChoices(question.choices || []));
   finalQuizForm.innerHTML = `
     ${groupedFinalQuizQuestions(activeFinalQuiz.questions).map((section) => `
       <section class="final-quiz-section">
@@ -1255,7 +1261,7 @@ function startFinalQuiz() {
           <fieldset class="final-quiz-question">
             <legend>${question.originalIndex + 1}. ${window.PracticeStar.escapeHtml(question.prompt)}</legend>
             <div class="final-quiz-choices">
-              ${question.choices.map((choice, choiceIndex) => `
+              ${(finalQuizDisplayChoices[question.originalIndex] || question.choices).map((choice, choiceIndex) => `
                 <label>
                   <input type="radio" name="finalQuestion${question.originalIndex}" value="${choiceIndex}" required />
                   <span>${window.PracticeStar.escapeHtml(choice)}</span>
@@ -1288,7 +1294,8 @@ function submitFinalQuiz(event) {
   const formData = new FormData(finalQuizForm);
   const answers = activeFinalQuiz.questions.map((question, index) => {
     const selectedChoiceIndex = Number(formData.get(`finalQuestion${index}`));
-    const answer = Number.isInteger(selectedChoiceIndex) ? question.choices[selectedChoiceIndex] || "" : "";
+    const displayChoices = finalQuizDisplayChoices[index] || question.choices || [];
+    const answer = Number.isInteger(selectedChoiceIndex) ? displayChoices[selectedChoiceIndex] || "" : "";
     const isCorrect = normalizeQuizAnswer(answer) === normalizeQuizAnswer(question.correctAnswer);
     return {
       prompt: question.prompt,
@@ -1347,8 +1354,9 @@ function submitFinalQuiz(event) {
         <span class="review-mark">OK</span>
         <span><strong>Excellent work.</strong><br />You answered every question correctly.</span>
       </div>
-    `;
+  `;
   activeFinalQuiz = null;
+  finalQuizDisplayChoices = [];
   showScreen(quizResultsScreen);
 }
 
@@ -1373,7 +1381,8 @@ function showQuizQuestion() {
   quizFeedback.textContent = "Choose an answer.";
   quizFeedback.className = "feedback";
   quizNextButton.classList.remove("show");
-  quizChoices.innerHTML = question.choices
+  const displayChoices = shuffledChoices(question.choices || []);
+  quizChoices.innerHTML = displayChoices
     .map((choice) => `<button class="choice-button" type="button" data-choice="${window.PracticeStar.escapeHtml(choice)}">${window.PracticeStar.escapeHtml(choice)}</button>`)
     .join("");
 

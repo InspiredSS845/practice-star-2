@@ -2,8 +2,8 @@
   "subject": "Bible and Church History",
   "grade": 5,
   "title": "Bible and Church History - Grade 5",
-  "description": "A planned Christian Bible and Church History library. Grade 5 is organized as student-shareable multiple choice and true/false activity sets with a final quiz for each unit.",
-  "status": "shell",
+  "description": "A Christian Bible and Church History library organized as student-shareable multiple choice and true/false activity sets with a final quiz for each unit.",
+  "status": "active",
   "contentGuardrails": [
     "The Bible is true, trustworthy, inspired by God, and authoritative.",
     "God created the world and all life. Do not teach evolution or deep time as fact.",
@@ -224,7 +224,9 @@
           "status": "planned",
           "teacherOverview": "Planned final quiz with 15-18 multiple choice and true/false questions on Exodus sequence, covenant vocabulary, worship symbols, and God's rescue."
         }
-      ]
+      ],
+      "file": "units/unit-3-exodus-covenant-worship-and-the-land.json",
+      "dataFile": "unit-data/unit-3-exodus-covenant-worship-and-the-land.js"
     },
     {
       "id": "grade-5-bible-church-history-unit-4",
@@ -295,7 +297,9 @@
           "status": "planned",
           "teacherOverview": "Planned final quiz with 15-18 multiple choice and true/false questions on the kingdom timeline, prophet messages, exile and return, worship, and hope."
         }
-      ]
+      ],
+      "file": "units/unit-4-kingdom-psalms-prophets-exile-and-return.json",
+      "dataFile": "unit-data/unit-4-kingdom-psalms-prophets-exile-and-return.js"
     },
     {
       "id": "grade-5-bible-church-history-unit-5",
@@ -366,7 +370,9 @@
           "status": "planned",
           "teacherOverview": "Planned final quiz with 15-18 multiple choice and true/false questions on Jesus' person, work, miracles, teaching, cross, resurrection, ascension, and return."
         }
-      ]
+      ],
+      "file": "units/unit-5-jesus-the-promised-saviour.json",
+      "dataFile": "unit-data/unit-5-jesus-the-promised-saviour.js"
     },
     {
       "id": "grade-5-bible-church-history-unit-6",
@@ -437,7 +443,9 @@
           "status": "planned",
           "teacherOverview": "Planned final quiz with 15-18 multiple choice and true/false questions on Pentecost, apostles, early church life, persecution, mission, Paul, and early Christian witness."
         }
-      ]
+      ],
+      "file": "units/unit-6-acts-and-the-early-church.json",
+      "dataFile": "unit-data/unit-6-acts-and-the-early-church.js"
     },
     {
       "id": "grade-5-bible-church-history-unit-7",
@@ -487,7 +495,9 @@
           "status": "planned",
           "teacherOverview": "Planned final Grade 5 review with 20-25 multiple choice and true/false questions covering timeline order, key doctrine, Bible vocabulary, and early church foundations."
         }
-      ]
+      ],
+      "file": "units/unit-7-timeline-review-and-capstone-quiz.json",
+      "dataFile": "unit-data/unit-7-timeline-review-and-capstone-quiz.js"
     }
   ]
 }

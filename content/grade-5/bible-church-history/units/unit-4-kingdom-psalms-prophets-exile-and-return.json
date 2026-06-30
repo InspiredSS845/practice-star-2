@@ -1,0 +1,1644 @@
+{
+  "id": "grade-5-bible-church-history-unit-4",
+  "title": "Kingdom, Psalms, Prophets, Exile, and Return",
+  "strand": "Bible Timeline",
+  "unitGoal": "Students practise the kingdom-to-return timeline and learn how kings, psalms, prophets, exile, and return point toward Christ.",
+  "lessons": [
+    {
+      "id": "grade-5-bible-church-history-unit-4-judges-need-for-king",
+      "title": "Judges and the Need for a King",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the cycle of sin, oppression, crying out, rescue, and the need for faithful leadership.",
+      "teacherOverview": "Students practise the cycle of sin, oppression, crying out, rescue, and the need for faithful leadership.",
+      "bibleConnection": {
+        "reference": "Judges 2:6-23; Judges 21:25",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Judges and the Need for a King Mission",
+        "mission": "Show that you understand why Israel needed faithful rule under God.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: The Cycle",
+            "title": "Judges Pattern",
+            "prompt": "The book of Judges often shows a cycle of...",
+            "choices": [
+              "sin, trouble, crying out, and rescue",
+              "short-term rescue followed by lasting faithfulness",
+              "prophets, temple worship, and rebuilding"
+            ],
+            "correctAnswer": "sin, trouble, crying out, and rescue",
+            "feedback": "Correct. Israel repeatedly turned from God and needed rescue.",
+            "hint": "Israel repeatedly turned from God and needed rescue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: The Cycle",
+            "title": "False Worship",
+            "prompt": "Israel's worship of other gods showed...",
+            "choices": [
+              "unfaithfulness to the covenant Lord",
+              "a practical way to fit in with nearby cultures",
+              "a small compromise to keep peace with neighbours"
+            ],
+            "correctAnswer": "unfaithfulness to the covenant Lord",
+            "feedback": "Correct. Idolatry broke covenant faithfulness.",
+            "hint": "Idolatry broke covenant faithfulness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: The Cycle",
+            "title": "God's Mercy",
+            "prompt": "God raised up judges as acts of mercy toward His oppressed people.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The judges were imperfect rescuers, but God's mercy was real.",
+            "hint": "The judges were imperfect rescuers, but God's mercy was real."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Need for a King",
+            "title": "No King",
+            "prompt": "The repeated phrase about no king in Israel points to...",
+            "choices": [
+              "the need for faithful rule under God",
+              "strong local leaders could solve the heart problem",
+              "a time when family loyalty mattered more than covenant faithfulness"
+            ],
+            "correctAnswer": "the need for faithful rule under God",
+            "feedback": "Correct. Judges shows the disorder of doing what seems right apart from God.",
+            "hint": "Judges shows the disorder of doing what seems right apart from God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Need for a King",
+            "title": "Imperfect Rescuers",
+            "prompt": "The judges were...",
+            "choices": [
+              "real rescuers but not the final answer to sin",
+              "temporary rescuers who could change hearts",
+              "national leaders with the same role as David"
+            ],
+            "correctAnswer": "real rescuers but not the final answer to sin",
+            "feedback": "Correct. They helped Israel but could not fix the deeper problem.",
+            "hint": "They helped Israel but could not fix the deeper problem."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Looking Ahead",
+            "title": "A Better King",
+            "prompt": "Judges helps readers long for...",
+            "choices": [
+              "a righteous king who leads God's people faithfully",
+              "stable leadership without repentance",
+              "a stronger government more than a faithful king"
+            ],
+            "correctAnswer": "a righteous king who leads God's people faithfully",
+            "feedback": "Correct. The book points forward to the need for faithful kingship.",
+            "hint": "The book points forward to the need for faithful kingship."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Judges and the Need for a King Quiz",
+        "questions": [
+          {
+            "section": "Level 1: The Cycle",
+            "skill": "Judges Pattern",
+            "type": "multipleChoice",
+            "prompt": "The book of Judges often shows a cycle of...",
+            "choices": [
+              "sin, trouble, crying out, and rescue",
+              "short-term rescue followed by lasting faithfulness",
+              "prophets, temple worship, and rebuilding"
+            ],
+            "correctAnswer": "sin, trouble, crying out, and rescue",
+            "reviewNote": "Israel repeatedly turned from God and needed rescue."
+          },
+          {
+            "section": "Level 1: The Cycle",
+            "skill": "False Worship",
+            "type": "multipleChoice",
+            "prompt": "Israel's worship of other gods showed...",
+            "choices": [
+              "unfaithfulness to the covenant Lord",
+              "a practical way to fit in with nearby cultures",
+              "a small compromise to keep peace with neighbours"
+            ],
+            "correctAnswer": "unfaithfulness to the covenant Lord",
+            "reviewNote": "Idolatry broke covenant faithfulness."
+          },
+          {
+            "section": "Level 1: The Cycle",
+            "skill": "God's Mercy",
+            "type": "trueFalse",
+            "prompt": "God raised up judges as acts of mercy toward His oppressed people.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The judges were imperfect rescuers, but God's mercy was real."
+          },
+          {
+            "section": "Level 2: Need for a King",
+            "skill": "No King",
+            "type": "multipleChoice",
+            "prompt": "The repeated phrase about no king in Israel points to...",
+            "choices": [
+              "the need for faithful rule under God",
+              "strong local leaders could solve the heart problem",
+              "a time when family loyalty mattered more than covenant faithfulness"
+            ],
+            "correctAnswer": "the need for faithful rule under God",
+            "reviewNote": "Judges shows the disorder of doing what seems right apart from God."
+          },
+          {
+            "section": "Level 2: Need for a King",
+            "skill": "Imperfect Rescuers",
+            "type": "multipleChoice",
+            "prompt": "The judges were...",
+            "choices": [
+              "real rescuers but not the final answer to sin",
+              "temporary rescuers who could change hearts",
+              "national leaders with the same role as David"
+            ],
+            "correctAnswer": "real rescuers but not the final answer to sin",
+            "reviewNote": "They helped Israel but could not fix the deeper problem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-samuel-saul-david",
+      "title": "Samuel, Saul, and David",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise God's word through Samuel, Saul's disobedience, David's heart, and the covenant promise.",
+      "teacherOverview": "Students practise God's word through Samuel, Saul's disobedience, David's heart, and the covenant promise.",
+      "bibleConnection": {
+        "reference": "1 Samuel 3:1-21; 1 Samuel 15:1-23; 1 Samuel 16:1-13; 2 Samuel 7:1-17",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Samuel, Saul, and David Mission",
+        "mission": "Show that you understand why God rejected Saul and made covenant promises to David.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Samuel",
+            "title": "Hearing God's Word",
+            "prompt": "Samuel's call showed that Israel needed...",
+            "choices": [
+              "God's word faithfully heard and spoken",
+              "leaders who kept peace by softening hard messages",
+              "a prophet who spoke only when people agreed"
+            ],
+            "correctAnswer": "God's word faithfully heard and spoken",
+            "feedback": "Correct. Samuel learned to listen and speak God's word.",
+            "hint": "Samuel learned to listen and speak God's word."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Saul",
+            "title": "Saul's Failure",
+            "prompt": "Saul's failure showed that God desires...",
+            "choices": [
+              "obedience more than outward religious action",
+              "public worship that covers private rebellion",
+              "leaders who protect reputation before obedience"
+            ],
+            "correctAnswer": "obedience more than outward religious action",
+            "feedback": "Correct. Samuel told Saul that obedience is better than sacrifice.",
+            "hint": "Samuel told Saul that obedience is better than sacrifice."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Saul",
+            "title": "Obedience",
+            "prompt": "Partial obedience is not the same as faithful obedience.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Saul tried to explain disobedience as if it were worship.",
+            "hint": "Saul tried to explain disobedience as if it were worship."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: David",
+            "title": "The Heart",
+            "prompt": "When God chose David, He showed that He sees...",
+            "choices": [
+              "the heart, not only outward appearance",
+              "outward ability as the safest way to choose",
+              "appearance and experience above the heart"
+            ],
+            "correctAnswer": "the heart, not only outward appearance",
+            "feedback": "Correct. God told Samuel that He looks on the heart.",
+            "hint": "God told Samuel that He looks on the heart."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: David",
+            "title": "Covenant Promise",
+            "prompt": "God promised David...",
+            "choices": [
+              "a kingdom and throne connected to his family line",
+              "that David's family would never need correction",
+              "that a king could remove the need for repentance"
+            ],
+            "correctAnswer": "a kingdom and throne connected to his family line",
+            "feedback": "Correct. The Davidic covenant points forward to Christ.",
+            "hint": "The Davidic covenant points forward to Christ."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Repentance",
+            "title": "David's Sin and Mercy",
+            "prompt": "David was a true king, but his later sin shows...",
+            "choices": [
+              "even chosen leaders need mercy and repentance",
+              "God's promise would be carried by ordinary human strength",
+              "leaders can keep serving without honest repentance"
+            ],
+            "correctAnswer": "even chosen leaders need mercy and repentance",
+            "feedback": "Correct. David's failures do not cancel God's promise, but they show the need for a greater King.",
+            "hint": "David's failures do not cancel God's promise, but they show the need for a greater King."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Samuel, Saul, and David Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Samuel",
+            "skill": "Hearing God's Word",
+            "type": "multipleChoice",
+            "prompt": "Samuel's call showed that Israel needed...",
+            "choices": [
+              "God's word faithfully heard and spoken",
+              "leaders who kept peace by softening hard messages",
+              "a prophet who spoke only when people agreed"
+            ],
+            "correctAnswer": "God's word faithfully heard and spoken",
+            "reviewNote": "Samuel learned to listen and speak God's word."
+          },
+          {
+            "section": "Level 1: Saul",
+            "skill": "Saul's Failure",
+            "type": "multipleChoice",
+            "prompt": "Saul's failure showed that God desires...",
+            "choices": [
+              "obedience more than outward religious action",
+              "public worship that covers private rebellion",
+              "leaders who protect reputation before obedience"
+            ],
+            "correctAnswer": "obedience more than outward religious action",
+            "reviewNote": "Samuel told Saul that obedience is better than sacrifice."
+          },
+          {
+            "section": "Level 1: Saul",
+            "skill": "Obedience",
+            "type": "trueFalse",
+            "prompt": "Partial obedience is not the same as faithful obedience.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Saul tried to explain disobedience as if it were worship."
+          },
+          {
+            "section": "Level 2: David",
+            "skill": "The Heart",
+            "type": "multipleChoice",
+            "prompt": "When God chose David, He showed that He sees...",
+            "choices": [
+              "the heart, not only outward appearance",
+              "outward ability as the safest way to choose",
+              "appearance and experience above the heart"
+            ],
+            "correctAnswer": "the heart, not only outward appearance",
+            "reviewNote": "God told Samuel that He looks on the heart."
+          },
+          {
+            "section": "Level 2: David",
+            "skill": "Covenant Promise",
+            "type": "multipleChoice",
+            "prompt": "God promised David...",
+            "choices": [
+              "a kingdom and throne connected to his family line",
+              "that David's family would never need correction",
+              "that a king could remove the need for repentance"
+            ],
+            "correctAnswer": "a kingdom and throne connected to his family line",
+            "reviewNote": "The Davidic covenant points forward to Christ."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-solomon-and-the-temple",
+      "title": "Solomon and the Temple",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise wisdom, temple worship, prayer, and the danger of divided loyalty.",
+      "teacherOverview": "Students practise wisdom, temple worship, prayer, and the danger of divided loyalty.",
+      "bibleConnection": {
+        "reference": "1 Kings 3:3-14; 1 Kings 8:22-61; 1 Kings 11:1-13",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Solomon and the Temple Mission",
+        "mission": "Show that you understand Solomon's wisdom, the temple, and why divided loyalty mattered.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Wisdom",
+            "title": "Solomon's Request",
+            "prompt": "Solomon asked God especially for...",
+            "choices": [
+              "wisdom to govern God's people",
+              "success before wisdom",
+              "security without dependence on God"
+            ],
+            "correctAnswer": "wisdom to govern God's people",
+            "feedback": "Correct. Solomon asked for an understanding heart to govern well.",
+            "hint": "Solomon asked for an understanding heart to govern well."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Wisdom",
+            "title": "True Wisdom",
+            "prompt": "Biblical wisdom begins with...",
+            "choices": [
+              "reverence for the Lord",
+              "knowing enough to win arguments",
+              "having skill without the fear of the Lord"
+            ],
+            "correctAnswer": "reverence for the Lord",
+            "feedback": "Correct. Wisdom is tied to fearing and honouring the Lord.",
+            "hint": "Wisdom is tied to fearing and honouring the Lord."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Wisdom",
+            "title": "Gift",
+            "prompt": "Solomon's wisdom was a gift from God.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God gave Solomon wisdom.",
+            "hint": "God gave Solomon wisdom."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Temple",
+            "title": "Temple Purpose",
+            "prompt": "The temple was built as...",
+            "choices": [
+              "a place connected with God's name, worship, and prayer",
+              "a guarantee that worship would stay faithful",
+              "a place that made repentance less necessary"
+            ],
+            "correctAnswer": "a place connected with God's name, worship, and prayer",
+            "feedback": "Correct. Solomon prayed that God would hear His people.",
+            "hint": "Solomon prayed that God would hear His people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Temple",
+            "title": "Prayer for Nations",
+            "prompt": "Solomon's temple prayer included concern that...",
+            "choices": [
+              "foreigners would know the Lord's name",
+              "foreigners could pray only after becoming Israelites first",
+              "the temple would make the nations more important than Israel"
+            ],
+            "correctAnswer": "foreigners would know the Lord's name",
+            "feedback": "Correct. The prayer looked outward so the nations might know God.",
+            "hint": "The prayer looked outward so the nations might know God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Divided Loyalty",
+            "title": "Solomon's Fall",
+            "prompt": "Solomon's later idolatry showed the danger of...",
+            "choices": [
+              "a divided heart",
+              "wisdom without the danger of compromise",
+              "temple worship without concern for daily obedience"
+            ],
+            "correctAnswer": "a divided heart",
+            "feedback": "Correct. Solomon's heart turned away from the Lord.",
+            "hint": "Solomon's heart turned away from the Lord."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Solomon and the Temple Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Wisdom",
+            "skill": "Solomon's Request",
+            "type": "multipleChoice",
+            "prompt": "Solomon asked God especially for...",
+            "choices": [
+              "wisdom to govern God's people",
+              "success before wisdom",
+              "security without dependence on God"
+            ],
+            "correctAnswer": "wisdom to govern God's people",
+            "reviewNote": "Solomon asked for an understanding heart to govern well."
+          },
+          {
+            "section": "Level 1: Wisdom",
+            "skill": "True Wisdom",
+            "type": "multipleChoice",
+            "prompt": "Biblical wisdom begins with...",
+            "choices": [
+              "reverence for the Lord",
+              "knowing enough to win arguments",
+              "having skill without the fear of the Lord"
+            ],
+            "correctAnswer": "reverence for the Lord",
+            "reviewNote": "Wisdom is tied to fearing and honouring the Lord."
+          },
+          {
+            "section": "Level 1: Wisdom",
+            "skill": "Gift",
+            "type": "trueFalse",
+            "prompt": "Solomon's wisdom was a gift from God.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God gave Solomon wisdom."
+          },
+          {
+            "section": "Level 2: Temple",
+            "skill": "Temple Purpose",
+            "type": "multipleChoice",
+            "prompt": "The temple was built as...",
+            "choices": [
+              "a place connected with God's name, worship, and prayer",
+              "a guarantee that worship would stay faithful",
+              "a place that made repentance less necessary"
+            ],
+            "correctAnswer": "a place connected with God's name, worship, and prayer",
+            "reviewNote": "Solomon prayed that God would hear His people."
+          },
+          {
+            "section": "Level 2: Temple",
+            "skill": "Prayer for Nations",
+            "type": "multipleChoice",
+            "prompt": "Solomon's temple prayer included concern that...",
+            "choices": [
+              "foreigners would know the Lord's name",
+              "foreigners could pray only after becoming Israelites first",
+              "the temple would make the nations more important than Israel"
+            ],
+            "correctAnswer": "foreigners would know the Lord's name",
+            "reviewNote": "The prayer looked outward so the nations might know God."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-divided-kingdom",
+      "title": "The Divided Kingdom",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise the divided kingdom, idolatry, warning, and God's patience.",
+      "teacherOverview": "Students practise the divided kingdom, idolatry, warning, and God's patience.",
+      "bibleConnection": {
+        "reference": "1 Kings 12:1-33; 2 Kings 17:7-23",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "The Divided Kingdom Mission",
+        "mission": "Show that you understand why the kingdom divided and why idolatry brought warning and judgment.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Division",
+            "title": "After Solomon",
+            "prompt": "After Solomon, the kingdom divided into...",
+            "choices": [
+              "Israel in the north and Judah in the south",
+              "Judah in the north and Israel in the south",
+              "one priestly kingdom and one royal kingdom"
+            ],
+            "correctAnswer": "Israel in the north and Judah in the south",
+            "feedback": "Correct. The kingdom divided into northern Israel and southern Judah.",
+            "hint": "The kingdom divided into northern Israel and southern Judah."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Division",
+            "title": "Rehoboam's Choice",
+            "prompt": "Rehoboam's harsh answer showed...",
+            "choices": [
+              "foolish leadership that helped divide the kingdom",
+              "strong leadership that listened after deciding",
+              "firmness that served the people well"
+            ],
+            "correctAnswer": "foolish leadership that helped divide the kingdom",
+            "feedback": "Correct. Rehoboam rejected wise counsel and answered harshly.",
+            "hint": "Rehoboam rejected wise counsel and answered harshly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Idolatry",
+            "title": "Jeroboam's Calves",
+            "prompt": "Jeroboam set up golden calves because he...",
+            "choices": [
+              "feared losing control of the people",
+              "wanted convenient worship without losing control",
+              "was trying to keep worship simple for the people"
+            ],
+            "correctAnswer": "feared losing control of the people",
+            "feedback": "Correct. Jeroboam used false worship to protect his power.",
+            "hint": "Jeroboam used false worship to protect his power."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Idolatry",
+            "title": "False Worship",
+            "prompt": "Idolatry was a serious covenant sin, not a harmless worship style.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God had commanded His people to worship Him alone.",
+            "hint": "God had commanded His people to worship Him alone."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Warning",
+            "title": "God's Patience",
+            "prompt": "God sent prophets because...",
+            "choices": [
+              "He warned His people and called them back",
+              "He cared about politics but not worship",
+              "He wanted sacrifice without covenant faithfulness"
+            ],
+            "correctAnswer": "He warned His people and called them back",
+            "feedback": "Correct. The prophets showed God's patience and truth.",
+            "hint": "The prophets showed God's patience and truth."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Warning",
+            "title": "Exile Warning",
+            "prompt": "The fall of northern Israel showed that...",
+            "choices": [
+              "God's warnings about idolatry were serious",
+              "religious identity could survive without repentance",
+              "national strength could protect false worship"
+            ],
+            "correctAnswer": "God's warnings about idolatry were serious",
+            "feedback": "Correct. Judgment came after repeated warnings.",
+            "hint": "Judgment came after repeated warnings."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "The Divided Kingdom Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Division",
+            "skill": "After Solomon",
+            "type": "multipleChoice",
+            "prompt": "After Solomon, the kingdom divided into...",
+            "choices": [
+              "Israel in the north and Judah in the south",
+              "Judah in the north and Israel in the south",
+              "one priestly kingdom and one royal kingdom"
+            ],
+            "correctAnswer": "Israel in the north and Judah in the south",
+            "reviewNote": "The kingdom divided into northern Israel and southern Judah."
+          },
+          {
+            "section": "Level 1: Division",
+            "skill": "Rehoboam's Choice",
+            "type": "multipleChoice",
+            "prompt": "Rehoboam's harsh answer showed...",
+            "choices": [
+              "foolish leadership that helped divide the kingdom",
+              "strong leadership that listened after deciding",
+              "firmness that served the people well"
+            ],
+            "correctAnswer": "foolish leadership that helped divide the kingdom",
+            "reviewNote": "Rehoboam rejected wise counsel and answered harshly."
+          },
+          {
+            "section": "Level 2: Idolatry",
+            "skill": "Jeroboam's Calves",
+            "type": "multipleChoice",
+            "prompt": "Jeroboam set up golden calves because he...",
+            "choices": [
+              "feared losing control of the people",
+              "wanted convenient worship without losing control",
+              "was trying to keep worship simple for the people"
+            ],
+            "correctAnswer": "feared losing control of the people",
+            "reviewNote": "Jeroboam used false worship to protect his power."
+          },
+          {
+            "section": "Level 2: Idolatry",
+            "skill": "False Worship",
+            "type": "trueFalse",
+            "prompt": "Idolatry was a serious covenant sin, not a harmless worship style.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God had commanded His people to worship Him alone."
+          },
+          {
+            "section": "Level 3: Warning",
+            "skill": "God's Patience",
+            "type": "multipleChoice",
+            "prompt": "God sent prophets because...",
+            "choices": [
+              "He warned His people and called them back",
+              "He cared about politics but not worship",
+              "He wanted sacrifice without covenant faithfulness"
+            ],
+            "correctAnswer": "He warned His people and called them back",
+            "reviewNote": "The prophets showed God's patience and truth."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-psalms-and-worship",
+      "title": "Psalms and Worship",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise praise, lament, confession, thanksgiving, and trust in the Psalms.",
+      "teacherOverview": "Students practise praise, lament, confession, thanksgiving, and trust in the Psalms.",
+      "bibleConnection": {
+        "reference": "Psalm 1; Psalm 23; Psalm 51; Psalm 103",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Psalms and Worship Mission",
+        "mission": "Show that you understand how the Psalms teach God's people to pray, sing, confess, and trust.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Types of Psalms",
+            "title": "Praise",
+            "prompt": "A psalm of praise mainly...",
+            "choices": [
+              "honours God for who He is and what He has done",
+              "uses correct words without personal trust",
+              "keeps worship separate from real life"
+            ],
+            "correctAnswer": "honours God for who He is and what He has done",
+            "feedback": "Correct. Praise lifts attention to God's character and works.",
+            "hint": "Praise lifts attention to God's character and works."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Types of Psalms",
+            "title": "Lament",
+            "prompt": "A lament psalm helps God's people...",
+            "choices": [
+              "bring sorrow and trouble to God in faith",
+              "hide pain so worship sounds stronger",
+              "turn pain into the center of worship"
+            ],
+            "correctAnswer": "bring sorrow and trouble to God in faith",
+            "feedback": "Correct. Lament is honest prayer that still turns to God.",
+            "hint": "Lament is honest prayer that still turns to God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Confession",
+            "title": "Psalm 51",
+            "prompt": "Psalm 51 teaches confession by...",
+            "choices": [
+              "naming sin honestly before God",
+              "explaining sin until it sounds reasonable",
+              "confessing only the parts other people saw"
+            ],
+            "correctAnswer": "naming sin honestly before God",
+            "feedback": "Correct. David confesses sin and asks for mercy.",
+            "hint": "David confesses sin and asks for mercy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Confession",
+            "title": "Mercy",
+            "prompt": "The Psalms teach both honest confession and trust in God's mercy.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Biblical worship brings truth and mercy together.",
+            "hint": "Biblical worship brings truth and mercy together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Trust",
+            "title": "Psalm 23",
+            "prompt": "Psalm 23 calls the Lord a shepherd to show...",
+            "choices": [
+              "His care, guidance, and protection",
+              "that comfort is the main sign of faith",
+              "that fear disappears when faith is real"
+            ],
+            "correctAnswer": "His care, guidance, and protection",
+            "feedback": "Correct. The shepherd picture teaches God's care even in hard places.",
+            "hint": "The shepherd picture teaches God's care even in hard places."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Trust",
+            "title": "Meditation",
+            "prompt": "The Psalms train God's people to...",
+            "choices": [
+              "bring the whole heart under God's truth",
+              "use worship words without changed desires",
+              "make feelings the measure of truth"
+            ],
+            "correctAnswer": "bring the whole heart under God's truth",
+            "feedback": "Correct. The Psalms teach prayer, worship, and trust with the whole heart.",
+            "hint": "The Psalms teach prayer, worship, and trust with the whole heart."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Psalms and Worship Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Types of Psalms",
+            "skill": "Praise",
+            "type": "multipleChoice",
+            "prompt": "A psalm of praise mainly...",
+            "choices": [
+              "honours God for who He is and what He has done",
+              "uses correct words without personal trust",
+              "keeps worship separate from real life"
+            ],
+            "correctAnswer": "honours God for who He is and what He has done",
+            "reviewNote": "Praise lifts attention to God's character and works."
+          },
+          {
+            "section": "Level 1: Types of Psalms",
+            "skill": "Lament",
+            "type": "multipleChoice",
+            "prompt": "A lament psalm helps God's people...",
+            "choices": [
+              "bring sorrow and trouble to God in faith",
+              "hide pain so worship sounds stronger",
+              "turn pain into the center of worship"
+            ],
+            "correctAnswer": "bring sorrow and trouble to God in faith",
+            "reviewNote": "Lament is honest prayer that still turns to God."
+          },
+          {
+            "section": "Level 2: Confession",
+            "skill": "Psalm 51",
+            "type": "multipleChoice",
+            "prompt": "Psalm 51 teaches confession by...",
+            "choices": [
+              "naming sin honestly before God",
+              "explaining sin until it sounds reasonable",
+              "confessing only the parts other people saw"
+            ],
+            "correctAnswer": "naming sin honestly before God",
+            "reviewNote": "David confesses sin and asks for mercy."
+          },
+          {
+            "section": "Level 2: Confession",
+            "skill": "Mercy",
+            "type": "trueFalse",
+            "prompt": "The Psalms teach both honest confession and trust in God's mercy.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Biblical worship brings truth and mercy together."
+          },
+          {
+            "section": "Level 3: Trust",
+            "skill": "Psalm 23",
+            "type": "multipleChoice",
+            "prompt": "Psalm 23 calls the Lord a shepherd to show...",
+            "choices": [
+              "His care, guidance, and protection",
+              "that comfort is the main sign of faith",
+              "that fear disappears when faith is real"
+            ],
+            "correctAnswer": "His care, guidance, and protection",
+            "reviewNote": "The shepherd picture teaches God's care even in hard places."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-prophets-speak-gods-word",
+      "title": "Prophets Speak God's Word",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise prophetic warning, justice, mercy, hope, and the promised Saviour.",
+      "teacherOverview": "Students practise prophetic warning, justice, mercy, hope, and the promised Saviour.",
+      "bibleConnection": {
+        "reference": "Isaiah 1:1-20; Micah 6:6-8; Jeremiah 31:31-34; Isaiah 53:1-12",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Prophets Speak God's Word Mission",
+        "mission": "Show that you understand how prophets warned, corrected, and gave hope from God.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Prophetic Message",
+            "title": "Speaking for God",
+            "prompt": "A true prophet spoke...",
+            "choices": [
+              "God's message, not private opinion",
+              "God's word only when it sounded acceptable",
+              "religious speeches without covenant authority"
+            ],
+            "correctAnswer": "God's message, not private opinion",
+            "feedback": "Correct. Prophets spoke the word of the Lord.",
+            "hint": "Prophets spoke the word of the Lord."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Prophetic Message",
+            "title": "Warning",
+            "prompt": "Prophets often warned God's people about...",
+            "choices": [
+              "idolatry, injustice, and empty worship",
+              "strict worship forms more than heart obedience",
+              "obedience that also cared about neighbours"
+            ],
+            "correctAnswer": "idolatry, injustice, and empty worship",
+            "feedback": "Correct. The prophets called people back to covenant faithfulness.",
+            "hint": "The prophets called people back to covenant faithfulness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Prophetic Message",
+            "title": "Hope",
+            "prompt": "The prophets included hope as well as warning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. They warned of judgment and also spoke God's promises.",
+            "hint": "They warned of judgment and also spoke God's promises."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Justice and Mercy",
+            "title": "Micah 6:8",
+            "prompt": "Micah 6:8 calls God's people to...",
+            "choices": [
+              "do justice, love kindness, and walk humbly with God",
+              "do justice without humbly walking with God",
+              "love mercy while treating sin lightly"
+            ],
+            "correctAnswer": "do justice, love kindness, and walk humbly with God",
+            "feedback": "Correct. God cares about worship and daily life.",
+            "hint": "God cares about worship and daily life."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Justice and Mercy",
+            "title": "New Covenant",
+            "prompt": "Jeremiah's new covenant promise pointed to...",
+            "choices": [
+              "God writing His law on hearts and forgiving sin",
+              "God lowering His commands so people could keep them",
+              "a covenant that made outward religion enough"
+            ],
+            "correctAnswer": "God writing His law on hearts and forgiving sin",
+            "feedback": "Correct. The new covenant promised inner renewal and forgiveness.",
+            "hint": "The new covenant promised inner renewal and forgiveness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Promised Saviour",
+            "title": "Suffering Servant",
+            "prompt": "Isaiah 53 points to a servant who...",
+            "choices": [
+              "suffers for the sins of others",
+              "serves without bearing guilt or sorrow",
+              "suffers only because he was weaker than his enemies"
+            ],
+            "correctAnswer": "suffers for the sins of others",
+            "feedback": "Correct. Christians see Isaiah 53 fulfilled in Jesus Christ.",
+            "hint": "Christians see Isaiah 53 fulfilled in Jesus Christ."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Prophets Speak God's Word Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Prophetic Message",
+            "skill": "Speaking for God",
+            "type": "multipleChoice",
+            "prompt": "A true prophet spoke...",
+            "choices": [
+              "God's message, not private opinion",
+              "God's word only when it sounded acceptable",
+              "religious speeches without covenant authority"
+            ],
+            "correctAnswer": "God's message, not private opinion",
+            "reviewNote": "Prophets spoke the word of the Lord."
+          },
+          {
+            "section": "Level 1: Prophetic Message",
+            "skill": "Warning",
+            "type": "multipleChoice",
+            "prompt": "Prophets often warned God's people about...",
+            "choices": [
+              "idolatry, injustice, and empty worship",
+              "strict worship forms more than heart obedience",
+              "obedience that also cared about neighbours"
+            ],
+            "correctAnswer": "idolatry, injustice, and empty worship",
+            "reviewNote": "The prophets called people back to covenant faithfulness."
+          },
+          {
+            "section": "Level 1: Prophetic Message",
+            "skill": "Hope",
+            "type": "trueFalse",
+            "prompt": "The prophets included hope as well as warning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "They warned of judgment and also spoke God's promises."
+          },
+          {
+            "section": "Level 2: Justice and Mercy",
+            "skill": "Micah 6:8",
+            "type": "multipleChoice",
+            "prompt": "Micah 6:8 calls God's people to...",
+            "choices": [
+              "do justice, love kindness, and walk humbly with God",
+              "do justice without humbly walking with God",
+              "love mercy while treating sin lightly"
+            ],
+            "correctAnswer": "do justice, love kindness, and walk humbly with God",
+            "reviewNote": "God cares about worship and daily life."
+          },
+          {
+            "section": "Level 2: Justice and Mercy",
+            "skill": "New Covenant",
+            "type": "multipleChoice",
+            "prompt": "Jeremiah's new covenant promise pointed to...",
+            "choices": [
+              "God writing His law on hearts and forgiving sin",
+              "God lowering His commands so people could keep them",
+              "a covenant that made outward religion enough"
+            ],
+            "correctAnswer": "God writing His law on hearts and forgiving sin",
+            "reviewNote": "The new covenant promised inner renewal and forgiveness."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-exile",
+      "title": "Exile",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise exile as judgment after warnings, while also seeing God's continuing promises.",
+      "teacherOverview": "Students practise exile as judgment after warnings, while also seeing God's continuing promises.",
+      "bibleConnection": {
+        "reference": "2 Kings 17:7-23; 2 Kings 25:1-21; Daniel 1:1-21",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Exile Mission",
+        "mission": "Show that you understand exile as serious judgment and not the end of God's promises.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Why Exile Came",
+            "title": "Covenant Unfaithfulness",
+            "prompt": "Exile came because God's people repeatedly...",
+            "choices": [
+              "rejected His covenant and ignored warnings",
+              "needed better strategy more than covenant faithfulness",
+              "were faithful but badly outnumbered"
+            ],
+            "correctAnswer": "rejected His covenant and ignored warnings",
+            "feedback": "Correct. Exile followed long covenant unfaithfulness and warnings.",
+            "hint": "Exile followed long covenant unfaithfulness and warnings."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Why Exile Came",
+            "title": "God's Warnings",
+            "prompt": "God's warnings through prophets showed...",
+            "choices": [
+              "patience before judgment",
+              "a warning system without real consequences",
+              "patience that did not care about repentance"
+            ],
+            "correctAnswer": "patience before judgment",
+            "feedback": "Correct. God warned His people again and again.",
+            "hint": "God warned His people again and again."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Why Exile Came",
+            "title": "Serious Judgment",
+            "prompt": "Exile showed that idolatry and injustice were serious to God.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God's judgment treated covenant sin seriously.",
+            "hint": "God's judgment treated covenant sin seriously."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: In Exile",
+            "title": "Daniel's Faithfulness",
+            "prompt": "Daniel's early story shows that God's people could...",
+            "choices": [
+              "remain faithful even away from the land",
+              "serve God only when worship was public",
+              "stay faithful by blending in quietly"
+            ],
+            "correctAnswer": "remain faithful even away from the land",
+            "feedback": "Correct. Daniel trusted God while living in Babylon.",
+            "hint": "Daniel trusted God while living in Babylon."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: In Exile",
+            "title": "God Still Rules",
+            "prompt": "Exile did not mean that...",
+            "choices": [
+              "God had lost rule over the nations",
+              "God had warned His people for many years",
+              "God was still ruling outside the land"
+            ],
+            "correctAnswer": "God had lost rule over the nations",
+            "feedback": "Correct. God still ruled even over Babylon.",
+            "hint": "God still ruled even over Babylon."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Promise Remains",
+            "title": "Hope in Exile",
+            "prompt": "Even in exile, God's people could hope because...",
+            "choices": [
+              "God's covenant promises had not failed",
+              "time away from the land would heal sin by itself",
+              "a new empire would become their true hope"
+            ],
+            "correctAnswer": "God's covenant promises had not failed",
+            "feedback": "Correct. God's promises continued even through judgment.",
+            "hint": "God's promises continued even through judgment."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Exile Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Why Exile Came",
+            "skill": "Covenant Unfaithfulness",
+            "type": "multipleChoice",
+            "prompt": "Exile came because God's people repeatedly...",
+            "choices": [
+              "rejected His covenant and ignored warnings",
+              "needed better strategy more than covenant faithfulness",
+              "were faithful but badly outnumbered"
+            ],
+            "correctAnswer": "rejected His covenant and ignored warnings",
+            "reviewNote": "Exile followed long covenant unfaithfulness and warnings."
+          },
+          {
+            "section": "Level 1: Why Exile Came",
+            "skill": "God's Warnings",
+            "type": "multipleChoice",
+            "prompt": "God's warnings through prophets showed...",
+            "choices": [
+              "patience before judgment",
+              "a warning system without real consequences",
+              "patience that did not care about repentance"
+            ],
+            "correctAnswer": "patience before judgment",
+            "reviewNote": "God warned His people again and again."
+          },
+          {
+            "section": "Level 1: Why Exile Came",
+            "skill": "Serious Judgment",
+            "type": "trueFalse",
+            "prompt": "Exile showed that idolatry and injustice were serious to God.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God's judgment treated covenant sin seriously."
+          },
+          {
+            "section": "Level 2: In Exile",
+            "skill": "Daniel's Faithfulness",
+            "type": "multipleChoice",
+            "prompt": "Daniel's early story shows that God's people could...",
+            "choices": [
+              "remain faithful even away from the land",
+              "serve God only when worship was public",
+              "stay faithful by blending in quietly"
+            ],
+            "correctAnswer": "remain faithful even away from the land",
+            "reviewNote": "Daniel trusted God while living in Babylon."
+          },
+          {
+            "section": "Level 2: In Exile",
+            "skill": "God Still Rules",
+            "type": "multipleChoice",
+            "prompt": "Exile did not mean that...",
+            "choices": [
+              "God had lost rule over the nations",
+              "God had warned His people for many years",
+              "God was still ruling outside the land"
+            ],
+            "correctAnswer": "God had lost rule over the nations",
+            "reviewNote": "God still ruled even over Babylon."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-return-and-waiting",
+      "title": "Return and Waiting",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise return from exile, rebuilding, worship restored, and waiting for Christ.",
+      "teacherOverview": "Students practise return from exile, rebuilding, worship restored, and waiting for Christ.",
+      "bibleConnection": {
+        "reference": "Ezra 1:1-4; Ezra 3:1-13; Nehemiah 2:11-20; Malachi 3:1-4",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Return and Waiting Mission",
+        "mission": "Show that you understand the return from exile and why God's people were still waiting for the promised Saviour.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Return",
+            "title": "Cyrus' Decree",
+            "prompt": "The return from exile began when God moved...",
+            "choices": [
+              "Cyrus to allow the Jews to return",
+              "a later Egyptian king to help Judah return",
+              "a new king from David's line to rebuild immediately"
+            ],
+            "correctAnswer": "Cyrus to allow the Jews to return",
+            "feedback": "Correct. God ruled even through a Persian king.",
+            "hint": "God ruled even through a Persian king."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Return",
+            "title": "Temple Rebuilt",
+            "prompt": "Rebuilding the temple showed that...",
+            "choices": [
+              "worship was being restored",
+              "the temple building itself would fix their hearts",
+              "returning home meant obedience would now be easy"
+            ],
+            "correctAnswer": "worship was being restored",
+            "feedback": "Correct. The returned people restored temple worship.",
+            "hint": "The returned people restored temple worship."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Return",
+            "title": "God's Faithfulness",
+            "prompt": "The return from exile showed God's faithfulness to His promises.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God brought His people back as He had promised.",
+            "hint": "God brought His people back as He had promised."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Rebuilding",
+            "title": "Nehemiah",
+            "prompt": "Nehemiah's rebuilding work showed...",
+            "choices": [
+              "prayer, courage, and practical leadership",
+              "planning that made prayer unnecessary",
+              "public success mattered more than faithfulness"
+            ],
+            "correctAnswer": "prayer, courage, and practical leadership",
+            "feedback": "Correct. Nehemiah prayed and worked in dependence on God.",
+            "hint": "Nehemiah prayed and worked in dependence on God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Rebuilding",
+            "title": "Opposition",
+            "prompt": "Opposition to rebuilding taught God's people to...",
+            "choices": [
+              "persevere while trusting God",
+              "wait until opponents respected their work",
+              "measure faithfulness by how safe the work felt"
+            ],
+            "correctAnswer": "persevere while trusting God",
+            "feedback": "Correct. Faithfulness often requires courage under pressure.",
+            "hint": "Faithfulness often requires courage under pressure."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Still Waiting",
+            "title": "Not the Full Ending",
+            "prompt": "After the return, God's people were still waiting for...",
+            "choices": [
+              "the promised Saviour and full restoration",
+              "political comfort as the final promise",
+              "a leader who would only restore their walls"
+            ],
+            "correctAnswer": "the promised Saviour and full restoration",
+            "feedback": "Correct. The Old Testament ends with hope still looking forward.",
+            "hint": "The Old Testament ends with hope still looking forward."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Return and Waiting Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Return",
+            "skill": "Cyrus' Decree",
+            "type": "multipleChoice",
+            "prompt": "The return from exile began when God moved...",
+            "choices": [
+              "Cyrus to allow the Jews to return",
+              "a later Egyptian king to help Judah return",
+              "a new king from David's line to rebuild immediately"
+            ],
+            "correctAnswer": "Cyrus to allow the Jews to return",
+            "reviewNote": "God ruled even through a Persian king."
+          },
+          {
+            "section": "Level 1: Return",
+            "skill": "Temple Rebuilt",
+            "type": "multipleChoice",
+            "prompt": "Rebuilding the temple showed that...",
+            "choices": [
+              "worship was being restored",
+              "the temple building itself would fix their hearts",
+              "returning home meant obedience would now be easy"
+            ],
+            "correctAnswer": "worship was being restored",
+            "reviewNote": "The returned people restored temple worship."
+          },
+          {
+            "section": "Level 1: Return",
+            "skill": "God's Faithfulness",
+            "type": "trueFalse",
+            "prompt": "The return from exile showed God's faithfulness to His promises.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God brought His people back as He had promised."
+          },
+          {
+            "section": "Level 2: Rebuilding",
+            "skill": "Nehemiah",
+            "type": "multipleChoice",
+            "prompt": "Nehemiah's rebuilding work showed...",
+            "choices": [
+              "prayer, courage, and practical leadership",
+              "planning that made prayer unnecessary",
+              "public success mattered more than faithfulness"
+            ],
+            "correctAnswer": "prayer, courage, and practical leadership",
+            "reviewNote": "Nehemiah prayed and worked in dependence on God."
+          },
+          {
+            "section": "Level 2: Rebuilding",
+            "skill": "Opposition",
+            "type": "multipleChoice",
+            "prompt": "Opposition to rebuilding taught God's people to...",
+            "choices": [
+              "persevere while trusting God",
+              "wait until opponents respected their work",
+              "measure faithfulness by how safe the work felt"
+            ],
+            "correctAnswer": "persevere while trusting God",
+            "reviewNote": "Faithfulness often requires courage under pressure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-4-final-quiz",
+      "title": "Kingdom, Psalms, Prophets, Exile, and Return Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "Students complete a scored review quiz for Kingdom, Psalms, Prophets, Exile, and Return.",
+      "teacherOverview": "Students complete a scored review quiz for Kingdom, Psalms, Prophets, Exile, and Return.",
+      "quiz": {
+        "title": "Kingdom, Psalms, Prophets, Exile, and Return: Final Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Judges and the Need for a King",
+            "skill": "Judges Pattern",
+            "type": "multipleChoice",
+            "prompt": "The book of Judges often shows a cycle of...",
+            "choices": [
+              "sin, trouble, crying out, and rescue",
+              "short-term rescue followed by lasting faithfulness",
+              "prophets, temple worship, and rebuilding"
+            ],
+            "correctAnswer": "sin, trouble, crying out, and rescue",
+            "reviewNote": "Israel repeatedly turned from God and needed rescue."
+          },
+          {
+            "section": "Judges and the Need for a King",
+            "skill": "False Worship",
+            "type": "multipleChoice",
+            "prompt": "Israel's worship of other gods showed...",
+            "choices": [
+              "unfaithfulness to the covenant Lord",
+              "a practical way to fit in with nearby cultures",
+              "a small compromise to keep peace with neighbours"
+            ],
+            "correctAnswer": "unfaithfulness to the covenant Lord",
+            "reviewNote": "Idolatry broke covenant faithfulness."
+          },
+          {
+            "section": "Judges and the Need for a King",
+            "skill": "God's Mercy",
+            "type": "trueFalse",
+            "prompt": "God raised up judges as acts of mercy toward His oppressed people.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The judges were imperfect rescuers, but God's mercy was real."
+          },
+          {
+            "section": "Samuel, Saul, and David",
+            "skill": "Hearing God's Word",
+            "type": "multipleChoice",
+            "prompt": "Samuel's call showed that Israel needed...",
+            "choices": [
+              "God's word faithfully heard and spoken",
+              "leaders who kept peace by softening hard messages",
+              "a prophet who spoke only when people agreed"
+            ],
+            "correctAnswer": "God's word faithfully heard and spoken",
+            "reviewNote": "Samuel learned to listen and speak God's word."
+          },
+          {
+            "section": "Samuel, Saul, and David",
+            "skill": "Saul's Failure",
+            "type": "multipleChoice",
+            "prompt": "Saul's failure showed that God desires...",
+            "choices": [
+              "obedience more than outward religious action",
+              "public worship that covers private rebellion",
+              "leaders who protect reputation before obedience"
+            ],
+            "correctAnswer": "obedience more than outward religious action",
+            "reviewNote": "Samuel told Saul that obedience is better than sacrifice."
+          },
+          {
+            "section": "Samuel, Saul, and David",
+            "skill": "Obedience",
+            "type": "trueFalse",
+            "prompt": "Partial obedience is not the same as faithful obedience.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Saul tried to explain disobedience as if it were worship."
+          },
+          {
+            "section": "Solomon and the Temple",
+            "skill": "Solomon's Request",
+            "type": "multipleChoice",
+            "prompt": "Solomon asked God especially for...",
+            "choices": [
+              "wisdom to govern God's people",
+              "success before wisdom",
+              "security without dependence on God"
+            ],
+            "correctAnswer": "wisdom to govern God's people",
+            "reviewNote": "Solomon asked for an understanding heart to govern well."
+          },
+          {
+            "section": "Solomon and the Temple",
+            "skill": "True Wisdom",
+            "type": "multipleChoice",
+            "prompt": "Biblical wisdom begins with...",
+            "choices": [
+              "reverence for the Lord",
+              "knowing enough to win arguments",
+              "having skill without the fear of the Lord"
+            ],
+            "correctAnswer": "reverence for the Lord",
+            "reviewNote": "Wisdom is tied to fearing and honouring the Lord."
+          },
+          {
+            "section": "Solomon and the Temple",
+            "skill": "Gift",
+            "type": "trueFalse",
+            "prompt": "Solomon's wisdom was a gift from God.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God gave Solomon wisdom."
+          },
+          {
+            "section": "The Divided Kingdom",
+            "skill": "After Solomon",
+            "type": "multipleChoice",
+            "prompt": "After Solomon, the kingdom divided into...",
+            "choices": [
+              "Israel in the north and Judah in the south",
+              "Judah in the north and Israel in the south",
+              "one priestly kingdom and one royal kingdom"
+            ],
+            "correctAnswer": "Israel in the north and Judah in the south",
+            "reviewNote": "The kingdom divided into northern Israel and southern Judah."
+          },
+          {
+            "section": "The Divided Kingdom",
+            "skill": "Rehoboam's Choice",
+            "type": "multipleChoice",
+            "prompt": "Rehoboam's harsh answer showed...",
+            "choices": [
+              "foolish leadership that helped divide the kingdom",
+              "strong leadership that listened after deciding",
+              "firmness that served the people well"
+            ],
+            "correctAnswer": "foolish leadership that helped divide the kingdom",
+            "reviewNote": "Rehoboam rejected wise counsel and answered harshly."
+          },
+          {
+            "section": "The Divided Kingdom",
+            "skill": "Jeroboam's Calves",
+            "type": "multipleChoice",
+            "prompt": "Jeroboam set up golden calves because he...",
+            "choices": [
+              "feared losing control of the people",
+              "wanted convenient worship without losing control",
+              "was trying to keep worship simple for the people"
+            ],
+            "correctAnswer": "feared losing control of the people",
+            "reviewNote": "Jeroboam used false worship to protect his power."
+          },
+          {
+            "section": "Psalms and Worship",
+            "skill": "Praise",
+            "type": "multipleChoice",
+            "prompt": "A psalm of praise mainly...",
+            "choices": [
+              "honours God for who He is and what He has done",
+              "uses correct words without personal trust",
+              "keeps worship separate from real life"
+            ],
+            "correctAnswer": "honours God for who He is and what He has done",
+            "reviewNote": "Praise lifts attention to God's character and works."
+          },
+          {
+            "section": "Psalms and Worship",
+            "skill": "Lament",
+            "type": "multipleChoice",
+            "prompt": "A lament psalm helps God's people...",
+            "choices": [
+              "bring sorrow and trouble to God in faith",
+              "hide pain so worship sounds stronger",
+              "turn pain into the center of worship"
+            ],
+            "correctAnswer": "bring sorrow and trouble to God in faith",
+            "reviewNote": "Lament is honest prayer that still turns to God."
+          },
+          {
+            "section": "Psalms and Worship",
+            "skill": "Psalm 51",
+            "type": "multipleChoice",
+            "prompt": "Psalm 51 teaches confession by...",
+            "choices": [
+              "naming sin honestly before God",
+              "explaining sin until it sounds reasonable",
+              "confessing only the parts other people saw"
+            ],
+            "correctAnswer": "naming sin honestly before God",
+            "reviewNote": "David confesses sin and asks for mercy."
+          },
+          {
+            "section": "Prophets Speak God's Word",
+            "skill": "Speaking for God",
+            "type": "multipleChoice",
+            "prompt": "A true prophet spoke...",
+            "choices": [
+              "God's message, not private opinion",
+              "God's word only when it sounded acceptable",
+              "religious speeches without covenant authority"
+            ],
+            "correctAnswer": "God's message, not private opinion",
+            "reviewNote": "Prophets spoke the word of the Lord."
+          },
+          {
+            "section": "Prophets Speak God's Word",
+            "skill": "Warning",
+            "type": "multipleChoice",
+            "prompt": "Prophets often warned God's people about...",
+            "choices": [
+              "idolatry, injustice, and empty worship",
+              "strict worship forms more than heart obedience",
+              "obedience that also cared about neighbours"
+            ],
+            "correctAnswer": "idolatry, injustice, and empty worship",
+            "reviewNote": "The prophets called people back to covenant faithfulness."
+          },
+          {
+            "section": "Prophets Speak God's Word",
+            "skill": "Hope",
+            "type": "trueFalse",
+            "prompt": "The prophets included hope as well as warning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "They warned of judgment and also spoke God's promises."
+          }
+        ]
+      }
+    }
+  ]
+}

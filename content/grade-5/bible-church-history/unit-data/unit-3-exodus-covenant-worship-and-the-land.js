@@ -1,0 +1,1655 @@
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent.grade5BibleChurchHistory || { subject: "Bible and Church History", grade: 5, units: [] };
+(function () {
+  var unit = {
+  "id": "grade-5-bible-church-history-unit-3",
+  "title": "Exodus, Covenant, Worship, and the Land",
+  "strand": "Bible Timeline",
+  "unitGoal": "Students practise how God rescued Israel, gave His law, taught worship, and brought His people toward the promised land.",
+  "lessons": [
+    {
+      "id": "grade-5-bible-church-history-unit-3-israel-in-egypt",
+      "title": "Israel in Egypt",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Israel's suffering in Egypt, God's covenant memory, and His care for His people.",
+      "teacherOverview": "Students practise Israel's suffering in Egypt, God's covenant memory, and His care for His people.",
+      "bibleConnection": {
+        "reference": "Exodus 1:1-22; Exodus 2:23-25",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Israel in Egypt Mission",
+        "mission": "Show that you understand why Israel needed rescue and how God remembered His covenant promises.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Slavery and Promise",
+            "title": "Israel's Growth",
+            "prompt": "In Egypt, the family of Jacob became...",
+            "choices": [
+              "a large people whom Pharaoh feared",
+              "a growing people with no land of their own yet",
+              "a settled people accepted as equal partners in Egypt"
+            ],
+            "correctAnswer": "a large people whom Pharaoh feared",
+            "feedback": "Correct. God had multiplied Abraham's family, and Pharaoh saw them as a threat.",
+            "hint": "God had multiplied Abraham's family, and Pharaoh saw them as a threat."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Slavery and Promise",
+            "title": "Pharaoh's Fear",
+            "prompt": "Pharaoh's harsh treatment of Israel showed...",
+            "choices": [
+              "fearful control and oppression",
+              "strict leadership meant to preserve order",
+              "concern that Israel would forget God's promises"
+            ],
+            "correctAnswer": "fearful control and oppression",
+            "feedback": "Correct. Pharaoh tried to control Israel through slavery and cruelty.",
+            "hint": "Pharaoh tried to control Israel through slavery and cruelty."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Slavery and Promise",
+            "title": "God Remembered",
+            "prompt": "God remembered His covenant with Abraham, Isaac, and Jacob.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God's remembering means He acted faithfully on His covenant promises.",
+            "hint": "God's remembering means He acted faithfully on His covenant promises."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Crying Out",
+            "title": "Israel's Cry",
+            "prompt": "When Israel cried out under slavery, God...",
+            "choices": [
+              "heard, saw, knew, and remembered His covenant",
+              "waited until Israel became strong enough to leave",
+              "treated their suffering as only a political problem"
+            ],
+            "correctAnswer": "heard, saw, knew, and remembered His covenant",
+            "feedback": "Correct. Exodus uses strong words to show God's personal care.",
+            "hint": "Exodus uses strong words to show God's personal care."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Crying Out",
+            "title": "Covenant Hope",
+            "prompt": "Israel's hope rested mostly on...",
+            "choices": [
+              "God's faithfulness to His promises",
+              "their ability to persuade Pharaoh",
+              "Pharaoh's sense of justice"
+            ],
+            "correctAnswer": "God's faithfulness to His promises",
+            "feedback": "Correct. The rescue begins with God's covenant faithfulness.",
+            "hint": "The rescue begins with God's covenant faithfulness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: God's Care",
+            "title": "Hard Providence",
+            "prompt": "Israel's suffering in Egypt teaches that...",
+            "choices": [
+              "God can be faithful even before rescue is visible",
+              "God's promises should be judged only by visible change",
+              "waiting means God's covenant has been paused"
+            ],
+            "correctAnswer": "God can be faithful even before rescue is visible",
+            "feedback": "Correct. The story shows God's care even while His people wait for rescue.",
+            "hint": "The story shows God's care even while His people wait for rescue."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Israel in Egypt Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Slavery and Promise",
+            "skill": "Israel's Growth",
+            "type": "multipleChoice",
+            "prompt": "In Egypt, the family of Jacob became...",
+            "choices": [
+              "a large people whom Pharaoh feared",
+              "a growing people with no land of their own yet",
+              "a settled people accepted as equal partners in Egypt"
+            ],
+            "correctAnswer": "a large people whom Pharaoh feared",
+            "reviewNote": "God had multiplied Abraham's family, and Pharaoh saw them as a threat."
+          },
+          {
+            "section": "Level 1: Slavery and Promise",
+            "skill": "Pharaoh's Fear",
+            "type": "multipleChoice",
+            "prompt": "Pharaoh's harsh treatment of Israel showed...",
+            "choices": [
+              "fearful control and oppression",
+              "strict leadership meant to preserve order",
+              "concern that Israel would forget God's promises"
+            ],
+            "correctAnswer": "fearful control and oppression",
+            "reviewNote": "Pharaoh tried to control Israel through slavery and cruelty."
+          },
+          {
+            "section": "Level 1: Slavery and Promise",
+            "skill": "God Remembered",
+            "type": "trueFalse",
+            "prompt": "God remembered His covenant with Abraham, Isaac, and Jacob.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God's remembering means He acted faithfully on His covenant promises."
+          },
+          {
+            "section": "Level 2: Crying Out",
+            "skill": "Israel's Cry",
+            "type": "multipleChoice",
+            "prompt": "When Israel cried out under slavery, God...",
+            "choices": [
+              "heard, saw, knew, and remembered His covenant",
+              "waited until Israel became strong enough to leave",
+              "treated their suffering as only a political problem"
+            ],
+            "correctAnswer": "heard, saw, knew, and remembered His covenant",
+            "reviewNote": "Exodus uses strong words to show God's personal care."
+          },
+          {
+            "section": "Level 2: Crying Out",
+            "skill": "Covenant Hope",
+            "type": "multipleChoice",
+            "prompt": "Israel's hope rested mostly on...",
+            "choices": [
+              "God's faithfulness to His promises",
+              "their ability to persuade Pharaoh",
+              "Pharaoh's sense of justice"
+            ],
+            "correctAnswer": "God's faithfulness to His promises",
+            "reviewNote": "The rescue begins with God's covenant faithfulness."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-moses-and-gods-call",
+      "title": "Moses and God's Call",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Moses' call, God's holiness, God's name, and obedience despite weakness.",
+      "teacherOverview": "Students practise Moses' call, God's holiness, God's name, and obedience despite weakness.",
+      "bibleConnection": {
+        "reference": "Exodus 3:1-22; Exodus 4:1-17",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Moses and God's Call Mission",
+        "mission": "Show that you understand the burning bush, God's holy presence, and Moses' call to serve.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Holy Ground",
+            "title": "The Burning Bush",
+            "prompt": "At the burning bush, God showed Moses that...",
+            "choices": [
+              "His presence is holy",
+              "the sign mattered more than God's words",
+              "Moses had found a powerful natural sign"
+            ],
+            "correctAnswer": "His presence is holy",
+            "feedback": "Correct. God told Moses to remove his sandals because the place was holy.",
+            "hint": "God told Moses to remove his sandals because the place was holy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Holy Ground",
+            "title": "God's Name",
+            "prompt": "When God said, 'I AM WHO I AM,' He was showing...",
+            "choices": [
+              "His self-existence and faithfulness",
+              "that Moses needed a new title for God",
+              "that Pharaoh would understand God's name first"
+            ],
+            "correctAnswer": "His self-existence and faithfulness",
+            "feedback": "Correct. God's name reveals that He is the living, faithful Lord.",
+            "hint": "God's name reveals that He is the living, faithful Lord."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Holy Ground",
+            "title": "Covenant God",
+            "prompt": "God identified Himself as the God of Abraham, Isaac, and Jacob.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The call of Moses is tied to God's covenant promises.",
+            "hint": "The call of Moses is tied to God's covenant promises."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Called to Serve",
+            "title": "Moses' Hesitation",
+            "prompt": "Moses' questions and objections showed...",
+            "choices": [
+              "his weakness and fear, not a lack of God's power",
+              "that God's call depends on natural confidence",
+              "that confidence mattered more than obedience"
+            ],
+            "correctAnswer": "his weakness and fear, not a lack of God's power",
+            "feedback": "Correct. God's power, not Moses' confidence, would bring rescue.",
+            "hint": "God's power, not Moses' confidence, would bring rescue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Called to Serve",
+            "title": "God's Promise",
+            "prompt": "God promised Moses, 'I will be...'",
+            "choices": [
+              "with you",
+              "with him only after Moses felt ready",
+              "nearby but not involved in the conflict"
+            ],
+            "correctAnswer": "with you",
+            "feedback": "Correct. God's presence was Moses' greatest encouragement.",
+            "hint": "God's presence was Moses' greatest encouragement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Obedience",
+            "title": "Serving God",
+            "prompt": "A faithful response to God's call is to...",
+            "choices": [
+              "trust and obey even when we feel weak",
+              "wait until obedience feels simple",
+              "measure God's command by our confidence"
+            ],
+            "correctAnswer": "trust and obey even when we feel weak",
+            "feedback": "Correct. God calls His people to trust Him, not themselves.",
+            "hint": "God calls His people to trust Him, not themselves."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Moses and God's Call Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Holy Ground",
+            "skill": "The Burning Bush",
+            "type": "multipleChoice",
+            "prompt": "At the burning bush, God showed Moses that...",
+            "choices": [
+              "His presence is holy",
+              "the sign mattered more than God's words",
+              "Moses had found a powerful natural sign"
+            ],
+            "correctAnswer": "His presence is holy",
+            "reviewNote": "God told Moses to remove his sandals because the place was holy."
+          },
+          {
+            "section": "Level 1: Holy Ground",
+            "skill": "God's Name",
+            "type": "multipleChoice",
+            "prompt": "When God said, 'I AM WHO I AM,' He was showing...",
+            "choices": [
+              "His self-existence and faithfulness",
+              "that Moses needed a new title for God",
+              "that Pharaoh would understand God's name first"
+            ],
+            "correctAnswer": "His self-existence and faithfulness",
+            "reviewNote": "God's name reveals that He is the living, faithful Lord."
+          },
+          {
+            "section": "Level 1: Holy Ground",
+            "skill": "Covenant God",
+            "type": "trueFalse",
+            "prompt": "God identified Himself as the God of Abraham, Isaac, and Jacob.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The call of Moses is tied to God's covenant promises."
+          },
+          {
+            "section": "Level 2: Called to Serve",
+            "skill": "Moses' Hesitation",
+            "type": "multipleChoice",
+            "prompt": "Moses' questions and objections showed...",
+            "choices": [
+              "his weakness and fear, not a lack of God's power",
+              "that God's call depends on natural confidence",
+              "that confidence mattered more than obedience"
+            ],
+            "correctAnswer": "his weakness and fear, not a lack of God's power",
+            "reviewNote": "God's power, not Moses' confidence, would bring rescue."
+          },
+          {
+            "section": "Level 2: Called to Serve",
+            "skill": "God's Promise",
+            "type": "multipleChoice",
+            "prompt": "God promised Moses, 'I will be...'",
+            "choices": [
+              "with you",
+              "with him only after Moses felt ready",
+              "nearby but not involved in the conflict"
+            ],
+            "correctAnswer": "with you",
+            "reviewNote": "God's presence was Moses' greatest encouragement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-passover-and-the-exodus",
+      "title": "Passover and the Exodus",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Passover, judgment, substitution, rescue, and worship.",
+      "teacherOverview": "Students practise Passover, judgment, substitution, rescue, and worship.",
+      "bibleConnection": {
+        "reference": "Exodus 11:1-10; Exodus 12:1-42",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Passover and the Exodus Mission",
+        "mission": "Show that you understand Passover as God's judgment and God's rescue through the lamb.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Judgment",
+            "title": "Final Plague",
+            "prompt": "The final plague showed that...",
+            "choices": [
+              "God's judgment against Egypt was serious",
+              "Pharaoh could bargain with God by delaying",
+              "Egypt's grief, not God's judgment, was the main rescue"
+            ],
+            "correctAnswer": "God's judgment against Egypt was serious",
+            "feedback": "Correct. The final plague showed God's holy judgment and power.",
+            "hint": "The final plague showed God's holy judgment and power."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Judgment",
+            "title": "Pharaoh's Heart",
+            "prompt": "Pharaoh's repeated refusal showed...",
+            "choices": [
+              "hardness against God's command",
+              "a desire for order without surrendering to God",
+              "a struggle between God's word and political pressure"
+            ],
+            "correctAnswer": "hardness against God's command",
+            "feedback": "Correct. Pharaoh resisted God's command to let His people go.",
+            "hint": "Pharaoh resisted God's command to let His people go."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: The Lamb",
+            "title": "Passover Blood",
+            "prompt": "The blood on the doorposts marked homes where...",
+            "choices": [
+              "God provided rescue through the Passover lamb",
+              "Israel had a stronger claim because of family history",
+              "every household was safe if it understood the ritual"
+            ],
+            "correctAnswer": "God provided rescue through the Passover lamb",
+            "feedback": "Correct. The lamb pointed to rescue by God's appointed way.",
+            "hint": "The lamb pointed to rescue by God's appointed way."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: The Lamb",
+            "title": "Substitute",
+            "prompt": "Passover teaches rescue through God's appointed substitute.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The lamb died, and the firstborn inside the marked house was spared.",
+            "hint": "The lamb died, and the firstborn inside the marked house was spared."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Remembering",
+            "title": "Passover Meal",
+            "prompt": "God commanded Israel to remember Passover because...",
+            "choices": [
+              "rescue should lead to worship and remembrance",
+              "the meal itself rescued them apart from God's promise",
+              "remembering the meal mattered more than trusting God"
+            ],
+            "correctAnswer": "rescue should lead to worship and remembrance",
+            "feedback": "Correct. God's people were to remember His saving work.",
+            "hint": "God's people were to remember His saving work."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Remembering",
+            "title": "Exodus Rescue",
+            "prompt": "The Exodus shows that salvation belongs to...",
+            "choices": [
+              "the Lord who rescues His people",
+              "the people with the best escape plan",
+              "people who understand suffering best"
+            ],
+            "correctAnswer": "the Lord who rescues His people",
+            "feedback": "Correct. God rescued Israel by His power and mercy.",
+            "hint": "God rescued Israel by His power and mercy."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Passover and the Exodus Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Judgment",
+            "skill": "Final Plague",
+            "type": "multipleChoice",
+            "prompt": "The final plague showed that...",
+            "choices": [
+              "God's judgment against Egypt was serious",
+              "Pharaoh could bargain with God by delaying",
+              "Egypt's grief, not God's judgment, was the main rescue"
+            ],
+            "correctAnswer": "God's judgment against Egypt was serious",
+            "reviewNote": "The final plague showed God's holy judgment and power."
+          },
+          {
+            "section": "Level 1: Judgment",
+            "skill": "Pharaoh's Heart",
+            "type": "multipleChoice",
+            "prompt": "Pharaoh's repeated refusal showed...",
+            "choices": [
+              "hardness against God's command",
+              "a desire for order without surrendering to God",
+              "a struggle between God's word and political pressure"
+            ],
+            "correctAnswer": "hardness against God's command",
+            "reviewNote": "Pharaoh resisted God's command to let His people go."
+          },
+          {
+            "section": "Level 2: The Lamb",
+            "skill": "Passover Blood",
+            "type": "multipleChoice",
+            "prompt": "The blood on the doorposts marked homes where...",
+            "choices": [
+              "God provided rescue through the Passover lamb",
+              "Israel had a stronger claim because of family history",
+              "every household was safe if it understood the ritual"
+            ],
+            "correctAnswer": "God provided rescue through the Passover lamb",
+            "reviewNote": "The lamb pointed to rescue by God's appointed way."
+          },
+          {
+            "section": "Level 2: The Lamb",
+            "skill": "Substitute",
+            "type": "trueFalse",
+            "prompt": "Passover teaches rescue through God's appointed substitute.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The lamb died, and the firstborn inside the marked house was spared."
+          },
+          {
+            "section": "Level 3: Remembering",
+            "skill": "Passover Meal",
+            "type": "multipleChoice",
+            "prompt": "God commanded Israel to remember Passover because...",
+            "choices": [
+              "rescue should lead to worship and remembrance",
+              "the meal itself rescued them apart from God's promise",
+              "remembering the meal mattered more than trusting God"
+            ],
+            "correctAnswer": "rescue should lead to worship and remembrance",
+            "reviewNote": "God's people were to remember His saving work."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-red-sea-and-wilderness-care",
+      "title": "Red Sea and Wilderness Care",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise God's saving power at the Red Sea and His care in the wilderness.",
+      "teacherOverview": "Students practise God's saving power at the Red Sea and His care in the wilderness.",
+      "bibleConnection": {
+        "reference": "Exodus 14:1-31; Exodus 16:1-36; Exodus 17:1-7",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Red Sea and Wilderness Care Mission",
+        "mission": "Show that you understand God's rescue at the Red Sea and His provision in the wilderness.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Red Sea Rescue",
+            "title": "At the Sea",
+            "prompt": "When Israel was trapped at the Red Sea, God...",
+            "choices": [
+              "made a way through the sea",
+              "called Israel to negotiate before moving forward",
+              "used Egypt's fear as the main way out"
+            ],
+            "correctAnswer": "made a way through the sea",
+            "feedback": "Correct. God rescued Israel when escape looked impossible.",
+            "hint": "God rescued Israel when escape looked impossible."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Red Sea Rescue",
+            "title": "Stand Firm",
+            "prompt": "Moses told Israel to stand firm and see...",
+            "choices": [
+              "the salvation of the Lord",
+              "the strongest soldiers take control",
+              "Egypt lose interest in following them"
+            ],
+            "correctAnswer": "the salvation of the Lord",
+            "feedback": "Correct. The rescue displayed God's saving power.",
+            "hint": "The rescue displayed God's saving power."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Red Sea Rescue",
+            "title": "God's Power",
+            "prompt": "The Red Sea rescue showed God's power over Egypt and creation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God ruled over sea, wind, and armies.",
+            "hint": "God ruled over sea, wind, and armies."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Wilderness Provision",
+            "title": "Manna",
+            "prompt": "The manna taught Israel to...",
+            "choices": [
+              "depend on God's daily provision",
+              "treat daily bread as a reward for calm feelings",
+              "measure God's care by comfort alone"
+            ],
+            "correctAnswer": "depend on God's daily provision",
+            "feedback": "Correct. God gave bread from heaven and taught trust.",
+            "hint": "God gave bread from heaven and taught trust."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Wilderness Provision",
+            "title": "Water from the Rock",
+            "prompt": "When God provided water from the rock, He showed...",
+            "choices": [
+              "care for His complaining people",
+              "that frustration is the same as faithful prayer",
+              "that leadership skill mattered more than God's word"
+            ],
+            "correctAnswer": "care for His complaining people",
+            "feedback": "Correct. God provided even when Israel struggled to trust.",
+            "hint": "God provided even when Israel struggled to trust."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Testing and Trust",
+            "title": "Wilderness Lessons",
+            "prompt": "The wilderness tested whether Israel would...",
+            "choices": [
+              "trust God's word and care",
+              "obey only when the path felt secure",
+              "choose familiar comfort over covenant trust"
+            ],
+            "correctAnswer": "trust God's word and care",
+            "feedback": "Correct. God used the wilderness to teach His people trust.",
+            "hint": "God used the wilderness to teach His people trust."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Red Sea and Wilderness Care Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Red Sea Rescue",
+            "skill": "At the Sea",
+            "type": "multipleChoice",
+            "prompt": "When Israel was trapped at the Red Sea, God...",
+            "choices": [
+              "made a way through the sea",
+              "called Israel to negotiate before moving forward",
+              "used Egypt's fear as the main way out"
+            ],
+            "correctAnswer": "made a way through the sea",
+            "reviewNote": "God rescued Israel when escape looked impossible."
+          },
+          {
+            "section": "Level 1: Red Sea Rescue",
+            "skill": "Stand Firm",
+            "type": "multipleChoice",
+            "prompt": "Moses told Israel to stand firm and see...",
+            "choices": [
+              "the salvation of the Lord",
+              "the strongest soldiers take control",
+              "Egypt lose interest in following them"
+            ],
+            "correctAnswer": "the salvation of the Lord",
+            "reviewNote": "The rescue displayed God's saving power."
+          },
+          {
+            "section": "Level 1: Red Sea Rescue",
+            "skill": "God's Power",
+            "type": "trueFalse",
+            "prompt": "The Red Sea rescue showed God's power over Egypt and creation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God ruled over sea, wind, and armies."
+          },
+          {
+            "section": "Level 2: Wilderness Provision",
+            "skill": "Manna",
+            "type": "multipleChoice",
+            "prompt": "The manna taught Israel to...",
+            "choices": [
+              "depend on God's daily provision",
+              "treat daily bread as a reward for calm feelings",
+              "measure God's care by comfort alone"
+            ],
+            "correctAnswer": "depend on God's daily provision",
+            "reviewNote": "God gave bread from heaven and taught trust."
+          },
+          {
+            "section": "Level 2: Wilderness Provision",
+            "skill": "Water from the Rock",
+            "type": "multipleChoice",
+            "prompt": "When God provided water from the rock, He showed...",
+            "choices": [
+              "care for His complaining people",
+              "that frustration is the same as faithful prayer",
+              "that leadership skill mattered more than God's word"
+            ],
+            "correctAnswer": "care for His complaining people",
+            "reviewNote": "God provided even when Israel struggled to trust."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-sinai-and-ten-commandments",
+      "title": "Sinai and the Ten Commandments",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise covenant relationship, God's good law, worship, love, and obedience.",
+      "teacherOverview": "Students practise covenant relationship, God's good law, worship, love, and obedience.",
+      "bibleConnection": {
+        "reference": "Exodus 19:1-8; Exodus 20:1-17",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Sinai and the Ten Commandments Mission",
+        "mission": "Show that you understand Sinai and the Ten Commandments as God's good law for His rescued people.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Covenant at Sinai",
+            "title": "Before the Commands",
+            "prompt": "Before giving the Ten Commandments, God reminded Israel that He...",
+            "choices": [
+              "brought them out of Egypt",
+              "rescued them because their obedience was already complete",
+              "had gained authority only after the Exodus"
+            ],
+            "correctAnswer": "brought them out of Egypt",
+            "feedback": "Correct. The commands came to a people God had already rescued.",
+            "hint": "The commands came to a people God had already rescued."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Covenant at Sinai",
+            "title": "Treasured Possession",
+            "prompt": "At Sinai, God called Israel to be...",
+            "choices": [
+              "His treasured possession and holy nation",
+              "a nation known mainly for leaving Egypt",
+              "a nation kept together by laws alone"
+            ],
+            "correctAnswer": "His treasured possession and holy nation",
+            "feedback": "Correct. God set Israel apart for covenant life with Him.",
+            "hint": "God set Israel apart for covenant life with Him."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Covenant at Sinai",
+            "title": "Grace and Law",
+            "prompt": "God's law came after rescue, not as the price Israel paid to be rescued.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God rescued Israel first, then taught them how to live as His people.",
+            "hint": "God rescued Israel first, then taught them how to live as His people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God's Law",
+            "title": "First Commands",
+            "prompt": "The first commandments especially teach Israel to...",
+            "choices": [
+              "worship the Lord alone",
+              "keep God first while borrowing other worship",
+              "use images only if they help people focus"
+            ],
+            "correctAnswer": "worship the Lord alone",
+            "feedback": "Correct. God alone is worthy of worship.",
+            "hint": "God alone is worthy of worship."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: God's Law",
+            "title": "Neighbour Commands",
+            "prompt": "Commands about parents, murder, adultery, stealing, lying, and coveting show...",
+            "choices": [
+              "love for neighbour in everyday life",
+              "private family rules more than covenant commands",
+              "examples of good advice without worship"
+            ],
+            "correctAnswer": "love for neighbour in everyday life",
+            "feedback": "Correct. God's law teaches the words of the Old Testament.",
+            "hint": "God's law teaches the words of the Old Testament."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Obedience",
+            "title": "Good Law",
+            "prompt": "The Ten Commandments are good because...",
+            "choices": [
+              "they reveal God's holy character and wise design",
+              "they show how rescued people can honour God's covenant",
+              "they made obedience mainly a public checklist"
+            ],
+            "correctAnswer": "they reveal God's holy character and wise design",
+            "feedback": "Correct. God's law is holy, wise, and good.",
+            "hint": "God's law is holy, wise, and good."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Sinai and the Ten Commandments Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Covenant at Sinai",
+            "skill": "Before the Commands",
+            "type": "multipleChoice",
+            "prompt": "Before giving the Ten Commandments, God reminded Israel that He...",
+            "choices": [
+              "brought them out of Egypt",
+              "rescued them because their obedience was already complete",
+              "had gained authority only after the Exodus"
+            ],
+            "correctAnswer": "brought them out of Egypt",
+            "reviewNote": "The commands came to a people God had already rescued."
+          },
+          {
+            "section": "Level 1: Covenant at Sinai",
+            "skill": "Treasured Possession",
+            "type": "multipleChoice",
+            "prompt": "At Sinai, God called Israel to be...",
+            "choices": [
+              "His treasured possession and holy nation",
+              "a nation known mainly for leaving Egypt",
+              "a nation kept together by laws alone"
+            ],
+            "correctAnswer": "His treasured possession and holy nation",
+            "reviewNote": "God set Israel apart for covenant life with Him."
+          },
+          {
+            "section": "Level 1: Covenant at Sinai",
+            "skill": "Grace and Law",
+            "type": "trueFalse",
+            "prompt": "God's law came after rescue, not as the price Israel paid to be rescued.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God rescued Israel first, then taught them how to live as His people."
+          },
+          {
+            "section": "Level 2: God's Law",
+            "skill": "First Commands",
+            "type": "multipleChoice",
+            "prompt": "The first commandments especially teach Israel to...",
+            "choices": [
+              "worship the Lord alone",
+              "keep God first while borrowing other worship",
+              "use images only if they help people focus"
+            ],
+            "correctAnswer": "worship the Lord alone",
+            "reviewNote": "God alone is worthy of worship."
+          },
+          {
+            "section": "Level 2: God's Law",
+            "skill": "Neighbour Commands",
+            "type": "multipleChoice",
+            "prompt": "Commands about parents, murder, adultery, stealing, lying, and coveting show...",
+            "choices": [
+              "love for neighbour in everyday life",
+              "private family rules more than covenant commands",
+              "examples of good advice without worship"
+            ],
+            "correctAnswer": "love for neighbour in everyday life",
+            "reviewNote": "God's law teaches the words of the Old Testament."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-tabernacle-and-sacrifice",
+      "title": "Tabernacle and Sacrifice",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise God's presence, holiness, sin, sacrifice, cleansing, and worship.",
+      "teacherOverview": "Students practise God's presence, holiness, sin, sacrifice, cleansing, and worship.",
+      "bibleConnection": {
+        "reference": "Exodus 25:1-9; Exodus 40:34-38; Leviticus 16:1-34",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Tabernacle and Sacrifice Mission",
+        "mission": "Show that you understand why the tabernacle and sacrifices mattered for worship and forgiveness.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: God's Presence",
+            "title": "Tabernacle Purpose",
+            "prompt": "The tabernacle showed that God wanted to...",
+            "choices": [
+              "dwell among His people in a holy way",
+              "stay present only when worship felt impressive",
+              "let each family design its own worship pattern"
+            ],
+            "correctAnswer": "dwell among His people in a holy way",
+            "feedback": "Correct. God gave the tabernacle so He could dwell among His people.",
+            "hint": "God gave the tabernacle so He could dwell among His people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: God's Presence",
+            "title": "Holy God",
+            "prompt": "The tabernacle taught Israel that God's presence is...",
+            "choices": [
+              "holy and approached in His appointed way",
+              "safe to approach in any way people choose",
+              "less important than the sacrifices themselves"
+            ],
+            "correctAnswer": "holy and approached in His appointed way",
+            "feedback": "Correct. God's holiness shaped how Israel worshiped.",
+            "hint": "God's holiness shaped how Israel worshiped."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: God's Presence",
+            "title": "Glory",
+            "prompt": "God's glory filled the tabernacle after it was set up.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Exodus says the glory of the Lord filled the tabernacle.",
+            "hint": "Exodus says the glory of the Lord filled the tabernacle."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sacrifice",
+            "title": "Sin and Sacrifice",
+            "prompt": "Sacrifices taught Israel that sin requires...",
+            "choices": [
+              "atonement and cleansing",
+              "religious effort without a need for cleansing",
+              "a promise to improve without sacrifice"
+            ],
+            "correctAnswer": "atonement and cleansing",
+            "feedback": "Correct. Sacrifice taught that sin is serious and forgiveness comes God's way.",
+            "hint": "Sacrifice taught that sin is serious and forgiveness comes God's way."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sacrifice",
+            "title": "Day of Atonement",
+            "prompt": "The Day of Atonement especially pointed to...",
+            "choices": [
+              "cleansing for sin before a holy God",
+              "Israel's national unity more than sin and cleansing",
+              "one day each year when sin was not serious"
+            ],
+            "correctAnswer": "cleansing for sin before a holy God",
+            "feedback": "Correct. Leviticus 16 focused on atonement and cleansing.",
+            "hint": "Leviticus 16 focused on atonement and cleansing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Fulfillment",
+            "title": "Looking Forward",
+            "prompt": "The tabernacle and sacrifices help Christians understand...",
+            "choices": [
+              "why Jesus' perfect sacrifice matters",
+              "why later worship became less concerned with sin",
+              "why symbols matter more than the Saviour they point to"
+            ],
+            "correctAnswer": "why Jesus' perfect sacrifice matters",
+            "feedback": "Correct. The sacrificial system points ahead to Christ's once-for-all sacrifice.",
+            "hint": "The sacrificial system points ahead to Christ's once-for-all sacrifice."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Tabernacle and Sacrifice Quiz",
+        "questions": [
+          {
+            "section": "Level 1: God's Presence",
+            "skill": "Tabernacle Purpose",
+            "type": "multipleChoice",
+            "prompt": "The tabernacle showed that God wanted to...",
+            "choices": [
+              "dwell among His people in a holy way",
+              "stay present only when worship felt impressive",
+              "let each family design its own worship pattern"
+            ],
+            "correctAnswer": "dwell among His people in a holy way",
+            "reviewNote": "God gave the tabernacle so He could dwell among His people."
+          },
+          {
+            "section": "Level 1: God's Presence",
+            "skill": "Holy God",
+            "type": "multipleChoice",
+            "prompt": "The tabernacle taught Israel that God's presence is...",
+            "choices": [
+              "holy and approached in His appointed way",
+              "safe to approach in any way people choose",
+              "less important than the sacrifices themselves"
+            ],
+            "correctAnswer": "holy and approached in His appointed way",
+            "reviewNote": "God's holiness shaped how Israel worshiped."
+          },
+          {
+            "section": "Level 1: God's Presence",
+            "skill": "Glory",
+            "type": "trueFalse",
+            "prompt": "God's glory filled the tabernacle after it was set up.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Exodus says the glory of the Lord filled the tabernacle."
+          },
+          {
+            "section": "Level 2: Sacrifice",
+            "skill": "Sin and Sacrifice",
+            "type": "multipleChoice",
+            "prompt": "Sacrifices taught Israel that sin requires...",
+            "choices": [
+              "atonement and cleansing",
+              "religious effort without a need for cleansing",
+              "a promise to improve without sacrifice"
+            ],
+            "correctAnswer": "atonement and cleansing",
+            "reviewNote": "Sacrifice taught that sin is serious and forgiveness comes God's way."
+          },
+          {
+            "section": "Level 2: Sacrifice",
+            "skill": "Day of Atonement",
+            "type": "multipleChoice",
+            "prompt": "The Day of Atonement especially pointed to...",
+            "choices": [
+              "cleansing for sin before a holy God",
+              "Israel's national unity more than sin and cleansing",
+              "one day each year when sin was not serious"
+            ],
+            "correctAnswer": "cleansing for sin before a holy God",
+            "reviewNote": "Leviticus 16 focused on atonement and cleansing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-wilderness-unbelief",
+      "title": "Wilderness Unbelief",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise fear, unbelief, complaining, discipline, mercy, and faith.",
+      "teacherOverview": "Students practise fear, unbelief, complaining, discipline, mercy, and faith.",
+      "bibleConnection": {
+        "reference": "Numbers 13:1-33; Numbers 14:1-38; Deuteronomy 8:1-5",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Wilderness Unbelief Mission",
+        "mission": "Show that you understand Israel's wilderness unbelief and God's patient discipline.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Spies in the Land",
+            "title": "Two Reports",
+            "prompt": "When the spies returned, most of them focused on...",
+            "choices": [
+              "the strength of the people in the land more than God's promise",
+              "the promise without considering the danger at all",
+              "a strategy that removed the need for courage"
+            ],
+            "correctAnswer": "the strength of the people in the land more than God's promise",
+            "feedback": "Correct. Most spies feared the land's people instead of trusting God's promise.",
+            "hint": "Most spies feared the land's people instead of trusting God's promise."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spies in the Land",
+            "title": "Caleb and Joshua",
+            "prompt": "Caleb and Joshua urged Israel to...",
+            "choices": [
+              "trust the Lord and enter the land",
+              "wait until obedience required no risk",
+              "trust God only after the danger became smaller"
+            ],
+            "correctAnswer": "trust the Lord and enter the land",
+            "feedback": "Correct. They believed God was able to keep His promise.",
+            "hint": "They believed God was able to keep His promise."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spies in the Land",
+            "title": "Faith",
+            "prompt": "Faith means trusting God's promise even when obedience is hard.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Faith does not deny difficulty; it trusts God through it.",
+            "hint": "Faith does not deny difficulty; it trusts God through it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Complaining and Discipline",
+            "title": "Israel's Complaint",
+            "prompt": "Israel's complaint showed that they...",
+            "choices": [
+              "forgot God's rescue and doubted His care",
+              "were weighing risk more carefully than promise",
+              "needed more evidence before God's promise counted"
+            ],
+            "correctAnswer": "forgot God's rescue and doubted His care",
+            "feedback": "Correct. Their fear ignored God's past rescue and present promise.",
+            "hint": "Their fear ignored God's past rescue and present promise."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Complaining and Discipline",
+            "title": "Wilderness Discipline",
+            "prompt": "God's discipline in the wilderness was...",
+            "choices": [
+              "serious judgment mixed with continued mercy",
+              "a delay that changed God's final purpose",
+              "a reason to trust comfort more than promise"
+            ],
+            "correctAnswer": "serious judgment mixed with continued mercy",
+            "feedback": "Correct. God disciplined unbelief but still preserved His people.",
+            "hint": "God disciplined unbelief but still preserved His people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Learning Trust",
+            "title": "Remembering",
+            "prompt": "A faithful lesson from the wilderness is to...",
+            "choices": [
+              "remember God's past faithfulness when facing fear",
+              "treat fear as wiser than God's promise",
+              "wait for obedience to become easy before moving"
+            ],
+            "correctAnswer": "remember God's past faithfulness when facing fear",
+            "feedback": "Correct. Remembering God's works helps His people trust Him.",
+            "hint": "Remembering God's works helps His people trust Him."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Wilderness Unbelief Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Spies in the Land",
+            "skill": "Two Reports",
+            "type": "multipleChoice",
+            "prompt": "When the spies returned, most of them focused on...",
+            "choices": [
+              "the strength of the people in the land more than God's promise",
+              "the promise without considering the danger at all",
+              "a strategy that removed the need for courage"
+            ],
+            "correctAnswer": "the strength of the people in the land more than God's promise",
+            "reviewNote": "Most spies feared the land's people instead of trusting God's promise."
+          },
+          {
+            "section": "Level 1: Spies in the Land",
+            "skill": "Caleb and Joshua",
+            "type": "multipleChoice",
+            "prompt": "Caleb and Joshua urged Israel to...",
+            "choices": [
+              "trust the Lord and enter the land",
+              "wait until obedience required no risk",
+              "trust God only after the danger became smaller"
+            ],
+            "correctAnswer": "trust the Lord and enter the land",
+            "reviewNote": "They believed God was able to keep His promise."
+          },
+          {
+            "section": "Level 1: Spies in the Land",
+            "skill": "Faith",
+            "type": "trueFalse",
+            "prompt": "Faith means trusting God's promise even when obedience is hard.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Faith does not deny difficulty; it trusts God through it."
+          },
+          {
+            "section": "Level 2: Complaining and Discipline",
+            "skill": "Israel's Complaint",
+            "type": "multipleChoice",
+            "prompt": "Israel's complaint showed that they...",
+            "choices": [
+              "forgot God's rescue and doubted His care",
+              "were weighing risk more carefully than promise",
+              "needed more evidence before God's promise counted"
+            ],
+            "correctAnswer": "forgot God's rescue and doubted His care",
+            "reviewNote": "Their fear ignored God's past rescue and present promise."
+          },
+          {
+            "section": "Level 2: Complaining and Discipline",
+            "skill": "Wilderness Discipline",
+            "type": "multipleChoice",
+            "prompt": "God's discipline in the wilderness was...",
+            "choices": [
+              "serious judgment mixed with continued mercy",
+              "a delay that changed God's final purpose",
+              "a reason to trust comfort more than promise"
+            ],
+            "correctAnswer": "serious judgment mixed with continued mercy",
+            "reviewNote": "God disciplined unbelief but still preserved His people."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-entering-the-land",
+      "title": "Entering the Land",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Joshua, courage, obedience, God's presence, and faithfulness in entering the land.",
+      "teacherOverview": "Students practise Joshua, courage, obedience, God's presence, and faithfulness in entering the land.",
+      "bibleConnection": {
+        "reference": "Joshua 1:1-9; Joshua 3:1-17; Joshua 6:1-27",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Entering the Land Mission",
+        "mission": "Show that you understand how God brought Israel into the promised land by His faithfulness.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Joshua's Call",
+            "title": "Be Strong and Courageous",
+            "prompt": "God told Joshua to be strong and courageous because...",
+            "choices": [
+              "the Lord would be with him",
+              "courage could replace careful obedience",
+              "the promise removed the need for faithfulness"
+            ],
+            "correctAnswer": "the Lord would be with him",
+            "feedback": "Correct. Joshua's courage rested on God's presence.",
+            "hint": "Joshua's courage rested on God's presence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Joshua's Call",
+            "title": "Book of the Law",
+            "prompt": "Joshua was told to meditate on God's law so that he would...",
+            "choices": [
+              "walk carefully in God's ways",
+              "make military decisions without Moses' teaching",
+              "remember the law only during worship days"
+            ],
+            "correctAnswer": "walk carefully in God's ways",
+            "feedback": "Correct. Courage and obedience belonged together.",
+            "hint": "Courage and obedience belonged together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Joshua's Call",
+            "title": "God's Promise",
+            "prompt": "God promised Joshua His presence as Israel entered the land.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. God promised, 'I will be with you.'",
+            "hint": "God promised, 'I will be with you.'"
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Crossing and Conquest",
+            "title": "Jordan Crossing",
+            "prompt": "The Jordan crossing reminded Israel of...",
+            "choices": [
+              "God's power to bring His people through impossible barriers",
+              "Israel's courage more than God's presence",
+              "the Jordan River as Israel's strongest enemy"
+            ],
+            "correctAnswer": "God's power to bring His people through impossible barriers",
+            "feedback": "Correct. God made a way through the Jordan as He had at the Red Sea.",
+            "hint": "God made a way through the Jordan as He had at the Red Sea."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Crossing and Conquest",
+            "title": "Jericho",
+            "prompt": "The fall of Jericho showed that victory came by...",
+            "choices": [
+              "God's power and Israel's obedient trust",
+              "Israel's careful timing and battle skill",
+              "Joshua's leadership apart from God's command"
+            ],
+            "correctAnswer": "God's power and Israel's obedient trust",
+            "feedback": "Correct. Jericho fell according to God's command and power.",
+            "hint": "Jericho fell according to God's command and power."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Faithfulness",
+            "title": "Land Promise",
+            "prompt": "Entering the land showed that...",
+            "choices": [
+              "God kept His promise to Abraham's family",
+              "God's promise depended mainly on Israel's strength",
+              "the land was a reward for flawless obedience"
+            ],
+            "correctAnswer": "God kept His promise to Abraham's family",
+            "feedback": "Correct. God was faithful to His covenant promise.",
+            "hint": "God was faithful to His covenant promise."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Entering the Land Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Joshua's Call",
+            "skill": "Be Strong and Courageous",
+            "type": "multipleChoice",
+            "prompt": "God told Joshua to be strong and courageous because...",
+            "choices": [
+              "the Lord would be with him",
+              "courage could replace careful obedience",
+              "the promise removed the need for faithfulness"
+            ],
+            "correctAnswer": "the Lord would be with him",
+            "reviewNote": "Joshua's courage rested on God's presence."
+          },
+          {
+            "section": "Level 1: Joshua's Call",
+            "skill": "Book of the Law",
+            "type": "multipleChoice",
+            "prompt": "Joshua was told to meditate on God's law so that he would...",
+            "choices": [
+              "walk carefully in God's ways",
+              "make military decisions without Moses' teaching",
+              "remember the law only during worship days"
+            ],
+            "correctAnswer": "walk carefully in God's ways",
+            "reviewNote": "Courage and obedience belonged together."
+          },
+          {
+            "section": "Level 1: Joshua's Call",
+            "skill": "God's Promise",
+            "type": "trueFalse",
+            "prompt": "God promised Joshua His presence as Israel entered the land.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God promised, 'I will be with you.'"
+          },
+          {
+            "section": "Level 2: Crossing and Conquest",
+            "skill": "Jordan Crossing",
+            "type": "multipleChoice",
+            "prompt": "The Jordan crossing reminded Israel of...",
+            "choices": [
+              "God's power to bring His people through impossible barriers",
+              "Israel's courage more than God's presence",
+              "the Jordan River as Israel's strongest enemy"
+            ],
+            "correctAnswer": "God's power to bring His people through impossible barriers",
+            "reviewNote": "God made a way through the Jordan as He had at the Red Sea."
+          },
+          {
+            "section": "Level 2: Crossing and Conquest",
+            "skill": "Jericho",
+            "type": "multipleChoice",
+            "prompt": "The fall of Jericho showed that victory came by...",
+            "choices": [
+              "God's power and Israel's obedient trust",
+              "Israel's careful timing and battle skill",
+              "Joshua's leadership apart from God's command"
+            ],
+            "correctAnswer": "God's power and Israel's obedient trust",
+            "reviewNote": "Jericho fell according to God's command and power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-3-final-quiz",
+      "title": "Exodus, Covenant, Worship, and the Land Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "Students complete a scored review quiz for Exodus, Covenant, Worship, and the Land.",
+      "teacherOverview": "Students complete a scored review quiz for Exodus, Covenant, Worship, and the Land.",
+      "quiz": {
+        "title": "Exodus, Covenant, Worship, and the Land: Final Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Israel in Egypt",
+            "skill": "Israel's Growth",
+            "type": "multipleChoice",
+            "prompt": "In Egypt, the family of Jacob became...",
+            "choices": [
+              "a large people whom Pharaoh feared",
+              "a growing people with no land of their own yet",
+              "a settled people accepted as equal partners in Egypt"
+            ],
+            "correctAnswer": "a large people whom Pharaoh feared",
+            "reviewNote": "God had multiplied Abraham's family, and Pharaoh saw them as a threat."
+          },
+          {
+            "section": "Israel in Egypt",
+            "skill": "Pharaoh's Fear",
+            "type": "multipleChoice",
+            "prompt": "Pharaoh's harsh treatment of Israel showed...",
+            "choices": [
+              "fearful control and oppression",
+              "strict leadership meant to preserve order",
+              "concern that Israel would forget God's promises"
+            ],
+            "correctAnswer": "fearful control and oppression",
+            "reviewNote": "Pharaoh tried to control Israel through slavery and cruelty."
+          },
+          {
+            "section": "Israel in Egypt",
+            "skill": "God Remembered",
+            "type": "trueFalse",
+            "prompt": "God remembered His covenant with Abraham, Isaac, and Jacob.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God's remembering means He acted faithfully on His covenant promises."
+          },
+          {
+            "section": "Moses and God's Call",
+            "skill": "The Burning Bush",
+            "type": "multipleChoice",
+            "prompt": "At the burning bush, God showed Moses that...",
+            "choices": [
+              "His presence is holy",
+              "the sign mattered more than God's words",
+              "Moses had found a powerful natural sign"
+            ],
+            "correctAnswer": "His presence is holy",
+            "reviewNote": "God told Moses to remove his sandals because the place was holy."
+          },
+          {
+            "section": "Moses and God's Call",
+            "skill": "God's Name",
+            "type": "multipleChoice",
+            "prompt": "When God said, 'I AM WHO I AM,' He was showing...",
+            "choices": [
+              "His self-existence and faithfulness",
+              "that Moses needed a new title for God",
+              "that Pharaoh would understand God's name first"
+            ],
+            "correctAnswer": "His self-existence and faithfulness",
+            "reviewNote": "God's name reveals that He is the living, faithful Lord."
+          },
+          {
+            "section": "Moses and God's Call",
+            "skill": "Covenant God",
+            "type": "trueFalse",
+            "prompt": "God identified Himself as the God of Abraham, Isaac, and Jacob.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The call of Moses is tied to God's covenant promises."
+          },
+          {
+            "section": "Passover and the Exodus",
+            "skill": "Final Plague",
+            "type": "multipleChoice",
+            "prompt": "The final plague showed that...",
+            "choices": [
+              "God's judgment against Egypt was serious",
+              "Pharaoh could bargain with God by delaying",
+              "Egypt's grief, not God's judgment, was the main rescue"
+            ],
+            "correctAnswer": "God's judgment against Egypt was serious",
+            "reviewNote": "The final plague showed God's holy judgment and power."
+          },
+          {
+            "section": "Passover and the Exodus",
+            "skill": "Pharaoh's Heart",
+            "type": "multipleChoice",
+            "prompt": "Pharaoh's repeated refusal showed...",
+            "choices": [
+              "hardness against God's command",
+              "a desire for order without surrendering to God",
+              "a struggle between God's word and political pressure"
+            ],
+            "correctAnswer": "hardness against God's command",
+            "reviewNote": "Pharaoh resisted God's command to let His people go."
+          },
+          {
+            "section": "Passover and the Exodus",
+            "skill": "Passover Blood",
+            "type": "multipleChoice",
+            "prompt": "The blood on the doorposts marked homes where...",
+            "choices": [
+              "God provided rescue through the Passover lamb",
+              "Israel had a stronger claim because of family history",
+              "every household was safe if it understood the ritual"
+            ],
+            "correctAnswer": "God provided rescue through the Passover lamb",
+            "reviewNote": "The lamb pointed to rescue by God's appointed way."
+          },
+          {
+            "section": "Red Sea and Wilderness Care",
+            "skill": "At the Sea",
+            "type": "multipleChoice",
+            "prompt": "When Israel was trapped at the Red Sea, God...",
+            "choices": [
+              "made a way through the sea",
+              "called Israel to negotiate before moving forward",
+              "used Egypt's fear as the main way out"
+            ],
+            "correctAnswer": "made a way through the sea",
+            "reviewNote": "God rescued Israel when escape looked impossible."
+          },
+          {
+            "section": "Red Sea and Wilderness Care",
+            "skill": "Stand Firm",
+            "type": "multipleChoice",
+            "prompt": "Moses told Israel to stand firm and see...",
+            "choices": [
+              "the salvation of the Lord",
+              "the strongest soldiers take control",
+              "Egypt lose interest in following them"
+            ],
+            "correctAnswer": "the salvation of the Lord",
+            "reviewNote": "The rescue displayed God's saving power."
+          },
+          {
+            "section": "Red Sea and Wilderness Care",
+            "skill": "God's Power",
+            "type": "trueFalse",
+            "prompt": "The Red Sea rescue showed God's power over Egypt and creation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God ruled over sea, wind, and armies."
+          },
+          {
+            "section": "Sinai and the Ten Commandments",
+            "skill": "Before the Commands",
+            "type": "multipleChoice",
+            "prompt": "Before giving the Ten Commandments, God reminded Israel that He...",
+            "choices": [
+              "brought them out of Egypt",
+              "rescued them because their obedience was already complete",
+              "had gained authority only after the Exodus"
+            ],
+            "correctAnswer": "brought them out of Egypt",
+            "reviewNote": "The commands came to a people God had already rescued."
+          },
+          {
+            "section": "Sinai and the Ten Commandments",
+            "skill": "Treasured Possession",
+            "type": "multipleChoice",
+            "prompt": "At Sinai, God called Israel to be...",
+            "choices": [
+              "His treasured possession and holy nation",
+              "a nation known mainly for leaving Egypt",
+              "a nation kept together by laws alone"
+            ],
+            "correctAnswer": "His treasured possession and holy nation",
+            "reviewNote": "God set Israel apart for covenant life with Him."
+          },
+          {
+            "section": "Sinai and the Ten Commandments",
+            "skill": "Grace and Law",
+            "type": "trueFalse",
+            "prompt": "God's law came after rescue, not as the price Israel paid to be rescued.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "God rescued Israel first, then taught them how to live as His people."
+          },
+          {
+            "section": "Tabernacle and Sacrifice",
+            "skill": "Tabernacle Purpose",
+            "type": "multipleChoice",
+            "prompt": "The tabernacle showed that God wanted to...",
+            "choices": [
+              "dwell among His people in a holy way",
+              "stay present only when worship felt impressive",
+              "let each family design its own worship pattern"
+            ],
+            "correctAnswer": "dwell among His people in a holy way",
+            "reviewNote": "God gave the tabernacle so He could dwell among His people."
+          },
+          {
+            "section": "Tabernacle and Sacrifice",
+            "skill": "Holy God",
+            "type": "multipleChoice",
+            "prompt": "The tabernacle taught Israel that God's presence is...",
+            "choices": [
+              "holy and approached in His appointed way",
+              "safe to approach in any way people choose",
+              "less important than the sacrifices themselves"
+            ],
+            "correctAnswer": "holy and approached in His appointed way",
+            "reviewNote": "God's holiness shaped how Israel worshiped."
+          },
+          {
+            "section": "Tabernacle and Sacrifice",
+            "skill": "Glory",
+            "type": "trueFalse",
+            "prompt": "God's glory filled the tabernacle after it was set up.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Exodus says the glory of the Lord filled the tabernacle."
+          }
+        ]
+      }
+    }
+  ]
+};
+  var library = window.PracticeStarContent.grade5BibleChurchHistory;
+  library.units = Array.isArray(library.units) ? library.units : [];
+  var index = library.units.findIndex(function (item) { return item && item.id === unit.id; });
+  if (index >= 0) {
+    library.units[index] = unit;
+  } else {
+    library.units.push(unit);
+  }
+}());

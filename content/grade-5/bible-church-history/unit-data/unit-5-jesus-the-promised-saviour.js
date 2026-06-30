@@ -1,0 +1,1654 @@
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent.grade5BibleChurchHistory || { subject: "Bible and Church History", grade: 5, units: [] };
+(function () {
+  var unit = {
+  "id": "grade-5-bible-church-history-unit-5",
+  "title": "Jesus the Promised Saviour",
+  "strand": "Bible Timeline",
+  "unitGoal": "Students practise the Gospel timeline and learn that Jesus is the promised Saviour at the centre of the whole Bible.",
+  "lessons": [
+    {
+      "id": "grade-5-bible-church-history-unit-5-promised-saviour-arrives",
+      "title": "The Promised Saviour Arrives",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise incarnation, fulfilled promises, and Jesus' birth.",
+      "teacherOverview": "Students practise incarnation, fulfilled promises, and Jesus' birth.",
+      "bibleConnection": {
+        "reference": "Luke 1:26-38; Luke 2:1-20; John 1:1-14",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "The Promised Saviour Arrives Mission",
+        "mission": "Show that you understand Jesus' birth as God's promised rescue arriving.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Incarnation",
+            "title": "The Word Became Flesh",
+            "prompt": "John 1 teaches that the Word became flesh, meaning...",
+            "choices": [
+              "the Son of God truly became human",
+              "God revealed truth without truly entering human life",
+              "Jesus became God's Son only after His birth"
+            ],
+            "correctAnswer": "the Son of God truly became human",
+            "feedback": "Correct. The eternal Son truly took on human nature.",
+            "hint": "The eternal Son truly took on human nature."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Incarnation",
+            "title": "Virgin Birth",
+            "prompt": "Jesus' birth showed...",
+            "choices": [
+              "God's promised Saviour coming by God's power",
+              "faithful people arranging the promise by themselves",
+              "political rulers setting the timing of God's promise"
+            ],
+            "correctAnswer": "God's promised Saviour coming by God's power",
+            "feedback": "Correct. Jesus' birth was God's work and fulfilled His promises.",
+            "hint": "Jesus' birth was God's work and fulfilled His promises."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Incarnation",
+            "title": "True God and True Man",
+            "prompt": "Jesus is true God and true man.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The incarnation means the Son of God truly became human without ceasing to be God.",
+            "hint": "The incarnation means the Son of God truly became human without ceasing to be God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Fulfilled Promise",
+            "title": "Son of David",
+            "prompt": "Calling Jesus the Son of David connects Him to...",
+            "choices": [
+              "God's kingdom promise to David",
+              "a family line important mainly for national pride",
+              "a promise limited to one ancient kingdom"
+            ],
+            "correctAnswer": "God's kingdom promise to David",
+            "feedback": "Correct. Jesus fulfills the promise of the King from David's line.",
+            "hint": "Jesus fulfills the promise of the King from David's line."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Fulfilled Promise",
+            "title": "Good News",
+            "prompt": "The angels announced Jesus' birth as...",
+            "choices": [
+              "good news of great joy",
+              "good news mainly about peace in the empire",
+              "news meant only for people already considered important"
+            ],
+            "correctAnswer": "good news of great joy",
+            "feedback": "Correct. Jesus' birth is good news for God's people and beyond.",
+            "hint": "Jesus' birth is good news for God's people and beyond."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Worship",
+            "title": "Shepherds",
+            "prompt": "The shepherds' response teaches that good news should lead to...",
+            "choices": [
+              "faith, witness, and praise",
+              "quiet agreement without public praise",
+              "curiosity without changed response"
+            ],
+            "correctAnswer": "faith, witness, and praise",
+            "feedback": "Correct. They went, saw, told, and glorified God.",
+            "hint": "They went, saw, told, and glorified God."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "The Promised Saviour Arrives Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Incarnation",
+            "skill": "The Word Became Flesh",
+            "type": "multipleChoice",
+            "prompt": "John 1 teaches that the Word became flesh, meaning...",
+            "choices": [
+              "the Son of God truly became human",
+              "God revealed truth without truly entering human life",
+              "Jesus became God's Son only after His birth"
+            ],
+            "correctAnswer": "the Son of God truly became human",
+            "reviewNote": "The eternal Son truly took on human nature."
+          },
+          {
+            "section": "Level 1: Incarnation",
+            "skill": "Virgin Birth",
+            "type": "multipleChoice",
+            "prompt": "Jesus' birth showed...",
+            "choices": [
+              "God's promised Saviour coming by God's power",
+              "faithful people arranging the promise by themselves",
+              "political rulers setting the timing of God's promise"
+            ],
+            "correctAnswer": "God's promised Saviour coming by God's power",
+            "reviewNote": "Jesus' birth was God's work and fulfilled His promises."
+          },
+          {
+            "section": "Level 1: Incarnation",
+            "skill": "True God and True Man",
+            "type": "trueFalse",
+            "prompt": "Jesus is true God and true man.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The incarnation means the Son of God truly became human without ceasing to be God."
+          },
+          {
+            "section": "Level 2: Fulfilled Promise",
+            "skill": "Son of David",
+            "type": "multipleChoice",
+            "prompt": "Calling Jesus the Son of David connects Him to...",
+            "choices": [
+              "God's kingdom promise to David",
+              "a family line important mainly for national pride",
+              "a promise limited to one ancient kingdom"
+            ],
+            "correctAnswer": "God's kingdom promise to David",
+            "reviewNote": "Jesus fulfills the promise of the King from David's line."
+          },
+          {
+            "section": "Level 2: Fulfilled Promise",
+            "skill": "Good News",
+            "type": "multipleChoice",
+            "prompt": "The angels announced Jesus' birth as...",
+            "choices": [
+              "good news of great joy",
+              "good news mainly about peace in the empire",
+              "news meant only for people already considered important"
+            ],
+            "correctAnswer": "good news of great joy",
+            "reviewNote": "Jesus' birth is good news for God's people and beyond."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-jesus-announces-kingdom",
+      "title": "Jesus Announces the Kingdom",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise repentance, faith, discipleship, and the kingdom of God.",
+      "teacherOverview": "Students practise repentance, faith, discipleship, and the kingdom of God.",
+      "bibleConnection": {
+        "reference": "Mark 1:14-20; Matthew 5:1-16; Luke 4:16-21",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Jesus Announces the Kingdom Mission",
+        "mission": "Show that you understand Jesus' kingdom announcement and call to follow Him.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Kingdom Message",
+            "title": "Jesus' Announcement",
+            "prompt": "Jesus announced, 'The kingdom of God is at hand,' and called people to...",
+            "choices": [
+              "repent and believe the gospel",
+              "clean up outward habits before coming to God",
+              "support God's kingdom without repentance"
+            ],
+            "correctAnswer": "repent and believe the gospel",
+            "feedback": "Correct. Jesus called for repentance and faith.",
+            "hint": "Jesus called for repentance and faith."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Kingdom Message",
+            "title": "Repentance",
+            "prompt": "Repentance means...",
+            "choices": [
+              "turning from sin toward God",
+              "feeling sorry while keeping sin protected",
+              "changing outward habits while guarding the heart"
+            ],
+            "correctAnswer": "turning from sin toward God",
+            "feedback": "Correct. Repentance includes a real turning to God.",
+            "hint": "Repentance includes a real turning to God."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Kingdom Message",
+            "title": "Faith",
+            "prompt": "Faith means trusting Jesus, not merely knowing facts about Him.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Biblical faith includes trust.",
+            "hint": "Biblical faith includes trust."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Discipleship",
+            "title": "Follow Me",
+            "prompt": "When Jesus called disciples, He called them to...",
+            "choices": [
+              "follow Him and learn His way",
+              "add His teaching to their plans without surrender",
+              "follow Him mainly for a better public position"
+            ],
+            "correctAnswer": "follow Him and learn His way",
+            "feedback": "Correct. Disciples follow and learn from Jesus.",
+            "hint": "Disciples follow and learn from Jesus."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Discipleship",
+            "title": "Salt and Light",
+            "prompt": "Jesus called His followers salt and light to show they should...",
+            "choices": [
+              "live as witnesses under God's rule",
+              "keep faith useful but mostly private",
+              "prove worth by visible religious success"
+            ],
+            "correctAnswer": "live as witnesses under God's rule",
+            "feedback": "Correct. Disciples are to reflect God's light in the world.",
+            "hint": "Disciples are to reflect God's light in the world."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: The King",
+            "title": "Kingdom of God",
+            "prompt": "The kingdom of God means...",
+            "choices": [
+              "God's saving rule breaking into the world through Jesus",
+              "God's rule shown mostly through political control",
+              "an inner hope that does not change loyalty"
+            ],
+            "correctAnswer": "God's saving rule breaking into the world through Jesus",
+            "feedback": "Correct. Jesus brings God's saving reign.",
+            "hint": "Jesus brings God's saving reign."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Jesus Announces the Kingdom Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Kingdom Message",
+            "skill": "Jesus' Announcement",
+            "type": "multipleChoice",
+            "prompt": "Jesus announced, 'The kingdom of God is at hand,' and called people to...",
+            "choices": [
+              "repent and believe the gospel",
+              "clean up outward habits before coming to God",
+              "support God's kingdom without repentance"
+            ],
+            "correctAnswer": "repent and believe the gospel",
+            "reviewNote": "Jesus called for repentance and faith."
+          },
+          {
+            "section": "Level 1: Kingdom Message",
+            "skill": "Repentance",
+            "type": "multipleChoice",
+            "prompt": "Repentance means...",
+            "choices": [
+              "turning from sin toward God",
+              "feeling sorry while keeping sin protected",
+              "changing outward habits while guarding the heart"
+            ],
+            "correctAnswer": "turning from sin toward God",
+            "reviewNote": "Repentance includes a real turning to God."
+          },
+          {
+            "section": "Level 1: Kingdom Message",
+            "skill": "Faith",
+            "type": "trueFalse",
+            "prompt": "Faith means trusting Jesus, not merely knowing facts about Him.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Biblical faith includes trust."
+          },
+          {
+            "section": "Level 2: Discipleship",
+            "skill": "Follow Me",
+            "type": "multipleChoice",
+            "prompt": "When Jesus called disciples, He called them to...",
+            "choices": [
+              "follow Him and learn His way",
+              "add His teaching to their plans without surrender",
+              "follow Him mainly for a better public position"
+            ],
+            "correctAnswer": "follow Him and learn His way",
+            "reviewNote": "Disciples follow and learn from Jesus."
+          },
+          {
+            "section": "Level 2: Discipleship",
+            "skill": "Salt and Light",
+            "type": "multipleChoice",
+            "prompt": "Jesus called His followers salt and light to show they should...",
+            "choices": [
+              "live as witnesses under God's rule",
+              "keep faith useful but mostly private",
+              "prove worth by visible religious success"
+            ],
+            "correctAnswer": "live as witnesses under God's rule",
+            "reviewNote": "Disciples are to reflect God's light in the world."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-miracles-show-who-jesus-is",
+      "title": "Miracles Show Who Jesus Is",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Jesus' authority over sickness, storms, evil, death, and creation.",
+      "teacherOverview": "Students practise Jesus' authority over sickness, storms, evil, death, and creation.",
+      "bibleConnection": {
+        "reference": "Mark 2:1-12; Mark 4:35-41; John 11:1-44",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Miracles Show Who Jesus Is Mission",
+        "mission": "Show that you understand how Jesus' miracles reveal His identity and mission.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Authority",
+            "title": "Forgiveness and Healing",
+            "prompt": "When Jesus healed the paralytic, He also showed authority to...",
+            "choices": [
+              "forgive sins",
+              "prove His authority without confronting sin",
+              "make people admire power apart from repentance"
+            ],
+            "correctAnswer": "forgive sins",
+            "feedback": "Correct. Jesus connected the healing with His authority to forgive.",
+            "hint": "Jesus connected the healing with His authority to forgive."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Authority",
+            "title": "Storm",
+            "prompt": "When Jesus calmed the storm, the disciples wondered...",
+            "choices": [
+              "who He was, because wind and sea obeyed Him",
+              "whether nature was outside His authority",
+              "whether experienced people should guide Him first"
+            ],
+            "correctAnswer": "who He was, because wind and sea obeyed Him",
+            "feedback": "Correct. The miracle revealed Jesus' authority over creation.",
+            "hint": "The miracle revealed Jesus' authority over creation."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Authority",
+            "title": "Signs",
+            "prompt": "Jesus' miracles were signs pointing to who He is.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The miracles were not random displays; they revealed His identity.",
+            "hint": "The miracles were not random displays; they revealed His identity."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compassion",
+            "title": "Sickness and Suffering",
+            "prompt": "Jesus' healing miracles show both His power and His...",
+            "choices": [
+              "compassion toward suffering people",
+              "power without personal compassion",
+              "concern for bodies without concern for souls"
+            ],
+            "correctAnswer": "compassion toward suffering people",
+            "feedback": "Correct. Jesus' miracles show authority and mercy.",
+            "hint": "Jesus' miracles show authority and mercy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Death",
+            "title": "Lazarus",
+            "prompt": "Raising Lazarus showed that Jesus has authority over...",
+            "choices": [
+              "death",
+              "grief but not death itself",
+              "human limits that faith cannot face"
+            ],
+            "correctAnswer": "death",
+            "feedback": "Correct. Jesus called Lazarus from the tomb.",
+            "hint": "Jesus called Lazarus from the tomb."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Faith",
+            "title": "Right Response",
+            "prompt": "A right response to Jesus' miracles is to...",
+            "choices": [
+              "trust and worship Him",
+              "admire His power without trusting His teaching",
+              "receive help from Him without worshiping Him"
+            ],
+            "correctAnswer": "trust and worship Him",
+            "feedback": "Correct. The signs call people to trust Jesus.",
+            "hint": "The signs call people to trust Jesus."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Miracles Show Who Jesus Is Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Authority",
+            "skill": "Forgiveness and Healing",
+            "type": "multipleChoice",
+            "prompt": "When Jesus healed the paralytic, He also showed authority to...",
+            "choices": [
+              "forgive sins",
+              "prove His authority without confronting sin",
+              "make people admire power apart from repentance"
+            ],
+            "correctAnswer": "forgive sins",
+            "reviewNote": "Jesus connected the healing with His authority to forgive."
+          },
+          {
+            "section": "Level 1: Authority",
+            "skill": "Storm",
+            "type": "multipleChoice",
+            "prompt": "When Jesus calmed the storm, the disciples wondered...",
+            "choices": [
+              "who He was, because wind and sea obeyed Him",
+              "whether nature was outside His authority",
+              "whether experienced people should guide Him first"
+            ],
+            "correctAnswer": "who He was, because wind and sea obeyed Him",
+            "reviewNote": "The miracle revealed Jesus' authority over creation."
+          },
+          {
+            "section": "Level 1: Authority",
+            "skill": "Signs",
+            "type": "trueFalse",
+            "prompt": "Jesus' miracles were signs pointing to who He is.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The miracles were not random displays; they revealed His identity."
+          },
+          {
+            "section": "Level 2: Compassion",
+            "skill": "Sickness and Suffering",
+            "type": "multipleChoice",
+            "prompt": "Jesus' healing miracles show both His power and His...",
+            "choices": [
+              "compassion toward suffering people",
+              "power without personal compassion",
+              "concern for bodies without concern for souls"
+            ],
+            "correctAnswer": "compassion toward suffering people",
+            "reviewNote": "Jesus' miracles show authority and mercy."
+          },
+          {
+            "section": "Level 2: Death",
+            "skill": "Lazarus",
+            "type": "multipleChoice",
+            "prompt": "Raising Lazarus showed that Jesus has authority over...",
+            "choices": [
+              "death",
+              "grief but not death itself",
+              "human limits that faith cannot face"
+            ],
+            "correctAnswer": "death",
+            "reviewNote": "Jesus called Lazarus from the tomb."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-parables-teach-truth",
+      "title": "Parables Teach Truth",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise kingdom stories and heart responses to Jesus' teaching.",
+      "teacherOverview": "Students practise kingdom stories and heart responses to Jesus' teaching.",
+      "bibleConnection": {
+        "reference": "Luke 10:25-37; Luke 15:11-32; Matthew 13:1-23",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Parables Teach Truth Mission",
+        "mission": "Show that you understand how Jesus used parables to teach truth about God's kingdom.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Parables",
+            "title": "What Is a Parable?",
+            "prompt": "A parable is a story Jesus used to...",
+            "choices": [
+              "teach truth about God's kingdom and human hearts",
+              "make truth sound clever instead of clear",
+              "make stories more important than repentance"
+            ],
+            "correctAnswer": "teach truth about God's kingdom and human hearts",
+            "feedback": "Correct. Parables use story to teach deep truth.",
+            "hint": "Parables use story to teach deep truth."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Parables",
+            "title": "Listening",
+            "prompt": "Parables often reveal...",
+            "choices": [
+              "how people respond to God's word",
+              "that imagination can replace obedience",
+              "that understanding truth matters less than enjoying the story"
+            ],
+            "correctAnswer": "how people respond to God's word",
+            "feedback": "Correct. Parables often expose the heart.",
+            "hint": "Parables often expose the heart."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Parables",
+            "title": "Heart Response",
+            "prompt": "Jesus' parables call for listening, repentance, faith, and obedience.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Parables are meant to be heard and responded to.",
+            "hint": "Parables are meant to be heard and responded to."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Good Samaritan",
+            "title": "Neighbour Love",
+            "prompt": "The Good Samaritan teaches that neighbour love is...",
+            "choices": [
+              "active mercy toward the person in need",
+              "kindness only when it is socially expected",
+              "feeling sympathy without costly action"
+            ],
+            "correctAnswer": "active mercy toward the person in need",
+            "feedback": "Correct. Jesus showed mercy crossing social boundaries.",
+            "hint": "Jesus showed mercy crossing social boundaries."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Lost Son",
+            "title": "Mercy and Repentance",
+            "prompt": "The parable of the lost son shows...",
+            "choices": [
+              "repentance, mercy, and the father's welcome",
+              "forgiveness without repentance or restoration",
+              "outward obedience without a resentful heart being serious"
+            ],
+            "correctAnswer": "repentance, mercy, and the father's welcome",
+            "feedback": "Correct. The father welcomes the returning son with mercy.",
+            "hint": "The father welcomes the returning son with mercy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Sower",
+            "title": "Good Soil",
+            "prompt": "In the parable of the sower, good soil pictures...",
+            "choices": [
+              "a heart that receives the word and bears fruit",
+              "quick interest that avoids deep trust",
+              "people who understand words but protect distractions"
+            ],
+            "correctAnswer": "a heart that receives the word and bears fruit",
+            "feedback": "Correct. The good soil hears, receives, and bears fruit.",
+            "hint": "The good soil hears, receives, and bears fruit."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Parables Teach Truth Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Parables",
+            "skill": "What Is a Parable?",
+            "type": "multipleChoice",
+            "prompt": "A parable is a story Jesus used to...",
+            "choices": [
+              "teach truth about God's kingdom and human hearts",
+              "make truth sound clever instead of clear",
+              "make stories more important than repentance"
+            ],
+            "correctAnswer": "teach truth about God's kingdom and human hearts",
+            "reviewNote": "Parables use story to teach deep truth."
+          },
+          {
+            "section": "Level 1: Parables",
+            "skill": "Listening",
+            "type": "multipleChoice",
+            "prompt": "Parables often reveal...",
+            "choices": [
+              "how people respond to God's word",
+              "that imagination can replace obedience",
+              "that understanding truth matters less than enjoying the story"
+            ],
+            "correctAnswer": "how people respond to God's word",
+            "reviewNote": "Parables often expose the heart."
+          },
+          {
+            "section": "Level 1: Parables",
+            "skill": "Heart Response",
+            "type": "trueFalse",
+            "prompt": "Jesus' parables call for listening, repentance, faith, and obedience.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Parables are meant to be heard and responded to."
+          },
+          {
+            "section": "Level 2: Good Samaritan",
+            "skill": "Neighbour Love",
+            "type": "multipleChoice",
+            "prompt": "The Good Samaritan teaches that neighbour love is...",
+            "choices": [
+              "active mercy toward the person in need",
+              "kindness only when it is socially expected",
+              "feeling sympathy without costly action"
+            ],
+            "correctAnswer": "active mercy toward the person in need",
+            "reviewNote": "Jesus showed mercy crossing social boundaries."
+          },
+          {
+            "section": "Level 2: Lost Son",
+            "skill": "Mercy and Repentance",
+            "type": "multipleChoice",
+            "prompt": "The parable of the lost son shows...",
+            "choices": [
+              "repentance, mercy, and the father's welcome",
+              "forgiveness without repentance or restoration",
+              "outward obedience without a resentful heart being serious"
+            ],
+            "correctAnswer": "repentance, mercy, and the father's welcome",
+            "reviewNote": "The father welcomes the returning son with mercy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-jesus-and-the-law",
+      "title": "Jesus and the Law",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise fulfillment, heart obedience, holiness, love for God, and love for neighbour.",
+      "teacherOverview": "Students practise fulfillment, heart obedience, holiness, love for God, and love for neighbour.",
+      "bibleConnection": {
+        "reference": "Matthew 5:17-48; Matthew 22:34-40",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Jesus and the Law Mission",
+        "mission": "Show that you understand Jesus' teaching on the law, the heart, and true obedience.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Fulfillment",
+            "title": "Not Abolish",
+            "prompt": "Jesus said He came not to abolish the Law and Prophets but to...",
+            "choices": [
+              "fulfill them",
+              "lower God's standard to outward habits",
+              "treat them as old customs with little authority"
+            ],
+            "correctAnswer": "fulfill them",
+            "feedback": "Correct. Jesus fulfills the Law and Prophets.",
+            "hint": "Jesus fulfills the Law and Prophets."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Fulfillment",
+            "title": "Greater Righteousness",
+            "prompt": "Jesus taught that righteousness must go deeper than...",
+            "choices": [
+              "outward appearance alone",
+              "the words of the Old Testament",
+              "the teaching of the prophets"
+            ],
+            "correctAnswer": "outward appearance alone",
+            "feedback": "Correct. Jesus exposed heart-level sin and obedience.",
+            "hint": "Jesus exposed heart-level sin and obedience."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Fulfillment",
+            "title": "God's Word",
+            "prompt": "Jesus treated the Old Testament as God's true Word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Jesus honoured and fulfilled the Scriptures.",
+            "hint": "Jesus honoured and fulfilled the Scriptures."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Heart Obedience",
+            "title": "Anger and Murder",
+            "prompt": "Jesus connected murder with...",
+            "choices": [
+              "anger and contempt in the heart",
+              "anger that seems hidden from other people",
+              "conflict only after it becomes public"
+            ],
+            "correctAnswer": "anger and contempt in the heart",
+            "feedback": "Correct. Jesus taught that sin begins in the heart.",
+            "hint": "Jesus taught that sin begins in the heart."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Heart Obedience",
+            "title": "Love Command",
+            "prompt": "Jesus summarized the law with...",
+            "choices": [
+              "love God and love your neighbour",
+              "keep visible rules and avoid scandal",
+              "choose the rules that feel easiest to keep"
+            ],
+            "correctAnswer": "love God and love your neighbour",
+            "feedback": "Correct. Love for God and neighbour summarizes the law.",
+            "hint": "Love for God and neighbour summarizes the law."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Holiness",
+            "title": "True Obedience",
+            "prompt": "Jesus' teaching shows that true obedience...",
+            "choices": [
+              "flows from a heart submitted to God",
+              "means outward success without heart change",
+              "is possible without forgiveness"
+            ],
+            "correctAnswer": "flows from a heart submitted to God",
+            "feedback": "Correct. Jesus calls for heart-level holiness.",
+            "hint": "Jesus calls for heart-level holiness."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Jesus and the Law Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Fulfillment",
+            "skill": "Not Abolish",
+            "type": "multipleChoice",
+            "prompt": "Jesus said He came not to abolish the Law and Prophets but to...",
+            "choices": [
+              "fulfill them",
+              "lower God's standard to outward habits",
+              "treat them as old customs with little authority"
+            ],
+            "correctAnswer": "fulfill them",
+            "reviewNote": "Jesus fulfills the Law and Prophets."
+          },
+          {
+            "section": "Level 1: Fulfillment",
+            "skill": "Greater Righteousness",
+            "type": "multipleChoice",
+            "prompt": "Jesus taught that righteousness must go deeper than...",
+            "choices": [
+              "outward appearance alone",
+              "the words of the Old Testament",
+              "the teaching of the prophets"
+            ],
+            "correctAnswer": "outward appearance alone",
+            "reviewNote": "Jesus exposed heart-level sin and obedience."
+          },
+          {
+            "section": "Level 1: Fulfillment",
+            "skill": "God's Word",
+            "type": "trueFalse",
+            "prompt": "Jesus treated the Old Testament as God's true Word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Jesus honoured and fulfilled the Scriptures."
+          },
+          {
+            "section": "Level 2: Heart Obedience",
+            "skill": "Anger and Murder",
+            "type": "multipleChoice",
+            "prompt": "Jesus connected murder with...",
+            "choices": [
+              "anger and contempt in the heart",
+              "anger that seems hidden from other people",
+              "conflict only after it becomes public"
+            ],
+            "correctAnswer": "anger and contempt in the heart",
+            "reviewNote": "Jesus taught that sin begins in the heart."
+          },
+          {
+            "section": "Level 2: Heart Obedience",
+            "skill": "Love Command",
+            "type": "multipleChoice",
+            "prompt": "Jesus summarized the law with...",
+            "choices": [
+              "love God and love your neighbour",
+              "keep visible rules and avoid scandal",
+              "choose the rules that feel easiest to keep"
+            ],
+            "correctAnswer": "love God and love your neighbour",
+            "reviewNote": "Love for God and neighbour summarizes the law."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-the-cross",
+      "title": "The Cross",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise sin, substitution, sacrifice, forgiveness, justice, and love at the cross.",
+      "teacherOverview": "Students practise sin, substitution, sacrifice, forgiveness, justice, and love at the cross.",
+      "bibleConnection": {
+        "reference": "Mark 15:21-39; John 19:16-30; 1 Peter 2:24",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "The Cross Mission",
+        "mission": "Show that you understand the cross as God's just and loving rescue through Jesus.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Why the Cross?",
+            "title": "Human Sin",
+            "prompt": "The cross shows that sin is...",
+            "choices": [
+              "so serious that only God's rescue can deal with it",
+              "less serious than religious leaders claimed",
+              "serious, but solved mainly by human regret"
+            ],
+            "correctAnswer": "so serious that only God's rescue can deal with it",
+            "feedback": "Correct. The cross shows sin's seriousness and God's rescue.",
+            "hint": "The cross shows sin's seriousness and God's rescue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Why the Cross?",
+            "title": "Substitution",
+            "prompt": "Substitution means Jesus...",
+            "choices": [
+              "stood in the place of sinners",
+              "suffered beside sinners but not for them",
+              "removed guilt without changing loyalty"
+            ],
+            "correctAnswer": "stood in the place of sinners",
+            "feedback": "Correct. Jesus bore sin for His people.",
+            "hint": "Jesus bore sin for His people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Why the Cross?",
+            "title": "Love and Justice",
+            "prompt": "At the cross, God's love and justice are both shown.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The cross does not set love against justice.",
+            "hint": "The cross does not set love against justice."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sacrifice",
+            "title": "Lamb of God",
+            "prompt": "Calling Jesus the Lamb of God connects His death to...",
+            "choices": [
+              "sacrifice and rescue",
+              "a rescue that skipped judgment",
+              "a symbol of courage more than sacrifice"
+            ],
+            "correctAnswer": "sacrifice and rescue",
+            "feedback": "Correct. Jesus is the true sacrifice for sin.",
+            "hint": "Jesus is the true sacrifice for sin."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Sacrifice",
+            "title": "It Is Finished",
+            "prompt": "When Jesus said, 'It is finished,' He meant...",
+            "choices": [
+              "His saving work was completed",
+              "His public ministry was over but not His saving work",
+              "human rulers had finished their part of the story"
+            ],
+            "correctAnswer": "His saving work was completed",
+            "feedback": "Correct. Jesus completed the work the Father gave Him.",
+            "hint": "Jesus completed the work the Father gave Him."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Response",
+            "title": "Forgiveness",
+            "prompt": "Forgiveness through the cross means...",
+            "choices": [
+              "sin is paid for by Christ, not excused as harmless",
+              "grace means sin can be treated lightly",
+              "guilt itself is what earns forgiveness"
+            ],
+            "correctAnswer": "sin is paid for by Christ, not excused as harmless",
+            "feedback": "Correct. The cross gives real forgiveness because Christ paid for sin.",
+            "hint": "The cross gives real forgiveness because Christ paid for sin."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "The Cross Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Why the Cross?",
+            "skill": "Human Sin",
+            "type": "multipleChoice",
+            "prompt": "The cross shows that sin is...",
+            "choices": [
+              "so serious that only God's rescue can deal with it",
+              "less serious than religious leaders claimed",
+              "serious, but solved mainly by human regret"
+            ],
+            "correctAnswer": "so serious that only God's rescue can deal with it",
+            "reviewNote": "The cross shows sin's seriousness and God's rescue."
+          },
+          {
+            "section": "Level 1: Why the Cross?",
+            "skill": "Substitution",
+            "type": "multipleChoice",
+            "prompt": "Substitution means Jesus...",
+            "choices": [
+              "stood in the place of sinners",
+              "suffered beside sinners but not for them",
+              "removed guilt without changing loyalty"
+            ],
+            "correctAnswer": "stood in the place of sinners",
+            "reviewNote": "Jesus bore sin for His people."
+          },
+          {
+            "section": "Level 1: Why the Cross?",
+            "skill": "Love and Justice",
+            "type": "trueFalse",
+            "prompt": "At the cross, God's love and justice are both shown.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The cross does not set love against justice."
+          },
+          {
+            "section": "Level 2: Sacrifice",
+            "skill": "Lamb of God",
+            "type": "multipleChoice",
+            "prompt": "Calling Jesus the Lamb of God connects His death to...",
+            "choices": [
+              "sacrifice and rescue",
+              "a rescue that skipped judgment",
+              "a symbol of courage more than sacrifice"
+            ],
+            "correctAnswer": "sacrifice and rescue",
+            "reviewNote": "Jesus is the true sacrifice for sin."
+          },
+          {
+            "section": "Level 2: Sacrifice",
+            "skill": "It Is Finished",
+            "type": "multipleChoice",
+            "prompt": "When Jesus said, 'It is finished,' He meant...",
+            "choices": [
+              "His saving work was completed",
+              "His public ministry was over but not His saving work",
+              "human rulers had finished their part of the story"
+            ],
+            "correctAnswer": "His saving work was completed",
+            "reviewNote": "Jesus completed the work the Father gave Him."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-resurrection-and-ascension",
+      "title": "Resurrection and Ascension",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise Jesus alive, victory, His reign, and His sending of His people.",
+      "teacherOverview": "Students practise Jesus alive, victory, His reign, and His sending of His people.",
+      "bibleConnection": {
+        "reference": "Luke 24:1-53; Acts 1:1-11; 1 Corinthians 15:3-8",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Resurrection and Ascension Mission",
+        "mission": "Show that you understand Jesus' resurrection and ascension as victory and hope.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Resurrection",
+            "title": "Empty Tomb",
+            "prompt": "The empty tomb means...",
+            "choices": [
+              "Jesus truly rose from the dead",
+              "Jesus lived on only through His followers' courage",
+              "hope became only a memory of His example"
+            ],
+            "correctAnswer": "Jesus truly rose from the dead",
+            "feedback": "Correct. The resurrection is real, bodily victory over death.",
+            "hint": "The resurrection is real, bodily victory over death."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Resurrection",
+            "title": "Witnesses",
+            "prompt": "The risen Jesus appeared to...",
+            "choices": [
+              "real witnesses who saw Him alive",
+              "followers whose hope was mainly symbolic",
+              "people who could make the story easier to believe"
+            ],
+            "correctAnswer": "real witnesses who saw Him alive",
+            "feedback": "Correct. The New Testament names witnesses of the risen Christ.",
+            "hint": "The New Testament names witnesses of the risen Christ."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Resurrection",
+            "title": "Victory",
+            "prompt": "Jesus' resurrection shows victory over sin and death.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The resurrection confirms Jesus' victory.",
+            "hint": "The resurrection confirms Jesus' victory."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Ascension",
+            "title": "Jesus Reigns",
+            "prompt": "Jesus' ascension means He...",
+            "choices": [
+              "reigns at the Father's right hand",
+              "moved away from earth and stopped ruling it",
+              "became present only as a memory or idea"
+            ],
+            "correctAnswer": "reigns at the Father's right hand",
+            "feedback": "Correct. The ascended Christ reigns.",
+            "hint": "The ascended Christ reigns."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Ascension",
+            "title": "Mission",
+            "prompt": "Before ascending, Jesus sent His disciples to...",
+            "choices": [
+              "be His witnesses",
+              "wait until the nations became ready",
+              "begin with political reform before witness"
+            ],
+            "correctAnswer": "be His witnesses",
+            "feedback": "Correct. Jesus sent His followers as witnesses.",
+            "hint": "Jesus sent His followers as witnesses."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Hope",
+            "title": "Christian Hope",
+            "prompt": "The resurrection gives Christians hope because...",
+            "choices": [
+              "Jesus is alive and will raise His people",
+              "death is now harmless apart from Christ",
+              "hope is only about improving life now"
+            ],
+            "correctAnswer": "Jesus is alive and will raise His people",
+            "feedback": "Correct. Christ's resurrection is the firstfruits of resurrection hope.",
+            "hint": "Christ's resurrection is the firstfruits of resurrection hope."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Resurrection and Ascension Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Resurrection",
+            "skill": "Empty Tomb",
+            "type": "multipleChoice",
+            "prompt": "The empty tomb means...",
+            "choices": [
+              "Jesus truly rose from the dead",
+              "Jesus lived on only through His followers' courage",
+              "hope became only a memory of His example"
+            ],
+            "correctAnswer": "Jesus truly rose from the dead",
+            "reviewNote": "The resurrection is real, bodily victory over death."
+          },
+          {
+            "section": "Level 1: Resurrection",
+            "skill": "Witnesses",
+            "type": "multipleChoice",
+            "prompt": "The risen Jesus appeared to...",
+            "choices": [
+              "real witnesses who saw Him alive",
+              "followers whose hope was mainly symbolic",
+              "people who could make the story easier to believe"
+            ],
+            "correctAnswer": "real witnesses who saw Him alive",
+            "reviewNote": "The New Testament names witnesses of the risen Christ."
+          },
+          {
+            "section": "Level 1: Resurrection",
+            "skill": "Victory",
+            "type": "trueFalse",
+            "prompt": "Jesus' resurrection shows victory over sin and death.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The resurrection confirms Jesus' victory."
+          },
+          {
+            "section": "Level 2: Ascension",
+            "skill": "Jesus Reigns",
+            "type": "multipleChoice",
+            "prompt": "Jesus' ascension means He...",
+            "choices": [
+              "reigns at the Father's right hand",
+              "moved away from earth and stopped ruling it",
+              "became present only as a memory or idea"
+            ],
+            "correctAnswer": "reigns at the Father's right hand",
+            "reviewNote": "The ascended Christ reigns."
+          },
+          {
+            "section": "Level 2: Ascension",
+            "skill": "Mission",
+            "type": "multipleChoice",
+            "prompt": "Before ascending, Jesus sent His disciples to...",
+            "choices": [
+              "be His witnesses",
+              "wait until the nations became ready",
+              "begin with political reform before witness"
+            ],
+            "correctAnswer": "be His witnesses",
+            "reviewNote": "Jesus sent His followers as witnesses."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-jesus-will-return",
+      "title": "Jesus Will Return",
+      "type": "lesson",
+      "status": "model",
+      "teacherSummary": "Students practise hope, judgment, restoration, and faithful living now.",
+      "teacherOverview": "Students practise hope, judgment, restoration, and faithful living now.",
+      "bibleConnection": {
+        "reference": "Matthew 24:36-44; Acts 1:11; Revelation 21:1-5",
+        "teacherNote": "Preview the student questions before sharing."
+      },
+      "studentActivity": {
+        "type": "bibleQuestionSet",
+        "title": "Jesus Will Return Mission",
+        "mission": "Show that you understand Jesus' return as hope, judgment, and restoration.",
+        "reward": {
+          "stars": 6
+        },
+        "steps": [
+          {
+            "kind": "question",
+            "level": "Level 1: Promise",
+            "title": "He Will Return",
+            "prompt": "The angels in Acts 1 said Jesus would...",
+            "choices": [
+              "come again",
+              "stay in heaven without future judgment",
+              "return secretly only to a few teachers"
+            ],
+            "correctAnswer": "come again",
+            "feedback": "Correct. Jesus will return personally and visibly.",
+            "hint": "Jesus will return personally and visibly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Promise",
+            "title": "No Date Setting",
+            "prompt": "Jesus taught that people do not know...",
+            "choices": [
+              "the day or hour of His return",
+              "whether His promise needs watchfulness",
+              "whether people should prepare with faithfulness"
+            ],
+            "correctAnswer": "the day or hour of His return",
+            "feedback": "Correct. Christians should be watchful without date setting.",
+            "hint": "Christians should be watchful without date setting."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Promise",
+            "title": "Certain Hope",
+            "prompt": "Jesus' return is certain even though the exact time is not known.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The promise is certain; the timing is not given to us.",
+            "hint": "The promise is certain; the timing is not given to us."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Judgment and Restoration",
+            "title": "Judgment",
+            "prompt": "Jesus' return includes...",
+            "choices": [
+              "righteous judgment and final justice",
+              "ending evil without judging anyone",
+              "a future hope that makes present obedience optional"
+            ],
+            "correctAnswer": "righteous judgment and final justice",
+            "feedback": "Correct. Jesus will judge with perfect righteousness.",
+            "hint": "Jesus will judge with perfect righteousness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Judgment and Restoration",
+            "title": "New Creation",
+            "prompt": "Revelation 21 describes hope as...",
+            "choices": [
+              "God making all things new",
+              "God replacing creation with a bodiless hope",
+              "creation staying wounded but less painful"
+            ],
+            "correctAnswer": "God making all things new",
+            "feedback": "Correct. God will restore His creation and dwell with His people.",
+            "hint": "God will restore His creation and dwell with His people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Living Now",
+            "title": "Faithful Waiting",
+            "prompt": "Because Jesus will return, Christians should...",
+            "choices": [
+              "live faithfully, watchfully, and hopefully",
+              "delay faithfulness until the future is easier to read",
+              "focus on dates more than faithful obedience"
+            ],
+            "correctAnswer": "live faithfully, watchfully, and hopefully",
+            "feedback": "Correct. Hope in Christ's return shapes faithful living now.",
+            "hint": "Hope in Christ's return shapes faithful living now."
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Jesus Will Return Quiz",
+        "questions": [
+          {
+            "section": "Level 1: Promise",
+            "skill": "He Will Return",
+            "type": "multipleChoice",
+            "prompt": "The angels in Acts 1 said Jesus would...",
+            "choices": [
+              "come again",
+              "stay in heaven without future judgment",
+              "return secretly only to a few teachers"
+            ],
+            "correctAnswer": "come again",
+            "reviewNote": "Jesus will return personally and visibly."
+          },
+          {
+            "section": "Level 1: Promise",
+            "skill": "No Date Setting",
+            "type": "multipleChoice",
+            "prompt": "Jesus taught that people do not know...",
+            "choices": [
+              "the day or hour of His return",
+              "whether His promise needs watchfulness",
+              "whether people should prepare with faithfulness"
+            ],
+            "correctAnswer": "the day or hour of His return",
+            "reviewNote": "Christians should be watchful without date setting."
+          },
+          {
+            "section": "Level 1: Promise",
+            "skill": "Certain Hope",
+            "type": "trueFalse",
+            "prompt": "Jesus' return is certain even though the exact time is not known.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The promise is certain; the timing is not given to us."
+          },
+          {
+            "section": "Level 2: Judgment and Restoration",
+            "skill": "Judgment",
+            "type": "multipleChoice",
+            "prompt": "Jesus' return includes...",
+            "choices": [
+              "righteous judgment and final justice",
+              "ending evil without judging anyone",
+              "a future hope that makes present obedience optional"
+            ],
+            "correctAnswer": "righteous judgment and final justice",
+            "reviewNote": "Jesus will judge with perfect righteousness."
+          },
+          {
+            "section": "Level 2: Judgment and Restoration",
+            "skill": "New Creation",
+            "type": "multipleChoice",
+            "prompt": "Revelation 21 describes hope as...",
+            "choices": [
+              "God making all things new",
+              "God replacing creation with a bodiless hope",
+              "creation staying wounded but less painful"
+            ],
+            "correctAnswer": "God making all things new",
+            "reviewNote": "God will restore His creation and dwell with His people."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-bible-church-history-unit-5-final-quiz",
+      "title": "Jesus the Promised Saviour Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "Students complete a scored review quiz for Jesus the Promised Saviour.",
+      "teacherOverview": "Students complete a scored review quiz for Jesus the Promised Saviour.",
+      "quiz": {
+        "title": "Jesus the Promised Saviour: Final Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "The Promised Saviour Arrives",
+            "skill": "The Word Became Flesh",
+            "type": "multipleChoice",
+            "prompt": "John 1 teaches that the Word became flesh, meaning...",
+            "choices": [
+              "the Son of God truly became human",
+              "God revealed truth without truly entering human life",
+              "Jesus became God's Son only after His birth"
+            ],
+            "correctAnswer": "the Son of God truly became human",
+            "reviewNote": "The eternal Son truly took on human nature."
+          },
+          {
+            "section": "The Promised Saviour Arrives",
+            "skill": "Virgin Birth",
+            "type": "multipleChoice",
+            "prompt": "Jesus' birth showed...",
+            "choices": [
+              "God's promised Saviour coming by God's power",
+              "faithful people arranging the promise by themselves",
+              "political rulers setting the timing of God's promise"
+            ],
+            "correctAnswer": "God's promised Saviour coming by God's power",
+            "reviewNote": "Jesus' birth was God's work and fulfilled His promises."
+          },
+          {
+            "section": "The Promised Saviour Arrives",
+            "skill": "True God and True Man",
+            "type": "trueFalse",
+            "prompt": "Jesus is true God and true man.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The incarnation means the Son of God truly became human without ceasing to be God."
+          },
+          {
+            "section": "Jesus Announces the Kingdom",
+            "skill": "Jesus' Announcement",
+            "type": "multipleChoice",
+            "prompt": "Jesus announced, 'The kingdom of God is at hand,' and called people to...",
+            "choices": [
+              "repent and believe the gospel",
+              "clean up outward habits before coming to God",
+              "support God's kingdom without repentance"
+            ],
+            "correctAnswer": "repent and believe the gospel",
+            "reviewNote": "Jesus called for repentance and faith."
+          },
+          {
+            "section": "Jesus Announces the Kingdom",
+            "skill": "Repentance",
+            "type": "multipleChoice",
+            "prompt": "Repentance means...",
+            "choices": [
+              "turning from sin toward God",
+              "feeling sorry while keeping sin protected",
+              "changing outward habits while guarding the heart"
+            ],
+            "correctAnswer": "turning from sin toward God",
+            "reviewNote": "Repentance includes a real turning to God."
+          },
+          {
+            "section": "Jesus Announces the Kingdom",
+            "skill": "Faith",
+            "type": "trueFalse",
+            "prompt": "Faith means trusting Jesus, not merely knowing facts about Him.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Biblical faith includes trust."
+          },
+          {
+            "section": "Miracles Show Who Jesus Is",
+            "skill": "Forgiveness and Healing",
+            "type": "multipleChoice",
+            "prompt": "When Jesus healed the paralytic, He also showed authority to...",
+            "choices": [
+              "forgive sins",
+              "prove His authority without confronting sin",
+              "make people admire power apart from repentance"
+            ],
+            "correctAnswer": "forgive sins",
+            "reviewNote": "Jesus connected the healing with His authority to forgive."
+          },
+          {
+            "section": "Miracles Show Who Jesus Is",
+            "skill": "Storm",
+            "type": "multipleChoice",
+            "prompt": "When Jesus calmed the storm, the disciples wondered...",
+            "choices": [
+              "who He was, because wind and sea obeyed Him",
+              "whether nature was outside His authority",
+              "whether experienced people should guide Him first"
+            ],
+            "correctAnswer": "who He was, because wind and sea obeyed Him",
+            "reviewNote": "The miracle revealed Jesus' authority over creation."
+          },
+          {
+            "section": "Miracles Show Who Jesus Is",
+            "skill": "Signs",
+            "type": "trueFalse",
+            "prompt": "Jesus' miracles were signs pointing to who He is.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The miracles were not random displays; they revealed His identity."
+          },
+          {
+            "section": "Parables Teach Truth",
+            "skill": "What Is a Parable?",
+            "type": "multipleChoice",
+            "prompt": "A parable is a story Jesus used to...",
+            "choices": [
+              "teach truth about God's kingdom and human hearts",
+              "make truth sound clever instead of clear",
+              "make stories more important than repentance"
+            ],
+            "correctAnswer": "teach truth about God's kingdom and human hearts",
+            "reviewNote": "Parables use story to teach deep truth."
+          },
+          {
+            "section": "Parables Teach Truth",
+            "skill": "Listening",
+            "type": "multipleChoice",
+            "prompt": "Parables often reveal...",
+            "choices": [
+              "how people respond to God's word",
+              "that imagination can replace obedience",
+              "that understanding truth matters less than enjoying the story"
+            ],
+            "correctAnswer": "how people respond to God's word",
+            "reviewNote": "Parables often expose the heart."
+          },
+          {
+            "section": "Parables Teach Truth",
+            "skill": "Heart Response",
+            "type": "trueFalse",
+            "prompt": "Jesus' parables call for listening, repentance, faith, and obedience.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Parables are meant to be heard and responded to."
+          },
+          {
+            "section": "Jesus and the Law",
+            "skill": "Not Abolish",
+            "type": "multipleChoice",
+            "prompt": "Jesus said He came not to abolish the Law and Prophets but to...",
+            "choices": [
+              "fulfill them",
+              "lower God's standard to outward habits",
+              "treat them as old customs with little authority"
+            ],
+            "correctAnswer": "fulfill them",
+            "reviewNote": "Jesus fulfills the Law and Prophets."
+          },
+          {
+            "section": "Jesus and the Law",
+            "skill": "Greater Righteousness",
+            "type": "multipleChoice",
+            "prompt": "Jesus taught that righteousness must go deeper than...",
+            "choices": [
+              "outward appearance alone",
+              "the words of the Old Testament",
+              "the teaching of the prophets"
+            ],
+            "correctAnswer": "outward appearance alone",
+            "reviewNote": "Jesus exposed heart-level sin and obedience."
+          },
+          {
+            "section": "Jesus and the Law",
+            "skill": "God's Word",
+            "type": "trueFalse",
+            "prompt": "Jesus treated the Old Testament as God's true Word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Jesus honoured and fulfilled the Scriptures."
+          },
+          {
+            "section": "The Cross",
+            "skill": "Human Sin",
+            "type": "multipleChoice",
+            "prompt": "The cross shows that sin is...",
+            "choices": [
+              "so serious that only God's rescue can deal with it",
+              "less serious than religious leaders claimed",
+              "serious, but solved mainly by human regret"
+            ],
+            "correctAnswer": "so serious that only God's rescue can deal with it",
+            "reviewNote": "The cross shows sin's seriousness and God's rescue."
+          },
+          {
+            "section": "The Cross",
+            "skill": "Substitution",
+            "type": "multipleChoice",
+            "prompt": "Substitution means Jesus...",
+            "choices": [
+              "stood in the place of sinners",
+              "suffered beside sinners but not for them",
+              "removed guilt without changing loyalty"
+            ],
+            "correctAnswer": "stood in the place of sinners",
+            "reviewNote": "Jesus bore sin for His people."
+          },
+          {
+            "section": "The Cross",
+            "skill": "Love and Justice",
+            "type": "trueFalse",
+            "prompt": "At the cross, God's love and justice are both shown.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "The cross does not set love against justice."
+          }
+        ]
+      }
+    }
+  ]
+};
+  var library = window.PracticeStarContent.grade5BibleChurchHistory;
+  library.units = Array.isArray(library.units) ? library.units : [];
+  var index = library.units.findIndex(function (item) { return item && item.id === unit.id; });
+  if (index >= 0) {
+    library.units[index] = unit;
+  } else {
+    library.units.push(unit);
+  }
+}());
