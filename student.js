@@ -680,11 +680,6 @@ function statusSortIndex(status) {
   return index === -1 ? studentStatusSections.length : index;
 }
 
-function activityStatusLabel(status) {
-  const section = studentStatusSections.find((item) => item.key === status);
-  return section?.title || "Assignments";
-}
-
 function currentStudentQuizAttempts() {
   return window.PracticeStar.localQuizAttemptsForStudent?.(activeStudent?.id || "", activeStudentName) || [];
 }
@@ -760,7 +755,6 @@ function renderActivityCard(card) {
   return `
     <article class="activity-row ${statusClass}${extraClass}">
       <div>
-        <p class="activity-status-note">${window.PracticeStar.escapeHtml(activityStatusLabel(card.status))}</p>
         <h3>${window.PracticeStar.escapeHtml(card.title)}</h3>
         ${card.hints.map((hint) => `<p class="hint">${window.PracticeStar.escapeHtml(hint)}</p>`).join("")}
       </div>
@@ -783,15 +777,15 @@ function renderSubjectActivities(cards) {
         return "";
       }
       return `
-        <section class="student-status-section">
-          <div class="student-status-heading">
-            <h4>${section.title}</h4>
-            <span>${statusCards.length}</span>
-          </div>
+        <details class="student-status-section">
+          <summary class="student-status-heading">
+            <span class="student-status-title">${section.title}</span>
+            <span class="student-status-count">${statusCards.length}</span>
+          </summary>
           <div class="card-list">
             ${statusCards.map(renderActivityCard).join("")}
           </div>
-        </section>
+        </details>
       `;
     })
     .join("");
@@ -806,13 +800,13 @@ function renderOrganizedActivities(cards) {
       ${subjects.map((subject) => {
         const subjectCards = cards.filter((card) => card.subject === subject);
         return `
-          <section class="student-subject-section">
-            <div class="student-subject-header">
-              <h3>${window.PracticeStar.escapeHtml(subject)}</h3>
-              <span>${subjectCards.length} item${subjectCards.length === 1 ? "" : "s"}</span>
-            </div>
+          <details class="student-subject-section">
+            <summary class="student-subject-header">
+              <span class="student-subject-title">${window.PracticeStar.escapeHtml(subject)}</span>
+              <span class="student-subject-count">${subjectCards.length} item${subjectCards.length === 1 ? "" : "s"}</span>
+            </summary>
             ${renderSubjectActivities(subjectCards)}
-          </section>
+          </details>
         `;
       }).join("")}
     </div>

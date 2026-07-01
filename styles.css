@@ -1001,40 +1001,93 @@ textarea:focus {
 
 .student-subject-list {
   display: grid;
-  gap: 26px;
+  gap: 14px;
 }
 
 .student-subject-section {
   display: grid;
+  overflow: hidden;
   gap: 14px;
-}
-
-.student-subject-section + .student-subject-section {
-  padding-top: 22px;
-  border-top: 4px solid #e8f5ff;
+  padding: 0;
+  border: 4px solid #d8ecff;
+  border-radius: 8px;
+  background: #ffffff;
 }
 
 .student-subject-header,
 .student-status-heading {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
-  flex-wrap: wrap;
+  cursor: pointer;
+  user-select: none;
 }
 
-.student-subject-header h3,
-.student-status-heading h4 {
-  margin: 0;
+.student-subject-header {
+  min-height: 64px;
+  padding: 14px 16px;
+  background: var(--soft);
+}
+
+.student-status-heading {
+  min-height: 54px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #f8fbff;
+}
+
+.student-subject-header::-webkit-details-marker,
+.student-status-heading::-webkit-details-marker {
+  display: none;
+}
+
+.student-subject-header::before,
+.student-status-heading::before {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  color: #ffffff;
+  background: var(--blue);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.student-subject-header::before {
+  content: ">";
+}
+
+.student-status-heading::before {
+  content: "+";
+}
+
+.student-subject-section[open] > .student-subject-header::before {
+  content: "v";
+}
+
+.student-status-section[open] > .student-status-heading::before {
+  content: "-";
+}
+
+.student-subject-title,
+.student-status-title {
   color: var(--blue-dark);
+  font-weight: 900;
 }
 
-.student-subject-header h3 {
+.student-subject-title {
   font-size: 1.55rem;
 }
 
-.student-subject-header span,
-.student-status-heading span {
+.student-status-title {
+  font-size: 1.08rem;
+}
+
+.student-subject-count,
+.student-status-count {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1042,29 +1095,28 @@ textarea:focus {
   min-height: 34px;
   padding: 4px 10px;
   border-radius: 999px;
-  background: var(--soft);
+  background: #ffffff;
   color: var(--blue-dark);
   font-weight: 900;
+  white-space: nowrap;
 }
 
 .student-status-section {
   display: grid;
   gap: 10px;
-}
-
-.student-status-heading h4 {
-  font-size: 1.08rem;
-}
-
-.activity-status-note {
-  width: fit-content;
-  margin: 0 0 6px;
-  padding: 4px 9px;
-  border-radius: 999px;
+  margin: 0 16px 14px;
+  padding: 10px;
+  border: 3px solid #e8f5ff;
+  border-radius: 8px;
   background: #ffffff;
-  color: var(--blue-dark);
-  font-size: 0.82rem;
-  font-weight: 900;
+}
+
+.student-status-section:first-of-type {
+  margin-top: 14px;
+}
+
+.student-status-section > .card-list {
+  padding-top: 10px;
 }
 
 .activity-row.inProgress-activity-row {
