@@ -50,6 +50,14 @@
       "unitGoal": "",
       "file": "units/unit-6-financial-literacy.json",
       "dataFile": "unit-data/unit-6-financial-literacy.js"
+    },
+    {
+      "id": "grade-5-math-unit-7",
+      "title": "Roman Numerals",
+      "strand": "Number Sense Extension",
+      "unitGoal": "Students will learn Roman numerals from the beginning, including symbol values, adding and subtracting rules, reading and writing numbers, real-life uses, and Roman numeral clock faces.",
+      "file": "units/unit-7-roman-numerals.json",
+      "dataFile": "unit-data/unit-7-roman-numerals.js"
     }
   ]
 }
