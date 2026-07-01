@@ -1538,6 +1538,20 @@ body.learning-mode .top-row {
   line-height: 1;
 }
 
+.learning-card-intro {
+  border-style: solid;
+  border-color: #d9c7ff;
+  background: #fbf7ff;
+}
+
+.learning-card-intro h2 {
+  color: #6b4bd8;
+}
+
+.learning-card-intro .learning-prompt {
+  color: var(--blue-dark);
+}
+
 .learning-card-chart {
   gap: 10px;
 }

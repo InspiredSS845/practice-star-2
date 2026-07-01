@@ -59,6 +59,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: What Changes?",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Growing Patterns",
+            "text": "A growing pattern changes in a regular way. Look from one term to the next and ask what is being added, subtracted, or multiplied. Once you know the rule, you can predict later terms. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: What Changes?",
             "title": "What Changes?",
@@ -810,6 +817,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "mission": "Earn practice stars by solving pattern rules challenges.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spot the Rule",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Pattern Rules",
+            "text": "A pattern rule explains how a pattern starts and how it changes. Good rules are clear enough that someone else could keep the pattern going. Check the rule against more than one term before trusting it. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Spot the Rule",
@@ -1563,6 +1577,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Read the Table",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Tables of Values",
+            "text": "A table of values organizes related numbers. Each row shows a pair, such as a term number and a term value. Look across and down the table to find the rule that connects the numbers. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Read the Table",
             "title": "Read the Table",
@@ -2313,6 +2334,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "mission": "Earn practice stars by solving variables challenges.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: What Is Unknown?",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Variables",
+            "text": "A variable is a letter or symbol that stands for a number. It can represent an unknown value or a value that changes. Use the information in the question to decide what the variable must mean. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: What Is Unknown?",
@@ -3065,6 +3093,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Addition Equations",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Simple Equations",
+            "text": "An equation says that two expressions are equal. To solve a simple equation, find the value that makes both sides match. You can use inverse operations or mental math to test your answer. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Addition Equations",
             "title": "Addition Equations",
@@ -3816,6 +3851,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Same Value",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Balanced Equations",
+            "text": "A balanced equation has the same value on both sides. If one side changes, the other side must still match. Think of the equal sign as meaning “has the same value as,” not just “the answer is.” Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Same Value",
             "title": "Same Value",
@@ -4555,6 +4597,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "mission": "Earn practice stars by solving coding instructions challenges.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Follow the Steps",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Coding Instructions",
+            "text": "Coding instructions must be clear and in the right order. A computer follows directions exactly, so small details matter. Read each step carefully and think about what would happen next. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Follow the Steps",
@@ -5308,6 +5357,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Pattern Error",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Debugging Patterns and Code",
+            "text": "Debugging means finding and fixing a mistake. Check the rule, the order of steps, and the output. A good debugger slows down and tests one part at a time. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Find the Pattern Error",
             "title": "Find the Pattern Error",
@@ -6056,6 +6112,13 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
         "mission": "Earn practice stars by solving unit review challenges.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Patterns and Rules",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Unit Review",
+            "text": "This review mixes the main ideas from Algebra and Patterning. You may need to switch strategies from one question to the next. Read each question carefully, choose the skill it is asking for, and check whether your answer makes sense. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Patterns and Rules",
@@ -7583,3 +7646,6 @@ window.PracticeStarUnit["grade-5-math-unit-3"] = {
     }
   ]
 };
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5Math = window.PracticeStarContent.grade5Math || { subject: "Mathematics", grade: 5, units: [] };
+window.PracticeStarContent.grade5Math.units.push(window.PracticeStarUnit["grade-5-math-unit-3"]);

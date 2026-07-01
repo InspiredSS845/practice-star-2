@@ -27,6 +27,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Slavery and Promise",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Israel in Egypt",
+            "text": "This lesson practises Israel's suffering in Egypt, God's covenant memory, and His care for His people. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Exodus 1:1-22; Exodus 2:23-25. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Slavery and Promise",
             "title": "Israel's Growth",
@@ -200,6 +207,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Holy Ground",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Moses and God's Call",
+            "text": "This lesson practises Moses' call, God's holiness, God's name, and obedience despite weakness. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Exodus 3:1-22; Exodus 4:1-17. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Holy Ground",
@@ -375,6 +389,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Judgment",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Passover and the Exodus",
+            "text": "This lesson practises Passover, judgment, substitution, rescue, and worship. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Exodus 11:1-10; Exodus 12:1-42. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Judgment",
             "title": "Final Plague",
@@ -548,6 +569,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Red Sea Rescue",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Red Sea and Wilderness Care",
+            "text": "This lesson practises God's saving power at the Red Sea and His care in the wilderness. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Exodus 14:1-31; Exodus 16:1-36; Exodus 17:1-7. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Red Sea Rescue",
@@ -723,6 +751,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Covenant at Sinai",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Sinai and the Ten Commandments",
+            "text": "This lesson practises covenant relationship, God's good law, worship, love, and obedience. Sin is serious, but God remains holy, just, and merciful. Scripture connection: Exodus 19:1-8; Exodus 20:1-17. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Covenant at Sinai",
             "title": "Before the Commands",
@@ -896,6 +931,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: God's Presence",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Tabernacle and Sacrifice",
+            "text": "This lesson practises God's presence, holiness, sin, sacrifice, cleansing, and worship. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Exodus 25:1-9; Exodus 40:34-38; Leviticus 16:1-34. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: God's Presence",
@@ -1071,6 +1113,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spies in the Land",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Wilderness Unbelief",
+            "text": "This lesson practises fear, unbelief, complaining, discipline, mercy, and faith. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Numbers 13:1-33; Numbers 14:1-38; Deuteronomy 8:1-5. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Spies in the Land",
             "title": "Two Reports",
@@ -1244,6 +1293,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Joshua's Call",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Entering the Land",
+            "text": "This lesson practises Joshua, courage, obedience, God's presence, and faithfulness in entering the land. God rescues His people, teaches them His ways, and calls them to faithful worship. Scripture connection: Joshua 1:1-9; Joshua 3:1-17; Joshua 6:1-27. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Joshua's Call",

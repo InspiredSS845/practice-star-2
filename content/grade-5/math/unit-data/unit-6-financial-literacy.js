@@ -59,6 +59,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Count Coins and Bills",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Money Review",
+            "text": "Money questions use place value and decimal thinking. Dollars and cents must be lined up carefully. Check whether the question asks for a total, a difference, change, or a comparison. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Count Coins and Bills",
             "title": "Count It",
@@ -829,6 +836,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "mission": "Earn practice stars by comparing prices and finding better value.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Lower Price",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Comparing Prices",
+            "text": "Comparing prices means looking for the better value, not just the lower number. Check the amount, size, or number of items being bought. Sometimes the best deal depends on what is actually needed. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Lower Price",
@@ -1601,6 +1615,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Sort Needs and Wants",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Needs and Wants",
+            "text": "Needs are things people truly require, while wants are things people would like to have. A wise spending plan can include both, but needs should usually come first. Think carefully about the situation before deciding. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Sort Needs and Wants",
             "title": "Sort It",
@@ -2371,6 +2392,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "mission": "Earn practice stars by building savings plans.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Set a Goal",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Saving Goals",
+            "text": "A saving goal names what you are saving for and how much you need. Breaking a goal into smaller steps makes it easier to plan. Time, income, and choices all affect how quickly a goal can be reached. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Set a Goal",
@@ -3143,6 +3171,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Budget Parts",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Simple Budgets",
+            "text": "A budget is a plan for money. It compares income, spending, saving, giving, and sometimes leftover money. A good budget helps people make thoughtful choices before the money is gone. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Budget Parts",
             "title": "Budget Sort",
@@ -3913,6 +3948,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "mission": "Earn practice stars by tracking money in and money out.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Income or Expense",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Income and Expenses",
+            "text": "Income is money received, and expenses are money spent. To understand a money situation, compare what comes in with what goes out. If expenses are higher than income, the plan needs to change. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Income or Expense",
@@ -4685,6 +4727,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Pause Before Buying",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Responsible Spending",
+            "text": "Responsible spending means thinking before buying. Consider needs, wants, price, quality, and whether the choice fits the budget. Good decisions often require patience. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Pause Before Buying",
             "title": "Think First",
@@ -5456,6 +5505,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: What Is Giving?",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Giving and Stewardship",
+            "text": "Stewardship means caring wisely for what God has given. Money can be used for needs, saving, giving, and helping others. Responsible choices show thankfulness and care. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: What Is Giving?",
             "title": "Giving Choices",
@@ -6226,6 +6282,13 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
         "mission": "Earn practice stars by reviewing the big ideas from Unit 6.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Money and Prices",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Unit Review",
+            "text": "This review mixes the main ideas from Financial Literacy. You may need to switch strategies from one question to the next. Read each question carefully, choose the skill it is asking for, and check whether your answer makes sense. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Money and Prices",
@@ -7771,3 +7834,6 @@ window.PracticeStarUnit["grade-5-math-unit-6"] = {
     "unitTest": "The unit test should cover money operations, comparing prices, needs and wants, saving goals, budgets, income and expenses, responsible spending, and giving/stewardship. Recommended weighting remains 40% lesson/review quizzes and 60% unit test."
   }
 };
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5Math = window.PracticeStarContent.grade5Math || { subject: "Mathematics", grade: 5, units: [] };
+window.PracticeStarContent.grade5Math.units.push(window.PracticeStarUnit["grade-5-math-unit-6"]);

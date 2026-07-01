@@ -1005,6 +1005,10 @@ function learningStepsFromKeys(levelIndex, keys) {
     .filter(Boolean);
 }
 
+function learningQuestionCount(activity) {
+  return (activity?.steps || []).filter((step) => step.kind === "question").length;
+}
+
 function startLearningActivity() {
   learningLevels = groupLearningLevels(activeLearningActivity.steps || []);
   learningLevelIndex = 0;
@@ -1078,7 +1082,7 @@ function showLearningStep() {
   learningLevelTitle.textContent = step.level || "Learning Mission";
   const actionText = isQuestion ? "Submit" : "Next";
   const displayChoices = step.choices ? shuffledLearningChoices(step.choices) : [];
-  learningCard.className = `learning-card${step.kind === "build" || step.chart ? " learning-card-chart" : ""}`;
+  learningCard.className = `learning-card${step.kind === "build" || step.chart ? " learning-card-chart" : ""}${step.kind === "lessonIntro" ? " learning-card-intro" : ""}`;
 
   learningCard.innerHTML = `
     <h2>${window.PracticeStar.escapeHtml(step.title)}</h2>
@@ -1264,7 +1268,7 @@ function showLearningReward() {
     activityTitle: activeLearningActivity.title || "Learning mission",
     earnedStars: learningEarnedStars,
     levelsCompleted: learningLevels.length,
-    totalQuestions: activeLearningActivity.steps?.length || 0,
+    totalQuestions: learningQuestionCount(activeLearningActivity),
     rewardCollected: !alreadyClaimed
   });
 

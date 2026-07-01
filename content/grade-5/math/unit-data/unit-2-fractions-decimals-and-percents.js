@@ -1,5 +1,5 @@
 window.PracticeStarUnit = window.PracticeStarUnit || {};
-window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] = {
+window.PracticeStarUnit["grade-5-math-unit-2"] = {
   "id": "grade-5-math-unit-2",
   "title": "Fractions, Decimals, and Percents",
   "strand": "Number",
@@ -297,6 +297,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
           "label": "Practice stars"
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Equal Parts",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Understanding Fractions",
+            "text": "A fraction names equal parts of a whole or a set. The denominator tells how many equal parts make the whole, and the numerator tells how many parts are being counted. Benchmarks like 0, one half, and 1 help you judge size. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Equal Parts",
@@ -1050,6 +1057,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Same Amount",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Equivalent Fractions",
+            "text": "Equivalent fractions name the same amount in different ways. You can make equivalent fractions by multiplying or dividing the numerator and denominator by the same number. Picture the same whole being split into smaller or larger equal parts. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Same Amount",
             "title": "Find the Match",
@@ -1799,6 +1813,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Same Denominator",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Comparing and Ordering Fractions",
+            "text": "Fractions can be compared by looking at denominators, numerators, or benchmarks. Same denominators make it easy to compare the numerators. Same numerators make it useful to think about the size of each part. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Same Denominator",
             "title": "Same Bottom Number",
@@ -2546,6 +2567,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "mission": "Earn practice stars by turning fraction parts into wholes and leftovers.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: More Than One Whole",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Improper Fractions and Mixed Numbers",
+            "text": "Improper fractions and mixed numbers can both show amounts greater than one whole. A mixed number shows whole parts plus a fraction. An improper fraction counts all the equal parts together. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: More Than One Whole",
@@ -3295,6 +3323,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "mission": "Earn practice stars by combining fraction parts and checking your recipe answers.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Add Like Parts",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Adding and Subtracting Fractions",
+            "text": "Fractions can be added or subtracted when the parts are the same size. If denominators are different, look for friendly equivalent fractions. After you calculate, check that the answer is a reasonable amount. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Add Like Parts",
@@ -4046,6 +4081,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Tenths",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Understanding Decimals",
+            "text": "Decimals are another way to show parts of a whole. Tenths, hundredths, and thousandths are place values to the right of the decimal point. Read the decimal by place value so each digit has the right meaning. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Tenths",
             "title": "Tenths Place",
@@ -4793,6 +4835,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "mission": "Earn practice stars by comparing decimals and sorting racers into the right order.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Tenths vs Hundredths",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Comparing and Ordering Decimals",
+            "text": "To compare decimals, line up the decimal points and compare place values from left to right. Zeros can be added at the end without changing the value. Think carefully because a longer decimal is not always larger. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Tenths vs Hundredths",
@@ -5544,6 +5593,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Line It Up",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Adding and Subtracting Decimals",
+            "text": "When adding or subtracting decimals, line up the decimal points first. Add zeros if they help you keep the places straight. Estimate before or after solving to check that your answer is sensible. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Line It Up",
             "title": "Line Up Decimals",
@@ -6292,6 +6348,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "mission": "Earn practice stars by matching fractions, decimals, and percents that mean the same thing.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Fractions to Decimals",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Connecting Fractions, Decimals, and Percents",
+            "text": "Fractions, decimals, and percents can describe the same amount. Percents are based on 100, so hundredths are especially helpful. Friendly benchmarks like 1/2, 1/4, 3/4, and 1 whole can guide your thinking. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Fractions to Decimals",
@@ -7043,6 +7106,13 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
         "mission": "Earn practice stars by reviewing fractions, decimals, and percents before the unit test.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Fraction Review",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Unit Review",
+            "text": "This review mixes the main ideas from Fractions, Decimals, and Percents. You may need to switch strategies from one question to the next. Read each question carefully, choose the skill it is asking for, and check whether your answer makes sense. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Fraction Review",
@@ -8336,3 +8406,6 @@ window.PracticeStarUnit["grade-5-math-unit-2-fractions-decimals-and-percents"] =
     "unitTest": "The unit test should cover fractions, decimals, percents, comparisons, operations, and real-world problems. Recommended weighting remains 40% lesson/review quizzes and 60% unit test."
   }
 };
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5Math = window.PracticeStarContent.grade5Math || { subject: "Mathematics", grade: 5, units: [] };
+window.PracticeStarContent.grade5Math.units.push(window.PracticeStarUnit["grade-5-math-unit-2"]);

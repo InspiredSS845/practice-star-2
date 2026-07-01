@@ -60,6 +60,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Angle",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Angles",
+            "text": "An angle is made when two rays meet at a point. Angles can be acute, right, obtuse, straight, or reflex depending on their size. Use what you know about 90 degrees and 180 degrees as benchmarks. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Name the Angle",
             "title": "Angle Sort",
@@ -831,6 +838,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "mission": "Earn practice stars by sorting and solving triangle clues.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Sides",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Classifying Triangles",
+            "text": "Triangles can be classified by their sides and by their angles. Side names describe equal side lengths, while angle names describe the size of the angles. Check both features before choosing. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Sides",
@@ -1604,6 +1618,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Four-Sided Shapes",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Classifying Quadrilaterals",
+            "text": "Quadrilaterals are four-sided shapes. They can be sorted by parallel sides, equal sides, and right angles. Some shapes fit more than one category, so read each description carefully. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Four-Sided Shapes",
             "title": "Shape Sort",
@@ -2374,6 +2395,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "mission": "Earn practice stars by finding mirror lines and matching symmetrical shapes.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Line Symmetry",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Symmetry",
+            "text": "A shape has symmetry when one part matches another part exactly. A line of symmetry divides a shape into two matching halves. Imagine folding the shape to test whether the parts line up. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Line Symmetry",
@@ -3146,6 +3174,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Add the Sides",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Perimeter",
+            "text": "Perimeter is the distance around a shape. Add the side lengths, making sure all measurements use the same unit. Perimeter is about the outside edge, not the space inside. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Add the Sides",
             "title": "Walk Around",
@@ -3916,6 +3951,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "mission": "Earn practice stars by covering shapes with square units.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Count Squares",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Area",
+            "text": "Area measures the space inside a flat shape. For rectangles, multiply length by width because you are counting square units in rows and columns. Always include square units in your thinking. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Count Squares",
@@ -4688,6 +4730,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "mission": "Earn practice stars by building prisms from unit cubes.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Count Cubes",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Volume",
+            "text": "Volume measures how much space a 3D object takes up. Rectangular prisms can be counted in layers of cubic units. Think length, width, and height working together. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Count Cubes",
@@ -5463,6 +5512,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Choose Units",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Metric Measurement",
+            "text": "Metric measurement uses units such as millimetres, centimetres, metres, kilometres, grams, kilograms, millilitres, and litres. Choose a unit that fits what is being measured. Converting means keeping the same amount but naming it with a different unit. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Choose Units",
             "title": "Best Unit",
@@ -6236,6 +6292,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Ordered Pairs",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Grids and Coordinates",
+            "text": "Coordinates tell the location of a point on a grid. The first number moves across, and the second number moves up or down. Start at the origin and follow the order carefully. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Ordered Pairs",
             "title": "Read the Pair",
@@ -7008,6 +7071,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Move",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Transformations",
+            "text": "Transformations move or change a shape. A translation slides, a reflection flips, and a rotation turns. The shape may move, but its size usually stays the same. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Name the Move",
             "title": "Move Sort",
@@ -7778,6 +7848,13 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
         "mission": "Earn practice stars by reviewing the big ideas from Unit 5.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Shapes and Angles",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Unit Review",
+            "text": "This review mixes the main ideas from Spatial Sense. You may need to switch strategies from one question to the next. Read each question carefully, choose the skill it is asking for, and check whether your answer makes sense. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Shapes and Angles",
@@ -9337,3 +9414,6 @@ window.PracticeStarUnit["grade-5-math-unit-5"] = {
     "unitTest": "The unit test should cover angles, triangles, quadrilaterals, symmetry, perimeter, area, volume, metric measurement, grids, coordinates, and transformations. Recommended weighting remains 40% lesson/review quizzes and 60% unit test."
   }
 };
+window.PracticeStarContent = window.PracticeStarContent || {};
+window.PracticeStarContent.grade5Math = window.PracticeStarContent.grade5Math || { subject: "Mathematics", grade: 5, units: [] };
+window.PracticeStarContent.grade5Math.units.push(window.PracticeStarUnit["grade-5-math-unit-5"]);

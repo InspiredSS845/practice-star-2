@@ -27,6 +27,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: The Cycle",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Judges and the Need for a King",
+            "text": "This lesson practises the cycle of sin, oppression, crying out, rescue, and the need for faithful leadership. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: Judges 2:6-23; Judges 21:25. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: The Cycle",
             "title": "Judges Pattern",
@@ -200,6 +207,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Samuel",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Samuel, Saul, and David",
+            "text": "This lesson practises God's word through Samuel, Saul's disobedience, David's heart, and the covenant promise. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: 1 Samuel 3:1-21; 1 Samuel 15:1-23; 1 Samuel 16:1-13; 2 Samuel 7:1-17. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Samuel",
@@ -375,6 +389,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Wisdom",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Solomon and the Temple",
+            "text": "This lesson practises wisdom, temple worship, prayer, and the danger of divided loyalty. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: 1 Kings 3:3-14; 1 Kings 8:22-61; 1 Kings 11:1-13. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Wisdom",
             "title": "Solomon's Request",
@@ -548,6 +569,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Division",
+            "title": "Before You Begin",
+            "prompt": "Get ready: The Divided Kingdom",
+            "text": "This lesson practises the divided kingdom, idolatry, warning, and God's patience. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: 1 Kings 12:1-33; 2 Kings 17:7-23. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Division",
@@ -723,6 +751,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Types of Psalms",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Psalms and Worship",
+            "text": "This lesson practises praise, lament, confession, thanksgiving, and trust in the Psalms. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: Psalm 1; Psalm 23; Psalm 51; Psalm 103. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Types of Psalms",
             "title": "Praise",
@@ -896,6 +931,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Prophetic Message",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Prophets Speak God's Word",
+            "text": "This lesson practises prophetic warning, justice, mercy, hope, and the promised Saviour. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: Isaiah 1:1-20; Micah 6:6-8; Jeremiah 31:31-34; Isaiah 53:1-12. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Prophetic Message",
@@ -1071,6 +1113,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Why Exile Came",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Exile",
+            "text": "This lesson practises exile as judgment after warnings, while also seeing God's continuing promises. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: 2 Kings 17:7-23; 2 Kings 25:1-21; Daniel 1:1-21. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Why Exile Came",
             "title": "Covenant Unfaithfulness",
@@ -1244,6 +1293,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Return",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Return and Waiting",
+            "text": "This lesson practises return from exile, rebuilding, worship restored, and waiting for Christ. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: Ezra 1:1-4; Ezra 3:1-13; Nehemiah 2:11-20; Malachi 3:1-4. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Return",

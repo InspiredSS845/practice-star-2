@@ -27,6 +27,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Incarnation",
+            "title": "Before You Begin",
+            "prompt": "Get ready: The Promised Saviour Arrives",
+            "text": "This lesson practises incarnation, fulfilled promises, and Jesus' birth. Jesus is the promised Saviour, King, and Son of God. Scripture connection: Luke 1:26-38; Luke 2:1-20; John 1:1-14. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Incarnation",
             "title": "The Word Became Flesh",
@@ -200,6 +207,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Kingdom Message",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Jesus Announces the Kingdom",
+            "text": "This lesson practises repentance, faith, discipleship, and the kingdom of God. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: Mark 1:14-20; Matthew 5:1-16; Luke 4:16-21. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Kingdom Message",
@@ -375,6 +389,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Authority",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Miracles Show Who Jesus Is",
+            "text": "This lesson practises Jesus' authority over sickness, storms, evil, death, and creation. Jesus is the promised Saviour, King, and Son of God. Scripture connection: Mark 2:1-12; Mark 4:35-41; John 11:1-44. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Authority",
             "title": "Forgiveness and Healing",
@@ -548,6 +569,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Parables",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Parables Teach Truth",
+            "text": "This lesson practises kingdom stories and heart responses to Jesus' teaching. Jesus is the promised Saviour, King, and Son of God. Scripture connection: Luke 10:25-37; Luke 15:11-32; Matthew 13:1-23. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Parables",
@@ -723,6 +751,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Fulfillment",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Jesus and the Law",
+            "text": "This lesson practises fulfillment, heart obedience, holiness, love for God, and love for neighbour. Jesus is the promised Saviour, King, and Son of God. Scripture connection: Matthew 5:17-48; Matthew 22:34-40. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Fulfillment",
             "title": "Not Abolish",
@@ -896,6 +931,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Why the Cross?",
+            "title": "Before You Begin",
+            "prompt": "Get ready: The Cross",
+            "text": "This lesson practises sin, substitution, sacrifice, forgiveness, justice, and love at the cross. Jesus is the promised Saviour, King, and Son of God. Scripture connection: Mark 15:21-39; John 19:16-30; 1 Peter 2:24. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Why the Cross?",
@@ -1071,6 +1113,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Resurrection",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Resurrection and Ascension",
+            "text": "This lesson practises Jesus alive, victory, His reign, and His sending of His people. Jesus is the promised Saviour, King, and Son of God. Scripture connection: Luke 24:1-53; Acts 1:1-11; 1 Corinthians 15:3-8. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Resurrection",
             "title": "Empty Tomb",
@@ -1244,6 +1293,13 @@ window.PracticeStarContent.grade5BibleChurchHistory = window.PracticeStarContent
           "stars": 6
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Promise",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Jesus Will Return",
+            "text": "This lesson practises hope, judgment, restoration, and faithful living now. God is faithful to His promises, and His people need a true and faithful King. Scripture connection: Matthew 24:36-44; Acts 1:11; Revelation 21:1-5. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Promise",

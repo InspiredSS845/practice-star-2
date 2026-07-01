@@ -18,6 +18,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Ones and Tens",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Place Value",
+            "text": "Place value tells how much a digit is worth because of where it sits in a number. In 58, the 5 means 5 tens, or 50, while the 8 means 8 ones. When numbers get larger, read each place carefully before choosing an answer. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Ones and Tens",
             "title": "Quick Check",
@@ -1252,6 +1259,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Number Periods",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Reading and Writing Large Numbers",
+            "text": "Large numbers are easier to read when you break them into periods and use place-value words. Commas help separate thousands from hundreds. Standard form uses digits, word form uses words, and expanded form shows the value of each digit. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Number Periods",
             "title": "Find the Break",
@@ -1975,6 +1989,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Bigger, Smaller, Equal",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Comparing and Ordering Numbers",
+            "text": "To compare whole numbers, first look at how many digits each number has. If the numbers have the same length, compare from left to right using place value. Ordering numbers means putting them from least to greatest or greatest to least. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Bigger, Smaller, Equal",
             "title": "Choose the Bigger Number",
@@ -2695,6 +2716,13 @@
           "stars": 10
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Nearest Ten",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Rounding and Estimating",
+            "text": "Rounding helps you work with numbers that are easier to think about. Look at the place you are rounding to, then check the digit to the right. Estimating is useful for checking whether an exact answer is reasonable. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Nearest Ten",
@@ -3418,6 +3446,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Friendly Numbers",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Addition Strategies",
+            "text": "Addition can be solved in more than one smart way. You can break numbers apart, make friendly numbers, use compensation, or line up place values. A quick estimate helps you check whether your answer makes sense. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Friendly Numbers",
             "title": "Make a Ten",
@@ -4140,6 +4175,13 @@
           "stars": 10
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Count Up",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Subtraction Strategies",
+            "text": "Subtraction means finding the difference. You can count up, break numbers apart, use compensation, or subtract by place value. Always think about whether the answer is reasonable for the numbers in the problem. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Count Up",
@@ -4868,6 +4910,13 @@
           "label": "Practice stars"
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Groups and Arrays",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Multiplication Strategies",
+            "text": "Multiplication is repeated equal groups. In Grade 5, you can multiply by breaking numbers apart, using partial products, adjusting with compensation, or estimating first. Think about the size of the answer before choosing. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Groups and Arrays",
@@ -5601,6 +5650,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Equal Groups",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Division Strategies",
+            "text": "Division can mean sharing equally or making equal groups. Use related multiplication facts, partial quotients, and estimates to help. If there is a remainder, think about what it means in the story problem. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Equal Groups",
             "title": "Share Fairly",
@@ -6331,6 +6387,13 @@
           "label": "Practice stars"
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Make a Plan",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Multi-Step Word Problems",
+            "text": "Multi-step problems need a plan before you calculate. First find what the question is asking, then decide which operation belongs in each step. After solving, reread the problem to make sure your answer fits. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Make a Plan",
@@ -7063,6 +7126,13 @@
           "label": "Practice stars"
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Number Sense Warm-Up",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Review",
+            "text": "Review is a Grade 5 math skill that gets easier when you slow down and look for the structure of the problem. This review activity mixes the major ideas from Grade 5 Math Unit 1. It is intended as practice before the Unit Test and should help students switch between strategies instead of practising one skill at a time. Use a strategy, check your work, and choose the answer that best matches the question. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Number Sense Warm-Up",

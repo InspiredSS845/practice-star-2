@@ -24,6 +24,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Bible Basics",
+            "title": "Before You Begin",
+            "prompt": "Get ready: What Is the Bible?",
+            "text": "This lesson practises basic Bible structure: testaments, books, chapters, verses, and the Bible as one connected story. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: Luke 24:27; 2 Timothy 3:16. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Bible Basics",
             "title": "One Book, Many Books",
@@ -240,6 +247,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: What Inspired Means",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Inspired by God",
+            "text": "This lesson practises understanding inspiration: God spoke through human authors so Scripture is truly His Word. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: 2 Timothy 3:16; 2 Peter 1:21. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: What Inspired Means",
             "title": "God's Message",
@@ -454,6 +468,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Truth",
+            "title": "Before You Begin",
+            "prompt": "Get ready: True and Trustworthy",
+            "text": "This lesson practises recognizing Scripture as true, trustworthy, and authoritative for belief and life. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: Psalm 119:160; John 17:17. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Truth",
             "title": "A Trustworthy Source",
@@ -667,6 +688,13 @@
           "stars": 9
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Old Testament Sections",
+            "title": "Before You Begin",
+            "prompt": "Get ready: How the Bible Is Organized",
+            "text": "This lesson practises sorting major Bible sections such as law, history, poetry, prophets, Gospels, Acts, letters, and Revelation. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: Luke 24:44. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Old Testament Sections",
@@ -884,6 +912,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Book, Chapter, Verse",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Finding Bible References",
+            "text": "This lesson practises reading Bible references with book, chapter, verse, ranges, and nearby context. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: Acts 17:11. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Book, Chapter, Verse",
             "title": "Bible Address Parts",
@@ -1100,6 +1135,13 @@
         },
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: What Genre Means",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Bible Genres",
+            "text": "This lesson practises matching Bible genres to careful reading habits while holding that all Scripture is true. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: Psalm 1; Luke 1:1-4. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
+          {
             "kind": "question",
             "level": "Level 1: What Genre Means",
             "title": "Kind of Writing",
@@ -1315,6 +1357,13 @@
           "stars": 9
         },
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Why Memorize",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Scripture Memory",
+            "text": "This lesson practises why Christians memorize, meditate on, and obey Scripture without treating memory work as magic or performance. God gave His Word so His people can know Him, trust Him, and obey Him. Scripture connection: Psalm 119:11; Joshua 1:8. Read carefully, and choose the answer that best fits what the Bible teaches."
+          },
           {
             "kind": "question",
             "level": "Level 1: Why Memorize",

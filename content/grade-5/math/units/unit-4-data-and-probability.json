@@ -58,6 +58,13 @@
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Good Survey Questions",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Collecting Data",
+            "text": "Data are pieces of information gathered to answer a question. Good data starts with a clear question and fair collection method. Think about who or what is being counted before using the results. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Good Survey Questions",
             "title": "Question Check",
@@ -828,6 +835,13 @@
         "mission": "Earn practice stars by sorting data into clear tables.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Tally Marks",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Organizing Data",
+            "text": "Organizing data makes information easier to read. Tables, tally charts, and categories help keep data clear. Before answering, check the labels and make sure each value is in the right place. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Tally Marks",
@@ -1600,6 +1614,13 @@
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Graph Parts",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Reading Graphs",
+            "text": "Graphs show data visually. Read the title, labels, scale, and key before answering questions. Many graph mistakes happen when someone skips the scale or compares the wrong categories. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Graph Parts",
             "title": "Find the Feature",
@@ -2370,6 +2391,13 @@
         "mission": "Earn practice stars by choosing and building clear graphs.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Pick the Graph",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Creating Graphs",
+            "text": "A good graph matches the data and has a clear title, labels, and scale. Different graphs are useful for different jobs. Choose the type that makes the information easiest to understand. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Pick the Graph",
@@ -3142,6 +3170,13 @@
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Compare Counts",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Interpreting Data",
+            "text": "Interpreting data means explaining what the numbers show. Look for patterns, differences, totals, and trends. Use the data as evidence instead of guessing from memory. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Compare Counts",
             "title": "Compare It",
@@ -3912,6 +3947,13 @@
         "mission": "Earn practice stars by spotting graph tricks and fixing unfair graphs.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Scale Tricks",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Misleading Graphs",
+            "text": "Graphs can be misleading if the scale, labels, or picture sizes are unfair. Always check whether the graph is showing the data honestly. A graph should help people understand, not trick them. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Scale Tricks",
@@ -4684,6 +4726,13 @@
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Certain or Impossible",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Probability Language",
+            "text": "Probability describes how likely something is to happen. Words like impossible, unlikely, equally likely, likely, and certain help compare chances. Use the information given, not just what you hope will happen. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Certain or Impossible",
             "title": "Chance Check",
@@ -5455,6 +5504,13 @@
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
+            "kind": "lessonIntro",
+            "level": "Level 1: Outcomes and Trials",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Simple Probability Experiments",
+            "text": "A probability experiment tests what can happen. The possible results are outcomes, and repeated trials can show patterns. More trials often give a clearer picture of what is likely. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
+          {
             "kind": "question",
             "level": "Level 1: Outcomes and Trials",
             "title": "Experiment Words",
@@ -6222,6 +6278,13 @@
         "mission": "Earn practice stars by reviewing the big ideas from Unit 4.",
         "reward": "10 practice stars after each completed level",
         "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Collect and Organize",
+            "title": "Before You Begin",
+            "prompt": "Get ready: Unit Review",
+            "text": "This review mixes the main ideas from Data and Probability. You may need to switch strategies from one question to the next. Read each question carefully, choose the skill it is asking for, and check whether your answer makes sense. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+          },
           {
             "kind": "question",
             "level": "Level 1: Collect and Organize",
