@@ -347,7 +347,9 @@ function pilotLessonQuizzes() {
       (unit.lessons || []).map((lesson) => ({
       ...lesson,
       libraryId: library.id,
-      unitTitle: unit.title
+      unitTitle: unit.title,
+      subject: library.subject,
+      grade: library.grade
     }))
     )
   );
@@ -360,11 +362,17 @@ function pilotLessonQuizzes() {
         id: quizId,
         lessonTitle: lesson.title,
         unitTitle: lesson.unitTitle,
+        quizKind: lesson.type === "unitTest" ? "Unit Quiz" : "Lesson Quiz",
+        subject: lesson.subject,
+        grade: lesson.grade,
         quiz: {
           ...lesson.quiz,
           id: quizId,
           teacherId: activeClass?.teacher?.id || activeStudent?.teacherId || "",
           lessonTitle: lesson.title,
+          quizKind: lesson.type === "unitTest" ? "Unit Quiz" : "Lesson Quiz",
+          subject: lesson.subject,
+          grade: lesson.grade,
           isFinalLessonQuiz: true
         }
       };
@@ -632,6 +640,185 @@ async function refreshStudentActivities({ force = false, silent = true } = {}) {
   }
 }
 
+const studentSubjectOrder = [
+  "Bible and Church History",
+  "Mathematics",
+  "Language",
+  "Science and Technology",
+  "Social Studies",
+  "Health",
+  "Arts",
+  "French",
+  "Spelling",
+  "Extra Practice Quizzes"
+];
+
+const studentStatusSections = [
+  { key: "new", title: "New Assignments" },
+  { key: "inProgress", title: "Assignments in Progress" },
+  { key: "completed", title: "Completed Assignments and Quizzes" }
+];
+
+function normalizeActivitySubject(subject) {
+  const cleanSubject = String(subject || "").trim();
+  if (cleanSubject === "Science") {
+    return "Science and Technology";
+  }
+  if (cleanSubject === "Bible") {
+    return "Bible and Church History";
+  }
+  return cleanSubject || "Other";
+}
+
+function subjectSortIndex(subject) {
+  const index = studentSubjectOrder.indexOf(normalizeActivitySubject(subject));
+  return index === -1 ? studentSubjectOrder.length : index;
+}
+
+function statusSortIndex(status) {
+  const index = studentStatusSections.findIndex((section) => section.key === status);
+  return index === -1 ? studentStatusSections.length : index;
+}
+
+function activityStatusLabel(status) {
+  const section = studentStatusSections.find((item) => item.key === status);
+  return section?.title || "Assignments";
+}
+
+function currentStudentQuizAttempts() {
+  return window.PracticeStar.localQuizAttemptsForStudent?.(activeStudent?.id || "", activeStudentName) || [];
+}
+
+function quizAttemptForId(quizId, quizAttempts) {
+  return quizAttempts.find((attempt) => attempt.quizId === quizId) || null;
+}
+
+function percentForAttempt(attempt) {
+  if (!attempt) {
+    return 0;
+  }
+  return attempt.percent || Math.round((attempt.score / attempt.total) * 100);
+}
+
+function studentSessionForList(list, sessions) {
+  return sessions.find((session) =>
+    session.listId === list.id &&
+    (
+      (activeStudent?.id && session.studentId === activeStudent.id) ||
+      (!activeStudent?.id && studentNameMatches(session.studentName))
+    )
+  ) || null;
+}
+
+function spellingActivityState(list, sessions) {
+  const session = studentSessionForList(list, sessions);
+  if (!session) {
+    return {
+      status: "new",
+      buttonLabel: "Start",
+      note: ""
+    };
+  }
+
+  const mastered = session.wordProgress.filter((word) => word.mastered).length;
+  const totalWordsInSession = session.wordProgress.length;
+  const hasStarted = Boolean(
+    session.activeRun ||
+    session.history.length ||
+    session.currentWordIndex > 0 ||
+    session.wordProgress.some((word) => word.correct || word.missed || word.level > 0)
+  );
+  const completed = session.completed || (totalWordsInSession > 0 && mastered === totalWordsInSession);
+
+  if (completed) {
+    return {
+      status: "completed",
+      buttonLabel: "Practice Again",
+      note: `Completed - ${mastered} of ${totalWordsInSession} words mastered.`
+    };
+  }
+
+  if (hasStarted) {
+    return {
+      status: "inProgress",
+      buttonLabel: "Continue",
+      note: `${mastered} of ${totalWordsInSession} words mastered.`
+    };
+  }
+
+  return {
+    status: "new",
+    buttonLabel: "Start",
+    note: ""
+  };
+}
+
+function renderActivityCard(card) {
+  const disabled = card.disabled ? "disabled" : "";
+  const statusClass = `${card.status}-activity-row`;
+  const extraClass = card.className ? ` ${card.className}` : "";
+  return `
+    <article class="activity-row ${statusClass}${extraClass}">
+      <div>
+        <p class="activity-status-note">${window.PracticeStar.escapeHtml(activityStatusLabel(card.status))}</p>
+        <h3>${window.PracticeStar.escapeHtml(card.title)}</h3>
+        ${card.hints.map((hint) => `<p class="hint">${window.PracticeStar.escapeHtml(hint)}</p>`).join("")}
+      </div>
+      <button class="start-activity-button" type="button" data-type="${window.PracticeStar.escapeHtml(card.type)}" data-id="${window.PracticeStar.escapeHtml(card.id)}" ${disabled}>${window.PracticeStar.escapeHtml(card.buttonLabel)}</button>
+    </article>
+  `;
+}
+
+function renderSubjectActivities(cards) {
+  const sortedCards = [...cards].sort((a, b) =>
+    statusSortIndex(a.status) - statusSortIndex(b.status) ||
+    a.order - b.order ||
+    a.title.localeCompare(b.title)
+  );
+
+  return studentStatusSections
+    .map((section) => {
+      const statusCards = sortedCards.filter((card) => card.status === section.key);
+      if (!statusCards.length) {
+        return "";
+      }
+      return `
+        <section class="student-status-section">
+          <div class="student-status-heading">
+            <h4>${section.title}</h4>
+            <span>${statusCards.length}</span>
+          </div>
+          <div class="card-list">
+            ${statusCards.map(renderActivityCard).join("")}
+          </div>
+        </section>
+      `;
+    })
+    .join("");
+}
+
+function renderOrganizedActivities(cards) {
+  const subjects = [...new Set(cards.map((card) => card.subject))]
+    .sort((a, b) => subjectSortIndex(a) - subjectSortIndex(b) || a.localeCompare(b));
+
+  return `
+    <div class="student-subject-list">
+      ${subjects.map((subject) => {
+        const subjectCards = cards.filter((card) => card.subject === subject);
+        return `
+          <section class="student-subject-section">
+            <div class="student-subject-header">
+              <h3>${window.PracticeStar.escapeHtml(subject)}</h3>
+              <span>${subjectCards.length} item${subjectCards.length === 1 ? "" : "s"}</span>
+            </div>
+            ${renderSubjectActivities(subjectCards)}
+          </section>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
 function renderActivities(classBundle, student) {
   activeClass = classBundle;
   activeStudent = student;
@@ -655,57 +842,87 @@ function renderActivities(classBundle, student) {
     return;
   }
 
-  const spellingCards = classBundle.lists.map((list) => `
-    <article class="activity-row">
-      <div>
-        <h3>${window.PracticeStar.escapeHtml(list.name)}</h3>
-        <p class="hint">Spelling practice - ${list.words.length} word${list.words.length === 1 ? "" : "s"}</p>
-      </div>
-      <button class="start-activity-button" type="button" data-type="spelling" data-id="${list.id}">Start</button>
-    </article>
-  `);
-
-  const quizCards = classBundle.quizzes.map((quiz) => `
-    <article class="activity-row">
-      <div>
-        <h3>${window.PracticeStar.escapeHtml(quiz.title)}</h3>
-        <p class="hint">Quiz - ${quiz.questions.length} question${quiz.questions.length === 1 ? "" : "s"}</p>
-      </div>
-      <button class="start-activity-button" type="button" data-type="quiz" data-id="${quiz.id}">Start</button>
-    </article>
-  `);
+  const quizAttempts = currentStudentQuizAttempts();
+  const spellingSessions = window.PracticeStar.sessionsForTeacher(teacherId);
+  let activityOrder = 0;
 
   const learningCards = learningActivities.map((item) => {
     const state = learningActivityState(item.id);
-    return `
-      <article class="activity-row learning-activity-row${state.completed ? " completed-activity-row" : ""}">
-        <div>
-          <h3>${window.PracticeStar.escapeHtml(item.lessonTitle)}: ${window.PracticeStar.escapeHtml(item.title)}</h3>
-          <p class="hint">Learning mission - ${window.PracticeStar.escapeHtml(item.unitTitle)}</p>
-          ${state.note ? `<p class="hint completion-hint">${window.PracticeStar.escapeHtml(state.note)}</p>` : ""}
-        </div>
-        <button class="start-activity-button" type="button" data-type="learning" data-id="${item.id}">${state.buttonLabel}</button>
-      </article>
-    `;
+    return {
+      id: item.id,
+      type: "learning",
+      subject: normalizeActivitySubject(item.subject),
+      status: state.completed ? "completed" : state.inProgress ? "inProgress" : "new",
+      title: `${item.lessonTitle}: ${item.title}`,
+      hints: [
+        `Learning mission - ${item.unitTitle}`,
+        state.note
+      ].filter(Boolean),
+      buttonLabel: state.buttonLabel,
+      className: `learning-activity-row${state.completed ? " completed-activity-row" : ""}`,
+      order: activityOrder += 1
+    };
   });
 
   const finalQuizCards = lessonQuizzes.map((item) => {
     const priorAttempt = window.PracticeStar.quizAttemptForStudent(item.id, activeStudent?.id || "", activeStudentName);
     const canRetake = window.PracticeStar.finalQuizRetakeForStudent(activeClass.teacher?.id || "", item.id, activeStudent?.id || "");
-    return `
-      <article class="activity-row final-quiz-row">
-        <div>
-          <h3>${window.PracticeStar.escapeHtml(item.lessonTitle)}: ${window.PracticeStar.escapeHtml(item.quiz.title)}</h3>
-          <p class="hint">Final lesson quiz - ${item.quiz.questions.length} questions - one scored attempt</p>
-          ${priorAttempt && !canRetake ? `<p class="hint">Recorded score: ${Math.round((priorAttempt.score / priorAttempt.total) * 100)}%</p>` : ""}
-          ${canRetake ? `<p class="hint">Your teacher opened this quiz for another try.</p>` : ""}
-        </div>
-        <button class="start-activity-button" type="button" data-type="finalQuiz" data-id="${item.id}" ${priorAttempt && !canRetake ? "disabled" : ""}>${priorAttempt && !canRetake ? "Completed" : "Start Final Quiz"}</button>
-      </article>
-    `;
+    const quizKind = item.quizKind || "Lesson Quiz";
+    return {
+      id: item.id,
+      type: "finalQuiz",
+      subject: normalizeActivitySubject(item.subject),
+      status: canRetake ? "inProgress" : priorAttempt ? "completed" : "new",
+      title: `${item.lessonTitle}: ${item.quiz.title}`,
+      hints: [
+        `${quizKind} - ${item.quiz.questions.length} questions - one scored attempt`,
+        priorAttempt && !canRetake ? `Recorded score: ${percentForAttempt(priorAttempt)}%` : "",
+        canRetake ? "Re-do opened by teacher." : ""
+      ].filter(Boolean),
+      buttonLabel: priorAttempt && !canRetake ? "Completed" : `Start ${quizKind}`,
+      disabled: priorAttempt && !canRetake,
+      className: `final-quiz-row${priorAttempt && !canRetake ? " completed-activity-row" : ""}${canRetake ? " retake-activity-row" : ""}`,
+      order: activityOrder += 1
+    };
   });
 
-  activityList.innerHTML = [...learningCards, ...finalQuizCards, ...spellingCards, ...quizCards].join("");
+  const spellingCards = classBundle.lists.map((list) => {
+    const state = spellingActivityState(list, spellingSessions);
+    return {
+      id: list.id,
+      type: "spelling",
+      subject: "Spelling",
+      status: state.status,
+      title: list.name,
+      hints: [
+        `Spelling practice - ${list.words.length} word${list.words.length === 1 ? "" : "s"}`,
+        state.note
+      ].filter(Boolean),
+      buttonLabel: state.buttonLabel,
+      className: state.status === "completed" ? "completed-activity-row" : "",
+      order: activityOrder += 1
+    };
+  });
+
+  const quizCards = classBundle.quizzes.map((quiz) => {
+    const priorAttempt = quizAttemptForId(quiz.id, quizAttempts);
+    return {
+      id: quiz.id,
+      type: "quiz",
+      subject: "Extra Practice Quizzes",
+      status: priorAttempt ? "completed" : "new",
+      title: quiz.title,
+      hints: [
+        `Extra Practice Quiz - ${quiz.questions.length} question${quiz.questions.length === 1 ? "" : "s"}`,
+        priorAttempt ? `Last score: ${percentForAttempt(priorAttempt)}%` : ""
+      ].filter(Boolean),
+      buttonLabel: priorAttempt ? "Practice Again" : "Start Extra Practice Quiz",
+      className: priorAttempt ? "completed-activity-row" : "",
+      order: activityOrder += 1
+    };
+  });
+
+  activityList.innerHTML = renderOrganizedActivities([...learningCards, ...finalQuizCards, ...spellingCards, ...quizCards]);
   document.querySelectorAll(".start-activity-button").forEach((button) => {
     button.addEventListener("click", () => {
       if (button.dataset.type === "learning") {
@@ -1250,8 +1467,9 @@ function startFinalQuiz() {
     return;
   }
 
+  const quizKind = activeFinalQuiz.quizKind || "Lesson Quiz";
   finalQuizTitle.textContent = activeFinalQuiz.title;
-  finalQuizDetails.textContent = `${activeFinalQuiz.questions.length} questions. Answer each one carefully. You will see your score after you submit.`;
+  finalQuizDetails.textContent = `${quizKind} - ${activeFinalQuiz.questions.length} questions. Answer each one carefully. You will see your score after you submit.`;
   finalQuizDisplayChoices = activeFinalQuiz.questions.map((question) => shuffledChoices(question.choices || []));
   finalQuizForm.innerHTML = `
     ${groupedFinalQuizQuestions(activeFinalQuiz.questions).map((section) => `
@@ -1273,7 +1491,7 @@ function startFinalQuiz() {
       </section>
     `).join("")}
     <div class="final-quiz-submit-row">
-      <button type="submit">Submit Final Quiz</button>
+      <button type="submit">Submit ${quizKind}</button>
       <button class="secondary" type="button" id="cancelFinalQuizButton">Back to Activities</button>
     </div>
   `;
@@ -1376,7 +1594,7 @@ function showQuizQuestion() {
   quizTotalQuestions.textContent = String(activeQuiz.questions.length);
   quizProgressBar.style.width = `${(quizIndex / activeQuiz.questions.length) * 100}%`;
   quizScore.textContent = String(quizRunScore);
-  quizTypeLabel.textContent = activeQuiz.title;
+  quizTypeLabel.textContent = `Extra Practice Quiz: ${activeQuiz.title}`;
   quizPrompt.textContent = question.prompt;
   quizFeedback.textContent = "Choose an answer.";
   quizFeedback.className = "feedback";
@@ -1445,7 +1663,7 @@ function showQuizResults() {
     isFinalLessonQuiz: false
   });
 
-  quizResultTitle.textContent = "Quiz complete!";
+  quizResultTitle.textContent = "Extra practice quiz complete!";
   quizFinalScore.textContent = `${activeStudentName}, you scored ${quizRunScore} out of ${activeQuiz.questions.length}.`;
   quizResultsList.innerHTML = quizAnswers
     .map((answer) => `

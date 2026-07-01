@@ -438,7 +438,7 @@ function curriculumLessonLabel(library, lesson) {
   }
 
   if (lesson.type === "unitTest") {
-    return "Unit test";
+    return "Unit Quiz";
   }
 
   if (lesson.type === "review") {
@@ -592,7 +592,7 @@ function renderLessonQuiz(quiz) {
     return `<p>Quiz content will be added later.</p>`;
   }
 
-  const quizLabel = quiz.type === "unitTest" ? "unit test" : "final scored quiz";
+  const quizLabel = quiz.type === "unitTest" ? "unit quiz" : "lesson quiz";
   const sections = quiz.questions.reduce((allSections, question, index) => {
     const sectionName = question.section || "Final Quiz";
     let section = allSections.find((item) => item.name === sectionName);
@@ -691,7 +691,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
     return;
   }
 
-  const lessonType = lesson.type === "unitTest" ? "Unit test" : lesson.type === "review" ? "Review" : "Lesson";
+  const lessonType = lesson.type === "unitTest" ? "Unit Quiz" : lesson.type === "review" ? "Review" : "Lesson";
   const teacher = currentTeacher();
   const students = await window.PracticeStar.studentsForTeacher(teacher.id);
   await window.PracticeStar.syncContentAssignmentsForTeacher(teacher.id);
@@ -728,7 +728,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
       ` : "";
       const quizSection = lesson.quiz?.questions?.length ? `
         <div class="preview-section">
-          <h3>${lesson.type === "unitTest" ? "Ready-to-Share Unit Quiz" : "Ready-to-Share Quiz"}</h3>
+          <h3>${lesson.type === "unitTest" ? "Ready-to-Share Unit Quiz" : "Ready-to-Share Lesson Quiz"}</h3>
           ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
           ${renderLessonQuiz(lesson.quiz)}
         </div>
@@ -774,7 +774,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   if (lesson.type === "unitTest") {
     curriculumPreviewContent.innerHTML = `
       <div class="preview-section">
-        <h3>Unit Test</h3>
+        <h3>Unit Quiz</h3>
         ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
         ${renderLessonQuiz(lesson.quiz)}
       </div>
@@ -791,7 +791,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
         ${renderStudentActivity(lesson.studentActivity)}
       </div>
       <div class="preview-section">
-        <h3>Ready-to-Share Quiz</h3>
+        <h3>Ready-to-Share Lesson Quiz</h3>
         ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
         ${renderLessonQuiz(lesson.quiz)}
       </div>
@@ -1204,15 +1204,15 @@ function updateQuizLibraryState(quizCount) {
   quizLibraryPanel.classList.toggle("is-collapsible", canCollapse);
   quizLibraryPanel.classList.toggle("is-collapsed", canCollapse && isQuizLibraryCollapsed);
   quizLibraryToggle.hidden = !canCollapse;
-  quizLibraryToggle.textContent = isQuizLibraryCollapsed ? "Show quizzes" : "Hide quizzes";
+  quizLibraryToggle.textContent = isQuizLibraryCollapsed ? "Show extra practice quizzes" : "Hide extra practice quizzes";
   quizLibraryToggle.setAttribute("aria-expanded", String(!isQuizLibraryCollapsed));
 
   if (quizCount === 0) {
-    quizLibraryCount.textContent = "No quizzes yet.";
+    quizLibraryCount.textContent = "No extra practice quizzes yet.";
   } else if (quizCount === 1) {
-    quizLibraryCount.textContent = "1 quiz saved.";
+    quizLibraryCount.textContent = "1 extra practice quiz saved.";
   } else {
-    quizLibraryCount.textContent = `${quizCount} quizzes saved.`;
+    quizLibraryCount.textContent = `${quizCount} extra practice quizzes saved.`;
   }
 }
 
@@ -1224,7 +1224,7 @@ async function renderQuizCards() {
   updateQuizLibraryState(quizzes.length);
 
   if (quizzes.length === 0) {
-    quizCards.innerHTML = `<p class="empty-note">No quizzes yet. Create your first quiz above.</p>`;
+    quizCards.innerHTML = `<p class="empty-note">No extra practice quizzes yet. Create your first one above.</p>`;
     return;
   }
 
@@ -1236,7 +1236,7 @@ async function renderQuizCards() {
         <div>
           <h3>${window.PracticeStar.escapeHtml(quiz.title)}</h3>
           <p class="hint">${quiz.questions.length} question${quiz.questions.length === 1 ? "" : "s"} - ${isShared ? "Shared" : "Not shared"}</p>
-          <p>Students find shared quizzes with your student code.</p>
+          <p>Students find shared extra practice quizzes with your student code.</p>
         </div>
         <div class="share-card-actions">
           <button class="secondary edit-quiz-button" type="button" data-quiz-id="${quiz.id}">Edit</button>
@@ -1257,7 +1257,7 @@ async function renderQuizCards() {
       quizTitle.value = quiz.title;
       draftQuestions = quiz.questions.map((question) => ({ ...question }));
       deleteQuizButton.disabled = false;
-      quizStatus.textContent = `Editing ${quiz.title}.`;
+      quizStatus.textContent = `Editing extra practice quiz: ${quiz.title}.`;
       renderDraftQuestions();
       quizTitle.focus();
     });
@@ -1405,12 +1405,12 @@ quizForm.addEventListener("submit", async (event) => {
 deleteQuizButton.addEventListener("click", async () => {
   const teacher = currentTeacher();
   if (!activeQuizId.value) {
-    quizStatus.textContent = "Choose a quiz to delete first.";
+    quizStatus.textContent = "Choose an extra practice quiz to delete first.";
     return;
   }
   const deleted = await window.PracticeStar.deleteQuiz(teacher.id, activeQuizId.value);
   clearQuizForm();
-  quizStatus.textContent = deleted ? "Quiz deleted." : "Could not delete that quiz.";
+  quizStatus.textContent = deleted ? "Extra practice quiz deleted." : "Could not delete that extra practice quiz.";
   await renderQuizCards();
 });
 

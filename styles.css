@@ -999,6 +999,84 @@ textarea:focus {
   align-items: center;
 }
 
+.student-subject-list {
+  display: grid;
+  gap: 26px;
+}
+
+.student-subject-section {
+  display: grid;
+  gap: 14px;
+}
+
+.student-subject-section + .student-subject-section {
+  padding-top: 22px;
+  border-top: 4px solid #e8f5ff;
+}
+
+.student-subject-header,
+.student-status-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.student-subject-header h3,
+.student-status-heading h4 {
+  margin: 0;
+  color: var(--blue-dark);
+}
+
+.student-subject-header h3 {
+  font-size: 1.55rem;
+}
+
+.student-subject-header span,
+.student-status-heading span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  min-height: 34px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--blue-dark);
+  font-weight: 900;
+}
+
+.student-status-section {
+  display: grid;
+  gap: 10px;
+}
+
+.student-status-heading h4 {
+  font-size: 1.08rem;
+}
+
+.activity-status-note {
+  width: fit-content;
+  margin: 0 0 6px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--blue-dark);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.activity-row.inProgress-activity-row {
+  border-color: #ffe49d;
+  background: #fffaf0;
+}
+
+.activity-row.retake-activity-row {
+  border-color: #d9c7ff;
+  background: #fbf7ff;
+}
+
 .activity-row.completed-activity-row {
   border-color: #b8f0cf;
   background: #f3fff8;
@@ -1108,7 +1186,7 @@ textarea:focus {
 }
 
 .quiz-builder-box .actions button {
-  flex: 1 1 140px;
+  flex: 1 1 180px;
 }
 
 .choice-editor-grid {

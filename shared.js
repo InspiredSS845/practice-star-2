@@ -976,7 +976,7 @@ const PracticeStar = (() => {
     return {
       id: row.id || uid("quiz"),
       teacherId: row.teacher_id || row.teacherId || "",
-      title: row.title || "Untitled quiz",
+      title: row.title || "Untitled extra practice quiz",
       questions: rowQuestions.map((question) => normalizeQuizQuestion(question)).filter(Boolean),
       isShared: row.is_shared === true || row.isShared === true,
       shareMode: (row.share_mode || row.shareMode) === "selected" ? "selected" : "all",
@@ -1042,18 +1042,18 @@ const PracticeStar = (() => {
   }
 
   async function saveQuiz({ teacherId, quizId, title, questions }) {
-    const cleanTitle = title.trim() || "Untitled quiz";
+    const cleanTitle = title.trim() || "Untitled extra practice quiz";
     const cleanQuestions = questions
       .map((question) => normalizeQuizQuestion(question))
       .filter(Boolean);
     const data = getData();
 
     if (!teacherId) {
-      return { ok: false, message: "Please log in before saving a quiz." };
+      return { ok: false, message: "Please log in before saving an extra practice quiz." };
     }
 
     if (cleanQuestions.length === 0) {
-      return { ok: false, message: "Add at least one quiz question." };
+      return { ok: false, message: "Add at least one extra practice quiz question." };
     }
 
     const existing = data.quizzes.find(
@@ -1087,7 +1087,7 @@ const PracticeStar = (() => {
 
     const client = getSupabaseClient();
     if (!client) {
-      return { ok: true, quiz: savedQuiz, message: `${quizId ? "Saved" : "Created"} ${cleanTitle}.` };
+      return { ok: true, quiz: savedQuiz, message: `${quizId ? "Saved" : "Created"} extra practice quiz: ${cleanTitle}.` };
     }
 
     const quizPayload = {
@@ -1114,7 +1114,7 @@ const PracticeStar = (() => {
 
     const { data: savedRow, error } = await query;
     if (error) {
-      return { ok: false, quiz: savedQuiz, message: `Could not save this quiz online: ${error.message}` };
+      return { ok: false, quiz: savedQuiz, message: `Could not save this extra practice quiz online: ${error.message}` };
     }
 
     const { data: oldQuestions, error: oldQuestionsError } = await client
@@ -1123,7 +1123,7 @@ const PracticeStar = (() => {
       .eq("quiz_id", savedRow.id);
 
     if (oldQuestionsError) {
-      return { ok: false, quiz: savedQuiz, message: `Could not update the quiz questions online: ${oldQuestionsError.message}` };
+      return { ok: false, quiz: savedQuiz, message: `Could not update the extra practice quiz questions online: ${oldQuestionsError.message}` };
     }
 
     const oldQuestionIds = (oldQuestions || []).map((question) => question.id);
@@ -1137,7 +1137,7 @@ const PracticeStar = (() => {
         .delete()
         .eq("quiz_id", savedRow.id);
       if (deleteQuestionsError) {
-        return { ok: false, quiz: savedQuiz, message: `Could not replace quiz questions online: ${deleteQuestionsError.message}` };
+        return { ok: false, quiz: savedQuiz, message: `Could not replace extra practice quiz questions online: ${deleteQuestionsError.message}` };
       }
     }
 
@@ -1155,7 +1155,7 @@ const PracticeStar = (() => {
         .single();
 
       if (questionError) {
-        return { ok: false, quiz: savedQuiz, message: `Could not save a quiz question online: ${questionError.message}` };
+        return { ok: false, quiz: savedQuiz, message: `Could not save an extra practice quiz question online: ${questionError.message}` };
       }
 
       const { error: choicesError } = await client
@@ -1178,7 +1178,7 @@ const PracticeStar = (() => {
     );
     upsertQuizInData(freshData, onlineQuiz);
     saveData(freshData);
-    return { ok: true, quiz: onlineQuiz, message: `${quizId ? "Saved" : "Created"} ${cleanTitle}.` };
+    return { ok: true, quiz: onlineQuiz, message: `${quizId ? "Saved" : "Created"} extra practice quiz: ${cleanTitle}.` };
   }
 
   function normalizeQuizQuestion(question) {
@@ -1772,7 +1772,7 @@ const PracticeStar = (() => {
           p_first_name: cleanName,
           p_pin: cleanPin,
           p_quiz_id: quizId,
-          p_quiz_title: quizTitle || "Final lesson quiz",
+          p_quiz_title: quizTitle || "Lesson Quiz",
           p_score: Number(score) || 0,
           p_total: Number(total) || 0,
           p_percent: Number(percent) || Math.round((score / total) * 100),

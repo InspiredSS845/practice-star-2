@@ -11,7 +11,7 @@
     <link rel="icon" href="Favicon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="Favicon/apple-touch-icon.png" />
     <link rel="manifest" href="Favicon/site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=2026-06-29-7" />
+    <link rel="stylesheet" href="styles.css?v=2026-06-30-1" />
   </head>
   <body>
     <header class="site-header">
@@ -80,7 +80,7 @@
           <button id="curriculumDashboardTab" class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="curriculumDashboardPanel">Curriculum</button>
           <button id="studentsDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="studentsDashboardPanel">Students</button>
           <button id="spellingDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="spellingDashboardPanel">Create a Spelling List</button>
-          <button id="quizDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="quizDashboardPanel">Create a Quiz</button>
+          <button id="quizDashboardTab" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="quizDashboardPanel">Create Extra Practice Quiz</button>
         </div>
 
         <div id="curriculumDashboardPanel" class="dashboard-tab-panel active" role="tabpanel" aria-labelledby="curriculumDashboardTab">
@@ -195,15 +195,15 @@
         <div id="quizDashboardPanel" class="dashboard-tab-panel" role="tabpanel" aria-labelledby="quizDashboardTab">
         <section class="panel compact-panel">
           <div class="section-heading">
-            <p class="eyebrow">Quizzes</p>
-            <h2>Create a quiz</h2>
-            <p class="hint">For now, quizzes can use multiple choice or true/false questions. This keeps checking answers simple and fair.</p>
+            <p class="eyebrow">Extra practice quizzes</p>
+            <h2>Create an extra practice quiz</h2>
+            <p class="hint">Use this when you want to make your own extra practice questions, separate from the built-in lesson and unit quizzes.</p>
           </div>
 
           <form id="quizForm" class="starter-form">
             <input id="activeQuizId" type="hidden" />
             <div>
-              <label for="quizTitle">Quiz title</label>
+              <label for="quizTitle">Extra practice quiz title</label>
               <input id="quizTitle" type="text" placeholder="Science review" />
             </div>
 
@@ -249,9 +249,9 @@
               <div class="actions">
                 <button id="addQuestionButton" type="button">Add Question</button>
                 <button id="clearQuestionButton" class="secondary" type="button">Clear Question</button>
-                <button type="submit">Save Quiz</button>
-                <button id="newQuizButton" class="secondary" type="button">New Quiz</button>
-                <button id="deleteQuizButton" class="danger" type="button">Delete Quiz</button>
+                <button type="submit">Save Extra Practice Quiz</button>
+                <button id="newQuizButton" class="secondary" type="button">New Extra Practice Quiz</button>
+                <button id="deleteQuizButton" class="danger" type="button">Delete Extra Practice Quiz</button>
               </div>
             </div>
           </form>
@@ -260,17 +260,17 @@
           <section id="quizLibraryPanel" class="quiz-library-panel" aria-labelledby="quizLibraryTitle">
             <div class="quiz-library-header">
               <div>
-                <h2 id="quizLibraryTitle">Your quizzes</h2>
-                <p id="quizLibraryCount" class="hint">No quizzes yet.</p>
+                <h2 id="quizLibraryTitle">Your extra practice quizzes</h2>
+                <p id="quizLibraryCount" class="hint">No extra practice quizzes yet.</p>
               </div>
-              <button id="quizLibraryToggle" class="secondary small-button" type="button" aria-controls="quizCards" aria-expanded="true" hidden>Hide quizzes</button>
+              <button id="quizLibraryToggle" class="secondary small-button" type="button" aria-controls="quizCards" aria-expanded="true" hidden>Hide extra practice quizzes</button>
             </div>
             <div id="quizCards" class="card-list"></div>
           </section>
 
           <section class="current-quiz-panel" aria-labelledby="currentQuizQuestionsTitle">
             <div class="section-heading compact-heading">
-              <h3 id="currentQuizQuestionsTitle">Questions in this quiz</h3>
+              <h3 id="currentQuizQuestionsTitle">Questions in this extra practice quiz</h3>
             </div>
             <div id="questionList" class="question-list"></div>
           </section>
@@ -281,24 +281,24 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="supabase-config.js?v=2026-06-29-7"></script>
-    <script src="content/catalog-data.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/index-data.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/index-data.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-1-the-bible-is-gods-word.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-2-creation-to-the-patriarchs.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-3-exodus-covenant-worship-and-the-land.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-4-kingdom-psalms-prophets-exile-and-return.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-5-jesus-the-promised-saviour.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-6-acts-and-the-early-church.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/bible-church-history/unit-data/unit-7-timeline-review-and-capstone-quiz.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/unit-data/unit-1-whole-numbers-and-operations.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/unit-data/unit-2-fractions-decimals-and-percents.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/unit-data/unit-3-algebra-and-patterning.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/unit-data/unit-4-data-and-probability.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/unit-data/unit-5-spatial-sense.js?v=2026-06-29-7"></script>
-    <script src="content/grade-5/math/unit-data/unit-6-financial-literacy.js?v=2026-06-29-7"></script>
-    <script src="shared.js?v=2026-06-29-7"></script>
-    <script src="teacher.js?v=2026-06-29-7"></script>
+    <script src="supabase-config.js?v=2026-06-30-1"></script>
+    <script src="content/catalog-data.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/index-data.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/index-data.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-1-the-bible-is-gods-word.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-2-creation-to-the-patriarchs.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-3-exodus-covenant-worship-and-the-land.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-4-kingdom-psalms-prophets-exile-and-return.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-5-jesus-the-promised-saviour.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-6-acts-and-the-early-church.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/bible-church-history/unit-data/unit-7-timeline-review-and-capstone-quiz.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/unit-data/unit-1-whole-numbers-and-operations.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/unit-data/unit-2-fractions-decimals-and-percents.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/unit-data/unit-3-algebra-and-patterning.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/unit-data/unit-4-data-and-probability.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/unit-data/unit-5-spatial-sense.js?v=2026-06-30-1"></script>
+    <script src="content/grade-5/math/unit-data/unit-6-financial-literacy.js?v=2026-06-30-1"></script>
+    <script src="shared.js?v=2026-06-30-1"></script>
+    <script src="teacher.js?v=2026-06-30-1"></script>
   </body>
 </html>
