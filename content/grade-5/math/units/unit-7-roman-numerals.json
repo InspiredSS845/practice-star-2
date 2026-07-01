@@ -133,7 +133,7 @@
             "level": "Level 2: Build Small Numbers",
             "title": "Build with I",
             "prompt": "Use I to count small numbers",
-            "text": "Roman numerals can repeat I to show small numbers. I is 1, II is 2, and III is 3. After three I symbols, Roman numerals usually switch to a shorter form."
+            "text": "Roman numerals can repeat I to show small numbers. I is 1, II is 2, and III is 3. Now add one more idea: when I comes after V, add it. V is 5, so VI is 6, VII is 7, and VIII is 8. If I comes before V, that is different: IV is 4."
           },
           {
             "kind": "question",
@@ -224,11 +224,11 @@
             "level": "Level 3: Four, Nine, and Ten",
             "title": "Read It",
             "prompt": "What number is IX?",
-        "choices": [
-          "9",
-          "8",
-          "10"
-        ],
+            "choices": [
+              "9",
+              "8",
+              "10"
+            ],
             "correctAnswer": "9",
             "feedback": "Correct. IX means 1 before 10.",
             "hint": "I before X means one less than ten."
@@ -318,12 +318,12 @@
             "skill": "Read",
             "type": "multipleChoice",
             "prompt": "What number is VI?",
-        "choices": [
-          "6",
-          "4",
-          "7",
-          "5"
-        ],
+            "choices": [
+              "6",
+              "4",
+              "7",
+              "5"
+            ],
             "correctAnswer": "6",
             "reviewNote": "VI is 5 + 1."
           },
@@ -331,12 +331,12 @@
             "skill": "Read",
             "type": "multipleChoice",
             "prompt": "What number is VIII?",
-        "choices": [
-          "8",
-          "7",
-          "9",
-          "6"
-        ],
+            "choices": [
+              "8",
+              "7",
+              "9",
+              "6"
+            ],
             "correctAnswer": "8",
             "reviewNote": "VIII is 5 + 1 + 1 + 1."
           },
@@ -351,12 +351,12 @@
             "skill": "Read",
             "type": "multipleChoice",
             "prompt": "What number is IX?",
-          "choices": [
-            "9",
-            "10",
-            "8",
-            "4"
-          ],
+            "choices": [
+              "9",
+              "10",
+              "8",
+              "4"
+            ],
             "correctAnswer": "9",
             "reviewNote": "IX means one before ten."
           },
@@ -867,6 +867,13 @@
             "hint": "Use the subtraction rule before X."
           },
           {
+            "kind": "lessonIntro",
+            "level": "Level 2: Forty and Ninety",
+            "title": "Move the Rule to Tens",
+            "prompt": "Learn XL and XC",
+            "text": "You already used I before V and X to make 4 and 9. Now use X before L or C. L is 50, so XL is 40. C is 100, so XC is 90. Read those pairs first, then add any symbols that come after."
+          },
+          {
             "kind": "question",
             "level": "Level 2: Forty and Ninety",
             "title": "Read It",
@@ -921,6 +928,13 @@
             "correctAnswer": "XCIX",
             "feedback": "Correct. XCIX is 90 + 9.",
             "hint": "Use XC for 90 and IX for 9."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 3: Check the Rule",
+            "title": "Check the Standard Pairs",
+            "prompt": "Which subtractions are allowed?",
+            "text": "Not every smaller-before-larger pair is standard. Use I before V or X, X before L or C, and C before D or M. That is why 49 is XLIX, not IL: write it as 40 + 9."
           },
           {
             "kind": "question",
@@ -1209,6 +1223,13 @@
             "hint": "27 is 20 plus 7."
           },
           {
+            "kind": "lessonIntro",
+            "level": "Level 2: Write to 50",
+            "title": "Write Numbers by Parts",
+            "prompt": "Use tens and ones",
+            "text": "When writing numbers to 50, break the number into tens and ones. 34 is 30 + 4, so write XXX for 30 and IV for 4: XXXIV. 48 is 40 + 8, so use XL for 40 and VIII for 8: XLVIII."
+          },
+          {
             "kind": "question",
             "level": "Level 2: Write to 50",
             "title": "Write It",
@@ -1263,6 +1284,13 @@
             "correctAnswer": "49",
             "feedback": "Correct. XLIX is 40 + 9.",
             "hint": "XL is 40 and IX is 9."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 3: Mix to 100",
+            "title": "Mix the Rules to 100",
+            "prompt": "Start with the largest part",
+            "text": "For numbers above 50, start with L for 50, add X symbols for more tens, and add the ones at the end. 64 is 50 + 10 + 4, so it is LXIV. 93 uses XC for 90 and III for 3, so it is XCIII."
           },
           {
             "kind": "question",
@@ -1553,6 +1581,13 @@
             "hint": "C before M means subtract 100."
           },
           {
+            "kind": "lessonIntro",
+            "level": "Level 2: Years and Dates",
+            "title": "Read Years in Chunks",
+            "prompt": "Break the year apart",
+            "text": "Years are easier when you read them in chunks. M is 1000 and MM is 2000. Then read the hundreds, tens, and ones. MMXXIV is 2000 + 20 + 4, so it is 2024."
+          },
+          {
             "kind": "question",
             "level": "Level 2: Years and Dates",
             "title": "Read It",
@@ -1607,6 +1642,13 @@
             "correctAnswer": "MMXXVI",
             "feedback": "Correct. 2026 is 2000 + 20 + 6.",
             "hint": "MM is 2000, XX is 20, and VI is 6."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 3: Real-Life Uses",
+            "title": "Roman Numerals Around Us",
+            "prompt": "Use the same rules in real life",
+            "text": "When Roman numerals appear in books, names, dates, or buildings, read them the same way. Chapter XII means Chapter 12. Henry VIII means Henry the eighth. A building date like MCMXC means 1990."
           },
           {
             "kind": "question",
@@ -1896,6 +1938,13 @@
             "hint": "X is 10 and II is 2."
           },
           {
+            "kind": "lessonIntro",
+            "level": "Level 2: Tell the Time",
+            "title": "Tell Time on a Roman Clock",
+            "prompt": "Read the mark, then read the hand",
+            "text": "A Roman numeral clock uses Roman numerals for the hour marks, but the hands work like any other clock. If the hour hand points to VII, it is the 7 hour. If the minute hand points to III, count by fives: 5, 10, 15 minutes."
+          },
+          {
             "kind": "question",
             "level": "Level 2: Tell the Time",
             "title": "Hour Hand",
@@ -1950,6 +1999,13 @@
             "correctAnswer": "4:00",
             "feedback": "Correct. XII for the minute hand means 0 minutes.",
             "hint": "At XII, the minute hand is at the top of the hour."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 3: Build the Clock",
+            "title": "Build a Roman Clock Face",
+            "prompt": "Place the hour marks in order",
+            "text": "A Roman numeral clock still places the hours in the same spots as a regular clock. I is where 1 goes, VI is where 6 goes, IX is where 9 goes, and XII is at the top. Some clocks use IIII for 4, but IV is the standard Roman numeral."
           },
           {
             "kind": "question",
