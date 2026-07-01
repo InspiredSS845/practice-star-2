@@ -200,6 +200,7 @@ function saveLearningProgress(mode = "question", savedStepIndex = learningStepIn
   const progress = getLearningProgress();
   progress[learningProgressClaimKey()] = {
     activityId: activeLearningActivityId,
+    activityVersion: activeLearningActivity.version || "",
     levelIndex: learningLevelIndex,
     stepIndex: savedStepIndex,
     earnedStars: learningEarnedStars,
@@ -1050,6 +1051,12 @@ function startLearningLevel(levelIndex, steps, stepKeys = null) {
 }
 
 function restoreLearningProgress(checkpoint) {
+  const activityVersion = activeLearningActivity?.version || "";
+  if (activityVersion && checkpoint.activityVersion !== activityVersion) {
+    clearLearningProgress();
+    startLearningLevel(0, learningLevels[0]?.steps || []);
+    return;
+  }
   learningLevelIndex = Math.min(checkpoint.levelIndex || 0, learningLevels.length - 1);
   learningCurrentStepKeys = checkpoint.currentStepKeys?.length
     ? checkpoint.currentStepKeys
@@ -1068,7 +1075,7 @@ function restoreLearningProgress(checkpoint) {
   learningTypedAnswer = "";
   learningCardMode = "question";
   if (checkpoint.mode === "summary" || learningStepIndex >= learningCurrentSteps.length) {
-    showLearningLevelSummary();
+    finishLearningLevel();
     return;
   }
   showLearningStep();
@@ -1182,7 +1189,7 @@ function handleLearningAction() {
   }
 
   const step = learningCurrentSteps[learningStepIndex];
-  if (step?.kind === "question") {
+  if (isScoredLearningStep(step)) {
     if (!learningAnswered) {
       submitLearningAnswer(step);
       return;
@@ -1248,11 +1255,27 @@ function renderLearningResult(isCorrect, step = {}, answer = "") {
 function nextLearningStep() {
   learningStepIndex += 1;
   if (learningStepIndex >= learningCurrentSteps.length) {
-    showLearningLevelSummary();
+    finishLearningLevel();
     return;
   }
   saveLearningProgress();
   showLearningStep();
+}
+
+function finishLearningLevel() {
+  const hasScoredSteps = learningCurrentSteps.some(isScoredLearningStep);
+  if (hasScoredSteps) {
+    showLearningLevelSummary();
+    return;
+  }
+
+  const nextLevelIndex = learningLevelIndex + 1;
+  if (nextLevelIndex < learningLevels.length) {
+    startLearningLevel(nextLevelIndex, learningLevels[nextLevelIndex].steps);
+    return;
+  }
+
+  showLearningReward();
 }
 
 function showLearningLevelSummary() {

@@ -18,16 +18,16 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
       "vocabulary": [
         "receive",
         "believe",
-        "neighbor",
+        "neighbour",
         "weight",
         "brought",
         "thought",
         "enough",
         "although",
         "journey",
-        "favorite"
+        "favourite"
       ],
-      "teacherOverview": "Language Spelling Assignment 1 gives students ten built-in Grade 5 spelling words. Students copy each word, practise it with hidden letters, and then spell it from a sentence clue.",
+      "teacherOverview": "Language Spelling Assignment 1 gives students ten built-in Grade 5 spelling words. Students copy each word, practise it with hidden letters, and then spell it from a sentence clue before moving to the next word.",
       "lessonContent": [
         "Practise words with vowel patterns that do not always sound the way they look.",
         "The activity uses typed spelling instead of multiple choice so students show that they can spell the words themselves."
@@ -41,9 +41,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "title": "Language Spelling Assignment 1",
         "description": "Practise words with vowel patterns that do not always sound the way they look.",
         "levels": [
-          "Level 1: Study and Copy",
-          "Level 2: Some Letters Hidden",
-          "Level 3: Spell From the Sentence"
+          "Spelling Practice"
         ],
         "reward": "Practice stars for correct spelling answers"
       },
@@ -62,15 +60,15 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "steps": [
           {
             "kind": "lessonIntro",
-            "level": "Before You Begin",
+            "level": "Spelling Practice",
             "title": "Tricky Vowel Patterns",
             "prompt": "Before You Begin",
             "text": "Some English words have vowel teams or sounds that are easy to mix up. Look carefully at the letter order before you type."
           },
           {
             "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Study the Word",
             "prompt": "Type this word: receive",
             "display": "receive",
             "sentence": "I will receive a letter in the mail.",
@@ -79,98 +77,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 2",
-            "prompt": "Type this word: believe",
-            "display": "believe",
-            "sentence": "I believe the story is true.",
-            "correctAnswer": "believe",
-            "feedback": "Believe uses ie in the middle."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 3",
-            "prompt": "Type this word: neighbor",
-            "display": "neighbor",
-            "sentence": "Our neighbor helped carry the boxes.",
-            "correctAnswer": "neighbor",
-            "feedback": "Neighbor uses eigh for the long a sound."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 4",
-            "prompt": "Type this word: weight",
-            "display": "weight",
-            "sentence": "The weight of the backpack felt heavy.",
-            "correctAnswer": "weight",
-            "feedback": "Weight also uses eigh for the long a sound."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 5",
-            "prompt": "Type this word: brought",
-            "display": "brought",
-            "sentence": "She brought her notebook to class.",
-            "correctAnswer": "brought",
-            "feedback": "Brought has ought at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 6",
-            "prompt": "Type this word: thought",
-            "display": "thought",
-            "sentence": "I thought carefully before I answered.",
-            "correctAnswer": "thought",
-            "feedback": "Thought has ought at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 7",
-            "prompt": "Type this word: enough",
-            "display": "enough",
-            "sentence": "We have enough chairs for everyone.",
-            "correctAnswer": "enough",
-            "feedback": "Enough ends with ough."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 8",
-            "prompt": "Type this word: although",
-            "display": "although",
-            "sentence": "Although it was raining, the game continued.",
-            "correctAnswer": "although",
-            "feedback": "Although also ends with ough, but it sounds different from enough."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 9",
-            "prompt": "Type this word: journey",
-            "display": "journey",
-            "sentence": "The family began a long journey.",
-            "correctAnswer": "journey",
-            "feedback": "Journey has our in the middle."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 10",
-            "prompt": "Type this word: favorite",
-            "display": "favorite",
-            "sentence": "My favorite book is on the shelf.",
-            "correctAnswer": "favorite",
-            "feedback": "Favorite has orite at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Some Letters Hidden",
             "prompt": "Use the visible letters and the sentence clue to spell the word.",
             "display": "r_c__v_",
             "sentence": "I will _____ a letter in the mail.",
@@ -179,98 +87,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 2",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "b_l__v_",
-            "sentence": "I _____ the story is true.",
-            "correctAnswer": "believe",
-            "feedback": "Believe uses ie in the middle."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 3",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "n__ghb_r",
-            "sentence": "Our _____ helped carry the boxes.",
-            "correctAnswer": "neighbor",
-            "feedback": "Neighbor uses eigh for the long a sound."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 4",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "w__ght",
-            "sentence": "The _____ of the backpack felt heavy.",
-            "correctAnswer": "weight",
-            "feedback": "Weight also uses eigh for the long a sound."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 5",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "br__ght",
-            "sentence": "She _____ her notebook to class.",
-            "correctAnswer": "brought",
-            "feedback": "Brought has ought at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 6",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "th__ght",
-            "sentence": "I _____ carefully before I answered.",
-            "correctAnswer": "thought",
-            "feedback": "Thought has ought at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 7",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "_n__gh",
-            "sentence": "We have _____ chairs for everyone.",
-            "correctAnswer": "enough",
-            "feedback": "Enough ends with ough."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 8",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "_lth__gh",
-            "sentence": "_____ it was raining, the game continued.",
-            "correctAnswer": "although",
-            "feedback": "Although also ends with ough, but it sounds different from enough."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 9",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "j__rn_y",
-            "sentence": "The family began a long _____.",
-            "correctAnswer": "journey",
-            "feedback": "Journey has our in the middle."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 10",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "f_v_r_t_",
-            "sentence": "My _____ book is on the shelf.",
-            "correctAnswer": "favorite",
-            "feedback": "Favorite has orite at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "I will _____ a letter in the mail.",
@@ -279,8 +97,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 2",
+            "level": "Spelling Practice",
+            "title": "Word 2: Study the Word",
+            "prompt": "Type this word: believe",
+            "display": "believe",
+            "sentence": "I believe the story is true.",
+            "correctAnswer": "believe",
+            "feedback": "Believe uses ie in the middle."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 2: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "b_l__v_",
+            "sentence": "I _____ the story is true.",
+            "correctAnswer": "believe",
+            "feedback": "Believe uses ie in the middle."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 2: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "I _____ the story is true.",
@@ -289,18 +127,58 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 3",
-            "prompt": "Spell the missing word on your own.",
-            "display": "No letters shown",
-            "sentence": "Our _____ helped carry the boxes.",
-            "correctAnswer": "neighbor",
-            "feedback": "Neighbor uses eigh for the long a sound."
+            "level": "Spelling Practice",
+            "title": "Word 3: Study the Word",
+            "prompt": "Type this word: neighbour",
+            "display": "neighbour",
+            "sentence": "Our neighbour helped carry the boxes.",
+            "correctAnswer": "neighbour",
+            "feedback": "Neighbour uses eigh for the long a sound."
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 4",
+            "level": "Spelling Practice",
+            "title": "Word 3: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "n__ghb__r",
+            "sentence": "Our _____ helped carry the boxes.",
+            "correctAnswer": "neighbour",
+            "feedback": "Neighbour uses eigh for the long a sound."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 3: Spell From the Sentence",
+            "prompt": "Spell the missing word on your own.",
+            "display": "No letters shown",
+            "sentence": "Our _____ helped carry the boxes.",
+            "correctAnswer": "neighbour",
+            "feedback": "Neighbour uses eigh for the long a sound."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Study the Word",
+            "prompt": "Type this word: weight",
+            "display": "weight",
+            "sentence": "The weight of the backpack felt heavy.",
+            "correctAnswer": "weight",
+            "feedback": "Weight also uses eigh for the long a sound."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "w__ght",
+            "sentence": "The _____ of the backpack felt heavy.",
+            "correctAnswer": "weight",
+            "feedback": "Weight also uses eigh for the long a sound."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The _____ of the backpack felt heavy.",
@@ -309,8 +187,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 5",
+            "level": "Spelling Practice",
+            "title": "Word 5: Study the Word",
+            "prompt": "Type this word: brought",
+            "display": "brought",
+            "sentence": "She brought her notebook to class.",
+            "correctAnswer": "brought",
+            "feedback": "Brought has ought at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 5: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "br__ght",
+            "sentence": "She _____ her notebook to class.",
+            "correctAnswer": "brought",
+            "feedback": "Brought has ought at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 5: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "She _____ her notebook to class.",
@@ -319,8 +217,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 6",
+            "level": "Spelling Practice",
+            "title": "Word 6: Study the Word",
+            "prompt": "Type this word: thought",
+            "display": "thought",
+            "sentence": "I thought carefully before I answered.",
+            "correctAnswer": "thought",
+            "feedback": "Thought has ought at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 6: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "th__ght",
+            "sentence": "I _____ carefully before I answered.",
+            "correctAnswer": "thought",
+            "feedback": "Thought has ought at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 6: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "I _____ carefully before I answered.",
@@ -329,8 +247,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 7",
+            "level": "Spelling Practice",
+            "title": "Word 7: Study the Word",
+            "prompt": "Type this word: enough",
+            "display": "enough",
+            "sentence": "We have enough chairs for everyone.",
+            "correctAnswer": "enough",
+            "feedback": "Enough ends with ough."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 7: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "_n__gh",
+            "sentence": "We have _____ chairs for everyone.",
+            "correctAnswer": "enough",
+            "feedback": "Enough ends with ough."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 7: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "We have _____ chairs for everyone.",
@@ -339,8 +277,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 8",
+            "level": "Spelling Practice",
+            "title": "Word 8: Study the Word",
+            "prompt": "Type this word: although",
+            "display": "although",
+            "sentence": "Although it was raining, the game continued.",
+            "correctAnswer": "although",
+            "feedback": "Although also ends with ough, but it sounds different from enough."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 8: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "_lth__gh",
+            "sentence": "_____ it was raining, the game continued.",
+            "correctAnswer": "although",
+            "feedback": "Although also ends with ough, but it sounds different from enough."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 8: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "_____ it was raining, the game continued.",
@@ -349,8 +307,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 9",
+            "level": "Spelling Practice",
+            "title": "Word 9: Study the Word",
+            "prompt": "Type this word: journey",
+            "display": "journey",
+            "sentence": "The family began a long journey.",
+            "correctAnswer": "journey",
+            "feedback": "Journey has our in the middle."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 9: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "j__rn_y",
+            "sentence": "The family began a long _____.",
+            "correctAnswer": "journey",
+            "feedback": "Journey has our in the middle."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 9: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The family began a long _____.",
@@ -359,15 +337,36 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 10",
+            "level": "Spelling Practice",
+            "title": "Word 10: Study the Word",
+            "prompt": "Type this word: favourite",
+            "display": "favourite",
+            "sentence": "My favourite book is on the shelf.",
+            "correctAnswer": "favourite",
+            "feedback": "Favourite has our near the beginning and ite at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 10: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "f_v__r_t_",
+            "sentence": "My _____ book is on the shelf.",
+            "correctAnswer": "favourite",
+            "feedback": "Favourite has our near the beginning and ite at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 10: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "My _____ book is on the shelf.",
-            "correctAnswer": "favorite",
-            "feedback": "Favorite has orite at the end."
+            "correctAnswer": "favourite",
+            "feedback": "Favourite has our near the beginning and ite at the end."
           }
-        ]
+        ],
+        "version": "2026-07-01-canadian-word-order-1"
       },
       "teacherSummary": "Language Spelling Assignment 1 is a student-shareable typed spelling assignment with 10 words."
     },
@@ -393,7 +392,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "beautiful",
         "happiness"
       ],
-      "teacherOverview": "Language Spelling Assignment 2 gives students ten built-in Grade 5 spelling words. Students copy each word, practise it with hidden letters, and then spell it from a sentence clue.",
+      "teacherOverview": "Language Spelling Assignment 2 gives students ten built-in Grade 5 spelling words. Students copy each word, practise it with hidden letters, and then spell it from a sentence clue before moving to the next word.",
       "lessonContent": [
         "Practise words that grow from smaller word parts.",
         "The activity uses typed spelling instead of multiple choice so students show that they can spell the words themselves."
@@ -407,9 +406,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "title": "Language Spelling Assignment 2",
         "description": "Practise words that grow from smaller word parts.",
         "levels": [
-          "Level 1: Study and Copy",
-          "Level 2: Some Letters Hidden",
-          "Level 3: Spell From the Sentence"
+          "Spelling Practice"
         ],
         "reward": "Practice stars for correct spelling answers"
       },
@@ -428,15 +425,15 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "steps": [
           {
             "kind": "lessonIntro",
-            "level": "Before You Begin",
+            "level": "Spelling Practice",
             "title": "Prefixes, Suffixes, and Word Parts",
             "prompt": "Before You Begin",
             "text": "Prefixes and suffixes can change a word. Spell the base word carefully, then add the word part in the right place."
           },
           {
             "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Study the Word",
             "prompt": "Type this word: disagree",
             "display": "disagree",
             "sentence": "Friends can disagree and still speak kindly.",
@@ -445,98 +442,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 2",
-            "prompt": "Type this word: preview",
-            "display": "preview",
-            "sentence": "We will preview the chapter before reading.",
-            "correctAnswer": "preview",
-            "feedback": "Preview begins with pre-."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 3",
-            "prompt": "Type this word: rewrite",
-            "display": "rewrite",
-            "sentence": "I need to rewrite the paragraph neatly.",
-            "correctAnswer": "rewrite",
-            "feedback": "Rewrite begins with re-."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 4",
-            "prompt": "Type this word: careless",
-            "display": "careless",
-            "sentence": "A careless mistake can change the answer.",
-            "correctAnswer": "careless",
-            "feedback": "Careless ends with -less."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 5",
-            "prompt": "Type this word: hopeful",
-            "display": "hopeful",
-            "sentence": "The team felt hopeful after practice.",
-            "correctAnswer": "hopeful",
-            "feedback": "Hopeful ends with -ful."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 6",
-            "prompt": "Type this word: movement",
-            "display": "movement",
-            "sentence": "The movement of the clouds was slow.",
-            "correctAnswer": "movement",
-            "feedback": "Movement ends with -ment."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 7",
-            "prompt": "Type this word: payment",
-            "display": "payment",
-            "sentence": "The payment was due on Friday.",
-            "correctAnswer": "payment",
-            "feedback": "Payment ends with -ment."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 8",
-            "prompt": "Type this word: teacher",
-            "display": "teacher",
-            "sentence": "The teacher explained the directions clearly.",
-            "correctAnswer": "teacher",
-            "feedback": "Teacher ends with -er."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 9",
-            "prompt": "Type this word: beautiful",
-            "display": "beautiful",
-            "sentence": "The garden looked beautiful in spring.",
-            "correctAnswer": "beautiful",
-            "feedback": "Beautiful keeps beauty's beau at the beginning."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 10",
-            "prompt": "Type this word: happiness",
-            "display": "happiness",
-            "sentence": "True happiness is not the same as getting everything you want.",
-            "correctAnswer": "happiness",
-            "feedback": "Happiness changes y to i before -ness."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Some Letters Hidden",
             "prompt": "Use the visible letters and the sentence clue to spell the word.",
             "display": "d_s_gr__",
             "sentence": "Friends can _____ and still speak kindly.",
@@ -545,98 +452,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 2",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "pr_v__w",
-            "sentence": "We will _____ the chapter before reading.",
-            "correctAnswer": "preview",
-            "feedback": "Preview begins with pre-."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 3",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "r_wr_t_",
-            "sentence": "I need to _____ the paragraph neatly.",
-            "correctAnswer": "rewrite",
-            "feedback": "Rewrite begins with re-."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 4",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "c_r_l_ss",
-            "sentence": "A _____ mistake can change the answer.",
-            "correctAnswer": "careless",
-            "feedback": "Careless ends with -less."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 5",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "h_p_f_l",
-            "sentence": "The team felt _____ after practice.",
-            "correctAnswer": "hopeful",
-            "feedback": "Hopeful ends with -ful."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 6",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "m_v_m_nt",
-            "sentence": "The _____ of the clouds was slow.",
-            "correctAnswer": "movement",
-            "feedback": "Movement ends with -ment."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 7",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "p_ym_nt",
-            "sentence": "The _____ was due on Friday.",
-            "correctAnswer": "payment",
-            "feedback": "Payment ends with -ment."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 8",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "t__ch_r",
-            "sentence": "The _____ explained the directions clearly.",
-            "correctAnswer": "teacher",
-            "feedback": "Teacher ends with -er."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 9",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "b___t_f_l",
-            "sentence": "The garden looked _____ in spring.",
-            "correctAnswer": "beautiful",
-            "feedback": "Beautiful keeps beauty's beau at the beginning."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 10",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "h_pp_n_ss",
-            "sentence": "True _____ is not the same as getting everything you want.",
-            "correctAnswer": "happiness",
-            "feedback": "Happiness changes y to i before -ness."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "Friends can _____ and still speak kindly.",
@@ -645,8 +462,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 2",
+            "level": "Spelling Practice",
+            "title": "Word 2: Study the Word",
+            "prompt": "Type this word: preview",
+            "display": "preview",
+            "sentence": "We will preview the chapter before reading.",
+            "correctAnswer": "preview",
+            "feedback": "Preview begins with pre-."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 2: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "pr_v__w",
+            "sentence": "We will _____ the chapter before reading.",
+            "correctAnswer": "preview",
+            "feedback": "Preview begins with pre-."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 2: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "We will _____ the chapter before reading.",
@@ -655,8 +492,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 3",
+            "level": "Spelling Practice",
+            "title": "Word 3: Study the Word",
+            "prompt": "Type this word: rewrite",
+            "display": "rewrite",
+            "sentence": "I need to rewrite the paragraph neatly.",
+            "correctAnswer": "rewrite",
+            "feedback": "Rewrite begins with re-."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 3: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "r_wr_t_",
+            "sentence": "I need to _____ the paragraph neatly.",
+            "correctAnswer": "rewrite",
+            "feedback": "Rewrite begins with re-."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 3: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "I need to _____ the paragraph neatly.",
@@ -665,8 +522,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 4",
+            "level": "Spelling Practice",
+            "title": "Word 4: Study the Word",
+            "prompt": "Type this word: careless",
+            "display": "careless",
+            "sentence": "A careless mistake can change the answer.",
+            "correctAnswer": "careless",
+            "feedback": "Careless ends with -less."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "c_r_l_ss",
+            "sentence": "A _____ mistake can change the answer.",
+            "correctAnswer": "careless",
+            "feedback": "Careless ends with -less."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "A _____ mistake can change the answer.",
@@ -675,8 +552,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 5",
+            "level": "Spelling Practice",
+            "title": "Word 5: Study the Word",
+            "prompt": "Type this word: hopeful",
+            "display": "hopeful",
+            "sentence": "The team felt hopeful after practice.",
+            "correctAnswer": "hopeful",
+            "feedback": "Hopeful ends with -ful."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 5: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "h_p_f_l",
+            "sentence": "The team felt _____ after practice.",
+            "correctAnswer": "hopeful",
+            "feedback": "Hopeful ends with -ful."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 5: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The team felt _____ after practice.",
@@ -685,8 +582,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 6",
+            "level": "Spelling Practice",
+            "title": "Word 6: Study the Word",
+            "prompt": "Type this word: movement",
+            "display": "movement",
+            "sentence": "The movement of the clouds was slow.",
+            "correctAnswer": "movement",
+            "feedback": "Movement ends with -ment."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 6: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "m_v_m_nt",
+            "sentence": "The _____ of the clouds was slow.",
+            "correctAnswer": "movement",
+            "feedback": "Movement ends with -ment."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 6: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The _____ of the clouds was slow.",
@@ -695,8 +612,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 7",
+            "level": "Spelling Practice",
+            "title": "Word 7: Study the Word",
+            "prompt": "Type this word: payment",
+            "display": "payment",
+            "sentence": "The payment was due on Friday.",
+            "correctAnswer": "payment",
+            "feedback": "Payment ends with -ment."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 7: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "p_ym_nt",
+            "sentence": "The _____ was due on Friday.",
+            "correctAnswer": "payment",
+            "feedback": "Payment ends with -ment."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 7: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The _____ was due on Friday.",
@@ -705,8 +642,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 8",
+            "level": "Spelling Practice",
+            "title": "Word 8: Study the Word",
+            "prompt": "Type this word: teacher",
+            "display": "teacher",
+            "sentence": "The teacher explained the directions clearly.",
+            "correctAnswer": "teacher",
+            "feedback": "Teacher ends with -er."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 8: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "t__ch_r",
+            "sentence": "The _____ explained the directions clearly.",
+            "correctAnswer": "teacher",
+            "feedback": "Teacher ends with -er."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 8: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The _____ explained the directions clearly.",
@@ -715,8 +672,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 9",
+            "level": "Spelling Practice",
+            "title": "Word 9: Study the Word",
+            "prompt": "Type this word: beautiful",
+            "display": "beautiful",
+            "sentence": "The garden looked beautiful in spring.",
+            "correctAnswer": "beautiful",
+            "feedback": "Beautiful keeps beauty's beau at the beginning."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 9: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "b___t_f_l",
+            "sentence": "The garden looked _____ in spring.",
+            "correctAnswer": "beautiful",
+            "feedback": "Beautiful keeps beauty's beau at the beginning."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 9: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The garden looked _____ in spring.",
@@ -725,15 +702,36 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 10",
+            "level": "Spelling Practice",
+            "title": "Word 10: Study the Word",
+            "prompt": "Type this word: happiness",
+            "display": "happiness",
+            "sentence": "True happiness is not the same as getting everything you want.",
+            "correctAnswer": "happiness",
+            "feedback": "Happiness changes y to i before -ness."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 10: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "h_pp_n_ss",
+            "sentence": "True _____ is not the same as getting everything you want.",
+            "correctAnswer": "happiness",
+            "feedback": "Happiness changes y to i before -ness."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 10: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "True _____ is not the same as getting everything you want.",
             "correctAnswer": "happiness",
             "feedback": "Happiness changes y to i before -ness."
           }
-        ]
+        ],
+        "version": "2026-07-01-canadian-word-order-1"
       },
       "teacherSummary": "Language Spelling Assignment 2 is a student-shareable typed spelling assignment with 10 words."
     },
@@ -759,7 +757,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "important",
         "possible"
       ],
-      "teacherOverview": "Language Spelling Assignment 3 gives students ten built-in Grade 5 spelling words. Students copy each word, practise it with hidden letters, and then spell it from a sentence clue.",
+      "teacherOverview": "Language Spelling Assignment 3 gives students ten built-in Grade 5 spelling words. Students copy each word, practise it with hidden letters, and then spell it from a sentence clue before moving to the next word.",
       "lessonContent": [
         "Practise words students often use in reading, writing, and explaining answers.",
         "The activity uses typed spelling instead of multiple choice so students show that they can spell the words themselves."
@@ -773,9 +771,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "title": "Language Spelling Assignment 3",
         "description": "Practise words students often use in reading, writing, and explaining answers.",
         "levels": [
-          "Level 1: Study and Copy",
-          "Level 2: Some Letters Hidden",
-          "Level 3: Spell From the Sentence"
+          "Spelling Practice"
         ],
         "reward": "Practice stars for correct spelling answers"
       },
@@ -794,15 +790,15 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
         "steps": [
           {
             "kind": "lessonIntro",
-            "level": "Before You Begin",
+            "level": "Spelling Practice",
             "title": "Academic Reading and Writing Words",
             "prompt": "Before You Begin",
             "text": "These words appear often in school work. Spell them carefully so your written answers are clear."
           },
           {
             "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Study the Word",
             "prompt": "Type this word: describe",
             "display": "describe",
             "sentence": "Please describe the setting of the story.",
@@ -811,98 +807,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 2",
-            "prompt": "Type this word: explain",
-            "display": "explain",
-            "sentence": "Explain your answer using evidence.",
-            "correctAnswer": "explain",
-            "feedback": "Explain has ai near the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 3",
-            "prompt": "Type this word: compare",
-            "display": "compare",
-            "sentence": "Compare the two characters in the passage.",
-            "correctAnswer": "compare",
-            "feedback": "Compare ends with -are."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 4",
-            "prompt": "Type this word: evidence",
-            "display": "evidence",
-            "sentence": "Use evidence from the text to support your idea.",
-            "correctAnswer": "evidence",
-            "feedback": "Evidence has three e sounds, but only one i."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 5",
-            "prompt": "Type this word: reason",
-            "display": "reason",
-            "sentence": "Give one reason for your answer.",
-            "correctAnswer": "reason",
-            "feedback": "Reason has ea in the middle."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 6",
-            "prompt": "Type this word: solution",
-            "display": "solution",
-            "sentence": "The solution to the problem took three steps.",
-            "correctAnswer": "solution",
-            "feedback": "Solution ends with -tion."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 7",
-            "prompt": "Type this word: question",
-            "display": "question",
-            "sentence": "Read the question before choosing an answer.",
-            "correctAnswer": "question",
-            "feedback": "Question also ends with -tion."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 8",
-            "prompt": "Type this word: complete",
-            "display": "complete",
-            "sentence": "Complete the assignment before lunch.",
-            "correctAnswer": "complete",
-            "feedback": "Complete has ete at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 9",
-            "prompt": "Type this word: important",
-            "display": "important",
-            "sentence": "It is important to check your work.",
-            "correctAnswer": "important",
-            "feedback": "Important has ant at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 1: Study and Copy",
-            "title": "Study Word 10",
-            "prompt": "Type this word: possible",
-            "display": "possible",
-            "sentence": "It is possible to improve with practice.",
-            "correctAnswer": "possible",
-            "feedback": "Possible has double s and ends with -ible."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Some Letters Hidden",
             "prompt": "Use the visible letters and the sentence clue to spell the word.",
             "display": "d_scr_b_",
             "sentence": "Please _____ the setting of the story.",
@@ -911,98 +817,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 2",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "_xpl__n",
-            "sentence": "_____ your answer using evidence.",
-            "correctAnswer": "explain",
-            "feedback": "Explain has ai near the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 3",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "c_mp_r_",
-            "sentence": "_____ the two characters in the passage.",
-            "correctAnswer": "compare",
-            "feedback": "Compare ends with -are."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 4",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "_v_d_nc_",
-            "sentence": "Use _____ from the text to support your idea.",
-            "correctAnswer": "evidence",
-            "feedback": "Evidence has three e sounds, but only one i."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 5",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "r__s_n",
-            "sentence": "Give one _____ for your answer.",
-            "correctAnswer": "reason",
-            "feedback": "Reason has ea in the middle."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 6",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "s_l_t__n",
-            "sentence": "The _____ to the problem took three steps.",
-            "correctAnswer": "solution",
-            "feedback": "Solution ends with -tion."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 7",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "q__st__n",
-            "sentence": "Read the _____ before choosing an answer.",
-            "correctAnswer": "question",
-            "feedback": "Question also ends with -tion."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 8",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "c_mpl_t_",
-            "sentence": "_____ the assignment before lunch.",
-            "correctAnswer": "complete",
-            "feedback": "Complete has ete at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 9",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "_mp_rt_nt",
-            "sentence": "It is _____ to check your work.",
-            "correctAnswer": "important",
-            "feedback": "Important has ant at the end."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 2: Some Letters Hidden",
-            "title": "Word 10",
-            "prompt": "Use the visible letters and the sentence clue to spell the word.",
-            "display": "p_ss_bl_",
-            "sentence": "It is _____ to improve with practice.",
-            "correctAnswer": "possible",
-            "feedback": "Possible has double s and ends with -ible."
-          },
-          {
-            "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 1",
+            "level": "Spelling Practice",
+            "title": "Word 1: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "Please _____ the setting of the story.",
@@ -1011,8 +827,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 2",
+            "level": "Spelling Practice",
+            "title": "Word 2: Study the Word",
+            "prompt": "Type this word: explain",
+            "display": "explain",
+            "sentence": "Explain your answer using evidence.",
+            "correctAnswer": "explain",
+            "feedback": "Explain has ai near the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 2: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "_xpl__n",
+            "sentence": "_____ your answer using evidence.",
+            "correctAnswer": "explain",
+            "feedback": "Explain has ai near the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 2: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "_____ your answer using evidence.",
@@ -1021,8 +857,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 3",
+            "level": "Spelling Practice",
+            "title": "Word 3: Study the Word",
+            "prompt": "Type this word: compare",
+            "display": "compare",
+            "sentence": "Compare the two characters in the passage.",
+            "correctAnswer": "compare",
+            "feedback": "Compare ends with -are."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 3: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "c_mp_r_",
+            "sentence": "_____ the two characters in the passage.",
+            "correctAnswer": "compare",
+            "feedback": "Compare ends with -are."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 3: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "_____ the two characters in the passage.",
@@ -1031,8 +887,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 4",
+            "level": "Spelling Practice",
+            "title": "Word 4: Study the Word",
+            "prompt": "Type this word: evidence",
+            "display": "evidence",
+            "sentence": "Use evidence from the text to support your idea.",
+            "correctAnswer": "evidence",
+            "feedback": "Evidence has three e sounds, but only one i."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "_v_d_nc_",
+            "sentence": "Use _____ from the text to support your idea.",
+            "correctAnswer": "evidence",
+            "feedback": "Evidence has three e sounds, but only one i."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 4: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "Use _____ from the text to support your idea.",
@@ -1041,8 +917,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 5",
+            "level": "Spelling Practice",
+            "title": "Word 5: Study the Word",
+            "prompt": "Type this word: reason",
+            "display": "reason",
+            "sentence": "Give one reason for your answer.",
+            "correctAnswer": "reason",
+            "feedback": "Reason has ea in the middle."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 5: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "r__s_n",
+            "sentence": "Give one _____ for your answer.",
+            "correctAnswer": "reason",
+            "feedback": "Reason has ea in the middle."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 5: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "Give one _____ for your answer.",
@@ -1051,8 +947,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 6",
+            "level": "Spelling Practice",
+            "title": "Word 6: Study the Word",
+            "prompt": "Type this word: solution",
+            "display": "solution",
+            "sentence": "The solution to the problem took three steps.",
+            "correctAnswer": "solution",
+            "feedback": "Solution ends with -tion."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 6: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "s_l_t__n",
+            "sentence": "The _____ to the problem took three steps.",
+            "correctAnswer": "solution",
+            "feedback": "Solution ends with -tion."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 6: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "The _____ to the problem took three steps.",
@@ -1061,8 +977,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 7",
+            "level": "Spelling Practice",
+            "title": "Word 7: Study the Word",
+            "prompt": "Type this word: question",
+            "display": "question",
+            "sentence": "Read the question before choosing an answer.",
+            "correctAnswer": "question",
+            "feedback": "Question also ends with -tion."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 7: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "q__st__n",
+            "sentence": "Read the _____ before choosing an answer.",
+            "correctAnswer": "question",
+            "feedback": "Question also ends with -tion."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 7: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "Read the _____ before choosing an answer.",
@@ -1071,8 +1007,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 8",
+            "level": "Spelling Practice",
+            "title": "Word 8: Study the Word",
+            "prompt": "Type this word: complete",
+            "display": "complete",
+            "sentence": "Complete the assignment before lunch.",
+            "correctAnswer": "complete",
+            "feedback": "Complete has ete at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 8: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "c_mpl_t_",
+            "sentence": "_____ the assignment before lunch.",
+            "correctAnswer": "complete",
+            "feedback": "Complete has ete at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 8: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "_____ the assignment before lunch.",
@@ -1081,8 +1037,28 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 9",
+            "level": "Spelling Practice",
+            "title": "Word 9: Study the Word",
+            "prompt": "Type this word: important",
+            "display": "important",
+            "sentence": "It is important to check your work.",
+            "correctAnswer": "important",
+            "feedback": "Important has ant at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 9: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "_mp_rt_nt",
+            "sentence": "It is _____ to check your work.",
+            "correctAnswer": "important",
+            "feedback": "Important has ant at the end."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 9: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "It is _____ to check your work.",
@@ -1091,15 +1067,36 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
           },
           {
             "kind": "spelling",
-            "level": "Level 3: Spell From the Sentence",
-            "title": "Word 10",
+            "level": "Spelling Practice",
+            "title": "Word 10: Study the Word",
+            "prompt": "Type this word: possible",
+            "display": "possible",
+            "sentence": "It is possible to improve with practice.",
+            "correctAnswer": "possible",
+            "feedback": "Possible has double s and ends with -ible."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 10: Some Letters Hidden",
+            "prompt": "Use the visible letters and the sentence clue to spell the word.",
+            "display": "p_ss_bl_",
+            "sentence": "It is _____ to improve with practice.",
+            "correctAnswer": "possible",
+            "feedback": "Possible has double s and ends with -ible."
+          },
+          {
+            "kind": "spelling",
+            "level": "Spelling Practice",
+            "title": "Word 10: Spell From the Sentence",
             "prompt": "Spell the missing word on your own.",
             "display": "No letters shown",
             "sentence": "It is _____ to improve with practice.",
             "correctAnswer": "possible",
             "feedback": "Possible has double s and ends with -ible."
           }
-        ]
+        ],
+        "version": "2026-07-01-canadian-word-order-1"
       },
       "teacherSummary": "Language Spelling Assignment 3 is a student-shareable typed spelling assignment with 10 words."
     },
@@ -1135,8 +1132,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
             "skill": "Spelling",
             "type": "spelling",
             "prompt": "Spell the missing word: Our _____ helped carry the boxes.",
-            "correctAnswer": "neighbor",
-            "reviewNote": "Neighbor uses eigh for the long a sound."
+            "correctAnswer": "neighbour",
+            "reviewNote": "Neighbour uses eigh for the long a sound."
           },
           {
             "section": "Words 1-10",
@@ -1191,8 +1188,8 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
             "skill": "Spelling",
             "type": "spelling",
             "prompt": "Spell the missing word: My _____ book is on the shelf.",
-            "correctAnswer": "favorite",
-            "reviewNote": "Favorite has orite at the end."
+            "correctAnswer": "favourite",
+            "reviewNote": "Favourite has our near the beginning and ite at the end."
           },
           {
             "section": "Words 11-20",
