@@ -89,6 +89,7 @@ let learningStepIndex = 0;
 let learningAnswered = false;
 let learningEarnedStars = 0;
 let selectedLearningChoice = "";
+let learningTypedAnswer = "";
 let learningNextButton = null;
 let learningLevels = [];
 let learningLevelIndex = 0;
@@ -1005,8 +1006,12 @@ function learningStepsFromKeys(levelIndex, keys) {
     .filter(Boolean);
 }
 
+function isScoredLearningStep(step) {
+  return step?.kind === "question" || step?.kind === "spelling";
+}
+
 function learningQuestionCount(activity) {
-  return (activity?.steps || []).filter((step) => step.kind === "question").length;
+  return (activity?.steps || []).filter(isScoredLearningStep).length;
 }
 
 function startLearningActivity() {
@@ -1038,6 +1043,7 @@ function startLearningLevel(levelIndex, steps, stepKeys = null) {
   learningMissedStepKeys = [];
   learningAnswered = false;
   selectedLearningChoice = "";
+  learningTypedAnswer = "";
   learningCardMode = "question";
   saveLearningProgress();
   showLearningStep();
@@ -1059,6 +1065,7 @@ function restoreLearningProgress(checkpoint) {
   learningMissedSteps = learningStepsFromKeys(learningLevelIndex, learningMissedStepKeys);
   learningAnswered = false;
   selectedLearningChoice = "";
+  learningTypedAnswer = "";
   learningCardMode = "question";
   if (checkpoint.mode === "summary" || learningStepIndex >= learningCurrentSteps.length) {
     showLearningLevelSummary();
@@ -1070,9 +1077,11 @@ function restoreLearningProgress(checkpoint) {
 function showLearningStep() {
   const steps = learningCurrentSteps;
   const step = steps[learningStepIndex];
-  const isQuestion = step.kind === "question";
+  const isQuestion = isScoredLearningStep(step);
+  const isSpellingStep = step.kind === "spelling";
   learningAnswered = false;
   selectedLearningChoice = "";
+  learningTypedAnswer = "";
   learningCardMode = "question";
   learningStepNumber.textContent = String(learningStepIndex + 1);
   learningTotalSteps.textContent = String(steps.length);
@@ -1080,21 +1089,22 @@ function showLearningStep() {
   learningStars.textContent = String(learningEarnedStars);
   learningLessonTitle.textContent = activeLearningActivity.title || "Place Value";
   learningLevelTitle.textContent = step.level || "Learning Mission";
-  const actionText = isQuestion ? "Submit" : "Next";
-  const displayChoices = step.choices ? shuffledLearningChoices(step.choices) : [];
-  learningCard.className = `learning-card${step.kind === "build" || step.chart ? " learning-card-chart" : ""}${step.kind === "lessonIntro" ? " learning-card-intro" : ""}`;
+  const actionText = isSpellingStep ? "Check Spelling" : isQuestion ? "Submit" : "Next";
+  const displayChoices = step.kind === "question" && step.choices ? shuffledLearningChoices(step.choices) : [];
+  learningCard.className = `learning-card${step.kind === "build" || step.chart ? " learning-card-chart" : ""}${step.kind === "lessonIntro" ? " learning-card-intro" : ""}${isSpellingStep ? " learning-card-spelling" : ""}`;
 
   learningCard.innerHTML = `
     <h2>${window.PracticeStar.escapeHtml(step.title)}</h2>
     ${step.number ? `<p class="activity-number">${step.number}</p>` : ""}
     ${step.kind === "build" || step.chart ? renderLearningChart(step) : ""}
     ${step.prompt ? `<p class="learning-prompt">${window.PracticeStar.escapeHtml(step.prompt)}</p>` : ""}
+    ${isSpellingStep ? renderLearningSpellingStep(step) : ""}
     ${step.choices ? `
       <div class="choice-grid">
         ${displayChoices.map((choice) => `<button class="learning-choice-button choice-button" type="button" data-choice="${window.PracticeStar.escapeHtml(choice)}">${window.PracticeStar.escapeHtml(choice)}</button>`).join("")}
       </div>
     ` : ""}
-    <p>${window.PracticeStar.escapeHtml(step.text || "")}</p>
+    ${isSpellingStep ? "" : `<p>${window.PracticeStar.escapeHtml(step.text || "")}</p>`}
     <div class="learning-card-actions">
       <button id="learningNextButton" type="button" ${isQuestion ? "disabled" : ""}>${actionText}</button>
     </div>
@@ -1106,6 +1116,39 @@ function showLearningStep() {
 
   learningNextButton = document.querySelector("#learningNextButton");
   learningNextButton.addEventListener("click", handleLearningAction);
+
+  const spellingInput = document.querySelector("#learningSpellingAnswer");
+  if (spellingInput) {
+    spellingInput.addEventListener("input", () => {
+      learningTypedAnswer = spellingInput.value.trim();
+      learningNextButton.disabled = learningTypedAnswer.length === 0;
+    });
+    spellingInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && !learningNextButton.disabled) {
+        event.preventDefault();
+        handleLearningAction();
+      }
+    });
+    spellingInput.focus();
+  }
+}
+
+function renderLearningSpellingStep(step) {
+  return `
+    <div class="learning-spelling-box">
+      ${step.display ? `<div class="learning-spelling-display">${window.PracticeStar.escapeHtml(step.display)}</div>` : ""}
+      ${step.sentence ? `<p class="learning-spelling-sentence">${window.PracticeStar.escapeHtml(step.sentence)}</p>` : ""}
+      <label for="learningSpellingAnswer">Your spelling</label>
+      <input
+        id="learningSpellingAnswer"
+        type="text"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="none"
+        spellcheck="false"
+      />
+    </div>
+  `;
 }
 
 function checkLearningAnswer(choice, button) {
@@ -1152,12 +1195,15 @@ function handleLearningAction() {
 }
 
 function submitLearningAnswer(step) {
-  if (!selectedLearningChoice) {
+  const answer = step.kind === "spelling" ? learningTypedAnswer : selectedLearningChoice;
+  if (!answer) {
     return;
   }
 
   learningAnswered = true;
-  const isCorrect = selectedLearningChoice === step.correctAnswer;
+  const isCorrect = step.kind === "spelling"
+    ? normalizeAnswer(answer) === normalizeAnswer(step.correctAnswer || "")
+    : answer === step.correctAnswer;
 
   if (isCorrect) {
     learningLevelCorrect += 1;
@@ -1171,17 +1217,25 @@ function submitLearningAnswer(step) {
     learningMissedStepKeys.push(learningCurrentStepKeys[learningStepIndex]);
   }
 
-  renderLearningResult(isCorrect);
+  renderLearningResult(isCorrect, step, answer);
   saveLearningProgress("after-answer", learningStepIndex + 1);
 }
 
-function renderLearningResult(isCorrect) {
+function renderLearningResult(isCorrect, step = {}, answer = "") {
   learningCardMode = "result";
   learningCard.className = "learning-card learning-card-result";
+  const isSpellingStep = step.kind === "spelling";
+  const resultText = isSpellingStep
+    ? isCorrect
+      ? step.feedback || `Correct. ${step.correctAnswer} is spelled carefully.`
+      : `Good try. The word is spelled "${step.correctAnswer}". ${step.feedback || ""}`
+    : step.feedback || "";
   learningCard.innerHTML = `
     <div class="learning-result-slide ${isCorrect ? "correct" : "try-again"}">
       <span>${isCorrect ? "CORRECT" : "INCORRECT"}</span>
     </div>
+    ${resultText ? `<p class="learning-result-note">${window.PracticeStar.escapeHtml(resultText)}</p>` : ""}
+    ${isSpellingStep && answer && !isCorrect ? `<p class="learning-result-note muted-note">You typed: ${window.PracticeStar.escapeHtml(answer)}</p>` : ""}
     <div class="learning-card-actions">
       <button id="learningNextButton" type="button">Next</button>
     </div>
@@ -1453,6 +1507,10 @@ function normalizeQuizAnswer(value) {
     .trim();
 }
 
+function normalizeTypedSpelling(value) {
+  return normalizeQuizAnswer(value).toLowerCase();
+}
+
 function startFinalQuiz() {
   if (!activeFinalQuiz) {
     return;
@@ -1468,7 +1526,9 @@ function startFinalQuiz() {
   const quizKind = activeFinalQuiz.quizKind || "Lesson Quiz";
   finalQuizTitle.textContent = activeFinalQuiz.title;
   finalQuizDetails.textContent = `${quizKind} - ${activeFinalQuiz.questions.length} questions. Answer each one carefully. You will see your score after you submit.`;
-  finalQuizDisplayChoices = activeFinalQuiz.questions.map((question) => shuffledChoices(question.choices || []));
+  finalQuizDisplayChoices = activeFinalQuiz.questions.map((question) =>
+    question.type === "spelling" ? [] : shuffledChoices(question.choices || [])
+  );
   finalQuizForm.innerHTML = `
     ${groupedFinalQuizQuestions(activeFinalQuiz.questions).map((section) => `
       <section class="final-quiz-section">
@@ -1476,14 +1536,30 @@ function startFinalQuiz() {
         ${section.questions.map((question) => `
           <fieldset class="final-quiz-question">
             <legend>${question.originalIndex + 1}. ${window.PracticeStar.escapeHtml(question.prompt)}</legend>
-            <div class="final-quiz-choices">
-              ${(finalQuizDisplayChoices[question.originalIndex] || question.choices).map((choice, choiceIndex) => `
-                <label>
-                  <input type="radio" name="finalQuestion${question.originalIndex}" value="${choiceIndex}" required />
-                  <span>${window.PracticeStar.escapeHtml(choice)}</span>
-                </label>
-              `).join("")}
-            </div>
+            ${question.type === "spelling" ? `
+              <div class="final-quiz-spelling-answer">
+                <label for="finalQuestion${question.originalIndex}">Type the word</label>
+                <input
+                  id="finalQuestion${question.originalIndex}"
+                  name="finalQuestion${question.originalIndex}"
+                  type="text"
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  spellcheck="false"
+                  required
+                />
+              </div>
+            ` : `
+              <div class="final-quiz-choices">
+                ${(finalQuizDisplayChoices[question.originalIndex] || question.choices).map((choice, choiceIndex) => `
+                  <label>
+                    <input type="radio" name="finalQuestion${question.originalIndex}" value="${choiceIndex}" required />
+                    <span>${window.PracticeStar.escapeHtml(choice)}</span>
+                  </label>
+                `).join("")}
+              </div>
+            `}
           </fieldset>
         `).join("")}
       </section>
@@ -1509,10 +1585,17 @@ function submitFinalQuiz(event) {
 
   const formData = new FormData(finalQuizForm);
   const answers = activeFinalQuiz.questions.map((question, index) => {
-    const selectedChoiceIndex = Number(formData.get(`finalQuestion${index}`));
-    const displayChoices = finalQuizDisplayChoices[index] || question.choices || [];
-    const answer = Number.isInteger(selectedChoiceIndex) ? displayChoices[selectedChoiceIndex] || "" : "";
-    const isCorrect = normalizeQuizAnswer(answer) === normalizeQuizAnswer(question.correctAnswer);
+    let answer = "";
+    let isCorrect = false;
+    if (question.type === "spelling") {
+      answer = normalizeQuizAnswer(formData.get(`finalQuestion${index}`));
+      isCorrect = normalizeTypedSpelling(answer) === normalizeTypedSpelling(question.correctAnswer);
+    } else {
+      const selectedChoiceIndex = Number(formData.get(`finalQuestion${index}`));
+      const displayChoices = finalQuizDisplayChoices[index] || question.choices || [];
+      answer = Number.isInteger(selectedChoiceIndex) ? displayChoices[selectedChoiceIndex] || "" : "";
+      isCorrect = normalizeQuizAnswer(answer) === normalizeQuizAnswer(question.correctAnswer);
+    }
     return {
       prompt: question.prompt,
       answer,

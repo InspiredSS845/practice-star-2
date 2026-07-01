@@ -1378,6 +1378,28 @@ textarea:focus {
   background: #fff1f8;
 }
 
+.final-quiz-spelling-answer {
+  display: grid;
+  gap: 8px;
+}
+
+.final-quiz-spelling-answer label {
+  color: var(--blue-dark);
+  font-weight: 900;
+}
+
+.final-quiz-spelling-answer input {
+  width: 100%;
+  min-height: 54px;
+  padding: 10px 12px;
+  border: 3px solid #bde0ff;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--blue-dark);
+  font: inherit;
+  font-weight: 900;
+}
+
 .final-quiz-submit-row {
   display: flex;
   flex-wrap: wrap;
@@ -1550,6 +1572,72 @@ body.learning-mode .top-row {
 
 .learning-card-intro .learning-prompt {
   color: var(--blue-dark);
+}
+
+.learning-card-spelling {
+  align-content: center;
+  background: #f7fbff;
+  border-color: #bde0ff;
+}
+
+.learning-card-spelling h2 {
+  font-size: clamp(1.35rem, 3vw, 2.1rem);
+}
+
+.learning-spelling-box {
+  display: grid;
+  width: min(100%, 680px);
+  gap: 10px;
+  text-align: left;
+}
+
+.learning-spelling-display {
+  padding: 14px;
+  border: 3px solid #d8ecff;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--blue-dark);
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.learning-spelling-sentence {
+  margin: 0;
+  color: var(--blue-dark);
+  font-size: clamp(1rem, 2.4vw, 1.25rem);
+  font-weight: 900;
+  text-align: center;
+}
+
+.learning-spelling-box label {
+  color: var(--blue-dark);
+  font-weight: 900;
+}
+
+.learning-spelling-box input {
+  width: 100%;
+  min-height: 58px;
+  padding: 10px 14px;
+  border: 4px solid #bde0ff;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--blue-dark);
+  font: inherit;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.learning-result-note {
+  max-width: 720px;
+  margin: 0;
+  color: var(--blue-dark);
+  font-weight: 900;
+}
+
+.muted-note {
+  color: #55667d;
 }
 
 .learning-card-chart {

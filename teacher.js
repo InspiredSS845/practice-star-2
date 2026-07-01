@@ -507,16 +507,32 @@ function renderPlaceValueChart(step) {
   `;
 }
 
+function isScoredActivityStep(step) {
+  return step?.kind === "question" || step?.kind === "spelling";
+}
+
+function renderSpellingStepPreview(step) {
+  return `
+    <div class="activity-spelling-preview">
+      ${step.display ? `<span>${window.PracticeStar.escapeHtml(step.display)}</span>` : ""}
+      ${step.sentence ? `<p>${window.PracticeStar.escapeHtml(step.sentence)}</p>` : ""}
+      <p class="hint">Typed answer: ${window.PracticeStar.escapeHtml(step.correctAnswer || "")}</p>
+    </div>
+  `;
+}
+
 function renderActivityStep(step, index) {
   const choices = step.choices || [];
   const rewardClass = step.kind === "reward" ? " reward-step" : "";
+  const spellingClass = step.kind === "spelling" ? " spelling-step" : "";
   return `
-    <article class="activity-step-card${rewardClass}">
+    <article class="activity-step-card${rewardClass}${spellingClass}">
       <span class="stage-pill">Step ${index + 1}</span>
       <h4>${window.PracticeStar.escapeHtml(step.title || "Activity Step")}</h4>
       ${step.number ? `<p class="activity-number">${step.number}</p>` : ""}
       ${step.kind === "build" || step.chart ? renderPlaceValueChart(step) : ""}
       ${step.prompt ? `<p><strong>${window.PracticeStar.escapeHtml(step.prompt)}</strong></p>` : ""}
+      ${step.kind === "spelling" ? renderSpellingStepPreview(step) : ""}
       ${choices.length ? `
         <div class="activity-choice-preview">
           ${choices.map((choice) => `<span>${window.PracticeStar.escapeHtml(choice)}</span>`).join("")}
@@ -542,13 +558,14 @@ function groupActivityLevels(steps = []) {
 }
 
 function renderActivityLevel(level, index) {
+  const scoredCount = level.steps.filter(isScoredActivityStep).length;
   return `
     <article class="activity-level-preview">
       <div class="activity-level-heading">
         <span class="stage-pill">Level ${index + 1}</span>
         <div>
           <h4>${window.PracticeStar.escapeHtml(level.name)}</h4>
-          <p class="hint">${level.steps.length} question${level.steps.length === 1 ? "" : "s"} in this level</p>
+          <p class="hint">${scoredCount || level.steps.length} practice step${(scoredCount || level.steps.length) === 1 ? "" : "s"} in this level</p>
         </div>
       </div>
       <div class="activity-step-grid">
@@ -564,14 +581,14 @@ function renderStudentActivity(activity) {
   }
 
   const levels = groupActivityLevels(activity.steps || []);
-  const questionCount = (activity.steps || []).filter((step) => step.kind === "question").length;
+  const questionCount = (activity.steps || []).filter(isScoredActivityStep).length;
   return `
     <div class="student-activity-hero">
       <div>
         <span class="stage-pill">Student Mission</span>
         <h3>${window.PracticeStar.escapeHtml(activity.title || "Learning Mission")}</h3>
         <p>${window.PracticeStar.escapeHtml(activity.mission || "")}</p>
-        <p class="hint">${levels.length} level${levels.length === 1 ? "" : "s"} - ${questionCount} question${questionCount === 1 ? "" : "s"} total</p>
+        <p class="hint">${levels.length} level${levels.length === 1 ? "" : "s"} - ${questionCount} practice step${questionCount === 1 ? "" : "s"} total</p>
       </div>
       <div class="reward-preview">
         <span>Tracks</span>
@@ -617,7 +634,7 @@ function renderLessonQuiz(quiz) {
               <div class="question-row">
                 <div>
                   <strong>${question.number}. ${window.PracticeStar.escapeHtml(question.prompt)}</strong>
-                  ${renderListItems(question.choices, "Choices will be added later.")}
+                  ${question.type === "spelling" ? `<p class="hint">Typed spelling question</p>` : renderListItems(question.choices, "Choices will be added later.")}
                   <p class="hint">Answer: ${window.PracticeStar.escapeHtml(question.correctAnswer)}</p>
                 </div>
               </div>

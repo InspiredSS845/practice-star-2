@@ -14,8 +14,11 @@
       "grade": 5,
       "subject": "Language",
       "title": "Language - Grade 5",
-      "status": "planned",
-      "description": "Reading, writing, oral communication, media literacy, vocabulary, grammar, and research skills will be built here."
+      "status": "active",
+      "basePath": "content/grade-5/language",
+      "indexFile": "content/grade-5/language/index.json",
+      "dataKey": "grade5Language",
+      "description": "Language has a built-in Grade 5 spelling and word study unit, with more reading, writing, media, grammar, and oral communication units planned."
     },
     {
       "id": "grade-5-science",
