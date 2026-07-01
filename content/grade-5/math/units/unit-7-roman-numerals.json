@@ -6,14 +6,14 @@
   "lessons": [
     {
       "id": "grade-5-math-unit-7-meet-the-symbols",
-      "title": "Meet the Symbols",
+      "title": "Meet I, V, and X",
       "type": "lesson",
-      "learningGoal": "Students will learn the main Roman numeral symbols and match I, V, X, L, C, D, and M to their values.",
+      "learningGoal": "Students will learn the first Roman numeral symbols I, V, and X and use them to read and write numbers from 1 to 10.",
       "successCriteria": [
-        "I can work with meet the symbols.",
-        "I can read Roman numerals carefully from left to right.",
-        "I can explain why a Roman numeral is written correctly.",
-        "I can apply the skill to a new example."
+        "I can match I, V, and X to their values.",
+        "I can read Roman numerals from 1 to 10.",
+        "I can build small Roman numerals using I, V, and X.",
+        "I can explain why IV and IX use a smaller symbol before a larger one."
       ],
       "vocabulary": [
         "Roman numeral",
@@ -22,15 +22,13 @@
         "I",
         "V",
         "X",
-        "L",
-        "C",
-        "D",
-        "M"
+        "IV",
+        "IX"
       ],
-      "teacherOverview": "Meet the Symbols is built as a student-facing Roman numerals mission with short interactive questions and a lesson quiz.",
+      "teacherOverview": "Meet I, V, and X is a slower starter mission for Roman numerals. Students work only with I, V, and X before larger symbols are introduced later in the unit.",
       "lessonContent": [
-        "Students will learn the main Roman numeral symbols and match I, V, X, L, C, D, and M to their values.",
-        "Students practise with short questions, immediate feedback, and examples that use likely Roman numeral mistakes as answer choices."
+        "Students begin with I, V, and X before seeing the larger symbols.",
+        "Students practise numbers from 1 to 10, including IV for 4 and IX for 9, so the system feels familiar before higher numbers are added."
       ],
       "practiceIdeas": [
         "Use the activity mission for practice stars.",
@@ -38,38 +36,38 @@
         "Revisit missed skills before moving on."
       ],
       "studentActivityPlan": {
-        "title": "Symbol Starter",
-        "description": "Students practise meet the symbols through short game-style questions.",
+        "title": "I, V, and X Starter",
+        "description": "Students practise the first Roman numeral symbols through short game-style questions.",
         "levels": [
-          "Level 1: Small Symbols",
-          "Level 2: Larger Symbols",
-          "Level 3: Symbol Sense"
+          "Level 1: Three Starter Symbols",
+          "Level 2: Build Small Numbers",
+          "Level 3: Four, Nine, and Ten"
         ],
         "reward": "10 practice stars after each completed level"
       },
       "quizPlan": {
-        "title": "Meet the Symbols Quiz",
+        "title": "Meet I, V, and X Quiz",
         "questionCount": 8,
         "format": "Multiple choice and true/false questions. Students get one score at the end.",
-        "focus": "Students will learn the main Roman numeral symbols and match I, V, X, L, C, D, and M to their values."
+        "focus": "Students match I, V, and X to their values and read Roman numerals from 1 to 10."
       },
-      "assessmentPlan": "Use the practice mission to build confidence and the lesson quiz to check meet the symbols independently.",
+      "assessmentPlan": "Use the practice mission to build confidence and the lesson quiz to check I, V, and X independently.",
       "studentActivity": {
         "type": "meet-the-symbols",
-        "title": "Symbol Starter",
-        "mission": "Earn practice stars by matching Roman numeral symbols to their values.",
+        "title": "I, V, and X Starter",
+        "mission": "Earn practice stars by learning the first three Roman numeral symbols.",
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
             "kind": "lessonIntro",
-            "level": "Level 1: Small Symbols",
+            "level": "Level 1: Three Starter Symbols",
             "title": "Before You Begin",
-            "prompt": "Get ready: Meet the Symbols",
-            "text": "Roman numerals use letters to stand for numbers. The first symbols to know are I for 1, V for 5, X for 10, L for 50, C for 100, D for 500, and M for 1000. Start by learning what each symbol is worth before trying to combine them."
+            "prompt": "Get ready: I, V, and X",
+            "text": "Roman numerals use letters to stand for numbers. Today you only need three symbols: I means 1, V means 5, and X means 10. Bigger symbols like L, C, D, and M will come later, after these first symbols feel comfortable."
           },
           {
             "kind": "question",
-            "level": "Level 1: Small Symbols",
+            "level": "Level 1: Three Starter Symbols",
             "title": "Symbol Value",
             "prompt": "What number does I stand for?",
             "choices": [
@@ -83,296 +81,327 @@
           },
           {
             "kind": "question",
-            "level": "Level 1: Small Symbols",
+            "level": "Level 1: Three Starter Symbols",
             "title": "Symbol Value",
             "prompt": "What number does V stand for?",
             "choices": [
               "5",
-              "10",
-              "50"
+              "1",
+              "10"
             ],
             "correctAnswer": "5",
             "feedback": "Correct. V stands for 5.",
-            "hint": "V is the symbol used for five."
+            "hint": "V is the symbol that comes after I in this starter set."
           },
           {
             "kind": "question",
-            "level": "Level 1: Small Symbols",
+            "level": "Level 1: Three Starter Symbols",
             "title": "Symbol Value",
             "prompt": "What number does X stand for?",
             "choices": [
               "10",
               "5",
-              "100"
+              "1"
             ],
             "correctAnswer": "10",
             "feedback": "Correct. X stands for 10.",
-            "hint": "Think of X as the ten symbol."
+            "hint": "X is the largest symbol in this first lesson."
           },
           {
             "kind": "question",
-            "level": "Level 1: Small Symbols",
-            "title": "Match the Symbol",
-            "prompt": "Which Roman numeral means 5?",
+            "level": "Level 1: Three Starter Symbols",
+            "title": "Choose the Symbol",
+            "prompt": "Which Roman numeral symbol means 5?",
             "choices": [
               "V",
-              "X",
-              "I"
+              "I",
+              "X"
             ],
             "correctAnswer": "V",
             "feedback": "Correct. V means 5.",
-            "hint": "Choose the symbol with value 5."
+            "hint": "Think of the middle value in I, V, X."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Three Starter Symbols",
+            "title": "Level 1 Complete",
+            "prompt": "You know the first three Roman numeral symbols.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Build Small Numbers",
+            "title": "Build with I",
+            "prompt": "Use I to count small numbers",
+            "text": "Roman numerals can repeat I to show small numbers. I is 1, II is 2, and III is 3. After three I symbols, Roman numerals usually switch to a shorter form."
           },
           {
             "kind": "question",
-            "level": "Level 2: Larger Symbols",
-            "title": "Symbol Value",
-            "prompt": "What number does L stand for?",
+            "level": "Level 2: Build Small Numbers",
+            "title": "Read It",
+            "prompt": "What number is II?",
             "choices": [
-              "50",
-              "100",
-              "500"
+              "2",
+              "3",
+              "4"
             ],
-            "correctAnswer": "50",
-            "feedback": "Correct. L stands for 50.",
-            "hint": "L is larger than X but smaller than C."
+            "correctAnswer": "2",
+            "feedback": "Correct. II is 1 + 1.",
+            "hint": "Count the I symbols."
           },
           {
             "kind": "question",
-            "level": "Level 2: Larger Symbols",
-            "title": "Symbol Value",
-            "prompt": "What number does C stand for?",
+            "level": "Level 2: Build Small Numbers",
+            "title": "Read It",
+            "prompt": "What number is III?",
             "choices": [
-              "100",
-              "50",
-              "1000"
+              "3",
+              "2",
+              "5"
             ],
-            "correctAnswer": "100",
-            "feedback": "Correct. C stands for 100.",
-            "hint": "C is the hundred symbol."
+            "correctAnswer": "3",
+            "feedback": "Correct. III is 1 + 1 + 1.",
+            "hint": "There are three I symbols."
           },
           {
             "kind": "question",
-            "level": "Level 2: Larger Symbols",
-            "title": "Symbol Value",
-            "prompt": "What number does D stand for?",
+            "level": "Level 2: Build Small Numbers",
+            "title": "Add After V",
+            "prompt": "What number is VI?",
             "choices": [
-              "500",
-              "100",
-              "1000"
+              "6",
+              "4",
+              "7"
             ],
-            "correctAnswer": "500",
-            "feedback": "Correct. D stands for 500.",
-            "hint": "D is halfway between C and M."
+            "correctAnswer": "6",
+            "feedback": "Correct. VI is 5 + 1.",
+            "hint": "When I comes after V, add 1."
           },
           {
             "kind": "question",
-            "level": "Level 2: Larger Symbols",
-            "title": "Symbol Value",
-            "prompt": "What number does M stand for?",
+            "level": "Level 2: Build Small Numbers",
+            "title": "Write It",
+            "prompt": "Which Roman numeral means 8?",
             "choices": [
-              "1000",
-              "500",
-              "100"
+              "VIII",
+              "VII",
+              "IX"
             ],
-            "correctAnswer": "1000",
-            "feedback": "Correct. M stands for 1000.",
-            "hint": "M is the thousand symbol."
+            "correctAnswer": "VIII",
+            "feedback": "Correct. VIII is 5 + 1 + 1 + 1.",
+            "hint": "Start with V for 5, then add three I symbols."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Build Small Numbers",
+            "title": "Level 2 Complete",
+            "prompt": "You can build small Roman numerals.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 3: Four, Nine, and Ten",
+            "title": "A Small Symbol Before a Bigger One",
+            "prompt": "Learn IV and IX",
+            "text": "Sometimes a smaller symbol before a bigger symbol means subtract. IV means one before five, so it is 4. IX means one before ten, so it is 9. This helps Roman numerals stay shorter."
           },
           {
             "kind": "question",
-            "level": "Level 3: Symbol Sense",
-            "title": "Compare Symbols",
-            "prompt": "Which Roman numeral symbol has the greatest value?",
+            "level": "Level 3: Four, Nine, and Ten",
+            "title": "Read It",
+            "prompt": "What number is IV?",
             "choices": [
-              "M",
-              "D",
-              "C"
+              "4",
+              "6",
+              "5"
             ],
-            "correctAnswer": "M",
-            "feedback": "Correct. M is worth 1000.",
-            "hint": "Compare 1000, 500, and 100."
+            "correctAnswer": "4",
+            "feedback": "Correct. IV means 1 before 5.",
+            "hint": "A smaller symbol before a larger one means subtract."
           },
           {
             "kind": "question",
-            "level": "Level 3: Symbol Sense",
-            "title": "Compare Symbols",
-            "prompt": "Which Roman numeral symbol has the smallest value?",
+            "level": "Level 3: Four, Nine, and Ten",
+            "title": "Read It",
+            "prompt": "What number is IX?",
+        "choices": [
+          "9",
+          "8",
+          "10"
+        ],
+            "correctAnswer": "9",
+            "feedback": "Correct. IX means 1 before 10.",
+            "hint": "I before X means one less than ten."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Four, Nine, and Ten",
+            "title": "Choose the Symbol",
+            "prompt": "Which Roman numeral means 10?",
             "choices": [
-              "I",
+              "X",
               "V",
-              "X"
+              "IX"
             ],
-            "correctAnswer": "I",
-            "feedback": "Correct. I is worth 1.",
-            "hint": "Compare 1, 5, and 10."
+            "correctAnswer": "X",
+            "feedback": "Correct. X means 10.",
+            "hint": "IX is close to 10, but X is exactly 10."
           },
           {
             "kind": "question",
-            "level": "Level 3: Symbol Sense",
-            "title": "True or False",
-            "prompt": "V is worth more than X.",
+            "level": "Level 3: Four, Nine, and Ten",
+            "title": "Count in Order",
+            "prompt": "Which list counts correctly from 1 to 5?",
             "choices": [
-              "True",
-              "False"
+              "I, II, III, IV, V",
+              "I, II, IV, III, V",
+              "I, V, II, III, IV"
             ],
-            "correctAnswer": "False",
-            "feedback": "Correct. V is 5 and X is 10.",
-            "hint": "Compare 5 and 10."
+            "correctAnswer": "I, II, III, IV, V",
+            "feedback": "Correct. The order is I, II, III, IV, V.",
+            "hint": "Four is IV, then five is V."
           },
           {
-            "kind": "question",
-            "level": "Level 3: Symbol Sense",
-            "title": "Symbol Set",
-            "prompt": "Which list is ordered from smallest to largest?",
-            "choices": [
-              "I, V, X, L",
-              "X, V, I, L",
-              "L, X, V, I"
-            ],
-            "correctAnswer": "I, V, X, L",
-            "feedback": "Correct. 1, 5, 10, 50 is smallest to largest.",
-            "hint": "Translate each symbol into a number first."
+            "kind": "levelComplete",
+            "level": "Level 3: Four, Nine, and Ten",
+            "title": "Level 3 Complete",
+            "prompt": "You can read Roman numerals from 1 to 10.",
+            "stars": 10
           }
         ]
       },
       "quiz": {
-        "title": "Meet the Symbols Quiz",
+        "id": "grade-5-math-unit-7-meet-the-symbols-quiz",
+        "title": "Meet I, V, and X Quiz",
+        "instructions": "Answer each question about the first Roman numeral symbols.",
         "questions": [
           {
-            "section": "Symbol Values",
-            "skill": "I and V",
+            "skill": "Symbols",
             "type": "multipleChoice",
-            "prompt": "I stands for...",
+            "prompt": "What number does I stand for?",
             "choices": [
               "1",
               "5",
               "10",
-              "50"
+              "2"
             ],
             "correctAnswer": "1",
-            "reviewNote": "I is the Roman numeral for 1."
+            "reviewNote": "I stands for 1."
           },
           {
-            "section": "Symbol Values",
-            "skill": "X",
+            "skill": "Symbols",
             "type": "multipleChoice",
-            "prompt": "X stands for...",
+            "prompt": "What number does V stand for?",
             "choices": [
               "5",
+              "1",
               "10",
-              "50",
-              "100"
+              "4"
+            ],
+            "correctAnswer": "5",
+            "reviewNote": "V stands for 5."
+          },
+          {
+            "skill": "Symbols",
+            "type": "multipleChoice",
+            "prompt": "What number does X stand for?",
+            "choices": [
+              "10",
+              "5",
+              "1",
+              "9"
             ],
             "correctAnswer": "10",
-            "reviewNote": "X is the Roman numeral for 10."
+            "reviewNote": "X stands for 10."
           },
           {
-            "section": "Symbol Values",
-            "skill": "L and C",
+            "skill": "Read",
             "type": "multipleChoice",
-            "prompt": "Which symbol stands for 100?",
-            "choices": [
-              "L",
-              "C",
-              "D",
-              "M"
-            ],
-            "correctAnswer": "C",
-            "reviewNote": "C is worth 100."
+            "prompt": "What number is VI?",
+        "choices": [
+          "6",
+          "4",
+          "7",
+          "5"
+        ],
+            "correctAnswer": "6",
+            "reviewNote": "VI is 5 + 1."
           },
           {
-            "section": "Symbol Values",
-            "skill": "D and M",
+            "skill": "Read",
             "type": "multipleChoice",
-            "prompt": "Which symbol stands for 500?",
-            "choices": [
-              "C",
-              "D",
-              "L",
-              "M"
-            ],
-            "correctAnswer": "D",
-            "reviewNote": "D is worth 500."
+            "prompt": "What number is VIII?",
+        "choices": [
+          "8",
+          "7",
+          "9",
+          "6"
+        ],
+            "correctAnswer": "8",
+            "reviewNote": "VIII is 5 + 1 + 1 + 1."
           },
           {
-            "section": "Symbol Values",
-            "skill": "Compare",
+            "skill": "Read",
             "type": "trueFalse",
-            "prompt": "M is worth more than D.",
-            "choices": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "True",
-            "reviewNote": "M is 1000 and D is 500."
+            "prompt": "IV means 4.",
+            "correctAnswer": true,
+            "reviewNote": "True. IV means one before five."
           },
           {
-            "section": "Symbol Values",
-            "skill": "Compare",
-            "type": "trueFalse",
-            "prompt": "L is worth 100.",
-            "choices": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "False",
-            "reviewNote": "L is 50. C is 100."
+            "skill": "Read",
+            "type": "multipleChoice",
+            "prompt": "What number is IX?",
+          "choices": [
+            "9",
+            "10",
+            "8",
+            "4"
+          ],
+            "correctAnswer": "9",
+            "reviewNote": "IX means one before ten."
           },
           {
-            "section": "Symbol Order",
             "skill": "Order",
             "type": "multipleChoice",
-            "prompt": "Which list goes from smallest to largest?",
+            "prompt": "Which list counts correctly from 1 to 5?",
             "choices": [
-              "I, V, X, C",
-              "X, V, I, C",
-              "C, X, V, I",
-              "V, I, X, C"
+              "I, II, III, IV, V",
+              "I, II, IV, III, V",
+              "I, V, II, III, IV",
+              "V, IV, III, II, I"
             ],
-            "correctAnswer": "I, V, X, C",
-            "reviewNote": "Translate the symbols into 1, 5, 10, 100."
-          },
-          {
-            "section": "Symbol Values",
-            "skill": "Match",
-            "type": "multipleChoice",
-            "prompt": "Which symbol would you use for 50?",
-            "choices": [
-              "L",
-              "C",
-              "D",
-              "X"
-            ],
-            "correctAnswer": "L",
-            "reviewNote": "L stands for 50."
+            "correctAnswer": "I, II, III, IV, V",
+            "reviewNote": "The correct order is I, II, III, IV, V."
           }
         ]
       },
-      "teacherSummary": "Meet the Symbols includes a 12-question practice mission and a 8-question lesson quiz."
+      "teacherSummary": "Meet I, V, and X includes a slower 12-question practice mission and an 8-question lesson quiz using only I, V, and X."
     },
     {
       "id": "grade-5-math-unit-7-adding-symbols",
-      "title": "Adding Symbols",
+      "title": "Adding I, V, and X",
       "type": "lesson",
-      "learningGoal": "Students will read Roman numerals that add symbols from larger to smaller values.",
+      "learningGoal": "Students will read Roman numerals that add I, V, and X from 1 to 20 before larger symbols are introduced.",
       "successCriteria": [
-        "I can work with adding symbols.",
-        "I can read Roman numerals carefully from left to right.",
-        "I can explain why a Roman numeral is written correctly.",
-        "I can apply the skill to a new example."
+        "I can add Roman numeral symbols when they go from larger to smaller values.",
+        "I can read Roman numerals from 6 to 20 using I, V, and X.",
+        "I can explain how a Roman numeral total was built.",
+        "I can choose the best Roman numeral for a small number."
       ],
       "vocabulary": [
         "additive rule",
         "left to right",
         "repeat",
         "value",
-        "total"
+        "total",
+        "VI",
+        "XI",
+        "XX"
       ],
-      "teacherOverview": "Adding Symbols is built as a student-facing Roman numerals mission with short interactive questions and a lesson quiz.",
+      "teacherOverview": "Adding I, V, and X keeps the second Roman numeral lesson focused on the same starter symbols. Students read numbers up to 20 before moving into L, C, D, and M later in the unit.",
       "lessonContent": [
-        "Students will read Roman numerals that add symbols from larger to smaller values.",
-        "Students practise with short questions, immediate feedback, and examples that use likely Roman numeral mistakes as answer choices."
+        "Students read Roman numerals that add symbols from larger to smaller values.",
+        "Students practise with I, V, and X only, so they can build fluency before adding higher values."
       ],
       "practiceIdeas": [
         "Use the activity mission for practice stars.",
@@ -380,44 +409,44 @@
         "Revisit missed skills before moving on."
       ],
       "studentActivityPlan": {
-        "title": "Roman Numeral Builder",
-        "description": "Students practise adding symbols through short game-style questions.",
+        "title": "I, V, and X Builder",
+        "description": "Students practise adding starter Roman numeral symbols through short game-style questions.",
         "levels": [
-          "Level 1: Ones After Fives",
+          "Level 1: Ones After Five",
           "Level 2: Tens and Ones",
-          "Level 3: Bigger Additions"
+          "Level 3: Teens and Twenty"
         ],
         "reward": "10 practice stars after each completed level"
       },
       "quizPlan": {
-        "title": "Adding Symbols Quiz",
+        "title": "Adding I, V, and X Quiz",
         "questionCount": 8,
         "format": "Multiple choice and true/false questions. Students get one score at the end.",
-        "focus": "Students will read Roman numerals that add symbols from larger to smaller values."
+        "focus": "Students read Roman numerals up to 20 using I, V, and X."
       },
-      "assessmentPlan": "Use the practice mission to build confidence and the lesson quiz to check adding symbols independently.",
+      "assessmentPlan": "Use the practice mission to build confidence and the lesson quiz to check adding I, V, and X independently.",
       "studentActivity": {
         "type": "adding-symbols",
-        "title": "Roman Numeral Builder",
-        "mission": "Earn practice stars by reading Roman numerals that add symbols together.",
+        "title": "I, V, and X Builder",
+        "mission": "Earn practice stars by reading Roman numerals that add I, V, and X.",
         "reward": "10 practice stars after each completed level",
         "steps": [
           {
             "kind": "lessonIntro",
-            "level": "Level 1: Ones After Fives",
+            "level": "Level 1: Ones After Five",
             "title": "Before You Begin",
-            "prompt": "Get ready: Adding Symbols",
-            "text": "Roman numerals usually add when the symbols go from larger to smaller. VI means 5 + 1, so it is 6. XII means 10 + 1 + 1, so it is 12. Read carefully from left to right and add the values when they do not need the subtraction rule."
+            "prompt": "Get ready: adding Roman numerals",
+            "text": "When smaller or equal Roman numeral symbols come after a larger symbol, add them. VI means 5 + 1, so it is 6. VIII means 5 + 1 + 1 + 1, so it is 8."
           },
           {
             "kind": "question",
-            "level": "Level 1: Ones After Fives",
+            "level": "Level 1: Ones After Five",
             "title": "Read It",
             "prompt": "What number is VI?",
             "choices": [
               "6",
               "4",
-              "11"
+              "7"
             ],
             "correctAnswer": "6",
             "feedback": "Correct. VI is 5 + 1.",
@@ -425,13 +454,13 @@
           },
           {
             "kind": "question",
-            "level": "Level 1: Ones After Fives",
+            "level": "Level 1: Ones After Five",
             "title": "Read It",
             "prompt": "What number is VII?",
             "choices": [
               "7",
               "6",
-              "12"
+              "8"
             ],
             "correctAnswer": "7",
             "feedback": "Correct. VII is 5 + 1 + 1.",
@@ -439,13 +468,13 @@
           },
           {
             "kind": "question",
-            "level": "Level 1: Ones After Fives",
+            "level": "Level 1: Ones After Five",
             "title": "Read It",
             "prompt": "What number is VIII?",
             "choices": [
               "8",
               "7",
-              "13"
+              "9"
             ],
             "correctAnswer": "8",
             "feedback": "Correct. VIII is 5 + 1 + 1 + 1.",
@@ -453,17 +482,31 @@
           },
           {
             "kind": "question",
-            "level": "Level 1: Ones After Fives",
+            "level": "Level 1: Ones After Five",
             "title": "Write It",
             "prompt": "Which Roman numeral means 6?",
             "choices": [
               "VI",
               "IV",
-              "XI"
+              "VII"
             ],
             "correctAnswer": "VI",
             "feedback": "Correct. VI means 6.",
             "hint": "Put I after V to add 1."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Ones After Five",
+            "title": "Level 1 Complete",
+            "prompt": "You can add I after V.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Tens and Ones",
+            "title": "Add After Ten",
+            "prompt": "Use X with I",
+            "text": "X means 10. If I comes after X, add it. XI is 11, XII is 12, and XIII is 13."
           },
           {
             "kind": "question",
@@ -473,11 +516,11 @@
             "choices": [
               "11",
               "9",
-              "15"
+              "12"
             ],
             "correctAnswer": "11",
             "feedback": "Correct. XI is 10 + 1.",
-            "hint": "X is 10 and I after it adds 1."
+            "hint": "X is 10 and I adds 1."
           },
           {
             "kind": "question",
@@ -486,22 +529,64 @@
             "prompt": "What number is XII?",
             "choices": [
               "12",
-              "17",
-              "8"
+              "11",
+              "13"
             ],
             "correctAnswer": "12",
             "feedback": "Correct. XII is 10 + 1 + 1.",
-            "hint": "Start with X, then count two ones."
+            "hint": "Count the two I symbols after X."
           },
           {
             "kind": "question",
             "level": "Level 2: Tens and Ones",
             "title": "Read It",
+            "prompt": "What number is XIII?",
+            "choices": [
+              "13",
+              "12",
+              "14"
+            ],
+            "correctAnswer": "13",
+            "feedback": "Correct. XIII is 10 + 1 + 1 + 1.",
+            "hint": "X is 10 and III adds 3."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Tens and Ones",
+            "title": "Write It",
+            "prompt": "Which Roman numeral means 12?",
+            "choices": [
+              "XII",
+              "XIII",
+              "XXII"
+            ],
+            "correctAnswer": "XII",
+            "feedback": "Correct. XII means 12.",
+            "hint": "Start with X for 10, then add two I symbols."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Tens and Ones",
+            "title": "Level 2 Complete",
+            "prompt": "You can add I after X.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 3: Teens and Twenty",
+            "title": "Use Two Tens",
+            "prompt": "Build teen numbers and 20",
+            "text": "You can use X with V and I to make teen numbers. XVI is 16 because it is 10 + 5 + 1. XX is 20 because it is 10 + 10."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Teens and Twenty",
+            "title": "Read It",
             "prompt": "What number is XVI?",
             "choices": [
               "16",
               "14",
-              "21"
+              "17"
             ],
             "correctAnswer": "16",
             "feedback": "Correct. XVI is 10 + 5 + 1.",
@@ -509,189 +594,161 @@
           },
           {
             "kind": "question",
-            "level": "Level 2: Tens and Ones",
-            "title": "Write It",
-            "prompt": "Which Roman numeral means 18?",
+            "level": "Level 3: Teens and Twenty",
+            "title": "Read It",
+            "prompt": "What number is XVII?",
             "choices": [
-              "XVIII",
-              "XIII",
-              "VIII"
+              "17",
+              "16",
+              "18"
             ],
-            "correctAnswer": "XVIII",
-            "feedback": "Correct. XVIII is 10 + 5 + 3.",
-            "hint": "18 is 10 plus 8."
+            "correctAnswer": "17",
+            "feedback": "Correct. XVII is 10 + 5 + 1 + 1.",
+            "hint": "X is 10 and VII is 7."
           },
           {
             "kind": "question",
-            "level": "Level 3: Bigger Additions",
+            "level": "Level 3: Teens and Twenty",
+            "title": "Read It",
+            "prompt": "What number is XVIII?",
+            "choices": [
+              "18",
+              "17",
+              "19"
+            ],
+            "correctAnswer": "18",
+            "feedback": "Correct. XVIII is 10 + 5 + 1 + 1 + 1.",
+            "hint": "X is 10 and VIII is 8."
+          },
+          {
+            "kind": "question",
+            "level": "Level 3: Teens and Twenty",
             "title": "Read It",
             "prompt": "What number is XX?",
             "choices": [
               "20",
               "10",
-              "100"
+              "15"
             ],
             "correctAnswer": "20",
             "feedback": "Correct. XX is 10 + 10.",
-            "hint": "Two X symbols make twenty."
+            "hint": "Two X symbols make two tens."
           },
           {
-            "kind": "question",
-            "level": "Level 3: Bigger Additions",
-            "title": "Read It",
-            "prompt": "What number is LX?",
-            "choices": [
-              "60",
-              "40",
-              "110"
-            ],
-            "correctAnswer": "60",
-            "feedback": "Correct. LX is 50 + 10.",
-            "hint": "L is 50 and X after it adds 10."
-          },
-          {
-            "kind": "question",
-            "level": "Level 3: Bigger Additions",
-            "title": "Read It",
-            "prompt": "What number is LXX?",
-            "choices": [
-              "70",
-              "60",
-              "120"
-            ],
-            "correctAnswer": "70",
-            "feedback": "Correct. LXX is 50 + 10 + 10.",
-            "hint": "Start with 50, then add two tens."
-          },
-          {
-            "kind": "question",
-            "level": "Level 3: Bigger Additions",
-            "title": "True or False",
-            "prompt": "XIII means 13.",
-            "choices": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "True",
-            "feedback": "Correct. X + I + I + I = 13.",
-            "hint": "Add the symbols from left to right."
+            "kind": "levelComplete",
+            "level": "Level 3: Teens and Twenty",
+            "title": "Level 3 Complete",
+            "prompt": "You can add I, V, and X up to 20.",
+            "stars": 10
           }
         ]
       },
       "quiz": {
-        "title": "Adding Symbols Quiz",
+        "id": "grade-5-math-unit-7-adding-symbols-quiz",
+        "title": "Adding I, V, and X Quiz",
+        "instructions": "Answer each question about adding I, V, and X.",
         "questions": [
           {
-            "section": "Additive Rule",
             "skill": "Read",
             "type": "multipleChoice",
-            "prompt": "VI means...",
+            "prompt": "What number is VI?",
             "choices": [
               "6",
               "4",
-              "11",
-              "15"
+              "7",
+              "11"
             ],
             "correctAnswer": "6",
             "reviewNote": "VI is 5 + 1."
           },
           {
-            "section": "Additive Rule",
             "skill": "Read",
             "type": "multipleChoice",
-            "prompt": "XIII means...",
+            "prompt": "What number is VIII?",
+            "choices": [
+              "8",
+              "7",
+              "9",
+              "13"
+            ],
+            "correctAnswer": "8",
+            "reviewNote": "VIII is 5 + 1 + 1 + 1."
+          },
+          {
+            "skill": "Read",
+            "type": "multipleChoice",
+            "prompt": "What number is XI?",
+            "choices": [
+              "11",
+              "9",
+              "12",
+              "10"
+            ],
+            "correctAnswer": "11",
+            "reviewNote": "XI is 10 + 1."
+          },
+          {
+            "skill": "Read",
+            "type": "multipleChoice",
+            "prompt": "What number is XIII?",
             "choices": [
               "13",
-              "8",
-              "17",
-              "30"
+              "12",
+              "14",
+              "11"
             ],
             "correctAnswer": "13",
-            "reviewNote": "XIII is 10 + 1 + 1 + 1."
+            "reviewNote": "XIII is 10 + 3."
           },
           {
-            "section": "Additive Rule",
             "skill": "Write",
             "type": "multipleChoice",
-            "prompt": "Which Roman numeral means 17?",
-            "choices": [
-              "XVII",
-              "XII",
-              "VII",
-              "XXVII"
-            ],
-            "correctAnswer": "XVII",
-            "reviewNote": "17 is 10 + 5 + 1 + 1."
-          },
-          {
-            "section": "Additive Rule",
-            "skill": "Read",
-            "type": "multipleChoice",
-            "prompt": "LXX means...",
-            "choices": [
-              "70",
-              "60",
-              "120",
-              "30"
-            ],
-            "correctAnswer": "70",
-            "reviewNote": "LXX is 50 + 10 + 10."
-          },
-          {
-            "section": "Additive Rule",
-            "skill": "Read",
-            "type": "trueFalse",
-            "prompt": "VIII means 8.",
-            "choices": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "True",
-            "reviewNote": "VIII is 5 plus three ones."
-          },
-          {
-            "section": "Additive Rule",
-            "skill": "Read",
-            "type": "trueFalse",
-            "prompt": "XXI means 19.",
-            "choices": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "False",
-            "reviewNote": "XXI is 10 + 10 + 1, or 21."
-          },
-          {
-            "section": "Additive Rule",
-            "skill": "Choose",
-            "type": "multipleChoice",
-            "prompt": "Which numeral is written using only addition?",
+            "prompt": "Which Roman numeral means 16?",
             "choices": [
               "XVI",
-              "IX",
-              "IV",
-              "XL"
+              "XIV",
+              "XVII",
+              "VI"
             ],
             "correctAnswer": "XVI",
-            "reviewNote": "XVI reads 10 + 5 + 1."
+            "reviewNote": "XVI is 10 + 5 + 1."
           },
           {
-            "section": "Additive Rule",
-            "skill": "Read",
+            "skill": "Write",
             "type": "multipleChoice",
-            "prompt": "CXX means...",
+            "prompt": "Which Roman numeral means 18?",
             "choices": [
-              "120",
-              "80",
-              "112",
-              "220"
+              "XVIII",
+              "XVII",
+              "XIII",
+              "VIII"
             ],
-            "correctAnswer": "120",
-            "reviewNote": "CXX is 100 + 10 + 10."
+            "correctAnswer": "XVIII",
+            "reviewNote": "XVIII is 10 + 5 + 3."
+          },
+          {
+            "skill": "Read",
+            "type": "trueFalse",
+            "prompt": "XX means 20.",
+            "correctAnswer": true,
+            "reviewNote": "True. XX is 10 + 10."
+          },
+          {
+            "skill": "Order",
+            "type": "multipleChoice",
+            "prompt": "Which list counts correctly from 11 to 13?",
+            "choices": [
+              "XI, XII, XIII",
+              "X, XI, XII",
+              "XI, XIII, XII",
+              "XII, XI, XIII"
+            ],
+            "correctAnswer": "XI, XII, XIII",
+            "reviewNote": "The correct order is XI, XII, XIII."
           }
         ]
       },
-      "teacherSummary": "Adding Symbols includes a 12-question practice mission and a 8-question lesson quiz."
+      "teacherSummary": "Adding I, V, and X includes a 12-question practice mission and an 8-question lesson quiz using only I, V, and X up to 20."
     },
     {
       "id": "grade-5-math-unit-7-subtracting-symbols",
