@@ -366,7 +366,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
             "feedback": "Favourite has our near the beginning and ite at the end."
           }
         ],
-        "version": "2026-07-01-canadian-word-order-1"
+        "version": "2026-07-01-listen-retry-1"
       },
       "teacherSummary": "Language Spelling Assignment 1 is a student-shareable typed spelling assignment with 10 words."
     },
@@ -731,7 +731,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
             "feedback": "Happiness changes y to i before -ness."
           }
         ],
-        "version": "2026-07-01-canadian-word-order-1"
+        "version": "2026-07-01-listen-retry-1"
       },
       "teacherSummary": "Language Spelling Assignment 2 is a student-shareable typed spelling assignment with 10 words."
     },
@@ -1096,7 +1096,7 @@ window.PracticeStarUnit["grade-5-language-unit-1"] = {
             "feedback": "Possible has double s and ends with -ible."
           }
         ],
-        "version": "2026-07-01-canadian-word-order-1"
+        "version": "2026-07-01-listen-retry-1"
       },
       "teacherSummary": "Language Spelling Assignment 3 is a student-shareable typed spelling assignment with 10 words."
     },

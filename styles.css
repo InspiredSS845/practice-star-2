@@ -1400,6 +1400,11 @@ textarea:focus {
   font-weight: 900;
 }
 
+.listen-word-button {
+  justify-self: center;
+  width: fit-content;
+}
+
 .final-quiz-submit-row {
   display: flex;
   flex-wrap: wrap;

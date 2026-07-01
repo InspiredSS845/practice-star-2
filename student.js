@@ -90,6 +90,7 @@ let learningAnswered = false;
 let learningEarnedStars = 0;
 let selectedLearningChoice = "";
 let learningTypedAnswer = "";
+let learningRetryStepIndex = null;
 let learningNextButton = null;
 let learningLevels = [];
 let learningLevelIndex = 0;
@@ -1045,6 +1046,7 @@ function startLearningLevel(levelIndex, steps, stepKeys = null) {
   learningAnswered = false;
   selectedLearningChoice = "";
   learningTypedAnswer = "";
+  learningRetryStepIndex = null;
   learningCardMode = "question";
   saveLearningProgress();
   showLearningStep();
@@ -1073,6 +1075,7 @@ function restoreLearningProgress(checkpoint) {
   learningAnswered = false;
   selectedLearningChoice = "";
   learningTypedAnswer = "";
+  learningRetryStepIndex = null;
   learningCardMode = "question";
   if (checkpoint.mode === "summary" || learningStepIndex >= learningCurrentSteps.length) {
     finishLearningLevel();
@@ -1089,6 +1092,7 @@ function showLearningStep() {
   learningAnswered = false;
   selectedLearningChoice = "";
   learningTypedAnswer = "";
+  learningRetryStepIndex = null;
   learningCardMode = "question";
   learningStepNumber.textContent = String(learningStepIndex + 1);
   learningTotalSteps.textContent = String(steps.length);
@@ -1138,6 +1142,16 @@ function showLearningStep() {
     });
     spellingInput.focus();
   }
+
+  const listenButton = document.querySelector("#listenLearningWordButton");
+  if (listenButton) {
+    if (!canSpeakWords()) {
+      listenButton.disabled = true;
+      listenButton.textContent = "Listen unavailable";
+    } else {
+      listenButton.addEventListener("click", () => speakWord(step.correctAnswer || ""));
+    }
+  }
 }
 
 function renderLearningSpellingStep(step) {
@@ -1145,6 +1159,7 @@ function renderLearningSpellingStep(step) {
     <div class="learning-spelling-box">
       ${step.display ? `<div class="learning-spelling-display">${window.PracticeStar.escapeHtml(step.display)}</div>` : ""}
       ${step.sentence ? `<p class="learning-spelling-sentence">${window.PracticeStar.escapeHtml(step.sentence)}</p>` : ""}
+      <button id="listenLearningWordButton" class="secondary small-button listen-word-button" type="button">Listen to Word</button>
       <label for="learningSpellingAnswer">Your spelling</label>
       <input
         id="learningSpellingAnswer"
@@ -1156,6 +1171,22 @@ function renderLearningSpellingStep(step) {
       />
     </div>
   `;
+}
+
+function canSpeakWords() {
+  return "speechSynthesis" in window && typeof window.SpeechSynthesisUtterance === "function";
+}
+
+function speakWord(word) {
+  if (!canSpeakWords() || !word) {
+    return;
+  }
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.lang = "en-CA";
+  utterance.rate = 0.85;
+  utterance.pitch = 1;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
 }
 
 function checkLearningAnswer(choice, button) {
@@ -1188,6 +1219,18 @@ function handleLearningAction() {
     return;
   }
 
+  if (learningCardMode === "result" && learningRetryStepIndex !== null) {
+    const retryStepIndex = learningRetryStepIndex;
+    learningRetryStepIndex = null;
+    learningStepIndex = retryStepIndex;
+    learningAnswered = false;
+    selectedLearningChoice = "";
+    learningTypedAnswer = "";
+    saveLearningProgress();
+    showLearningStep();
+    return;
+  }
+
   const step = learningCurrentSteps[learningStepIndex];
   if (isScoredLearningStep(step)) {
     if (!learningAnswered) {
@@ -1199,6 +1242,15 @@ function handleLearningAction() {
   }
 
   nextLearningStep();
+}
+
+function firstSpellingStepIndexForWord(word) {
+  const normalizedWord = normalizeAnswer(word || "");
+  const index = learningCurrentSteps.findIndex((step) =>
+    step.kind === "spelling" &&
+    normalizeAnswer(step.correctAnswer || "") === normalizedWord
+  );
+  return index === -1 ? learningStepIndex : index;
 }
 
 function submitLearningAnswer(step) {
@@ -1220,12 +1272,16 @@ function submitLearningAnswer(step) {
     learningStars.textContent = String(learningEarnedStars);
   } else {
     learningLevelIncorrect += 1;
-    learningMissedSteps.push(step);
-    learningMissedStepKeys.push(learningCurrentStepKeys[learningStepIndex]);
+    if (step.kind === "spelling") {
+      learningRetryStepIndex = firstSpellingStepIndexForWord(step.correctAnswer);
+    } else {
+      learningMissedSteps.push(step);
+      learningMissedStepKeys.push(learningCurrentStepKeys[learningStepIndex]);
+    }
   }
 
   renderLearningResult(isCorrect, step, answer);
-  saveLearningProgress("after-answer", learningStepIndex + 1);
+  saveLearningProgress("after-answer", learningRetryStepIndex ?? learningStepIndex + 1);
 }
 
 function renderLearningResult(isCorrect, step = {}, answer = "") {
@@ -1237,6 +1293,7 @@ function renderLearningResult(isCorrect, step = {}, answer = "") {
       ? step.feedback || `Correct. ${step.correctAnswer} is spelled carefully.`
       : `Good try. The word is spelled "${step.correctAnswer}". ${step.feedback || ""}`
     : step.feedback || "";
+  const actionLabel = learningRetryStepIndex !== null ? "Review This Word" : "Next";
   learningCard.innerHTML = `
     <div class="learning-result-slide ${isCorrect ? "correct" : "try-again"}">
       <span>${isCorrect ? "CORRECT" : "INCORRECT"}</span>
@@ -1244,7 +1301,7 @@ function renderLearningResult(isCorrect, step = {}, answer = "") {
     ${resultText ? `<p class="learning-result-note">${window.PracticeStar.escapeHtml(resultText)}</p>` : ""}
     ${isSpellingStep && answer && !isCorrect ? `<p class="learning-result-note muted-note">You typed: ${window.PracticeStar.escapeHtml(answer)}</p>` : ""}
     <div class="learning-card-actions">
-      <button id="learningNextButton" type="button">Next</button>
+      <button id="learningNextButton" type="button">${actionLabel}</button>
     </div>
   `;
 
@@ -1280,7 +1337,9 @@ function finishLearningLevel() {
 
 function showLearningLevelSummary() {
   const levelName = learningLevels[learningLevelIndex]?.name || "Level";
-  const mastered = learningLevelIncorrect === 0;
+  const hasMissedSteps = learningMissedSteps.length > 0;
+  const mastered = learningLevelIncorrect === 0 || !hasMissedSteps;
+  const completedAfterCorrections = learningLevelIncorrect > 0 && !hasMissedSteps;
   const sectionKey = `${learningLevelIndex}:${levelName}`;
   const earnsSectionBonus = learningCanEarnStars && mastered && !learningCompletedSections.has(sectionKey);
   if (earnsSectionBonus) {
@@ -1317,7 +1376,7 @@ function showLearningLevelSummary() {
           <p>Practice stars earned for this section</p>
         </div>
       ` : ""}
-      <p>${mastered ? learningCanEarnStars ? `Great work. You got them all right. Total stars: ${learningEarnedStars}.` : "Great work. You already collected the stars for this mission, so this replay is just for practice." : "Practice only the missed questions, then try the level check again."}</p>
+      <p>${mastered ? learningCanEarnStars ? completedAfterCorrections ? `Great work. You corrected your spelling and finished this level. Total stars: ${learningEarnedStars}.` : `Great work. You got them all right. Total stars: ${learningEarnedStars}.` : "Great work. You already collected the stars for this mission, so this replay is just for practice." : "Practice only the missed questions, then try the level check again."}</p>
       <div class="learning-card-actions">
         <button id="learningNextButton" type="button">${learningMissedSteps.length > 0 ? "Practice Missed Questions" : learningLevelIndex + 1 < learningLevels.length ? "Next Level" : "Finish Mission"}</button>
       </div>
@@ -1561,6 +1620,7 @@ function startFinalQuiz() {
             <legend>${question.originalIndex + 1}. ${window.PracticeStar.escapeHtml(question.prompt)}</legend>
             ${question.type === "spelling" ? `
               <div class="final-quiz-spelling-answer">
+                <button class="secondary small-button listen-word-button final-listen-word-button" type="button" data-question-index="${question.originalIndex}">Listen to Word</button>
                 <label for="finalQuestion${question.originalIndex}">Type the word</label>
                 <input
                   id="finalQuestion${question.originalIndex}"
@@ -1595,6 +1655,17 @@ function startFinalQuiz() {
 
   document.querySelector("#cancelFinalQuizButton").addEventListener("click", () => {
     renderActivities(activeClass, activeStudent);
+  });
+  document.querySelectorAll(".final-listen-word-button").forEach((button) => {
+    if (!canSpeakWords()) {
+      button.disabled = true;
+      button.textContent = "Listen unavailable";
+      return;
+    }
+    button.addEventListener("click", () => {
+      const question = activeFinalQuiz.questions[Number(button.dataset.questionIndex)];
+      speakWord(question?.correctAnswer || "");
+    });
   });
   showScreen(finalQuizScreen);
   finalQuizScreen.scrollIntoView({ block: "start" });
