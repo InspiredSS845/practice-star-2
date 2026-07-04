@@ -109,6 +109,8 @@ let readyForNext = false;
 let activityRefreshTimer = null;
 let activityRefreshInFlight = false;
 let lastActivityRefreshAt = 0;
+const openStudentSubjectSections = new Set();
+const openStudentStatusSections = new Set();
 const savedStudentLoginKey = "practiceStar2SavedStudentLogin";
 const learningRewardsKey = "practiceStar2LearningRewardsV3";
 const learningProgressKey = "practiceStar2LearningProgressV2";
@@ -304,6 +306,8 @@ function logOutStudent(message = "Logged out.", forgetSavedLogin = false) {
   activeQuiz = null;
   activeStudent = null;
   activeStudentName = "";
+  openStudentSubjectSections.clear();
+  openStudentStatusSections.clear();
   studentCodeForm.reset();
   rememberStudentLogin.checked = true;
   showScreen(codeScreen);
@@ -806,7 +810,15 @@ function renderActivityCard(card) {
   `;
 }
 
-function renderSubjectActivities(cards) {
+function studentSectionKey(value) {
+  return normalizeActivitySubject(value);
+}
+
+function studentStatusSectionKey(subject, status) {
+  return `${studentSectionKey(subject)}::${status}`;
+}
+
+function renderSubjectActivities(cards, subject) {
   return studentStatusSections
     .map((section) => {
       const statusCards = cards
@@ -815,8 +827,10 @@ function renderSubjectActivities(cards) {
       if (!statusCards.length) {
         return "";
       }
+      const statusKey = studentStatusSectionKey(subject, section.key);
+      const openAttribute = openStudentStatusSections.has(statusKey) ? " open" : "";
       return `
-        <details class="student-status-section">
+        <details class="student-status-section" data-status-key="${window.PracticeStar.escapeHtml(statusKey)}"${openAttribute}>
           <summary class="student-status-heading">
             <span class="student-status-title">${section.title}</span>
             <span class="student-status-count">${statusCards.length}</span>
@@ -838,18 +852,50 @@ function renderOrganizedActivities(cards) {
     <div class="student-subject-list">
       ${subjects.map((subject) => {
         const subjectCards = cards.filter((card) => card.subject === subject);
+        const subjectKey = studentSectionKey(subject);
+        const openAttribute = openStudentSubjectSections.has(subjectKey) ? " open" : "";
         return `
-          <details class="student-subject-section">
+          <details class="student-subject-section" data-subject-key="${window.PracticeStar.escapeHtml(subjectKey)}"${openAttribute}>
             <summary class="student-subject-header">
               <span class="student-subject-title">${window.PracticeStar.escapeHtml(subject)}</span>
               <span class="student-subject-count">${subjectCards.length} item${subjectCards.length === 1 ? "" : "s"}</span>
             </summary>
-            ${renderSubjectActivities(subjectCards)}
+            ${renderSubjectActivities(subjectCards, subject)}
           </details>
         `;
       }).join("")}
     </div>
   `;
+}
+
+function rememberActivitySectionState() {
+  document.querySelectorAll(".student-subject-section[data-subject-key]").forEach((section) => {
+    section.addEventListener("toggle", () => {
+      const key = section.dataset.subjectKey;
+      if (!key) {
+        return;
+      }
+      if (section.open) {
+        openStudentSubjectSections.add(key);
+      } else {
+        openStudentSubjectSections.delete(key);
+      }
+    });
+  });
+
+  document.querySelectorAll(".student-status-section[data-status-key]").forEach((section) => {
+    section.addEventListener("toggle", () => {
+      const key = section.dataset.statusKey;
+      if (!key) {
+        return;
+      }
+      if (section.open) {
+        openStudentStatusSections.add(key);
+      } else {
+        openStudentStatusSections.delete(key);
+      }
+    });
+  });
 }
 
 function renderActivities(classBundle, student) {
@@ -970,6 +1016,7 @@ function renderActivities(classBundle, student) {
   });
 
   activityList.innerHTML = renderOrganizedActivities([...learningCards, ...finalQuizCards, ...spellingCards, ...quizCards]);
+  rememberActivitySectionState();
   document.querySelectorAll(".start-activity-button").forEach((button) => {
     button.addEventListener("click", () => {
       if (button.dataset.type === "learning") {
