@@ -891,8 +891,34 @@ textarea:focus {
   background: #ffffff;
 }
 
-.student-progress-summary {
-  margin: 16px 0;
+.activity-screen-header {
+  display: grid;
+  grid-template-columns: 1fr minmax(132px, 170px);
+  align-items: start;
+  gap: 18px;
+}
+
+.student-star-total {
+  justify-self: end;
+  min-width: 132px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: var(--pink);
+  box-shadow: 0 6px 0 rgba(155, 41, 103, 0.35);
+  text-align: center;
+}
+
+.student-star-total span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.student-star-total p {
+  margin: 4px 0 0;
+  font-weight: 900;
 }
 
 .student-own-report {
@@ -997,6 +1023,22 @@ textarea:focus {
 .activity-row {
   grid-template-columns: 1fr auto;
   align-items: center;
+}
+
+.activity-row h3 {
+  margin: 0;
+}
+
+.activity-stars-earned {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  color: #177645;
+  background: #ffffff;
+  font-size: 0.92rem;
+  font-weight: 900;
 }
 
 .student-subject-list {
@@ -2015,6 +2057,7 @@ body.learning-mode .top-row {
   .student-lesson-grid,
   .activity-step-grid,
   .student-activity-hero,
+  .activity-screen-header,
   .level-score-grid,
   .question-row,
   .lesson-row,
@@ -2062,6 +2105,10 @@ body.learning-mode .top-row {
 
   .score-badge {
     width: 100%;
+  }
+
+  .student-star-total {
+    justify-self: stretch;
   }
 }
 

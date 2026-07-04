@@ -21,7 +21,7 @@ const continueButton = document.querySelector("#continueButton");
 const startOverButton = document.querySelector("#startOverButton");
 const activityTitle = document.querySelector("#activityTitle");
 const activityDetails = document.querySelector("#activityDetails");
-const studentProgressSummary = document.querySelector("#studentProgressSummary");
+const studentStarTotal = document.querySelector("#studentStarTotal");
 const activityList = document.querySelector("#activityList");
 const studentLogoutButton = document.querySelector("#studentLogoutButton");
 const wordNumber = document.querySelector("#wordNumber");
@@ -237,11 +237,16 @@ function getLearningCheckpoint() {
 
 function learningActivityState(activityId) {
   const key = learningActivityKey(activityId);
-  const completed = Boolean(getLearningRewards()[key]);
-  const inProgress = Boolean(getLearningProgress()[key]);
+  const reward = getLearningRewards()[key] || null;
+  const progress = getLearningProgress()[key] || null;
+  const completed = Boolean(reward);
+  const inProgress = Boolean(progress) && !completed;
   return {
+    status: completed ? "completed" : inProgress ? "inProgress" : "new",
     completed,
     inProgress,
+    earnedStars: completed ? Number(reward?.stars) || 0 : Number(progress?.earnedStars) || 0,
+    lastActivityAt: completed ? reward?.claimedAt || "" : progress?.savedAt || progress?.updatedAt || "",
     buttonLabel: completed ? "Review" : inProgress ? "Continue" : "Start",
     note: completed
       ? "Completed - you can review this mission any time."
@@ -320,11 +325,16 @@ function showScreen(screen) {
 
 function pilotLearningActivities() {
   const lessons = window.PracticeStar.curriculumLibraries().flatMap((library) =>
-    (library.units || []).flatMap((unit) =>
-      (unit.lessons || []).map((lesson) => ({
+    (library.units || []).flatMap((unit, unitIndex) =>
+      (unit.lessons || []).map((lesson, lessonIndex) => ({
       ...lesson,
       libraryId: library.id,
+      unitId: unit.id,
       unitTitle: unit.title,
+      unitIndex,
+      unitNumber: unitIndex + 1,
+      lessonIndex,
+      lessonNumber: lessonIndex + 1,
       subject: library.subject,
       grade: library.grade
     }))
@@ -338,6 +348,11 @@ function pilotLearningActivities() {
       title: lesson.studentActivity.title,
       lessonTitle: lesson.title,
       unitTitle: lesson.unitTitle,
+      unitNumber: lesson.unitNumber,
+      lessonNumber: lesson.lessonNumber,
+      unitIndex: lesson.unitIndex,
+      lessonIndex: lesson.lessonIndex,
+      lessonType: lesson.type,
       subject: lesson.subject,
       grade: lesson.grade,
       activity: lesson.studentActivity
@@ -346,11 +361,16 @@ function pilotLearningActivities() {
 
 function pilotLessonQuizzes() {
   const lessons = window.PracticeStar.curriculumLibraries().flatMap((library) =>
-    (library.units || []).flatMap((unit) =>
-      (unit.lessons || []).map((lesson) => ({
+    (library.units || []).flatMap((unit, unitIndex) =>
+      (unit.lessons || []).map((lesson, lessonIndex) => ({
       ...lesson,
       libraryId: library.id,
+      unitId: unit.id,
       unitTitle: unit.title,
+      unitIndex,
+      unitNumber: unitIndex + 1,
+      lessonIndex,
+      lessonNumber: lessonIndex + 1,
       subject: library.subject,
       grade: library.grade
     }))
@@ -365,6 +385,11 @@ function pilotLessonQuizzes() {
         id: quizId,
         lessonTitle: lesson.title,
         unitTitle: lesson.unitTitle,
+        unitNumber: lesson.unitNumber,
+        lessonNumber: lesson.lessonNumber,
+        unitIndex: lesson.unitIndex,
+        lessonIndex: lesson.lessonIndex,
+        lessonType: lesson.type,
         quizKind: lesson.type === "unitTest" ? "Unit Quiz" : "Lesson Quiz",
         subject: lesson.subject,
         grade: lesson.grade,
@@ -373,6 +398,7 @@ function pilotLessonQuizzes() {
           id: quizId,
           teacherId: activeClass?.teacher?.id || activeStudent?.teacherId || "",
           lessonTitle: lesson.title,
+          unitTitle: lesson.unitTitle,
           quizKind: lesson.type === "unitTest" ? "Unit Quiz" : "Lesson Quiz",
           subject: lesson.subject,
           grade: lesson.grade,
@@ -507,77 +533,28 @@ function rewardsForCurrentStudent() {
     .map(([, reward]) => reward);
 }
 
-function renderStudentProgressSummary() {
-  const sessions = window.PracticeStar.sessionsForTeacher(activeClass.teacher?.id || activeStudent?.teacherId || "")
+function starsForCurrentStudent() {
+  const completedStars = rewardsForCurrentStudent()
+    .reduce((sum, reward) => sum + (Number(reward.stars) || 0), 0);
+  const progressStars = progressForCurrentStudent()
+    .reduce((sum, item) => sum + (Number(item.earnedStars) || 0), 0);
+  const teacherId = activeClass?.teacher?.id || activeStudent?.teacherId || "";
+  const spellingStars = window.PracticeStar.sessionsForTeacher(teacherId)
     .filter((session) =>
       (activeStudent?.id && session.studentId === activeStudent.id) ||
       (!activeStudent?.id && studentNameMatches(session.studentName))
-    );
-  const localQuizAttempts = (window.PracticeStar.localQuizAttemptsForStudent?.(activeStudent?.id || "", activeStudentName) || []);
-  const rewards = rewardsForCurrentStudent();
-  const progress = progressForCurrentStudent();
-  const completedStars = rewards.reduce((sum, reward) => sum + (Number(reward.stars) || 0), 0);
-  const progressStars = progress.reduce((sum, item) => sum + (Number(item.earnedStars) || 0), 0);
-  const spellingPractices = sessions.reduce((sum, session) => sum + session.history.length, 0);
-  const masteredWords = sessions.reduce((sum, session) => sum + session.wordProgress.filter((word) => word.mastered).length, 0);
-  const recentMissions = rewards.slice(-3).reverse();
-  const recentQuizzes = localQuizAttempts.slice(0, 3);
+    )
+    .reduce((sum, session) => sum + spellingStarsForSession(session), 0);
+  return completedStars + progressStars + spellingStars;
+}
 
-  studentProgressSummary.innerHTML = `
-    <div class="student-report-panel student-own-report">
-      <div class="student-report-header">
-        <div>
-          <h4>${window.PracticeStar.escapeHtml(activeStudentName)}'s Progress</h4>
-          <p class="hint">Stars, missions, spelling practice, and quizzes.</p>
-        </div>
-        <div class="student-report-stars">
-          <span>${completedStars + progressStars}</span>
-          <p>stars earned</p>
-        </div>
-      </div>
-      <div class="student-report-metrics">
-        <div><strong>${rewards.length}</strong><span>missions completed</span></div>
-        <div><strong>${progress.length}</strong><span>missions in progress</span></div>
-        <div><strong>${spellingPractices}</strong><span>spelling sessions</span></div>
-        <div><strong>${localQuizAttempts.length}</strong><span>quiz attempts</span></div>
-      </div>
-      <div class="student-report-sections">
-        <section>
-          <h4>Curriculum Work</h4>
-          <ul>
-            ${recentMissions.length
-              ? recentMissions.map((reward) => `<li><strong>${window.PracticeStar.escapeHtml(reward.activity || "Learning mission")}</strong><span>${reward.stars || 0} stars earned</span></li>`).join("")
-              : `<li><span>No completed missions yet.</span></li>`}
-            ${progress.length
-              ? progress.slice(0, 2).map((item) => `<li><strong>In progress</strong><span>${item.earnedStars || 0} stars so far</span></li>`).join("")
-              : ""}
-          </ul>
-        </section>
-        <section>
-          <h4>Spelling Practice</h4>
-          <ul>
-            ${sessions.length
-              ? sessions.slice(0, 3).map((session) => {
-                const mastered = session.wordProgress.filter((word) => word.mastered).length;
-                return `<li><strong>${window.PracticeStar.escapeHtml(session.listName)}</strong><span>${mastered} of ${session.wordProgress.length} words mastered</span></li>`;
-              }).join("")
-              : `<li><span>No spelling practice yet.</span></li>`}
-            ${masteredWords ? `<li><strong>Total mastered</strong><span>${masteredWords} word${masteredWords === 1 ? "" : "s"}</span></li>` : ""}
-          </ul>
-        </section>
-        <section>
-          <h4>Quizzes</h4>
-          <ul>
-            ${recentQuizzes.length
-              ? recentQuizzes.map((attempt) => {
-                const percent = attempt.percent || Math.round((attempt.score / attempt.total) * 100);
-                return `<li><strong>${window.PracticeStar.escapeHtml(attempt.quizTitle || "Quiz")}</strong><span>${percent}% - ${attempt.score} of ${attempt.total}</span></li>`;
-              }).join("")
-              : `<li><span>No quiz attempts yet.</span></li>`}
-          </ul>
-        </section>
-      </div>
-    </div>
+function renderStudentStarTotal() {
+  if (!studentStarTotal) {
+    return;
+  }
+  studentStarTotal.innerHTML = `
+    <span>${starsForCurrentStudent()}</span>
+    <p>stars earned</p>
   `;
 }
 
@@ -698,6 +675,55 @@ function percentForAttempt(attempt) {
   return attempt.percent || Math.round((attempt.score / attempt.total) * 100);
 }
 
+function timestampValue(value) {
+  const time = Date.parse(value || "");
+  return Number.isFinite(time) ? time : 0;
+}
+
+function curriculumSortOrder(item, itemTypeOrder = 0) {
+  const unitIndex = Number(item.unitIndex) || 0;
+  const lessonIndex = Number(item.lessonIndex) || 0;
+  return (unitIndex * 1000) + (lessonIndex * 10) + itemTypeOrder;
+}
+
+function curriculumItemLabel(item, options = {}) {
+  const unitNumber = Number(item.unitNumber) || 0;
+  const lessonNumber = Number(item.lessonNumber) || 0;
+  const lessonType = item.lessonType || "";
+  if (!unitNumber) {
+    return "";
+  }
+  if (lessonType === "unitTest" || options.quizKind === "Unit Quiz") {
+    return `Unit ${unitNumber} Quiz`;
+  }
+  if (lessonType === "review") {
+    return `Unit ${unitNumber} Review`;
+  }
+  return options.includeQuiz
+    ? `Unit ${unitNumber}, Lesson ${lessonNumber} Quiz`
+    : `Unit ${unitNumber}, Lesson ${lessonNumber}`;
+}
+
+function spellingStarsForSession(session) {
+  if (!session) {
+    return 0;
+  }
+  const historyStars = (session.history || [])
+    .reduce((sum, run) => sum + (Number(run.correct) || 0), 0);
+  return historyStars + (Number(session.activeRun?.correct) || 0);
+}
+
+function cardSequenceSort(a, b) {
+  return (a.sequenceOrder ?? a.order ?? 0) - (b.sequenceOrder ?? b.order ?? 0) ||
+    (a.order ?? 0) - (b.order ?? 0) ||
+    a.title.localeCompare(b.title);
+}
+
+function cardRecentSort(a, b) {
+  return timestampValue(b.lastActivityAt) - timestampValue(a.lastActivityAt) ||
+    cardSequenceSort(a, b);
+}
+
 function studentSessionForList(list, sessions) {
   return sessions.find((session) =>
     session.listId === list.id &&
@@ -714,12 +740,16 @@ function spellingActivityState(list, sessions) {
     return {
       status: "new",
       buttonLabel: "Start",
-      note: ""
+      note: "",
+      earnedStars: 0,
+      lastActivityAt: list.updatedAt || list.createdAt || ""
     };
   }
 
   const mastered = session.wordProgress.filter((word) => word.mastered).length;
   const totalWordsInSession = session.wordProgress.length;
+  const earnedStars = spellingStarsForSession(session);
+  const lastActivityAt = session.updatedAt || session.history.at(-1)?.endedAt || session.activeRun?.startedAt || session.createdAt || "";
   const hasStarted = Boolean(
     session.activeRun ||
     session.history.length ||
@@ -732,7 +762,9 @@ function spellingActivityState(list, sessions) {
     return {
       status: "completed",
       buttonLabel: "Practice Again",
-      note: `Completed - ${mastered} of ${totalWordsInSession} words mastered.`
+      note: `Completed - ${mastered} of ${totalWordsInSession} words mastered.`,
+      earnedStars,
+      lastActivityAt
     };
   }
 
@@ -740,14 +772,18 @@ function spellingActivityState(list, sessions) {
     return {
       status: "inProgress",
       buttonLabel: "Continue",
-      note: `${mastered} of ${totalWordsInSession} words mastered.`
+      note: `${mastered} of ${totalWordsInSession} words mastered.`,
+      earnedStars,
+      lastActivityAt
     };
   }
 
   return {
     status: "new",
     buttonLabel: "Start",
-    note: ""
+    note: "",
+    earnedStars: 0,
+    lastActivityAt
   };
 }
 
@@ -755,10 +791,14 @@ function renderActivityCard(card) {
   const disabled = card.disabled ? "disabled" : "";
   const statusClass = `${card.status}-activity-row`;
   const extraClass = card.className ? ` ${card.className}` : "";
+  const starsLine = card.status !== "new" && card.starsEarned !== null && card.starsEarned !== undefined
+    ? `<p class="activity-stars-earned">Stars earned: ${Number(card.starsEarned) || 0}</p>`
+    : "";
   return `
     <article class="activity-row ${statusClass}${extraClass}">
       <div>
         <h3>${window.PracticeStar.escapeHtml(card.title)}</h3>
+        ${starsLine}
         ${card.hints.map((hint) => `<p class="hint">${window.PracticeStar.escapeHtml(hint)}</p>`).join("")}
       </div>
       <button class="start-activity-button" type="button" data-type="${window.PracticeStar.escapeHtml(card.type)}" data-id="${window.PracticeStar.escapeHtml(card.id)}" ${disabled}>${window.PracticeStar.escapeHtml(card.buttonLabel)}</button>
@@ -767,15 +807,11 @@ function renderActivityCard(card) {
 }
 
 function renderSubjectActivities(cards) {
-  const sortedCards = [...cards].sort((a, b) =>
-    statusSortIndex(a.status) - statusSortIndex(b.status) ||
-    a.order - b.order ||
-    a.title.localeCompare(b.title)
-  );
-
   return studentStatusSections
     .map((section) => {
-      const statusCards = sortedCards.filter((card) => card.status === section.key);
+      const statusCards = cards
+        .filter((card) => card.status === section.key)
+        .sort(section.key === "new" ? cardSequenceSort : cardRecentSort);
       if (!statusCards.length) {
         return "";
       }
@@ -831,7 +867,7 @@ function renderActivities(classBundle, student) {
   const totalActivities = classBundle.lists.length + classBundle.quizzes.length + learningActivities.length + lessonQuizzes.length;
   activityTitle.textContent = "Class activities";
   activityDetails.textContent = `${totalActivities} activit${totalActivities === 1 ? "y" : "ies"} for ${student.name}.`;
-  renderStudentProgressSummary();
+  renderStudentStarTotal();
 
   if (totalActivities === 0) {
     activityList.innerHTML = `<p class="empty-note">There are no activities for this code yet.</p>`;
@@ -845,18 +881,22 @@ function renderActivities(classBundle, student) {
 
   const learningCards = learningActivities.map((item) => {
     const state = learningActivityState(item.id);
+    const label = curriculumItemLabel(item);
     return {
       id: item.id,
       type: "learning",
       subject: normalizeActivitySubject(item.subject),
-      status: state.completed ? "completed" : state.inProgress ? "inProgress" : "new",
-      title: `${item.lessonTitle}: ${item.title}`,
+      status: state.status,
+      title: `${label}: ${item.lessonTitle}`,
       hints: [
-        `Learning mission - ${item.unitTitle}`,
+        `${item.title} - ${item.unitTitle}`,
         state.note
       ].filter(Boolean),
       buttonLabel: state.buttonLabel,
       className: `learning-activity-row${state.completed ? " completed-activity-row" : ""}`,
+      starsEarned: state.status === "new" ? null : state.earnedStars,
+      lastActivityAt: state.lastActivityAt,
+      sequenceOrder: curriculumSortOrder(item, 0),
       order: activityOrder += 1
     };
   });
@@ -865,12 +905,13 @@ function renderActivities(classBundle, student) {
     const priorAttempt = window.PracticeStar.quizAttemptForStudent(item.id, activeStudent?.id || "", activeStudentName);
     const canRetake = window.PracticeStar.finalQuizRetakeForStudent(activeClass.teacher?.id || "", item.id, activeStudent?.id || "");
     const quizKind = item.quizKind || "Lesson Quiz";
+    const label = curriculumItemLabel(item, { includeQuiz: true, quizKind });
     return {
       id: item.id,
       type: "finalQuiz",
       subject: normalizeActivitySubject(item.subject),
       status: canRetake ? "inProgress" : priorAttempt ? "completed" : "new",
-      title: `${item.lessonTitle}: ${item.quiz.title}`,
+      title: `${label}: ${item.quiz.title}`,
       hints: [
         `${quizKind} - ${item.quiz.questions.length} questions - one scored attempt`,
         priorAttempt && !canRetake ? `Recorded score: ${percentForAttempt(priorAttempt)}%` : "",
@@ -879,6 +920,9 @@ function renderActivities(classBundle, student) {
       buttonLabel: priorAttempt && !canRetake ? "Completed" : `Start ${quizKind}`,
       disabled: priorAttempt && !canRetake,
       className: `final-quiz-row${priorAttempt && !canRetake ? " completed-activity-row" : ""}${canRetake ? " retake-activity-row" : ""}`,
+      starsEarned: null,
+      lastActivityAt: priorAttempt?.createdAt || "",
+      sequenceOrder: curriculumSortOrder(item, 1),
       order: activityOrder += 1
     };
   });
@@ -897,6 +941,9 @@ function renderActivities(classBundle, student) {
       ].filter(Boolean),
       buttonLabel: state.buttonLabel,
       className: state.status === "completed" ? "completed-activity-row" : "",
+      starsEarned: state.status === "new" ? null : state.earnedStars,
+      lastActivityAt: state.lastActivityAt,
+      sequenceOrder: 100000 + activityOrder,
       order: activityOrder += 1
     };
   });
@@ -915,6 +962,9 @@ function renderActivities(classBundle, student) {
       ].filter(Boolean),
       buttonLabel: priorAttempt ? "Practice Again" : "Start Extra Practice Quiz",
       className: priorAttempt ? "completed-activity-row" : "",
+      starsEarned: null,
+      lastActivityAt: priorAttempt?.createdAt || quiz.updatedAt || quiz.createdAt || "",
+      sequenceOrder: 110000 + activityOrder,
       order: activityOrder += 1
     };
   });
