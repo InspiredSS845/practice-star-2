@@ -1143,6 +1143,10 @@ textarea:focus {
   justify-items: center;
 }
 
+.login-card-print-only {
+  display: none;
+}
+
 .login-card {
   position: relative;
   display: grid;
@@ -2433,47 +2437,211 @@ body.learning-mode .top-row {
 
 @media print {
   @page {
-    margin: 0.35in;
+    size: letter landscape;
+    margin: 0.25in;
+  }
+
+  html,
+  body.printing-login-card {
+    width: auto;
+    height: auto;
   }
 
   body.printing-login-card {
+    min-height: 0;
+    margin: 0;
     background: #ffffff;
   }
 
-  body.printing-login-card * {
-    visibility: hidden;
+  body.printing-login-card > :not(.login-card-print-only) {
+    display: none !important;
   }
 
-  body.printing-login-card #loginCardPrintArea,
-  body.printing-login-card #loginCardPrintArea * {
-    visibility: visible;
-  }
-
-  body.printing-login-card #loginCardPrintArea {
-    position: absolute;
-    top: 0;
-    left: 0;
+  body.printing-login-card .login-card-print-only {
+    display: block !important;
     width: 100%;
     margin: 0;
-  }
-
-  body.printing-login-card .login-card-sheet {
-    display: grid;
-    gap: 0.18in;
-    justify-items: center;
     padding: 0;
   }
 
-  body.printing-login-card .login-card {
-    width: 5.5in;
-    height: 4in;
+  body.printing-login-card .login-card-print-only,
+  body.printing-login-card .login-card-print-only * {
+    visibility: visible;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-sheet {
+    display: grid;
+    grid-template-columns: repeat(2, 4.95in);
+    gap: 0.22in;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0.05in 0 0;
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card {
+    width: 4.95in;
+    height: 3.6in;
     max-width: none;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0.16in 0.24in 0.18in;
+    border-width: 0.055in;
+    border-radius: 0.16in;
     break-inside: avoid;
     page-break-inside: avoid;
     box-shadow: none;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-brand-row {
+    gap: 0.08in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-star {
+    width: 0.48in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-brand-row h3 {
+    font-size: 0.42in;
+    line-height: 0.95;
+    text-shadow:
+      1px 0 #cde8ff,
+      -1px 0 #cde8ff,
+      0 1px #cde8ff,
+      0 -1px #cde8ff,
+      0 3px 0 rgba(13, 87, 174, 0.16);
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-subtitle {
+    gap: 0.09in;
+    margin-top: 0.04in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-subtitle span {
+    width: 0.52in;
+    height: 0.035in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-subtitle h4 {
+    font-size: 0.26in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-info-box {
+    gap: 0.07in;
+    width: 86%;
+    margin-top: 0.06in;
+    padding: 0.12in 0.2in;
+    border-width: 0.035in;
+    border-radius: 0.15in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-field {
+    grid-template-columns: 0.36in 1fr;
+    gap: 0.11in;
+    padding-bottom: 0.07in;
+    border-bottom-width: 0.025in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-field-icon {
+    width: 0.36in;
+    height: 0.36in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-field span {
+    font-size: 0.15in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-field strong {
+    font-size: 0.2in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-field.long-login-card-value strong {
+    font-size: 0.17in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-note {
+    margin-top: 0.05in;
+    font-size: 0.15in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-qr-box {
+    width: 1.55in;
+    margin-top: 0.04in;
+    padding: 0.08in;
+    border-width: 0.035in;
+    border-radius: 0.13in;
+  }
+
+  body.printing-login-card .login-card-print-only .login-card-url {
+    width: 82%;
+    margin-top: 0.04in;
+    padding: 0.05in 0.08in;
+    border-width: 0.025in;
+    font-size: 0.11in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-star {
+    width: 0.22in;
+    height: 0.22in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-star-1 {
+    top: 0.22in;
+    left: 0.32in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-star-2 {
+    top: 0.24in;
+    right: 0.36in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-star-3 {
+    right: 0.4in;
+    bottom: 0.62in;
+    width: 0.28in;
+    height: 0.28in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-dot {
+    width: 0.08in;
+    height: 0.08in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-dot-1 {
+    top: 0.74in;
+    left: 0.24in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-dot-2 {
+    right: 0.28in;
+    bottom: 1.08in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-curve {
+    bottom: -0.3in;
+    width: 1.38in;
+    height: 0.72in;
+    border-top-width: 0.09in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-curve::after {
+    top: 0.12in;
+    left: 0.04in;
+    width: 1.38in;
+    height: 0.62in;
+    border-top-width: 0.06in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-curve-left {
+    left: -0.2in;
+  }
+
+  body.printing-login-card .login-card-print-only .decor-curve-right {
+    right: -0.2in;
   }
 }
 

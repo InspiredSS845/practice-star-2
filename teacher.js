@@ -39,6 +39,7 @@ const loginCardPrintArea = document.querySelector("#loginCardPrintArea");
 const printLoginCardButton = document.querySelector("#printLoginCardButton");
 const downloadLoginCardButton = document.querySelector("#downloadLoginCardButton");
 const closeLoginCardButton = document.querySelector("#closeLoginCardButton");
+let loginCardPrintOnly = null;
 const teacherWordListForm = document.querySelector("#teacherWordListForm");
 const activeListId = document.querySelector("#activeListId");
 const wordListName = document.querySelector("#wordListName");
@@ -1231,8 +1232,21 @@ function printLoginCard(saveAsPdf = false) {
   loginCardStatus.textContent = saveAsPdf
     ? "Choose Save as PDF in the print window."
     : "Use the print window to print the card.";
+  removeLoginCardPrintOnly();
+  loginCardPrintOnly = document.createElement("div");
+  loginCardPrintOnly.className = "login-card-print-only";
+  loginCardPrintOnly.innerHTML = loginCardPrintArea.innerHTML;
+  document.body.appendChild(loginCardPrintOnly);
   document.body.classList.add("printing-login-card");
-  window.print();
+  requestAnimationFrame(() => window.print());
+}
+
+function removeLoginCardPrintOnly() {
+  document.body.classList.remove("printing-login-card");
+  if (loginCardPrintOnly) {
+    loginCardPrintOnly.remove();
+    loginCardPrintOnly = null;
+  }
 }
 
 const teacherSubjectOrder = [
@@ -2014,7 +2028,7 @@ closeLoginCardButton.addEventListener("click", () => {
 });
 
 window.addEventListener("afterprint", () => {
-  document.body.classList.remove("printing-login-card");
+  removeLoginCardPrintOnly();
 });
 
 teacherWordListForm.addEventListener("submit", async (event) => {
