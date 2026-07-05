@@ -1020,6 +1020,93 @@ textarea:focus {
   margin-top: 8px;
 }
 
+.student-lesson-overview {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border: 3px solid #d9c6ff;
+  border-radius: 8px;
+  background: #fbf8ff;
+}
+
+.student-lesson-overview h4 {
+  margin: 0;
+  color: var(--blue-dark);
+}
+
+.lesson-overview-list {
+  display: grid;
+  gap: 10px;
+}
+
+.lesson-overview-row {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 2px solid #e7dcff;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.lesson-overview-row h5 {
+  margin: 0;
+  color: var(--blue-dark);
+  font-size: 1.05rem;
+}
+
+.lesson-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lesson-overview-grid > div {
+  min-width: 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: #eef8ff;
+}
+
+.lesson-overview-grid strong,
+.lesson-overview-grid span,
+.lesson-overview-grid small {
+  display: block;
+}
+
+.lesson-overview-grid strong {
+  margin-top: 4px;
+  color: var(--blue-dark);
+  overflow-wrap: anywhere;
+}
+
+.lesson-overview-grid small {
+  margin-top: 4px;
+  color: #52627b;
+  font-weight: 900;
+}
+
+.overview-label {
+  color: #52627b;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.overview-empty {
+  margin-top: 4px;
+  color: #52627b;
+  font-weight: 900;
+}
+
+.lesson-overview-warning {
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: #6f4300;
+  background: #fff3cf;
+  font-weight: 900;
+}
+
 .activity-row {
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -2066,6 +2153,7 @@ body.learning-mode .top-row {
   .student-report-header,
   .student-report-metrics,
   .student-report-sections,
+  .lesson-overview-grid,
   .activity-row,
   .choice-grid,
   .final-quiz-choices,

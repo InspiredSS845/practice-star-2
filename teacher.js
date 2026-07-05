@@ -856,7 +856,273 @@ function getBrowserLearningCheckpoints() {
   }
 }
 
-function renderStudentReport(student, sessions, quizAttempts, learningAttempts, learningProgress, browserLearningCheckpoints) {
+const teacherSubjectOrder = [
+  "Bible and Church History",
+  "Mathematics",
+  "Language",
+  "Science and Technology",
+  "Social Studies",
+  "Health",
+  "Arts",
+  "French"
+];
+
+function normalizeTeacherSubject(subject) {
+  const cleanSubject = String(subject || "").trim();
+  if (cleanSubject === "Science") {
+    return "Science and Technology";
+  }
+  if (cleanSubject === "Bible") {
+    return "Bible and Church History";
+  }
+  return cleanSubject || "Other";
+}
+
+function teacherSubjectSortIndex(subject) {
+  const index = teacherSubjectOrder.indexOf(normalizeTeacherSubject(subject));
+  return index === -1 ? teacherSubjectOrder.length : index;
+}
+
+function timestampValue(value) {
+  const time = Date.parse(value || "");
+  return Number.isFinite(time) ? time : 0;
+}
+
+function curriculumSortOrder(item, itemTypeOrder = 0) {
+  const unitIndex = Number(item.unitIndex) || 0;
+  const lessonIndex = Number(item.lessonIndex) || 0;
+  return (unitIndex * 1000) + (lessonIndex * 10) + itemTypeOrder;
+}
+
+function curriculumItemLabel(item, options = {}) {
+  const unitNumber = Number(item.unitNumber) || 0;
+  const lessonNumber = Number(item.lessonNumber) || 0;
+  const lessonType = item.lessonType || "";
+  if (!unitNumber) {
+    return "";
+  }
+  if (lessonType === "unitTest" || options.quizKind === "Unit Quiz") {
+    return `Unit ${unitNumber} Quiz`;
+  }
+  if (lessonType === "review") {
+    return `Unit ${unitNumber} Review`;
+  }
+  return options.includeQuiz
+    ? `Unit ${unitNumber}, Lesson ${lessonNumber} Quiz`
+    : `Unit ${unitNumber}, Lesson ${lessonNumber}`;
+}
+
+function teacherCurriculumAssignmentItems() {
+  return window.PracticeStar.curriculumLibraries()
+    .flatMap((library) =>
+      (library.units || []).flatMap((unit, unitIndex) =>
+        (unit.lessons || []).flatMap((lesson, lessonIndex) => {
+          const lessonItem = {
+            libraryId: library.id,
+            unitId: unit.id,
+            lessonId: lesson.id,
+            lessonTitle: lesson.title,
+            unitTitle: unit.title,
+            unitIndex,
+            unitNumber: unitIndex + 1,
+            lessonIndex,
+            lessonNumber: lessonIndex + 1,
+            lessonType: lesson.type,
+            subject: normalizeTeacherSubject(library.subject),
+            grade: library.grade
+          };
+          const items = [];
+          if (lesson.studentActivity) {
+            const label = curriculumItemLabel(lessonItem);
+            items.push({
+              ...lessonItem,
+              id: lesson.id,
+              itemId: lesson.id,
+              itemType: "activity",
+              title: lesson.studentActivity.title || lesson.title,
+              label: `${label} Mission`,
+              sortOrder: curriculumSortOrder(lessonItem, 0)
+            });
+          }
+          if (lesson.quiz?.questions?.length) {
+            const quizKind = lesson.type === "unitTest" ? "Unit Quiz" : "Lesson Quiz";
+            const label = curriculumItemLabel(lessonItem, { includeQuiz: true, quizKind });
+            items.push({
+              ...lessonItem,
+              id: `${lesson.id}:final-quiz`,
+              itemId: `${lesson.id}:final-quiz`,
+              itemType: "finalQuiz",
+              title: lesson.quiz.title || quizKind,
+              label,
+              sortOrder: curriculumSortOrder(lessonItem, 1)
+            });
+          }
+          return items;
+        })
+      )
+    )
+    .sort((a, b) => {
+      const subjectOrder = teacherSubjectSortIndex(a.subject) - teacherSubjectSortIndex(b.subject);
+      if (subjectOrder !== 0) {
+        return subjectOrder;
+      }
+      return a.sortOrder - b.sortOrder;
+    });
+}
+
+function assignmentIncludesStudent(assignment, studentId) {
+  if (!assignment || assignment.isShared !== true) {
+    return false;
+  }
+  if (assignment.shareMode === "selected") {
+    return (assignment.targetStudentIds || []).map(String).includes(String(studentId));
+  }
+  return true;
+}
+
+function assignmentItemIds(item) {
+  if (item.itemType !== "activity") {
+    return [item.itemId];
+  }
+  return [item.itemId, `${item.itemId}:activity`];
+}
+
+function findStudentContentAssignment(contentAssignments, teacherId, studentId, item) {
+  const itemIds = assignmentItemIds(item);
+  return (contentAssignments || []).find((assignment) =>
+    assignment.teacherId === teacherId &&
+    assignment.itemType === item.itemType &&
+    itemIds.includes(assignment.itemId) &&
+    assignmentIncludesStudent(assignment, studentId)
+  ) || null;
+}
+
+function lastByOrder(items) {
+  if (!items.length) {
+    return null;
+  }
+  return items.slice().sort((a, b) => a.sortOrder - b.sortOrder)[items.length - 1];
+}
+
+function formatOverviewItem(item, emptyText) {
+  if (!item) {
+    return `<span class="overview-empty">${emptyText}</span>`;
+  }
+  return `
+    <strong>${window.PracticeStar.escapeHtml(item.label)}</strong>
+    <span>${window.PracticeStar.escapeHtml(item.title || item.lessonTitle || "")}</span>
+  `;
+}
+
+function renderStudentLessonOverview(student, contentAssignments, studentLearning, studentLearningProgress, studentQuizzes) {
+  const teacher = currentTeacher();
+  const curriculumItems = teacherCurriculumAssignmentItems();
+  if (!teacher || curriculumItems.length === 0) {
+    return "";
+  }
+
+  const completedActivityIds = new Set(studentLearning.map((attempt) => attempt.activityId).filter(Boolean));
+  const completedQuizIds = new Set(studentQuizzes.map((attempt) => attempt.quizId).filter(Boolean));
+  const progressByActivityId = new Map();
+  studentLearningProgress.forEach((progress) => {
+    const existing = progressByActivityId.get(progress.activityId);
+    const currentTime = timestampValue(progress.savedAt || progress.updatedAt);
+    const existingTime = timestampValue(existing?.savedAt || existing?.updatedAt);
+    if (!existing || currentTime >= existingTime) {
+      progressByActivityId.set(progress.activityId, progress);
+    }
+  });
+
+  const enrichedItems = curriculumItems.map((item) => {
+    const assignment = findStudentContentAssignment(contentAssignments, teacher.id, student.id, item);
+    const progress = item.itemType === "activity" ? progressByActivityId.get(item.itemId) : null;
+    const isCompleted = item.itemType === "activity"
+      ? completedActivityIds.has(item.itemId) || completedActivityIds.has(`${item.itemId}:activity`)
+      : completedQuizIds.has(item.itemId);
+    return {
+      ...item,
+      assignment,
+      progress,
+      isShared: Boolean(assignment),
+      isCompleted,
+      sharedAt: assignment?.updatedAt || assignment?.createdAt || "",
+      completedAt: item.itemType === "activity"
+        ? studentLearning.find((attempt) => attempt.activityId === item.itemId || attempt.activityId === `${item.itemId}:activity`)?.createdAt || ""
+        : studentQuizzes.find((attempt) => attempt.quizId === item.itemId)?.createdAt || ""
+    };
+  });
+
+  const subjects = [...new Set(enrichedItems.map((item) => item.subject))]
+    .sort((a, b) => {
+      const order = teacherSubjectSortIndex(a) - teacherSubjectSortIndex(b);
+      return order !== 0 ? order : a.localeCompare(b);
+    });
+
+  const rows = subjects.map((subject) => {
+    const subjectItems = enrichedItems.filter((item) => item.subject === subject);
+    const sharedItems = subjectItems.filter((item) => item.isShared);
+    const completedItems = subjectItems.filter((item) => item.isCompleted);
+    const inProgressItem = subjectItems
+      .filter((item) => item.progress && !item.isCompleted)
+      .sort((a, b) => timestampValue(b.progress.savedAt || b.progress.updatedAt) - timestampValue(a.progress.savedAt || a.progress.updatedAt))[0] || null;
+    const lastShared = lastByOrder(sharedItems);
+    const lastCompleted = lastByOrder(completedItems);
+    const lastKnownOrder = Math.max(lastShared?.sortOrder ?? -1, lastCompleted?.sortOrder ?? -1);
+    const nextSuggested = subjectItems.find((item) =>
+      item.sortOrder > lastKnownOrder &&
+      !item.isShared &&
+      !item.isCompleted
+    ) || null;
+    const missedItems = lastShared
+      ? subjectItems.filter((item) => item.sortOrder < lastShared.sortOrder && !item.isShared)
+      : [];
+    const missedPreview = missedItems.slice(0, 3).map((item) => window.PracticeStar.escapeHtml(item.label)).join(", ");
+    const missedExtra = missedItems.length > 3 ? `, plus ${missedItems.length - 3} more` : "";
+    const progressText = inProgressItem?.progress
+      ? `Level ${(Number(inProgressItem.progress.levelIndex) || 0) + 1}, step ${(Number(inProgressItem.progress.stepIndex) || 0) + 1}`
+      : "";
+
+    return `
+      <article class="lesson-overview-row">
+        <h5>${window.PracticeStar.escapeHtml(subject)}</h5>
+        <div class="lesson-overview-grid">
+          <div>
+            <span class="overview-label">Last shared</span>
+            ${formatOverviewItem(lastShared, "Nothing shared yet")}
+          </div>
+          <div>
+            <span class="overview-label">Last completed</span>
+            ${formatOverviewItem(lastCompleted, "Nothing completed yet")}
+          </div>
+          <div>
+            <span class="overview-label">In progress</span>
+            ${formatOverviewItem(inProgressItem, "Nothing in progress")}
+            ${progressText ? `<small>${window.PracticeStar.escapeHtml(progressText)}</small>` : ""}
+          </div>
+          <div>
+            <span class="overview-label">Next suggested</span>
+            ${formatOverviewItem(nextSuggested, "No next item in this subject yet")}
+          </div>
+        </div>
+        ${missedItems.length ? `<p class="lesson-overview-warning"><strong>Earlier lessons/quizzes not shared:</strong> ${missedPreview}${missedExtra}.</p>` : ""}
+      </article>
+    `;
+  }).join("");
+
+  return `
+    <section class="student-lesson-overview" aria-label="${window.PracticeStar.escapeHtml(student.name)} lesson overview">
+      <div>
+        <h4>Student Lesson Overview</h4>
+        <p class="hint">A quick check of what has been shared, what is finished, and what to share next.</p>
+      </div>
+      <div class="lesson-overview-list">
+        ${rows}
+      </div>
+    </section>
+  `;
+}
+
+function renderStudentReport(student, sessions, quizAttempts, learningAttempts, learningProgress, browserLearningCheckpoints, contentAssignments = []) {
   const nameMatches = (value) => value?.toLowerCase() === student.name.toLowerCase();
   const studentLearning = learningAttempts.filter((attempt) => attempt.studentId === student.id || nameMatches(attempt.studentName));
   const completedActivityIds = new Set(studentLearning.map((attempt) => attempt.activityId));
@@ -878,6 +1144,7 @@ function renderStudentReport(student, sessions, quizAttempts, learningAttempts, 
   const studentLearningProgress = [...savedLearningProgress, ...studentBrowserProgress];
   const studentSessions = sessions.filter((session) => session.studentId === student.id || nameMatches(session.studentName));
   const studentQuizzes = quizAttempts.filter((attempt) => attempt.studentId === student.id || nameMatches(attempt.studentName));
+  const lessonOverview = renderStudentLessonOverview(student, contentAssignments, studentLearning, studentLearningProgress, studentQuizzes);
   const starsEarned = studentLearning.reduce((sum, attempt) => sum + (Number(attempt.earnedStars) || 0), 0) +
     studentLearningProgress.reduce((sum, progress) => sum + (Number(progress.earnedStars) || 0), 0);
   const spellingPractices = studentSessions.reduce((sum, session) => sum + session.history.length, 0);
@@ -955,6 +1222,7 @@ function renderStudentReport(student, sessions, quizAttempts, learningAttempts, 
         <div><strong>${studentQuizzes.length}</strong><span>quiz attempts</span></div>
         <div><strong>${masteredForStudent}</strong><span>words mastered</span></div>
       </div>
+      ${lessonOverview}
       <div class="student-report-sections">
         <section>
           <h4>Curriculum Work</h4>
@@ -981,6 +1249,9 @@ async function renderStudentRoster() {
   const quizAttempts = await window.PracticeStar.quizAttemptsForTeacher(teacher.id);
   const learningAttempts = await window.PracticeStar.learningAttemptsForTeacher(teacher.id);
   const learningProgress = await window.PracticeStar.learningProgressForTeacher(teacher.id);
+  const contentAssignments = window.PracticeStar.syncContentAssignmentsForTeacher
+    ? await window.PracticeStar.syncContentAssignmentsForTeacher(teacher.id)
+    : window.PracticeStar.contentAssignmentsForTeacher(teacher.id);
   const browserLearningCheckpoints = getBrowserLearningCheckpoints();
 
   if (students.length === 0) {
@@ -1001,7 +1272,7 @@ async function renderStudentRoster() {
           <button class="secondary view-student-report-button" type="button" data-student-id="${student.id}" aria-expanded="false" aria-controls="student-report-${student.id}">View Report</button>
           <button class="danger remove-student-button" type="button" data-student-id="${student.id}">Remove</button>
         </div>
-        ${renderStudentReport(student, sessions, quizAttempts, learningAttempts, learningProgress, browserLearningCheckpoints)}
+        ${renderStudentReport(student, sessions, quizAttempts, learningAttempts, learningProgress, browserLearningCheckpoints, contentAssignments)}
       </article>
     `)
     .join("");
