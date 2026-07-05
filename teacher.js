@@ -32,6 +32,13 @@ const studentRosterForm = document.querySelector("#studentRosterForm");
 const rosterStudentName = document.querySelector("#rosterStudentName");
 const rosterStatus = document.querySelector("#rosterStatus");
 const studentRosterList = document.querySelector("#studentRosterList");
+const loginCardPanel = document.querySelector("#loginCardPanel");
+const loginCardStudentLabel = document.querySelector("#loginCardStudentLabel");
+const loginCardStatus = document.querySelector("#loginCardStatus");
+const loginCardPrintArea = document.querySelector("#loginCardPrintArea");
+const printLoginCardButton = document.querySelector("#printLoginCardButton");
+const downloadLoginCardButton = document.querySelector("#downloadLoginCardButton");
+const closeLoginCardButton = document.querySelector("#closeLoginCardButton");
 const teacherWordListForm = document.querySelector("#teacherWordListForm");
 const activeListId = document.querySelector("#activeListId");
 const wordListName = document.querySelector("#wordListName");
@@ -856,6 +863,378 @@ function getBrowserLearningCheckpoints() {
   }
 }
 
+const fallbackStudentLoginUrl = "https://inspiredss845.github.io/practice-star-2/student.html";
+
+function studentLoginWebsiteUrl() {
+  try {
+    if (window.location.protocol === "file:") {
+      return fallbackStudentLoginUrl;
+    }
+    return new URL("student.html", window.location.href).href;
+  } catch (_error) {
+    return fallbackStudentLoginUrl;
+  }
+}
+
+function buildQrGaloisTables() {
+  const exp = Array(512).fill(0);
+  const log = Array(256).fill(0);
+  let value = 1;
+  for (let index = 0; index < 255; index += 1) {
+    exp[index] = value;
+    log[value] = index;
+    value <<= 1;
+    if (value & 0x100) {
+      value ^= 0x11d;
+    }
+  }
+  for (let index = 255; index < exp.length; index += 1) {
+    exp[index] = exp[index - 255];
+  }
+  return { exp, log };
+}
+
+const qrGaloisTables = buildQrGaloisTables();
+
+function qrGaloisMultiply(left, right) {
+  if (!left || !right) {
+    return 0;
+  }
+  return qrGaloisTables.exp[qrGaloisTables.log[left] + qrGaloisTables.log[right]];
+}
+
+function qrPolynomialMultiply(left, right) {
+  const result = Array(left.length + right.length - 1).fill(0);
+  left.forEach((leftValue, leftIndex) => {
+    right.forEach((rightValue, rightIndex) => {
+      result[leftIndex + rightIndex] ^= qrGaloisMultiply(leftValue, rightValue);
+    });
+  });
+  return result;
+}
+
+function qrReedSolomonGenerator(degree) {
+  let generator = [1];
+  for (let index = 0; index < degree; index += 1) {
+    generator = qrPolynomialMultiply(generator, [1, qrGaloisTables.exp[index]]);
+  }
+  return generator;
+}
+
+function qrReedSolomonRemainder(dataCodewords, degree) {
+  const generator = qrReedSolomonGenerator(degree);
+  const result = Array(degree).fill(0);
+  dataCodewords.forEach((codeword) => {
+    const factor = codeword ^ result.shift();
+    result.push(0);
+    for (let index = 0; index < degree; index += 1) {
+      result[index] ^= qrGaloisMultiply(generator[index + 1], factor);
+    }
+  });
+  return result;
+}
+
+function appendQrBits(bits, value, length) {
+  for (let index = length - 1; index >= 0; index -= 1) {
+    bits.push((value >>> index) & 1);
+  }
+}
+
+function qrFormatBits(errorCorrectionBits, maskPattern) {
+  const data = (errorCorrectionBits << 3) | maskPattern;
+  let remainder = data << 10;
+  for (let index = 14; index >= 10; index -= 1) {
+    if ((remainder >>> index) & 1) {
+      remainder ^= 0x537 << (index - 10);
+    }
+  }
+  return ((data << 10) | (remainder & 0x3ff)) ^ 0x5412;
+}
+
+function createLoginCardQrSvg(text) {
+  const version = 5;
+  const size = 17 + version * 4;
+  const dataCodewordCount = 108;
+  const errorCorrectionCodewordCount = 26;
+  const maskPattern = 0;
+  const bytes = Array.from(new TextEncoder().encode(text));
+
+  if (bytes.length > 106) {
+    return `<div class="login-card-qr-fallback">Use the website URL below.</div>`;
+  }
+
+  const dataBits = [];
+  appendQrBits(dataBits, 0x4, 4);
+  appendQrBits(dataBits, bytes.length, 8);
+  bytes.forEach((byte) => appendQrBits(dataBits, byte, 8));
+  const maxDataBits = dataCodewordCount * 8;
+  appendQrBits(dataBits, 0, Math.min(4, maxDataBits - dataBits.length));
+  while (dataBits.length % 8 !== 0) {
+    dataBits.push(0);
+  }
+
+  const dataCodewords = [];
+  for (let index = 0; index < dataBits.length; index += 8) {
+    let codeword = 0;
+    for (let bit = 0; bit < 8; bit += 1) {
+      codeword = (codeword << 1) | dataBits[index + bit];
+    }
+    dataCodewords.push(codeword);
+  }
+  for (let pad = 0xec; dataCodewords.length < dataCodewordCount; pad ^= 0xfd) {
+    dataCodewords.push(pad);
+  }
+
+  const codewords = [
+    ...dataCodewords,
+    ...qrReedSolomonRemainder(dataCodewords, errorCorrectionCodewordCount)
+  ];
+  const codewordBits = [];
+  codewords.forEach((codeword) => appendQrBits(codewordBits, codeword, 8));
+
+  const modules = Array.from({ length: size }, () => Array(size).fill(false));
+  const functionModules = Array.from({ length: size }, () => Array(size).fill(false));
+
+  function setFunctionModule(x, y, isDark) {
+    if (x < 0 || y < 0 || x >= size || y >= size) {
+      return;
+    }
+    modules[y][x] = isDark;
+    functionModules[y][x] = true;
+  }
+
+  function drawFinderPattern(left, top) {
+    for (let y = -1; y <= 7; y += 1) {
+      for (let x = -1; x <= 7; x += 1) {
+        const moduleX = left + x;
+        const moduleY = top + y;
+        if (moduleX < 0 || moduleY < 0 || moduleX >= size || moduleY >= size) {
+          continue;
+        }
+        const isSeparator = x === -1 || x === 7 || y === -1 || y === 7;
+        const isDark = !isSeparator && (
+          x === 0 || x === 6 || y === 0 || y === 6 ||
+          (x >= 2 && x <= 4 && y >= 2 && y <= 4)
+        );
+        setFunctionModule(moduleX, moduleY, isDark);
+      }
+    }
+  }
+
+  function drawAlignmentPattern(centerX, centerY) {
+    for (let y = -2; y <= 2; y += 1) {
+      for (let x = -2; x <= 2; x += 1) {
+        setFunctionModule(centerX + x, centerY + y, Math.max(Math.abs(x), Math.abs(y)) !== 1);
+      }
+    }
+  }
+
+  function drawFormatBits(formatBits) {
+    const getBit = (index) => Boolean((formatBits >>> index) & 1);
+    for (let index = 0; index <= 5; index += 1) {
+      setFunctionModule(8, index, getBit(index));
+    }
+    setFunctionModule(8, 7, getBit(6));
+    setFunctionModule(8, 8, getBit(7));
+    setFunctionModule(7, 8, getBit(8));
+    for (let index = 9; index < 15; index += 1) {
+      setFunctionModule(14 - index, 8, getBit(index));
+    }
+    for (let index = 0; index < 8; index += 1) {
+      setFunctionModule(size - 1 - index, 8, getBit(index));
+    }
+    for (let index = 8; index < 15; index += 1) {
+      setFunctionModule(8, size - 15 + index, getBit(index));
+    }
+    setFunctionModule(8, size - 8, true);
+  }
+
+  drawFinderPattern(0, 0);
+  drawFinderPattern(size - 7, 0);
+  drawFinderPattern(0, size - 7);
+  drawAlignmentPattern(30, 30);
+  for (let index = 8; index < size - 8; index += 1) {
+    const isDark = index % 2 === 0;
+    setFunctionModule(6, index, isDark);
+    setFunctionModule(index, 6, isDark);
+  }
+  drawFormatBits(0);
+
+  let bitIndex = 0;
+  let upward = true;
+  for (let right = size - 1; right >= 1; right -= 2) {
+    if (right === 6) {
+      right -= 1;
+    }
+    for (let vertical = 0; vertical < size; vertical += 1) {
+      const y = upward ? size - 1 - vertical : vertical;
+      for (let columnOffset = 0; columnOffset < 2; columnOffset += 1) {
+        const x = right - columnOffset;
+        if (functionModules[y][x]) {
+          continue;
+        }
+        let isDark = bitIndex < codewordBits.length ? Boolean(codewordBits[bitIndex]) : false;
+        bitIndex += 1;
+        if ((x + y) % 2 === 0) {
+          isDark = !isDark;
+        }
+        modules[y][x] = isDark;
+      }
+    }
+    upward = !upward;
+  }
+
+  drawFormatBits(qrFormatBits(1, maskPattern));
+
+  const quietZone = 4;
+  const viewBoxSize = size + quietZone * 2;
+  const darkSquares = [];
+  modules.forEach((row, y) => {
+    row.forEach((isDark, x) => {
+      if (isDark) {
+        darkSquares.push(`M${x + quietZone} ${y + quietZone}h1v1h-1z`);
+      }
+    });
+  });
+
+  return `
+    <svg class="login-card-qr" viewBox="0 0 ${viewBoxSize} ${viewBoxSize}" role="img" aria-label="QR code for the Practice Star student website" shape-rendering="crispEdges">
+      <rect width="${viewBoxSize}" height="${viewBoxSize}" fill="#ffffff"></rect>
+      <path d="${darkSquares.join("")}" fill="#001f5c"></path>
+    </svg>
+  `;
+}
+
+function loginCardStarSvg(className = "") {
+  return `
+    <svg class="login-card-star ${className}" viewBox="0 0 120 116" aria-hidden="true">
+      <path d="M60 8 74 42l37 3-28 24 9 37-32-20-32 20 9-37L9 45l37-3Z" fill="#ffd84d" stroke="#001f5c" stroke-width="8" stroke-linejoin="round"></path>
+      <circle cx="45" cy="56" r="5" fill="#001f5c"></circle>
+      <circle cx="75" cy="56" r="5" fill="#001f5c"></circle>
+      <path d="M44 72c9 12 23 12 32 0" fill="none" stroke="#001f5c" stroke-width="6" stroke-linecap="round"></path>
+      <path d="M77 31 89 18" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"></path>
+    </svg>
+  `;
+}
+
+function loginCardFieldIcon(type) {
+  const iconPaths = {
+    name: `<circle cx="24" cy="17" r="7"></circle><path d="M10 39c3-11 25-11 28 0"></path>`,
+    code: `<rect x="13" y="21" width="22" height="19" rx="3"></rect><path d="M17 21v-7a7 7 0 0 1 14 0v7"></path>`,
+    pin: `<circle cx="31" cy="15" r="8"></circle><path d="M25 21 9 37"></path><path d="M14 32 19 37"></path><path d="M19 27 24 32"></path>`
+  };
+  return `
+    <svg class="login-card-field-icon" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="23" fill="#0c63c6"></circle>
+      <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+        ${iconPaths[type] || iconPaths.name}
+      </g>
+    </svg>
+  `;
+}
+
+function loginCardField(label, value, iconType, className = "") {
+  return `
+    <div class="login-card-field ${className}">
+      ${loginCardFieldIcon(iconType)}
+      <div>
+        <span>${label}</span>
+        <strong>${window.PracticeStar.escapeHtml(value)}</strong>
+      </div>
+    </div>
+  `;
+}
+
+function renderStudentLoginCard(student) {
+  const teacher = currentTeacher();
+  const classCode = teacher?.classCode || window.PracticeStar.ensureTeacherClassCode(teacher?.id) || "";
+  const websiteUrl = studentLoginWebsiteUrl();
+  const nameClass = student.name.length > 18 ? "long-login-card-value" : "";
+  const qrSvg = createLoginCardQrSvg(websiteUrl);
+
+  return `
+    <div class="login-card-sheet">
+      <article class="login-card login-card-front" aria-label="Login card front">
+        <div class="login-card-decoration" aria-hidden="true">
+          <span class="decor-star decor-star-1"></span>
+          <span class="decor-star decor-star-2"></span>
+          <span class="decor-star decor-star-3"></span>
+          <span class="decor-dot decor-dot-1"></span>
+          <span class="decor-dot decor-dot-2"></span>
+          <span class="decor-curve decor-curve-left"></span>
+          <span class="decor-curve decor-curve-right"></span>
+        </div>
+        <header class="login-card-brand-row">
+          ${loginCardStarSvg("brand-side-star")}
+          <h3>Practice Star</h3>
+          ${loginCardStarSvg("brand-side-star")}
+        </header>
+        <div class="login-card-subtitle">
+          <span></span>
+          <h4>Login Information</h4>
+          <span></span>
+        </div>
+        <div class="login-card-info-box">
+          ${loginCardField("Name", student.name, "name", nameClass)}
+          ${loginCardField("Code", classCode, "code")}
+          ${loginCardField("PIN", student.pin, "pin")}
+        </div>
+        <p class="login-card-note">Use this card to log in for schoolwork.</p>
+      </article>
+
+      <article class="login-card login-card-back" aria-label="Login card back">
+        <div class="login-card-decoration" aria-hidden="true">
+          <span class="decor-star decor-star-1"></span>
+          <span class="decor-star decor-star-2"></span>
+          <span class="decor-star decor-star-3"></span>
+          <span class="decor-dot decor-dot-1"></span>
+          <span class="decor-dot decor-dot-2"></span>
+          <span class="decor-curve decor-curve-left"></span>
+          <span class="decor-curve decor-curve-right"></span>
+        </div>
+        <header class="login-card-brand-row">
+          ${loginCardStarSvg("brand-side-star")}
+          <h3>Practice Star</h3>
+          ${loginCardStarSvg("brand-side-star")}
+        </header>
+        <div class="login-card-subtitle">
+          <span></span>
+          <h4>Website Access</h4>
+          <span></span>
+        </div>
+        <div class="login-card-qr-box">
+          ${qrSvg}
+        </div>
+        <p class="login-card-url">${window.PracticeStar.escapeHtml(websiteUrl)}</p>
+        <p class="login-card-note">Scan the QR code or visit the website to log in.</p>
+      </article>
+    </div>
+  `;
+}
+
+function showStudentLoginCard(student) {
+  if (!student) {
+    return;
+  }
+  loginCardStudentLabel.textContent = `${student.name}'s card uses the student website, class code, and PIN.`;
+  loginCardStatus.textContent = "";
+  loginCardPrintArea.innerHTML = renderStudentLoginCard(student);
+  loginCardPanel.classList.remove("hidden");
+  loginCardPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function printLoginCard(saveAsPdf = false) {
+  if (loginCardPanel.classList.contains("hidden") || !loginCardPrintArea.innerHTML.trim()) {
+    loginCardStatus.textContent = "Create a login card first.";
+    return;
+  }
+  loginCardStatus.textContent = saveAsPdf
+    ? "Choose Save as PDF in the print window."
+    : "Use the print window to print the card.";
+  document.body.classList.add("printing-login-card");
+  window.print();
+}
+
 const teacherSubjectOrder = [
   "Bible and Church History",
   "Mathematics",
@@ -1270,12 +1649,15 @@ async function renderStudentRoster() {
           <span>PIN</span>
           <strong>${student.pin}</strong>
           <button class="secondary view-student-report-button" type="button" data-student-id="${student.id}" aria-expanded="false" aria-controls="student-report-${student.id}">View Report</button>
+          <button class="secondary create-login-card-button" type="button" data-student-id="${student.id}">Create Login Card</button>
           <button class="danger remove-student-button" type="button" data-student-id="${student.id}">Remove</button>
         </div>
         ${renderStudentReport(student, sessions, quizAttempts, learningAttempts, learningProgress, browserLearningCheckpoints, contentAssignments)}
       </article>
     `)
     .join("");
+
+  const studentsById = new Map(students.map((student) => [student.id, student]));
 
   document.querySelectorAll(".view-student-report-button").forEach((button) => {
     button.addEventListener("click", () => {
@@ -1284,6 +1666,12 @@ async function renderStudentRoster() {
       report.classList.toggle("hidden", !isOpening);
       button.setAttribute("aria-expanded", String(isOpening));
       button.textContent = isOpening ? "Hide Report" : "View Report";
+    });
+  });
+
+  document.querySelectorAll(".create-login-card-button").forEach((button) => {
+    button.addEventListener("click", () => {
+      showStudentLoginCard(studentsById.get(button.dataset.studentId));
     });
   });
 
@@ -1610,6 +1998,23 @@ studentRosterForm.addEventListener("submit", async (event) => {
     rosterStudentName.value = "";
     await renderStudentRoster();
   }
+});
+
+printLoginCardButton.addEventListener("click", () => {
+  printLoginCard(false);
+});
+
+downloadLoginCardButton.addEventListener("click", () => {
+  printLoginCard(true);
+});
+
+closeLoginCardButton.addEventListener("click", () => {
+  loginCardPanel.classList.add("hidden");
+  loginCardStatus.textContent = "";
+});
+
+window.addEventListener("afterprint", () => {
+  document.body.classList.remove("printing-login-card");
 });
 
 teacherWordListForm.addEventListener("submit", async (event) => {

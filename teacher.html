@@ -11,7 +11,7 @@
     <link rel="icon" href="Favicon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="Favicon/apple-touch-icon.png" />
     <link rel="manifest" href="Favicon/site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=2026-07-04-3" />
+    <link rel="stylesheet" href="styles.css?v=2026-07-05-1" />
   </head>
   <body>
     <header class="site-header">
@@ -145,6 +145,22 @@
           </form>
           <p id="rosterStatus" class="status-text" role="status"></p>
           <div id="studentRosterList" class="card-list"></div>
+          <section id="loginCardPanel" class="login-card-panel hidden" aria-labelledby="loginCardTitle">
+            <div class="login-card-panel-header">
+              <div>
+                <p class="eyebrow">Student login card</p>
+                <h2 id="loginCardTitle">Create Login Card</h2>
+                <p id="loginCardStudentLabel" class="hint"></p>
+              </div>
+              <div class="login-card-actions">
+                <button id="printLoginCardButton" class="secondary small-button" type="button">Print Card</button>
+                <button id="downloadLoginCardButton" class="secondary small-button" type="button">Download PDF</button>
+                <button id="closeLoginCardButton" class="danger small-button" type="button">Close</button>
+              </div>
+            </div>
+            <p id="loginCardStatus" class="status-text" role="status"></p>
+            <div id="loginCardPrintArea" class="login-card-print-area"></div>
+          </section>
         </section>
         </div>
 
@@ -302,6 +318,6 @@
     <script src="content/grade-5/math/unit-data/unit-7-roman-numerals.js?v=2026-07-01-7"></script>
     <script src="content/grade-5/language/unit-data/unit-1-spelling-and-word-study.js?v=2026-07-01-7"></script>
     <script src="shared.js?v=2026-07-01-7"></script>
-    <script src="teacher.js?v=2026-07-04-3"></script>
+    <script src="teacher.js?v=2026-07-05-1"></script>
   </body>
 </html>

@@ -1107,6 +1107,306 @@ textarea:focus {
   font-weight: 900;
 }
 
+.login-card-panel {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+  padding: 18px;
+  border: 4px solid #bde8ff;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.login-card-panel-header {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.login-card-panel-header h2 {
+  margin: 0;
+  color: var(--blue-dark);
+}
+
+.login-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.login-card-print-area,
+.login-card-sheet {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+}
+
+.login-card {
+  position: relative;
+  display: grid;
+  width: min(100%, 760px);
+  aspect-ratio: 11 / 8;
+  overflow: hidden;
+  padding: 24px 42px 26px;
+  border: 7px solid #0a55ad;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 28% 20%, rgba(120, 190, 255, 0.16), transparent 26%),
+    radial-gradient(circle at 72% 42%, rgba(255, 216, 77, 0.12), transparent 24%),
+    #ffffff;
+  box-shadow: 0 16px 28px rgba(11, 65, 130, 0.18);
+  color: #001f5c;
+}
+
+.login-card > *:not(.login-card-decoration) {
+  position: relative;
+  z-index: 1;
+}
+
+.login-card-decoration span {
+  position: absolute;
+  z-index: 0;
+  display: block;
+}
+
+.decor-star {
+  width: 34px;
+  height: 34px;
+  background: #ffd027;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 56%, 79% 91%, 50% 70%, 21% 91%, 32% 56%, 2% 35%, 39% 35%);
+}
+
+.decor-star-1 {
+  top: 38px;
+  left: 56px;
+  background: #74b9f7;
+}
+
+.decor-star-2 {
+  top: 42px;
+  right: 64px;
+}
+
+.decor-star-3 {
+  right: 72px;
+  bottom: 112px;
+  width: 42px;
+  height: 42px;
+}
+
+.decor-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffc814;
+}
+
+.decor-dot-1 {
+  top: 132px;
+  left: 38px;
+}
+
+.decor-dot-2 {
+  right: 44px;
+  bottom: 190px;
+  background: #70b7f0;
+}
+
+.decor-curve {
+  bottom: -52px;
+  width: 210px;
+  height: 110px;
+  border-top: 16px solid #70b7f0;
+  border-radius: 50%;
+  transform: rotate(17deg);
+}
+
+.decor-curve::after {
+  position: absolute;
+  top: 18px;
+  left: 6px;
+  width: 210px;
+  height: 95px;
+  border-top: 11px solid #ffd027;
+  border-radius: 50%;
+  content: "";
+}
+
+.decor-curve-left {
+  left: -36px;
+}
+
+.decor-curve-right {
+  right: -36px;
+  transform: scaleX(-1) rotate(17deg);
+}
+
+.login-card-brand-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.login-card-star {
+  flex: 0 0 auto;
+  width: clamp(54px, 11vw, 96px);
+  height: auto;
+}
+
+.login-card-brand-row h3 {
+  margin: 0;
+  color: #001f5c;
+  font-size: clamp(2.3rem, 8vw, 5rem);
+  line-height: 0.95;
+  text-align: center;
+  text-shadow:
+    2px 0 #cde8ff,
+    -2px 0 #cde8ff,
+    0 2px #cde8ff,
+    0 -2px #cde8ff,
+    0 6px 0 rgba(13, 87, 174, 0.16);
+  white-space: nowrap;
+}
+
+.login-card-subtitle {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.login-card-subtitle span {
+  width: min(12vw, 88px);
+  height: 5px;
+  border-radius: 999px;
+  background: #0a55ad;
+}
+
+.login-card-subtitle h4 {
+  margin: 0;
+  color: #0a55ad;
+  font-size: clamp(1.55rem, 4.5vw, 3rem);
+  line-height: 1;
+  text-align: center;
+}
+
+.login-card-info-box {
+  display: grid;
+  gap: 14px;
+  align-self: center;
+  width: min(84%, 590px);
+  margin: 10px auto 0;
+  padding: 18px 28px;
+  border: 5px solid #70b7f0;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.login-card-field {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 18px;
+  align-items: center;
+  min-width: 0;
+  padding-bottom: 10px;
+  border-bottom: 4px dotted #70b7f0;
+}
+
+.login-card-field:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.login-card-field-icon {
+  width: 52px;
+  height: 52px;
+}
+
+.login-card-field span {
+  display: block;
+  color: #001f5c;
+  font-size: clamp(1.15rem, 2.7vw, 1.85rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.login-card-field strong {
+  display: block;
+  min-width: 0;
+  margin-top: 4px;
+  color: #0a55ad;
+  font-size: clamp(1.35rem, 3.4vw, 2.45rem);
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+
+.login-card-field.long-login-card-value strong {
+  font-size: clamp(1.1rem, 2.7vw, 2rem);
+}
+
+.login-card-note {
+  align-self: end;
+  margin: 8px 0 0;
+  color: #001f5c;
+  font-size: clamp(1rem, 2.3vw, 1.55rem);
+  font-weight: 900;
+  text-align: center;
+}
+
+.login-card-back {
+  grid-template-rows: auto auto 1fr auto auto;
+}
+
+.login-card-qr-box {
+  display: grid;
+  place-items: center;
+  align-self: center;
+  justify-self: center;
+  width: min(42%, 290px);
+  aspect-ratio: 1;
+  margin-top: 8px;
+  padding: 12px;
+  border: 5px solid #70b7f0;
+  border-radius: 22px;
+  background: #ffffff;
+}
+
+.login-card-qr {
+  width: 100%;
+  height: 100%;
+}
+
+.login-card-qr-fallback {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 12px;
+  color: #001f5c;
+  text-align: center;
+  font-weight: 900;
+}
+
+.login-card-url {
+  justify-self: center;
+  width: min(78%, 560px);
+  margin: 4px 0 0;
+  padding: 8px 14px;
+  border: 4px solid #0a55ad;
+  border-radius: 8px;
+  color: #001f5c;
+  background: #ffffff;
+  font-size: clamp(0.78rem, 1.8vw, 1.15rem);
+  font-weight: 900;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
 .activity-row {
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -2131,6 +2431,52 @@ body.learning-mode .top-row {
   background: var(--orange);
 }
 
+@media print {
+  @page {
+    margin: 0.35in;
+  }
+
+  body.printing-login-card {
+    background: #ffffff;
+  }
+
+  body.printing-login-card * {
+    visibility: hidden;
+  }
+
+  body.printing-login-card #loginCardPrintArea,
+  body.printing-login-card #loginCardPrintArea * {
+    visibility: visible;
+  }
+
+  body.printing-login-card #loginCardPrintArea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  body.printing-login-card .login-card-sheet {
+    display: grid;
+    gap: 0.18in;
+    justify-items: center;
+    padding: 0;
+  }
+
+  body.printing-login-card .login-card {
+    width: 5.5in;
+    height: 4in;
+    max-width: none;
+    margin: 0 auto;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-shadow: none;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
 @media (max-width: 680px) {
   .site-header,
   .placeholder-grid,
@@ -2154,6 +2500,8 @@ body.learning-mode .top-row {
   .student-report-metrics,
   .student-report-sections,
   .lesson-overview-grid,
+  .login-card-panel-header,
+  .login-card-field,
   .activity-row,
   .choice-grid,
   .final-quiz-choices,
