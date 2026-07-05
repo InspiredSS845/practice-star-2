@@ -964,7 +964,7 @@ textarea:focus {
 }
 
 .student-report-metrics {
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
 .student-report-metrics div {
@@ -993,6 +993,11 @@ textarea:focus {
   align-items: start;
 }
 
+.curriculum-report-sections,
+.extra-practice-sections {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .student-report-sections section {
   padding: 12px;
   border-radius: 8px;
@@ -1018,6 +1023,68 @@ textarea:focus {
 
 .student-report-sections li button {
   margin-top: 8px;
+}
+
+.student-extra-practice-report {
+  overflow: hidden;
+  border: 3px solid #d6c7ff;
+  border-radius: 8px;
+  background: #fbf8ff;
+}
+
+.student-extra-practice-report summary {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: center;
+  min-height: 54px;
+  padding: 12px 14px;
+  color: var(--blue-dark);
+  background: #f2ebff;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.student-extra-practice-report summary::-webkit-details-marker {
+  display: none;
+}
+
+.student-extra-practice-report summary::after {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  color: #ffffff;
+  background: var(--blue);
+  box-shadow: 0 4px 0 var(--blue-dark);
+  content: "+";
+  line-height: 30px;
+  text-align: center;
+}
+
+.student-extra-practice-report[open] summary::after {
+  content: "-";
+}
+
+.student-extra-practice-report summary span,
+.student-extra-practice-report summary small {
+  display: block;
+}
+
+.student-extra-practice-report summary small {
+  margin-top: 2px;
+  color: #5c6b82;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.student-extra-practice-body {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+}
+
+.extra-practice-metrics div {
+  background: #ffffff;
 }
 
 .student-lesson-overview {

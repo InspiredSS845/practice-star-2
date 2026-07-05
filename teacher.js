@@ -1537,6 +1537,8 @@ function renderStudentReport(student, sessions, quizAttempts, learningAttempts, 
   const studentLearningProgress = [...savedLearningProgress, ...studentBrowserProgress];
   const studentSessions = sessions.filter((session) => session.studentId === student.id || nameMatches(session.studentName));
   const studentQuizzes = quizAttempts.filter((attempt) => attempt.studentId === student.id || nameMatches(attempt.studentName));
+  const lessonQuizzes = studentQuizzes.filter((attempt) => attempt.isFinalLessonQuiz);
+  const extraPracticeQuizzes = studentQuizzes.filter((attempt) => !attempt.isFinalLessonQuiz);
   const lessonOverview = renderStudentLessonOverview(student, contentAssignments, studentLearning, studentLearningProgress, studentQuizzes);
   const starsEarned = studentLearning.reduce((sum, attempt) => sum + (Number(attempt.earnedStars) || 0), 0) +
     studentLearningProgress.reduce((sum, progress) => sum + (Number(progress.earnedStars) || 0), 0);
@@ -1580,29 +1582,35 @@ function renderStudentReport(student, sessions, quizAttempts, learningAttempts, 
     }).join("")
     : `<li><span>No spelling practice yet.</span></li>`;
 
-  const quizDetails = studentQuizzes.length
-    ? studentQuizzes.map((attempt) => {
-      const quiz = window.PracticeStar.getQuizById(attempt.quizId);
-      const percent = attempt.percent || Math.round((attempt.score / attempt.total) * 100);
-      const reviewNotes = attempt.reviewNotes?.length
-        ? ` Review: ${attempt.reviewNotes.map((note) => window.PracticeStar.escapeHtml(note.section || note.note || "Missed question")).join("; ")}.`
-        : "";
-      return `
-        <li>
-          <strong>${window.PracticeStar.escapeHtml(attempt.quizTitle || quiz?.title || "Quiz")}</strong>
-          <span>${percent}% - ${attempt.score} of ${attempt.total} - ${window.PracticeStar.formatDateTime(attempt.createdAt)}.${reviewNotes}</span>
-          ${attempt.isFinalLessonQuiz ? `<button class="secondary small-button allow-retake-button" type="button" data-student-id="${student.id}" data-quiz-id="${window.PracticeStar.escapeHtml(attempt.quizId)}">Allow Re-do</button>` : ""}
-        </li>
-      `;
-    }).join("")
-    : `<li><span>No quiz attempts yet.</span></li>`;
+  const renderQuizAttempt = (attempt, showRetakeButton = false) => {
+    const quiz = window.PracticeStar.getQuizById(attempt.quizId);
+    const percent = attempt.percent || Math.round((attempt.score / attempt.total) * 100);
+    const reviewNotes = attempt.reviewNotes?.length
+      ? ` Review: ${attempt.reviewNotes.map((note) => window.PracticeStar.escapeHtml(note.section || note.note || "Missed question")).join("; ")}.`
+      : "";
+    return `
+      <li>
+        <strong>${window.PracticeStar.escapeHtml(attempt.quizTitle || quiz?.title || "Quiz")}</strong>
+        <span>${percent}% - ${attempt.score} of ${attempt.total} - ${window.PracticeStar.formatDateTime(attempt.createdAt)}.${reviewNotes}</span>
+        ${showRetakeButton ? `<button class="secondary small-button allow-retake-button" type="button" data-student-id="${student.id}" data-quiz-id="${window.PracticeStar.escapeHtml(attempt.quizId)}">Allow Re-do</button>` : ""}
+      </li>
+    `;
+  };
+
+  const lessonQuizDetails = lessonQuizzes.length
+    ? lessonQuizzes.map((attempt) => renderQuizAttempt(attempt, true)).join("")
+    : `<li><span>No lesson quiz attempts yet.</span></li>`;
+
+  const extraPracticeQuizDetails = extraPracticeQuizzes.length
+    ? extraPracticeQuizzes.map((attempt) => renderQuizAttempt(attempt)).join("")
+    : `<li><span>No extra practice quiz attempts yet.</span></li>`;
 
   return `
     <div class="student-report-panel hidden" id="student-report-${student.id}">
       <div class="student-report-header">
         <div>
           <h4>${window.PracticeStar.escapeHtml(student.name)}'s Report</h4>
-          <p class="hint">Curriculum missions, spelling practice, quizzes, and stars earned.</p>
+          <p class="hint">Curriculum progress and stars earned. Teacher-created extra practice is separated below.</p>
         </div>
         <div class="student-report-stars">
           <span>${starsEarned}</span>
@@ -1611,25 +1619,44 @@ function renderStudentReport(student, sessions, quizAttempts, learningAttempts, 
       </div>
       <div class="student-report-metrics">
         <div><strong>${studentLearning.length + studentLearningProgress.length}</strong><span>missions</span></div>
-        <div><strong>${spellingPractices}</strong><span>spelling sessions</span></div>
-        <div><strong>${studentQuizzes.length}</strong><span>quiz attempts</span></div>
-        <div><strong>${masteredForStudent}</strong><span>words mastered</span></div>
+        <div><strong>${studentLearningProgress.length}</strong><span>in progress</span></div>
+        <div><strong>${studentLearning.length}</strong><span>completed</span></div>
+        <div><strong>${lessonQuizzes.length}</strong><span>lesson quiz attempts</span></div>
       </div>
       ${lessonOverview}
-      <div class="student-report-sections">
+      <div class="student-report-sections curriculum-report-sections">
         <section>
           <h4>Curriculum Work</h4>
           <ul>${learningDetails}</ul>
         </section>
         <section>
-          <h4>Spelling Practice</h4>
-          <ul>${spellingDetails}</ul>
-        </section>
-        <section>
-          <h4>Quizzes</h4>
-          <ul>${quizDetails}</ul>
+          <h4>Lesson Quizzes</h4>
+          <ul>${lessonQuizDetails}</ul>
         </section>
       </div>
+      <details class="student-extra-practice-report">
+        <summary>
+          <span>Extra Practice</span>
+          <small>Teacher-created spelling lists and extra practice quizzes</small>
+        </summary>
+        <div class="student-extra-practice-body">
+          <div class="student-report-metrics extra-practice-metrics">
+            <div><strong>${spellingPractices}</strong><span>spelling sessions</span></div>
+            <div><strong>${extraPracticeQuizzes.length}</strong><span>extra practice quiz attempts</span></div>
+            <div><strong>${masteredForStudent}</strong><span>words mastered</span></div>
+          </div>
+          <div class="student-report-sections extra-practice-sections">
+            <section>
+              <h4>Spelling Practice</h4>
+              <ul>${spellingDetails}</ul>
+            </section>
+            <section>
+              <h4>Extra Practice Quizzes</h4>
+              <ul>${extraPracticeQuizDetails}</ul>
+            </section>
+          </div>
+        </div>
+      </details>
     </div>
   `;
 }
