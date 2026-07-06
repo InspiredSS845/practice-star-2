@@ -72,13 +72,19 @@ const quizLibraryCount = document.querySelector("#quizLibraryCount");
 const quizLibraryToggle = document.querySelector("#quizLibraryToggle");
 const quizCards = document.querySelector("#quizCards");
 
+const teacherViewStateKey = "practiceStar2TeacherViewState";
+const defaultDashboardTabId = "curriculumDashboardTab";
+
 let draftQuestions = [];
 let quizLibraryQuizCount = 0;
 let isQuizLibraryCollapsed = false;
 let activeTeacher = null;
 let curriculumLibraries = [];
+let shouldSaveTeacherView = true;
+let activeCurriculumView = "home";
 let activeCurriculumUnitId = "";
 let activeCurriculumLibraryId = "";
+let activeCurriculumLessonId = "";
 let activeCurriculumGrade = 5;
 let activeCurriculumSubject = "Mathematics";
 
@@ -92,6 +98,79 @@ function appIsReady() {
 
 function currentTeacher() {
   return activeTeacher;
+}
+
+function validDashboardTabId(tabId) {
+  return Array.from(dashboardTabButtons).some((button) => button.id === tabId)
+    ? tabId
+    : defaultDashboardTabId;
+}
+
+function readTeacherViewState() {
+  try {
+    return JSON.parse(window.localStorage.getItem(teacherViewStateKey)) || {};
+  } catch (_error) {
+    return {};
+  }
+}
+
+function teacherViewStateSnapshot() {
+  const activeTab = Array.from(dashboardTabButtons).find((button) => button.classList.contains("active"));
+  return {
+    ...readTeacherViewState(),
+    activeTabId: validDashboardTabId(activeTab?.id || defaultDashboardTabId),
+    curriculum: {
+      view: activeCurriculumView,
+      grade: activeCurriculumGrade,
+      subject: activeCurriculumSubject,
+      libraryId: activeCurriculumLibraryId,
+      unitId: activeCurriculumUnitId,
+      lessonId: activeCurriculumLessonId
+    }
+  };
+}
+
+function saveTeacherViewState(extraState = {}) {
+  if (!shouldSaveTeacherView) {
+    return;
+  }
+  const nextState = {
+    ...teacherViewStateSnapshot(),
+    ...extraState
+  };
+  window.localStorage.setItem(teacherViewStateKey, JSON.stringify(nextState));
+}
+
+function rememberOpenStudentReport(studentId) {
+  saveTeacherViewState({ openStudentReportId: studentId || "" });
+}
+
+async function restoreTeacherViewState() {
+  const state = readTeacherViewState();
+  showDashboardTab(validDashboardTabId(state.activeTabId), { persist: false });
+
+  const savedCurriculum = state.curriculum || {};
+  if (savedCurriculum.grade) {
+    activeCurriculumGrade = Number(savedCurriculum.grade);
+  }
+  if (savedCurriculum.subject) {
+    activeCurriculumSubject = savedCurriculum.subject;
+  }
+
+  renderCurriculum({ persistView: false });
+
+  const savedLibraryId = savedCurriculum.libraryId || "";
+  const savedUnitId = savedCurriculum.unitId || "";
+  const savedLessonId = savedCurriculum.lessonId || "";
+  if (savedCurriculum.view === "preview" && savedLibraryId && savedUnitId && savedLessonId) {
+    await renderCurriculumLessonPreview(savedLibraryId, savedUnitId, savedLessonId, { persist: false });
+  } else if (savedCurriculum.view === "unit" && savedLibraryId && savedUnitId) {
+    renderCurriculumUnit(savedLibraryId, savedUnitId, { persist: false });
+  }
+
+  if (state.openStudentReportId) {
+    setStudentReportOpen(state.openStudentReportId, true, { persist: false, scroll: false });
+  }
 }
 
 async function renderTeacherPage(message = "") {
@@ -113,24 +192,36 @@ async function renderTeacherPage(message = "") {
   if (isLoggedIn) {
     classCodeDisplay.textContent =
       teacher.classCode || window.PracticeStar.ensureTeacherClassCode(teacher.id) || "Not ready";
-    await loadCurriculum();
-    await renderStudentRoster();
-    await renderLists();
-    await renderQuizCards();
+    shouldSaveTeacherView = false;
+    try {
+      await loadCurriculum();
+      await renderStudentRoster();
+      await renderLists();
+      await renderQuizCards();
+      await restoreTeacherViewState();
+    } finally {
+      shouldSaveTeacherView = true;
+    }
   }
 }
 
-function showDashboardTab(tabId) {
+function showDashboardTab(tabId, options = {}) {
+  const { persist = true } = options;
+  const safeTabId = validDashboardTabId(tabId);
   dashboardTabButtons.forEach((button) => {
-    const isActive = button.id === tabId;
+    const isActive = button.id === safeTabId;
     button.classList.toggle("active", isActive);
     button.setAttribute("aria-selected", String(isActive));
   });
 
   dashboardTabPanels.forEach((panel) => {
-    const isActive = panel.getAttribute("aria-labelledby") === tabId;
+    const isActive = panel.getAttribute("aria-labelledby") === safeTabId;
     panel.classList.toggle("active", isActive);
   });
+
+  if (persist) {
+    saveTeacherViewState({ activeTabId: safeTabId });
+  }
 }
 
 function clearListForm() {
@@ -212,10 +303,15 @@ function attachAudienceControlHandlers(container, onChange) {
   });
 }
 
-function showCurriculumView(viewName) {
+function showCurriculumView(viewName, options = {}) {
+  const { persist = true } = options;
+  activeCurriculumView = viewName;
   curriculumHomePanel.classList.toggle("hidden", viewName !== "home");
   curriculumLessonPanel.classList.toggle("hidden", viewName !== "unit");
   curriculumPreviewPanel.classList.toggle("hidden", viewName !== "preview");
+  if (persist) {
+    saveTeacherViewState();
+  }
 }
 
 async function loadCurriculum() {
@@ -296,10 +392,11 @@ async function loadCurriculumLibraryFromFiles(library) {
   };
 }
 
-function renderCurriculum() {
-  showCurriculumView("home");
+function renderCurriculum(options = {}) {
+  const { persistView = true } = options;
   ensureActiveCurriculumSelection();
   renderCurriculumControls();
+  showCurriculumView("home", { persist: persistView });
 
   const library = activeCurriculumLibrary();
   const units = library?.units || [];
@@ -418,6 +515,9 @@ function renderCurriculumControls() {
     button.addEventListener("click", () => {
       activeCurriculumGrade = Number(button.dataset.grade);
       activeCurriculumSubject = curriculumSubjectsForGrade(activeCurriculumGrade)[0] || "";
+      activeCurriculumUnitId = "";
+      activeCurriculumLibraryId = "";
+      activeCurriculumLessonId = "";
       renderCurriculum();
     });
   });
@@ -425,6 +525,9 @@ function renderCurriculumControls() {
   curriculumSubjectTabs.querySelectorAll("button[data-subject-index]").forEach((button) => {
     button.addEventListener("click", () => {
       activeCurriculumSubject = subjects[Number(button.dataset.subjectIndex)] || "";
+      activeCurriculumUnitId = "";
+      activeCurriculumLibraryId = "";
+      activeCurriculumLessonId = "";
       renderCurriculum();
     });
   });
@@ -456,7 +559,8 @@ function curriculumLessonLabel(library, lesson) {
   return "Lesson";
 }
 
-function renderCurriculumUnit(libraryId, unitId) {
+function renderCurriculumUnit(libraryId, unitId, options = {}) {
+  const { persist = true } = options;
   const { library, unit } = curriculumUnitById(libraryId, unitId);
   if (!library || !unit) {
     return;
@@ -464,7 +568,10 @@ function renderCurriculumUnit(libraryId, unitId) {
 
   activeCurriculumUnitId = unit.id;
   activeCurriculumLibraryId = library.id;
-  showCurriculumView("unit");
+  activeCurriculumLessonId = "";
+  activeCurriculumGrade = Number(library.grade);
+  activeCurriculumSubject = library.subject;
+  showCurriculumView("unit", { persist });
   curriculumUnitTitle.textContent = unit.title;
   curriculumUnitGoal.textContent = `${library.subject} - Grade ${library.grade}. ${unit.unitGoal || `${unit.strand} lessons.`}`;
   curriculumLessons.innerHTML = unit.lessons
@@ -709,7 +816,8 @@ function audienceSettingsFromAssignment(assignment) {
   };
 }
 
-async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
+async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, options = {}) {
+  const { persist = true } = options;
   const { library, unit } = curriculumUnitById(libraryId, unitId);
   const lesson = unit?.lessons.find((item) => item.id === lessonId);
   if (!library || !unit || !lesson) {
@@ -739,7 +847,10 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId) {
   const quizAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, quizId, "finalQuiz");
   activeCurriculumUnitId = unit.id;
   activeCurriculumLibraryId = library.id;
-  showCurriculumView("preview");
+  activeCurriculumLessonId = lesson.id;
+  activeCurriculumGrade = Number(library.grade);
+  activeCurriculumSubject = library.subject;
+  showCurriculumView("preview", { persist });
   curriculumPreviewTitle.textContent = lesson.title;
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
   if (library.status === "shell") {
@@ -1661,6 +1772,33 @@ function renderStudentReport(student, sessions, quizAttempts, learningAttempts, 
   `;
 }
 
+function studentReportElements(studentId) {
+  const report = document.getElementById(`student-report-${studentId}`);
+  const button = Array.from(document.querySelectorAll(".view-student-report-button"))
+    .find((item) => item.dataset.studentId === studentId);
+  return { report, button };
+}
+
+function setStudentReportOpen(studentId, isOpen, options = {}) {
+  const { persist = true, scroll = false } = options;
+  const { report, button } = studentReportElements(studentId);
+  if (!report) {
+    return;
+  }
+
+  report.classList.toggle("hidden", !isOpen);
+  if (button) {
+    button.setAttribute("aria-expanded", String(isOpen));
+    button.textContent = isOpen ? "Hide Report" : "View Report";
+  }
+  if (persist) {
+    rememberOpenStudentReport(isOpen ? studentId : "");
+  }
+  if (scroll && isOpen) {
+    report.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
 async function renderStudentRoster() {
   const teacher = currentTeacher();
   studentRosterList.innerHTML = `<p class="empty-note">Loading students...</p>`;
@@ -1702,11 +1840,12 @@ async function renderStudentRoster() {
 
   document.querySelectorAll(".view-student-report-button").forEach((button) => {
     button.addEventListener("click", () => {
-      const report = document.querySelector(`#student-report-${button.dataset.studentId}`);
+      const { report } = studentReportElements(button.dataset.studentId);
+      if (!report) {
+        return;
+      }
       const isOpening = report.classList.contains("hidden");
-      report.classList.toggle("hidden", !isOpening);
-      button.setAttribute("aria-expanded", String(isOpening));
-      button.textContent = isOpening ? "Hide Report" : "View Report";
+      setStudentReportOpen(button.dataset.studentId, isOpening, { scroll: isOpening });
     });
   });
 
@@ -1733,6 +1872,11 @@ async function renderStudentRoster() {
       await renderStudentRoster();
     });
   });
+
+  const savedReportId = readTeacherViewState().openStudentReportId;
+  if (savedReportId) {
+    setStudentReportOpen(savedReportId, true, { persist: false });
+  }
 }
 
 async function renderLists() {
@@ -2098,6 +2242,7 @@ dashboardTabButtons.forEach((button) => {
 backToCurriculumButton.addEventListener("click", () => {
   activeCurriculumUnitId = "";
   activeCurriculumLibraryId = "";
+  activeCurriculumLessonId = "";
   showCurriculumView("home");
 });
 backToUnitButton.addEventListener("click", () => {
