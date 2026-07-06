@@ -2956,9 +2956,9 @@ body.learning-mode .top-row {
 
   body.printing-login-card .login-card-print-only .compact-login-card-page {
     display: grid;
-    grid-template-columns: repeat(2, 3.35in);
-    grid-template-rows: repeat(2, 4.25in);
-    gap: 0.28in 0.3in;
+    grid-template-columns: repeat(2, 3.25in);
+    grid-template-rows: repeat(4, 2.18in);
+    gap: 0.16in 0.28in;
     align-content: center;
     justify-content: center;
     width: 100%;
@@ -2977,14 +2977,14 @@ body.learning-mode .top-row {
   body.printing-login-card .login-card-print-only .compact-login-card {
     display: grid;
     grid-template-rows: auto 1fr;
-    gap: 0.08in;
-    width: 3.35in;
-    height: 4.25in;
+    gap: 0.04in;
+    width: 3.25in;
+    height: 2.18in;
     min-height: 0;
     margin: 0;
-    padding: 0.14in;
-    border-width: 0.045in;
-    border-radius: 0.14in;
+    padding: 0.09in;
+    border-width: 0.035in;
+    border-radius: 0.11in;
     break-inside: avoid;
     page-break-inside: avoid;
     box-shadow: none;
@@ -2993,11 +2993,11 @@ body.learning-mode .top-row {
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-title {
-    gap: 0.06in;
+    gap: 0.04in;
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-title h3 {
-    font-size: 0.24in;
+    font-size: 0.18in;
     text-shadow:
       1px 0 #cde8ff,
       -1px 0 #cde8ff,
@@ -3007,82 +3007,86 @@ body.learning-mode .top-row {
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-star {
-    width: 0.35in;
+    width: 0.24in;
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-body {
     align-content: start;
-    gap: 0.09in;
+    grid-template-columns: 1fr 0.86in;
+    gap: 0.07in;
+    align-items: start;
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-info {
-    gap: 0.055in;
-    padding: 0.08in;
-    border-width: 0.025in;
-    border-radius: 0.09in;
+    gap: 0.04in;
+    min-width: 0;
+    padding: 0.055in;
+    border-width: 0.02in;
+    border-radius: 0.07in;
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-info p {
-    grid-template-columns: 0.43in 1fr;
-    gap: 0.06in;
+    grid-template-columns: 0.33in 1fr;
+    gap: 0.04in;
   }
 
   body.printing-login-card .login-card-print-only .compact-login-card-info span {
-    font-size: 0.105in;
-  }
-
-  body.printing-login-card .login-card-print-only .compact-login-card-info strong {
-    font-size: 0.17in;
-  }
-
-  body.printing-login-card .login-card-print-only .compact-login-card-info .long-compact-card-value strong {
-    font-size: 0.135in;
-  }
-
-  body.printing-login-card .login-card-print-only .compact-login-card-access {
-    gap: 0.05in;
-  }
-
-  body.printing-login-card .login-card-print-only .compact-login-card-qr {
-    width: 1.28in;
-    padding: 0.06in;
-    border-width: 0.025in;
-    border-radius: 0.09in;
-  }
-
-  body.printing-login-card .login-card-print-only .compact-login-card-access p {
-    max-width: 2.9in;
     font-size: 0.075in;
   }
 
+  body.printing-login-card .login-card-print-only .compact-login-card-info strong {
+    font-size: 0.115in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-info .long-compact-card-value strong {
+    font-size: 0.095in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-access {
+    gap: 0.035in;
+    min-width: 0;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-qr {
+    width: 0.78in;
+    padding: 0.035in;
+    border-width: 0.02in;
+    border-radius: 0.07in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-access p {
+    max-width: 0.9in;
+    font-size: 0.052in;
+  }
+
   body.printing-login-card .login-card-print-only .compact-decor-star {
-    width: 0.18in;
-    height: 0.18in;
+    width: 0.13in;
+    height: 0.13in;
   }
 
   body.printing-login-card .login-card-print-only .compact-decor-star-1 {
-    top: 0.1in;
-    right: 0.16in;
+    top: 0.08in;
+    right: 0.12in;
   }
 
   body.printing-login-card .login-card-print-only .compact-decor-star-2 {
-    left: 0.14in;
-    bottom: 0.16in;
+    left: 0.11in;
+    bottom: 0.12in;
   }
 
   body.printing-login-card .login-card-print-only .compact-decor-dot {
-    width: 0.065in;
-    height: 0.065in;
+    width: 0.045in;
+    height: 0.045in;
   }
 
   body.printing-login-card .login-card-print-only .compact-decor-dot-1 {
-    top: 0.64in;
-    left: 0.16in;
+    top: 0.48in;
+    left: 0.12in;
   }
 
   body.printing-login-card .login-card-print-only .compact-decor-dot-2 {
-    right: 0.18in;
-    bottom: 0.78in;
+    right: 0.13in;
+    bottom: 0.58in;
   }
 }
 

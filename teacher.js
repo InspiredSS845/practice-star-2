@@ -38,13 +38,6 @@ const selectAllBatchCardsButton = document.querySelector("#selectAllBatchCardsBu
 const clearBatchCardsButton = document.querySelector("#clearBatchCardsButton");
 const printBatchCardsButton = document.querySelector("#printBatchCardsButton");
 const studentRosterList = document.querySelector("#studentRosterList");
-const loginCardPanel = document.querySelector("#loginCardPanel");
-const loginCardStudentLabel = document.querySelector("#loginCardStudentLabel");
-const loginCardStatus = document.querySelector("#loginCardStatus");
-const loginCardPrintArea = document.querySelector("#loginCardPrintArea");
-const printLoginCardButton = document.querySelector("#printLoginCardButton");
-const downloadLoginCardButton = document.querySelector("#downloadLoginCardButton");
-const closeLoginCardButton = document.querySelector("#closeLoginCardButton");
 let loginCardPrintOnly = null;
 const teacherWordListForm = document.querySelector("#teacherWordListForm");
 const activeListId = document.querySelector("#activeListId");
@@ -1235,101 +1228,6 @@ function loginCardStarSvg(className = "") {
   `;
 }
 
-function loginCardFieldIcon(type) {
-  const iconPaths = {
-    name: `<circle cx="24" cy="17" r="7"></circle><path d="M10 39c3-11 25-11 28 0"></path>`,
-    code: `<rect x="13" y="21" width="22" height="19" rx="3"></rect><path d="M17 21v-7a7 7 0 0 1 14 0v7"></path>`,
-    pin: `<circle cx="31" cy="15" r="8"></circle><path d="M25 21 9 37"></path><path d="M14 32 19 37"></path><path d="M19 27 24 32"></path>`
-  };
-  return `
-    <svg class="login-card-field-icon" viewBox="0 0 48 48" aria-hidden="true">
-      <circle cx="24" cy="24" r="23" fill="#0c63c6"></circle>
-      <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-        ${iconPaths[type] || iconPaths.name}
-      </g>
-    </svg>
-  `;
-}
-
-function loginCardField(label, value, iconType, className = "") {
-  return `
-    <div class="login-card-field ${className}">
-      ${loginCardFieldIcon(iconType)}
-      <div>
-        <span>${label}</span>
-        <strong>${window.PracticeStar.escapeHtml(value)}</strong>
-      </div>
-    </div>
-  `;
-}
-
-function renderStudentLoginCard(student) {
-  const teacher = currentTeacher();
-  const classCode = teacher?.classCode || window.PracticeStar.ensureTeacherClassCode(teacher?.id) || "";
-  const websiteUrl = studentLoginWebsiteUrl();
-  const nameClass = student.name.length > 18 ? "long-login-card-value" : "";
-  const qrSvg = createLoginCardQrSvg(websiteUrl);
-
-  return `
-    <div class="login-card-sheet">
-      <article class="login-card login-card-front" aria-label="Login card front">
-        <div class="login-card-decoration" aria-hidden="true">
-          <span class="decor-star decor-star-1"></span>
-          <span class="decor-star decor-star-2"></span>
-          <span class="decor-star decor-star-3"></span>
-          <span class="decor-dot decor-dot-1"></span>
-          <span class="decor-dot decor-dot-2"></span>
-          <span class="decor-curve decor-curve-left"></span>
-          <span class="decor-curve decor-curve-right"></span>
-        </div>
-        <header class="login-card-brand-row">
-          ${loginCardStarSvg("brand-side-star")}
-          <h3>Practice Star</h3>
-          ${loginCardStarSvg("brand-side-star")}
-        </header>
-        <div class="login-card-subtitle">
-          <span></span>
-          <h4>Login Information</h4>
-          <span></span>
-        </div>
-        <div class="login-card-info-box">
-          ${loginCardField("Name", student.name, "name", nameClass)}
-          ${loginCardField("Code", classCode, "code")}
-          ${loginCardField("PIN", student.pin, "pin")}
-        </div>
-        <p class="login-card-note">Use this card to log in for schoolwork.</p>
-      </article>
-
-      <article class="login-card login-card-back" aria-label="Login card back">
-        <div class="login-card-decoration" aria-hidden="true">
-          <span class="decor-star decor-star-1"></span>
-          <span class="decor-star decor-star-2"></span>
-          <span class="decor-star decor-star-3"></span>
-          <span class="decor-dot decor-dot-1"></span>
-          <span class="decor-dot decor-dot-2"></span>
-          <span class="decor-curve decor-curve-left"></span>
-          <span class="decor-curve decor-curve-right"></span>
-        </div>
-        <header class="login-card-brand-row">
-          ${loginCardStarSvg("brand-side-star")}
-          <h3>Practice Star</h3>
-          ${loginCardStarSvg("brand-side-star")}
-        </header>
-        <div class="login-card-subtitle">
-          <span></span>
-          <h4>Website Access</h4>
-          <span></span>
-        </div>
-        <div class="login-card-qr-box">
-          ${qrSvg}
-        </div>
-        <p class="login-card-url">${window.PracticeStar.escapeHtml(websiteUrl)}</p>
-        <p class="login-card-note">Scan the QR code or visit the website to log in.</p>
-      </article>
-    </div>
-  `;
-}
-
 function renderCompactLoginCard(student) {
   const teacher = currentTeacher();
   const classCode = teacher?.classCode || window.PracticeStar.ensureTeacherClassCode(teacher?.id) || "";
@@ -1366,8 +1264,8 @@ function renderCompactLoginCard(student) {
 
 function renderCompactLoginCardSheet(students) {
   const pages = [];
-  for (let index = 0; index < students.length; index += 4) {
-    pages.push(students.slice(index, index + 4));
+  for (let index = 0; index < students.length; index += 8) {
+    pages.push(students.slice(index, index + 8));
   }
   return `
     <div class="compact-login-card-sheet">
@@ -1378,17 +1276,6 @@ function renderCompactLoginCardSheet(students) {
       `).join("")}
     </div>
   `;
-}
-
-function showStudentLoginCard(student) {
-  if (!student) {
-    return;
-  }
-  loginCardStudentLabel.textContent = `${student.name}'s card uses the student website, class code, and PIN.`;
-  loginCardStatus.textContent = "";
-  loginCardPrintArea.innerHTML = renderStudentLoginCard(student);
-  loginCardPanel.classList.remove("hidden");
-  loginCardPanel.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function batchLoginCardSelections() {
@@ -1424,23 +1311,6 @@ function renderBatchLoginCardControls(students) {
     input.addEventListener("change", updateBatchLoginCardStatus);
   });
   updateBatchLoginCardStatus();
-}
-
-function printLoginCard(saveAsPdf = false) {
-  if (loginCardPanel.classList.contains("hidden") || !loginCardPrintArea.innerHTML.trim()) {
-    loginCardStatus.textContent = "Create a login card first.";
-    return;
-  }
-  loginCardStatus.textContent = saveAsPdf
-    ? "Choose Save as PDF in the print window."
-    : "Use the print window to print the card.";
-  removeLoginCardPrintOnly();
-  loginCardPrintOnly = document.createElement("div");
-  loginCardPrintOnly.className = "login-card-print-only";
-  loginCardPrintOnly.innerHTML = loginCardPrintArea.innerHTML;
-  document.body.appendChild(loginCardPrintOnly);
-  document.body.classList.add("printing-login-card");
-  requestAnimationFrame(() => window.print());
 }
 
 function printBatchLoginCards(students) {
@@ -1935,7 +1805,6 @@ async function renderStudentRoster() {
           <span>PIN</span>
           <strong>${student.pin}</strong>
           <button class="secondary view-student-report-button" type="button" data-student-id="${student.id}" aria-expanded="false" aria-controls="student-report-${student.id}">View Report</button>
-          <button class="secondary create-login-card-button" type="button" data-student-id="${student.id}">Create Login Card</button>
           <button class="danger remove-student-button" type="button" data-student-id="${student.id}">Remove</button>
         </div>
         ${renderStudentReport(student, sessions, quizAttempts, learningAttempts, learningProgress, browserLearningCheckpoints, contentAssignments)}
@@ -1974,12 +1843,6 @@ async function renderStudentRoster() {
       }
       const isOpening = report.classList.contains("hidden");
       setStudentReportOpen(button.dataset.studentId, isOpening, { scroll: isOpening });
-    });
-  });
-
-  document.querySelectorAll(".create-login-card-button").forEach((button) => {
-    button.addEventListener("click", () => {
-      showStudentLoginCard(studentsById.get(button.dataset.studentId));
     });
   });
 
@@ -2311,19 +2174,6 @@ studentRosterForm.addEventListener("submit", async (event) => {
     rosterStudentName.value = "";
     await renderStudentRoster();
   }
-});
-
-printLoginCardButton.addEventListener("click", () => {
-  printLoginCard(false);
-});
-
-downloadLoginCardButton.addEventListener("click", () => {
-  printLoginCard(true);
-});
-
-closeLoginCardButton.addEventListener("click", () => {
-  loginCardPanel.classList.add("hidden");
-  loginCardStatus.textContent = "";
 });
 
 window.addEventListener("afterprint", () => {
