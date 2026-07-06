@@ -20,6 +20,7 @@ window.PracticeStarContent.grade5Science = {
       "strand": "STEM Skills and Connections",
       "unitGoal": "Students will practise asking testable questions, planning fair tests, using tools safely, recording data, and explaining conclusions with evidence.",
       "file": "units/unit-1-stem-skills-safety-and-investigation-habits.json",
+      "dataFile": "unit-data/unit-1-stem-skills-safety-and-investigation-habits.js",
       "lessons": [
         {
           "id": "grade-5-science-unit-1-careful-observation",

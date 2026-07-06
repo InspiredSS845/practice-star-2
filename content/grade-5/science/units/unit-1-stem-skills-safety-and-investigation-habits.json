@@ -7,58 +7,2387 @@
     {
       "id": "grade-5-science-unit-1-careful-observation",
       "title": "Science as Careful Observation",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on observing carefully, describing what is seen, and separating observations from guesses."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will separate observations from guesses and describe details accurately.",
+      "successCriteria": [
+        "I can tell the difference between an observation and an inference.",
+        "I can use specific details instead of vague descriptions.",
+        "I can notice when a claim needs more evidence."
+      ],
+      "vocabulary": [
+        "observation",
+        "inference",
+        "evidence",
+        "description",
+        "detail"
+      ],
+      "teacherSummary": "Students practise careful observation, inference, and evidence-based description.",
+      "teacherOverview": "Students learn that good science begins with careful observation. They practise telling what they can actually notice apart from what they think might be happening.",
+      "christianFocus": "Science is one way to carefully study God's created world. Students should practise honesty, patience, and humility when they observe.",
+      "lessonContent": [
+        "An observation is something you notice using your senses or a tool.",
+        "An inference is a careful idea based on observations, but it is not the same as proof.",
+        "Clear observations use exact details, measurements, and careful wording."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Careful Observation Mission",
+        "description": "Practise noticing details and separating observations from guesses.",
+        "levels": [
+          "Level 1: Observe First",
+          "Level 2: Use Evidence Carefully"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Science as Careful Observation Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Observations, inferences, and evidence-based descriptions"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "Careful Observation Mission",
+        "mission": "Practise noticing details and separating observations from guesses.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Observe First",
+            "title": "Before You Begin",
+            "prompt": "Get ready: observe before you explain",
+            "text": "Scientists do not begin by guessing wildly. They observe first. An observation tells what you can notice with your senses or tools. An inference is a careful idea about what the observation may mean."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Observe First",
+            "title": "Observation or Inference?",
+            "prompt": "A student says, 'The liquid is clear and has small bubbles on the sides of the cup.' What is this?",
+            "choices": [
+              "An observation",
+              "An inference",
+              "A conclusion after testing"
+            ],
+            "correctAnswer": "An observation",
+            "feedback": "Correct. The student is describing what can be seen.",
+            "hint": "Look for wording that tells what is directly noticed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Observe First",
+            "title": "Careful Wording",
+            "prompt": "Which sentence is the best scientific observation?",
+            "choices": [
+              "The powder looks like salt because it is white.",
+              "The powder is white and has small grains.",
+              "The powder is probably safe because it looks clean."
+            ],
+            "correctAnswer": "The powder is white and has small grains.",
+            "feedback": "Yes. It describes what is noticed without jumping ahead.",
+            "hint": "A good observation avoids guessing what the object is."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Observe First",
+            "title": "Tools Help",
+            "prompt": "Why might a hand lens improve an observation?",
+            "choices": [
+              "It can show details that are hard to see with eyes alone.",
+              "It proves the first guess was correct.",
+              "It changes the object so the answer is easier."
+            ],
+            "correctAnswer": "It can show details that are hard to see with eyes alone.",
+            "feedback": "Correct. Tools can help us notice more accurate details.",
+            "hint": "Think about what the tool helps you see."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Observe First",
+            "title": "True or False",
+            "prompt": "A careful observation should include only what a person hopes will happen.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. Observations should report what is noticed, not what someone wants to be true.",
+            "hint": "Honest science does not change details to match a wish."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Observe First",
+            "title": "Level 1 Complete",
+            "prompt": "You practised making careful observations.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Use Evidence Carefully",
+            "title": "Inference and Evidence",
+            "prompt": "Use observations to support ideas",
+            "text": "An inference can be useful, but it needs evidence. If two explanations could fit the same observation, a scientist should keep investigating instead of pretending the answer is already certain."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Evidence Carefully",
+            "title": "Inference Check",
+            "prompt": "A plant's leaves are drooping. Which is the best inference?",
+            "choices": [
+              "The plant may need water, but more checking is needed.",
+              "The plant is definitely dead.",
+              "The plant is trying to look sad."
+            ],
+            "correctAnswer": "The plant may need water, but more checking is needed.",
+            "feedback": "Correct. It is a reasonable idea, but it still needs evidence.",
+            "hint": "Choose the answer that is careful, not overconfident."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Evidence Carefully",
+            "title": "Evidence Needed",
+            "prompt": "Which observation would best help check whether a ramp is steeper than another ramp?",
+            "choices": [
+              "Measure each ramp's height and length.",
+              "Notice which ramp looks more exciting.",
+              "Ask which ramp a friend likes better."
+            ],
+            "correctAnswer": "Measure each ramp's height and length.",
+            "feedback": "Yes. Measurements give better evidence than opinions.",
+            "hint": "A fair comparison needs measurable details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Evidence Carefully",
+            "title": "Not Enough Evidence",
+            "prompt": "A student sees one bird near a feeder and says, 'All birds like this seed best.' What is the main problem?",
+            "choices": [
+              "One observation is not enough to make such a broad claim.",
+              "Birds cannot be observed scientifically.",
+              "Seed choice is always impossible to study."
+            ],
+            "correctAnswer": "One observation is not enough to make such a broad claim.",
+            "feedback": "Correct. A big claim needs stronger evidence.",
+            "hint": "Think about whether the evidence is enough for the claim."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Evidence Carefully",
+            "title": "True or False",
+            "prompt": "It is honest to say 'I need more evidence' when the observations are not enough.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Careful scientists admit when more evidence is needed.",
+            "hint": "Good science includes humility."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Use Evidence Carefully",
+            "title": "Mission Complete",
+            "prompt": "You practised using evidence carefully.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Science as Careful Observation Quiz",
+        "questions": [
+          {
+            "section": "Observation Basics",
+            "skill": "Observation",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is an observation?",
+            "choices": [
+              "The rock is rough and grey.",
+              "The rock must be very old.",
+              "The rock is probably from a river."
+            ],
+            "correctAnswer": "The rock is rough and grey.",
+            "reviewNote": "An observation describes what can be noticed."
+          },
+          {
+            "section": "Observation Basics",
+            "skill": "Inference",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is an inference?",
+            "choices": [
+              "The cup feels warm.",
+              "The cup is blue.",
+              "The drink may have been heated."
+            ],
+            "correctAnswer": "The drink may have been heated.",
+            "reviewNote": "An inference is an idea based on observations."
+          },
+          {
+            "section": "Observation Basics",
+            "skill": "Tools",
+            "type": "multipleChoice",
+            "prompt": "Why do scientists often use tools when observing?",
+            "choices": [
+              "Tools can make observations more accurate.",
+              "Tools replace the need for careful thinking.",
+              "Tools make every inference automatically true."
+            ],
+            "correctAnswer": "Tools can make observations more accurate.",
+            "reviewNote": "Tools can extend our senses and improve accuracy."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Careful Claims",
+            "type": "multipleChoice",
+            "prompt": "Which claim is the most careful?",
+            "choices": [
+              "The plant may need water because the soil feels dry.",
+              "The plant is ruined because one leaf is drooping.",
+              "The plant is happy because it is green."
+            ],
+            "correctAnswer": "The plant may need water because the soil feels dry.",
+            "reviewNote": "Careful claims connect evidence to a reasonable idea."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Enough Evidence",
+            "type": "multipleChoice",
+            "prompt": "What should a student do if two explanations fit the same observation?",
+            "choices": [
+              "Keep investigating and gather more evidence.",
+              "Choose the explanation that sounds easiest.",
+              "Ignore the observation."
+            ],
+            "correctAnswer": "Keep investigating and gather more evidence.",
+            "reviewNote": "More evidence can help choose between possible explanations."
+          },
+          {
+            "section": "Evidence",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "An inference can be useful, but it should not be treated as proof without evidence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Inferences need evidence."
+          },
+          {
+            "section": "Evidence",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Good science allows a student to change observations so they fit the expected answer.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Observations should be reported honestly."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Reasoning",
+            "type": "multipleChoice",
+            "prompt": "A student says, 'The metal spoon is colder than the wooden spoon.' What would make this observation stronger?",
+            "choices": [
+              "Measuring each spoon's temperature with a thermometer",
+              "Choosing the spoon that looks shinier",
+              "Asking which spoon feels nicer to hold"
+            ],
+            "correctAnswer": "Measuring each spoon's temperature with a thermometer",
+            "reviewNote": "A measurement gives stronger evidence than a quick feeling."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-testable-questions",
       "title": "Asking Testable Questions",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on turning broad wonder questions into questions that can be investigated fairly."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will turn broad science questions into questions that can be investigated.",
+      "successCriteria": [
+        "I can recognize a testable question.",
+        "I can improve a question so it can be investigated.",
+        "I can avoid questions that only ask for opinions."
+      ],
+      "vocabulary": [
+        "testable question",
+        "investigate",
+        "compare",
+        "measure",
+        "opinion"
+      ],
+      "teacherSummary": "Students practise choosing and improving questions that can be investigated with evidence.",
+      "teacherOverview": "Students learn that a testable question can be answered by collecting observations or measurements, not just by giving an opinion.",
+      "christianFocus": "Wonder is a good starting point, but students should learn to ask honest questions that can be explored carefully.",
+      "lessonContent": [
+        "A testable question can be investigated using observations, measurements, or a fair comparison.",
+        "Opinion questions can be interesting, but they are not the same as testable science questions.",
+        "Strong questions are clear enough that another person could understand what to test."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Testable Questions Mission",
+        "description": "Practise turning wonder questions into questions you can investigate.",
+        "levels": [
+          "Level 1: Spot Testable Questions",
+          "Level 2: Improve the Question"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Asking Testable Questions Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Testable questions, opinion questions, and improved investigation questions"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "Testable Questions Mission",
+        "mission": "Practise turning wonder questions into questions you can investigate.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spot Testable Questions",
+            "title": "Before You Begin",
+            "prompt": "Get ready: questions that can be tested",
+            "text": "A science question is stronger when it can be investigated with observations or measurements. 'Which paper towel absorbs more water?' can be tested. 'Which paper towel is best?' is too vague unless you explain what best means."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Testable Questions",
+            "title": "Choose the Testable Question",
+            "prompt": "Which question could be investigated with measurements?",
+            "choices": [
+              "Which cup keeps water warm the longest?",
+              "Which cup is the prettiest?",
+              "Which cup would my friend choose?"
+            ],
+            "correctAnswer": "Which cup keeps water warm the longest?",
+            "feedback": "Correct. You could measure temperature over time.",
+            "hint": "Look for something that can be measured."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Testable Questions",
+            "title": "Opinion or Test?",
+            "prompt": "Which question is mostly asking for an opinion?",
+            "choices": [
+              "Which magnet is strongest?",
+              "Which magnet looks coolest?",
+              "Which magnet can pick up the most paper clips?"
+            ],
+            "correctAnswer": "Which magnet looks coolest?",
+            "feedback": "Yes. 'Coolest' depends on personal opinion unless it is defined.",
+            "hint": "Opinion words often need clearer meanings."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Testable Questions",
+            "title": "Clear Comparison",
+            "prompt": "Which question gives the clearest comparison?",
+            "choices": [
+              "Does sunlight affect plant growth over two weeks?",
+              "Are plants nice?",
+              "Do plants grow in a special way?"
+            ],
+            "correctAnswer": "Does sunlight affect plant growth over two weeks?",
+            "feedback": "Correct. It names what is being studied and gives a time frame.",
+            "hint": "A clear question often names what will be changed or measured."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Testable Questions",
+            "title": "True or False",
+            "prompt": "A testable question should be clear enough that someone could plan what evidence to collect.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. A testable question guides the investigation.",
+            "hint": "Think about whether the question points to evidence."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Spot Testable Questions",
+            "title": "Level 1 Complete",
+            "prompt": "You can spot questions that are easier to investigate.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Improve the Question",
+            "title": "Make Questions Stronger",
+            "prompt": "Narrow the question",
+            "text": "Many weak questions can be improved. Add what will be compared, what will be measured, and how long the test will last. This makes the question easier to investigate fairly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Question",
+            "title": "Make It Testable",
+            "prompt": "How could you improve 'Which soil is best?'",
+            "choices": [
+              "Which soil helps bean plants grow tallest in three weeks?",
+              "Which soil has the nicest colour?",
+              "Which soil would everyone like most?"
+            ],
+            "correctAnswer": "Which soil helps bean plants grow tallest in three weeks?",
+            "feedback": "Correct. It says what will be measured and when.",
+            "hint": "A stronger question explains what 'best' means."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Question",
+            "title": "Too Broad",
+            "prompt": "Why is 'How does weather affect people?' too broad for a simple class investigation?",
+            "choices": [
+              "It does not say which weather effect or what will be measured.",
+              "Weather cannot ever be studied.",
+              "People cannot describe weather."
+            ],
+            "correctAnswer": "It does not say which weather effect or what will be measured.",
+            "feedback": "Yes. It needs to be narrowed.",
+            "hint": "Broad questions usually need more focus."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Question",
+            "title": "Better Question",
+            "prompt": "Which version is best for a fair investigation?",
+            "choices": [
+              "Which ball bounces highest when dropped from one metre?",
+              "Which ball is the most fun?",
+              "Why are balls round?"
+            ],
+            "correctAnswer": "Which ball bounces highest when dropped from one metre?",
+            "feedback": "Correct. It can be tested and measured.",
+            "hint": "Find the version with a clear action and measurement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Question",
+            "title": "True or False",
+            "prompt": "Adding a measurement can often make a science question easier to investigate.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Measurements help turn ideas into evidence.",
+            "hint": "Think of height, time, distance, mass, or temperature."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Improve the Question",
+            "title": "Mission Complete",
+            "prompt": "You practised improving science questions.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Asking Testable Questions Quiz",
+        "questions": [
+          {
+            "section": "Testable Questions",
+            "skill": "Identify",
+            "type": "multipleChoice",
+            "prompt": "Which question is most testable?",
+            "choices": [
+              "Which paper airplane flies farthest?",
+              "Which paper airplane is nicest?",
+              "Which paper airplane looks fast?"
+            ],
+            "correctAnswer": "Which paper airplane flies farthest?",
+            "reviewNote": "Distance can be measured."
+          },
+          {
+            "section": "Testable Questions",
+            "skill": "Opinion",
+            "type": "multipleChoice",
+            "prompt": "Which question mostly asks for an opinion?",
+            "choices": [
+              "Which design is most beautiful?",
+              "Which design holds the most weight?",
+              "Which design lasts longest in water?"
+            ],
+            "correctAnswer": "Which design is most beautiful?",
+            "reviewNote": "Beauty is an opinion unless it is clearly defined."
+          },
+          {
+            "section": "Testable Questions",
+            "skill": "Improve",
+            "type": "multipleChoice",
+            "prompt": "What makes 'Which ice cube melts fastest in different places?' testable?",
+            "choices": [
+              "The melting time can be measured.",
+              "The answer depends only on what someone likes.",
+              "The question avoids comparing anything."
+            ],
+            "correctAnswer": "The melting time can be measured.",
+            "reviewNote": "A measurable outcome makes it testable."
+          },
+          {
+            "section": "Better Wording",
+            "skill": "Narrow",
+            "type": "multipleChoice",
+            "prompt": "Which version best improves 'Do seeds grow well?'",
+            "choices": [
+              "Which seed sprouts first in damp paper towel?",
+              "Are seeds interesting?",
+              "Do seeds know when to grow?"
+            ],
+            "correctAnswer": "Which seed sprouts first in damp paper towel?",
+            "reviewNote": "It names what will be measured."
+          },
+          {
+            "section": "Better Wording",
+            "skill": "Fair Plan",
+            "type": "multipleChoice",
+            "prompt": "A strong testable question usually helps a student decide...",
+            "choices": [
+              "what evidence to collect",
+              "which answer sounds most popular",
+              "how to avoid measuring"
+            ],
+            "correctAnswer": "what evidence to collect",
+            "reviewNote": "The question should guide the investigation."
+          },
+          {
+            "section": "Better Wording",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A question can be interesting but still not be testable in a science investigation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Some questions are better for discussion or research."
+          },
+          {
+            "section": "Better Wording",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The question 'Which towel absorbs the most water?' is more testable than 'Which towel is best?'",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "It defines what is being compared."
+          },
+          {
+            "section": "Better Wording",
+            "skill": "Measurement",
+            "type": "multipleChoice",
+            "prompt": "Which detail would make a ramp question easier to test?",
+            "choices": [
+              "Measure how far the toy car travels.",
+              "Choose the ramp colour first.",
+              "Ask which ramp looks more professional."
+            ],
+            "correctAnswer": "Measure how far the toy car travels.",
+            "reviewNote": "A distance measurement gives evidence."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-fair-tests-and-variables",
       "title": "Fair Tests and Variables",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on changing one thing, keeping other conditions the same, and recognizing controlled variables."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify changed, measured, and controlled variables in a fair test.",
+      "successCriteria": [
+        "I can identify what is changed in a fair test.",
+        "I can identify what is measured.",
+        "I can explain why other conditions should stay the same."
+      ],
+      "vocabulary": [
+        "fair test",
+        "variable",
+        "controlled variable",
+        "measure",
+        "compare"
+      ],
+      "teacherSummary": "Students practise planning fair tests by changing one thing, measuring one result, and keeping other conditions the same.",
+      "teacherOverview": "Students learn that a fair test changes one main thing at a time so the evidence is easier to understand.",
+      "christianFocus": "Fair testing encourages honesty and carefulness. Students should not design a test to force the answer they already want.",
+      "lessonContent": [
+        "The changed variable is the one thing you choose to change.",
+        "The measured variable is the result you observe or measure.",
+        "Controlled variables are conditions kept the same so the test stays fair."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Fair Test Mission",
+        "description": "Practise spotting variables and keeping investigations fair.",
+        "levels": [
+          "Level 1: Find the Variables",
+          "Level 2: Keep It Fair"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Fair Tests and Variables Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Changed variables, measured variables, controlled variables, and fair comparisons"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "Fair Test Mission",
+        "mission": "Practise spotting variables and keeping investigations fair.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Variables",
+            "title": "Before You Begin",
+            "prompt": "Get ready: change one thing",
+            "text": "In a fair test, you change one main thing and measure what happens. If too many things change at once, it becomes hard to know what caused the result."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Variables",
+            "title": "Changed Variable",
+            "prompt": "A student tests whether ramp height affects how far a toy car travels. What is the changed variable?",
+            "choices": [
+              "The ramp height",
+              "The colour of the car",
+              "The distance the car travels"
+            ],
+            "correctAnswer": "The ramp height",
+            "feedback": "Correct. Ramp height is the thing being changed on purpose.",
+            "hint": "Look for what the student changes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Variables",
+            "title": "Measured Result",
+            "prompt": "In the ramp test, what should the student measure?",
+            "choices": [
+              "How far the car travels",
+              "Which ramp looks best",
+              "How many friends watch"
+            ],
+            "correctAnswer": "How far the car travels",
+            "feedback": "Yes. The distance is the result of the test.",
+            "hint": "Look for the outcome."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Variables",
+            "title": "Controlled Variable",
+            "prompt": "Which condition should stay the same in a fair ramp test?",
+            "choices": [
+              "Use the same toy car each time.",
+              "Change the car and ramp each time.",
+              "Let each student choose any starting place."
+            ],
+            "correctAnswer": "Use the same toy car each time.",
+            "feedback": "Correct. Keeping the same car makes the comparison fairer.",
+            "hint": "A controlled variable stays the same."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Variables",
+            "title": "True or False",
+            "prompt": "Changing one main thing at a time makes it easier to understand the results.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. That is the point of a fair test.",
+            "hint": "Too many changes make the evidence confusing."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Find the Variables",
+            "title": "Level 1 Complete",
+            "prompt": "You can identify variables in a test.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Keep It Fair",
+            "title": "Watch for Hidden Changes",
+            "prompt": "Small changes can matter",
+            "text": "Sometimes a test seems fair, but hidden changes make it weaker. A different amount of water, a different measuring tool, or a different starting point can change the result."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Keep It Fair",
+            "title": "Hidden Problem",
+            "prompt": "Two plants are tested with different amounts of light. One also gets more water. Why is this a problem?",
+            "choices": [
+              "The test changed light and water, so the result is harder to explain.",
+              "Plants cannot be compared in science.",
+              "Water is never a variable."
+            ],
+            "correctAnswer": "The test changed light and water, so the result is harder to explain.",
+            "feedback": "Correct. More than one important thing changed.",
+            "hint": "Ask whether only one main thing changed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Keep It Fair",
+            "title": "Fairer Plan",
+            "prompt": "Which plan is fairest for testing which paper towel absorbs more water?",
+            "choices": [
+              "Use the same amount of water and the same towel size.",
+              "Use more water on the thicker towel.",
+              "Let each towel soak for a different length of time."
+            ],
+            "correctAnswer": "Use the same amount of water and the same towel size.",
+            "feedback": "Yes. The towels can be compared more fairly.",
+            "hint": "Keep conditions the same except the towel type."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Keep It Fair",
+            "title": "Repeat Trials",
+            "prompt": "Why might a student repeat the same test several times?",
+            "choices": [
+              "To check whether the result is consistent",
+              "To make the test less fair",
+              "To avoid recording data"
+            ],
+            "correctAnswer": "To check whether the result is consistent",
+            "feedback": "Correct. Repeating trials can make evidence stronger.",
+            "hint": "Think about whether one try is always enough."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Keep It Fair",
+            "title": "True or False",
+            "prompt": "If a test is unfair, the data may still be written down, but the conclusion should be careful.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Weak data needs careful explanation.",
+            "hint": "Being honest about limits matters."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Keep It Fair",
+            "title": "Mission Complete",
+            "prompt": "You practised planning fair tests.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Fair Tests and Variables Quiz",
+        "questions": [
+          {
+            "section": "Variables",
+            "skill": "Changed Variable",
+            "type": "multipleChoice",
+            "prompt": "In a test about whether ball material affects bounce height, what is the changed variable?",
+            "choices": [
+              "Ball material",
+              "Bounce height",
+              "The ruler used to measure"
+            ],
+            "correctAnswer": "Ball material",
+            "reviewNote": "The changed variable is what is changed on purpose."
+          },
+          {
+            "section": "Variables",
+            "skill": "Measured Variable",
+            "type": "multipleChoice",
+            "prompt": "In that same test, what is the measured variable?",
+            "choices": [
+              "Bounce height",
+              "Ball material",
+              "The table colour"
+            ],
+            "correctAnswer": "Bounce height",
+            "reviewNote": "The measured variable is the result."
+          },
+          {
+            "section": "Variables",
+            "skill": "Controlled Variable",
+            "type": "multipleChoice",
+            "prompt": "Which condition should stay the same in a fair bounce test?",
+            "choices": [
+              "The drop height",
+              "The ball material",
+              "The measured bounce height"
+            ],
+            "correctAnswer": "The drop height",
+            "reviewNote": "The drop height should be controlled."
+          },
+          {
+            "section": "Fair Tests",
+            "skill": "One Change",
+            "type": "multipleChoice",
+            "prompt": "Why should a fair test usually change only one main thing?",
+            "choices": [
+              "So the result is easier to explain",
+              "So the test becomes impossible to repeat",
+              "So measurements are not needed"
+            ],
+            "correctAnswer": "So the result is easier to explain",
+            "reviewNote": "One main change helps connect cause and result."
+          },
+          {
+            "section": "Fair Tests",
+            "skill": "Problem Spotting",
+            "type": "multipleChoice",
+            "prompt": "A student tests plant growth, changing both soil type and water amount. What is the concern?",
+            "choices": [
+              "It will be hard to know which change affected growth.",
+              "Soil and water cannot be studied together in any way.",
+              "The plants will all grow exactly the same."
+            ],
+            "correctAnswer": "It will be hard to know which change affected growth.",
+            "reviewNote": "Two changed variables make the test confusing."
+          },
+          {
+            "section": "Fair Tests",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Controlled variables are the things kept the same in a fair test.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Controlled variables help keep the test fair."
+          },
+          {
+            "section": "Fair Tests",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A fair test should avoid recording measurements because they make results less clear.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Measurements usually make results clearer."
+          },
+          {
+            "section": "Fair Tests",
+            "skill": "Repeat Trials",
+            "type": "multipleChoice",
+            "prompt": "Repeating a test can help students...",
+            "choices": [
+              "notice whether results are consistent",
+              "remove the need for a question",
+              "change all variables at once"
+            ],
+            "correctAnswer": "notice whether results are consistent",
+            "reviewNote": "Repeated trials can strengthen evidence."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-measuring-and-recording-data",
       "title": "Measuring and Recording Data",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on choosing suitable tools, units, charts, tables, and careful measurements."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose suitable tools and record data clearly in tables or charts.",
+      "successCriteria": [
+        "I can choose a tool that matches what I need to measure.",
+        "I can use units correctly.",
+        "I can organize data so another person can understand it."
+      ],
+      "vocabulary": [
+        "data",
+        "measurement",
+        "unit",
+        "table",
+        "graph",
+        "estimate"
+      ],
+      "teacherSummary": "Students practise choosing tools, units, tables, and charts for clear science data.",
+      "teacherOverview": "Students learn that data is more useful when it is measured carefully and recorded in an organized way.",
+      "christianFocus": "Careful records show respect for truth. Students should record what happened, not what they hoped would happen.",
+      "lessonContent": [
+        "Data is information collected during an investigation.",
+        "Measurements need suitable tools and correct units.",
+        "Tables and graphs help people notice patterns in data."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Data Recording Mission",
+        "description": "Practise choosing tools, units, and clear ways to record science data.",
+        "levels": [
+          "Level 1: Choose Tools and Units",
+          "Level 2: Organize the Data"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Measuring and Recording Data Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Measurement tools, units, tables, graphs, and clear records"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "Data Recording Mission",
+        "mission": "Practise choosing tools, units, and clear ways to record science data.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Choose Tools and Units",
+            "title": "Before You Begin",
+            "prompt": "Get ready: measure carefully",
+            "text": "A measurement is only useful if it matches the question. Length might be measured in centimetres. Temperature might be measured in degrees Celsius. Time might be measured in seconds or minutes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Tools and Units",
+            "title": "Choose the Tool",
+            "prompt": "Which tool would best measure how far a toy car travels?",
+            "choices": [
+              "Metre stick or measuring tape",
+              "Thermometer",
+              "Balance scale"
+            ],
+            "correctAnswer": "Metre stick or measuring tape",
+            "feedback": "Correct. Distance needs a length tool.",
+            "hint": "Think about what is being measured."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Tools and Units",
+            "title": "Choose the Unit",
+            "prompt": "Which unit would best record the temperature of water?",
+            "choices": [
+              "Degrees Celsius",
+              "Centimetres",
+              "Grams"
+            ],
+            "correctAnswer": "Degrees Celsius",
+            "feedback": "Yes. Temperature is measured in degrees Celsius.",
+            "hint": "Match the unit to the kind of measurement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Tools and Units",
+            "title": "Estimate First",
+            "prompt": "Why can estimating before measuring be useful?",
+            "choices": [
+              "It helps you notice if the measurement seems unreasonable.",
+              "It replaces the need to measure.",
+              "It guarantees the exact answer."
+            ],
+            "correctAnswer": "It helps you notice if the measurement seems unreasonable.",
+            "feedback": "Correct. Estimating can help catch mistakes.",
+            "hint": "An estimate is not exact, but it can be helpful."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Tools and Units",
+            "title": "True or False",
+            "prompt": "A measurement without a unit can be confusing.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. '12' could mean many different things without a unit.",
+            "hint": "Units tell what kind of amount was measured."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Choose Tools and Units",
+            "title": "Level 1 Complete",
+            "prompt": "You practised matching tools and units.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Organize the Data",
+            "title": "Record So Others Understand",
+            "prompt": "Use tables and graphs clearly",
+            "text": "A good data table has labels. It shows what was tested and what was measured. A graph can make patterns easier to notice, but the graph still needs a clear title and labels."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize the Data",
+            "title": "Table Labels",
+            "prompt": "Why should a data table have headings?",
+            "choices": [
+              "Headings explain what each column means.",
+              "Headings make the numbers less important.",
+              "Headings replace the need for units."
+            ],
+            "correctAnswer": "Headings explain what each column means.",
+            "feedback": "Correct. Headings make data easier to understand.",
+            "hint": "A table should be clear to someone else."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize the Data",
+            "title": "Graph Choice",
+            "prompt": "Which graph would work well for comparing the bounce heights of three balls?",
+            "choices": [
+              "Bar graph",
+              "Map of Canada",
+              "Calendar"
+            ],
+            "correctAnswer": "Bar graph",
+            "feedback": "Yes. A bar graph is useful for comparing categories.",
+            "hint": "Think about comparing separate items."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize the Data",
+            "title": "Missing Information",
+            "prompt": "A table says 'Trial 1: 24, Trial 2: 26.' What is missing?",
+            "choices": [
+              "The unit or what was measured",
+              "The student's favourite colour",
+              "The answer key"
+            ],
+            "correctAnswer": "The unit or what was measured",
+            "feedback": "Correct. The numbers need labels and units.",
+            "hint": "Numbers alone are often not enough."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize the Data",
+            "title": "True or False",
+            "prompt": "Changing data after a test to make it look better is a poor scientific habit.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Data should be honest.",
+            "hint": "Science records should tell what happened."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Organize the Data",
+            "title": "Mission Complete",
+            "prompt": "You practised recording data clearly.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Measuring and Recording Data Quiz",
+        "questions": [
+          {
+            "section": "Measurement",
+            "skill": "Tools",
+            "type": "multipleChoice",
+            "prompt": "Which tool would best measure mass?",
+            "choices": [
+              "Balance scale",
+              "Thermometer",
+              "Stopwatch"
+            ],
+            "correctAnswer": "Balance scale",
+            "reviewNote": "A balance scale measures mass."
+          },
+          {
+            "section": "Measurement",
+            "skill": "Units",
+            "type": "multipleChoice",
+            "prompt": "Which unit matches length?",
+            "choices": [
+              "Centimetres",
+              "Degrees Celsius",
+              "Litres"
+            ],
+            "correctAnswer": "Centimetres",
+            "reviewNote": "Centimetres measure length."
+          },
+          {
+            "section": "Measurement",
+            "skill": "Temperature",
+            "type": "multipleChoice",
+            "prompt": "Which tool would best measure water temperature?",
+            "choices": [
+              "Thermometer",
+              "Measuring tape",
+              "Graduated cylinder"
+            ],
+            "correctAnswer": "Thermometer",
+            "reviewNote": "A thermometer measures temperature."
+          },
+          {
+            "section": "Recording",
+            "skill": "Tables",
+            "type": "multipleChoice",
+            "prompt": "Why should a data table include units?",
+            "choices": [
+              "So the measurements are clear",
+              "So the question disappears",
+              "So the data cannot be compared"
+            ],
+            "correctAnswer": "So the measurements are clear",
+            "reviewNote": "Units explain what the numbers mean."
+          },
+          {
+            "section": "Recording",
+            "skill": "Graphs",
+            "type": "multipleChoice",
+            "prompt": "Which display is useful for comparing categories?",
+            "choices": [
+              "Bar graph",
+              "Paragraph only",
+              "Random list"
+            ],
+            "correctAnswer": "Bar graph",
+            "reviewNote": "Bar graphs compare categories clearly."
+          },
+          {
+            "section": "Recording",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Data should be recorded honestly, even when it is different from the expected result.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Unexpected results should still be recorded."
+          },
+          {
+            "section": "Recording",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The number 15 is always clear enough without a label or unit.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A number needs context."
+          },
+          {
+            "section": "Recording",
+            "skill": "Estimate",
+            "type": "multipleChoice",
+            "prompt": "Why might a student estimate before measuring?",
+            "choices": [
+              "To notice if a measurement seems far off",
+              "To avoid collecting data",
+              "To make the answer whatever they want"
+            ],
+            "correctAnswer": "To notice if a measurement seems far off",
+            "reviewNote": "Estimates can help catch mistakes."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-evidence-and-conclusions",
       "title": "Evidence and Conclusions",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on using data to support conclusions and noticing when evidence is weak or incomplete."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will use evidence to support conclusions and describe limits in an investigation.",
+      "successCriteria": [
+        "I can connect a conclusion to data.",
+        "I can recognize when evidence is weak.",
+        "I can explain a possible source of error."
+      ],
+      "vocabulary": [
+        "conclusion",
+        "evidence",
+        "pattern",
+        "source of error",
+        "claim"
+      ],
+      "teacherSummary": "Students practise making conclusions that fit the evidence and noticing limits in data.",
+      "teacherOverview": "Students learn that conclusions should be based on evidence, not on guesses, preferences, or pressure to get a certain answer.",
+      "christianFocus": "Truthfulness matters. Students should be willing to follow evidence even when the result is surprising.",
+      "lessonContent": [
+        "A conclusion explains what the evidence shows.",
+        "A strong conclusion names the data or pattern that supports it.",
+        "A careful scientist can also name possible errors or limits."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Evidence and Conclusions Mission",
+        "description": "Practise choosing conclusions that match the evidence.",
+        "levels": [
+          "Level 1: Match Claims to Evidence",
+          "Level 2: Notice Limits"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Evidence and Conclusions Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Claims, evidence, conclusions, patterns, and sources of error"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "Evidence and Conclusions Mission",
+        "mission": "Practise choosing conclusions that match the evidence.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Match Claims to Evidence",
+            "title": "Before You Begin",
+            "prompt": "Get ready: conclusions need evidence",
+            "text": "A conclusion should be connected to data. If a student says, 'The tall ramp made the car go farther,' the data should show that the car travelled farther from the tall ramp."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Claims to Evidence",
+            "title": "Best Conclusion",
+            "prompt": "A car rolled 45 cm from a low ramp and 92 cm from a high ramp. Which conclusion fits best?",
+            "choices": [
+              "The higher ramp made the car travel farther in this test.",
+              "The low ramp is always better.",
+              "The car was impossible to measure."
+            ],
+            "correctAnswer": "The higher ramp made the car travel farther in this test.",
+            "feedback": "Correct. That conclusion matches the data.",
+            "hint": "Choose the answer that stays close to the evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Claims to Evidence",
+            "title": "Evidence Support",
+            "prompt": "Which statement gives evidence?",
+            "choices": [
+              "The plant grew 6 cm more in sunlight than in the cupboard.",
+              "The plant probably liked the sunny spot.",
+              "The sunny plant looked happier to me."
+            ],
+            "correctAnswer": "The plant grew 6 cm more in sunlight than in the cupboard.",
+            "feedback": "Yes. It gives a measurement.",
+            "hint": "Evidence often uses observations or measurements."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Claims to Evidence",
+            "title": "Too Strong",
+            "prompt": "One test shows that one paper towel held more water. Which conclusion is too strong?",
+            "choices": [
+              "This towel held more water in our test.",
+              "This brand is always the best for every spill.",
+              "More trials would make the evidence stronger."
+            ],
+            "correctAnswer": "This brand is always the best for every spill.",
+            "feedback": "Correct. That claim goes beyond the evidence.",
+            "hint": "Watch for words like always or every."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Claims to Evidence",
+            "title": "True or False",
+            "prompt": "A conclusion should fit the evidence collected during the investigation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Evidence and conclusion should match.",
+            "hint": "Conclusions should not float away from the data."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Match Claims to Evidence",
+            "title": "Level 1 Complete",
+            "prompt": "You practised matching conclusions to evidence.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Notice Limits",
+            "title": "Careful Conclusions",
+            "prompt": "Name limits honestly",
+            "text": "Sometimes evidence is helpful but not complete. A careful conclusion can say what the data suggests and also name a limit, such as a small number of trials or a possible measuring mistake."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Notice Limits",
+            "title": "Source of Error",
+            "prompt": "Which could be a source of error in a plant-height test?",
+            "choices": [
+              "Measuring from a different starting point each time",
+              "Using a ruler carefully",
+              "Writing down the unit"
+            ],
+            "correctAnswer": "Measuring from a different starting point each time",
+            "feedback": "Correct. Inconsistent measuring can affect the data.",
+            "hint": "A source of error can make data less accurate."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Notice Limits",
+            "title": "Careful Language",
+            "prompt": "Which conclusion uses careful language?",
+            "choices": [
+              "Our data suggests the thicker string held more weight.",
+              "The thicker string will never break.",
+              "The thinner string is useless for everything."
+            ],
+            "correctAnswer": "Our data suggests the thicker string held more weight.",
+            "feedback": "Yes. It uses the evidence without exaggerating.",
+            "hint": "Careful conclusions avoid overclaiming."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Notice Limits",
+            "title": "Weak Evidence",
+            "prompt": "Why is one trial often weaker than several trials?",
+            "choices": [
+              "One trial could be affected by a mistake or unusual result.",
+              "One trial always proves the opposite.",
+              "Several trials make data disappear."
+            ],
+            "correctAnswer": "One trial could be affected by a mistake or unusual result.",
+            "feedback": "Correct. More trials can make a pattern clearer.",
+            "hint": "Think about mistakes and unusual results."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Notice Limits",
+            "title": "True or False",
+            "prompt": "A student should hide possible errors so the conclusion sounds stronger.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. Honest science names possible errors.",
+            "hint": "Strong work can admit limits."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Notice Limits",
+            "title": "Mission Complete",
+            "prompt": "You practised writing careful conclusions.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Evidence and Conclusions Quiz",
+        "questions": [
+          {
+            "section": "Evidence",
+            "skill": "Conclusion",
+            "type": "multipleChoice",
+            "prompt": "Which conclusion best fits data showing Trial A took 12 s and Trial B took 20 s?",
+            "choices": [
+              "Trial A was faster in this test.",
+              "Trial B was always worse in every way.",
+              "The test had no result."
+            ],
+            "correctAnswer": "Trial A was faster in this test.",
+            "reviewNote": "The conclusion should match the measured time."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Support",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses evidence?",
+            "choices": [
+              "The bridge held 800 g before bending.",
+              "The bridge seemed brave.",
+              "The bridge was definitely perfect."
+            ],
+            "correctAnswer": "The bridge held 800 g before bending.",
+            "reviewNote": "A measurement can support a claim."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Overclaim",
+            "type": "multipleChoice",
+            "prompt": "Which phrase often makes a conclusion too strong?",
+            "choices": [
+              "always",
+              "in our test",
+              "the data suggests"
+            ],
+            "correctAnswer": "always",
+            "reviewNote": "Always often goes beyond limited evidence."
+          },
+          {
+            "section": "Limits",
+            "skill": "Error",
+            "type": "multipleChoice",
+            "prompt": "Which is a possible source of error?",
+            "choices": [
+              "Starting the stopwatch late",
+              "Labelling the graph clearly",
+              "Repeating the same steps carefully"
+            ],
+            "correctAnswer": "Starting the stopwatch late",
+            "reviewNote": "Timing mistakes can affect data."
+          },
+          {
+            "section": "Limits",
+            "skill": "Trials",
+            "type": "multipleChoice",
+            "prompt": "Why can repeated trials improve an investigation?",
+            "choices": [
+              "They can show whether results are consistent.",
+              "They remove the need to record data.",
+              "They make every answer a guess."
+            ],
+            "correctAnswer": "They can show whether results are consistent.",
+            "reviewNote": "Repeated trials can strengthen evidence."
+          },
+          {
+            "section": "Limits",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A conclusion should be based on data, not only on what the student wanted to happen.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A conclusion should follow the evidence."
+          },
+          {
+            "section": "Limits",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Naming a possible source of error can make a science explanation more honest.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Honest limits help others understand the evidence."
+          },
+          {
+            "section": "Limits",
+            "skill": "Careful Claim",
+            "type": "multipleChoice",
+            "prompt": "Which wording is best for limited data?",
+            "choices": [
+              "The data suggests...",
+              "This proves forever that...",
+              "No one should test this again because..."
+            ],
+            "correctAnswer": "The data suggests...",
+            "reviewNote": "This wording fits evidence that may still be limited."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-stem-design-process",
       "title": "The STEM Design Process",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on identifying a problem, imagining solutions, planning, building, testing, improving, and communicating."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will use a design process to solve problems, test ideas, and improve solutions.",
+      "successCriteria": [
+        "I can describe steps in the STEM design process.",
+        "I can explain why testing and improving matter.",
+        "I can connect design choices to a problem and criteria."
+      ],
+      "vocabulary": [
+        "criteria",
+        "constraint",
+        "prototype",
+        "test",
+        "improve",
+        "design"
+      ],
+      "teacherSummary": "Students practise the STEM design process: identify, imagine, plan, create, test, improve, and communicate.",
+      "teacherOverview": "Students learn that STEM design is not simply building. A good design responds to a problem, criteria, constraints, test results, and improvements.",
+      "christianFocus": "Design work can serve others. Students should value careful work, creativity, honesty, and stewardship of materials.",
+      "lessonContent": [
+        "Criteria describe what a successful design should do.",
+        "Constraints are limits such as time, materials, size, or cost.",
+        "A prototype is a first model that can be tested and improved."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "STEM Design Process Mission",
+        "description": "Practise planning, testing, and improving a design solution.",
+        "levels": [
+          "Level 1: Plan the Design",
+          "Level 2: Test and Improve"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "The STEM Design Process Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Criteria, constraints, prototypes, testing, improvement, and communication"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "STEM Design Process Mission",
+        "mission": "Practise planning, testing, and improving a design solution.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Design",
+            "title": "Before You Begin",
+            "prompt": "Get ready: design solves a problem",
+            "text": "A STEM design challenge begins with a problem. The design also has criteria, which say what success looks like, and constraints, which are limits you must work within."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "Design Problem",
+            "prompt": "Which statement is a clear design problem?",
+            "choices": [
+              "Build a paper bridge that can hold 500 g using only two sheets of paper.",
+              "Make something interesting.",
+              "Use supplies until the time is gone."
+            ],
+            "correctAnswer": "Build a paper bridge that can hold 500 g using only two sheets of paper.",
+            "feedback": "Correct. It gives a problem, goal, and limit.",
+            "hint": "A clear design problem includes what the design should do."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "Criteria",
+            "prompt": "In a bridge challenge, which is a criterion?",
+            "choices": [
+              "The bridge must hold at least 500 g.",
+              "Only two sheets of paper may be used.",
+              "The class period ends in 30 minutes."
+            ],
+            "correctAnswer": "The bridge must hold at least 500 g.",
+            "feedback": "Yes. That tells what success should look like.",
+            "hint": "Criteria describe success."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "Constraint",
+            "prompt": "Which is a constraint?",
+            "choices": [
+              "Only tape and paper may be used.",
+              "The bridge should hold weight.",
+              "The design should be improved after testing."
+            ],
+            "correctAnswer": "Only tape and paper may be used.",
+            "feedback": "Correct. A constraint is a limit.",
+            "hint": "Look for a limit on materials, time, size, or cost."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "True or False",
+            "prompt": "A design plan can help a team avoid wasting materials.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Planning supports careful material use.",
+            "hint": "Planning before building is part of stewardship."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Plan the Design",
+            "title": "Level 1 Complete",
+            "prompt": "You practised planning a design.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Test and Improve",
+            "title": "Improve with Evidence",
+            "prompt": "Testing is not failure",
+            "text": "A prototype is a first model. Testing a prototype helps you learn what works and what needs to change. Improving a design is a normal and important part of STEM."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "Prototype",
+            "prompt": "What is a prototype?",
+            "choices": [
+              "A model built to test and improve an idea",
+              "A final answer that cannot be changed",
+              "A drawing that replaces all testing"
+            ],
+            "correctAnswer": "A model built to test and improve an idea",
+            "feedback": "Correct. Prototypes are made for testing and learning.",
+            "hint": "Think of a first model."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "Use the Test",
+            "prompt": "A paper tower falls when weight is added. What should the team do next?",
+            "choices": [
+              "Use the test results to improve the base or supports.",
+              "Pretend the tower worked.",
+              "Throw away all data and start guessing."
+            ],
+            "correctAnswer": "Use the test results to improve the base or supports.",
+            "feedback": "Yes. Testing helps guide improvements.",
+            "hint": "A failed test can still teach something."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "Communicate",
+            "prompt": "Why should a team explain both what worked and what did not work?",
+            "choices": [
+              "It helps others understand the design choices and evidence.",
+              "It makes the design look weaker automatically.",
+              "It replaces the need to test."
+            ],
+            "correctAnswer": "It helps others understand the design choices and evidence.",
+            "feedback": "Correct. Communication should be honest and useful.",
+            "hint": "STEM includes explaining."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "True or False",
+            "prompt": "Improving a design after testing means the first design was useless.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. The first design can teach what to improve.",
+            "hint": "Testing and improving are normal."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Test and Improve",
+            "title": "Mission Complete",
+            "prompt": "You practised the STEM design process.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "The STEM Design Process Quiz",
+        "questions": [
+          {
+            "section": "Design Planning",
+            "skill": "Problem",
+            "type": "multipleChoice",
+            "prompt": "Which design problem is clearest?",
+            "choices": [
+              "Create a container that keeps an ice cube from melting quickly for 20 minutes.",
+              "Make a nice container.",
+              "Use supplies to make something."
+            ],
+            "correctAnswer": "Create a container that keeps an ice cube from melting quickly for 20 minutes.",
+            "reviewNote": "It gives a goal and time frame."
+          },
+          {
+            "section": "Design Planning",
+            "skill": "Criteria",
+            "type": "multipleChoice",
+            "prompt": "Criteria tell a team...",
+            "choices": [
+              "what a successful design should do",
+              "which data to ignore",
+              "why testing is not allowed"
+            ],
+            "correctAnswer": "what a successful design should do",
+            "reviewNote": "Criteria describe success."
+          },
+          {
+            "section": "Design Planning",
+            "skill": "Constraints",
+            "type": "multipleChoice",
+            "prompt": "Which is a constraint?",
+            "choices": [
+              "The tower must use only 20 straws.",
+              "The tower should stand by itself.",
+              "The tower should be stable."
+            ],
+            "correctAnswer": "The tower must use only 20 straws.",
+            "reviewNote": "A material limit is a constraint."
+          },
+          {
+            "section": "Testing",
+            "skill": "Prototype",
+            "type": "multipleChoice",
+            "prompt": "A prototype is...",
+            "choices": [
+              "a test model of a design idea",
+              "a final design that cannot change",
+              "a list of opinions"
+            ],
+            "correctAnswer": "a test model of a design idea",
+            "reviewNote": "A prototype is made to test and improve."
+          },
+          {
+            "section": "Testing",
+            "skill": "Improve",
+            "type": "multipleChoice",
+            "prompt": "What should guide design improvements?",
+            "choices": [
+              "Test results and observations",
+              "Only the first guess",
+              "The choice that uses the most supplies"
+            ],
+            "correctAnswer": "Test results and observations",
+            "reviewNote": "Evidence should guide improvements."
+          },
+          {
+            "section": "Testing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A design that needs improvement can still be part of good STEM work.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Improvement is part of design."
+          },
+          {
+            "section": "Testing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Communication in STEM should include evidence, not only a finished product.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Explaining evidence is part of STEM."
+          },
+          {
+            "section": "Testing",
+            "skill": "Stewardship",
+            "type": "multipleChoice",
+            "prompt": "Which habit shows responsible design work?",
+            "choices": [
+              "Plan before using materials.",
+              "Use extra materials because they are nearby.",
+              "Hide test results that do not look good."
+            ],
+            "correctAnswer": "Plan before using materials.",
+            "reviewNote": "Planning helps use materials wisely."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-safety-and-research",
       "title": "Safety and Research Habits",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on safe tool use, reliable information, respectful teamwork, and careful digital research."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify safe investigation habits and reliable research habits.",
+      "successCriteria": [
+        "I can choose safe actions during an investigation.",
+        "I can recognize why some sources are more reliable than others.",
+        "I can explain why teamwork and honesty matter in science."
+      ],
+      "vocabulary": [
+        "safety",
+        "reliable source",
+        "claim",
+        "credit",
+        "teamwork",
+        "digital research"
+      ],
+      "teacherSummary": "Students practise safety, reliable research, source checking, credit, and respectful teamwork.",
+      "teacherOverview": "Students learn that good science includes safe procedures, trustworthy information, respectful collaboration, and honest credit for ideas.",
+      "christianFocus": "Students should care for people, tell the truth, and give credit when using another person's work.",
+      "lessonContent": [
+        "Safety rules protect people and materials.",
+        "Reliable sources should be checked for accuracy, expertise, and purpose.",
+        "Research notes should use your own words and give credit for information."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next STEM lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Safety and Research Mission",
+        "description": "Practise safe investigation choices and wise research habits.",
+        "levels": [
+          "Level 1: Safety First",
+          "Level 2: Research Wisely"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Safety and Research Habits Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Safety, reliable sources, digital research, teamwork, and credit"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-07-06-science-unit-1",
+        "title": "Safety and Research Mission",
+        "mission": "Practise safe investigation choices and wise research habits.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Safety First",
+            "title": "Before You Begin",
+            "prompt": "Get ready: safety protects people",
+            "text": "Science activities should be safe and respectful. Read instructions before starting, use tools the right way, and ask an adult if something is unclear or unsafe."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Safety First",
+            "title": "Unknown Substance",
+            "prompt": "What should a student do before touching or smelling an unknown substance?",
+            "choices": [
+              "Ask the teacher or trusted adult for instructions.",
+              "Smell it closely to identify it.",
+              "Taste a tiny bit if it looks familiar."
+            ],
+            "correctAnswer": "Ask the teacher or trusted adult for instructions.",
+            "feedback": "Correct. Unknown substances need adult direction.",
+            "hint": "Safety comes before curiosity."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Safety First",
+            "title": "Tool Safety",
+            "prompt": "Which action shows safe tool use?",
+            "choices": [
+              "Carry scissors closed and pointed down.",
+              "Wave scissors to get attention.",
+              "Use a tool without reading directions."
+            ],
+            "correctAnswer": "Carry scissors closed and pointed down.",
+            "feedback": "Yes. Tools should be handled carefully.",
+            "hint": "Choose the action that protects people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Safety First",
+            "title": "Spill Response",
+            "prompt": "What should a student do after a spill during an investigation?",
+            "choices": [
+              "Tell the teacher and follow cleanup instructions.",
+              "Hide it so no one worries.",
+              "Keep working and step around it."
+            ],
+            "correctAnswer": "Tell the teacher and follow cleanup instructions.",
+            "feedback": "Correct. Spills should be handled safely.",
+            "hint": "A spill can affect safety and data."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Safety First",
+            "title": "True or False",
+            "prompt": "Safety rules are only needed when an investigation seems dangerous.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. Safety habits matter in every investigation.",
+            "hint": "Even simple activities need care."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Safety First",
+            "title": "Level 1 Complete",
+            "prompt": "You practised safe investigation choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Research Wisely",
+            "title": "Check the Source",
+            "prompt": "Not every source is equally reliable",
+            "text": "Research is stronger when sources are reliable. Check who made the source, why it was made, whether it is current enough, and whether other trustworthy sources agree."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Research Wisely",
+            "title": "Reliable Source",
+            "prompt": "Which source is likely strongest for learning about weather data?",
+            "choices": [
+              "A weather agency page with recent measurements",
+              "A random comment that says 'storms are cool'",
+              "A drawing of a cloud with no explanation"
+            ],
+            "correctAnswer": "A weather agency page with recent measurements",
+            "feedback": "Correct. It gives recent data from a relevant source.",
+            "hint": "Look for expertise and evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Research Wisely",
+            "title": "Credit",
+            "prompt": "Why should a student give credit when using information from a source?",
+            "choices": [
+              "It shows honesty and helps others find the source.",
+              "It makes the project longer for no reason.",
+              "It means the student did not learn anything."
+            ],
+            "correctAnswer": "It shows honesty and helps others find the source.",
+            "feedback": "Yes. Credit is part of honest research.",
+            "hint": "Using someone else's work requires honesty."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Research Wisely",
+            "title": "Teamwork",
+            "prompt": "Which teamwork habit is best during a STEM task?",
+            "choices": [
+              "Listen to evidence and share jobs fairly.",
+              "Let one student do everything.",
+              "Ignore questions from teammates."
+            ],
+            "correctAnswer": "Listen to evidence and share jobs fairly.",
+            "feedback": "Correct. STEM teamwork should be respectful and useful.",
+            "hint": "Good teamwork helps the investigation."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Research Wisely",
+            "title": "True or False",
+            "prompt": "A website can look nice and still need to be checked for reliability.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Appearance is not the same as reliability.",
+            "hint": "Reliable sources need more than a nice design."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Research Wisely",
+            "title": "Mission Complete",
+            "prompt": "You practised safe and wise research habits.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Safety and Research Habits Quiz",
+        "questions": [
+          {
+            "section": "Safety",
+            "skill": "Unknowns",
+            "type": "multipleChoice",
+            "prompt": "What should a student do with an unknown substance?",
+            "choices": [
+              "Ask for adult instructions before touching or smelling it.",
+              "Taste it only if it looks safe.",
+              "Mix it with another substance to see what happens."
+            ],
+            "correctAnswer": "Ask for adult instructions before touching or smelling it.",
+            "reviewNote": "Unknown substances require safety care."
+          },
+          {
+            "section": "Safety",
+            "skill": "Tools",
+            "type": "multipleChoice",
+            "prompt": "Which action is safest?",
+            "choices": [
+              "Use tools only as instructed.",
+              "Use tools quickly without listening.",
+              "Share sharp tools by tossing them carefully."
+            ],
+            "correctAnswer": "Use tools only as instructed.",
+            "reviewNote": "Tools should be used as instructed."
+          },
+          {
+            "section": "Safety",
+            "skill": "Spill",
+            "type": "multipleChoice",
+            "prompt": "What is the best response to a spill?",
+            "choices": [
+              "Tell the teacher and follow directions.",
+              "Cover it with paper and leave it.",
+              "Ignore it if no one saw it."
+            ],
+            "correctAnswer": "Tell the teacher and follow directions.",
+            "reviewNote": "Spills can affect safety and the investigation."
+          },
+          {
+            "section": "Research",
+            "skill": "Reliable Sources",
+            "type": "multipleChoice",
+            "prompt": "Which question helps judge reliability?",
+            "choices": [
+              "Who made this source and what evidence does it use?",
+              "Does this source have the brightest colours?",
+              "Is this source the shortest one?"
+            ],
+            "correctAnswer": "Who made this source and what evidence does it use?",
+            "reviewNote": "Source creator and evidence matter."
+          },
+          {
+            "section": "Research",
+            "skill": "Credit",
+            "type": "multipleChoice",
+            "prompt": "Giving credit to sources is important because it...",
+            "choices": [
+              "shows honesty and helps others check the information",
+              "makes every source correct",
+              "means the student cannot explain the idea"
+            ],
+            "correctAnswer": "shows honesty and helps others check the information",
+            "reviewNote": "Credit is an honest research habit."
+          },
+          {
+            "section": "Research",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A source can be unreliable even if it has a professional-looking design.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Appearance does not prove accuracy."
+          },
+          {
+            "section": "Research",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Safe science includes asking for help when instructions are unclear.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Asking for help can prevent unsafe choices."
+          },
+          {
+            "section": "Research",
+            "skill": "Teamwork",
+            "type": "multipleChoice",
+            "prompt": "Which teamwork habit best supports STEM work?",
+            "choices": [
+              "Respectfully discuss evidence before deciding.",
+              "Ignore data from teammates.",
+              "Choose the loudest person's idea every time."
+            ],
+            "correctAnswer": "Respectfully discuss evidence before deciding.",
+            "reviewNote": "Respectful evidence-based discussion helps teams."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-1-final-quiz",
       "title": "Unit 1 Final Quiz",
-      "type": "plannedQuiz",
-      "status": "planned",
-      "teacherOverview": "Planned final quiz on observations, testable questions, fair tests, variables, evidence, safety, and the STEM design process."
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "The Unit 1 final quiz checks careful observation, testable questions, fair tests, measurement, evidence, design process, safety, and research habits.",
+      "teacherOverview": "Use this quiz after students complete the STEM Skills, Safety, and Investigation Habits lessons.",
+      "quiz": {
+        "title": "STEM Skills, Safety, and Investigation Habits Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Observation",
+            "skill": "Observation",
+            "type": "multipleChoice",
+            "prompt": "Which statement is the clearest observation?",
+            "choices": [
+              "The liquid is light blue and has bubbles near the top.",
+              "The liquid is probably a cleaner.",
+              "The liquid wants to turn into foam."
+            ],
+            "correctAnswer": "The liquid is light blue and has bubbles near the top.",
+            "reviewNote": "A clear observation describes what is noticed."
+          },
+          {
+            "section": "Part A: Observation",
+            "skill": "Inference",
+            "type": "multipleChoice",
+            "prompt": "Which statement is an inference?",
+            "choices": [
+              "The soil may be dry because it feels crumbly.",
+              "The soil is brown.",
+              "The soil is in a cup."
+            ],
+            "correctAnswer": "The soil may be dry because it feels crumbly.",
+            "reviewNote": "An inference is an idea based on observations."
+          },
+          {
+            "section": "Part B: Questions",
+            "skill": "Testable Question",
+            "type": "multipleChoice",
+            "prompt": "Which question is easiest to investigate fairly?",
+            "choices": [
+              "Which material keeps water cold longest?",
+              "Which material is the nicest?",
+              "Which material feels special?"
+            ],
+            "correctAnswer": "Which material keeps water cold longest?",
+            "reviewNote": "Temperature over time can be measured."
+          },
+          {
+            "section": "Part B: Questions",
+            "skill": "Improve",
+            "type": "multipleChoice",
+            "prompt": "Which version best improves 'Which glue is best?'",
+            "choices": [
+              "Which glue holds two craft sticks together under the most weight?",
+              "Which glue has the best bottle?",
+              "Which glue do students like more?"
+            ],
+            "correctAnswer": "Which glue holds two craft sticks together under the most weight?",
+            "reviewNote": "This version defines what best means."
+          },
+          {
+            "section": "Part C: Fair Tests",
+            "skill": "Changed Variable",
+            "type": "multipleChoice",
+            "prompt": "A student tests whether the amount of water affects plant height. What is the changed variable?",
+            "choices": [
+              "Amount of water",
+              "Plant height",
+              "The ruler"
+            ],
+            "correctAnswer": "Amount of water",
+            "reviewNote": "The changed variable is what is changed on purpose."
+          },
+          {
+            "section": "Part C: Fair Tests",
+            "skill": "Measured Variable",
+            "type": "multipleChoice",
+            "prompt": "In the same plant test, what is the measured variable?",
+            "choices": [
+              "Plant height",
+              "Amount of water",
+              "The pot colour"
+            ],
+            "correctAnswer": "Plant height",
+            "reviewNote": "The measured variable is the result."
+          },
+          {
+            "section": "Part C: Fair Tests",
+            "skill": "Controlled Variable",
+            "type": "multipleChoice",
+            "prompt": "Which should stay the same in a fair plant test?",
+            "choices": [
+              "The type of plant",
+              "The amount of water if that is being tested",
+              "The measured height"
+            ],
+            "correctAnswer": "The type of plant",
+            "reviewNote": "The type of plant should be controlled."
+          },
+          {
+            "section": "Part D: Data",
+            "skill": "Tools",
+            "type": "multipleChoice",
+            "prompt": "Which tool measures time?",
+            "choices": [
+              "Stopwatch",
+              "Thermometer",
+              "Balance scale"
+            ],
+            "correctAnswer": "Stopwatch",
+            "reviewNote": "A stopwatch measures time."
+          },
+          {
+            "section": "Part D: Data",
+            "skill": "Units",
+            "type": "multipleChoice",
+            "prompt": "Which unit could record the mass of a small object?",
+            "choices": [
+              "Grams",
+              "Centimetres",
+              "Seconds"
+            ],
+            "correctAnswer": "Grams",
+            "reviewNote": "Grams measure mass."
+          },
+          {
+            "section": "Part D: Data",
+            "skill": "Recording",
+            "type": "trueFalse",
+            "prompt": "A data table should be labelled clearly enough that another person can understand it.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Clear labels make data useful."
+          },
+          {
+            "section": "Part E: Evidence",
+            "skill": "Conclusion",
+            "type": "multipleChoice",
+            "prompt": "Which conclusion is most careful?",
+            "choices": [
+              "The data suggests the taller ramp made the car travel farther.",
+              "The tall ramp is always the best ramp in the world.",
+              "The short ramp never works for anything."
+            ],
+            "correctAnswer": "The data suggests the taller ramp made the car travel farther.",
+            "reviewNote": "Careful conclusions avoid overclaiming."
+          },
+          {
+            "section": "Part E: Evidence",
+            "skill": "Source of Error",
+            "type": "multipleChoice",
+            "prompt": "Which could be a source of error?",
+            "choices": [
+              "Reading the ruler from the wrong end",
+              "Repeating the test",
+              "Writing down the unit"
+            ],
+            "correctAnswer": "Reading the ruler from the wrong end",
+            "reviewNote": "A ruler mistake can affect data."
+          },
+          {
+            "section": "Part F: Design",
+            "skill": "Criteria",
+            "type": "multipleChoice",
+            "prompt": "In a design challenge, criteria tell the team...",
+            "choices": [
+              "what the design must do to succeed",
+              "why data should be ignored",
+              "which source is most colourful"
+            ],
+            "correctAnswer": "what the design must do to succeed",
+            "reviewNote": "Criteria describe success."
+          },
+          {
+            "section": "Part F: Design",
+            "skill": "Constraint",
+            "type": "multipleChoice",
+            "prompt": "Which is a constraint?",
+            "choices": [
+              "Use only ten craft sticks.",
+              "The bridge should hold weight.",
+              "The tower should stand."
+            ],
+            "correctAnswer": "Use only ten craft sticks.",
+            "reviewNote": "A constraint is a limit."
+          },
+          {
+            "section": "Part F: Design",
+            "skill": "Prototype",
+            "type": "trueFalse",
+            "prompt": "A prototype is a model that can be tested and improved.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Prototypes are made for testing and improvement."
+          },
+          {
+            "section": "Part G: Safety and Research",
+            "skill": "Safety",
+            "type": "multipleChoice",
+            "prompt": "What should a student do if instructions are unclear?",
+            "choices": [
+              "Ask the teacher or trusted adult before continuing.",
+              "Guess quickly before anyone notices.",
+              "Skip safety steps to save time."
+            ],
+            "correctAnswer": "Ask the teacher or trusted adult before continuing.",
+            "reviewNote": "Asking for help is a safe habit."
+          },
+          {
+            "section": "Part G: Safety and Research",
+            "skill": "Reliable Source",
+            "type": "multipleChoice",
+            "prompt": "Which question helps check a source?",
+            "choices": [
+              "Who made it, and what evidence does it use?",
+              "Is it the first result online?",
+              "Does it have the biggest picture?"
+            ],
+            "correctAnswer": "Who made it, and what evidence does it use?",
+            "reviewNote": "Source creator and evidence help judge reliability."
+          },
+          {
+            "section": "Part G: Safety and Research",
+            "skill": "Honesty",
+            "type": "trueFalse",
+            "prompt": "Students should record what actually happened, even if the result is unexpected.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Honest data matters in science."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final STEM Skills mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
     }
-  ]
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each STEM Skills lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The unit quiz checks observation, questions, fair tests, variables, measurement, data, conclusions, design, safety, and research. Recommended weighting remains 40% lesson quizzes and 60% unit quiz."
+  }
 }
