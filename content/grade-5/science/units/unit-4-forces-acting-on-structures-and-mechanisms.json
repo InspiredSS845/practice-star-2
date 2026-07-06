@@ -1,0 +1,64 @@
+{
+  "id": "grade-5-science-unit-4",
+  "title": "Forces Acting on Structures and Mechanisms",
+  "strand": "Structures and Mechanisms",
+  "unitGoal": "Students will identify forces, loads, materials, shapes, and design choices that help structures and mechanisms work safely.",
+  "lessons": [
+    {
+      "id": "grade-5-science-unit-4-structures-and-forces",
+      "title": "Structures and Forces",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on identifying structures, mechanisms, pushes, pulls, loads, and real-life force examples."
+    },
+    {
+      "id": "grade-5-science-unit-4-compression-tension-torsion-shear",
+      "title": "Compression, Tension, Torsion, and Shear",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on major force types using age-appropriate examples and diagrams."
+    },
+    {
+      "id": "grade-5-science-unit-4-loads-and-stability",
+      "title": "Loads and Stability",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on live loads, dead loads, balance, centre of gravity, and stability."
+    },
+    {
+      "id": "grade-5-science-unit-4-materials-shapes-and-strength",
+      "title": "Materials, Shapes, and Strength",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on how material choices, triangles, arches, tubes, and bracing affect strength."
+    },
+    {
+      "id": "grade-5-science-unit-4-mechanisms-and-motion",
+      "title": "Mechanisms and Motion",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on how simple mechanisms transfer force and motion in useful ways."
+    },
+    {
+      "id": "grade-5-science-unit-4-designing-and-testing",
+      "title": "Designing and Testing a Structure",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on designing, testing, improving, and explaining a structure using evidence."
+    },
+    {
+      "id": "grade-5-science-unit-4-real-world-structures",
+      "title": "Real-World Structures and Safety",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on bridges, towers, buildings, playground equipment, maintenance, and safety."
+    },
+    {
+      "id": "grade-5-science-unit-4-final-quiz",
+      "title": "Unit 4 Final Quiz",
+      "type": "plannedQuiz",
+      "status": "planned",
+      "teacherOverview": "Planned final quiz on forces, loads, stability, materials, shapes, mechanisms, and structure design choices."
+    }
+  ]
+}

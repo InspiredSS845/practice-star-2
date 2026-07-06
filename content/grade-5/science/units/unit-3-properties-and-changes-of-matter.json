@@ -1,0 +1,64 @@
+{
+  "id": "grade-5-science-unit-3",
+  "title": "Properties and Changes of Matter",
+  "strand": "Matter and Energy",
+  "unitGoal": "Students will describe matter by its properties, compare physical and chemical changes, and investigate mixtures, solutions, and changes of state.",
+  "lessons": [
+    {
+      "id": "grade-5-science-unit-3-describing-matter",
+      "title": "Describing Matter by Its Properties",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on observable properties such as colour, texture, hardness, flexibility, magnetism, and solubility."
+    },
+    {
+      "id": "grade-5-science-unit-3-solids-liquids-gases",
+      "title": "Solids, Liquids, and Gases",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on states of matter, particle spacing, and examples from everyday life."
+    },
+    {
+      "id": "grade-5-science-unit-3-changes-of-state",
+      "title": "Changes of State",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on melting, freezing, evaporation, condensation, and the role of heating and cooling."
+    },
+    {
+      "id": "grade-5-science-unit-3-physical-changes",
+      "title": "Physical Changes",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on changes that affect size, shape, state, or mixture without making a new substance."
+    },
+    {
+      "id": "grade-5-science-unit-3-chemical-changes",
+      "title": "Chemical Changes",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on signs that a new substance may have formed, using safe and age-appropriate examples."
+    },
+    {
+      "id": "grade-5-science-unit-3-mixtures-and-solutions",
+      "title": "Mixtures and Solutions",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on mixtures, solutions, dissolving, and comparing mixtures that are easy or difficult to separate."
+    },
+    {
+      "id": "grade-5-science-unit-3-separating-mixtures",
+      "title": "Separating Mixtures Responsibly",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on filtering, sorting, evaporating, and choosing responsible material uses."
+    },
+    {
+      "id": "grade-5-science-unit-3-final-quiz",
+      "title": "Unit 3 Final Quiz",
+      "type": "plannedQuiz",
+      "status": "planned",
+      "teacherOverview": "Planned final quiz on properties, states, physical changes, chemical changes, mixtures, solutions, and separating materials."
+    }
+  ]
+}

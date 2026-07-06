@@ -26,8 +26,11 @@ window.PracticeStarContent.catalog = {
       "grade": 5,
       "subject": "Science and Technology",
       "title": "Science and Technology - Grade 5",
-      "status": "planned",
-      "description": "Life systems, matter and energy, structures and mechanisms, Earth and space systems, and STEM investigation units will be built here."
+      "status": "shell",
+      "basePath": "content/grade-5/science",
+      "indexFile": "content/grade-5/science/index.json",
+      "dataKey": "grade5Science",
+      "description": "Science and Technology has five Grade 5 Ontario-aligned unit cards ready for student activity development."
     },
     {
       "id": "grade-5-social-studies",

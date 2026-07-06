@@ -1,0 +1,64 @@
+{
+  "id": "grade-5-science-unit-2",
+  "title": "Human Health and Body Systems",
+  "strand": "Life Systems",
+  "unitGoal": "Students will learn how major body systems work together and how wise habits support health, safety, and care for the body.",
+  "lessons": [
+    {
+      "id": "grade-5-science-unit-2-body-systems-work-together",
+      "title": "Body Systems Work Together",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on how organs and body systems have different jobs but work together as one body."
+    },
+    {
+      "id": "grade-5-science-unit-2-digestion-and-nutrients",
+      "title": "Digestion and Nutrients",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on the digestive system, nutrients, energy, and healthy food choices."
+    },
+    {
+      "id": "grade-5-science-unit-2-breathing-blood-and-heart",
+      "title": "Breathing, Blood, and the Heart",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on the respiratory and circulatory systems and how oxygen moves through the body."
+    },
+    {
+      "id": "grade-5-science-unit-2-bones-muscles-and-nerves",
+      "title": "Bones, Muscles, and Nerves",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on the skeletal, muscular, and nervous systems and how the body moves and responds."
+    },
+    {
+      "id": "grade-5-science-unit-2-healthy-habits",
+      "title": "Healthy Habits and Body Care",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on sleep, movement, nutrition, hygiene, and caring for the body without asking private health details."
+    },
+    {
+      "id": "grade-5-science-unit-2-prevention-and-wise-choices",
+      "title": "Prevention and Wise Choices",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on safety, illness prevention, asking trusted adults for help, and making wise choices."
+    },
+    {
+      "id": "grade-5-science-unit-2-body-systems-case-studies",
+      "title": "Body Systems Case Studies",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set using simple scenarios to reason about how body systems interact."
+    },
+    {
+      "id": "grade-5-science-unit-2-final-quiz",
+      "title": "Unit 2 Final Quiz",
+      "type": "plannedQuiz",
+      "status": "planned",
+      "teacherOverview": "Planned final quiz on body systems, system interactions, healthy habits, and age-appropriate health choices."
+    }
+  ]
+}

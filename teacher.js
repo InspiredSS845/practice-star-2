@@ -890,14 +890,14 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
         <div class="preview-section">
           <h3>Planned ${window.PracticeStar.escapeHtml(library.subject)} Item</h3>
           <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "This planned item will be expanded into a teacher-previewed activity.")}</p>
-          <p class="hint">This shell is not ready to share with students yet. Student prompts, Bible references, reflection settings, and privacy choices should be reviewed before assignment.</p>
+          <p class="hint">This shell is not ready to share with students yet. Student prompts, answer choices, quizzes, and any sensitive details should be reviewed before assignment.</p>
         </div>
         <div class="preview-section">
-          <h3>Christian Content Guardrails</h3>
+          <h3>Content Guardrails</h3>
           <ul>
-            <li>Keep wording explicitly Christian, gracious, and age-appropriate.</li>
-            <li>Do not grade private faith, prayer sincerity, or personal family beliefs.</li>
-            <li>Keep Bible references and prayer wording editable for the teacher, family, church, or school context.</li>
+            <li>Keep wording clear, gracious, age-appropriate, and consistent with the site's Christian worldview.</li>
+            <li>Do not ask students to share private faith, health, family, or home details.</li>
+            <li>Use careful wording for sensitive topics so parents and teachers can preview before sharing.</li>
             <li>Preview sensitive prompts before students see them.</li>
           </ul>
         </div>

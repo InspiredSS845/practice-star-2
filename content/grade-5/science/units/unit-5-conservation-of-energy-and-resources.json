@@ -1,0 +1,64 @@
+{
+  "id": "grade-5-science-unit-5",
+  "title": "Conservation of Energy and Resources",
+  "strand": "Earth and Space Systems",
+  "unitGoal": "Students will compare energy sources, understand resource use, and practise stewardship-minded choices that conserve energy and materials.",
+  "lessons": [
+    {
+      "id": "grade-5-science-unit-5-forms-of-energy",
+      "title": "Forms of Energy in Everyday Life",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on light, sound, heat, electrical, mechanical, and chemical energy in everyday examples."
+    },
+    {
+      "id": "grade-5-science-unit-5-energy-sources",
+      "title": "Renewable and Non-Renewable Energy Sources",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on comparing energy sources, benefits, limits, reliability, and stewardship questions."
+    },
+    {
+      "id": "grade-5-science-unit-5-electricity-heat-and-energy-choices",
+      "title": "Electricity, Heat, and Energy Choices",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on electricity use, heat transfer, insulation, and choosing efficient tools and habits."
+    },
+    {
+      "id": "grade-5-science-unit-5-conservation-at-home-and-school",
+      "title": "Conservation at Home and School",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on practical conservation choices without asking students to reveal private home details."
+    },
+    {
+      "id": "grade-5-science-unit-5-natural-resources-and-stewardship",
+      "title": "Natural Resources and Stewardship",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on water, forests, minerals, fuels, materials, and responsible care for creation."
+    },
+    {
+      "id": "grade-5-science-unit-5-environmental-effects-and-trade-offs",
+      "title": "Environmental Effects and Trade-Offs",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on comparing choices honestly, noticing benefits and costs, and avoiding oversimplified answers."
+    },
+    {
+      "id": "grade-5-science-unit-5-energy-saving-plan",
+      "title": "Design an Energy-Saving Plan",
+      "type": "plannedActivity",
+      "status": "planned",
+      "teacherOverview": "Planned student activity set on designing a realistic energy-saving plan using evidence and respectful recommendations."
+    },
+    {
+      "id": "grade-5-science-unit-5-final-quiz",
+      "title": "Unit 5 Final Quiz",
+      "type": "plannedQuiz",
+      "status": "planned",
+      "teacherOverview": "Planned final quiz on energy forms, sources, conservation, natural resources, stewardship, and trade-offs."
+    }
+  ]
+}
