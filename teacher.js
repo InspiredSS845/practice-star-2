@@ -31,6 +31,12 @@ const backToUnitButton = document.querySelector("#backToUnitButton");
 const studentRosterForm = document.querySelector("#studentRosterForm");
 const rosterStudentName = document.querySelector("#rosterStudentName");
 const rosterStatus = document.querySelector("#rosterStatus");
+const batchLoginCardPanel = document.querySelector("#batchLoginCardPanel");
+const batchLoginCardList = document.querySelector("#batchLoginCardList");
+const batchLoginCardStatus = document.querySelector("#batchLoginCardStatus");
+const selectAllBatchCardsButton = document.querySelector("#selectAllBatchCardsButton");
+const clearBatchCardsButton = document.querySelector("#clearBatchCardsButton");
+const printBatchCardsButton = document.querySelector("#printBatchCardsButton");
 const studentRosterList = document.querySelector("#studentRosterList");
 const loginCardPanel = document.querySelector("#loginCardPanel");
 const loginCardStudentLabel = document.querySelector("#loginCardStudentLabel");
@@ -1324,6 +1330,56 @@ function renderStudentLoginCard(student) {
   `;
 }
 
+function renderCompactLoginCard(student) {
+  const teacher = currentTeacher();
+  const classCode = teacher?.classCode || window.PracticeStar.ensureTeacherClassCode(teacher?.id) || "";
+  const websiteUrl = studentLoginWebsiteUrl();
+  const nameClass = student.name.length > 18 ? "long-compact-card-value" : "";
+  return `
+    <article class="compact-login-card" aria-label="${window.PracticeStar.escapeHtml(student.name)} login card">
+      <div class="compact-login-card-decoration" aria-hidden="true">
+        <span class="compact-decor-star compact-decor-star-1"></span>
+        <span class="compact-decor-star compact-decor-star-2"></span>
+        <span class="compact-decor-dot compact-decor-dot-1"></span>
+        <span class="compact-decor-dot compact-decor-dot-2"></span>
+      </div>
+      <header class="compact-login-card-title">
+        ${loginCardStarSvg("compact-login-card-star")}
+        <h3>Practice Star</h3>
+      </header>
+      <div class="compact-login-card-body">
+        <div class="compact-login-card-info">
+          <p class="${nameClass}"><span>Name</span><strong>${window.PracticeStar.escapeHtml(student.name)}</strong></p>
+          <p><span>Code</span><strong>${window.PracticeStar.escapeHtml(classCode)}</strong></p>
+          <p><span>PIN</span><strong>${window.PracticeStar.escapeHtml(student.pin)}</strong></p>
+        </div>
+        <div class="compact-login-card-access">
+          <div class="compact-login-card-qr">
+            ${createLoginCardQrSvg(websiteUrl)}
+          </div>
+          <p>${window.PracticeStar.escapeHtml(websiteUrl)}</p>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderCompactLoginCardSheet(students) {
+  const pages = [];
+  for (let index = 0; index < students.length; index += 4) {
+    pages.push(students.slice(index, index + 4));
+  }
+  return `
+    <div class="compact-login-card-sheet">
+      ${pages.map((pageStudents) => `
+        <section class="compact-login-card-page" aria-label="Login card print page">
+          ${pageStudents.map(renderCompactLoginCard).join("")}
+        </section>
+      `).join("")}
+    </div>
+  `;
+}
+
 function showStudentLoginCard(student) {
   if (!student) {
     return;
@@ -1333,6 +1389,41 @@ function showStudentLoginCard(student) {
   loginCardPrintArea.innerHTML = renderStudentLoginCard(student);
   loginCardPanel.classList.remove("hidden");
   loginCardPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function batchLoginCardSelections() {
+  return Array.from(batchLoginCardList.querySelectorAll("input[data-batch-login-card]:checked")).map((input) => input.value);
+}
+
+function updateBatchLoginCardStatus() {
+  const count = batchLoginCardSelections().length;
+  batchLoginCardStatus.textContent = count
+    ? `${count} student${count === 1 ? "" : "s"} selected for card printing.`
+    : "Choose one or more students to print small cards.";
+}
+
+function renderBatchLoginCardControls(students) {
+  batchLoginCardPanel.classList.toggle("hidden", students.length === 0);
+  if (!students.length) {
+    batchLoginCardList.innerHTML = "";
+    batchLoginCardStatus.textContent = "";
+    return;
+  }
+
+  batchLoginCardList.innerHTML = students
+    .map((student, index) => `
+      <label class="batch-login-card-option" for="batchLoginCardStudent${index}">
+        <input id="batchLoginCardStudent${index}" type="checkbox" value="${window.PracticeStar.escapeHtml(student.id)}" data-batch-login-card />
+        <span>${window.PracticeStar.escapeHtml(student.name)}</span>
+        <small>PIN ${window.PracticeStar.escapeHtml(student.pin)}</small>
+      </label>
+    `)
+    .join("");
+
+  batchLoginCardList.querySelectorAll("input[data-batch-login-card]").forEach((input) => {
+    input.addEventListener("change", updateBatchLoginCardStatus);
+  });
+  updateBatchLoginCardStatus();
 }
 
 function printLoginCard(saveAsPdf = false) {
@@ -1347,6 +1438,21 @@ function printLoginCard(saveAsPdf = false) {
   loginCardPrintOnly = document.createElement("div");
   loginCardPrintOnly.className = "login-card-print-only";
   loginCardPrintOnly.innerHTML = loginCardPrintArea.innerHTML;
+  document.body.appendChild(loginCardPrintOnly);
+  document.body.classList.add("printing-login-card");
+  requestAnimationFrame(() => window.print());
+}
+
+function printBatchLoginCards(students) {
+  if (!students.length) {
+    batchLoginCardStatus.textContent = "Choose at least one student first.";
+    return;
+  }
+  batchLoginCardStatus.textContent = "Use the print window to print the selected login cards.";
+  removeLoginCardPrintOnly();
+  loginCardPrintOnly = document.createElement("div");
+  loginCardPrintOnly.className = "login-card-print-only";
+  loginCardPrintOnly.innerHTML = renderCompactLoginCardSheet(students);
   document.body.appendChild(loginCardPrintOnly);
   document.body.classList.add("printing-login-card");
   requestAnimationFrame(() => window.print());
@@ -1811,6 +1917,7 @@ async function renderStudentRoster() {
     ? await window.PracticeStar.syncContentAssignmentsForTeacher(teacher.id)
     : window.PracticeStar.contentAssignmentsForTeacher(teacher.id);
   const browserLearningCheckpoints = getBrowserLearningCheckpoints();
+  renderBatchLoginCardControls(students);
 
   if (students.length === 0) {
     studentRosterList.innerHTML = `<p class="empty-note">No students yet. Add students before sharing the code.</p>`;
@@ -1837,6 +1944,27 @@ async function renderStudentRoster() {
     .join("");
 
   const studentsById = new Map(students.map((student) => [student.id, student]));
+
+  selectAllBatchCardsButton.onclick = () => {
+    batchLoginCardList.querySelectorAll("input[data-batch-login-card]").forEach((input) => {
+      input.checked = true;
+    });
+    updateBatchLoginCardStatus();
+  };
+
+  clearBatchCardsButton.onclick = () => {
+    batchLoginCardList.querySelectorAll("input[data-batch-login-card]").forEach((input) => {
+      input.checked = false;
+    });
+    updateBatchLoginCardStatus();
+  };
+
+  printBatchCardsButton.onclick = () => {
+    const selectedStudents = batchLoginCardSelections()
+      .map((studentId) => studentsById.get(studentId))
+      .filter(Boolean);
+    printBatchLoginCards(selectedStudents);
+  };
 
   document.querySelectorAll(".view-student-report-button").forEach((button) => {
     button.addEventListener("click", () => {

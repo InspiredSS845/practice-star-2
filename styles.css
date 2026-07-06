@@ -1174,6 +1174,71 @@ textarea:focus {
   font-weight: 900;
 }
 
+.batch-login-card-panel {
+  display: grid;
+  gap: 12px;
+  margin: 14px 0 18px;
+  padding: 14px;
+  border: 3px solid #d6c7ff;
+  border-radius: 8px;
+  background: #fbf8ff;
+}
+
+.batch-login-card-header {
+  display: flex;
+  gap: 14px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.batch-login-card-header h3 {
+  margin: 0;
+  color: var(--blue-dark);
+}
+
+.batch-login-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.batch-login-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+}
+
+.batch-login-card-option {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 8px;
+  align-items: center;
+  min-width: 0;
+  padding: 10px;
+  border: 2px solid #d8ecff;
+  border-radius: 8px;
+  background: #ffffff;
+  font-weight: 900;
+}
+
+.batch-login-card-option input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+}
+
+.batch-login-card-option span,
+.batch-login-card-option small {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.batch-login-card-option small {
+  grid-column: 2;
+  color: #5c6b82;
+}
+
 .login-card-panel {
   display: grid;
   gap: 16px;
@@ -1212,6 +1277,176 @@ textarea:focus {
 
 .login-card-print-only {
   display: none;
+}
+
+.compact-login-card-sheet {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+}
+
+.compact-login-card-page {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.compact-login-card {
+  position: relative;
+  display: grid;
+  gap: 10px;
+  width: min(100%, 330px);
+  min-height: 410px;
+  overflow: hidden;
+  padding: 16px;
+  border: 5px solid #0a55ad;
+  border-radius: 18px;
+  color: #001f5c;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(120, 190, 255, 0.17), transparent 25%),
+    radial-gradient(circle at 82% 76%, rgba(255, 216, 77, 0.16), transparent 26%),
+    #ffffff;
+  box-shadow: 0 12px 22px rgba(11, 65, 130, 0.14);
+}
+
+.compact-login-card > *:not(.compact-login-card-decoration) {
+  position: relative;
+  z-index: 1;
+}
+
+.compact-login-card-decoration span {
+  position: absolute;
+  z-index: 0;
+  display: block;
+}
+
+.compact-decor-star {
+  width: 24px;
+  height: 24px;
+  background: #ffd027;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 56%, 79% 91%, 50% 70%, 21% 91%, 32% 56%, 2% 35%, 39% 35%);
+}
+
+.compact-decor-star-1 {
+  top: 12px;
+  right: 18px;
+}
+
+.compact-decor-star-2 {
+  left: 16px;
+  bottom: 20px;
+  background: #74b9f7;
+}
+
+.compact-decor-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: #ffc814;
+}
+
+.compact-decor-dot-1 {
+  top: 72px;
+  left: 18px;
+}
+
+.compact-decor-dot-2 {
+  right: 22px;
+  bottom: 92px;
+  background: #70b7f0;
+}
+
+.compact-login-card-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.compact-login-card-title h3 {
+  margin: 0;
+  color: #001f5c;
+  font-size: 1.55rem;
+  line-height: 1;
+  text-shadow:
+    1px 0 #cde8ff,
+    -1px 0 #cde8ff,
+    0 1px #cde8ff,
+    0 -1px #cde8ff,
+    0 3px 0 rgba(13, 87, 174, 0.14);
+  white-space: nowrap;
+}
+
+.compact-login-card-star {
+  width: 38px;
+}
+
+.compact-login-card-body {
+  display: grid;
+  gap: 12px;
+}
+
+.compact-login-card-info {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 3px solid #70b7f0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.compact-login-card-info p {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 8px;
+  align-items: baseline;
+  min-width: 0;
+  margin: 0;
+}
+
+.compact-login-card-info span {
+  color: #5c6b82;
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.compact-login-card-info strong {
+  min-width: 0;
+  color: #0a55ad;
+  font-size: 1.28rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.compact-login-card-info .long-compact-card-value strong {
+  font-size: 1.05rem;
+}
+
+.compact-login-card-access {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+}
+
+.compact-login-card-qr {
+  display: grid;
+  place-items: center;
+  width: 118px;
+  aspect-ratio: 1;
+  padding: 7px;
+  border: 3px solid #70b7f0;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.compact-login-card-access p {
+  margin: 0;
+  color: #001f5c;
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .login-card {
@@ -2711,6 +2946,144 @@ body.learning-mode .top-row {
   body.printing-login-card .login-card-print-only .decor-curve-right {
     right: -0.2in;
   }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-sheet {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-page {
+    display: grid;
+    grid-template-columns: repeat(2, 3.35in);
+    grid-template-rows: repeat(2, 4.25in);
+    gap: 0.28in 0.3in;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 9.35in;
+    margin: 0;
+    padding: 0.05in 0;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0.08in;
+    width: 3.35in;
+    height: 4.25in;
+    min-height: 0;
+    margin: 0;
+    padding: 0.14in;
+    border-width: 0.045in;
+    border-radius: 0.14in;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-shadow: none;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-title {
+    gap: 0.06in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-title h3 {
+    font-size: 0.24in;
+    text-shadow:
+      1px 0 #cde8ff,
+      -1px 0 #cde8ff,
+      0 1px #cde8ff,
+      0 -1px #cde8ff,
+      0 2px 0 rgba(13, 87, 174, 0.14);
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-star {
+    width: 0.35in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-body {
+    align-content: start;
+    gap: 0.09in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-info {
+    gap: 0.055in;
+    padding: 0.08in;
+    border-width: 0.025in;
+    border-radius: 0.09in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-info p {
+    grid-template-columns: 0.43in 1fr;
+    gap: 0.06in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-info span {
+    font-size: 0.105in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-info strong {
+    font-size: 0.17in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-info .long-compact-card-value strong {
+    font-size: 0.135in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-access {
+    gap: 0.05in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-qr {
+    width: 1.28in;
+    padding: 0.06in;
+    border-width: 0.025in;
+    border-radius: 0.09in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-login-card-access p {
+    max-width: 2.9in;
+    font-size: 0.075in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-decor-star {
+    width: 0.18in;
+    height: 0.18in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-decor-star-1 {
+    top: 0.1in;
+    right: 0.16in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-decor-star-2 {
+    left: 0.14in;
+    bottom: 0.16in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-decor-dot {
+    width: 0.065in;
+    height: 0.065in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-decor-dot-1 {
+    top: 0.64in;
+    left: 0.16in;
+  }
+
+  body.printing-login-card .login-card-print-only .compact-decor-dot-2 {
+    right: 0.18in;
+    bottom: 0.78in;
+  }
 }
 
 @media (max-width: 680px) {
@@ -2737,6 +3110,10 @@ body.learning-mode .top-row {
   .student-report-sections,
   .lesson-overview-grid,
   .login-card-panel-header,
+  .batch-login-card-header,
+  .batch-login-card-actions,
+  .batch-login-card-list,
+  .compact-login-card-page,
   .login-card-field,
   .activity-row,
   .choice-grid,

@@ -11,7 +11,7 @@
     <link rel="icon" href="Favicon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="Favicon/apple-touch-icon.png" />
     <link rel="manifest" href="Favicon/site.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=2026-07-06-1" />
+    <link rel="stylesheet" href="styles.css?v=2026-07-06-2" />
   </head>
   <body>
     <header class="site-header">
@@ -144,6 +144,21 @@
             </div>
           </form>
           <p id="rosterStatus" class="status-text" role="status"></p>
+          <section id="batchLoginCardPanel" class="batch-login-card-panel hidden" aria-labelledby="batchLoginCardTitle">
+            <div class="batch-login-card-header">
+              <div>
+                <h3 id="batchLoginCardTitle">Create Login Cards</h3>
+                <p class="hint">Select students to print small login cards. Four students fit on one page.</p>
+              </div>
+              <div class="batch-login-card-actions">
+                <button id="selectAllBatchCardsButton" class="secondary small-button" type="button">Select All</button>
+                <button id="clearBatchCardsButton" class="secondary small-button" type="button">Clear</button>
+                <button id="printBatchCardsButton" class="secondary small-button" type="button">Print Selected Cards</button>
+              </div>
+            </div>
+            <div id="batchLoginCardList" class="batch-login-card-list" aria-label="Choose students for login card printout"></div>
+            <p id="batchLoginCardStatus" class="status-text" role="status"></p>
+          </section>
           <div id="studentRosterList" class="card-list"></div>
           <section id="loginCardPanel" class="login-card-panel hidden" aria-labelledby="loginCardTitle">
             <div class="login-card-panel-header">
@@ -318,6 +333,6 @@
     <script src="content/grade-5/math/unit-data/unit-7-roman-numerals.js?v=2026-07-01-7"></script>
     <script src="content/grade-5/language/unit-data/unit-1-spelling-and-word-study.js?v=2026-07-01-7"></script>
     <script src="shared.js?v=2026-07-01-7"></script>
-    <script src="teacher.js?v=2026-07-06-1"></script>
+    <script src="teacher.js?v=2026-07-06-2"></script>
   </body>
 </html>
