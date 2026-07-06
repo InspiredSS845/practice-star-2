@@ -1232,6 +1232,7 @@ function renderCompactLoginCard(student) {
   const teacher = currentTeacher();
   const classCode = teacher?.classCode || window.PracticeStar.ensureTeacherClassCode(teacher?.id) || "";
   const websiteUrl = studentLoginWebsiteUrl();
+  const displayUrl = websiteUrl.replace(/^https?:\/\//, "");
   const nameClass = student.name.length > 18 ? "long-compact-card-value" : "";
   return `
     <article class="compact-login-card" aria-label="${window.PracticeStar.escapeHtml(student.name)} login card">
@@ -1252,12 +1253,10 @@ function renderCompactLoginCard(student) {
           <p><span>PIN</span><strong>${window.PracticeStar.escapeHtml(student.pin)}</strong></p>
         </div>
         <div class="compact-login-card-access">
-          <div class="compact-login-card-qr">
-            ${createLoginCardQrSvg(websiteUrl)}
-          </div>
-          <p>${window.PracticeStar.escapeHtml(websiteUrl)}</p>
+          ${createLoginCardQrSvg(websiteUrl)}
         </div>
       </div>
+      <p class="compact-login-card-url">${window.PracticeStar.escapeHtml(displayUrl)}</p>
     </article>
   `;
 }
