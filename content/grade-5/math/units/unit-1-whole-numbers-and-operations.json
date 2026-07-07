@@ -990,18 +990,16 @@
       "type": "lesson",
       "learningGoal": "Students will read and write large whole numbers in standard form, word form, and expanded form.",
       "successCriteria": [
-        "I can read large numbers by looking at each period.",
-        "I can write numbers from word form into standard form.",
-        "I can write numbers in expanded form.",
-        "I can use zeros as placeholders when a place has no value."
+        "I can place commas correctly in large numbers.",
+        "I can identify digits in the thousands, hundreds, tens, and ones places.",
+        "I can read and write large numbers in standard form, word form, and expanded form.",
+        "I can use zeros as placeholders when writing large numbers."
       ],
       "vocabulary": [
         "standard form",
         "word form",
         "expanded form",
-        "period",
-        "thousands period",
-        "ones period",
+        "comma",
         "placeholder zero"
       ],
       "teacherOverview": "Student mission focused on reading and writing numbers to the hundred thousands using standard form, word form, expanded form, commas, and zeros as placeholders.",
@@ -1013,31 +1011,31 @@
         "instructions": "Answer each question one time. Your score will be shown after you submit the quiz.",
         "questions": [
           {
-            "section": "Part A: Reading Number Periods",
+            "section": "Part A: Reading Commas and Places",
             "type": "multipleChoice",
-            "prompt": "In 36,924, what number is in the thousands period?",
+            "prompt": "In 36,924, which digit is in the thousands place?",
             "choices": [
-              "924",
-              "36",
-              "6"
+              "6",
+              "3",
+              "9"
             ],
-            "correctAnswer": "36",
-            "reviewNote": "The thousands period is the part before the comma."
+            "correctAnswer": "6",
+            "reviewNote": "The thousands place is just to the left of the comma."
           },
           {
-            "section": "Part A: Reading Number Periods",
+            "section": "Part A: Reading Commas and Places",
             "type": "multipleChoice",
-            "prompt": "In 417,058, what number is in the ones period?",
+            "prompt": "In 417,058, which digit is in the hundreds place?",
             "choices": [
-              "058",
-              "417",
-              "58,000"
+              "0",
+              "7",
+              "5"
             ],
-            "correctAnswer": "058",
-            "reviewNote": "The ones period is the three digits after the comma."
+            "correctAnswer": "0",
+            "reviewNote": "The hundreds place is just to the right of the comma."
           },
           {
-            "section": "Part A: Reading Number Periods",
+            "section": "Part A: Reading Commas and Places",
             "type": "multipleChoice",
             "prompt": "Which is the correct comma placement for 78542?",
             "choices": [
@@ -1049,7 +1047,7 @@
             "reviewNote": "Count three digits from the right to place the comma."
           },
           {
-            "section": "Part A: Reading Number Periods",
+            "section": "Part A: Reading Commas and Places",
             "type": "multipleChoice",
             "prompt": "Which starts reading 604,219 correctly?",
             "choices": [
@@ -1058,18 +1056,18 @@
               "six thousand four"
             ],
             "correctAnswer": "six hundred four thousand",
-            "reviewNote": "Read the thousands period first, then say thousand."
+            "reviewNote": "Read the part before the comma, then say thousand."
           },
           {
-            "section": "Part A: Reading Number Periods",
+            "section": "Part A: Reading Commas and Places",
             "type": "trueFalse",
-            "prompt": "In 93,807, the 807 is in the ones period.",
+            "prompt": "In 93,807, the comma sits between the thousands place and the hundreds place.",
             "choices": [
               "True",
               "False"
             ],
             "correctAnswer": "True",
-            "reviewNote": "The ones period is after the comma."
+            "reviewNote": "The comma comes right after the thousands place and right before the hundreds place."
           },
           {
             "section": "Part B: Word Form to Standard Form",
@@ -1105,7 +1103,7 @@
               "203,005"
             ],
             "correctAnswer": "230,005",
-            "reviewNote": "Five in the ones period is written 005."
+            "reviewNote": "Five in the part after the comma is written 005."
           },
           {
             "section": "Part B: Word Form to Standard Form",
@@ -1128,7 +1126,7 @@
               "False"
             ],
             "correctAnswer": "False",
-            "reviewNote": "Three in the ones period should be written 003, so the number is 106,003."
+            "reviewNote": "Three in the part after the comma should be written 003, so the number is 106,003."
           },
           {
             "section": "Part C: Standard Form to Word Form",
@@ -1152,7 +1150,7 @@
               "three hundred twenty thousand, five"
             ],
             "correctAnswer": "three hundred two thousand, fifty",
-            "reviewNote": "302 is the thousands period, and 050 is fifty."
+            "reviewNote": "302 is the part before the comma, and 050 is fifty."
           },
           {
             "section": "Part C: Standard Form to Word Form",
@@ -1223,7 +1221,7 @@
               "546,302"
             ],
             "correctAnswer": "564,302",
-            "reviewNote": "There are 0 tens, so the ones period is 302."
+            "reviewNote": "There are 0 tens, so the part after the comma is 302."
           },
           {
             "section": "Part D: Expanded Form",
@@ -1260,56 +1258,56 @@
         "steps": [
           {
             "kind": "lessonIntro",
-            "level": "Level 1: Number Periods",
+            "level": "Level 1: Commas and Places",
             "title": "Before You Begin",
             "prompt": "Get ready: Reading and Writing Large Numbers",
-            "text": "Large numbers are easier to read when you break them into periods and use place-value words. Commas help separate thousands from hundreds. Standard form uses digits, word form uses words, and expanded form shows the value of each digit. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
+            "text": "Large numbers are easier to read when you use commas and place-value words. In a number like 24,681, the comma sits between the thousands place and the hundreds place. The digits before the comma tell how many thousands. The three digits after the comma show the hundreds, tens, and ones. Standard form uses digits, word form uses words, and expanded form shows the value of each digit. Take your time, use scratch paper if it helps, and think about why the answer you choose is reasonable."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
-            "title": "Find the Break",
-            "prompt": "In 24,681, the comma separates...",
+            "level": "Level 1: Commas and Places",
+            "title": "Find the Comma Place",
+            "prompt": "In 24,681, the comma sits between...",
             "choices": [
-              "thousands and ones",
-              "hundreds and tens",
-              "ones and tens"
+              "the thousands place and the hundreds place",
+              "the hundreds place and the tens place",
+              "the ones place and the tens place"
             ],
-            "correctAnswer": "thousands and ones",
-            "feedback": "Correct. The comma separates the thousands period from the ones period.",
-            "hint": "Look at the part before and after the comma."
+            "correctAnswer": "the thousands place and the hundreds place",
+            "feedback": "Correct. In 24,681, the 4 is in the thousands place and the 6 is in the hundreds place, so the comma sits between them.",
+            "hint": "Look at the digit right before and right after the comma."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
-            "title": "Read the First Part",
-            "prompt": "In 37,405, what number is in the thousands period?",
+            "level": "Level 1: Commas and Places",
+            "title": "Read Before the Comma",
+            "prompt": "In 37,405, which digit is in the thousands place?",
             "choices": [
-              "405",
-              "37",
-              "7"
+              "7",
+              "3",
+              "4"
             ],
-            "correctAnswer": "37",
-            "feedback": "Yes. 37 is in the thousands period.",
-            "hint": "The thousands period is the part before the comma."
+            "correctAnswer": "7",
+            "feedback": "Yes. The 7 is in the thousands place.",
+            "hint": "The thousands place is just before the comma."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
-            "title": "Read the Last Part",
-            "prompt": "In 58,219, what number is in the ones period?",
+            "level": "Level 1: Commas and Places",
+            "title": "Read After the Comma",
+            "prompt": "In 58,219, which digit is in the hundreds place?",
             "choices": [
-              "58",
-              "9",
-              "219"
+              "2",
+              "5",
+              "9"
             ],
-            "correctAnswer": "219",
-            "feedback": "Right. 219 is in the ones period.",
-            "hint": "The ones period is the part after the comma."
+            "correctAnswer": "2",
+            "feedback": "Right. The 2 is in the hundreds place, just after the comma.",
+            "hint": "The hundreds place is just after the comma."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
+            "level": "Level 1: Commas and Places",
             "title": "Choose the Word",
             "prompt": "Which starts reading 62,508 correctly?",
             "choices": [
@@ -1323,7 +1321,7 @@
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
+            "level": "Level 1: Commas and Places",
             "title": "Add the Comma",
             "prompt": "Which is the correct way to write 43672 with a comma?",
             "choices": [
@@ -1333,48 +1331,48 @@
             ],
             "correctAnswer": "43,672",
             "feedback": "Correct. Count three digits from the right, then place the comma.",
-            "hint": "The last three digits belong in the ones period."
+            "hint": "Count three digits from the right, then place the comma."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
-            "title": "Read a Number",
-            "prompt": "How do you start reading 125,304?",
+            "level": "Level 1: Commas and Places",
+            "title": "Thousands Place",
+            "prompt": "In 125,304, which digit is in the thousands place?",
             "choices": [
-              "one thousand twenty-five",
-              "twelve thousand five hundred",
-              "one hundred twenty-five thousand"
+              "5",
+              "1",
+              "3"
             ],
-            "correctAnswer": "one hundred twenty-five thousand",
-            "feedback": "Great. 125 is in the thousands period.",
-            "hint": "Read 125 first, then say thousand."
+            "correctAnswer": "5",
+            "feedback": "Great. The 5 is in the thousands place.",
+            "hint": "The thousands place is just before the comma."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
-            "title": "Find the Period",
-            "prompt": "In 709,018, the 709 is in which period?",
+            "level": "Level 1: Commas and Places",
+            "title": "Before the Comma",
+            "prompt": "In 709,018, which number is written before the comma?",
             "choices": [
-              "ones period",
-              "thousands period",
-              "hundreds period"
+              "709",
+              "018",
+              "18"
             ],
-            "correctAnswer": "thousands period",
-            "feedback": "Yes. 709 is before the comma, so it is in the thousands period.",
-            "hint": "The part before the comma is the thousands period."
+            "correctAnswer": "709",
+            "feedback": "Yes. 709 is written before the comma, so the number starts as seven hundred nine thousand.",
+            "hint": "Look to the left of the comma."
           },
           {
             "kind": "question",
-            "level": "Level 1: Number Periods",
+            "level": "Level 1: Commas and Places",
             "title": "True or False",
-            "prompt": "In 84,260, the 260 is in the ones period.",
+            "prompt": "In 84,260, the 2 is in the hundreds place.",
             "choices": [
               "True",
               "False"
             ],
             "correctAnswer": "True",
-            "feedback": "Correct. 260 is after the comma.",
-            "hint": "Look after the comma."
+            "feedback": "Correct. The 2 is just after the comma, so it is in the hundreds place.",
+            "hint": "Look at the first digit after the comma."
           },
           {
             "kind": "question",
@@ -1401,7 +1399,7 @@
               "702,904"
             ],
             "correctAnswer": "72,904",
-            "feedback": "Correct. The ones period is 904.",
+            "feedback": "Correct. The part after the comma is 904.",
             "hint": "Nine hundred four needs a 0 in the tens place."
           },
           {
@@ -1415,7 +1413,7 @@
               "308,056"
             ],
             "correctAnswer": "308,056",
-            "feedback": "Right. Fifty-six is written 056 in the ones period.",
+            "feedback": "Right. Fifty-six is written 056 in the part after the comma.",
             "hint": "Use zeros to hold empty places."
           },
           {
@@ -1429,8 +1427,8 @@
               "62,007"
             ],
             "correctAnswer": "620,007",
-            "feedback": "Yes. Seven in the ones period is 007.",
-            "hint": "The ones period must have three digits after the comma."
+            "feedback": "Yes. Seven in the part after the comma is 007.",
+            "hint": "The part after the comma must have three digits after the comma."
           },
           {
             "kind": "question",
@@ -1444,7 +1442,7 @@
             ],
             "correctAnswer": "90,430",
             "feedback": "Correct. Ninety thousand is 90,000, plus 430.",
-            "hint": "The ones period is 430."
+            "hint": "The part after the comma is 430."
           },
           {
             "kind": "question",
@@ -1457,7 +1455,7 @@
               "501,020"
             ],
             "correctAnswer": "501,020",
-            "feedback": "Great. Twenty is written 020 in the ones period.",
+            "feedback": "Great. Twenty is written 020 in the part after the comma.",
             "hint": "Use 020 for twenty after the comma."
           },
           {
@@ -1470,7 +1468,7 @@
               "False"
             ],
             "correctAnswer": "True",
-            "feedback": "Yes. Nine is written 009 in the ones period.",
+            "feedback": "Yes. Nine is written 009 in the part after the comma.",
             "hint": "Single digits after the comma need two placeholder zeros."
           },
           {
@@ -1485,7 +1483,7 @@
             ],
             "correctAnswer": "430,600",
             "feedback": "Yes. Six hundred is 600.",
-            "hint": "The ones period is 600."
+            "hint": "The part after the comma is 600."
           },
           {
             "kind": "question",
@@ -1554,7 +1552,7 @@
               "four hundred ninety thousand, thirty"
             ],
             "correctAnswer": "four hundred nine thousand, three hundred",
-            "feedback": "Yes. The thousands period is 409.",
+            "feedback": "Yes. The part before the comma is 409.",
             "hint": "Read the part before the comma as 409."
           },
           {
@@ -1582,7 +1580,7 @@
             ],
             "correctAnswer": "True",
             "feedback": "Correct. 040 is forty.",
-            "hint": "The ones period 040 is read as forty."
+            "hint": "The part after the comma 040 is read as forty."
           },
           {
             "kind": "question",
@@ -1596,7 +1594,7 @@
             ],
             "correctAnswer": "eighty-two thousand, one hundred six",
             "feedback": "Correct. 016 is sixteen, not one hundred six.",
-            "hint": "The 1 is in the tens place of the ones period."
+            "hint": "The 1 is in the tens place of the part after the comma."
           },
           {
             "kind": "question",
@@ -1652,7 +1650,7 @@
             ],
             "correctAnswer": "87,062",
             "feedback": "Yes. There are 0 hundreds, so write 062 after the comma.",
-            "hint": "The ones period is 062."
+            "hint": "The part after the comma is 062."
           },
           {
             "kind": "question",
