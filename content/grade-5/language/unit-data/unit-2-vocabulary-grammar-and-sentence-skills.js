@@ -77,7 +77,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
       assessmentPlan: "Use the activity for guided practice and the quiz to check independent understanding.",
       studentActivity: {
         type: "languageQuestionSet",
-        version: "2026-08-24-language-unit-2",
+        version: "2026-08-24-language-unit-2-content-1",
         title: options.activityTitle,
         mission: options.mission,
         reward: {
@@ -111,9 +111,11 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         vocabulary: ["context clue", "definition", "example", "contrast", "inference"],
         teacherOverview: "Students practise using context clues to infer word meaning in grade-level sentences.",
         lessonContent: [
-          "Context clues are hints around a word.",
-          "Sometimes the clue explains the word directly.",
-          "Sometimes the clue gives an example or contrast that helps the reader infer the meaning."
+          "Context clues are hints around an unfamiliar word that help the reader work out a likely meaning.",
+          "A definition or explanation clue tells the meaning directly, often in the same sentence.",
+          "An example clue gives one or more examples that help narrow the meaning.",
+          "A contrast clue uses words such as but, unlike, although, or however to show an opposite or different idea.",
+          "A careful reader checks the possible meaning in the whole sentence before choosing an answer."
         ],
         activityTitle: "Context Clue Detective",
         mission: "Use clues in sentences to figure out precise word meanings.",
@@ -122,6 +124,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Context clues, inferred meanings, examples, and contrasts",
         steps: [
           intro("Level 1: Find the Clue", "Before You Begin", "Get ready: use nearby clues", "When you meet an unfamiliar word, do not guess too quickly. Read the words around it. A sentence may give an explanation, example, or contrast that helps you choose a meaning that fits."),
+          intro("Level 1: Find the Clue", "How Context Clues Work", "Look for the kind of clue", "Some sentences explain the word directly: 'The fabric was transparent, or easy to see through.' Some give examples: 'nocturnal animals, such as owls and bats.' Some use contrast: 'Unlike the noisy hall, the room was tranquil.' First find the clue, then choose the meaning that fits the whole sentence."),
           question("Level 1: Find the Clue", "Explanation Clue", "The guide was cautious, moving slowly and checking the trail before each step. What does cautious most likely mean?", ["careful", "excited", "confused"], "careful", "Correct. Moving slowly and checking the trail shows careful behaviour.", "Look at what the guide is doing."),
           question("Level 1: Find the Clue", "Example Clue", "Many nocturnal animals, such as owls and bats, are active at night. Which clue helps explain nocturnal?", ["owls and bats are active at night", "many animals", "such as"], "owls and bats are active at night", "Yes. The examples point to animals that are active at night.", "The examples tell what kind of animals they are."),
           question("Level 1: Find the Clue", "Contrast Clue", "Unlike the noisy hallway, the library was tranquil. What does tranquil most likely mean?", ["peaceful", "crowded", "ordinary"], "peaceful", "Correct. Unlike noisy tells you tranquil means almost the opposite.", "The word unlike gives a contrast."),
@@ -157,9 +160,11 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         vocabulary: ["prefix", "suffix", "root word", "base word", "word part"],
         teacherOverview: "Students practise using word parts to understand meanings without treating word parts as shortcuts that replace context.",
         lessonContent: [
-          "A prefix is added to the beginning of a word.",
-          "A suffix is added to the end of a word.",
-          "A root or base word carries the main meaning."
+          "A prefix is added to the beginning of a base word and changes the meaning.",
+          "A suffix is added to the end of a word and can change the meaning or the word's job in a sentence.",
+          "The base word or root carries the main meaning, but the sentence still helps confirm the meaning.",
+          "Common prefixes include re-, un-, pre-, and mis-. Common suffixes include -ful, -less, -ness, and -ly.",
+          "Students should break a word into parts, build a possible meaning, then check whether that meaning fits the sentence."
         ],
         activityTitle: "Word Parts Builder",
         mission: "Break words into useful parts and use those parts to understand meaning.",
@@ -168,6 +173,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Prefixes, suffixes, roots, and checking word meaning in context",
         steps: [
           intro("Level 1: Prefixes and Suffixes", "Before You Begin", "Get ready: word parts carry meaning", "Many English words have parts that help with meaning. The prefix re- often means again. The prefix un- often means not. The suffix -ful can mean full of, and -less can mean without."),
+          intro("Level 1: Prefixes and Suffixes", "How to Break a Word", "Find the base word first", "Start by finding the main word inside. In unhappy, happy is the base word and un- changes it to not happy. In careful, care is the base word and -ful means full of. Word parts give strong clues, but always reread the sentence to make sure the meaning works."),
           question("Level 1: Prefixes and Suffixes", "Prefix Meaning", "In the word reread, what does re- mean?", ["again", "not", "before"], "again", "Correct. Reread means read again.", "Think of redo or replay."),
           question("Level 1: Prefixes and Suffixes", "Prefix Meaning", "In the word unfair, what does un- mean?", ["not", "again", "after"], "not", "Yes. Unfair means not fair.", "Un- often changes a word to its opposite."),
           question("Level 1: Prefixes and Suffixes", "Suffix Meaning", "Which word means full of hope?", ["hopeful", "hopeless", "rehoped"], "hopeful", "Correct. -ful can mean full of.", "Look for the suffix that means full of."),
@@ -203,9 +209,12 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         vocabulary: ["noun", "verb", "adjective", "adverb", "pronoun", "preposition"],
         teacherOverview: "Students review parts of speech by focusing on how words function inside sentences.",
         lessonContent: [
-          "A noun names a person, place, thing, or idea.",
-          "A verb shows action or being.",
-          "Adjectives describe nouns, and adverbs often describe verbs."
+          "A noun names a person, place, thing, or idea. A pronoun can stand in for a noun.",
+          "A verb shows action or being and tells what the subject does or is.",
+          "An adjective describes a noun by telling what kind, which one, or how many.",
+          "An adverb often describes a verb by telling how, when, where, or how much.",
+          "A preposition shows a relationship, often location or direction, such as under, beside, through, or before.",
+          "The same word can sometimes do different jobs, so students should look at how the word is used in the sentence."
         ],
         activityTitle: "Sentence Word Jobs",
         mission: "Identify the job each word is doing inside a sentence.",
@@ -214,6 +223,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Word functions in grade-level sentences",
         steps: [
           intro("Level 1: Name the Word Job", "Before You Begin", "Get ready: words have jobs", "The same word can sometimes do different jobs, so pay attention to the sentence. In 'The light is bright,' light is a noun. In 'Please light the candle,' light is a verb."),
+          intro("Level 1: Name the Word Job", "How to Test a Word", "Ask what job the word is doing", "To find a noun, ask who or what the sentence is about. To find a verb, ask what happens or what something is. To find an adjective, ask what kind. To find an adverb, ask how, when, where, or how much. To find a preposition, look for a word that shows a relationship, such as beside, under, after, or through."),
           question("Level 1: Name the Word Job", "Find the Verb", "In the sentence 'The canoe drifted across the quiet lake,' which word is the verb?", ["drifted", "canoe", "quiet"], "drifted", "Correct. Drifted shows the action.", "Ask what the canoe did."),
           question("Level 1: Name the Word Job", "Find the Adjective", "In 'The careful artist mixed blue paint,' which word is an adjective?", ["careful", "mixed", "artist"], "careful", "Yes. Careful describes the artist.", "Adjectives describe nouns."),
           question("Level 1: Name the Word Job", "Find the Adverb", "In 'Maya answered politely,' which word is an adverb?", ["politely", "Maya", "answered"], "politely", "Correct. Politely describes how Maya answered.", "Adverbs often tell how an action happened."),
@@ -250,8 +260,10 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         teacherOverview: "Students practise recognizing sentence boundaries and correcting common sentence errors.",
         lessonContent: [
           "A complete sentence has a subject and a predicate and expresses a complete thought.",
-          "A fragment is missing an important part.",
-          "A run-on joins too many ideas without proper punctuation."
+          "The subject tells who or what the sentence is about. The predicate tells what the subject does or is.",
+          "A fragment is an incomplete sentence. It may be missing a subject, a predicate, or the rest of the thought.",
+          "A run-on happens when two complete thoughts are pushed together without correct punctuation or a joining word.",
+          "A writer can fix sentence problems by adding missing information, using a period, or joining ideas correctly."
         ],
         activityTitle: "Sentence Fixer",
         mission: "Choose complete sentences and fix fragments and run-ons.",
@@ -260,6 +272,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Sentence completeness, fragments, run-ons, and corrections",
         steps: [
           intro("Level 1: Complete or Not?", "Before You Begin", "Get ready: complete thoughts", "A complete sentence needs someone or something the sentence is about, plus what that subject does or is. A fragment may sound like it begins an idea but does not finish it."),
+          intro("Level 1: Complete or Not?", "Subject and Predicate", "Check both parts", "Ask two questions: Who or what is the sentence about? What does that subject do or what is true about it? 'The lantern glowed' is complete because lantern is the subject and glowed tells what happened. 'After the lantern glowed' is a fragment because the word after starts an idea that needs more information."),
           question("Level 1: Complete or Not?", "Complete Sentence", "Which is a complete sentence?", ["The maple leaves turned red in October.", "Because the maple leaves.", "Turning red in October."], "The maple leaves turned red in October.", "Correct. It has a subject and tells what happened.", "Find the choice that gives a complete thought."),
           question("Level 1: Complete or Not?", "Fragment", "Which is a fragment?", ["After the bell rang.", "The class lined up quietly.", "Mrs. Green opened the door."], "After the bell rang.", "Yes. It starts an idea but does not finish it.", "Ask whether the thought feels complete."),
           question("Level 1: Complete or Not?", "Run-On", "Which sentence is a run-on?", ["The rain stopped we went outside.", "The rain stopped, so we went outside.", "After the rain stopped, we went outside."], "The rain stopped we went outside.", "Correct. Two complete ideas are pushed together without proper joining.", "Look for two sentences stuck together."),
@@ -295,9 +308,11 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         vocabulary: ["conjunction", "compound sentence", "clause", "comma", "relationship"],
         teacherOverview: "Students practise combining related ideas with conjunctions such as and, but, so, because, although, and while.",
         lessonContent: [
-          "A conjunction joins words, phrases, or clauses.",
-          "And adds, but contrasts, and so shows a result.",
-          "Because often gives a reason."
+          "A conjunction joins words, phrases, or clauses and shows how ideas are related.",
+          "And adds a related idea. But shows contrast. So shows a result. Because gives a reason.",
+          "Although and while can begin an idea that needs to be completed by the rest of the sentence.",
+          "When two complete sentences are joined with and, but, or so, a comma often comes before the conjunction.",
+          "Combining sentences should make the writing clearer, not just longer."
         ],
         activityTitle: "Sentence Connector Mission",
         mission: "Choose the best joining word and punctuation for related ideas.",
@@ -306,6 +321,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Conjunction meanings, compound sentences, and clear sentence combining",
         steps: [
           intro("Level 1: Choose the Connector", "Before You Begin", "Get ready: joining words show relationships", "Conjunctions help readers understand how ideas connect. Use and to add, but to contrast, so to show a result, and because to give a reason."),
+          intro("Level 1: Choose the Connector", "Choose by Meaning", "Ask how the ideas connect", "Before choosing a conjunction, decide the relationship between the ideas. If the second idea is surprising, but may fit. If the second idea happens because of the first, so may fit. If one idea explains why, because may fit. Good sentence combining keeps the meaning clear."),
           question("Level 1: Choose the Connector", "Show Contrast", "Which word best completes the sentence? 'The trail was muddy, ____ the hikers continued carefully.'", ["but", "because", "so"], "but", "Correct. But shows contrast between muddy conditions and continuing.", "The second idea is different from what you might expect."),
           question("Level 1: Choose the Connector", "Show Reason", "Which word best completes the sentence? 'We brought extra pencils ____ several students forgot theirs.'", ["because", "but", "although"], "because", "Yes. Because gives the reason.", "Ask why extra pencils were brought."),
           question("Level 1: Choose the Connector", "Show Result", "Which word best completes the sentence? 'The battery was low, ____ we plugged in the tablet.'", ["so", "while", "but"], "so", "Correct. So shows the result.", "The second idea happens because of the first."),
@@ -341,9 +357,11 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         vocabulary: ["comma", "quotation marks", "dialogue", "end punctuation", "introductory phrase"],
         teacherOverview: "Students practise punctuation choices that help readers understand pauses, lists, speech, and sentence boundaries.",
         lessonContent: [
-          "Punctuation is part of meaning.",
-          "Quotation marks show spoken words.",
-          "Commas can separate items in a list, introductory words, and joined complete ideas."
+          "Punctuation is part of meaning because it shows readers where to pause, stop, ask, connect, or show speech.",
+          "Commas can separate items in a list, follow introductory words or phrases, and help join two complete ideas.",
+          "End punctuation shows whether a sentence is a statement, command, question, or exclamation.",
+          "Quotation marks go around the exact words a person says.",
+          "In dialogue, the punctuation for the spoken words usually stays inside the quotation marks."
         ],
         activityTitle: "Punctuation Patrol",
         mission: "Choose punctuation that makes sentences clear and easy to read.",
@@ -352,6 +370,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Commas, end punctuation, quotation marks, and dialogue punctuation",
         steps: [
           intro("Level 1: Commas and End Marks", "Before You Begin", "Get ready: punctuation guides readers", "Punctuation is not decoration. It tells readers where ideas pause, stop, connect, or show speech. A small mark can change how a sentence is understood."),
+          intro("Level 1: Commas and End Marks", "Three Common Comma Jobs", "Use commas to guide the reader", "Commas often do three useful jobs in Grade 5 writing. They separate items in a list: 'paper, pencils, and glue.' They follow an opening phrase: 'After lunch, we cleaned up.' They can help join two complete ideas: 'The rain stopped, and we went outside.'"),
           question("Level 1: Commas and End Marks", "Comma in a List", "Which sentence uses commas correctly in a list?", ["We packed water, snacks, maps, and jackets.", "We packed water snacks, maps and, jackets.", "We packed, water snacks maps and jackets."], "We packed water, snacks, maps, and jackets.", "Correct. Commas separate the items in the list.", "Look for the sentence where each item is clear."),
           question("Level 1: Commas and End Marks", "Introductory Phrase", "Which sentence is punctuated correctly?", ["After the storm, the streets were quiet.", "After, the storm the streets were quiet.", "After the storm the, streets were quiet."], "After the storm, the streets were quiet.", "Yes. The comma follows the introductory phrase.", "The first phrase sets up when."),
           question("Level 1: Commas and End Marks", "End Punctuation", "Which sentence needs a question mark?", ["Where did you put the library book", "Please put the book on the shelf", "The book is on the table"], "Where did you put the library book", "Correct. It asks a question.", "Questions need question marks."),
@@ -387,9 +406,11 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         vocabulary: ["revise", "edit", "clarity", "style", "word choice", "repetition"],
         teacherOverview: "Students practise choosing revisions that improve clarity without changing the intended meaning.",
         lessonContent: [
-          "Revision improves ideas, order, and word choice.",
+          "Revision improves ideas, order, sentence flow, and word choice.",
           "Editing checks grammar, punctuation, capitalization, and spelling.",
-          "Good writers make sentences clearer, not just longer."
+          "A clear revision keeps the intended meaning while making the sentence easier to understand.",
+          "Precise nouns and verbs often make writing stronger than general words.",
+          "Writers should watch for repeated ideas, unclear pronouns, awkward word order, and descriptions that are too far away from the words they describe."
         ],
         activityTitle: "Clear Sentence Editor",
         mission: "Choose revisions that make writing clearer and more precise.",
@@ -398,6 +419,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
         quizFocus: "Revision, editing, precision, repetition, and sentence clarity",
         steps: [
           intro("Level 1: Improve Word Choice", "Before You Begin", "Get ready: make writing clearer", "Editing is not only finding mistakes. Writers also revise sentences so the meaning is clearer, the words are more precise, and the sentence sounds smoother."),
+          intro("Level 1: Improve Word Choice", "Revision Choices", "Improve without changing the idea", "A good revision does not simply make a sentence longer. It keeps the meaning and makes it clearer. Specific nouns and verbs help: 'The squirrel scampered' is clearer than 'The animal went.' Removing repeated ideas also helps the sentence sound stronger."),
           question("Level 1: Improve Word Choice", "Precise Word", "Which revision is clearest? 'The animal moved across the yard.'", ["The squirrel scampered across the yard.", "The thing went across the yard.", "The animal did movement across the yard."], "The squirrel scampered across the yard.", "Correct. Squirrel and scampered are more precise.", "Choose specific nouns and verbs."),
           question("Level 1: Improve Word Choice", "Remove Repetition", "Which sentence avoids unnecessary repetition?", ["The bright lantern glowed beside the tent.", "The bright lantern was bright beside the tent.", "The lantern glowed with glowing light beside the tent."], "The bright lantern glowed beside the tent.", "Yes. It is clear without repeating the same idea.", "Avoid saying the same idea twice."),
           question("Level 1: Improve Word Choice", "Tone", "Which sentence sounds most appropriate for a school report?", ["The experiment showed that salt dissolved faster in warm water.", "The salt thing did stuff in the water.", "Warm water was super awesome with salt."], "The experiment showed that salt dissolved faster in warm water.", "Correct. It is clear and appropriate for a report.", "A school report needs precise, respectful wording."),
