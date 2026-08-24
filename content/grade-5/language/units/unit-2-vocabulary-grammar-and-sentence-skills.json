@@ -1,0 +1,2366 @@
+{
+  "id": "grade-5-language-unit-2",
+  "title": "Vocabulary, Grammar, and Sentence Skills",
+  "strand": "Foundations of Language",
+  "unitGoal": "Students will strengthen word meaning, grammar, sentence structure, punctuation, and editing skills so their reading and writing become clearer and more precise.",
+  "lessons": [
+    {
+      "id": "grade-5-language-unit-2-context-clues",
+      "title": "Context Clues and Word Meaning",
+      "type": "lesson",
+      "learningGoal": "Students will use nearby words, examples, contrasts, and explanations to figure out unfamiliar words.",
+      "successCriteria": [
+        "I can use clues in a sentence to choose a likely word meaning.",
+        "I can tell whether a clue gives an example, contrast, or explanation.",
+        "I can check whether a word meaning makes sense in the whole sentence."
+      ],
+      "vocabulary": [
+        "context clue",
+        "definition",
+        "example",
+        "contrast",
+        "inference"
+      ],
+      "teacherOverview": "Students practise using context clues to infer word meaning in grade-level sentences.",
+      "lessonContent": [
+        "Context clues are hints around a word.",
+        "Sometimes the clue explains the word directly.",
+        "Sometimes the clue gives an example or contrast that helps the reader infer the meaning."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Context Clue Detective",
+        "description": "Use clues in sentences to figure out precise word meanings.",
+        "levels": [
+          "Level 1: Find the Clue",
+          "Level 2: Choose the Meaning"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Context Clues and Word Meaning Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Context clues, inferred meanings, examples, and contrasts"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Context Clue Detective",
+        "mission": "Use clues in sentences to figure out precise word meanings.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Clue",
+            "title": "Before You Begin",
+            "prompt": "Get ready: use nearby clues",
+            "text": "When you meet an unfamiliar word, do not guess too quickly. Read the words around it. A sentence may give an explanation, example, or contrast that helps you choose a meaning that fits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clue",
+            "title": "Explanation Clue",
+            "prompt": "The guide was cautious, moving slowly and checking the trail before each step. What does cautious most likely mean?",
+            "choices": [
+              "careful",
+              "excited",
+              "confused"
+            ],
+            "correctAnswer": "careful",
+            "feedback": "Correct. Moving slowly and checking the trail shows careful behaviour.",
+            "hint": "Look at what the guide is doing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clue",
+            "title": "Example Clue",
+            "prompt": "Many nocturnal animals, such as owls and bats, are active at night. Which clue helps explain nocturnal?",
+            "choices": [
+              "owls and bats are active at night",
+              "many animals",
+              "such as"
+            ],
+            "correctAnswer": "owls and bats are active at night",
+            "feedback": "Yes. The examples point to animals that are active at night.",
+            "hint": "The examples tell what kind of animals they are."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clue",
+            "title": "Contrast Clue",
+            "prompt": "Unlike the noisy hallway, the library was tranquil. What does tranquil most likely mean?",
+            "choices": [
+              "peaceful",
+              "crowded",
+              "ordinary"
+            ],
+            "correctAnswer": "peaceful",
+            "feedback": "Correct. Unlike noisy tells you tranquil means almost the opposite.",
+            "hint": "The word unlike gives a contrast."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clue",
+            "title": "True or False",
+            "prompt": "A context clue can appear after the unfamiliar word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Clues can come before or after the word.",
+            "hint": "Readers should check the whole sentence."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Find the Clue",
+            "title": "Level 1 Complete",
+            "prompt": "You practised finding clues around unfamiliar words.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose the Meaning",
+            "title": "Check the Whole Sentence",
+            "prompt": "A meaning must fit",
+            "text": "A word meaning has to fit the whole sentence, not just one nearby word. If two choices seem possible, reread and ask which one makes the sentence clearer and more exact."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Meaning",
+            "title": "Choose the Meaning",
+            "prompt": "The student revised her paragraph to make the explanation more precise. What does precise most likely mean?",
+            "choices": [
+              "exact and clear",
+              "long and emotional",
+              "quick and unfinished"
+            ],
+            "correctAnswer": "exact and clear",
+            "feedback": "Yes. A revised explanation should become more exact and clear.",
+            "hint": "Think about what revision should improve."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Meaning",
+            "title": "Multiple Clues",
+            "prompt": "The instructions were mandatory; everyone had to follow them before using the equipment. What does mandatory mean?",
+            "choices": [
+              "required",
+              "optional",
+              "confusing"
+            ],
+            "correctAnswer": "required",
+            "feedback": "Correct. Everyone had to follow them is the clue.",
+            "hint": "Had to follow is the strongest clue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Meaning",
+            "title": "Best Fit",
+            "prompt": "The old bridge was sturdy enough to hold the loaded cart. Which meaning best fits sturdy?",
+            "choices": [
+              "strong",
+              "decorated",
+              "new"
+            ],
+            "correctAnswer": "strong",
+            "feedback": "Correct. Holding a loaded cart points to strength.",
+            "hint": "Ask what quality helps a bridge hold weight."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Meaning",
+            "title": "True or False",
+            "prompt": "If a meaning does not fit the sentence, a careful reader should try another meaning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The meaning should make sense in context.",
+            "hint": "Context is how you check the choice."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose the Meaning",
+            "title": "Mission Complete",
+            "prompt": "You practised choosing meanings that fit the context.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Context Clues and Word Meaning Quiz",
+        "questions": [
+          {
+            "section": "Context Clues",
+            "skill": "Explanation",
+            "type": "multipleChoice",
+            "prompt": "The path was narrow, barely wide enough for one person. What does narrow mean?",
+            "choices": [
+              "not very wide",
+              "very bright",
+              "covered in stones"
+            ],
+            "correctAnswer": "not very wide",
+            "reviewNote": "Barely wide enough is the clue."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "Example",
+            "type": "multipleChoice",
+            "prompt": "Aquatic plants, including water lilies and pondweed, grow in water. What does aquatic mean?",
+            "choices": [
+              "living or growing in water",
+              "growing in dry soil",
+              "covered in flowers"
+            ],
+            "correctAnswer": "living or growing in water",
+            "reviewNote": "The examples grow in water."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "Contrast",
+            "type": "multipleChoice",
+            "prompt": "The first draft was vague, but the final draft was specific. What does vague most likely mean?",
+            "choices": [
+              "not clear enough",
+              "neatly written",
+              "very detailed"
+            ],
+            "correctAnswer": "not clear enough",
+            "reviewNote": "The contrast with specific helps."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "Best Fit",
+            "type": "multipleChoice",
+            "prompt": "The class collaborated, sharing ideas and dividing the work fairly. What does collaborated mean?",
+            "choices": [
+              "worked together",
+              "worked silently alone",
+              "finished without planning"
+            ],
+            "correctAnswer": "worked together",
+            "reviewNote": "Sharing ideas and dividing work point to working together."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "True or False",
+            "type": "A contrast clue often uses words such as but, unlike, or however.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Those words can signal contrast."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "True or False",
+            "type": "The first meaning that pops into your mind is always the best meaning.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "False",
+            "correctAnswer": "A reader should check the context."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "Inference",
+            "type": "multipleChoice",
+            "prompt": "The puppy was reluctant to enter the cold water and backed away from the shore. What does reluctant mean?",
+            "choices": [
+              "unwilling or hesitant",
+              "eager and excited",
+              "unable to see"
+            ],
+            "correctAnswer": "unwilling or hesitant",
+            "reviewNote": "Backing away shows hesitation."
+          },
+          {
+            "section": "Context Clues",
+            "skill": "Precision",
+            "type": "multipleChoice",
+            "prompt": "Which habit best helps with context clues?",
+            "choices": [
+              "Reread the sentence and check which meaning fits.",
+              "Skip every unfamiliar word.",
+              "Choose the longest definition every time."
+            ],
+            "correctAnswer": "Reread the sentence and check which meaning fits.",
+            "reviewNote": "The meaning must fit the sentence."
+          }
+        ]
+      },
+      "teacherSummary": "Students practise using context clues to infer word meaning in grade-level sentences."
+    },
+    {
+      "id": "grade-5-language-unit-2-word-parts",
+      "title": "Prefixes, Suffixes, and Roots",
+      "type": "lesson",
+      "learningGoal": "Students will use prefixes, suffixes, and roots to understand and build words.",
+      "successCriteria": [
+        "I can identify common prefixes and suffixes.",
+        "I can use word parts to make a reasonable meaning.",
+        "I can check a word-part meaning against the sentence."
+      ],
+      "vocabulary": [
+        "prefix",
+        "suffix",
+        "root word",
+        "base word",
+        "word part"
+      ],
+      "teacherOverview": "Students practise using word parts to understand meanings without treating word parts as shortcuts that replace context.",
+      "lessonContent": [
+        "A prefix is added to the beginning of a word.",
+        "A suffix is added to the end of a word.",
+        "A root or base word carries the main meaning."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Word Parts Builder",
+        "description": "Break words into useful parts and use those parts to understand meaning.",
+        "levels": [
+          "Level 1: Prefixes and Suffixes",
+          "Level 2: Build and Check Meaning"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Prefixes, Suffixes, and Roots Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Prefixes, suffixes, roots, and checking word meaning in context"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Word Parts Builder",
+        "mission": "Break words into useful parts and use those parts to understand meaning.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Prefixes and Suffixes",
+            "title": "Before You Begin",
+            "prompt": "Get ready: word parts carry meaning",
+            "text": "Many English words have parts that help with meaning. The prefix re- often means again. The prefix un- often means not. The suffix -ful can mean full of, and -less can mean without."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Prefixes and Suffixes",
+            "title": "Prefix Meaning",
+            "prompt": "In the word reread, what does re- mean?",
+            "choices": [
+              "again",
+              "not",
+              "before"
+            ],
+            "correctAnswer": "again",
+            "feedback": "Correct. Reread means read again.",
+            "hint": "Think of redo or replay."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Prefixes and Suffixes",
+            "title": "Prefix Meaning",
+            "prompt": "In the word unfair, what does un- mean?",
+            "choices": [
+              "not",
+              "again",
+              "after"
+            ],
+            "correctAnswer": "not",
+            "feedback": "Yes. Unfair means not fair.",
+            "hint": "Un- often changes a word to its opposite."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Prefixes and Suffixes",
+            "title": "Suffix Meaning",
+            "prompt": "Which word means full of hope?",
+            "choices": [
+              "hopeful",
+              "hopeless",
+              "rehoped"
+            ],
+            "correctAnswer": "hopeful",
+            "feedback": "Correct. -ful can mean full of.",
+            "hint": "Look for the suffix that means full of."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Prefixes and Suffixes",
+            "title": "True or False",
+            "prompt": "A suffix is added to the end of a word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Suffixes come at the end.",
+            "hint": "Prefix begins; suffix ends."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Prefixes and Suffixes",
+            "title": "Level 1 Complete",
+            "prompt": "You practised common prefixes and suffixes.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Build and Check Meaning",
+            "title": "Use the Sentence Too",
+            "prompt": "Word parts help, but context matters",
+            "text": "Word parts give clues, but the sentence still matters. A careful reader uses both: the word parts and the sentence around the word."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build and Check Meaning",
+            "title": "Choose the Meaning",
+            "prompt": "The directions were unclear, so the group reread them. What does reread mean here?",
+            "choices": [
+              "read again",
+              "read quickly",
+              "read silently"
+            ],
+            "correctAnswer": "read again",
+            "feedback": "Correct. Re- and the sentence both point to reading again.",
+            "hint": "The group needed another look."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build and Check Meaning",
+            "title": "Suffix Choice",
+            "prompt": "Which word best completes the sentence: The cracked cup was ____ for carrying water.",
+            "choices": [
+              "useless",
+              "useful",
+              "reuse"
+            ],
+            "correctAnswer": "useless",
+            "feedback": "Yes. A cracked cup would be without use for carrying water.",
+            "hint": "Think about whether it can do the job."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build and Check Meaning",
+            "title": "Root Word",
+            "prompt": "What is the base word in disagreement?",
+            "choices": [
+              "agree",
+              "dis",
+              "ment"
+            ],
+            "correctAnswer": "agree",
+            "feedback": "Correct. Dis- and -ment are added around agree.",
+            "hint": "Find the main word inside."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build and Check Meaning",
+            "title": "True or False",
+            "prompt": "Word parts are helpful clues, but the sentence should still make sense.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Context helps confirm the meaning.",
+            "hint": "Good readers use more than one clue."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Build and Check Meaning",
+            "title": "Mission Complete",
+            "prompt": "You practised using word parts and context together.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Prefixes, Suffixes, and Roots Quiz",
+        "questions": [
+          {
+            "section": "Word Parts",
+            "skill": "Prefix",
+            "type": "multipleChoice",
+            "prompt": "What does the prefix pre- usually mean in preview?",
+            "choices": [
+              "before",
+              "not",
+              "again"
+            ],
+            "correctAnswer": "before",
+            "reviewNote": "Preview means view before."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "Prefix",
+            "type": "multipleChoice",
+            "prompt": "What does mis- usually mean in misplace?",
+            "choices": [
+              "wrongly",
+              "again",
+              "full of"
+            ],
+            "correctAnswer": "wrongly",
+            "reviewNote": "Misplace means place wrongly."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "Suffix",
+            "type": "multipleChoice",
+            "prompt": "Which word means without care?",
+            "choices": [
+              "careless",
+              "careful",
+              "recare"
+            ],
+            "correctAnswer": "careless",
+            "reviewNote": "-less means without."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "Suffix",
+            "type": "multipleChoice",
+            "prompt": "Which word names the state of being kind?",
+            "choices": [
+              "kindness",
+              "unkind",
+              "kindly"
+            ],
+            "correctAnswer": "kindness",
+            "reviewNote": "-ness can name a quality or state."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "Root",
+            "type": "multipleChoice",
+            "prompt": "What is the base word in repainting?",
+            "choices": [
+              "paint",
+              "re",
+              "ing"
+            ],
+            "correctAnswer": "paint",
+            "reviewNote": "Paint carries the main meaning."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "Context",
+            "type": "multipleChoice",
+            "prompt": "The team had to reorganize the supplies after the boxes fell. What does reorganize mean?",
+            "choices": [
+              "organize again",
+              "organize badly",
+              "avoid organizing"
+            ],
+            "correctAnswer": "organize again",
+            "reviewNote": "Re- means again, and the sentence supports it."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "True or False",
+            "type": "A prefix is added to the beginning of a word.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Prefixes come before the base word."
+          },
+          {
+            "section": "Word Parts",
+            "skill": "True or False",
+            "type": "Word parts always give the full meaning without needing the sentence.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "False",
+            "correctAnswer": "Context still matters."
+          }
+        ]
+      },
+      "teacherSummary": "Students practise using word parts to understand meanings without treating word parts as shortcuts that replace context."
+    },
+    {
+      "id": "grade-5-language-unit-2-parts-of-speech",
+      "title": "Parts of Speech in Sentences",
+      "type": "lesson",
+      "learningGoal": "Students will identify how nouns, verbs, adjectives, adverbs, pronouns, and prepositions work in sentences.",
+      "successCriteria": [
+        "I can identify the job a word is doing in a sentence.",
+        "I can choose words that make the sentence clearer.",
+        "I can notice how parts of speech work together."
+      ],
+      "vocabulary": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "pronoun",
+        "preposition"
+      ],
+      "teacherOverview": "Students review parts of speech by focusing on how words function inside sentences.",
+      "lessonContent": [
+        "A noun names a person, place, thing, or idea.",
+        "A verb shows action or being.",
+        "Adjectives describe nouns, and adverbs often describe verbs."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Sentence Word Jobs",
+        "description": "Identify the job each word is doing inside a sentence.",
+        "levels": [
+          "Level 1: Name the Word Job",
+          "Level 2: Choose the Best Word"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Parts of Speech in Sentences Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Word functions in grade-level sentences"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Sentence Word Jobs",
+        "mission": "Identify the job each word is doing inside a sentence.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Word Job",
+            "title": "Before You Begin",
+            "prompt": "Get ready: words have jobs",
+            "text": "The same word can sometimes do different jobs, so pay attention to the sentence. In 'The light is bright,' light is a noun. In 'Please light the candle,' light is a verb."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Word Job",
+            "title": "Find the Verb",
+            "prompt": "In the sentence 'The canoe drifted across the quiet lake,' which word is the verb?",
+            "choices": [
+              "drifted",
+              "canoe",
+              "quiet"
+            ],
+            "correctAnswer": "drifted",
+            "feedback": "Correct. Drifted shows the action.",
+            "hint": "Ask what the canoe did."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Word Job",
+            "title": "Find the Adjective",
+            "prompt": "In 'The careful artist mixed blue paint,' which word is an adjective?",
+            "choices": [
+              "careful",
+              "mixed",
+              "artist"
+            ],
+            "correctAnswer": "careful",
+            "feedback": "Yes. Careful describes the artist.",
+            "hint": "Adjectives describe nouns."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Word Job",
+            "title": "Find the Adverb",
+            "prompt": "In 'Maya answered politely,' which word is an adverb?",
+            "choices": [
+              "politely",
+              "Maya",
+              "answered"
+            ],
+            "correctAnswer": "politely",
+            "feedback": "Correct. Politely describes how Maya answered.",
+            "hint": "Adverbs often tell how an action happened."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Word Job",
+            "title": "True or False",
+            "prompt": "A pronoun can replace a noun to avoid repeating the same name too often.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Pronouns such as she, he, they, and it can replace nouns.",
+            "hint": "Pronouns stand in for nouns."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Name the Word Job",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying word jobs.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose the Best Word",
+            "title": "Words Work Together",
+            "prompt": "Choose precise words",
+            "text": "Grammar is not only labelling words. It helps writers make meaning clear. Choose nouns, verbs, adjectives, and adverbs that fit the exact idea."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Best Word",
+            "title": "Precise Verb",
+            "prompt": "Which verb makes the sentence most precise? 'The rabbit ____ under the fence.'",
+            "choices": [
+              "darted",
+              "went",
+              "was"
+            ],
+            "correctAnswer": "darted",
+            "feedback": "Yes. Darted gives a clearer action than went.",
+            "hint": "Choose the verb that shows a specific action."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Best Word",
+            "title": "Pronoun Clarity",
+            "prompt": "Which sentence uses a pronoun most clearly?",
+            "choices": [
+              "After Sara thanked Lily, Sara packed her bag.",
+              "After Sara thanked Lily, she packed her bag.",
+              "After Sara thanked Lily, they packed it."
+            ],
+            "correctAnswer": "After Sara thanked Lily, Sara packed her bag.",
+            "feedback": "Correct. Repeating Sara avoids confusion about who packed the bag.",
+            "hint": "Sometimes a noun is clearer than a pronoun."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Best Word",
+            "title": "Preposition",
+            "prompt": "Which word shows the relationship in 'The notebook is under the desk'?",
+            "choices": [
+              "under",
+              "notebook",
+              "desk"
+            ],
+            "correctAnswer": "under",
+            "feedback": "Correct. Under shows where the notebook is.",
+            "hint": "Prepositions often tell where or when."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose the Best Word",
+            "title": "True or False",
+            "prompt": "A precise verb can make writing clearer than a general verb.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Precise verbs help readers picture the action.",
+            "hint": "Think of sprinted instead of went."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose the Best Word",
+            "title": "Mission Complete",
+            "prompt": "You practised using parts of speech for clear meaning.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Parts of Speech in Sentences Quiz",
+        "questions": [
+          {
+            "section": "Parts of Speech",
+            "skill": "Verb",
+            "type": "multipleChoice",
+            "prompt": "In 'The thunder rumbled above the valley,' which word is the verb?",
+            "choices": [
+              "rumbled",
+              "thunder",
+              "valley"
+            ],
+            "correctAnswer": "rumbled",
+            "reviewNote": "Rumbled shows the action."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "Noun",
+            "type": "multipleChoice",
+            "prompt": "In 'Kindness matters in a classroom,' which word names an idea?",
+            "choices": [
+              "Kindness",
+              "matters",
+              "classroom"
+            ],
+            "correctAnswer": "Kindness",
+            "reviewNote": "Kindness is an abstract noun."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "Adjective",
+            "type": "multipleChoice",
+            "prompt": "Which word is an adjective in 'The narrow path curved sharply'?",
+            "choices": [
+              "narrow",
+              "curved",
+              "sharply"
+            ],
+            "correctAnswer": "narrow",
+            "reviewNote": "Narrow describes path."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "Adverb",
+            "type": "multipleChoice",
+            "prompt": "Which word is an adverb in 'The team worked steadily'?",
+            "choices": [
+              "steadily",
+              "team",
+              "worked"
+            ],
+            "correctAnswer": "steadily",
+            "reviewNote": "Steadily tells how they worked."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "Pronoun",
+            "type": "multipleChoice",
+            "prompt": "Which word is a pronoun?",
+            "choices": [
+              "they",
+              "mountain",
+              "describe"
+            ],
+            "correctAnswer": "they",
+            "reviewNote": "They is a pronoun."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "Preposition",
+            "type": "multipleChoice",
+            "prompt": "Which word is a preposition in 'The keys are beside the lamp'?",
+            "choices": [
+              "beside",
+              "keys",
+              "lamp"
+            ],
+            "correctAnswer": "beside",
+            "reviewNote": "Beside shows location."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "True or False",
+            "type": "A word's job depends on how it is used in the sentence.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Sentence use matters."
+          },
+          {
+            "section": "Parts of Speech",
+            "skill": "Precision",
+            "type": "multipleChoice",
+            "prompt": "Which verb is most precise?",
+            "choices": [
+              "whispered",
+              "said",
+              "made"
+            ],
+            "correctAnswer": "whispered",
+            "reviewNote": "Whispered gives the clearest action."
+          }
+        ]
+      },
+      "teacherSummary": "Students review parts of speech by focusing on how words function inside sentences."
+    },
+    {
+      "id": "grade-5-language-unit-2-sentence-structure",
+      "title": "Complete Sentences, Fragments, and Run-Ons",
+      "type": "lesson",
+      "learningGoal": "Students will identify complete sentences, fragments, and run-ons and choose effective corrections.",
+      "successCriteria": [
+        "I can tell whether a sentence has a subject and predicate.",
+        "I can correct fragments by adding missing information.",
+        "I can correct run-ons with punctuation or joining words."
+      ],
+      "vocabulary": [
+        "sentence",
+        "fragment",
+        "run-on",
+        "subject",
+        "predicate"
+      ],
+      "teacherOverview": "Students practise recognizing sentence boundaries and correcting common sentence errors.",
+      "lessonContent": [
+        "A complete sentence has a subject and a predicate and expresses a complete thought.",
+        "A fragment is missing an important part.",
+        "A run-on joins too many ideas without proper punctuation."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Sentence Fixer",
+        "description": "Choose complete sentences and fix fragments and run-ons.",
+        "levels": [
+          "Level 1: Complete or Not?",
+          "Level 2: Fix the Sentence"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Complete Sentences, Fragments, and Run-Ons Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Sentence completeness, fragments, run-ons, and corrections"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Sentence Fixer",
+        "mission": "Choose complete sentences and fix fragments and run-ons.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Complete or Not?",
+            "title": "Before You Begin",
+            "prompt": "Get ready: complete thoughts",
+            "text": "A complete sentence needs someone or something the sentence is about, plus what that subject does or is. A fragment may sound like it begins an idea but does not finish it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Complete or Not?",
+            "title": "Complete Sentence",
+            "prompt": "Which is a complete sentence?",
+            "choices": [
+              "The maple leaves turned red in October.",
+              "Because the maple leaves.",
+              "Turning red in October."
+            ],
+            "correctAnswer": "The maple leaves turned red in October.",
+            "feedback": "Correct. It has a subject and tells what happened.",
+            "hint": "Find the choice that gives a complete thought."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Complete or Not?",
+            "title": "Fragment",
+            "prompt": "Which is a fragment?",
+            "choices": [
+              "After the bell rang.",
+              "The class lined up quietly.",
+              "Mrs. Green opened the door."
+            ],
+            "correctAnswer": "After the bell rang.",
+            "feedback": "Yes. It starts an idea but does not finish it.",
+            "hint": "Ask whether the thought feels complete."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Complete or Not?",
+            "title": "Run-On",
+            "prompt": "Which sentence is a run-on?",
+            "choices": [
+              "The rain stopped we went outside.",
+              "The rain stopped, so we went outside.",
+              "After the rain stopped, we went outside."
+            ],
+            "correctAnswer": "The rain stopped we went outside.",
+            "feedback": "Correct. Two complete ideas are pushed together without proper joining.",
+            "hint": "Look for two sentences stuck together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Complete or Not?",
+            "title": "True or False",
+            "prompt": "A fragment can be corrected by adding the missing subject or predicate.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Add what is missing to complete the thought.",
+            "hint": "Fragments are missing something important."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Complete or Not?",
+            "title": "Level 1 Complete",
+            "prompt": "You practised spotting complete sentences and sentence problems.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Fix the Sentence",
+            "title": "Choose a Clear Correction",
+            "prompt": "Fix without changing the meaning",
+            "text": "When you fix a fragment or run-on, keep the intended meaning. You may add missing words, use a period, use a comma with a joining word, or rewrite the sentence more clearly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Fix the Sentence",
+            "title": "Fix a Fragment",
+            "prompt": "Which best fixes the fragment 'While the soup simmered on the stove'?",
+            "choices": [
+              "While the soup simmered on the stove, Dad sliced bread.",
+              "While the soup simmered on the stove.",
+              "The soup while simmered on the stove."
+            ],
+            "correctAnswer": "While the soup simmered on the stove, Dad sliced bread.",
+            "feedback": "Correct. It completes the thought.",
+            "hint": "The word while starts an idea that needs finishing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Fix the Sentence",
+            "title": "Fix a Run-On",
+            "prompt": "Which best fixes 'The wind rose the branches shook'?",
+            "choices": [
+              "The wind rose, and the branches shook.",
+              "The wind rose the, branches shook.",
+              "The wind rose and the branches."
+            ],
+            "correctAnswer": "The wind rose, and the branches shook.",
+            "feedback": "Yes. The comma and and join two complete ideas.",
+            "hint": "Use punctuation and a joining word."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Fix the Sentence",
+            "title": "Best Punctuation",
+            "prompt": "Which correction is clearest?",
+            "choices": [
+              "I packed my lunch. Then I filled my water bottle.",
+              "I packed my lunch then I filled my water bottle.",
+              "Packed my lunch then filled."
+            ],
+            "correctAnswer": "I packed my lunch. Then I filled my water bottle.",
+            "feedback": "Correct. Two clear sentences work well here.",
+            "hint": "A period can separate complete thoughts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Fix the Sentence",
+            "title": "True or False",
+            "prompt": "Every long sentence is a run-on.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. A long sentence can be correct if it is joined and punctuated properly.",
+            "hint": "Length alone is not the problem."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Fix the Sentence",
+            "title": "Mission Complete",
+            "prompt": "You practised fixing sentence problems.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Complete Sentences, Fragments, and Run-Ons Quiz",
+        "questions": [
+          {
+            "section": "Sentence Structure",
+            "skill": "Complete Sentence",
+            "type": "multipleChoice",
+            "prompt": "Which is a complete sentence?",
+            "choices": [
+              "The hikers reached the lookout before sunset.",
+              "Before sunset at the lookout.",
+              "Because the hikers reached."
+            ],
+            "correctAnswer": "The hikers reached the lookout before sunset.",
+            "reviewNote": "It expresses a complete thought."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "Fragment",
+            "type": "multipleChoice",
+            "prompt": "Which is a fragment?",
+            "choices": [
+              "Under the wooden bench.",
+              "The dog slept under the wooden bench.",
+              "The wooden bench creaked."
+            ],
+            "correctAnswer": "Under the wooden bench.",
+            "reviewNote": "It does not say what is under the bench."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "Run-On",
+            "type": "multipleChoice",
+            "prompt": "Which is a run-on?",
+            "choices": [
+              "The timer rang we removed the muffins.",
+              "The timer rang, and we removed the muffins.",
+              "When the timer rang, we removed the muffins."
+            ],
+            "correctAnswer": "The timer rang we removed the muffins.",
+            "reviewNote": "Two complete ideas are joined incorrectly."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "Correction",
+            "type": "multipleChoice",
+            "prompt": "Which best fixes 'Because the road was icy'?",
+            "choices": [
+              "Because the road was icy, the bus drove slowly.",
+              "Because the road was icy.",
+              "Road was icy because."
+            ],
+            "correctAnswer": "Because the road was icy, the bus drove slowly.",
+            "reviewNote": "It completes the thought."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "Correction",
+            "type": "multipleChoice",
+            "prompt": "Which best fixes 'The lights flickered the room went dark'?",
+            "choices": [
+              "The lights flickered, and the room went dark.",
+              "The lights flickered the, room went dark.",
+              "The lights flickered and the room."
+            ],
+            "correctAnswer": "The lights flickered, and the room went dark.",
+            "reviewNote": "It joins the ideas correctly."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "Subject",
+            "type": "multipleChoice",
+            "prompt": "In 'The little boat rocked gently,' what is the subject?",
+            "choices": [
+              "The little boat",
+              "rocked gently",
+              "gently"
+            ],
+            "correctAnswer": "The little boat",
+            "reviewNote": "The subject tells what the sentence is about."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "True or False",
+            "type": "A complete sentence needs to express a complete thought.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "A sentence should feel complete."
+          },
+          {
+            "section": "Sentence Structure",
+            "skill": "True or False",
+            "type": "A run-on can sometimes be fixed by making two separate sentences.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "A period can separate complete ideas."
+          }
+        ]
+      },
+      "teacherSummary": "Students practise recognizing sentence boundaries and correcting common sentence errors."
+    },
+    {
+      "id": "grade-5-language-unit-2-sentence-combining",
+      "title": "Combining Sentences with Conjunctions",
+      "type": "lesson",
+      "learningGoal": "Students will combine related ideas using conjunctions and punctuation.",
+      "successCriteria": [
+        "I can choose a conjunction that shows the right relationship.",
+        "I can combine sentences without creating a run-on.",
+        "I can use commas correctly in common compound sentences."
+      ],
+      "vocabulary": [
+        "conjunction",
+        "compound sentence",
+        "clause",
+        "comma",
+        "relationship"
+      ],
+      "teacherOverview": "Students practise combining related ideas with conjunctions such as and, but, so, because, although, and while.",
+      "lessonContent": [
+        "A conjunction joins words, phrases, or clauses.",
+        "And adds, but contrasts, and so shows a result.",
+        "Because often gives a reason."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Sentence Connector Mission",
+        "description": "Choose the best joining word and punctuation for related ideas.",
+        "levels": [
+          "Level 1: Choose the Connector",
+          "Level 2: Combine Clearly"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Combining Sentences with Conjunctions Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Conjunction meanings, compound sentences, and clear sentence combining"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Sentence Connector Mission",
+        "mission": "Choose the best joining word and punctuation for related ideas.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Choose the Connector",
+            "title": "Before You Begin",
+            "prompt": "Get ready: joining words show relationships",
+            "text": "Conjunctions help readers understand how ideas connect. Use and to add, but to contrast, so to show a result, and because to give a reason."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose the Connector",
+            "title": "Show Contrast",
+            "prompt": "Which word best completes the sentence? 'The trail was muddy, ____ the hikers continued carefully.'",
+            "choices": [
+              "but",
+              "because",
+              "so"
+            ],
+            "correctAnswer": "but",
+            "feedback": "Correct. But shows contrast between muddy conditions and continuing.",
+            "hint": "The second idea is different from what you might expect."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose the Connector",
+            "title": "Show Reason",
+            "prompt": "Which word best completes the sentence? 'We brought extra pencils ____ several students forgot theirs.'",
+            "choices": [
+              "because",
+              "but",
+              "although"
+            ],
+            "correctAnswer": "because",
+            "feedback": "Yes. Because gives the reason.",
+            "hint": "Ask why extra pencils were brought."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose the Connector",
+            "title": "Show Result",
+            "prompt": "Which word best completes the sentence? 'The battery was low, ____ we plugged in the tablet.'",
+            "choices": [
+              "so",
+              "while",
+              "but"
+            ],
+            "correctAnswer": "so",
+            "feedback": "Correct. So shows the result.",
+            "hint": "The second idea happens because of the first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose the Connector",
+            "title": "True or False",
+            "prompt": "The conjunction but usually signals a contrast.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. But often shows a different or surprising idea.",
+            "hint": "Think of contrast."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Choose the Connector",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing joining words.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Combine Clearly",
+            "title": "Punctuation Matters",
+            "prompt": "Join ideas carefully",
+            "text": "When two complete sentences are joined with and, but, or so, writers often use a comma before the conjunction. The punctuation helps readers see where one idea ends and the next begins."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Combine Clearly",
+            "title": "Best Combination",
+            "prompt": "Which combines the ideas clearly? 'The sky darkened. The team packed up the equipment.'",
+            "choices": [
+              "The sky darkened, so the team packed up the equipment.",
+              "The sky darkened the team packed up the equipment.",
+              "The sky darkened because, the team packed up."
+            ],
+            "correctAnswer": "The sky darkened, so the team packed up the equipment.",
+            "feedback": "Correct. So shows the result and the comma helps separate the ideas.",
+            "hint": "Choose the sentence that is clear and correctly joined."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Combine Clearly",
+            "title": "Avoid a Run-On",
+            "prompt": "Which sentence is correctly joined?",
+            "choices": [
+              "I finished the chapter, and I wrote a summary.",
+              "I finished the chapter and, I wrote a summary.",
+              "I finished the chapter I wrote a summary."
+            ],
+            "correctAnswer": "I finished the chapter, and I wrote a summary.",
+            "feedback": "Yes. The comma and and join the ideas clearly.",
+            "hint": "Avoid pushing two sentences together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Combine Clearly",
+            "title": "Subordinating Conjunction",
+            "prompt": "Which sentence uses because clearly?",
+            "choices": [
+              "Because the instructions changed, we reread the first step.",
+              "Because the instructions changed.",
+              "The instructions because changed we reread."
+            ],
+            "correctAnswer": "Because the instructions changed, we reread the first step.",
+            "feedback": "Correct. The because phrase is completed by the main idea.",
+            "hint": "Because starts a reason that needs a complete thought."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Combine Clearly",
+            "title": "True or False",
+            "prompt": "Combining sentences should keep the meaning clear, not just make the sentence longer.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Combining should improve clarity.",
+            "hint": "Longer is not always better."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Combine Clearly",
+            "title": "Mission Complete",
+            "prompt": "You practised combining sentences clearly.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Combining Sentences with Conjunctions Quiz",
+        "questions": [
+          {
+            "section": "Conjunctions",
+            "skill": "Addition",
+            "type": "multipleChoice",
+            "prompt": "Which conjunction adds a related idea?",
+            "choices": [
+              "and",
+              "but",
+              "although"
+            ],
+            "correctAnswer": "and",
+            "reviewNote": "And adds ideas."
+          },
+          {
+            "section": "Conjunctions",
+            "skill": "Contrast",
+            "type": "multipleChoice",
+            "prompt": "Which conjunction best fits? 'The book was long, ____ it was interesting.'",
+            "choices": [
+              "but",
+              "because",
+              "so"
+            ],
+            "correctAnswer": "but",
+            "reviewNote": "But shows contrast."
+          },
+          {
+            "section": "Conjunctions",
+            "skill": "Reason",
+            "type": "multipleChoice",
+            "prompt": "Which conjunction best fits? 'We waited inside ____ the rain was heavy.'",
+            "choices": [
+              "because",
+              "but",
+              "so"
+            ],
+            "correctAnswer": "because",
+            "reviewNote": "Because gives a reason."
+          },
+          {
+            "section": "Conjunctions",
+            "skill": "Result",
+            "type": "multipleChoice",
+            "prompt": "Which conjunction best fits? 'The lid was loose, ____ the water spilled.'",
+            "choices": [
+              "so",
+              "although",
+              "and"
+            ],
+            "correctAnswer": "so",
+            "reviewNote": "So shows a result."
+          },
+          {
+            "section": "Sentence Combining",
+            "skill": "Correct Sentence",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is correctly combined?",
+            "choices": [
+              "The bell rang, and the students opened their books.",
+              "The bell rang and, the students opened their books.",
+              "The bell rang the students opened their books."
+            ],
+            "correctAnswer": "The bell rang, and the students opened their books.",
+            "reviewNote": "The comma and conjunction join two complete ideas."
+          },
+          {
+            "section": "Sentence Combining",
+            "skill": "Clarity",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is clearest?",
+            "choices": [
+              "Although the problem was difficult, Jonah kept working.",
+              "Although the problem was difficult.",
+              "The problem although difficult Jonah kept."
+            ],
+            "correctAnswer": "Although the problem was difficult, Jonah kept working.",
+            "reviewNote": "The although idea is completed."
+          },
+          {
+            "section": "Sentence Combining",
+            "skill": "True or False",
+            "type": "So can show that the second idea is a result of the first idea.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "So often shows result."
+          },
+          {
+            "section": "Sentence Combining",
+            "skill": "True or False",
+            "type": "A sentence is better simply because it is longer.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "False",
+            "correctAnswer": "Clarity matters more than length."
+          }
+        ]
+      },
+      "teacherSummary": "Students practise combining related ideas with conjunctions such as and, but, so, because, although, and while."
+    },
+    {
+      "id": "grade-5-language-unit-2-punctuation-and-dialogue",
+      "title": "Punctuation, Dialogue, and Commas",
+      "type": "lesson",
+      "learningGoal": "Students will use commas, quotation marks, and end punctuation to clarify meaning.",
+      "successCriteria": [
+        "I can choose punctuation that matches the sentence meaning.",
+        "I can recognize correctly punctuated dialogue.",
+        "I can use commas in lists, introductory phrases, and compound sentences."
+      ],
+      "vocabulary": [
+        "comma",
+        "quotation marks",
+        "dialogue",
+        "end punctuation",
+        "introductory phrase"
+      ],
+      "teacherOverview": "Students practise punctuation choices that help readers understand pauses, lists, speech, and sentence boundaries.",
+      "lessonContent": [
+        "Punctuation is part of meaning.",
+        "Quotation marks show spoken words.",
+        "Commas can separate items in a list, introductory words, and joined complete ideas."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Punctuation Patrol",
+        "description": "Choose punctuation that makes sentences clear and easy to read.",
+        "levels": [
+          "Level 1: Commas and End Marks",
+          "Level 2: Dialogue and Meaning"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Punctuation, Dialogue, and Commas Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Commas, end punctuation, quotation marks, and dialogue punctuation"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Punctuation Patrol",
+        "mission": "Choose punctuation that makes sentences clear and easy to read.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Commas and End Marks",
+            "title": "Before You Begin",
+            "prompt": "Get ready: punctuation guides readers",
+            "text": "Punctuation is not decoration. It tells readers where ideas pause, stop, connect, or show speech. A small mark can change how a sentence is understood."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Commas and End Marks",
+            "title": "Comma in a List",
+            "prompt": "Which sentence uses commas correctly in a list?",
+            "choices": [
+              "We packed water, snacks, maps, and jackets.",
+              "We packed water snacks, maps and, jackets.",
+              "We packed, water snacks maps and jackets."
+            ],
+            "correctAnswer": "We packed water, snacks, maps, and jackets.",
+            "feedback": "Correct. Commas separate the items in the list.",
+            "hint": "Look for the sentence where each item is clear."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Commas and End Marks",
+            "title": "Introductory Phrase",
+            "prompt": "Which sentence is punctuated correctly?",
+            "choices": [
+              "After the storm, the streets were quiet.",
+              "After, the storm the streets were quiet.",
+              "After the storm the, streets were quiet."
+            ],
+            "correctAnswer": "After the storm, the streets were quiet.",
+            "feedback": "Yes. The comma follows the introductory phrase.",
+            "hint": "The first phrase sets up when."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Commas and End Marks",
+            "title": "End Punctuation",
+            "prompt": "Which sentence needs a question mark?",
+            "choices": [
+              "Where did you put the library book",
+              "Please put the book on the shelf",
+              "The book is on the table"
+            ],
+            "correctAnswer": "Where did you put the library book",
+            "feedback": "Correct. It asks a question.",
+            "hint": "Questions need question marks."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Commas and End Marks",
+            "title": "True or False",
+            "prompt": "A comma can help separate two complete ideas joined by and, but, or so.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. This is common in compound sentences.",
+            "hint": "Think of two sentences joined together."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Commas and End Marks",
+            "title": "Level 1 Complete",
+            "prompt": "You practised commas and end punctuation.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Dialogue and Meaning",
+            "title": "Punctuate Speech",
+            "prompt": "Show exactly what was said",
+            "text": "Dialogue uses quotation marks around the spoken words. The comma, question mark, or exclamation mark usually goes inside the closing quotation mark."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Dialogue and Meaning",
+            "title": "Quotation Marks",
+            "prompt": "Which sentence punctuates dialogue correctly?",
+            "choices": [
+              "Lena said, \"I found the missing page.\"",
+              "\"Lena said, I found the missing page.\"",
+              "Lena said, I found \"the missing page.\""
+            ],
+            "correctAnswer": "Lena said, \"I found the missing page.\"",
+            "feedback": "Correct. The spoken words are inside quotation marks.",
+            "hint": "Only the words spoken go inside quotation marks."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Dialogue and Meaning",
+            "title": "Question in Dialogue",
+            "prompt": "Which sentence is correct?",
+            "choices": [
+              "\"Are you ready?\" asked Noah.",
+              "\"Are you ready\"? asked Noah.",
+              "Are you ready? asked \"Noah.\""
+            ],
+            "correctAnswer": "\"Are you ready?\" asked Noah.",
+            "feedback": "Yes. The question mark belongs inside the quotation marks.",
+            "hint": "The spoken question is inside the quotation marks."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Dialogue and Meaning",
+            "title": "Speaker Tag",
+            "prompt": "What is the speaker tag in this sentence? \"I can help,\" said Priya.",
+            "choices": [
+              "said Priya",
+              "I can help",
+              "can help"
+            ],
+            "correctAnswer": "said Priya",
+            "feedback": "Correct. The speaker tag tells who spoke.",
+            "hint": "Look for the part outside the quotation marks that names the speaker."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Dialogue and Meaning",
+            "title": "True or False",
+            "prompt": "Quotation marks show the exact words a person says.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Quotation marks mark spoken words.",
+            "hint": "They show direct speech."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Dialogue and Meaning",
+            "title": "Mission Complete",
+            "prompt": "You practised punctuation and dialogue.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Punctuation, Dialogue, and Commas Quiz",
+        "questions": [
+          {
+            "section": "Commas",
+            "skill": "List",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses commas correctly?",
+            "choices": [
+              "The garden had beans, carrots, lettuce, and peas.",
+              "The garden had beans carrots, lettuce and, peas.",
+              "The garden, had beans carrots lettuce and peas."
+            ],
+            "correctAnswer": "The garden had beans, carrots, lettuce, and peas.",
+            "reviewNote": "Commas separate items in a list."
+          },
+          {
+            "section": "Commas",
+            "skill": "Introductory Phrase",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is correct?",
+            "choices": [
+              "Before dinner, we washed the vegetables.",
+              "Before, dinner we washed the vegetables.",
+              "Before dinner we, washed the vegetables."
+            ],
+            "correctAnswer": "Before dinner, we washed the vegetables.",
+            "reviewNote": "The comma follows the introductory phrase."
+          },
+          {
+            "section": "Commas",
+            "skill": "Compound Sentence",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is correctly punctuated?",
+            "choices": [
+              "The snow melted, and the path became muddy.",
+              "The snow melted and, the path became muddy.",
+              "The snow melted the path became muddy."
+            ],
+            "correctAnswer": "The snow melted, and the path became muddy.",
+            "reviewNote": "The comma and and join two complete ideas."
+          },
+          {
+            "section": "End Marks",
+            "skill": "Question Mark",
+            "type": "multipleChoice",
+            "prompt": "Which sentence needs a question mark?",
+            "choices": [
+              "How far is the museum",
+              "The museum is nearby",
+              "Walk to the museum"
+            ],
+            "correctAnswer": "How far is the museum",
+            "reviewNote": "It asks a question."
+          },
+          {
+            "section": "Dialogue",
+            "skill": "Quotation Marks",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is correct?",
+            "choices": [
+              "\"The bus is here,\" called Omar.",
+              "The bus is here,\" called Omar.",
+              "\"The bus is here, called Omar.\""
+            ],
+            "correctAnswer": "\"The bus is here,\" called Omar.",
+            "reviewNote": "The spoken words are inside quotation marks."
+          },
+          {
+            "section": "Dialogue",
+            "skill": "Question",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is correct?",
+            "choices": [
+              "\"May I borrow a ruler?\" asked Grace.",
+              "\"May I borrow a ruler\"? asked Grace.",
+              "May I borrow a ruler? \"asked Grace.\""
+            ],
+            "correctAnswer": "\"May I borrow a ruler?\" asked Grace.",
+            "reviewNote": "The question mark belongs inside the quotation marks."
+          },
+          {
+            "section": "Dialogue",
+            "skill": "True or False",
+            "type": "A speaker tag tells who said the words.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Speaker tags identify the speaker."
+          },
+          {
+            "section": "Dialogue",
+            "skill": "True or False",
+            "type": "Punctuation can change how clearly a sentence is understood.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Punctuation guides meaning."
+          }
+        ]
+      },
+      "teacherSummary": "Students practise punctuation choices that help readers understand pauses, lists, speech, and sentence boundaries."
+    },
+    {
+      "id": "grade-5-language-unit-2-editing-for-clarity",
+      "title": "Editing for Clarity and Style",
+      "type": "lesson",
+      "learningGoal": "Students will revise sentences to improve clarity, precision, grammar, and style.",
+      "successCriteria": [
+        "I can choose a clearer revision.",
+        "I can remove unnecessary repetition.",
+        "I can keep the meaning while improving grammar and word choice."
+      ],
+      "vocabulary": [
+        "revise",
+        "edit",
+        "clarity",
+        "style",
+        "word choice",
+        "repetition"
+      ],
+      "teacherOverview": "Students practise choosing revisions that improve clarity without changing the intended meaning.",
+      "lessonContent": [
+        "Revision improves ideas, order, and word choice.",
+        "Editing checks grammar, punctuation, capitalization, and spelling.",
+        "Good writers make sentences clearer, not just longer."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored check.",
+        "Review missed questions before assigning the next Language lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Clear Sentence Editor",
+        "description": "Choose revisions that make writing clearer and more precise.",
+        "levels": [
+          "Level 1: Improve Word Choice",
+          "Level 2: Revise for Clarity"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Editing for Clarity and Style Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Revision, editing, precision, repetition, and sentence clarity"
+      },
+      "assessmentPlan": "Use the activity for guided practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-24-language-unit-2",
+        "title": "Clear Sentence Editor",
+        "mission": "Choose revisions that make writing clearer and more precise.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Improve Word Choice",
+            "title": "Before You Begin",
+            "prompt": "Get ready: make writing clearer",
+            "text": "Editing is not only finding mistakes. Writers also revise sentences so the meaning is clearer, the words are more precise, and the sentence sounds smoother."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Improve Word Choice",
+            "title": "Precise Word",
+            "prompt": "Which revision is clearest? 'The animal moved across the yard.'",
+            "choices": [
+              "The squirrel scampered across the yard.",
+              "The thing went across the yard.",
+              "The animal did movement across the yard."
+            ],
+            "correctAnswer": "The squirrel scampered across the yard.",
+            "feedback": "Correct. Squirrel and scampered are more precise.",
+            "hint": "Choose specific nouns and verbs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Improve Word Choice",
+            "title": "Remove Repetition",
+            "prompt": "Which sentence avoids unnecessary repetition?",
+            "choices": [
+              "The bright lantern glowed beside the tent.",
+              "The bright lantern was bright beside the tent.",
+              "The lantern glowed with glowing light beside the tent."
+            ],
+            "correctAnswer": "The bright lantern glowed beside the tent.",
+            "feedback": "Yes. It is clear without repeating the same idea.",
+            "hint": "Avoid saying the same idea twice."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Improve Word Choice",
+            "title": "Tone",
+            "prompt": "Which sentence sounds most appropriate for a school report?",
+            "choices": [
+              "The experiment showed that salt dissolved faster in warm water.",
+              "The salt thing did stuff in the water.",
+              "Warm water was super awesome with salt."
+            ],
+            "correctAnswer": "The experiment showed that salt dissolved faster in warm water.",
+            "feedback": "Correct. It is clear and appropriate for a report.",
+            "hint": "A school report needs precise, respectful wording."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Improve Word Choice",
+            "title": "True or False",
+            "prompt": "Precise words can help readers picture the meaning more clearly.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Specific words help readers understand.",
+            "hint": "Precise writing reduces guessing."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Improve Word Choice",
+            "title": "Level 1 Complete",
+            "prompt": "You practised improving word choice.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Revise for Clarity",
+            "title": "Keep the Meaning",
+            "prompt": "Improve without changing the idea",
+            "text": "A good revision keeps the writer's intended meaning while making the sentence clearer. Watch for confusing pronouns, missing information, awkward order, and repeated words."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Revise for Clarity",
+            "title": "Clear Pronoun",
+            "prompt": "Which revision is clearest? 'Emma told Zoe she had won the contest.'",
+            "choices": [
+              "Emma told Zoe, \"You won the contest.\"",
+              "Emma told Zoe she had won.",
+              "She told her about the contest."
+            ],
+            "correctAnswer": "Emma told Zoe, \"You won the contest.\"",
+            "feedback": "Correct. This makes it clear that Zoe won.",
+            "hint": "The original pronoun she is unclear."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Revise for Clarity",
+            "title": "Awkward Order",
+            "prompt": "Which revision is clearest? 'With a cracked handle, Noah carried the mug carefully.'",
+            "choices": [
+              "Noah carefully carried the mug with a cracked handle.",
+              "With a cracked handle, carefully Noah carried.",
+              "The cracked handle carefully carried Noah's mug."
+            ],
+            "correctAnswer": "Noah carefully carried the mug with a cracked handle.",
+            "feedback": "Yes. The revision makes clear that the mug has the cracked handle.",
+            "hint": "Place describing words near what they describe."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Revise for Clarity",
+            "title": "Combine Ideas",
+            "prompt": "Which revision is smoothest? 'The room was cold. The window was open.'",
+            "choices": [
+              "The room was cold because the window was open.",
+              "The room was cold the window open.",
+              "The open room was window cold."
+            ],
+            "correctAnswer": "The room was cold because the window was open.",
+            "feedback": "Correct. It connects the reason clearly.",
+            "hint": "Use a joining word that shows the relationship."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Revise for Clarity",
+            "title": "True or False",
+            "prompt": "A revision should improve clarity while keeping the intended meaning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Revision should not accidentally change the idea.",
+            "hint": "Writers revise to make meaning clearer."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Revise for Clarity",
+            "title": "Mission Complete",
+            "prompt": "You practised editing for clarity and style.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Editing for Clarity and Style Quiz",
+        "questions": [
+          {
+            "section": "Editing",
+            "skill": "Word Choice",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses the most precise verb?",
+            "choices": [
+              "The eagle soared above the cliffs.",
+              "The eagle went above the cliffs.",
+              "The eagle did above the cliffs."
+            ],
+            "correctAnswer": "The eagle soared above the cliffs.",
+            "reviewNote": "Soared is precise."
+          },
+          {
+            "section": "Editing",
+            "skill": "Repetition",
+            "type": "multipleChoice",
+            "prompt": "Which sentence avoids unnecessary repetition?",
+            "choices": [
+              "The cold wind rattled the windows.",
+              "The cold wind was cold and windy.",
+              "The wind blew with windy wind."
+            ],
+            "correctAnswer": "The cold wind rattled the windows.",
+            "reviewNote": "It is clear without repeating ideas."
+          },
+          {
+            "section": "Editing",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which sentence best fits a science report?",
+            "choices": [
+              "The seed sprouted after six days.",
+              "The seed was doing its little thing.",
+              "The seed totally woke up."
+            ],
+            "correctAnswer": "The seed sprouted after six days.",
+            "reviewNote": "It is clear and appropriate for a report."
+          },
+          {
+            "section": "Editing",
+            "skill": "Pronoun Clarity",
+            "type": "multipleChoice",
+            "prompt": "Which revision is clearest? 'Mia gave Ava her notebook.'",
+            "choices": [
+              "Mia gave Ava Mia's notebook.",
+              "Mia gave Ava her notebook.",
+              "She gave her the notebook."
+            ],
+            "correctAnswer": "Mia gave Ava Mia's notebook.",
+            "reviewNote": "This makes the owner clear."
+          },
+          {
+            "section": "Editing",
+            "skill": "Awkward Order",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is clearest?",
+            "choices": [
+              "The student wearing a red scarf carried the books.",
+              "Wearing a red scarf, the books were carried by the student.",
+              "The books wearing a red scarf were carried."
+            ],
+            "correctAnswer": "The student wearing a red scarf carried the books.",
+            "reviewNote": "The description is placed clearly."
+          },
+          {
+            "section": "Editing",
+            "skill": "Combining",
+            "type": "multipleChoice",
+            "prompt": "Which revision connects the ideas best? 'The game was cancelled. The field was flooded.'",
+            "choices": [
+              "The game was cancelled because the field was flooded.",
+              "The game was cancelled the field was flooded.",
+              "The flooded game was field cancelled."
+            ],
+            "correctAnswer": "The game was cancelled because the field was flooded.",
+            "reviewNote": "Because shows the reason."
+          },
+          {
+            "section": "Editing",
+            "skill": "True or False",
+            "type": "Revision can improve word choice and sentence order.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Revision improves the writing."
+          },
+          {
+            "section": "Editing",
+            "skill": "True or False",
+            "type": "Editing should make a sentence confusing so readers have to work harder.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "False",
+            "correctAnswer": "Editing should make writing clearer."
+          }
+        ]
+      },
+      "teacherSummary": "Students practise choosing revisions that improve clarity without changing the intended meaning."
+    },
+    {
+      "id": "grade-5-language-unit-2-final-quiz",
+      "title": "Unit 2 Final Quiz",
+      "type": "unitTest",
+      "teacherOverview": "Use this quiz after students complete the vocabulary, grammar, punctuation, and sentence skills lessons.",
+      "teacherSummary": "The Unit 2 final quiz checks context clues, word parts, parts of speech, sentence structure, conjunctions, punctuation, dialogue, and editing choices.",
+      "quiz": {
+        "title": "Vocabulary, Grammar, and Sentence Skills Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Vocabulary",
+            "skill": "Context Clues",
+            "type": "multipleChoice",
+            "prompt": "The instructions were brief, only three short steps. What does brief mean?",
+            "choices": [
+              "short",
+              "confusing",
+              "colourful"
+            ],
+            "correctAnswer": "short",
+            "reviewNote": "Only three short steps gives the clue."
+          },
+          {
+            "section": "Part A: Vocabulary",
+            "skill": "Context Clues",
+            "type": "multipleChoice",
+            "prompt": "Unlike the crowded hallway, the office was spacious. What does spacious mean?",
+            "choices": [
+              "roomy",
+              "noisy",
+              "locked"
+            ],
+            "correctAnswer": "roomy",
+            "reviewNote": "Unlike crowded gives a contrast clue."
+          },
+          {
+            "section": "Part A: Vocabulary",
+            "skill": "Word Parts",
+            "type": "multipleChoice",
+            "prompt": "What does the prefix un- mean in unfamiliar?",
+            "choices": [
+              "not",
+              "again",
+              "before"
+            ],
+            "correctAnswer": "not",
+            "reviewNote": "Unfamiliar means not familiar."
+          },
+          {
+            "section": "Part A: Vocabulary",
+            "skill": "Word Parts",
+            "type": "multipleChoice",
+            "prompt": "Which word means without harm?",
+            "choices": [
+              "harmless",
+              "harmful",
+              "reharm"
+            ],
+            "correctAnswer": "harmless",
+            "reviewNote": "-less means without."
+          },
+          {
+            "section": "Part B: Grammar",
+            "skill": "Parts of Speech",
+            "type": "multipleChoice",
+            "prompt": "In 'The careful gardener watered the seedlings gently,' which word is an adverb?",
+            "choices": [
+              "gently",
+              "careful",
+              "gardener"
+            ],
+            "correctAnswer": "gently",
+            "reviewNote": "Gently tells how the gardener watered."
+          },
+          {
+            "section": "Part B: Grammar",
+            "skill": "Parts of Speech",
+            "type": "multipleChoice",
+            "prompt": "In 'The backpack is beside the desk,' which word is a preposition?",
+            "choices": [
+              "beside",
+              "backpack",
+              "desk"
+            ],
+            "correctAnswer": "beside",
+            "reviewNote": "Beside shows location."
+          },
+          {
+            "section": "Part B: Grammar",
+            "skill": "Pronouns",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is clearest?",
+            "choices": [
+              "After Liam helped Ethan, Liam packed his bag.",
+              "After Liam helped Ethan, he packed his bag.",
+              "After he helped him, his bag was packed."
+            ],
+            "correctAnswer": "After Liam helped Ethan, Liam packed his bag.",
+            "reviewNote": "Repeating Liam avoids pronoun confusion."
+          },
+          {
+            "section": "Part C: Sentences",
+            "skill": "Complete Sentence",
+            "type": "multipleChoice",
+            "prompt": "Which is a complete sentence?",
+            "choices": [
+              "The class measured the plant each Friday.",
+              "Measuring the plant each Friday.",
+              "Because the class measured."
+            ],
+            "correctAnswer": "The class measured the plant each Friday.",
+            "reviewNote": "It expresses a complete thought."
+          },
+          {
+            "section": "Part C: Sentences",
+            "skill": "Fragment",
+            "type": "multipleChoice",
+            "prompt": "Which is a fragment?",
+            "choices": [
+              "After the final whistle.",
+              "The players shook hands.",
+              "The coach smiled."
+            ],
+            "correctAnswer": "After the final whistle.",
+            "reviewNote": "It starts an idea but does not finish it."
+          },
+          {
+            "section": "Part C: Sentences",
+            "skill": "Run-On",
+            "type": "multipleChoice",
+            "prompt": "Which is a run-on?",
+            "choices": [
+              "The lights dimmed the play began.",
+              "The lights dimmed, and the play began.",
+              "When the lights dimmed, the play began."
+            ],
+            "correctAnswer": "The lights dimmed the play began.",
+            "reviewNote": "Two complete ideas are pushed together."
+          },
+          {
+            "section": "Part C: Sentences",
+            "skill": "Conjunction",
+            "type": "multipleChoice",
+            "prompt": "Which word best completes the sentence? 'The road was closed, ____ we took a different route.'",
+            "choices": [
+              "so",
+              "although",
+              "but"
+            ],
+            "correctAnswer": "so",
+            "reviewNote": "So shows the result."
+          },
+          {
+            "section": "Part C: Sentences",
+            "skill": "Conjunction",
+            "type": "multipleChoice",
+            "prompt": "Which word best completes the sentence? 'The work was challenging, ____ the group finished it carefully.'",
+            "choices": [
+              "but",
+              "because",
+              "so"
+            ],
+            "correctAnswer": "but",
+            "reviewNote": "But shows contrast."
+          },
+          {
+            "section": "Part D: Punctuation",
+            "skill": "Commas",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses commas correctly?",
+            "choices": [
+              "We need paper, markers, scissors, and glue.",
+              "We need paper markers, scissors and, glue.",
+              "We need, paper markers scissors and glue."
+            ],
+            "correctAnswer": "We need paper, markers, scissors, and glue.",
+            "reviewNote": "Commas separate list items."
+          },
+          {
+            "section": "Part D: Punctuation",
+            "skill": "Dialogue",
+            "type": "multipleChoice",
+            "prompt": "Which sentence punctuates dialogue correctly?",
+            "choices": [
+              "\"Please pass the ruler,\" said Ben.",
+              "Please pass the ruler,\" said Ben.",
+              "\"Please pass the ruler, said Ben.\""
+            ],
+            "correctAnswer": "\"Please pass the ruler,\" said Ben.",
+            "reviewNote": "The spoken words are in quotation marks."
+          },
+          {
+            "section": "Part D: Punctuation",
+            "skill": "Question Mark",
+            "type": "multipleChoice",
+            "prompt": "Which sentence needs a question mark?",
+            "choices": [
+              "Why did the magnet stick to the nail",
+              "The magnet stuck to the nail",
+              "Put the magnet beside the nail"
+            ],
+            "correctAnswer": "Why did the magnet stick to the nail",
+            "reviewNote": "It asks a question."
+          },
+          {
+            "section": "Part E: Editing",
+            "skill": "Word Choice",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses the most precise verb?",
+            "choices": [
+              "The fox crept through the grass.",
+              "The fox went through the grass.",
+              "The fox did through the grass."
+            ],
+            "correctAnswer": "The fox crept through the grass.",
+            "reviewNote": "Crept gives a clearer action."
+          },
+          {
+            "section": "Part E: Editing",
+            "skill": "Clarity",
+            "type": "multipleChoice",
+            "prompt": "Which revision is clearest? 'The backpack beside the lunch bag with the blue zipper is mine.'",
+            "choices": [
+              "The backpack with the blue zipper beside the lunch bag is mine.",
+              "Beside the lunch bag mine is the backpack zipper.",
+              "The lunch bag with mine is beside the blue backpack."
+            ],
+            "correctAnswer": "The backpack with the blue zipper beside the lunch bag is mine.",
+            "reviewNote": "The describing phrase is placed more clearly."
+          },
+          {
+            "section": "Part E: Editing",
+            "skill": "True or False",
+            "type": "Good editing should make writing clearer while keeping the intended meaning.",
+            "prompt": [
+              "True",
+              "False"
+            ],
+            "choices": "True",
+            "correctAnswer": "Editing should improve clarity without changing the idea."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Unit 2 mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
+    }
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The final unit quiz checks context clues, word parts, grammar, sentence structure, punctuation, dialogue, and editing."
+  }
+}
