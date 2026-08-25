@@ -593,7 +593,7 @@ function renderCurriculumUnit(libraryId, unitId, options = {}) {
 }
 
 function renderListItems(items, emptyText) {
-  if (!items || items.length === 0) {
+  if (!Array.isArray(items) || items.length === 0) {
     return `<p class="empty-note">${emptyText}</p>`;
   }
 
@@ -642,6 +642,24 @@ function renderPreviewErrorSection() {
       <p>The lesson preview is still available, but the student sharing controls did not finish loading. Refresh the page before sharing this item.</p>
     </div>
   `;
+}
+
+function renderPreviewFallbackSection(title, message) {
+  return `
+    <div class="preview-section">
+      <h3>${window.PracticeStar.escapeHtml(title)}</h3>
+      <p>${window.PracticeStar.escapeHtml(message)}</p>
+    </div>
+  `;
+}
+
+function safePreviewHtml(title, message, renderFn) {
+  try {
+    return renderFn() || "";
+  } catch (error) {
+    console.warn(`${title} preview render error:`, error);
+    return renderPreviewFallbackSection(title, message);
+  }
 }
 
 function renderShareControlsLoading() {
@@ -707,7 +725,8 @@ function renderSpellingStepPreview(step) {
 }
 
 function renderActivityStep(step, index) {
-  const choices = step.choices || [];
+  step = step || {};
+  const choices = Array.isArray(step.choices) ? step.choices : [];
   const rewardClass = step.kind === "reward" ? " reward-step" : "";
   const spellingClass = step.kind === "spelling" ? " spelling-step" : "";
   return `
@@ -729,8 +748,9 @@ function renderActivityStep(step, index) {
 }
 
 function groupActivityLevels(steps = []) {
+  const safeSteps = Array.isArray(steps) ? steps : [];
   const levels = [];
-  steps.forEach((step) => {
+  safeSteps.forEach((step) => {
     const name = step.level || "Learning Mission";
     let level = levels.find((item) => item.name === name);
     if (!level) {
@@ -743,18 +763,19 @@ function groupActivityLevels(steps = []) {
 }
 
 function renderActivityLevel(level, index) {
-  const scoredCount = level.steps.filter(isScoredActivityStep).length;
+  const steps = Array.isArray(level.steps) ? level.steps : [];
+  const scoredCount = steps.filter(isScoredActivityStep).length;
   return `
     <article class="activity-level-preview">
       <div class="activity-level-heading">
         <span class="stage-pill">Level ${index + 1}</span>
         <div>
           <h4>${window.PracticeStar.escapeHtml(level.name)}</h4>
-          <p class="hint">${scoredCount || level.steps.length} practice step${(scoredCount || level.steps.length) === 1 ? "" : "s"} in this level</p>
+          <p class="hint">${scoredCount || steps.length} practice step${(scoredCount || steps.length) === 1 ? "" : "s"} in this level</p>
         </div>
       </div>
       <div class="activity-step-grid">
-        ${level.steps.map(renderActivityStep).join("")}
+        ${steps.map(renderActivityStep).join("")}
       </div>
     </article>
   `;
@@ -765,8 +786,9 @@ function renderStudentActivity(activity) {
     return `<p>Student activity content will be added later.</p>`;
   }
 
-  const levels = groupActivityLevels(activity.steps || []);
-  const questionCount = (activity.steps || []).filter(isScoredActivityStep).length;
+  const steps = Array.isArray(activity.steps) ? activity.steps : [];
+  const levels = groupActivityLevels(steps);
+  const questionCount = steps.filter(isScoredActivityStep).length;
   return `
     <div class="student-activity-hero">
       <div>
@@ -790,12 +812,13 @@ function renderStudentActivity(activity) {
 }
 
 function renderLessonQuiz(quiz) {
-  if (!quiz?.questions?.length) {
+  const questions = Array.isArray(quiz?.questions) ? quiz.questions : [];
+  if (!questions.length) {
     return `<p>Quiz content will be added later.</p>`;
   }
 
   const quizLabel = quiz.type === "unitTest" ? "unit quiz" : "lesson quiz";
-  const sections = quiz.questions.reduce((allSections, question, index) => {
+  const sections = questions.reduce((allSections, question, index) => {
     const sectionName = question.section || "Final Quiz";
     let section = allSections.find((item) => item.name === sectionName);
     if (!section) {
@@ -808,7 +831,7 @@ function renderLessonQuiz(quiz) {
 
   return `
     <h4>${window.PracticeStar.escapeHtml(quiz.title || "Lesson Quiz")}</h4>
-    <p class="hint">${quiz.questions.length} questions - ${quizLabel}</p>
+    <p class="hint">${questions.length} questions - ${quizLabel}</p>
     <details class="preview-details">
       <summary>Show quiz questions and answers</summary>
       <div class="lesson-quiz-list">
@@ -894,24 +917,40 @@ function renderCurriculumPreviewBody({
   quizAudienceHtml = "",
   sharingNotice = ""
 }) {
+  const safeLessonContentSection = safePreviewHtml(
+    "Lesson Content",
+    "Lesson content could not be displayed yet.",
+    () => lessonContentSection || renderLessonContentSection(lesson)
+  );
+  const safeStudentActivity = () => safePreviewHtml(
+    "Student Activity",
+    "The student activity could not be displayed yet.",
+    () => renderStudentActivity(lesson.studentActivity)
+  );
+  const safeLessonQuiz = () => safePreviewHtml(
+    lesson.type === "unitTest" ? "Unit Quiz" : "Lesson Quiz",
+    "The quiz preview could not be displayed yet.",
+    () => renderLessonQuiz(lesson.quiz)
+  );
+
   if (library.status === "shell") {
     if (lesson.status === "model" && (lesson.studentActivity || lesson.quiz?.questions?.length)) {
       const activitySection = lesson.studentActivity ? `
         <div class="preview-section student-preview-section">
           <h3>Ready-to-Share Student Activity</h3>
           ${activityAudienceHtml}
-          ${renderStudentActivity(lesson.studentActivity)}
+          ${safeStudentActivity()}
         </div>
       ` : "";
       const quizSection = lesson.quiz?.questions?.length ? `
         <div class="preview-section">
           <h3>${lesson.type === "unitTest" ? "Ready-to-Share Unit Quiz" : "Ready-to-Share Lesson Quiz"}</h3>
           ${quizAudienceHtml}
-          ${renderLessonQuiz(lesson.quiz)}
+          ${safeLessonQuiz()}
         </div>
       ` : "";
       return `
-        ${lessonContentSection}
+        ${safeLessonContentSection}
         ${sharingNotice}
         ${activitySection}
         ${quizSection}
@@ -919,7 +958,7 @@ function renderCurriculumPreviewBody({
     }
 
     return `
-      ${lessonContentSection}
+      ${safeLessonContentSection}
       ${sharingNotice}
       <div class="preview-section">
         <h3>Planned ${window.PracticeStar.escapeHtml(library.subject)} Item</h3>
@@ -940,12 +979,12 @@ function renderCurriculumPreviewBody({
 
   if (lesson.type === "unitTest") {
     return `
-      ${lessonContentSection}
+      ${safeLessonContentSection}
       ${sharingNotice}
       <div class="preview-section">
         <h3>Unit Quiz</h3>
         ${quizAudienceHtml}
-        ${renderLessonQuiz(lesson.quiz)}
+        ${safeLessonQuiz()}
       </div>
       <div class="preview-section">
         <h3>Teacher Summary</h3>
@@ -955,17 +994,17 @@ function renderCurriculumPreviewBody({
   }
 
   return `
-    ${lessonContentSection}
+    ${safeLessonContentSection}
     ${sharingNotice}
     <div class="preview-section student-preview-section">
       <h3>Ready-to-Share Student Activity</h3>
       ${activityAudienceHtml}
-      ${renderStudentActivity(lesson.studentActivity)}
+      ${safeStudentActivity()}
     </div>
     <div class="preview-section">
       <h3>Ready-to-Share Lesson Quiz</h3>
       ${quizAudienceHtml}
-      ${renderLessonQuiz(lesson.quiz)}
+      ${safeLessonQuiz()}
     </div>
     <div class="preview-section">
       <h3>Teacher Summary</h3>
@@ -993,13 +1032,17 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
   const lessonContentSection = renderLessonContentSection(lesson);
   const loadingAudienceHtml = renderShareControlsLoading();
-  curriculumPreviewContent.innerHTML = renderCurriculumPreviewBody({
-    library,
-    lesson,
-    lessonContentSection,
-    activityAudienceHtml: loadingAudienceHtml,
-    quizAudienceHtml: loadingAudienceHtml
-  });
+  curriculumPreviewContent.innerHTML = safePreviewHtml(
+    "Lesson Preview",
+    "The lesson preview did not finish loading. Try refreshing the page.",
+    () => renderCurriculumPreviewBody({
+      library,
+      lesson,
+      lessonContentSection,
+      activityAudienceHtml: loadingAudienceHtml,
+      quizAudienceHtml: loadingAudienceHtml
+    })
+  );
 
   const teacher = currentTeacher();
   const activityId = lesson.id;
@@ -1074,14 +1117,18 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
     ? renderShareControlsWarning(`${sharingWarning} You can still preview the lesson, but refresh before sharing.`)
     : "";
 
-  curriculumPreviewContent.innerHTML = renderCurriculumPreviewBody({
-    library,
-    lesson,
-    lessonContentSection,
-    activityAudienceHtml: audienceControls({ ...visibleActivityAssignment, id: activityId, itemType: "activity" }, "activity"),
-    quizAudienceHtml: audienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, "finalQuiz"),
-    sharingNotice
-  });
+  curriculumPreviewContent.innerHTML = safePreviewHtml(
+    "Lesson Preview",
+    "The lesson preview did not finish loading. Try refreshing the page.",
+    () => renderCurriculumPreviewBody({
+      library,
+      lesson,
+      lessonContentSection,
+      activityAudienceHtml: audienceControls({ ...visibleActivityAssignment, id: activityId, itemType: "activity" }, "activity"),
+      quizAudienceHtml: audienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, "finalQuiz"),
+      sharingNotice
+    })
+  );
 
   if (!sharingEnabled) {
     return;
