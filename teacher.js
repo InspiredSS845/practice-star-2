@@ -600,6 +600,50 @@ function renderListItems(items, emptyText) {
   return `<ul>${items.map((item) => `<li>${window.PracticeStar.escapeHtml(item)}</li>`).join("")}</ul>`;
 }
 
+function renderLessonContentSection(lesson) {
+  const lessonContent = Array.isArray(lesson.lessonContent) ? lesson.lessonContent : [];
+  const successCriteria = Array.isArray(lesson.successCriteria) ? lesson.successCriteria : [];
+  const vocabulary = Array.isArray(lesson.vocabulary) ? lesson.vocabulary : [];
+
+  if (!lessonContent.length && !successCriteria.length && !vocabulary.length && !lesson.learningGoal) {
+    return "";
+  }
+
+  return `
+    <div class="preview-section">
+      <h3>Lesson Content</h3>
+      ${lesson.learningGoal ? `<p><strong>Learning goal:</strong> ${window.PracticeStar.escapeHtml(lesson.learningGoal)}</p>` : ""}
+      ${lessonContent.length ? `
+        <h4>What students learn</h4>
+        ${renderListItems(lessonContent, "Lesson content will be added later.")}
+      ` : ""}
+      ${successCriteria.length ? `
+        <h4>Success criteria</h4>
+        ${renderListItems(successCriteria, "Success criteria will be added later.")}
+      ` : ""}
+      ${vocabulary.length ? `<p><strong>Vocabulary:</strong> ${vocabulary.map((word) => window.PracticeStar.escapeHtml(word)).join(", ")}</p>` : ""}
+    </div>
+  `;
+}
+
+function renderPreviewLoadingSection() {
+  return `
+    <div class="preview-section">
+      <h3>Loading Share Tools</h3>
+      <p class="hint">Practice Star is loading the student sharing controls.</p>
+    </div>
+  `;
+}
+
+function renderPreviewErrorSection() {
+  return `
+    <div class="preview-section">
+      <h3>Sharing Tools Could Not Load</h3>
+      <p>The lesson content is available above, but the sharing controls did not finish loading. Refresh the page and try Preview again.</p>
+    </div>
+  `;
+}
+
 function chartValue(value) {
   if (value === "" || value === null || value === undefined) {
     return "__";
@@ -824,26 +868,6 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
   }
 
   const lessonType = lesson.type === "unitTest" ? "Unit Quiz" : lesson.type === "review" ? "Review" : "Lesson";
-  const teacher = currentTeacher();
-  const students = await window.PracticeStar.studentsForTeacher(teacher.id);
-  await window.PracticeStar.syncContentAssignmentsForTeacher(teacher.id);
-  const activityId = lesson.id;
-  const legacyActivityId = `${lesson.id}:activity`;
-  const quizId = `${lesson.id}:final-quiz`;
-  let activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
-  let legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
-  if (!hasSavedAudienceSettings(activityAssignment) && hasSavedAudienceSettings(legacyActivityAssignment)) {
-    await window.PracticeStar.setContentAssignment(
-      teacher.id,
-      activityId,
-      "activity",
-      audienceSettingsFromAssignment(legacyActivityAssignment)
-    );
-    activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
-    legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
-  }
-  const visibleActivityAssignment = activityAssignment;
-  const quizAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, quizId, "finalQuiz");
   activeCurriculumUnitId = unit.id;
   activeCurriculumLibraryId = library.id;
   activeCurriculumLessonId = lesson.id;
@@ -852,6 +876,42 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
   showCurriculumView("preview", { persist });
   curriculumPreviewTitle.textContent = lesson.title;
   curriculumPreviewMeta.textContent = `${library.subject} - Grade ${library.grade} - ${unit.title} - ${lessonType}`;
+  const lessonContentSection = renderLessonContentSection(lesson);
+  curriculumPreviewContent.innerHTML = `
+    ${lessonContentSection}
+    ${renderPreviewLoadingSection()}
+  `;
+
+  try {
+    const teacher = currentTeacher();
+    if (!teacher?.id) {
+      curriculumPreviewContent.innerHTML = `
+        ${lessonContentSection}
+        ${renderPreviewErrorSection()}
+      `;
+      return;
+    }
+
+    const students = await window.PracticeStar.studentsForTeacher(teacher.id);
+    await window.PracticeStar.syncContentAssignmentsForTeacher(teacher.id);
+    const activityId = lesson.id;
+    const legacyActivityId = `${lesson.id}:activity`;
+    const quizId = `${lesson.id}:final-quiz`;
+    let activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
+    let legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
+    if (!hasSavedAudienceSettings(activityAssignment) && hasSavedAudienceSettings(legacyActivityAssignment)) {
+      await window.PracticeStar.setContentAssignment(
+        teacher.id,
+        activityId,
+        "activity",
+        audienceSettingsFromAssignment(legacyActivityAssignment)
+      );
+      activityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, activityId, "activity");
+      legacyActivityAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, legacyActivityId, "activity");
+    }
+    const visibleActivityAssignment = activityAssignment;
+    const quizAssignment = window.PracticeStar.contentAssignmentForTeacher(teacher.id, quizId, "finalQuiz");
+
   if (library.status === "shell") {
     if (lesson.status === "model" && (lesson.studentActivity || lesson.quiz?.questions?.length)) {
       const activitySection = lesson.studentActivity ? `
@@ -869,6 +929,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
         </div>
       ` : "";
       curriculumPreviewContent.innerHTML = `
+        ${lessonContentSection}
         ${activitySection}
         ${quizSection}
       `;
@@ -887,6 +948,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
       });
     } else {
       curriculumPreviewContent.innerHTML = `
+        ${lessonContentSection}
         <div class="preview-section">
           <h3>Planned ${window.PracticeStar.escapeHtml(library.subject)} Item</h3>
           <p>${window.PracticeStar.escapeHtml(lesson.teacherOverview || "This planned item will be expanded into a teacher-previewed activity.")}</p>
@@ -908,6 +970,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
 
   if (lesson.type === "unitTest") {
     curriculumPreviewContent.innerHTML = `
+      ${lessonContentSection}
       <div class="preview-section">
         <h3>Unit Quiz</h3>
         ${renderAudienceControls({ ...quizAssignment, id: quizId, itemType: "finalQuiz" }, students, "finalQuiz")}
@@ -920,6 +983,7 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
     `;
   } else {
     curriculumPreviewContent.innerHTML = `
+      ${lessonContentSection}
       <div class="preview-section student-preview-section">
         <h3>Ready-to-Share Student Activity</h3>
         ${renderAudienceControls({ ...visibleActivityAssignment, id: activityId, itemType: "activity" }, students, "activity")}
@@ -950,6 +1014,13 @@ async function renderCurriculumLessonPreview(libraryId, unitId, lessonId, option
     }
     await renderCurriculumLessonPreview(libraryId, unitId, lessonId);
   });
+  } catch (error) {
+    console.warn("Curriculum preview render error:", error);
+    curriculumPreviewContent.innerHTML = `
+      ${lessonContentSection}
+      ${renderPreviewErrorSection()}
+    `;
+  }
 }
 
 function getBrowserLearningCheckpoints() {
