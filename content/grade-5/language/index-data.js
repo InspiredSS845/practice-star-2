@@ -29,6 +29,14 @@ window.PracticeStarContent.grade5Language = {
       "unitGoal": "Students will read, listen to, and view texts carefully, identify main ideas and details, make inferences, compare texts, and explain their thinking with evidence.",
       "file": "units/unit-3-reading-for-meaning.json",
       "dataFile": "unit-data/unit-3-reading-for-meaning.js"
+    },
+    {
+      "id": "grade-5-language-unit-4",
+      "title": "Writing Forms and Research",
+      "strand": "Composition: Expressing Ideas and Creating Texts",
+      "unitGoal": "Students will plan, draft, revise, edit, and publish writing for different purposes, including narrative, opinion, informational, and research-based writing.",
+      "file": "units/unit-4-writing-forms-and-research.json",
+      "dataFile": "unit-data/unit-4-writing-forms-and-research.js"
     }
   ],
   "units": []

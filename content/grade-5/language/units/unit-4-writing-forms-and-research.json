@@ -1,0 +1,2785 @@
+{
+  "id": "grade-5-language-unit-4",
+  "title": "Writing Forms and Research",
+  "strand": "Composition: Expressing Ideas and Creating Texts",
+  "unitGoal": "Students will plan, draft, revise, edit, and publish writing for different purposes, including narrative, opinion, informational, and research-based writing.",
+  "lessons": [
+    {
+      "id": "grade-5-language-unit-4-planning-before-writing",
+      "title": "Planning Before Writing",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose a purpose, audience, and useful plan before drafting.",
+      "successCriteria": [
+        "I can identify the purpose of a writing task.",
+        "I can choose details that fit my audience.",
+        "I can select a plan that will help my draft stay organized."
+      ],
+      "vocabulary": [
+        "purpose",
+        "audience",
+        "topic",
+        "plan",
+        "draft"
+      ],
+      "teacherOverview": "Students practise making strong planning choices before beginning a draft.",
+      "teacherSummary": "Students practise making strong planning choices before beginning a draft.",
+      "lessonContent": [
+        "Good writing usually starts with a plan.",
+        "Purpose means why the piece is being written.",
+        "Audience means who will read, hear, or view the piece.",
+        "A plan helps the writer choose details before drafting.",
+        "Different writing forms need different kinds of planning."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Writing Plan Builder",
+        "description": "Choose purposes, audiences, and plans that fit different writing tasks.",
+        "levels": [
+          "Level 1: Purpose and Audience",
+          "Level 2: Choose Useful Plans"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Planning Before Writing Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Purpose, audience, topic, planning details, and draft preparation"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Writing Plan Builder",
+        "mission": "Choose purposes, audiences, and plans that fit different writing tasks.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Purpose and Audience",
+            "title": "Before You Begin",
+            "prompt": "Get ready: know why and for whom",
+            "text": "Before writing, ask two questions: Why am I writing this? Who will read it? A letter to a friend, a report for science, and an opinion paragraph for class all need different choices."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Purpose and Audience",
+            "title": "Purpose Guides Choices",
+            "prompt": "Match details to the job",
+            "text": "If the purpose is to explain, choose clear facts and examples. If the purpose is to persuade, choose reasons and evidence. If the purpose is to tell a story, choose events, characters, and setting details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Purpose and Audience",
+            "title": "Purpose",
+            "prompt": "A student is writing to convince the principal to add more outdoor reading time. What is the purpose?",
+            "choices": [
+              "to persuade with reasons",
+              "to explain what outdoor reading would look like",
+              "to describe a favourite outdoor reading memory"
+            ],
+            "correctAnswer": "to persuade with reasons",
+            "feedback": "Correct. The student wants to convince someone.",
+            "hint": "Ask what the writer wants the reader to think or do."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Purpose and Audience",
+            "title": "Audience",
+            "prompt": "A class will read your instructions for caring for the class plant. Which detail best fits the audience?",
+            "choices": [
+              "where to place the plant and how often to water it",
+              "why plants need sunlight and water to grow",
+              "what the plant looked like when it first arrived"
+            ],
+            "correctAnswer": "where to place the plant and how often to water it",
+            "feedback": "Yes. The class needs useful directions.",
+            "hint": "Think about what the readers need."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Purpose and Audience",
+            "title": "Best Topic",
+            "prompt": "Which topic is narrow enough for a one-page report?",
+            "choices": [
+              "how honeybees help apple trees",
+              "how insects help farms",
+              "why fruit trees are useful"
+            ],
+            "correctAnswer": "how honeybees help apple trees",
+            "feedback": "Correct. It is focused enough for a short report.",
+            "hint": "A narrower topic is easier to explain well."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Purpose and Audience",
+            "title": "True or False",
+            "prompt": "The audience can affect which details a writer should include.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Writers choose details for readers.",
+            "hint": "Audience matters before drafting."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Purpose and Audience",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing purpose, audience, and topic.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose Useful Plans",
+            "title": "Choose the Right Plan",
+            "prompt": "Plans should fit the writing form",
+            "text": "A story plan may use beginning, middle, and end. An opinion plan may use claim, reasons, and evidence. A report plan may use headings or categories."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Useful Plans",
+            "title": "Narrative Plan",
+            "prompt": "Which plan best fits a short story about a lost notebook?",
+            "choices": [
+              "setting, problem, events, solution",
+              "claim, reason, evidence, closing",
+              "heading, definition, diagram, glossary"
+            ],
+            "correctAnswer": "setting, problem, events, solution",
+            "feedback": "Correct. Stories need events and a solution.",
+            "hint": "Look for story parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Useful Plans",
+            "title": "Opinion Plan",
+            "prompt": "Which plan best fits an opinion paragraph?",
+            "choices": [
+              "opinion, reason, evidence, closing sentence",
+              "characters, setting, problem, solution",
+              "materials, steps, safety warning, result"
+            ],
+            "correctAnswer": "opinion, reason, evidence, closing sentence",
+            "feedback": "Yes. Opinion writing needs a clear view and support.",
+            "hint": "Look for claim and reasons."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Useful Plans",
+            "title": "Planning Details",
+            "prompt": "A report about the water cycle needs clear sections. Which plan would help most?",
+            "choices": [
+              "evaporation, condensation, precipitation, collection",
+              "rainy weather, snowy weather, sunny weather, windy weather",
+              "spring changes, summer activities, fall colours, winter storms"
+            ],
+            "correctAnswer": "evaporation, condensation, precipitation, collection",
+            "feedback": "Correct. The sections match the topic.",
+            "hint": "Use categories that organize the information."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Useful Plans",
+            "title": "True or False",
+            "prompt": "A plan should help the writer decide what belongs before writing the draft.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Planning helps before drafting.",
+            "hint": "A plan is a guide."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose Useful Plans",
+            "title": "Mission Complete",
+            "prompt": "You practised choosing useful writing plans.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Planning Before Writing Quiz",
+        "questions": [
+          {
+            "section": "Planning",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A student writes a paragraph giving reasons why the class should visit a pioneer village. What is the purpose?",
+            "choices": [
+              "to persuade",
+              "to retell a dream",
+              "to define every history word"
+            ],
+            "correctAnswer": "to persuade",
+            "reviewNote": "Reasons are used to convince."
+          },
+          {
+            "section": "Planning",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "You are writing directions for younger students. Which choice best fits the audience?",
+            "choices": [
+              "short steps with clear action words",
+              "detailed paragraphs with extra background information",
+              "directions written for adults with few examples"
+            ],
+            "correctAnswer": "short steps with clear action words",
+            "reviewNote": "Younger readers need clear steps."
+          },
+          {
+            "section": "Planning",
+            "skill": "Narrow Topic",
+            "type": "multipleChoice",
+            "prompt": "Which topic is best for a short report?",
+            "choices": [
+              "how maple syrup is made",
+              "how sweet foods are made in Canada",
+              "why maple trees are important"
+            ],
+            "correctAnswer": "how maple syrup is made",
+            "reviewNote": "It is focused enough."
+          },
+          {
+            "section": "Planning",
+            "skill": "Story Plan",
+            "type": "multipleChoice",
+            "prompt": "Which plan fits a narrative?",
+            "choices": [
+              "character, setting, problem, solution",
+              "claim, reason, evidence, conclusion",
+              "topic, subheading, fact, source"
+            ],
+            "correctAnswer": "character, setting, problem, solution",
+            "reviewNote": "Narratives need story elements."
+          },
+          {
+            "section": "Planning",
+            "skill": "Opinion Plan",
+            "type": "multipleChoice",
+            "prompt": "Which belongs in an opinion plan?",
+            "choices": [
+              "a clear claim and supporting reasons",
+              "a list of events that happened in order",
+              "a topic with headings and facts"
+            ],
+            "correctAnswer": "a clear claim and supporting reasons",
+            "reviewNote": "Opinion writing needs support."
+          },
+          {
+            "section": "Planning",
+            "skill": "Report Plan",
+            "type": "multipleChoice",
+            "prompt": "Which plan best organizes a report about an animal?",
+            "choices": [
+              "habitat, diet, life cycle, helpful features",
+              "problem, suspense, surprise ending, dialogue",
+              "favourite animal, funny story, personal memory"
+            ],
+            "correctAnswer": "habitat, diet, life cycle, helpful features",
+            "reviewNote": "Those categories organize information."
+          },
+          {
+            "section": "Planning",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A writer should think about purpose before choosing details.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Purpose guides details."
+          },
+          {
+            "section": "Planning",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Every writing task needs exactly the same plan.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Different forms need different plans."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-narrative-writing",
+      "title": "Narrative Writing",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify and build narrative parts that make a story clear and interesting.",
+      "successCriteria": [
+        "I can identify character, setting, problem, events, and solution.",
+        "I can choose details that help readers picture a story.",
+        "I can tell whether events follow a clear order."
+      ],
+      "vocabulary": [
+        "narrative",
+        "character",
+        "setting",
+        "problem",
+        "solution"
+      ],
+      "teacherOverview": "Students practise the choices that make a narrative organized and meaningful.",
+      "teacherSummary": "Students practise the choices that make a narrative organized and meaningful.",
+      "lessonContent": [
+        "Narrative writing tells a story.",
+        "A story usually includes characters, setting, a problem, events, and a solution.",
+        "Events should be in an order that readers can follow.",
+        "Dialogue and description can help readers understand characters.",
+        "A strong ending shows how the problem is solved or what the character learns."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Story Builder Mission",
+        "description": "Choose story details that help a narrative make sense.",
+        "levels": [
+          "Level 1: Story Parts",
+          "Level 2: Events and Endings"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Narrative Writing Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Story elements, event order, description, dialogue, and endings"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Story Builder Mission",
+        "mission": "Choose story details that help a narrative make sense.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Story Parts",
+            "title": "Before You Begin",
+            "prompt": "Get ready: stories need shape",
+            "text": "Narrative writing tells what happened. A clear story gives readers enough information to understand who is involved, where it happens, what problem matters, and how events change."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Story Parts",
+            "title": "Use Details With Purpose",
+            "prompt": "Description should help the story",
+            "text": "Not every detail belongs in a story. Useful details help readers picture the setting, understand a character, or follow the problem and solution."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Story Parts",
+            "title": "Story Problem",
+            "prompt": "Which sentence gives the clearest story problem?",
+            "choices": [
+              "Ava reached the bus stop and realized her permission form was still on the kitchen table.",
+              "Ava wondered whether the permission form would be checked.",
+              "Ava packed her snack and waited with the other students."
+            ],
+            "correctAnswer": "Ava reached the bus stop and realized her permission form was still on the kitchen table.",
+            "feedback": "Correct. The missing form creates a problem.",
+            "hint": "A problem gets in the way."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Story Parts",
+            "title": "Setting Detail",
+            "prompt": "Which detail best helps readers picture the setting?",
+            "choices": [
+              "Frost sparkled on the schoolyard fence before the morning bell.",
+              "Mason had a notebook in his desk.",
+              "The class would begin soon."
+            ],
+            "correctAnswer": "Frost sparkled on the schoolyard fence before the morning bell.",
+            "feedback": "Yes. It gives place, time, and sensory detail.",
+            "hint": "Look for where, when, or what can be sensed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Story Parts",
+            "title": "Character Action",
+            "prompt": "Which detail best shows that a character is nervous?",
+            "choices": [
+              "He tapped his speech cards and read the first line again.",
+              "He stood beside the classroom door.",
+              "He had practised the speech yesterday."
+            ],
+            "correctAnswer": "He tapped his speech cards and read the first line again.",
+            "feedback": "Correct. The action suggests nervousness.",
+            "hint": "Actions can show feelings."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Story Parts",
+            "title": "True or False",
+            "prompt": "Narrative details should help readers understand the story, not just fill space.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Details need a purpose.",
+            "hint": "Good details do work."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Story Parts",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing useful story parts.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Events and Endings",
+            "title": "Put Events in Order",
+            "prompt": "Cause and effect matter",
+            "text": "Story events should usually connect. If one event causes another, readers can follow why the story changes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Events and Endings",
+            "title": "Event Order",
+            "prompt": "Which order makes the most sense?",
+            "choices": [
+              "The dog slipped out, the family searched the yard, then they found him by the shed.",
+              "The family found paw prints, then the dog slipped out, then they closed the gate.",
+              "The family searched the yard before noticing that the gate was open."
+            ],
+            "correctAnswer": "The dog slipped out, the family searched the yard, then they found him by the shed.",
+            "feedback": "Correct. The order follows the problem and solution.",
+            "hint": "Follow cause and effect."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Events and Endings",
+            "title": "Dialogue",
+            "prompt": "Which line of dialogue best moves the story forward?",
+            "choices": [
+              "\"I found the map under the bench,\" said Luca.",
+              "\"I think the trail may be near the river,\" said Luca.",
+              "\"We should wait here until we know more,\" said Luca."
+            ],
+            "correctAnswer": "\"I found the map under the bench,\" said Luca.",
+            "feedback": "Yes. It gives new information for the plot.",
+            "hint": "Choose dialogue that changes what happens next."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Events and Endings",
+            "title": "Ending",
+            "prompt": "Which ending best fits a story about a student learning to ask for help?",
+            "choices": [
+              "Mira thanked her group and admitted the project improved when everyone shared ideas.",
+              "Mira finished the poster but did not tell the group what she learned.",
+              "Mira decided the project was finished because the poster looked neat."
+            ],
+            "correctAnswer": "Mira thanked her group and admitted the project improved when everyone shared ideas.",
+            "feedback": "Correct. It connects to the lesson learned.",
+            "hint": "The ending should fit the story problem."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Events and Endings",
+            "title": "True or False",
+            "prompt": "A narrative ending should connect to the main problem or change in the story.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Endings should feel connected.",
+            "hint": "A strong ending belongs to the story."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Events and Endings",
+            "title": "Mission Complete",
+            "prompt": "You practised building narrative events and endings.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Narrative Writing Quiz",
+        "questions": [
+          {
+            "section": "Narrative",
+            "skill": "Problem",
+            "type": "multipleChoice",
+            "prompt": "Which sentence gives the clearest narrative problem?",
+            "choices": [
+              "The class pet escaped while the students cleaned its cage.",
+              "The class pet kept hiding whenever students opened the cage.",
+              "The students wanted to clean the cage before the bell."
+            ],
+            "correctAnswer": "The class pet escaped while the students cleaned its cage.",
+            "reviewNote": "The escape creates a problem."
+          },
+          {
+            "section": "Narrative",
+            "skill": "Setting",
+            "type": "multipleChoice",
+            "prompt": "Which detail best builds setting?",
+            "choices": [
+              "Rain tapped on the tent while the campers zipped their sleeping bags.",
+              "The campers had a plan.",
+              "The tent was useful."
+            ],
+            "correctAnswer": "Rain tapped on the tent while the campers zipped their sleeping bags.",
+            "reviewNote": "It gives sensory place details."
+          },
+          {
+            "section": "Narrative",
+            "skill": "Trait",
+            "type": "multipleChoice",
+            "prompt": "Which detail best shows patience?",
+            "choices": [
+              "Noah tried three careful knots before asking his grandfather to check the rope.",
+              "Noah held the rope in both hands.",
+              "Noah knew the rope was important."
+            ],
+            "correctAnswer": "Noah tried three careful knots before asking his grandfather to check the rope.",
+            "reviewNote": "His repeated careful effort shows patience."
+          },
+          {
+            "section": "Narrative",
+            "skill": "Event Order",
+            "type": "multipleChoice",
+            "prompt": "Which sequence is clearest?",
+            "choices": [
+              "The power went out, Jana found a flashlight, then she helped her brother finish reading.",
+              "Jana helped her brother finish reading, the power went out, then she found a flashlight.",
+              "The flashlight worked after the reading was finished before the power went out."
+            ],
+            "correctAnswer": "The power went out, Jana found a flashlight, then she helped her brother finish reading.",
+            "reviewNote": "The order follows cause and effect."
+          },
+          {
+            "section": "Narrative",
+            "skill": "Dialogue",
+            "type": "multipleChoice",
+            "prompt": "Which dialogue best moves a story forward?",
+            "choices": [
+              "\"The bridge is closed, so we need another path,\" said Priya.",
+              "\"The bridge has railings,\" said Priya.",
+              "\"I have seen bridges before,\" said Priya."
+            ],
+            "correctAnswer": "\"The bridge is closed, so we need another path,\" said Priya.",
+            "reviewNote": "It creates a next action."
+          },
+          {
+            "section": "Narrative",
+            "skill": "Ending",
+            "type": "multipleChoice",
+            "prompt": "Which ending best fits a story about a boy learning responsibility?",
+            "choices": [
+              "Evan returned the borrowed tools clean and on time.",
+              "Evan promised to organize the tools later in the week.",
+              "Evan explained that he had planned to return the tools soon."
+            ],
+            "correctAnswer": "Evan returned the borrowed tools clean and on time.",
+            "reviewNote": "It shows responsible action."
+          },
+          {
+            "section": "Narrative",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A narrative usually needs events that readers can follow in order.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Order helps readers follow the story."
+          },
+          {
+            "section": "Narrative",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Every detail in a story should be unrelated to the characters or problem.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Useful details connect to the story."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-opinion-writing",
+      "title": "Opinion Writing",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify claims, reasons, evidence, and fair conclusions in opinion writing.",
+      "successCriteria": [
+        "I can identify a clear opinion or claim.",
+        "I can choose reasons and evidence that support the claim.",
+        "I can avoid overclaiming or using weak support."
+      ],
+      "vocabulary": [
+        "opinion",
+        "claim",
+        "reason",
+        "evidence",
+        "conclusion"
+      ],
+      "teacherOverview": "Students practise supporting an opinion with reasons and evidence rather than simply stating a preference.",
+      "teacherSummary": "Students practise supporting an opinion with reasons and evidence rather than simply stating a preference.",
+      "lessonContent": [
+        "Opinion writing explains what a writer thinks and why.",
+        "A claim is the main opinion the writer wants to support.",
+        "Reasons explain why the writer holds that opinion.",
+        "Evidence gives facts, examples, or details that support the reasons.",
+        "A strong opinion piece is respectful and fair, even when trying to persuade."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Opinion Support Mission",
+        "description": "Choose claims, reasons, and evidence that make opinion writing stronger.",
+        "levels": [
+          "Level 1: Claims and Reasons",
+          "Level 2: Evidence and Fairness"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Opinion Writing Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Claims, reasons, evidence, respectful tone, and conclusions"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Opinion Support Mission",
+        "mission": "Choose claims, reasons, and evidence that make opinion writing stronger.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Claims and Reasons",
+            "title": "Before You Begin",
+            "prompt": "Get ready: opinion needs support",
+            "text": "An opinion is stronger when readers can see the thinking behind it. A writer should state a clear claim and then give reasons that truly support it."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Claims and Reasons",
+            "title": "Reasons Must Match",
+            "prompt": "Do not wander from the claim",
+            "text": "If the claim is that a school garden would help students learn, reasons should connect to learning, plants, responsibility, or science. A reason about favourite recess games would not fit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Claims and Reasons",
+            "title": "Claim",
+            "prompt": "Which sentence states a clear opinion?",
+            "choices": [
+              "Our class should have a weekly library period because it supports reading habits.",
+              "The library has books and tables.",
+              "Students went to the library on Tuesday."
+            ],
+            "correctAnswer": "Our class should have a weekly library period because it supports reading habits.",
+            "feedback": "Correct. It states a view and begins to support it.",
+            "hint": "A claim tells what the writer thinks."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Claims and Reasons",
+            "title": "Matching Reason",
+            "prompt": "Claim: Students should learn basic first aid. Which reason supports it best?",
+            "choices": [
+              "It can help students respond calmly to small injuries.",
+              "It connects to health and safety lessons.",
+              "It is a skill many adults know."
+            ],
+            "correctAnswer": "It can help students respond calmly to small injuries.",
+            "feedback": "Yes. The reason connects to the claim.",
+            "hint": "Reasons should explain why the claim matters."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Claims and Reasons",
+            "title": "Weak Reason",
+            "prompt": "Claim: Our school should add a chess club. Which reason is weakest?",
+            "choices": [
+              "The room beside the office has two windows.",
+              "Chess can help students practise careful thinking.",
+              "A club could give interested students a place to play together."
+            ],
+            "correctAnswer": "The room beside the office has two windows.",
+            "feedback": "Correct. It does not really support the claim.",
+            "hint": "Choose the reason that does the least work."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Claims and Reasons",
+            "title": "True or False",
+            "prompt": "A reason should support the claim, not just mention the same topic.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Support must connect clearly.",
+            "hint": "A related topic is not always a reason."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Claims and Reasons",
+            "title": "Level 1 Complete",
+            "prompt": "You practised matching claims and reasons.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Evidence and Fairness",
+            "title": "Use Evidence",
+            "prompt": "Reasons need proof",
+            "text": "Evidence can be a fact, example, detail, or observation. Evidence makes a reason stronger because it gives readers something specific to consider."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Evidence and Fairness",
+            "title": "Best Evidence",
+            "prompt": "Claim: A quiet reading corner would help students focus. Which evidence supports it best?",
+            "choices": [
+              "During silent reading, students finish more pages when the room is calm.",
+              "The corner could have a small rug.",
+              "Some students like colourful bookmarks."
+            ],
+            "correctAnswer": "During silent reading, students finish more pages when the room is calm.",
+            "feedback": "Correct. It connects calm space to focus.",
+            "hint": "Look for evidence that proves the reason."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Evidence and Fairness",
+            "title": "Respectful Tone",
+            "prompt": "Which sentence has the most respectful persuasive tone?",
+            "choices": [
+              "A later lunch could help students concentrate because many are hungry by noon.",
+              "Early lunch should be changed because it causes too many problems.",
+              "My idea is clearly better than the current lunch schedule."
+            ],
+            "correctAnswer": "A later lunch could help students concentrate because many are hungry by noon.",
+            "feedback": "Yes. It gives a reason without insulting others.",
+            "hint": "Persuasion can be firm and respectful."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Evidence and Fairness",
+            "title": "Conclusion",
+            "prompt": "Which conclusion best fits an opinion paragraph about adding more class read-aloud time?",
+            "choices": [
+              "For these reasons, read-aloud time would be a helpful part of our week.",
+              "Reading happened yesterday after math.",
+              "Some books are longer than others."
+            ],
+            "correctAnswer": "For these reasons, read-aloud time would be a helpful part of our week.",
+            "feedback": "Correct. It closes the opinion clearly.",
+            "hint": "A conclusion should return to the claim."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Evidence and Fairness",
+            "title": "True or False",
+            "prompt": "Opinion writing can be persuasive without being rude or unfair.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Respectful support is stronger.",
+            "hint": "Tone matters."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Evidence and Fairness",
+            "title": "Mission Complete",
+            "prompt": "You practised evidence and respectful opinion writing.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Opinion Writing Quiz",
+        "questions": [
+          {
+            "section": "Opinion",
+            "skill": "Claim",
+            "type": "multipleChoice",
+            "prompt": "Which sentence states a clear claim?",
+            "choices": [
+              "Students should have more time for independent reading because it builds stamina.",
+              "Students read books.",
+              "Some books have chapters."
+            ],
+            "correctAnswer": "Students should have more time for independent reading because it builds stamina.",
+            "reviewNote": "It states an opinion and support."
+          },
+          {
+            "section": "Opinion",
+            "skill": "Reason",
+            "type": "multipleChoice",
+            "prompt": "Claim: The class should keep a nature journal. Which reason fits best?",
+            "choices": [
+              "It helps students observe changes carefully over time.",
+              "It gives students a place to write outside.",
+              "It can be kept with other science materials."
+            ],
+            "correctAnswer": "It helps students observe changes carefully over time.",
+            "reviewNote": "The reason supports the claim."
+          },
+          {
+            "section": "Opinion",
+            "skill": "Weak Support",
+            "type": "multipleChoice",
+            "prompt": "Claim: Students should practise typing. Which reason is weakest?",
+            "choices": [
+              "Many students already use computers sometimes.",
+              "Typing can help students prepare final drafts.",
+              "Typing practice can improve speed and accuracy."
+            ],
+            "correctAnswer": "Many students already use computers sometimes.",
+            "reviewNote": "It mentions computers but does not strongly support typing practice."
+          },
+          {
+            "section": "Opinion",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Which evidence best supports a school recycling program?",
+            "choices": [
+              "A classroom audit found many clean paper scraps in the garbage.",
+              "The recycling bin is near the door.",
+              "Some students know what paper is."
+            ],
+            "correctAnswer": "A classroom audit found many clean paper scraps in the garbage.",
+            "reviewNote": "It gives specific support."
+          },
+          {
+            "section": "Opinion",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is most respectful?",
+            "choices": [
+              "Our class could improve the plan by adding clear cleanup jobs.",
+              "This plan needs to be fixed before anyone uses it.",
+              "People may disagree, but the cleanup jobs are the main problem."
+            ],
+            "correctAnswer": "Our class could improve the plan by adding clear cleanup jobs.",
+            "reviewNote": "It gives a fair suggestion."
+          },
+          {
+            "section": "Opinion",
+            "skill": "Conclusion",
+            "type": "multipleChoice",
+            "prompt": "Which conclusion best closes an opinion paragraph?",
+            "choices": [
+              "For these reasons, a class garden would be worth trying this spring.",
+              "Gardens have soil.",
+              "My paragraph is finished now."
+            ],
+            "correctAnswer": "For these reasons, a class garden would be worth trying this spring.",
+            "reviewNote": "It returns to the claim."
+          },
+          {
+            "section": "Opinion",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A claim should be supported with reasons or evidence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Support strengthens the claim."
+          },
+          {
+            "section": "Opinion",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A rude sentence is stronger because it sounds more confident.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Respectful evidence is stronger."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-informational-writing",
+      "title": "Informational Writing",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will organize facts and explanations clearly in informational writing.",
+      "successCriteria": [
+        "I can identify a clear informational topic.",
+        "I can choose facts and examples that explain the topic.",
+        "I can organize information with headings or categories."
+      ],
+      "vocabulary": [
+        "informational",
+        "fact",
+        "example",
+        "heading",
+        "category"
+      ],
+      "teacherOverview": "Students practise explaining a topic with organized facts, examples, and clear sections.",
+      "teacherSummary": "Students practise explaining a topic with organized facts, examples, and clear sections.",
+      "lessonContent": [
+        "Informational writing teaches or explains a topic.",
+        "A strong informational piece has a clear focus.",
+        "Facts, examples, and definitions help readers understand the topic.",
+        "Headings and categories can organize information.",
+        "The writer should explain ideas in a sensible order."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Information Organizer Mission",
+        "description": "Choose facts, headings, and examples that help explain a topic.",
+        "levels": [
+          "Level 1: Facts and Focus",
+          "Level 2: Organize Information"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Informational Writing Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Topic focus, facts, examples, headings, categories, and order"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Information Organizer Mission",
+        "mission": "Choose facts, headings, and examples that help explain a topic.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Facts and Focus",
+            "title": "Before You Begin",
+            "prompt": "Get ready: explain clearly",
+            "text": "Informational writing helps readers learn. The writer needs a clear topic and details that explain that topic accurately."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Facts and Focus",
+            "title": "Stay Focused",
+            "prompt": "Every detail should help",
+            "text": "A detail may be true but still not belong. If you are explaining how tadpoles become frogs, a detail about a favourite pond picnic may not help the reader learn the science."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Facts and Focus",
+            "title": "Best Focus",
+            "prompt": "Which topic is focused enough for a short informational article?",
+            "choices": [
+              "how seeds sprout into plants",
+              "how plants grow in different seasons",
+              "why plants are important to people"
+            ],
+            "correctAnswer": "how seeds sprout into plants",
+            "feedback": "Correct. It is focused enough to explain.",
+            "hint": "Choose a topic that can be covered well."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Facts and Focus",
+            "title": "Best Fact",
+            "prompt": "Topic: How owls hunt at night. Which fact fits best?",
+            "choices": [
+              "Owls have excellent hearing that helps them locate prey.",
+              "Some owl drawings are used on notebooks.",
+              "Many people have heard stories about owls."
+            ],
+            "correctAnswer": "Owls have excellent hearing that helps them locate prey.",
+            "feedback": "Yes. It explains the topic.",
+            "hint": "Pick the fact that teaches the topic."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Facts and Focus",
+            "title": "Example",
+            "prompt": "Which sentence gives a useful example for a report about simple machines?",
+            "choices": [
+              "A ramp is an inclined plane that can help move heavy objects upward.",
+              "A ramp can be made from wood, metal, or plastic.",
+              "A ramp is often placed near stairs or doors."
+            ],
+            "correctAnswer": "A ramp is an inclined plane that can help move heavy objects upward.",
+            "feedback": "Correct. It explains with an example.",
+            "hint": "A good example helps readers understand."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Facts and Focus",
+            "title": "True or False",
+            "prompt": "Informational writing should use details that help readers understand the topic.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Details should teach or explain.",
+            "hint": "Focus matters."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Facts and Focus",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing focused information.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Organize Information",
+            "title": "Use Sections",
+            "prompt": "Organize so readers can follow",
+            "text": "Informational writing often uses headings, categories, or steps. These help readers see how ideas fit together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize Information",
+            "title": "Best Heading",
+            "prompt": "Which heading best fits facts about what beavers eat?",
+            "choices": [
+              "Beaver Diet",
+              "Beaver Habitat",
+              "Beaver Dams"
+            ],
+            "correctAnswer": "Beaver Diet",
+            "feedback": "Correct. Diet means what an animal eats.",
+            "hint": "Choose the heading that matches the facts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize Information",
+            "title": "Best Order",
+            "prompt": "Which order best explains how bread is made?",
+            "choices": [
+              "mix ingredients, knead dough, let it rise, bake",
+              "bake, let it rise, buy flour, mix ingredients",
+              "eat bread, knead dough, plant wheat, open oven"
+            ],
+            "correctAnswer": "mix ingredients, knead dough, let it rise, bake",
+            "feedback": "Yes. The steps follow a sensible order.",
+            "hint": "Process writing should follow the process."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize Information",
+            "title": "Category",
+            "prompt": "A report about Canada geese has details about nesting, eggs, and caring for young. Which category fits?",
+            "choices": [
+              "Reproduction and Young",
+              "Migration Routes",
+              "Food Sources"
+            ],
+            "correctAnswer": "Reproduction and Young",
+            "feedback": "Correct. The details are about raising young.",
+            "hint": "Group related facts together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Organize Information",
+            "title": "True or False",
+            "prompt": "Headings can help readers predict what a section will explain.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Headings guide readers.",
+            "hint": "Headings are reading tools."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Organize Information",
+            "title": "Mission Complete",
+            "prompt": "You practised organizing information.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Informational Writing Quiz",
+        "questions": [
+          {
+            "section": "Informational",
+            "skill": "Focus",
+            "type": "multipleChoice",
+            "prompt": "Which topic is best for a short informational text?",
+            "choices": [
+              "how salmon return to spawning streams",
+              "how fish live in different habitats",
+              "why freshwater is important"
+            ],
+            "correctAnswer": "how salmon return to spawning streams",
+            "reviewNote": "It is focused enough."
+          },
+          {
+            "section": "Informational",
+            "skill": "Fact",
+            "type": "multipleChoice",
+            "prompt": "Topic: How a thermometer works. Which fact fits best?",
+            "choices": [
+              "The liquid or sensor changes with temperature.",
+              "Thermometers can be kept in drawers.",
+              "Some thermometers are small."
+            ],
+            "correctAnswer": "The liquid or sensor changes with temperature.",
+            "reviewNote": "It explains the topic."
+          },
+          {
+            "section": "Informational",
+            "skill": "Example",
+            "type": "multipleChoice",
+            "prompt": "Which example helps explain erosion?",
+            "choices": [
+              "Fast water can carry soil away from a riverbank.",
+              "A riverbank may have trees nearby.",
+              "Some people walk near rivers."
+            ],
+            "correctAnswer": "Fast water can carry soil away from a riverbank.",
+            "reviewNote": "It shows erosion happening."
+          },
+          {
+            "section": "Informational",
+            "skill": "Heading",
+            "type": "multipleChoice",
+            "prompt": "Which heading best fits facts about how animals survive cold winters?",
+            "choices": [
+              "Winter Adaptations",
+              "Animal Habitats",
+              "Seasonal Weather"
+            ],
+            "correctAnswer": "Winter Adaptations",
+            "reviewNote": "It matches the facts."
+          },
+          {
+            "section": "Informational",
+            "skill": "Order",
+            "type": "multipleChoice",
+            "prompt": "Which order best explains a life cycle?",
+            "choices": [
+              "egg, larva, pupa, adult",
+              "adult, pupa, egg, larva",
+              "pupa, adult, larva, egg"
+            ],
+            "correctAnswer": "egg, larva, pupa, adult",
+            "reviewNote": "It follows the process."
+          },
+          {
+            "section": "Informational",
+            "skill": "Category",
+            "type": "multipleChoice",
+            "prompt": "Details about roots, stems, leaves, and flowers belong under which heading?",
+            "choices": [
+              "Plant Parts",
+              "Garden Jobs",
+              "Weather Changes"
+            ],
+            "correctAnswer": "Plant Parts",
+            "reviewNote": "The details name parts of plants."
+          },
+          {
+            "section": "Informational",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A true fact can still be left out if it does not fit the topic.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Writers choose relevant facts."
+          },
+          {
+            "section": "Informational",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Informational writing should be organized so readers can follow the ideas.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Organization helps understanding."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-sources-and-notes",
+      "title": "Using Sources and Notes",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify reliable source habits and take useful notes without copying whole passages.",
+      "successCriteria": [
+        "I can choose sources that fit a research question.",
+        "I can take notes in my own words.",
+        "I can tell the difference between a copied sentence and a useful note."
+      ],
+      "vocabulary": [
+        "source",
+        "research",
+        "note",
+        "paraphrase",
+        "credit"
+      ],
+      "teacherOverview": "Students practise using sources honestly and taking notes that support research writing.",
+      "teacherSummary": "Students practise using sources honestly and taking notes that support research writing.",
+      "lessonContent": [
+        "A source is where information comes from.",
+        "A research question helps guide what information to look for.",
+        "Useful notes are short and focused.",
+        "Writers should use their own words instead of copying whole passages.",
+        "Important sources should be credited so readers know where information came from."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Research Notes Mission",
+        "description": "Choose useful sources and turn information into honest notes.",
+        "levels": [
+          "Level 1: Choose Sources",
+          "Level 2: Take Notes Honestly"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Using Sources and Notes Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Research questions, useful sources, notes, paraphrasing, and credit"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Research Notes Mission",
+        "mission": "Choose useful sources and turn information into honest notes.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Choose Sources",
+            "title": "Before You Begin",
+            "prompt": "Get ready: research with a question",
+            "text": "Research writing starts with a question. A clear question helps you choose sources and ignore information that does not help."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Choose Sources",
+            "title": "Choose Useful Sources",
+            "prompt": "Match the source to the question",
+            "text": "A source should answer your research question. A book about birds may not help much if your question is about how maple sap becomes syrup."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Sources",
+            "title": "Research Question",
+            "prompt": "Which research question is focused enough?",
+            "choices": [
+              "How do honeybees help apple trees produce fruit?",
+              "How do insects affect plants in gardens?",
+              "Why are orchards important to farmers?"
+            ],
+            "correctAnswer": "How do honeybees help apple trees produce fruit?",
+            "feedback": "Correct. It can guide research.",
+            "hint": "A focused question is easier to answer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Sources",
+            "title": "Best Source",
+            "prompt": "Question: How did early settlers make candles? Which source would probably help most?",
+            "choices": [
+              "a museum article about pioneer household work",
+              "a history book section about settler homes",
+              "a social studies article about pioneer tools"
+            ],
+            "correctAnswer": "a museum article about pioneer household work",
+            "feedback": "Yes. It matches the question.",
+            "hint": "Choose the source that likely answers the question."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Sources",
+            "title": "Source Fit",
+            "prompt": "Question: What do red foxes eat? Which source fits best?",
+            "choices": [
+              "a wildlife guide section about red fox diet",
+              "a wildlife article about where red foxes live",
+              "a nature book chapter about forest animals"
+            ],
+            "correctAnswer": "a wildlife guide section about red fox diet",
+            "feedback": "Correct. It is about the exact topic.",
+            "hint": "Look for topic and purpose."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Choose Sources",
+            "title": "True or False",
+            "prompt": "A research question helps a writer decide which information matters.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. It guides the research.",
+            "hint": "Questions focus the search."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Choose Sources",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing sources.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Take Notes Honestly",
+            "title": "Use Your Own Words",
+            "prompt": "Notes are not full copied paragraphs",
+            "text": "Good notes capture important ideas in short phrases. Copying whole sentences without credit is not honest research writing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Take Notes Honestly",
+            "title": "Best Note",
+            "prompt": "Source sentence: 'Monarch butterflies travel thousands of kilometres to warmer places for winter.' Which note is best?",
+            "choices": [
+              "monarchs migrate long distances for winter warmth",
+              "Monarch butterflies travel thousands of kilometres to warmer places for winter.",
+              "butterflies are pretty and travel"
+            ],
+            "correctAnswer": "monarchs migrate long distances for winter warmth",
+            "feedback": "Correct. It is short and in the student's own words.",
+            "hint": "A note should keep the idea, not copy the sentence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Take Notes Honestly",
+            "title": "Copied or Note?",
+            "prompt": "Which choice is too close to copying?",
+            "choices": [
+              "Beavers build dams from branches and mud.",
+              "beavers use sticks and mud for dams",
+              "beaver dams made with natural materials"
+            ],
+            "correctAnswer": "Beavers build dams from branches and mud.",
+            "feedback": "Yes. It repeats the sentence exactly.",
+            "hint": "Exact words need quotation marks or should be changed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Take Notes Honestly",
+            "title": "Credit",
+            "prompt": "Why should writers keep track of sources?",
+            "choices": [
+              "so they can give credit and find information again",
+              "so their notes look longer",
+              "so they can avoid reading carefully"
+            ],
+            "correctAnswer": "so they can give credit and find information again",
+            "feedback": "Correct. Source tracking is honest and useful.",
+            "hint": "Credit matters in research."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Take Notes Honestly",
+            "title": "True or False",
+            "prompt": "Putting information in your own words still requires careful honesty.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The idea still came from a source.",
+            "hint": "Paraphrasing does not make research disappear."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Take Notes Honestly",
+            "title": "Mission Complete",
+            "prompt": "You practised using research notes honestly.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Using Sources and Notes Quiz",
+        "questions": [
+          {
+            "section": "Research",
+            "skill": "Question",
+            "type": "multipleChoice",
+            "prompt": "Which research question is most focused?",
+            "choices": [
+              "How do earthworms help garden soil?",
+              "How do small animals change soil?",
+              "Why is soil useful for gardens?"
+            ],
+            "correctAnswer": "How do earthworms help garden soil?",
+            "reviewNote": "It gives a clear research target."
+          },
+          {
+            "section": "Research",
+            "skill": "Source",
+            "type": "multipleChoice",
+            "prompt": "Question: How are snowflakes formed? Which source fits best?",
+            "choices": [
+              "a science article about ice crystals in clouds",
+              "a weather article about winter storms",
+              "a science book chapter about water"
+            ],
+            "correctAnswer": "a science article about ice crystals in clouds",
+            "reviewNote": "It matches the question."
+          },
+          {
+            "section": "Research",
+            "skill": "Relevant Source",
+            "type": "multipleChoice",
+            "prompt": "Question: What did voyageurs carry in their canoes? Which source fits best?",
+            "choices": [
+              "a history text about fur trade travel",
+              "a history map of fur trade routes",
+              "a museum article about birchbark canoes"
+            ],
+            "correctAnswer": "a history text about fur trade travel",
+            "reviewNote": "It is most likely to answer the question."
+          },
+          {
+            "section": "Notes",
+            "skill": "Paraphrase",
+            "type": "multipleChoice",
+            "prompt": "Source: 'Bats use echoes to find insects in the dark.' Which note is best?",
+            "choices": [
+              "bats find night insects by using echoes",
+              "Bats use echoes to find insects in the dark.",
+              "bats and insects are both animals"
+            ],
+            "correctAnswer": "bats find night insects by using echoes",
+            "reviewNote": "It keeps the idea in note form."
+          },
+          {
+            "section": "Notes",
+            "skill": "Too Much Copying",
+            "type": "multipleChoice",
+            "prompt": "Which note copies too closely?",
+            "choices": [
+              "The roots absorb water and minerals from soil.",
+              "roots take in water and minerals",
+              "roots help plants get materials from soil"
+            ],
+            "correctAnswer": "The roots absorb water and minerals from soil.",
+            "reviewNote": "It repeats the sentence exactly."
+          },
+          {
+            "section": "Research",
+            "skill": "Credit",
+            "type": "multipleChoice",
+            "prompt": "Why should a writer list sources?",
+            "choices": [
+              "to show where information came from",
+              "to help readers see the order of research",
+              "to remind the writer which notes were used"
+            ],
+            "correctAnswer": "to show where information came from",
+            "reviewNote": "Credit is part of research honesty."
+          },
+          {
+            "section": "Research",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A source should help answer the research question.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A useful source matches the question."
+          },
+          {
+            "section": "Research",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Research notes should usually copy full paragraphs word for word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Notes should be short and honest."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-introductions-conclusions",
+      "title": "Organizing Introductions and Conclusions",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose introductions and conclusions that fit the writing form and purpose.",
+      "successCriteria": [
+        "I can identify what an introduction should do.",
+        "I can identify what a conclusion should do.",
+        "I can choose openings and endings that fit narrative, opinion, and informational writing."
+      ],
+      "vocabulary": [
+        "introduction",
+        "conclusion",
+        "hook",
+        "closing",
+        "main idea"
+      ],
+      "teacherOverview": "Students practise choosing beginnings and endings that help writing feel complete.",
+      "teacherSummary": "Students practise choosing beginnings and endings that help writing feel complete.",
+      "lessonContent": [
+        "An introduction begins the writing and prepares the reader.",
+        "A conclusion closes the writing and leaves the reader with a final thought.",
+        "Different writing forms need different kinds of openings and endings.",
+        "A narrative introduction may introduce character, setting, or problem.",
+        "An opinion or informational introduction should make the topic or claim clear."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Opening and Closing Mission",
+        "description": "Choose introductions and conclusions that fit the writing purpose.",
+        "levels": [
+          "Level 1: Strong Introductions",
+          "Level 2: Clear Conclusions"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Introductions and Conclusions Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Openings, closings, hooks, claims, topics, and form-fit"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Opening and Closing Mission",
+        "mission": "Choose introductions and conclusions that fit the writing purpose.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Strong Introductions",
+            "title": "Before You Begin",
+            "prompt": "Get ready: begin with direction",
+            "text": "An introduction should help readers know where the writing is going. It may name the topic, state the opinion, or begin a story with a meaningful moment."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Strong Introductions",
+            "title": "Match the Form",
+            "prompt": "Openings depend on purpose",
+            "text": "A report introduction should clearly name the topic. An opinion introduction should introduce the claim. A narrative introduction should invite readers into the story."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Strong Introductions",
+            "title": "Report Introduction",
+            "prompt": "Which introduction best fits a report about how cranes are used in construction?",
+            "choices": [
+              "Cranes help builders lift heavy materials safely on construction sites.",
+              "I once saw a tall crane near a road.",
+              "Construction can be noisy sometimes."
+            ],
+            "correctAnswer": "Cranes help builders lift heavy materials safely on construction sites.",
+            "feedback": "Correct. It clearly introduces the topic.",
+            "hint": "A report opening should name the focus."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Strong Introductions",
+            "title": "Opinion Introduction",
+            "prompt": "Which introduction best starts an opinion paragraph?",
+            "choices": [
+              "Our class should start a book exchange because it would help students share good books.",
+              "Books can be found in many places.",
+              "Last Tuesday, I put a book on my desk."
+            ],
+            "correctAnswer": "Our class should start a book exchange because it would help students share good books.",
+            "feedback": "Yes. It gives a claim and direction.",
+            "hint": "Look for the opinion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Strong Introductions",
+            "title": "Narrative Opening",
+            "prompt": "Which opening best starts a story?",
+            "choices": [
+              "The canoe scraped against the rocks just as the fog covered the shore.",
+              "Canoes are boats that people can paddle.",
+              "This story will be about a canoe."
+            ],
+            "correctAnswer": "The canoe scraped against the rocks just as the fog covered the shore.",
+            "feedback": "Correct. It begins with a story moment.",
+            "hint": "A narrative opening can pull readers into action."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Strong Introductions",
+            "title": "True or False",
+            "prompt": "An introduction should give readers a helpful starting point.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. It prepares the reader.",
+            "hint": "Openings guide readers."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Strong Introductions",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing strong introductions.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Clear Conclusions",
+            "title": "End With Purpose",
+            "prompt": "A conclusion should feel connected",
+            "text": "A conclusion should not feel pasted on. It should connect to the main idea, claim, lesson, or story problem."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Conclusions",
+            "title": "Opinion Conclusion",
+            "prompt": "Which conclusion best closes an opinion paragraph about using reusable water bottles?",
+            "choices": [
+              "Reusable bottles are a simple way for our class to reduce waste each day.",
+              "Water bottles can be different sizes.",
+              "Some bottles have lids that twist."
+            ],
+            "correctAnswer": "Reusable bottles are a simple way for our class to reduce waste each day.",
+            "feedback": "Correct. It returns to the opinion.",
+            "hint": "A conclusion should close the claim."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Conclusions",
+            "title": "Report Conclusion",
+            "prompt": "Which conclusion best fits an informational report about animal migration?",
+            "choices": [
+              "Migration helps many animals find food, safer weather, or places to raise young.",
+              "Some animals are larger than others.",
+              "My report has reached the end."
+            ],
+            "correctAnswer": "Migration helps many animals find food, safer weather, or places to raise young.",
+            "feedback": "Yes. It sums up the topic.",
+            "hint": "A report conclusion should leave a final understanding."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Conclusions",
+            "title": "Narrative Ending",
+            "prompt": "Which ending best fits a story about a girl learning courage?",
+            "choices": [
+              "Lena still felt nervous, but she stepped onto the stage and began her speech.",
+              "The school had a stage with curtains.",
+              "Speeches can happen in many places."
+            ],
+            "correctAnswer": "Lena still felt nervous, but she stepped onto the stage and began her speech.",
+            "feedback": "Correct. It shows the character's change.",
+            "hint": "A story ending should connect to character and problem."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Conclusions",
+            "title": "True or False",
+            "prompt": "A conclusion should connect back to the main idea or purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Endings should connect.",
+            "hint": "Closings should fit the piece."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Clear Conclusions",
+            "title": "Mission Complete",
+            "prompt": "You practised organizing introductions and conclusions.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Introductions and Conclusions Quiz",
+        "questions": [
+          {
+            "section": "Introductions",
+            "skill": "Report",
+            "type": "multipleChoice",
+            "prompt": "Which introduction best starts a report about wetlands?",
+            "choices": [
+              "Wetlands are important ecosystems that filter water and provide habitats.",
+              "I walked near a wetland once.",
+              "Wetlands can look muddy."
+            ],
+            "correctAnswer": "Wetlands are important ecosystems that filter water and provide habitats.",
+            "reviewNote": "It introduces the topic clearly."
+          },
+          {
+            "section": "Introductions",
+            "skill": "Opinion",
+            "type": "multipleChoice",
+            "prompt": "Which introduction best starts an opinion paragraph?",
+            "choices": [
+              "Students should learn basic cooking skills because they are useful at home.",
+              "Cooking uses tools and ingredients.",
+              "My cousin once baked muffins."
+            ],
+            "correctAnswer": "Students should learn basic cooking skills because they are useful at home.",
+            "reviewNote": "It states a claim."
+          },
+          {
+            "section": "Introductions",
+            "skill": "Narrative",
+            "type": "multipleChoice",
+            "prompt": "Which opening best starts a narrative?",
+            "choices": [
+              "The attic door creaked open, and a dusty box slid into view.",
+              "Attics are found at the top of some houses.",
+              "Boxes can hold many things."
+            ],
+            "correctAnswer": "The attic door creaked open, and a dusty box slid into view.",
+            "reviewNote": "It begins with a story moment."
+          },
+          {
+            "section": "Conclusions",
+            "skill": "Opinion",
+            "type": "multipleChoice",
+            "prompt": "Which conclusion best closes an opinion paragraph about daily quiet reading?",
+            "choices": [
+              "Daily quiet reading would give students steady practice and a calm start.",
+              "Some books are quiet to read.",
+              "The classroom has chairs."
+            ],
+            "correctAnswer": "Daily quiet reading would give students steady practice and a calm start.",
+            "reviewNote": "It returns to the claim."
+          },
+          {
+            "section": "Conclusions",
+            "skill": "Report",
+            "type": "multipleChoice",
+            "prompt": "Which conclusion best closes a report about food chains?",
+            "choices": [
+              "Food chains show how living things depend on one another for energy.",
+              "Some animals eat plants.",
+              "This is the last sentence."
+            ],
+            "correctAnswer": "Food chains show how living things depend on one another for energy.",
+            "reviewNote": "It sums up the idea."
+          },
+          {
+            "section": "Conclusions",
+            "skill": "Narrative",
+            "type": "multipleChoice",
+            "prompt": "Which ending best fits a story about learning honesty?",
+            "choices": [
+              "Caleb returned the coin and felt relieved when he told the truth.",
+              "Coins can be shiny.",
+              "Caleb walked past the desk."
+            ],
+            "correctAnswer": "Caleb returned the coin and felt relieved when he told the truth.",
+            "reviewNote": "It connects to honesty."
+          },
+          {
+            "section": "Introductions",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A good introduction helps readers understand the direction of the writing.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Introductions guide readers."
+          },
+          {
+            "section": "Conclusions",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A conclusion should feel connected to the piece, not dropped in from another topic.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Endings should fit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-revising-for-audience-purpose",
+      "title": "Revising for Audience and Purpose",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose revisions that make writing clearer for its audience and purpose.",
+      "successCriteria": [
+        "I can identify whether a sentence fits the audience.",
+        "I can choose words that fit the purpose.",
+        "I can revise details so writing becomes clearer and stronger."
+      ],
+      "vocabulary": [
+        "revise",
+        "audience",
+        "purpose",
+        "tone",
+        "clarity"
+      ],
+      "teacherOverview": "Students practise revision choices that improve meaning, tone, and usefulness for readers.",
+      "teacherSummary": "Students practise revision choices that improve meaning, tone, and usefulness for readers.",
+      "lessonContent": [
+        "Revision means improving ideas, organization, word choice, and clarity.",
+        "A writer may revise to better fit the audience.",
+        "A writer may revise to better fit the purpose.",
+        "Tone is the attitude or feeling of the writing.",
+        "Good revision keeps the intended meaning while making the writing stronger."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Revision Choice Mission",
+        "description": "Choose revisions that better fit audience, purpose, tone, and clarity.",
+        "levels": [
+          "Level 1: Audience and Tone",
+          "Level 2: Clarity and Purpose"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Revising for Audience and Purpose Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Audience, purpose, tone, precise wording, and clear revisions"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Revision Choice Mission",
+        "mission": "Choose revisions that better fit audience, purpose, tone, and clarity.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Audience and Tone",
+            "title": "Before You Begin",
+            "prompt": "Get ready: revision improves writing",
+            "text": "Revision is more than fixing spelling. Writers revise to make ideas clearer, stronger, and better suited to the people who will read the writing."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Audience and Tone",
+            "title": "Think About Readers",
+            "prompt": "Choose words for the audience",
+            "text": "Directions for younger students may need shorter steps. A report for class may need precise vocabulary. A thank-you note may need a warm and respectful tone."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Audience and Tone",
+            "title": "Younger Audience",
+            "prompt": "Which revision best fits younger students?",
+            "choices": [
+              "Put your lunch bag on the shelf, then sit on the carpet.",
+              "Place your food container in the classroom storage area.",
+              "Keep your lunch bag where the class usually stores lunches."
+            ],
+            "correctAnswer": "Put your lunch bag on the shelf, then sit on the carpet.",
+            "feedback": "Correct. It is clear and age-appropriate.",
+            "hint": "Choose simple, direct wording."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Audience and Tone",
+            "title": "Respectful Tone",
+            "prompt": "Which revision has the most respectful wording for a formal note?",
+            "choices": [
+              "Could we please consider adding more shade near the playground?",
+              "The playground would be better if shade were added soon.",
+              "Students need more shade because the playground gets very hot."
+            ],
+            "correctAnswer": "Could we please consider adding more shade near the playground?",
+            "feedback": "Yes. It is polite and clear.",
+            "hint": "Respectful does not mean weak."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Audience and Tone",
+            "title": "Purpose Fit",
+            "prompt": "Purpose: explain how to care for a pet rabbit. Which sentence fits best?",
+            "choices": [
+              "Fresh water should be available every day.",
+              "Rabbits need a quiet place to rest.",
+              "A rabbit's cage should be cleaned often."
+            ],
+            "correctAnswer": "Fresh water should be available every day.",
+            "feedback": "Correct. It gives clear care information.",
+            "hint": "Match the sentence to the purpose."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Audience and Tone",
+            "title": "True or False",
+            "prompt": "The same idea may need different wording for different audiences.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Audience affects wording.",
+            "hint": "Writers adjust for readers."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Audience and Tone",
+            "title": "Level 1 Complete",
+            "prompt": "You practised revising for audience and tone.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Clarity and Purpose",
+            "title": "Make Meaning Clearer",
+            "prompt": "Remove confusion",
+            "text": "Revision can fix vague words, unclear pronouns, weak details, or sentences that wander from the purpose."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clarity and Purpose",
+            "title": "Precise Word",
+            "prompt": "Which revision uses the most precise verb?",
+            "choices": [
+              "The hawk soared above the field.",
+              "The hawk went above the field.",
+              "The hawk was above the field."
+            ],
+            "correctAnswer": "The hawk soared above the field.",
+            "feedback": "Correct. Soared gives a clearer action.",
+            "hint": "Precise words help readers picture the idea."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clarity and Purpose",
+            "title": "Clear Pronoun",
+            "prompt": "Which revision is clearest? 'Emma gave Sara her notebook after class.'",
+            "choices": [
+              "Emma gave Sara Emma's notebook after class.",
+              "Emma gave Sara her notebook after class.",
+              "She gave her the notebook after it happened."
+            ],
+            "correctAnswer": "Emma gave Sara Emma's notebook after class.",
+            "feedback": "Yes. The owner is clear.",
+            "hint": "Clarify who or what a pronoun means."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clarity and Purpose",
+            "title": "Remove Off-Topic Detail",
+            "prompt": "Purpose: explain how to prepare for a science fair display. Which sentence should probably be removed?",
+            "choices": [
+              "The display board can be set up near the cafeteria.",
+              "Labels should be large enough to read.",
+              "The display should show the question and results."
+            ],
+            "correctAnswer": "The display board can be set up near the cafeteria.",
+            "feedback": "Correct. It is about location, not preparing the display itself.",
+            "hint": "Remove details that do not belong."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clarity and Purpose",
+            "title": "True or False",
+            "prompt": "Revision can improve a sentence without changing the main meaning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Revision keeps the idea and improves it.",
+            "hint": "Revision is improvement."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Clarity and Purpose",
+            "title": "Mission Complete",
+            "prompt": "You practised revising for clarity and purpose.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Revising for Audience and Purpose Quiz",
+        "questions": [
+          {
+            "section": "Revision",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "Which sentence best fits directions for younger students?",
+            "choices": [
+              "Wash your hands, dry them, and line up by the door.",
+              "Clean your hands carefully before the class leaves.",
+              "After handwashing, wait where the teacher can see you."
+            ],
+            "correctAnswer": "Wash your hands, dry them, and line up by the door.",
+            "reviewNote": "It is clear and direct."
+          },
+          {
+            "section": "Revision",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which revision has the most respectful tone?",
+            "choices": [
+              "Please return the borrowed book by Friday so others can use it.",
+              "The book needs to come back by Friday for the next reader.",
+              "Please remember that other students are waiting for the book."
+            ],
+            "correctAnswer": "Please return the borrowed book by Friday so others can use it.",
+            "reviewNote": "It is respectful and clear."
+          },
+          {
+            "section": "Revision",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "Purpose: explain how to stay safe near a campfire. Which detail fits best?",
+            "choices": [
+              "Keep a bucket of water nearby in case sparks spread.",
+              "Stand where smoke will not blow into your face.",
+              "Use a long stick if an adult says you may roast food."
+            ],
+            "correctAnswer": "Keep a bucket of water nearby in case sparks spread.",
+            "reviewNote": "It supports the safety purpose."
+          },
+          {
+            "section": "Revision",
+            "skill": "Precise Verb",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses the most precise verb?",
+            "choices": [
+              "The creek rushed over the rocks.",
+              "The creek went over the rocks.",
+              "The creek was by the rocks."
+            ],
+            "correctAnswer": "The creek rushed over the rocks.",
+            "reviewNote": "Rushed is precise."
+          },
+          {
+            "section": "Revision",
+            "skill": "Pronoun Clarity",
+            "type": "multipleChoice",
+            "prompt": "Which revision is clearest? 'Lucas told Ben his idea was ready.'",
+            "choices": [
+              "Lucas told Ben that Lucas's idea was ready.",
+              "Lucas told Ben his idea was ready.",
+              "He told him it was ready."
+            ],
+            "correctAnswer": "Lucas told Ben that Lucas's idea was ready.",
+            "reviewNote": "It clarifies whose idea."
+          },
+          {
+            "section": "Revision",
+            "skill": "Off Topic",
+            "type": "multipleChoice",
+            "prompt": "Purpose: persuade the class to reduce paper waste. Which detail is least useful?",
+            "choices": [
+              "The classroom clock is above the recycling bin.",
+              "Students often use only one side of scrap paper.",
+              "A paper-saving tray could collect reusable sheets."
+            ],
+            "correctAnswer": "The classroom clock is above the recycling bin.",
+            "reviewNote": "It is nearby but not useful support."
+          },
+          {
+            "section": "Revision",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Revision can improve word choice, tone, and organization.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Revision improves writing."
+          },
+          {
+            "section": "Revision",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Audience does not matter once the writer has chosen a topic.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Audience affects choices."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-publishing-reflecting",
+      "title": "Publishing and Reflecting",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify final publishing checks and reflect on writing choices.",
+      "successCriteria": [
+        "I can choose final checks before sharing writing.",
+        "I can identify what makes a piece ready for its audience.",
+        "I can reflect on a writing strength and a next step."
+      ],
+      "vocabulary": [
+        "publish",
+        "proofread",
+        "format",
+        "reflect",
+        "next step"
+      ],
+      "teacherOverview": "Students practise final checks and simple reflection before sharing writing.",
+      "teacherSummary": "Students practise final checks and simple reflection before sharing writing.",
+      "lessonContent": [
+        "Publishing means preparing writing to share with an audience.",
+        "Proofreading checks spelling, punctuation, capitals, and small errors.",
+        "Formatting choices should make the writing easy to read.",
+        "Reflection helps writers notice what improved and what to practise next.",
+        "A piece is ready when it fits the purpose, audience, and final checklist."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored writing and research check.",
+        "Review missed questions before assigning the next Writing Forms and Research lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Publish and Reflect Mission",
+        "description": "Choose final checks and reflections that help writing become ready to share.",
+        "levels": [
+          "Level 1: Ready to Publish",
+          "Level 2: Reflect and Improve"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Publishing and Reflecting Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Proofreading, formatting, audience readiness, reflection, and next steps"
+      },
+      "assessmentPlan": "Use the activity for guided writing decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-4-writing-1",
+        "title": "Publish and Reflect Mission",
+        "mission": "Choose final checks and reflections that help writing become ready to share.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Ready to Publish",
+            "title": "Before You Begin",
+            "prompt": "Get ready: final checks matter",
+            "text": "Before sharing writing, writers check that the piece is clear, complete, and readable. This includes proofreading and formatting, but also checking that the writing still fits its purpose."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Ready to Publish",
+            "title": "Proofread and Format",
+            "prompt": "Help the reader",
+            "text": "Proofreading catches small errors. Formatting uses choices such as title, spacing, headings, or paragraphs so readers can follow the piece easily."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ready to Publish",
+            "title": "Proofreading",
+            "prompt": "Which check is proofreading?",
+            "choices": [
+              "checking capitals, punctuation, and spelling",
+              "adding a new main idea after the conclusion",
+              "changing the topic to something easier"
+            ],
+            "correctAnswer": "checking capitals, punctuation, and spelling",
+            "feedback": "Correct. Proofreading checks surface errors.",
+            "hint": "Proofreading is a final careful read."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ready to Publish",
+            "title": "Formatting",
+            "prompt": "Which formatting choice helps readers follow an informational report?",
+            "choices": [
+              "clear headings for each section",
+              "larger spaces between random sentences",
+              "a picture before every paragraph"
+            ],
+            "correctAnswer": "clear headings for each section",
+            "feedback": "Yes. Headings guide readers.",
+            "hint": "Formatting should make reading easier."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ready to Publish",
+            "title": "Final Read",
+            "prompt": "Before publishing an opinion paragraph, which question should the writer ask?",
+            "choices": [
+              "Did I state my claim and support it with reasons?",
+              "Did I add a personal example near the end?",
+              "Did I make my strongest sentence the longest?"
+            ],
+            "correctAnswer": "Did I state my claim and support it with reasons?",
+            "feedback": "Correct. The check fits the purpose.",
+            "hint": "Use the purpose as a checklist."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Ready to Publish",
+            "title": "True or False",
+            "prompt": "Publishing checks should help the audience read and understand the work.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The audience still matters.",
+            "hint": "Publishing is for sharing."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Ready to Publish",
+            "title": "Level 1 Complete",
+            "prompt": "You practised final publishing checks.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Reflect and Improve",
+            "title": "Reflect Like a Writer",
+            "prompt": "Notice strengths and next steps",
+            "text": "Reflection is not just saying the writing is good or bad. A useful reflection names one strength and one next step."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reflect and Improve",
+            "title": "Best Reflection",
+            "prompt": "Which reflection is most useful?",
+            "choices": [
+              "My reasons were clear, and next time I will add stronger evidence.",
+              "My conclusion repeats my opinion, and my title is neat.",
+              "My draft has three paragraphs, and next time I may add one more."
+            ],
+            "correctAnswer": "My reasons were clear, and next time I will add stronger evidence.",
+            "feedback": "Correct. It names a strength and next step.",
+            "hint": "Useful reflection is specific."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reflect and Improve",
+            "title": "Next Step",
+            "prompt": "A student's report has strong facts but confusing order. What is the best next step?",
+            "choices": [
+              "Group related facts under clearer headings.",
+              "Add one more fact to each paragraph.",
+              "Write a new introduction that names the topic."
+            ],
+            "correctAnswer": "Group related facts under clearer headings.",
+            "feedback": "Yes. That matches the problem.",
+            "hint": "Choose a next step that fixes the weakness."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reflect and Improve",
+            "title": "Audience Check",
+            "prompt": "A student is publishing directions for a Grade 2 class. Which final check matters most?",
+            "choices": [
+              "Are the steps short, clear, and in order?",
+              "Does each step include a helpful reason?",
+              "Are the headings written in a formal style?"
+            ],
+            "correctAnswer": "Are the steps short, clear, and in order?",
+            "feedback": "Correct. The check fits the audience.",
+            "hint": "Think about what the readers need."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reflect and Improve",
+            "title": "True or False",
+            "prompt": "A reflection can help a writer know what to practise next.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Reflection guides growth.",
+            "hint": "Reflection looks back and ahead."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Reflect and Improve",
+            "title": "Mission Complete",
+            "prompt": "You practised publishing and reflection choices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Publishing and Reflecting Quiz",
+        "questions": [
+          {
+            "section": "Publishing",
+            "skill": "Proofreading",
+            "type": "multipleChoice",
+            "prompt": "Which action is proofreading?",
+            "choices": [
+              "checking spelling and punctuation before sharing",
+              "choosing a brand-new topic",
+              "removing the whole introduction"
+            ],
+            "correctAnswer": "checking spelling and punctuation before sharing",
+            "reviewNote": "Proofreading checks small errors."
+          },
+          {
+            "section": "Publishing",
+            "skill": "Formatting",
+            "type": "multipleChoice",
+            "prompt": "Which formatting choice helps a reader?",
+            "choices": [
+              "using headings to separate sections",
+              "making all text crowded together",
+              "hiding the title at the bottom"
+            ],
+            "correctAnswer": "using headings to separate sections",
+            "reviewNote": "Headings organize information."
+          },
+          {
+            "section": "Publishing",
+            "skill": "Purpose Check",
+            "type": "multipleChoice",
+            "prompt": "Before publishing a narrative, which question fits best?",
+            "choices": [
+              "Does the ending connect to the story problem?",
+              "Did I list three research sources?",
+              "Does every paragraph state a claim?"
+            ],
+            "correctAnswer": "Does the ending connect to the story problem?",
+            "reviewNote": "Narratives need connected endings."
+          },
+          {
+            "section": "Publishing",
+            "skill": "Audience Check",
+            "type": "multipleChoice",
+            "prompt": "Before sharing instructions with younger students, which check matters most?",
+            "choices": [
+              "Are the steps clear and in order?",
+              "Does each step include a reason?",
+              "Is the topic introduced in the first sentence?"
+            ],
+            "correctAnswer": "Are the steps clear and in order?",
+            "reviewNote": "The audience needs usable steps."
+          },
+          {
+            "section": "Reflection",
+            "skill": "Specific Reflection",
+            "type": "multipleChoice",
+            "prompt": "Which reflection is most useful?",
+            "choices": [
+              "My introduction is clear, and next time I will organize my evidence better.",
+              "My title fits the topic, and the paragraphs look even.",
+              "My evidence is interesting, and I finished on time."
+            ],
+            "correctAnswer": "My introduction is clear, and next time I will organize my evidence better.",
+            "reviewNote": "It names a strength and next step."
+          },
+          {
+            "section": "Reflection",
+            "skill": "Next Step",
+            "type": "multipleChoice",
+            "prompt": "A paragraph has a clear opinion, but the reasons do not explain enough. What next step fits best?",
+            "choices": [
+              "Add reasons that explain why the opinion makes sense.",
+              "Rewrite the title so the opinion seems stronger.",
+              "Move the conclusion closer to the beginning."
+            ],
+            "correctAnswer": "Add reasons that explain why the opinion makes sense.",
+            "reviewNote": "The next step matches the need."
+          },
+          {
+            "section": "Publishing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Formatting should help the reader follow the writing.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Format supports reading."
+          },
+          {
+            "section": "Reflection",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A useful reflection can include both a strength and a next step.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "That makes reflection specific."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-4-final-quiz",
+      "title": "Unit 4 Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherOverview": "Use this quiz after students complete the Writing Forms and Research lessons.",
+      "teacherSummary": "The Unit 4 final quiz checks planning, narrative, opinion, informational writing, research notes, introductions, conclusions, revision, publishing, and reflection.",
+      "quiz": {
+        "title": "Writing Forms and Research Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Planning",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A student writes to convince the class to try a weekly cleanup job chart. What is the purpose?",
+            "choices": [
+              "to persuade with reasons",
+              "to tell a fictional adventure",
+              "to explain how charts are printed"
+            ],
+            "correctAnswer": "to persuade with reasons",
+            "reviewNote": "The writer wants to convince."
+          },
+          {
+            "section": "Part A: Planning",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "Which detail best fits directions for younger students?",
+            "choices": [
+              "Put your finished page in the class hand-in basket.",
+              "Place completed materials in the proper classroom location.",
+              "Put the page where your teacher usually collects work."
+            ],
+            "correctAnswer": "Put your finished page in the class hand-in basket.",
+            "reviewNote": "The wording is clear for younger readers."
+          },
+          {
+            "section": "Part B: Narrative",
+            "skill": "Problem",
+            "type": "multipleChoice",
+            "prompt": "Which sentence gives a clear story problem?",
+            "choices": [
+              "The class display fell just before visitors arrived.",
+              "The display leaned forward when students opened the door.",
+              "The visitors arrived before the class expected them."
+            ],
+            "correctAnswer": "The class display fell just before visitors arrived.",
+            "reviewNote": "The fallen display creates a problem."
+          },
+          {
+            "section": "Part B: Narrative",
+            "skill": "Event Order",
+            "type": "multipleChoice",
+            "prompt": "Which order makes the most sense?",
+            "choices": [
+              "The kite string snapped, the kite drifted into a tree, then the children asked for help.",
+              "The children asked for help, the kite string snapped, then the kite flew normally.",
+              "The children noticed the wind, packed the kite, then saw it in the tree."
+            ],
+            "correctAnswer": "The kite string snapped, the kite drifted into a tree, then the children asked for help.",
+            "reviewNote": "The order follows cause and effect."
+          },
+          {
+            "section": "Part C: Opinion",
+            "skill": "Claim",
+            "type": "multipleChoice",
+            "prompt": "Which sentence states a clear opinion?",
+            "choices": [
+              "Our school should start a walking club because it would encourage healthy habits.",
+              "Many students walk in hallways.",
+              "A club can meet after lunch."
+            ],
+            "correctAnswer": "Our school should start a walking club because it would encourage healthy habits.",
+            "reviewNote": "It states a supported claim."
+          },
+          {
+            "section": "Part C: Opinion",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Claim: A class garden would help learning. Which evidence supports it best?",
+            "choices": [
+              "Students could measure plant growth and record changes each week.",
+              "Gardens can have fences.",
+              "Some students have seen gardens before."
+            ],
+            "correctAnswer": "Students could measure plant growth and record changes each week.",
+            "reviewNote": "It connects the garden to learning."
+          },
+          {
+            "section": "Part C: Opinion",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which sentence has the most respectful persuasive tone?",
+            "choices": [
+              "Please consider adding another recycling bin near the lunch area.",
+              "A recycling bin near the lunch area would solve the problem.",
+              "Students should agree that another recycling bin is needed."
+            ],
+            "correctAnswer": "Please consider adding another recycling bin near the lunch area.",
+            "reviewNote": "It is polite and clear."
+          },
+          {
+            "section": "Part D: Informational",
+            "skill": "Focus",
+            "type": "multipleChoice",
+            "prompt": "Which topic is focused enough for a short informational report?",
+            "choices": [
+              "how a seed becomes a sunflower",
+              "how flowers grow in spring",
+              "why plants need sunlight"
+            ],
+            "correctAnswer": "how a seed becomes a sunflower",
+            "reviewNote": "It can be explained in a short piece."
+          },
+          {
+            "section": "Part D: Informational",
+            "skill": "Heading",
+            "type": "multipleChoice",
+            "prompt": "Which heading best fits facts about what turtles eat?",
+            "choices": [
+              "Turtle Diet",
+              "Turtle Habitat",
+              "Turtle Features"
+            ],
+            "correctAnswer": "Turtle Diet",
+            "reviewNote": "Diet means what an animal eats."
+          },
+          {
+            "section": "Part D: Informational",
+            "skill": "Order",
+            "type": "multipleChoice",
+            "prompt": "Which order best explains a process?",
+            "choices": [
+              "collect materials, build the frame, test the model, improve weak parts",
+              "test the model, collect materials, improve parts, build the frame",
+              "improve weak parts before anything has been built"
+            ],
+            "correctAnswer": "collect materials, build the frame, test the model, improve weak parts",
+            "reviewNote": "The steps follow a sensible order."
+          },
+          {
+            "section": "Part E: Research",
+            "skill": "Source",
+            "type": "multipleChoice",
+            "prompt": "Question: How did voyageurs travel long distances? Which source fits best?",
+            "choices": [
+              "a history article about canoes and fur trade routes",
+              "a history map showing fur trade posts",
+              "a museum page about birchbark canoe building"
+            ],
+            "correctAnswer": "a history article about canoes and fur trade routes",
+            "reviewNote": "It matches the research question."
+          },
+          {
+            "section": "Part E: Research",
+            "skill": "Notes",
+            "type": "multipleChoice",
+            "prompt": "Source: 'The heart pumps blood through the body.' Which note is best?",
+            "choices": [
+              "heart moves blood through body",
+              "The heart pumps blood through the body.",
+              "heart keeps blood moving"
+            ],
+            "correctAnswer": "heart moves blood through body",
+            "reviewNote": "It is short and in the student's own words."
+          },
+          {
+            "section": "Part E: Research",
+            "skill": "Credit",
+            "type": "trueFalse",
+            "prompt": "Writers should keep track of sources so they can give credit and check information again.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Source tracking is useful and honest."
+          },
+          {
+            "section": "Part F: Introductions",
+            "skill": "Report Opening",
+            "type": "multipleChoice",
+            "prompt": "Which opening best starts a report about pulleys?",
+            "choices": [
+              "Pulleys are simple machines that help people lift or move loads.",
+              "I saw a pulley once.",
+              "This report starts right now."
+            ],
+            "correctAnswer": "Pulleys are simple machines that help people lift or move loads.",
+            "reviewNote": "It introduces the topic."
+          },
+          {
+            "section": "Part F: Conclusions",
+            "skill": "Narrative Ending",
+            "type": "multipleChoice",
+            "prompt": "Which ending best fits a story about learning courage?",
+            "choices": [
+              "Although her voice shook, Tessa stepped forward and gave her answer.",
+              "The classroom had windows.",
+              "Answers can be written or spoken."
+            ],
+            "correctAnswer": "Although her voice shook, Tessa stepped forward and gave her answer.",
+            "reviewNote": "It connects to courage."
+          },
+          {
+            "section": "Part G: Revision",
+            "skill": "Precise Word",
+            "type": "multipleChoice",
+            "prompt": "Which sentence uses the most precise verb?",
+            "choices": [
+              "The rabbit darted under the fence.",
+              "The rabbit went under the fence.",
+              "The rabbit was near the fence."
+            ],
+            "correctAnswer": "The rabbit darted under the fence.",
+            "reviewNote": "Darted gives a clearer action."
+          },
+          {
+            "section": "Part G: Revision",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "Which revision best fits a formal note to the principal?",
+            "choices": [
+              "Would it be possible to add another bench near the playground?",
+              "Please add a playground bench because students need one.",
+              "We think a new bench would make the playground better."
+            ],
+            "correctAnswer": "Would it be possible to add another bench near the playground?",
+            "reviewNote": "It uses respectful wording."
+          },
+          {
+            "section": "Part H: Publishing",
+            "skill": "Proofreading",
+            "type": "multipleChoice",
+            "prompt": "Which check is proofreading?",
+            "choices": [
+              "checking capitals, punctuation, and spelling",
+              "choosing a completely new topic",
+              "adding a second conclusion after publishing"
+            ],
+            "correctAnswer": "checking capitals, punctuation, and spelling",
+            "reviewNote": "Proofreading checks surface errors."
+          },
+          {
+            "section": "Part H: Reflection",
+            "skill": "Next Step",
+            "type": "multipleChoice",
+            "prompt": "A student says, 'My facts are strong, but my order is confusing.' What next step fits best?",
+            "choices": [
+              "Group related facts under headings.",
+              "Add one more fact to each paragraph.",
+              "Write a stronger closing sentence."
+            ],
+            "correctAnswer": "Group related facts under headings.",
+            "reviewNote": "The next step matches the problem."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Different writing forms can require different plans.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A story, report, and opinion paragraph are planned differently."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Writing Forms and Research mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
+    }
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The final unit quiz checks planning, narrative writing, opinion writing, informational writing, research notes, introductions and conclusions, revision, publishing, and reflection."
+  }
+}
