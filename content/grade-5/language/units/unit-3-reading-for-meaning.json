@@ -1,0 +1,2783 @@
+{
+  "id": "grade-5-language-unit-3",
+  "title": "Reading for Meaning",
+  "strand": "Comprehension: Understanding and Responding to Texts",
+  "unitGoal": "Students will read, listen to, and view texts carefully, identify main ideas and details, make inferences, compare texts, and explain their thinking with evidence.",
+  "lessons": [
+    {
+      "id": "grade-5-language-unit-3-text-evidence",
+      "title": "Choosing Just-Right Text Evidence",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose text evidence that strongly supports an answer.",
+      "successCriteria": [
+        "I can find evidence that connects directly to the question.",
+        "I can tell the difference between a detail and strong support.",
+        "I can choose evidence that proves my answer, not just evidence that sounds interesting."
+      ],
+      "vocabulary": [
+        "evidence",
+        "support",
+        "quote",
+        "detail",
+        "prove"
+      ],
+      "teacherOverview": "Students practise choosing evidence that directly supports a reading answer.",
+      "teacherSummary": "Students practise choosing evidence that directly supports a reading answer.",
+      "lessonContent": [
+        "Text evidence is information from the text that supports an answer.",
+        "Strong evidence connects directly to the question being asked.",
+        "A detail can be true but still not be the best evidence for a particular answer.",
+        "A quote uses the author's exact words; a paraphrase says the idea in your own words.",
+        "Good readers choose evidence that helps prove the answer they are giving."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Evidence Finder Mission",
+        "description": "Choose the details that best support reading answers.",
+        "levels": [
+          "Level 1: Match Evidence to the Question",
+          "Level 2: Choose Stronger Support"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Choosing Text Evidence Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Direct support, strong evidence, details, and paraphrasing"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Evidence Finder Mission",
+        "mission": "Choose the details that best support reading answers.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "Before You Begin",
+            "prompt": "Get ready: evidence must match",
+            "text": "When you answer a reading question, do not choose a detail just because it is in the text. Choose evidence that helps prove your answer. Strong evidence matches the question closely."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "Read the Question First",
+            "prompt": "Know what you are proving",
+            "text": "If the question asks why a character is nervous, look for words, actions, or thoughts that show nervousness. If the question asks where a story happens, look for setting clues instead."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "Setting Evidence",
+            "prompt": "Question: Where does the scene happen? Text: 'Maya tightened her skates and stepped onto the frozen pond.' Which evidence best answers the question?",
+            "choices": [
+              "stepped onto the frozen pond",
+              "tightened her skates",
+              "Maya stepped carefully"
+            ],
+            "correctAnswer": "stepped onto the frozen pond",
+            "feedback": "Correct. That evidence tells where the scene happens.",
+            "hint": "Look for the place clue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "Feeling Evidence",
+            "prompt": "Text: 'Jonah reread the note, rubbed his forehead, and took a slow breath before knocking.' What evidence best supports that Jonah feels nervous?",
+            "choices": [
+              "reread the note and took a slow breath",
+              "knocking happened after the note",
+              "Jonah read before knocking"
+            ],
+            "correctAnswer": "reread the note and took a slow breath",
+            "feedback": "Yes. Those actions suggest nervousness.",
+            "hint": "Look for actions that show how he feels."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "True Detail or Strong Evidence",
+            "prompt": "Text: 'The class planted beans on Monday. By Friday, two tiny green shoots had pushed through the soil.' Which evidence best supports that the beans began to grow?",
+            "choices": [
+              "two tiny green shoots had pushed through the soil",
+              "the class planted beans on Monday",
+              "the beans were planted in soil"
+            ],
+            "correctAnswer": "two tiny green shoots had pushed through the soil",
+            "feedback": "Correct. The shoots are the best proof of growth.",
+            "hint": "Find the detail that proves growth happened."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "True or False",
+            "prompt": "A detail can be true but not be the best evidence for the question.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Evidence must fit the question.",
+            "hint": "A true detail is not always the strongest support."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Match Evidence to the Question",
+            "title": "Level 1 Complete",
+            "prompt": "You practised matching evidence to a question.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose Stronger Support",
+            "title": "Compare Evidence",
+            "prompt": "Some evidence is stronger",
+            "text": "Two details may both be true, but one may support your answer better. Strong evidence is specific and connected to the exact answer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Stronger Support",
+            "title": "Best Support",
+            "prompt": "Answer: The trail was difficult. Which evidence supports this answer best?",
+            "choices": [
+              "The hikers climbed over fallen branches and crossed muddy ground.",
+              "The hikers started walking after breakfast.",
+              "The trail was near a small lake."
+            ],
+            "correctAnswer": "The hikers climbed over fallen branches and crossed muddy ground.",
+            "feedback": "Correct. Fallen branches and mud show difficulty.",
+            "hint": "Choose the evidence that proves difficult."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Stronger Support",
+            "title": "Quote or Paraphrase",
+            "prompt": "Which sentence is a paraphrase of 'The storm rattled the windows all night'?",
+            "choices": [
+              "The wind and rain shook the windows through the night.",
+              "The storm rattled the windows all night.",
+              "The windows made noise during the storm."
+            ],
+            "correctAnswer": "The wind and rain shook the windows through the night.",
+            "feedback": "Yes. It says the idea in different words.",
+            "hint": "A paraphrase keeps the meaning but changes the wording."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Stronger Support",
+            "title": "Evidence for Character",
+            "prompt": "Text: 'Ava shared her lunch with Ben after he dropped his sandwich.' What does this evidence best show about Ava?",
+            "choices": [
+              "She is thoughtful.",
+              "She is prepared for lunch.",
+              "She notices what happens around her."
+            ],
+            "correctAnswer": "She is thoughtful.",
+            "feedback": "Correct. Sharing lunch shows care for someone else.",
+            "hint": "Ask what the action reveals."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Stronger Support",
+            "title": "True or False",
+            "prompt": "Good evidence should help prove the answer, not just repeat a detail that is nearby in the text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Evidence should support the answer.",
+            "hint": "Evidence has a job."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose Stronger Support",
+            "title": "Mission Complete",
+            "prompt": "You practised choosing stronger evidence.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Choosing Text Evidence Quiz",
+        "questions": [
+          {
+            "section": "Text Evidence",
+            "skill": "Setting",
+            "type": "multipleChoice",
+            "prompt": "Question: Where is the story happening? Text: 'The smell of chlorine filled the air as Caleb waited beside lane three.' Which evidence best answers the question?",
+            "choices": [
+              "chlorine and lane three",
+              "Caleb waited beside lane three",
+              "the air smelled strong"
+            ],
+            "correctAnswer": "chlorine and lane three",
+            "reviewNote": "Those details point to a pool."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "Feeling",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Nora checked the clock twice and tapped her pencil while she waited for her turn.' What evidence best shows Nora is impatient or nervous?",
+            "choices": [
+              "checked the clock twice and tapped her pencil",
+              "waited for her turn",
+              "Nora was next soon"
+            ],
+            "correctAnswer": "checked the clock twice and tapped her pencil",
+            "reviewNote": "Those actions support the feeling."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "Best Support",
+            "type": "multipleChoice",
+            "prompt": "Answer: The garden needed rain. Which evidence best supports the answer?",
+            "choices": [
+              "The leaves drooped and the soil was cracked.",
+              "The garden had carrots and beans.",
+              "The garden had not been watered that morning."
+            ],
+            "correctAnswer": "The leaves drooped and the soil was cracked.",
+            "reviewNote": "Drooping leaves and cracked soil support the answer."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "Paraphrase",
+            "type": "multipleChoice",
+            "prompt": "Which is a paraphrase of 'The room grew silent when the principal entered'?",
+            "choices": [
+              "Everyone became quiet when the principal came in.",
+              "The room grew silent when the principal entered.",
+              "The principal walked into the room."
+            ],
+            "correctAnswer": "Everyone became quiet when the principal came in.",
+            "reviewNote": "A paraphrase says the same idea in new words."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The strongest evidence is the detail that connects most clearly to the question.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Strong evidence directly supports the answer."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Any sentence from the text is equally useful as evidence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Evidence should be chosen for the answer."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "Character",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Eli stayed after practice to help stack the chairs without being asked.' What does this best show?",
+            "choices": [
+              "Eli is helpful.",
+              "Eli follows the practice schedule.",
+              "Eli knows where the chairs belong."
+            ],
+            "correctAnswer": "Eli is helpful.",
+            "reviewNote": "His action supports that trait."
+          },
+          {
+            "section": "Text Evidence",
+            "skill": "Precision",
+            "type": "multipleChoice",
+            "prompt": "Which habit helps most when choosing evidence?",
+            "choices": [
+              "Read the question, choose an answer, then find a detail that proves it.",
+              "Use a detail from the same paragraph even if it supports a different idea.",
+              "Choose a sentence that sounds important before checking the question."
+            ],
+            "correctAnswer": "Read the question, choose an answer, then find a detail that proves it.",
+            "reviewNote": "Evidence should support the answer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-main-idea-details",
+      "title": "Main Idea and Supporting Details",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify the main idea of a text and choose details that support it.",
+      "successCriteria": [
+        "I can tell what a paragraph or short text is mostly about.",
+        "I can choose details that support the main idea.",
+        "I can avoid choosing a small detail as the main idea."
+      ],
+      "vocabulary": [
+        "main idea",
+        "supporting detail",
+        "topic",
+        "summary",
+        "mostly about"
+      ],
+      "teacherOverview": "Students practise separating the main idea from smaller supporting details.",
+      "teacherSummary": "Students practise separating the main idea from smaller supporting details.",
+      "lessonContent": [
+        "The topic tells what the text is about in one or two words.",
+        "The main idea tells the most important message or point about the topic.",
+        "Supporting details explain, prove, or give examples of the main idea.",
+        "A main idea is usually broader than one small detail.",
+        "A good summary includes the main idea and the most important details without retelling every sentence."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Main Idea Builder",
+        "description": "Find what a text is mostly about and choose the details that support it.",
+        "levels": [
+          "Level 1: Find the Big Idea",
+          "Level 2: Choose Supporting Details"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Main Idea and Details Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Topics, main ideas, supporting details, and short summaries"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Main Idea Builder",
+        "mission": "Find what a text is mostly about and choose the details that support it.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Big Idea",
+            "title": "Before You Begin",
+            "prompt": "Get ready: topic is not enough",
+            "text": "A topic might be 'bees,' but a main idea says more, such as 'Bees help plants grow by carrying pollen.' The main idea is the big point the details support."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Big Idea",
+            "title": "Do Not Pick a Tiny Detail",
+            "prompt": "Look for the whole point",
+            "text": "A detail may be true, but it is usually too small to be the main idea. Ask: What are most of the sentences helping me understand?"
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Big Idea",
+            "title": "Topic or Main Idea?",
+            "prompt": "Text: 'Beavers build dams from branches and mud. These dams slow moving water and create ponds. Many fish, birds, and insects use these ponds as homes.' Which is the best main idea?",
+            "choices": [
+              "Beaver dams create helpful habitats for other living things.",
+              "Beavers use branches and mud.",
+              "Some insects live near ponds."
+            ],
+            "correctAnswer": "Beaver dams create helpful habitats for other living things.",
+            "feedback": "Correct. It covers the whole paragraph.",
+            "hint": "Choose the answer that includes most of the details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Big Idea",
+            "title": "Mostly About",
+            "prompt": "Text: 'During a class debate, students listened to each speaker, took notes, and responded politely. Even when they disagreed, they gave reasons instead of interrupting.' What is the text mostly about?",
+            "choices": [
+              "Respectful debate habits",
+              "Taking notes with pencils",
+              "The number of speakers"
+            ],
+            "correctAnswer": "Respectful debate habits",
+            "feedback": "Yes. The details all point to respectful discussion.",
+            "hint": "Look for the idea all details support."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Big Idea",
+            "title": "Too Narrow",
+            "prompt": "Which choice is too narrow to be the main idea of a paragraph about three ways libraries help communities?",
+            "choices": [
+              "Libraries offer useful services to communities.",
+              "Some libraries have story time.",
+              "Communities can use public spaces."
+            ],
+            "correctAnswer": "Some libraries have story time.",
+            "feedback": "Correct. Story time is one detail, not the whole idea.",
+            "hint": "Too narrow means it covers only one part."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Big Idea",
+            "title": "True or False",
+            "prompt": "A main idea should fit most of the important details in the text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Details should connect to the main idea.",
+            "hint": "The main idea is the big point."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Find the Big Idea",
+            "title": "Level 1 Complete",
+            "prompt": "You practised finding main ideas.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose Supporting Details",
+            "title": "Details Have a Job",
+            "prompt": "Details support the main idea",
+            "text": "Supporting details are not just extra facts. They help explain the main idea. If a detail does not connect to the main idea, it may belong in another paragraph."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Supporting Details",
+            "title": "Best Detail",
+            "prompt": "Main idea: Regular reading helps students build vocabulary. Which detail best supports it?",
+            "choices": [
+              "Students meet new words in stories, articles, and poems.",
+              "Students can choose books that match their interests.",
+              "Students may read silently or with a group."
+            ],
+            "correctAnswer": "Students meet new words in stories, articles, and poems.",
+            "feedback": "Correct. The detail explains how reading builds vocabulary.",
+            "hint": "Choose the detail that explains the main idea."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Supporting Details",
+            "title": "Summary Choice",
+            "prompt": "Text: 'The school garden gives students a place to study plants. Classes measure growth, compare soil, and learn how weather affects seedlings.' Which summary is best?",
+            "choices": [
+              "The school garden helps students learn about plants through observation.",
+              "The garden has soil and seedlings.",
+              "Students go outside sometimes."
+            ],
+            "correctAnswer": "The school garden helps students learn about plants through observation.",
+            "feedback": "Yes. It includes the main point without retelling every detail.",
+            "hint": "A summary should be brief and complete."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Supporting Details",
+            "title": "Unrelated Detail",
+            "prompt": "Main idea: Bicycling safely requires attention. Which detail does not belong?",
+            "choices": [
+              "A cyclist should check traffic before turning.",
+              "A helmet should fit properly.",
+              "Some cyclists ride longer distances on weekends."
+            ],
+            "correctAnswer": "Some cyclists ride longer distances on weekends.",
+            "feedback": "Correct. Distance does not support the safety idea.",
+            "hint": "Look for the detail that does not help prove the main idea."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Supporting Details",
+            "title": "True or False",
+            "prompt": "A summary should retell every small detail in the same order.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. A summary should focus on the main idea and key details.",
+            "hint": "A summary is shorter than the text."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose Supporting Details",
+            "title": "Mission Complete",
+            "prompt": "You practised main ideas, details, and summaries.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Main Idea and Details Quiz",
+        "questions": [
+          {
+            "section": "Main Idea",
+            "skill": "Topic vs Main Idea",
+            "type": "multipleChoice",
+            "prompt": "Text: 'A rain barrel catches water from the roof. Families can use this water for gardens during dry weeks. This saves treated water for other needs.' What is the best main idea?",
+            "choices": [
+              "Rain barrels help conserve water for outdoor use.",
+              "Roofs can be wet after rain.",
+              "Families sometimes have gardens."
+            ],
+            "correctAnswer": "Rain barrels help conserve water for outdoor use.",
+            "reviewNote": "It covers the whole paragraph."
+          },
+          {
+            "section": "Main Idea",
+            "skill": "Mostly About",
+            "type": "multipleChoice",
+            "prompt": "A paragraph explains how guide dogs are trained, how they help people move safely, and why they must stay focused. What is it mostly about?",
+            "choices": [
+              "The work and training of guide dogs",
+              "Dogs that enjoy walking",
+              "People crossing streets"
+            ],
+            "correctAnswer": "The work and training of guide dogs",
+            "reviewNote": "This is broad enough for all details."
+          },
+          {
+            "section": "Details",
+            "skill": "Supporting Detail",
+            "type": "multipleChoice",
+            "prompt": "Main idea: A good map helps hikers stay on a trail. Which detail supports it best?",
+            "choices": [
+              "Trail symbols show turns, water, and campsites.",
+              "Some hikers carry snacks.",
+              "Maps can be folded."
+            ],
+            "correctAnswer": "Trail symbols show turns, water, and campsites.",
+            "reviewNote": "Symbols help hikers navigate."
+          },
+          {
+            "section": "Details",
+            "skill": "Too Narrow",
+            "type": "multipleChoice",
+            "prompt": "Which main idea is too narrow for a text about different ways music can affect mood, memory, and teamwork?",
+            "choices": [
+              "Music can help people in several ways.",
+              "A drum keeps a steady beat.",
+              "People listen to music."
+            ],
+            "correctAnswer": "A drum keeps a steady beat.",
+            "reviewNote": "It is only one small detail."
+          },
+          {
+            "section": "Summary",
+            "skill": "Best Summary",
+            "type": "multipleChoice",
+            "prompt": "Which summary is best for a paragraph about how recycling paper saves trees, reduces waste, and uses less energy?",
+            "choices": [
+              "Recycling paper can protect resources in several ways.",
+              "Recycling paper helps save trees.",
+              "Recycling paper is one way people reduce waste."
+            ],
+            "correctAnswer": "Recycling paper can protect resources in several ways.",
+            "reviewNote": "It includes the main point and key idea."
+          },
+          {
+            "section": "Details",
+            "skill": "Unrelated Detail",
+            "type": "multipleChoice",
+            "prompt": "Main idea: A class newsletter shares important school information. Which detail does not support it?",
+            "choices": [
+              "It lists upcoming events.",
+              "It reminds families about forms.",
+              "It is printed on white paper."
+            ],
+            "correctAnswer": "It is printed on white paper.",
+            "reviewNote": "Paper colour does not support the purpose."
+          },
+          {
+            "section": "Main Idea",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The main idea should be wider than one small example.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A main idea covers the important details."
+          },
+          {
+            "section": "Summary",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A summary should include the main idea and key details, not every sentence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A summary is shorter than the original."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-making-inferences",
+      "title": "Making Inferences",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will combine text clues with what they already know to make reasonable inferences.",
+      "successCriteria": [
+        "I can find clues that are stated in the text.",
+        "I can use those clues to make a reasonable inference.",
+        "I can avoid inferences that go farther than the evidence allows."
+      ],
+      "vocabulary": [
+        "inference",
+        "clue",
+        "background knowledge",
+        "reasonable",
+        "evidence"
+      ],
+      "teacherOverview": "Students practise making inferences that are supported by text clues.",
+      "teacherSummary": "Students practise making inferences that are supported by text clues.",
+      "lessonContent": [
+        "An inference is a thoughtful idea based on clues and what the reader already knows.",
+        "A good inference is not a wild guess; it must fit the evidence.",
+        "Text clues can include actions, words, thoughts, setting details, or repeated ideas.",
+        "Readers should be willing to adjust an inference when new evidence appears.",
+        "A careful answer explains both the inference and the clue that supports it."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Inference Investigator",
+        "description": "Use text clues to make careful inferences.",
+        "levels": [
+          "Level 1: Find the Clues",
+          "Level 2: Choose a Reasonable Inference"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Making Inferences Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Text clues, reasonable inferences, and evidence-based thinking"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Inference Investigator",
+        "mission": "Use text clues to make careful inferences.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Clues",
+            "title": "Before You Begin",
+            "prompt": "Get ready: infer carefully",
+            "text": "Authors do not always tell readers everything directly. You may need to use clues. A good inference fits the text and can be explained with evidence."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Clues",
+            "title": "Use Clues Plus Thinking",
+            "prompt": "Do not guess wildly",
+            "text": "If a character grabs an umbrella and looks at dark clouds, you might infer rain is coming. That inference uses a text clue and common sense. If there is no clue, the answer is probably too big a guess."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clues",
+            "title": "Feeling Clue",
+            "prompt": "Text: 'Sofia smiled at the letter and read the first line again.' What can you reasonably infer?",
+            "choices": [
+              "Sofia is pleased by the letter.",
+              "Sofia wants to memorize the letter.",
+              "Sofia is checking the letter for mistakes."
+            ],
+            "correctAnswer": "Sofia is pleased by the letter.",
+            "feedback": "Correct. Smiling and rereading suggest she is pleased.",
+            "hint": "Use the action clue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clues",
+            "title": "Weather Clue",
+            "prompt": "Text: 'Dad checked the dark sky and moved the picnic basket back inside.' What can you infer?",
+            "choices": [
+              "He thinks rain may be coming.",
+              "He dislikes picnic baskets.",
+              "He has already eaten lunch."
+            ],
+            "correctAnswer": "He thinks rain may be coming.",
+            "feedback": "Yes. The dark sky and moving inside support that inference.",
+            "hint": "Look at both clues together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clues",
+            "title": "Character Clue",
+            "prompt": "Text: 'Marcus waited until everyone had a turn before choosing a game for himself.' Which trait does this best support?",
+            "choices": [
+              "patient",
+              "careless",
+              "surprised"
+            ],
+            "correctAnswer": "patient",
+            "feedback": "Correct. Waiting for others shows patience.",
+            "hint": "Actions can reveal character."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Clues",
+            "title": "True or False",
+            "prompt": "An inference should be supported by clues from the text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Evidence keeps an inference reasonable.",
+            "hint": "A guess without clues is weak."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Find the Clues",
+            "title": "Level 1 Complete",
+            "prompt": "You practised finding clues for inferences.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose a Reasonable Inference",
+            "title": "Stay Close to the Evidence",
+            "prompt": "Avoid going too far",
+            "text": "Some answers may sound possible, but they go beyond what the text says. Choose the inference that fits the clues without adding too much."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose a Reasonable Inference",
+            "title": "Best Inference",
+            "prompt": "Text: 'The recipe said ten minutes, but the muffins were still pale and soft in the middle.' What is the best inference?",
+            "choices": [
+              "They need more time to bake.",
+              "The oven is broken forever.",
+              "The recipe was written for soup."
+            ],
+            "correctAnswer": "They need more time to bake.",
+            "feedback": "Correct. Pale and soft supports needing more baking time.",
+            "hint": "Choose the answer closest to the evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose a Reasonable Inference",
+            "title": "Not Enough Evidence",
+            "prompt": "Text: 'Amir closed his notebook when the bell rang.' Which inference goes too far?",
+            "choices": [
+              "Amir was upset for the rest of the day.",
+              "Class may be ending.",
+              "Amir was using a notebook."
+            ],
+            "correctAnswer": "Amir was upset for the rest of the day.",
+            "feedback": "Yes. The text does not give enough evidence for that bigger claim.",
+            "hint": "Be careful with claims that go past the evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose a Reasonable Inference",
+            "title": "Changing an Inference",
+            "prompt": "A reader first thinks a character is angry, but later the text says the character was worried. What should the reader do?",
+            "choices": [
+              "Adjust the inference using the new clue.",
+              "Keep both ideas but explain only the first one.",
+              "Choose the idea that sounded strongest at the beginning."
+            ],
+            "correctAnswer": "Adjust the inference using the new clue.",
+            "feedback": "Correct. Readers update inferences as evidence grows.",
+            "hint": "New evidence matters."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose a Reasonable Inference",
+            "title": "True or False",
+            "prompt": "A reasonable inference can be explained with clues from the text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. You should be able to explain your thinking.",
+            "hint": "Evidence supports thinking."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose a Reasonable Inference",
+            "title": "Mission Complete",
+            "prompt": "You practised making careful inferences.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Making Inferences Quiz",
+        "questions": [
+          {
+            "section": "Inference",
+            "skill": "Feeling",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Leah held the envelope tightly and whispered, \"I hope it is good news.\"' What can you infer?",
+            "choices": [
+              "Leah is anxious or hopeful.",
+              "Leah has already read the news.",
+              "Leah is sure the news is bad."
+            ],
+            "correctAnswer": "Leah is anxious or hopeful.",
+            "reviewNote": "Her words and action support this."
+          },
+          {
+            "section": "Inference",
+            "skill": "Setting Clue",
+            "type": "multipleChoice",
+            "prompt": "Text: 'The announcer called the next swimmer to lane four as the crowd cheered.' Where is this likely happening?",
+            "choices": [
+              "At a swim meet",
+              "At a school assembly",
+              "At an outdoor race"
+            ],
+            "correctAnswer": "At a swim meet",
+            "reviewNote": "Lane four and swimmer are clues."
+          },
+          {
+            "section": "Inference",
+            "skill": "Trait",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Nadia checked every answer twice before handing in her quiz.' Which trait fits best?",
+            "choices": [
+              "careful",
+              "worried",
+              "competitive"
+            ],
+            "correctAnswer": "careful",
+            "reviewNote": "Checking answers twice shows care."
+          },
+          {
+            "section": "Inference",
+            "skill": "Best Inference",
+            "type": "multipleChoice",
+            "prompt": "Text: 'The dog stood by the empty bowl and looked toward the cupboard.' What is the best inference?",
+            "choices": [
+              "The dog may want food.",
+              "The dog expects someone to move the bowl.",
+              "The dog is waiting for a walk."
+            ],
+            "correctAnswer": "The dog may want food.",
+            "reviewNote": "The empty bowl and cupboard are clues."
+          },
+          {
+            "section": "Inference",
+            "skill": "Too Far",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Cole missed the bus and sighed.' Which inference goes too far?",
+            "choices": [
+              "Cole missed an important appointment.",
+              "Cole may feel disappointed.",
+              "Cole did not catch the bus."
+            ],
+            "correctAnswer": "Cole missed an important appointment.",
+            "reviewNote": "The evidence does not support that extra claim."
+          },
+          {
+            "section": "Inference",
+            "skill": "Adjusting",
+            "type": "multipleChoice",
+            "prompt": "What should readers do when new evidence changes an earlier inference?",
+            "choices": [
+              "Revise the inference.",
+              "Mention the new clue but keep the old inference unchanged.",
+              "Use only the first clue because it came first."
+            ],
+            "correctAnswer": "Revise the inference.",
+            "reviewNote": "Good readers update their thinking."
+          },
+          {
+            "section": "Inference",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "An inference is stronger when it uses both text clues and careful thinking.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Both parts matter."
+          },
+          {
+            "section": "Inference",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "If an inference sounds interesting, it is correct even without evidence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Evidence is needed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-character-setting-plot",
+      "title": "Character, Setting, and Plot",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify how characters, setting, and plot events work together in a story.",
+      "successCriteria": [
+        "I can identify important character actions and traits.",
+        "I can explain how the setting affects the story.",
+        "I can place plot events in a sensible order."
+      ],
+      "vocabulary": [
+        "character",
+        "setting",
+        "plot",
+        "problem",
+        "solution"
+      ],
+      "teacherOverview": "Students practise noticing how story elements connect instead of studying them as separate labels.",
+      "teacherSummary": "Students practise noticing how story elements connect instead of studying them as separate labels.",
+      "lessonContent": [
+        "Characters are the people or beings in a story.",
+        "Setting tells when and where a story happens.",
+        "Plot is the chain of events, including the problem and how it is handled.",
+        "A setting can affect what characters are able to do.",
+        "A character's choices often move the plot forward."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Story Elements Mission",
+        "description": "Track characters, setting, and plot events to understand how a story works.",
+        "levels": [
+          "Level 1: Notice Story Elements",
+          "Level 2: Connect Events and Choices"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Character, Setting, and Plot Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Story elements, character traits, setting effects, problem, and solution"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Story Elements Mission",
+        "mission": "Track characters, setting, and plot events to understand how a story works.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice Story Elements",
+            "title": "Before You Begin",
+            "prompt": "Get ready: story parts work together",
+            "text": "A story is more than separate labels. Characters make choices, settings create possibilities or limits, and plot events show what happens because of those choices."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice Story Elements",
+            "title": "Problem and Solution",
+            "prompt": "Follow the plot",
+            "text": "Many stories have a problem that matters to the character. As the plot moves forward, the character responds. The solution shows how the problem is solved, improved, or understood differently."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Story Elements",
+            "title": "Character Trait",
+            "prompt": "Text: 'Lily practised the same piano measure six times before trying the whole song again.' Which trait fits best?",
+            "choices": [
+              "determined",
+              "careful",
+              "musical"
+            ],
+            "correctAnswer": "determined",
+            "feedback": "Correct. Practising again shows determination.",
+            "hint": "Look at what Lily does."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Story Elements",
+            "title": "Setting",
+            "prompt": "Text: 'The lantern swung as the canoe drifted toward the dock after sunset.' Which detail tells the setting?",
+            "choices": [
+              "canoe drifted toward the dock after sunset",
+              "the lantern swung",
+              "the canoe drifted slowly"
+            ],
+            "correctAnswer": "canoe drifted toward the dock after sunset",
+            "feedback": "Yes. It gives place and time clues.",
+            "hint": "Setting tells where and when."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Story Elements",
+            "title": "Problem",
+            "prompt": "Text: 'The team arrived at the field, but the only soccer ball was flat.' What is the problem?",
+            "choices": [
+              "The ball cannot be used properly.",
+              "The team needs to begin without warming up.",
+              "The field may not be ready for a game."
+            ],
+            "correctAnswer": "The ball cannot be used properly.",
+            "feedback": "Correct. A flat ball creates the problem.",
+            "hint": "Find what gets in the way."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Story Elements",
+            "title": "True or False",
+            "prompt": "The setting can affect what characters are able to do.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Place and time can create limits or opportunities.",
+            "hint": "Think about weather, location, or time."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Notice Story Elements",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying story elements.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Connect Events and Choices",
+            "title": "Cause and Effect in Plot",
+            "prompt": "Ask what changed",
+            "text": "Plot events often connect by cause and effect. One event leads to another. A character's choice may make the problem better, worse, or clearer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect Events and Choices",
+            "title": "Event Order",
+            "prompt": "Which order makes the most sense?",
+            "choices": [
+              "The map tore, the group asked for directions, then they found the trail.",
+              "The group found the trail, the map tore, then they asked for directions.",
+              "The group asked for directions, then the map tore after they reached the trail."
+            ],
+            "correctAnswer": "The map tore, the group asked for directions, then they found the trail.",
+            "feedback": "Correct. The torn map causes the group to ask for help.",
+            "hint": "Look for cause and effect."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect Events and Choices",
+            "title": "Choice Moves Plot",
+            "prompt": "Text: 'Instead of hiding the broken model, Theo told his group what happened and offered to help repair it.' How does Theo's choice affect the plot?",
+            "choices": [
+              "It gives the group a way to solve the problem honestly.",
+              "It shifts the focus from the model to Theo's feelings only.",
+              "It delays the problem because the group still does not know what happened."
+            ],
+            "correctAnswer": "It gives the group a way to solve the problem honestly.",
+            "feedback": "Yes. His honest choice helps move toward a solution.",
+            "hint": "Ask what changes because of the choice."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect Events and Choices",
+            "title": "Setting Effect",
+            "prompt": "Text: 'Because the power went out, the family read by flashlight and cooked supper on the camp stove.' How does the setting affect the events?",
+            "choices": [
+              "The outage changes what the family can use.",
+              "The family chooses camping activities for fun.",
+              "The camp stove becomes the main problem."
+            ],
+            "correctAnswer": "The outage changes what the family can use.",
+            "feedback": "Correct. The situation changes their choices.",
+            "hint": "The power outage is the important condition."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect Events and Choices",
+            "title": "True or False",
+            "prompt": "A character trait should be supported by actions or words in the story.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Traits need evidence.",
+            "hint": "Actions reveal character."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Connect Events and Choices",
+            "title": "Mission Complete",
+            "prompt": "You practised connecting character, setting, and plot.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Character, Setting, and Plot Quiz",
+        "questions": [
+          {
+            "section": "Story Elements",
+            "skill": "Character Trait",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Owen stayed after art class to wash the paint trays even though recess had started.' Which trait fits best?",
+            "choices": [
+              "responsible",
+              "helpful",
+              "artistic"
+            ],
+            "correctAnswer": "responsible",
+            "reviewNote": "His action shows responsibility."
+          },
+          {
+            "section": "Story Elements",
+            "skill": "Setting",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Snow covered the driveway, and icicles hung from the porch roof.' What setting detail is shown?",
+            "choices": [
+              "It is winter or very cold.",
+              "A storm has just ended.",
+              "The family is leaving soon."
+            ],
+            "correctAnswer": "It is winter or very cold.",
+            "reviewNote": "Snow and icicles are setting clues."
+          },
+          {
+            "section": "Plot",
+            "skill": "Problem",
+            "type": "multipleChoice",
+            "prompt": "Text: 'The costume zipper broke five minutes before the play began.' What is the problem?",
+            "choices": [
+              "The costume needs a quick repair.",
+              "The actor needs to learn new lines.",
+              "The play must move to a new setting."
+            ],
+            "correctAnswer": "The costume needs a quick repair.",
+            "reviewNote": "The broken zipper creates the problem."
+          },
+          {
+            "section": "Plot",
+            "skill": "Event Order",
+            "type": "multipleChoice",
+            "prompt": "Which order makes the clearest plot sequence?",
+            "choices": [
+              "The key was lost, the class searched the room, then the cabinet was opened.",
+              "The cabinet opened, the key was lost, then the class searched.",
+              "The class searched after the cabinet was opened and before the key was lost."
+            ],
+            "correctAnswer": "The key was lost, the class searched the room, then the cabinet was opened.",
+            "reviewNote": "The sequence follows cause and effect."
+          },
+          {
+            "section": "Setting",
+            "skill": "Effect",
+            "type": "multipleChoice",
+            "prompt": "How might a story set during a thunderstorm affect the plot?",
+            "choices": [
+              "Characters may need to change outdoor plans.",
+              "Characters may feel nervous because of the noise.",
+              "Characters may notice that the sky looks dark."
+            ],
+            "correctAnswer": "Characters may need to change outdoor plans.",
+            "reviewNote": "Weather can limit choices."
+          },
+          {
+            "section": "Character",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Which evidence best shows a character is generous?",
+            "choices": [
+              "She saves part of her snack for a classmate who forgot lunch.",
+              "She offers to help carry a heavy box.",
+              "She reminds her classmate about the lunch schedule."
+            ],
+            "correctAnswer": "She saves part of her snack for a classmate who forgot lunch.",
+            "reviewNote": "Sharing supports generosity."
+          },
+          {
+            "section": "Story Elements",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Plot events usually happen in an order that helps the story make sense.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Order helps readers follow the story."
+          },
+          {
+            "section": "Story Elements",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A setting can affect what characters are able to do.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Setting can affect events and choices."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-theme-message",
+      "title": "Theme and Message",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify a story's theme or message and support it with evidence.",
+      "successCriteria": [
+        "I can tell the difference between a topic and a theme.",
+        "I can choose a theme that fits the whole story.",
+        "I can support a theme with character choices and story events."
+      ],
+      "vocabulary": [
+        "theme",
+        "message",
+        "topic",
+        "lesson",
+        "evidence"
+      ],
+      "teacherOverview": "Students practise identifying themes that are supported by the whole story.",
+      "teacherSummary": "Students practise identifying themes that are supported by the whole story.",
+      "lessonContent": [
+        "A topic is one word or phrase, such as friendship, courage, or honesty.",
+        "A theme is a message about that topic, such as 'Honesty builds trust.'",
+        "A strong theme fits the whole story, not just one small moment.",
+        "Themes are supported by character choices, consequences, and changes.",
+        "Different readers may word a theme differently, but the evidence still needs to fit."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Theme Tracker",
+        "description": "Use story events and character choices to find a theme.",
+        "levels": [
+          "Level 1: Topic or Theme",
+          "Level 2: Support the Message"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Theme and Message Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Topic, theme, message, evidence, and story events"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Theme Tracker",
+        "mission": "Use story events and character choices to find a theme.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Topic or Theme",
+            "title": "Before You Begin",
+            "prompt": "Get ready: theme says something",
+            "text": "A topic names what a story is about. A theme says a message about that topic. 'Friendship' is a topic. 'True friends tell the truth kindly' is a theme."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Topic or Theme",
+            "title": "Use the Whole Story",
+            "prompt": "Theme needs support",
+            "text": "Do not choose a theme from one tiny detail. Look at what the main character learns, how choices turn out, and what idea appears across the story."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Topic or Theme",
+            "title": "Topic or Theme?",
+            "prompt": "Which choice is a theme rather than only a topic?",
+            "choices": [
+              "Courage means doing what is right even when it is hard.",
+              "Courage",
+              "A brave character"
+            ],
+            "correctAnswer": "Courage means doing what is right even when it is hard.",
+            "feedback": "Correct. It gives a message about courage.",
+            "hint": "A theme is usually a sentence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Topic or Theme",
+            "title": "Find the Topic",
+            "prompt": "A story is about two neighbours who learn to work together after arguing over a garden fence. What topic fits best?",
+            "choices": [
+              "cooperation",
+              "winter weather",
+              "lost treasure"
+            ],
+            "correctAnswer": "cooperation",
+            "feedback": "Yes. Working together points to cooperation.",
+            "hint": "Look for the big subject."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Topic or Theme",
+            "title": "Theme Choice",
+            "prompt": "In a story, a student admits a mistake and earns back trust. Which theme fits best?",
+            "choices": [
+              "Telling the truth can help repair trust.",
+              "Mistakes are impossible to fix.",
+              "Trust depends on being perfect."
+            ],
+            "correctAnswer": "Telling the truth can help repair trust.",
+            "feedback": "Correct. It fits the character's choice and result.",
+            "hint": "Choose a message that fits the whole situation."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Topic or Theme",
+            "title": "True or False",
+            "prompt": "A theme is usually broader than one small event.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Theme connects to the whole story.",
+            "hint": "One event can support a theme, but does not usually state it all."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Topic or Theme",
+            "title": "Level 1 Complete",
+            "prompt": "You practised telling topics and themes apart.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Support the Message",
+            "title": "Evidence for Theme",
+            "prompt": "Use character choices",
+            "text": "A theme is stronger when you can support it. Look for what the character chooses, what happens because of the choice, and what the character understands by the end."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Support the Message",
+            "title": "Best Evidence",
+            "prompt": "Theme: Small acts of kindness can encourage others. Which event supports it best?",
+            "choices": [
+              "Mina leaves a kind note, and later her classmate helps someone else.",
+              "Mina writes neatly in her notebook.",
+              "Mina and her classmate sit near each other."
+            ],
+            "correctAnswer": "Mina leaves a kind note, and later her classmate helps someone else.",
+            "feedback": "Correct. The kindness affects someone else.",
+            "hint": "Look for an event that shows the message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Support the Message",
+            "title": "Too Strong",
+            "prompt": "Which theme goes too far for a story where a student learns to ask for help with one difficult project?",
+            "choices": [
+              "Asking for help can be wise when a task is difficult.",
+              "A person should ask for help before trying alone.",
+              "One project can teach a student many lessons."
+            ],
+            "correctAnswer": "Asking for help can be wise when a task is difficult.",
+            "feedback": "Yes. It fits without overclaiming.",
+            "hint": "Choose the theme that fits the story without stretching it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Support the Message",
+            "title": "Character Change",
+            "prompt": "At first, Ben refuses to listen to advice. By the end, he accepts coaching and improves. Which theme fits?",
+            "choices": [
+              "Being teachable can help a person grow.",
+              "Coaching is useful only after a person struggles.",
+              "Winning is the clearest proof of growth."
+            ],
+            "correctAnswer": "Being teachable can help a person grow.",
+            "feedback": "Correct. His change supports the theme.",
+            "hint": "Look at how Ben changes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Support the Message",
+            "title": "True or False",
+            "prompt": "Two readers may word a theme differently if both versions fit the evidence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Themes can be phrased in more than one clear way.",
+            "hint": "Evidence is the important test."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Support the Message",
+            "title": "Mission Complete",
+            "prompt": "You practised finding and supporting themes.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Theme and Message Quiz",
+        "questions": [
+          {
+            "section": "Theme",
+            "skill": "Topic or Theme",
+            "type": "multipleChoice",
+            "prompt": "Which choice is a theme?",
+            "choices": [
+              "Perseverance can help people finish hard tasks.",
+              "Perseverance",
+              "A long race"
+            ],
+            "correctAnswer": "Perseverance can help people finish hard tasks.",
+            "reviewNote": "A theme gives a message."
+          },
+          {
+            "section": "Theme",
+            "skill": "Topic",
+            "type": "multipleChoice",
+            "prompt": "A story is about classmates who learn to forgive after a misunderstanding. Which topic fits best?",
+            "choices": [
+              "forgiveness",
+              "competition",
+              "curiosity"
+            ],
+            "correctAnswer": "forgiveness",
+            "reviewNote": "The story focuses on forgiveness."
+          },
+          {
+            "section": "Theme",
+            "skill": "Best Theme",
+            "type": "multipleChoice",
+            "prompt": "A character brags about doing everything alone, then learns that teamwork improves the project. Which theme fits?",
+            "choices": [
+              "Working with others can make good ideas stronger.",
+              "Teamwork matters only when a project is unfinished.",
+              "Confidence is the most important part of success."
+            ],
+            "correctAnswer": "Working with others can make good ideas stronger.",
+            "reviewNote": "It matches the change in the story."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Best Support",
+            "type": "multipleChoice",
+            "prompt": "Theme: Patience can help solve problems. Which evidence supports it best?",
+            "choices": [
+              "A character tries several careful solutions before fixing the kite.",
+              "A character studies the kite before flying it.",
+              "A character asks why the kite string is tangled."
+            ],
+            "correctAnswer": "A character tries several careful solutions before fixing the kite.",
+            "reviewNote": "Careful repeated effort supports patience."
+          },
+          {
+            "section": "Theme",
+            "skill": "Too Broad",
+            "type": "multipleChoice",
+            "prompt": "Which theme is too broad for a story about one child learning to apologize after hurting a friend's feelings?",
+            "choices": [
+              "People can never avoid hurting others.",
+              "A sincere apology can help repair a friendship.",
+              "Feelings matter in friendships."
+            ],
+            "correctAnswer": "People can never avoid hurting others.",
+            "reviewNote": "The evidence does not support such a broad claim."
+          },
+          {
+            "section": "Theme",
+            "skill": "Character Change",
+            "type": "multipleChoice",
+            "prompt": "A character begins by giving up quickly but later keeps practising. What theme might fit?",
+            "choices": [
+              "Growth often takes steady effort.",
+              "Trying harder is the same as succeeding.",
+              "Practice matters most when it is noticed."
+            ],
+            "correctAnswer": "Growth often takes steady effort.",
+            "reviewNote": "The character's change supports this."
+          },
+          {
+            "section": "Theme",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A topic is usually a word or phrase, while a theme is a message about the topic.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "That is the key difference."
+          },
+          {
+            "section": "Theme",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A theme should be supported by events and character choices from the story.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Evidence supports the theme."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-comparing-texts",
+      "title": "Comparing Two Texts",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will compare two texts by noticing similarities, differences, purpose, and point of view.",
+      "successCriteria": [
+        "I can identify what two texts have in common.",
+        "I can explain an important difference between two texts.",
+        "I can choose evidence from both texts to support a comparison."
+      ],
+      "vocabulary": [
+        "compare",
+        "contrast",
+        "similarity",
+        "difference",
+        "point of view"
+      ],
+      "teacherOverview": "Students practise comparing two short texts without relying on surface details only.",
+      "teacherSummary": "Students practise comparing two short texts without relying on surface details only.",
+      "lessonContent": [
+        "To compare means to notice similarities.",
+        "To contrast means to notice differences.",
+        "Good comparisons use important ideas, not only small surface details.",
+        "A reader can compare topic, purpose, point of view, structure, or evidence.",
+        "A strong comparison uses evidence from both texts."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Two-Text Comparison Mission",
+        "description": "Compare two texts and choose evidence from both.",
+        "levels": [
+          "Level 1: Find Similarities and Differences",
+          "Level 2: Compare Purpose and Evidence"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Comparing Two Texts Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Compare, contrast, purpose, point of view, and evidence from two texts"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Two-Text Comparison Mission",
+        "mission": "Compare two texts and choose evidence from both.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "Before You Begin",
+            "prompt": "Get ready: compare important ideas",
+            "text": "When you compare two texts, do more than notice that both have the word tree or both are short. Look for important similarities and differences in topic, message, purpose, or evidence."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "Use Both Texts",
+            "prompt": "A comparison needs two sides",
+            "text": "A strong comparison says something about both texts. If an answer only talks about one text, it is not a complete comparison."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "Similarity",
+            "prompt": "Text A explains how bees pollinate flowers. Text B tells a story about a child protecting a bee garden. What do the texts have in common?",
+            "choices": [
+              "Both connect bees to helping plants.",
+              "Both give instructions for planting a garden.",
+              "Both focus mainly on honey production."
+            ],
+            "correctAnswer": "Both connect bees to helping plants.",
+            "feedback": "Correct. Both texts connect bees and plants.",
+            "hint": "Look for the shared idea."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "Difference",
+            "prompt": "Text A gives facts about recycling. Text B is a poem that describes a bottle becoming something new. What is an important difference?",
+            "choices": [
+              "Text A mainly explains information; Text B uses poetic description.",
+              "Text A gives one person's feelings; Text B gives step-by-step directions.",
+              "Text A focuses on one bottle; Text B explains many recycling facts."
+            ],
+            "correctAnswer": "Text A mainly explains information; Text B uses poetic description.",
+            "feedback": "Yes. That compares the way the texts are written.",
+            "hint": "Think about form and purpose."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "Both Texts",
+            "prompt": "Which answer uses evidence from both texts?",
+            "choices": [
+              "Text A says the bridge is old, and Text B says the bridge needs repairs.",
+              "Both texts describe a bridge that matters to people nearby.",
+              "Text A and Text B both include details about a river."
+            ],
+            "correctAnswer": "Text A says the bridge is old, and Text B says the bridge needs repairs.",
+            "feedback": "Correct. It includes evidence from both texts.",
+            "hint": "A two-text answer needs both sides."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "True or False",
+            "prompt": "A comparison should usually include evidence from both texts.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Both texts matter.",
+            "hint": "Compare means two or more."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Find Similarities and Differences",
+            "title": "Level 1 Complete",
+            "prompt": "You practised comparing similarities and differences.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Compare Purpose and Evidence",
+            "title": "Purpose Matters",
+            "prompt": "Ask why each text was made",
+            "text": "Two texts can share a topic but have different purposes. One may inform, one may persuade, and one may entertain. Look at the author's choices and evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Purpose and Evidence",
+            "title": "Purpose",
+            "prompt": "Text A lists safety steps for crossing a street. Text B is a story about a character learning to cross safely. How are the purposes different?",
+            "choices": [
+              "Text A gives instructions; Text B teaches through a story.",
+              "Text A tells a personal memory; Text B gives numbered steps.",
+              "Both texts mainly try to persuade readers to drive less."
+            ],
+            "correctAnswer": "Text A gives instructions; Text B teaches through a story.",
+            "feedback": "Correct. The purposes are different even though the topic is related.",
+            "hint": "One is instructional; one is narrative."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Purpose and Evidence",
+            "title": "Point of View",
+            "prompt": "Text A says, 'Plastic waste harms ocean animals.' Text B says, 'I picked up litter at the beach and wondered where it came from.' What is a difference in point of view?",
+            "choices": [
+              "Text A sounds general and factual; Text B uses a personal first-person view.",
+              "Text A gives the writer's beach memory; Text B explains a general problem.",
+              "Both texts mainly describe the writer's feelings about a beach."
+            ],
+            "correctAnswer": "Text A sounds general and factual; Text B uses a personal first-person view.",
+            "feedback": "Yes. I shows first person in Text B.",
+            "hint": "Look at who is speaking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Purpose and Evidence",
+            "title": "Best Comparison",
+            "prompt": "Which comparison is strongest?",
+            "choices": [
+              "Both texts show that preparation helps people handle problems, but one uses facts and the other uses a story.",
+              "Both texts discuss preparation, but only one text includes a problem.",
+              "Both texts have the same message because both mention preparation."
+            ],
+            "correctAnswer": "Both texts show that preparation helps people handle problems, but one uses facts and the other uses a story.",
+            "feedback": "Correct. It compares meaning and structure.",
+            "hint": "Strong comparisons focus on important ideas."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Purpose and Evidence",
+            "title": "True or False",
+            "prompt": "Two texts can have the same topic but different purposes.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Topic and purpose are not the same.",
+            "hint": "A text can inform, persuade, entertain, or explain."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Compare Purpose and Evidence",
+            "title": "Mission Complete",
+            "prompt": "You practised comparing two texts.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Comparing Two Texts Quiz",
+        "questions": [
+          {
+            "section": "Compare Texts",
+            "skill": "Similarity",
+            "type": "multipleChoice",
+            "prompt": "Text A explains how rain forms. Text B is a poem describing a rainy afternoon. What is a similarity?",
+            "choices": [
+              "Both are connected to rain.",
+              "Both explain a weather process.",
+              "Both use feelings to describe rain."
+            ],
+            "correctAnswer": "Both are connected to rain.",
+            "reviewNote": "Both share the topic of rain."
+          },
+          {
+            "section": "Compare Texts",
+            "skill": "Difference",
+            "type": "multipleChoice",
+            "prompt": "Text A gives facts about foxes. Text B tells a fictional story about a fox. What is an important difference?",
+            "choices": [
+              "Text A informs; Text B entertains through a story.",
+              "Text A describes one made-up fox; Text B explains fox habitats.",
+              "Text A and Text B both try to teach the same facts."
+            ],
+            "correctAnswer": "Text A informs; Text B entertains through a story.",
+            "reviewNote": "The texts have different forms and purposes."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Both Texts",
+            "type": "multipleChoice",
+            "prompt": "Which comparison uses evidence from both texts?",
+            "choices": [
+              "Text A says the river is polluted; Text B shows volunteers cleaning the same river.",
+              "Both texts show people are worried about the river.",
+              "Text A and Text B both describe the river as important."
+            ],
+            "correctAnswer": "Text A says the river is polluted; Text B shows volunteers cleaning the same river.",
+            "reviewNote": "It uses both texts."
+          },
+          {
+            "section": "Purpose",
+            "skill": "Author's Purpose",
+            "type": "multipleChoice",
+            "prompt": "Text A tries to convince readers to bike to school. Text B explains how to adjust a bike helmet. How are the purposes different?",
+            "choices": [
+              "Text A persuades; Text B instructs.",
+              "Text A instructs readers to bike; Text B persuades readers to use helmets.",
+              "Both texts give advice, but neither has a main purpose."
+            ],
+            "correctAnswer": "Text A persuades; Text B instructs.",
+            "reviewNote": "The purposes are different."
+          },
+          {
+            "section": "Point of View",
+            "skill": "First Person",
+            "type": "multipleChoice",
+            "prompt": "Which sentence suggests first-person point of view?",
+            "choices": [
+              "I watched the clouds gather over the lake.",
+              "Clouds gathered over the lake while we waited.",
+              "The lake looked calm before the storm."
+            ],
+            "correctAnswer": "I watched the clouds gather over the lake.",
+            "reviewNote": "I signals first person."
+          },
+          {
+            "section": "Compare Texts",
+            "skill": "Strong Comparison",
+            "type": "multipleChoice",
+            "prompt": "Which comparison is strongest?",
+            "choices": [
+              "Both texts show that practice matters, but one uses a biography and the other uses step-by-step advice.",
+              "Both texts mention learning, but one gives more dates and examples.",
+              "Both texts seem helpful because they include advice about skills."
+            ],
+            "correctAnswer": "Both texts show that practice matters, but one uses a biography and the other uses step-by-step advice.",
+            "reviewNote": "It compares important ideas and form."
+          },
+          {
+            "section": "Compare Texts",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Contrast means to notice differences.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Contrast focuses on differences."
+          },
+          {
+            "section": "Compare Texts",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A strong two-text answer should only mention one text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A comparison should use both texts."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-nonfiction-features",
+      "title": "Reading Nonfiction Text Features",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will use nonfiction text features to locate information and understand ideas.",
+      "successCriteria": [
+        "I can identify common nonfiction text features.",
+        "I can explain how a feature helps the reader.",
+        "I can use headings, captions, diagrams, and glossaries to answer questions."
+      ],
+      "vocabulary": [
+        "heading",
+        "caption",
+        "diagram",
+        "glossary",
+        "index"
+      ],
+      "teacherOverview": "Students practise using nonfiction features as reading tools, not decorations.",
+      "teacherSummary": "Students practise using nonfiction features as reading tools, not decorations.",
+      "lessonContent": [
+        "Nonfiction text features help readers find and understand information.",
+        "Headings tell what a section is mostly about.",
+        "Captions explain pictures, diagrams, maps, or photographs.",
+        "Diagrams show parts, steps, or relationships that may be hard to explain in sentences only.",
+        "A glossary gives meanings of important words; an index helps readers find where topics appear."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Nonfiction Feature Navigator",
+        "description": "Use text features to find and understand information.",
+        "levels": [
+          "Level 1: Identify the Feature",
+          "Level 2: Use the Feature"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Nonfiction Text Features Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Headings, captions, diagrams, glossaries, indexes, and using features"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Nonfiction Feature Navigator",
+        "mission": "Use text features to find and understand information.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify the Feature",
+            "title": "Before You Begin",
+            "prompt": "Get ready: features guide readers",
+            "text": "Nonfiction often includes headings, captions, diagrams, maps, charts, glossaries, and indexes. These features help readers find information and understand ideas more clearly."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify the Feature",
+            "title": "Use Features With the Text",
+            "prompt": "Do not skip them",
+            "text": "Text features are part of the reading. A heading can prepare you for the main idea. A diagram can show how parts fit together. A caption can explain why an image matters."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Feature",
+            "title": "Heading",
+            "prompt": "Which feature tells what a section is mostly about?",
+            "choices": [
+              "heading",
+              "glossary",
+              "page number"
+            ],
+            "correctAnswer": "heading",
+            "feedback": "Correct. A heading names or previews the section.",
+            "hint": "Look at titles inside the text."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Feature",
+            "title": "Caption",
+            "prompt": "What is the job of a caption?",
+            "choices": [
+              "It explains a picture or diagram.",
+              "It previews the next chapter.",
+              "It gives the book's full title."
+            ],
+            "correctAnswer": "It explains a picture or diagram.",
+            "feedback": "Yes. Captions help readers understand images.",
+            "hint": "Captions sit near images."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Feature",
+            "title": "Glossary",
+            "prompt": "Where would you look to find the meaning of a bold science word in a textbook?",
+            "choices": [
+              "glossary",
+              "index",
+              "section heading"
+            ],
+            "correctAnswer": "glossary",
+            "feedback": "Correct. A glossary defines important words.",
+            "hint": "A glossary is like a small dictionary for the text."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Feature",
+            "title": "True or False",
+            "prompt": "A diagram can show information that is hard to explain with words alone.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Diagrams can show parts and relationships.",
+            "hint": "Think of a labelled plant diagram."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Identify the Feature",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying nonfiction features.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Use the Feature",
+            "title": "Choose the Best Feature",
+            "prompt": "Use the feature that fits the question",
+            "text": "If you need the meaning of a word, use a glossary. If you need where a topic appears, use an index. If you need how parts fit together, use a diagram."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use the Feature",
+            "title": "Find a Topic",
+            "prompt": "You need to find every page where 'evaporation' is discussed in a book. Which feature helps most?",
+            "choices": [
+              "index",
+              "caption",
+              "title page"
+            ],
+            "correctAnswer": "index",
+            "feedback": "Correct. An index lists topics and page numbers.",
+            "hint": "Think of finding a topic quickly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use the Feature",
+            "title": "Understand Parts",
+            "prompt": "A page about the human ear includes a labelled picture of the eardrum and inner ear. Which feature is this?",
+            "choices": [
+              "diagram",
+              "glossary",
+              "subtitle"
+            ],
+            "correctAnswer": "diagram",
+            "feedback": "Yes. A labelled picture that shows parts is a diagram.",
+            "hint": "Parts and labels point to a diagram."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use the Feature",
+            "title": "Use a Caption",
+            "prompt": "A caption says, 'The darker rings show years with less rainfall.' What does the caption help explain?",
+            "choices": [
+              "what the darker rings mean",
+              "how tree rings form each year",
+              "where the topic appears in the index"
+            ],
+            "correctAnswer": "what the darker rings mean",
+            "feedback": "Correct. The caption explains the image.",
+            "hint": "Captions explain what readers should notice."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use the Feature",
+            "title": "True or False",
+            "prompt": "Text features are useful only before reading, never during or after reading.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. Readers can use features before, during, and after reading.",
+            "hint": "Features can help at many points."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Use the Feature",
+            "title": "Mission Complete",
+            "prompt": "You practised using nonfiction features.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Nonfiction Text Features Quiz",
+        "questions": [
+          {
+            "section": "Text Features",
+            "skill": "Heading",
+            "type": "multipleChoice",
+            "prompt": "Which feature usually tells what a section is about?",
+            "choices": [
+              "heading",
+              "index",
+              "caption"
+            ],
+            "correctAnswer": "heading",
+            "reviewNote": "A heading previews the section."
+          },
+          {
+            "section": "Text Features",
+            "skill": "Caption",
+            "type": "multipleChoice",
+            "prompt": "A sentence under a photograph explains why the photo matters. What is it?",
+            "choices": [
+              "caption",
+              "glossary",
+              "table of contents"
+            ],
+            "correctAnswer": "caption",
+            "reviewNote": "A caption explains an image."
+          },
+          {
+            "section": "Text Features",
+            "skill": "Diagram",
+            "type": "multipleChoice",
+            "prompt": "Which feature would best show the parts of a flower?",
+            "choices": [
+              "labelled diagram",
+              "index",
+              "chapter title"
+            ],
+            "correctAnswer": "labelled diagram",
+            "reviewNote": "A diagram can show parts."
+          },
+          {
+            "section": "Text Features",
+            "skill": "Glossary",
+            "type": "multipleChoice",
+            "prompt": "Where would a reader find the meaning of the word habitat in a textbook?",
+            "choices": [
+              "glossary",
+              "index entry",
+              "chapter heading"
+            ],
+            "correctAnswer": "glossary",
+            "reviewNote": "A glossary defines key words."
+          },
+          {
+            "section": "Text Features",
+            "skill": "Index",
+            "type": "multipleChoice",
+            "prompt": "Which feature helps find pages where a topic appears?",
+            "choices": [
+              "index",
+              "caption",
+              "diagram"
+            ],
+            "correctAnswer": "index",
+            "reviewNote": "An index lists topics and page numbers."
+          },
+          {
+            "section": "Text Features",
+            "skill": "Best Feature",
+            "type": "multipleChoice",
+            "prompt": "You need to understand how water moves through a cycle. Which feature would help most?",
+            "choices": [
+              "a labelled cycle diagram",
+              "a paragraph heading about water",
+              "a glossary entry for evaporation"
+            ],
+            "correctAnswer": "a labelled cycle diagram",
+            "reviewNote": "A cycle diagram shows steps and relationships."
+          },
+          {
+            "section": "Text Features",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Text features should support understanding, not distract from it.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Features have a reading purpose."
+          },
+          {
+            "section": "Text Features",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A glossary and an index do exactly the same job.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A glossary defines words; an index points to pages."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-full-answer-thinking",
+      "title": "Explaining Thinking in Full Answers",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will answer reading questions with a clear point, evidence, and explanation.",
+      "successCriteria": [
+        "I can begin with a clear answer to the question.",
+        "I can include evidence from the text.",
+        "I can explain how the evidence supports my answer."
+      ],
+      "vocabulary": [
+        "answer",
+        "evidence",
+        "explanation",
+        "because",
+        "support"
+      ],
+      "teacherOverview": "Students practise building complete reading answers from a point, evidence, and explanation.",
+      "teacherSummary": "Students practise building complete reading answers from a point, evidence, and explanation.",
+      "lessonContent": [
+        "A strong reading answer begins by answering the question directly.",
+        "Evidence from the text supports the answer.",
+        "Explanation tells how the evidence proves or supports the answer.",
+        "A full answer should be clear enough that someone can understand it without hearing the original question.",
+        "Good readers avoid dropping in evidence without explaining why it matters."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored reading check.",
+        "Review missed questions before assigning the next Reading for Meaning lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Full Answer Builder",
+        "description": "Build reading answers with a point, evidence, and explanation.",
+        "levels": [
+          "Level 1: Build the Answer",
+          "Level 2: Improve the Explanation"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Explaining Thinking Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Direct answers, evidence, explanation, and clear reading responses"
+      },
+      "assessmentPlan": "Use the activity for guided reading practice and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-26-language-unit-3-reading-1",
+        "title": "Full Answer Builder",
+        "mission": "Build reading answers with a point, evidence, and explanation.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Build the Answer",
+            "title": "Before You Begin",
+            "prompt": "Get ready: answer, prove, explain",
+            "text": "A strong reading answer has three parts. First, answer the question. Next, use evidence from the text. Then explain how the evidence supports your answer."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Build the Answer",
+            "title": "Make It Complete",
+            "prompt": "Write so the answer stands alone",
+            "text": "Instead of writing 'because he did,' a full answer might say, 'Jonah is nervous because he rereads the note and takes a slow breath before knocking.' The reader can understand the answer without seeing the question."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Answer",
+            "title": "Clear Answer",
+            "prompt": "Question: Why is Ella proud? Which answer begins most clearly?",
+            "choices": [
+              "Ella is proud because her design finally held the weight.",
+              "Ella's design worked after several tries.",
+              "The design was tested with weight."
+            ],
+            "correctAnswer": "Ella is proud because her design finally held the weight.",
+            "feedback": "Correct. It answers the question clearly.",
+            "hint": "Choose the answer that stands alone."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Answer",
+            "title": "Evidence",
+            "prompt": "Which sentence uses evidence best?",
+            "choices": [
+              "The text says the seedlings grew three centimetres after the class moved them into sunlight.",
+              "The seedlings grew after the class made a change.",
+              "The class was studying plant growth."
+            ],
+            "correctAnswer": "The text says the seedlings grew three centimetres after the class moved them into sunlight.",
+            "feedback": "Yes. It gives a specific text detail.",
+            "hint": "Evidence comes from the text."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Answer",
+            "title": "Explanation",
+            "prompt": "Which sentence explains evidence?",
+            "choices": [
+              "This shows the sunlight helped because the seedlings grew after they were moved.",
+              "The text includes sunlight and seedlings.",
+              "The seedlings changed during the class experiment."
+            ],
+            "correctAnswer": "This shows the sunlight helped because the seedlings grew after they were moved.",
+            "feedback": "Correct. It tells why the evidence matters.",
+            "hint": "Explanation connects evidence to the answer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Answer",
+            "title": "True or False",
+            "prompt": "A full reading answer should usually include evidence and explanation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Evidence and explanation support the answer.",
+            "hint": "Answer, prove, explain."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Build the Answer",
+            "title": "Level 1 Complete",
+            "prompt": "You practised building full answers.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Improve the Explanation",
+            "title": "Do Not Stop at a Quote",
+            "prompt": "Explain why it matters",
+            "text": "Evidence is important, but it cannot do all the work alone. After evidence, explain how that evidence supports the answer. This shows your thinking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Explanation",
+            "title": "Best Full Answer",
+            "prompt": "Question: How does the setting affect the story? Which answer is strongest?",
+            "choices": [
+              "The snowstorm traps the family indoors, so they must solve the problem without going for help.",
+              "The setting is important because the story happens during a snowstorm.",
+              "The family notices the weather, which is part of the setting."
+            ],
+            "correctAnswer": "The snowstorm traps the family indoors, so they must solve the problem without going for help.",
+            "feedback": "Correct. It answers, uses evidence, and explains the effect.",
+            "hint": "Look for answer plus why it matters."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Explanation",
+            "title": "Missing Part",
+            "prompt": "Answer: 'The text says, \"Mila checked the map three times.\"' What is missing?",
+            "choices": [
+              "an explanation of what the evidence shows",
+              "the exact quote",
+              "any connection to the text"
+            ],
+            "correctAnswer": "an explanation of what the evidence shows",
+            "feedback": "Yes. The evidence needs explanation.",
+            "hint": "The quote is there, but why does it matter?"
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Explanation",
+            "title": "Question Restatement",
+            "prompt": "Which answer restates the question clearly?",
+            "choices": [
+              "The character changes because he learns to listen before judging.",
+              "He learns to listen before judging by the end.",
+              "This changes the character's decision."
+            ],
+            "correctAnswer": "The character changes because he learns to listen before judging.",
+            "feedback": "Correct. It names the idea clearly.",
+            "hint": "A clear answer names the topic."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve the Explanation",
+            "title": "True or False",
+            "prompt": "Explanation tells how the evidence supports the answer.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Explanation shows your thinking.",
+            "hint": "Evidence plus explanation is stronger."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Improve the Explanation",
+            "title": "Mission Complete",
+            "prompt": "You practised explaining reading answers.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Explaining Thinking Quiz",
+        "questions": [
+          {
+            "section": "Full Answers",
+            "skill": "Clear Answer",
+            "type": "multipleChoice",
+            "prompt": "Question: Why does the character apologize? Which answer is clearest?",
+            "choices": [
+              "The character apologizes because she realizes her words hurt her friend.",
+              "She apologizes after talking with her friend.",
+              "The character feels sorry in the story."
+            ],
+            "correctAnswer": "The character apologizes because she realizes her words hurt her friend.",
+            "reviewNote": "It answers directly and clearly."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Which sentence gives the strongest evidence?",
+            "choices": [
+              "The text says Liam returned the lost wallet to the office.",
+              "Liam made a responsible choice in the story.",
+              "The office is where the wallet ended up."
+            ],
+            "correctAnswer": "The text says Liam returned the lost wallet to the office.",
+            "reviewNote": "It gives a specific detail."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "Explanation",
+            "type": "multipleChoice",
+            "prompt": "Which sentence explains evidence?",
+            "choices": [
+              "This shows Liam is honest because he returns something valuable instead of keeping it.",
+              "Liam's choice is connected to the wallet.",
+              "The wallet detail helps readers understand Liam."
+            ],
+            "correctAnswer": "This shows Liam is honest because he returns something valuable instead of keeping it.",
+            "reviewNote": "It connects evidence to the answer."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "Missing Part",
+            "type": "multipleChoice",
+            "prompt": "A student writes only, 'The text says, \"the path was blocked.\"' What should be added?",
+            "choices": [
+              "an explanation of how the blocked path affects the story",
+              "a second quote from later in the same chapter",
+              "a longer sentence that repeats the blocked-path detail"
+            ],
+            "correctAnswer": "an explanation of how the blocked path affects the story",
+            "reviewNote": "Evidence needs explanation."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "Best Answer",
+            "type": "multipleChoice",
+            "prompt": "Which is the strongest answer?",
+            "choices": [
+              "The theme is perseverance because the runner keeps training after several setbacks and improves by race day.",
+              "The theme is perseverance because the runner joins a race.",
+              "The runner has setbacks, so the story probably has a theme."
+            ],
+            "correctAnswer": "The theme is perseverance because the runner keeps training after several setbacks and improves by race day.",
+            "reviewNote": "It includes answer and support."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "Stand Alone",
+            "type": "multipleChoice",
+            "prompt": "Which answer can stand alone best?",
+            "choices": [
+              "The article says wetlands are important because they filter water and provide animal habitats.",
+              "Wetlands are important because the article gives two reasons.",
+              "They filter water and provide animal habitats."
+            ],
+            "correctAnswer": "The article says wetlands are important because they filter water and provide animal habitats.",
+            "reviewNote": "The meaning is clear without the original question."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A quote or detail should be connected to the answer with explanation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Explanation shows why the evidence matters."
+          },
+          {
+            "section": "Full Answers",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A full answer can be clear even if it never answers the question.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "It must answer the question."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-3-final-quiz",
+      "title": "Unit 3 Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherOverview": "Use this quiz after students complete the Reading for Meaning lessons.",
+      "teacherSummary": "The Unit 3 final quiz checks text evidence, main idea, inference, story elements, theme, comparing texts, nonfiction features, and full reading answers.",
+      "quiz": {
+        "title": "Reading for Meaning Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Text Evidence",
+            "skill": "Best Evidence",
+            "type": "multipleChoice",
+            "prompt": "Answer: The room was quiet. Which evidence best supports it?",
+            "choices": [
+              "The students whispered and turned pages softly.",
+              "The students were reading after lunch.",
+              "The room felt different from the hallway."
+            ],
+            "correctAnswer": "The students whispered and turned pages softly.",
+            "reviewNote": "Whispering and soft page-turning support quiet."
+          },
+          {
+            "section": "Part A: Text Evidence",
+            "skill": "Paraphrase",
+            "type": "multipleChoice",
+            "prompt": "Which is a paraphrase of 'The trail twisted through the dark forest'?",
+            "choices": [
+              "The path wound through shadowy trees.",
+              "The trail twisted through the dark forest.",
+              "The trail went through a forest."
+            ],
+            "correctAnswer": "The path wound through shadowy trees.",
+            "reviewNote": "It keeps the meaning in new words."
+          },
+          {
+            "section": "Part B: Main Idea",
+            "skill": "Main Idea",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Compost turns food scraps into rich soil. Gardeners use it to help plants grow. It also keeps useful material out of the garbage.' What is the main idea?",
+            "choices": [
+              "Compost is useful for gardens and waste reduction.",
+              "Compost changes food scraps into soil.",
+              "Gardeners can use compost during planting."
+            ],
+            "correctAnswer": "Compost is useful for gardens and waste reduction.",
+            "reviewNote": "It covers the paragraph."
+          },
+          {
+            "section": "Part B: Main Idea",
+            "skill": "Supporting Detail",
+            "type": "multipleChoice",
+            "prompt": "Main idea: Sleep helps students learn well. Which detail best supports it?",
+            "choices": [
+              "Rested students can focus and remember information better.",
+              "Students often sleep more on weekends.",
+              "A quiet room can make sleep easier."
+            ],
+            "correctAnswer": "Rested students can focus and remember information better.",
+            "reviewNote": "It explains how sleep helps learning."
+          },
+          {
+            "section": "Part C: Inference",
+            "skill": "Inference",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Grace tucked the permission form into her backpack and smiled at the word approved.' What can you infer?",
+            "choices": [
+              "Grace is pleased she can go.",
+              "Grace is careful with school papers.",
+              "Grace knows where her backpack is."
+            ],
+            "correctAnswer": "Grace is pleased she can go.",
+            "reviewNote": "Smiling at approved supports this."
+          },
+          {
+            "section": "Part C: Inference",
+            "skill": "Too Far",
+            "type": "multipleChoice",
+            "prompt": "Text: 'The bus was ten minutes late.' Which inference goes too far?",
+            "choices": [
+              "The bus route is usually unreliable.",
+              "The bus did not arrive at the expected time.",
+              "Someone waited longer than planned."
+            ],
+            "correctAnswer": "The bus route is usually unreliable.",
+            "reviewNote": "One delay does not prove that pattern."
+          },
+          {
+            "section": "Part D: Story Elements",
+            "skill": "Character Trait",
+            "type": "multipleChoice",
+            "prompt": "Text: 'Harper saved her allowance for weeks so she could replace the library book she damaged.' Which trait fits best?",
+            "choices": [
+              "responsible",
+              "patient",
+              "careful"
+            ],
+            "correctAnswer": "responsible",
+            "reviewNote": "Her action shows responsibility."
+          },
+          {
+            "section": "Part D: Story Elements",
+            "skill": "Problem",
+            "type": "multipleChoice",
+            "prompt": "Text: 'The science display was due in an hour, but the label cards had disappeared.' What is the problem?",
+            "choices": [
+              "The missing labels must be replaced quickly.",
+              "The display needs more research notes.",
+              "The students need to choose a new science topic."
+            ],
+            "correctAnswer": "The missing labels must be replaced quickly.",
+            "reviewNote": "The missing cards create the problem."
+          },
+          {
+            "section": "Part E: Theme",
+            "skill": "Theme",
+            "type": "multipleChoice",
+            "prompt": "Which choice is a theme?",
+            "choices": [
+              "Courage can mean telling the truth even when it is difficult.",
+              "Courage",
+              "A nervous character"
+            ],
+            "correctAnswer": "Courage can mean telling the truth even when it is difficult.",
+            "reviewNote": "A theme gives a message."
+          },
+          {
+            "section": "Part E: Theme",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Theme: Forgiveness can help restore friendship. Which event supports it best?",
+            "choices": [
+              "Two friends talk honestly and choose to play together again.",
+              "Two friends remember when they first met.",
+              "One friend asks to borrow a soccer ball."
+            ],
+            "correctAnswer": "Two friends talk honestly and choose to play together again.",
+            "reviewNote": "It shows forgiveness restoring friendship."
+          },
+          {
+            "section": "Part F: Comparing Texts",
+            "skill": "Similarity",
+            "type": "multipleChoice",
+            "prompt": "Text A gives facts about maple trees. Text B is a poem about a maple tree in autumn. What is a similarity?",
+            "choices": [
+              "Both are about maple trees.",
+              "Both explain how maple trees grow.",
+              "Both describe the writer's favourite tree."
+            ],
+            "correctAnswer": "Both are about maple trees.",
+            "reviewNote": "They share the topic."
+          },
+          {
+            "section": "Part F: Comparing Texts",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "Text A explains how to make a bird feeder. Text B argues that families should feed birds in winter. How are the purposes different?",
+            "choices": [
+              "Text A instructs; Text B persuades.",
+              "Text A persuades readers to build; Text B instructs readers to feed birds.",
+              "Both texts give instructions for the same task."
+            ],
+            "correctAnswer": "Text A instructs; Text B persuades.",
+            "reviewNote": "The texts have different purposes."
+          },
+          {
+            "section": "Part G: Nonfiction Features",
+            "skill": "Caption",
+            "type": "multipleChoice",
+            "prompt": "What is the purpose of a caption under a photograph?",
+            "choices": [
+              "to explain the photograph",
+              "to introduce the section topic",
+              "to define an important word"
+            ],
+            "correctAnswer": "to explain the photograph",
+            "reviewNote": "Captions explain images."
+          },
+          {
+            "section": "Part G: Nonfiction Features",
+            "skill": "Index",
+            "type": "multipleChoice",
+            "prompt": "Which feature helps a reader find pages about a topic?",
+            "choices": [
+              "index",
+              "caption",
+              "heading"
+            ],
+            "correctAnswer": "index",
+            "reviewNote": "An index lists topics and page numbers."
+          },
+          {
+            "section": "Part G: Nonfiction Features",
+            "skill": "Diagram",
+            "type": "trueFalse",
+            "prompt": "A labelled diagram can help readers understand how parts fit together.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Diagrams show parts and relationships."
+          },
+          {
+            "section": "Part H: Full Answers",
+            "skill": "Evidence and Explanation",
+            "type": "multipleChoice",
+            "prompt": "Which answer best explains thinking?",
+            "choices": [
+              "The character is patient because she tries several careful repairs before asking for help.",
+              "The character is patient because the repair takes a long time.",
+              "The story shows patience through the repair problem."
+            ],
+            "correctAnswer": "The character is patient because she tries several careful repairs before asking for help.",
+            "reviewNote": "It gives answer and support."
+          },
+          {
+            "section": "Part H: Full Answers",
+            "skill": "Missing Part",
+            "type": "multipleChoice",
+            "prompt": "A student gives evidence but never explains it. What is missing?",
+            "choices": [
+              "how the evidence supports the answer",
+              "another detail that repeats the same point",
+              "a longer sentence that does not mention the question"
+            ],
+            "correctAnswer": "how the evidence supports the answer",
+            "reviewNote": "Explanation connects evidence to the answer."
+          },
+          {
+            "section": "Part H: Full Answers",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A strong reading answer should be clear enough to understand without hearing the original question.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A full answer stands alone."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A good inference should fit the text clues and not go too far beyond them.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Inferences need evidence."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A main idea is usually one small detail from a text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "The main idea is broader than one detail."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Reading for Meaning mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
+    }
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The final unit quiz checks text evidence, main ideas, inferences, story elements, theme, comparing texts, nonfiction features, and full-answer thinking."
+  }
+}

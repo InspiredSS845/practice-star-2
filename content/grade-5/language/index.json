@@ -20,6 +20,14 @@
       "unitGoal": "Students will strengthen word meaning, grammar, sentence structure, punctuation, and editing skills so their reading and writing become clearer and more precise.",
       "file": "units/unit-2-vocabulary-grammar-and-sentence-skills.json",
       "dataFile": "unit-data/unit-2-vocabulary-grammar-and-sentence-skills.js"
+    },
+    {
+      "id": "grade-5-language-unit-3",
+      "title": "Reading for Meaning",
+      "strand": "Comprehension: Understanding and Responding to Texts",
+      "unitGoal": "Students will read, listen to, and view texts carefully, identify main ideas and details, make inferences, compare texts, and explain their thinking with evidence.",
+      "file": "units/unit-3-reading-for-meaning.json",
+      "dataFile": "unit-data/unit-3-reading-for-meaning.js"
     }
   ]
 }

@@ -264,24 +264,26 @@
           {
             "section": "Context Clues",
             "skill": "True or False",
-            "type": "A contrast clue often uses words such as but, unlike, or however.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A contrast clue often uses words such as but, unlike, or however.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Those words can signal contrast."
+            "correctAnswer": "True",
+            "reviewNote": "Those words can signal contrast."
           },
           {
             "section": "Context Clues",
             "skill": "True or False",
-            "type": "The first meaning that pops into your mind is always the best meaning.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "The first meaning that pops into your mind is always the best meaning.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "False",
-            "correctAnswer": "A reader should check the context."
+            "correctAnswer": "False",
+            "reviewNote": "A reader should check the context."
           },
           {
             "section": "Context Clues",
@@ -599,24 +601,26 @@
           {
             "section": "Word Parts",
             "skill": "True or False",
-            "type": "A prefix is added to the beginning of a word.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A prefix is added to the beginning of a word.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Prefixes come before the base word."
+            "correctAnswer": "True",
+            "reviewNote": "Prefixes come before the base word."
           },
           {
             "section": "Word Parts",
             "skill": "True or False",
-            "type": "Word parts always give the full meaning without needing the sentence.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "Word parts always give the full meaning without needing the sentence.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "False",
-            "correctAnswer": "Context still matters."
+            "correctAnswer": "False",
+            "reviewNote": "Context still matters."
           }
         ]
       },
@@ -910,13 +914,14 @@
           {
             "section": "Parts of Speech",
             "skill": "True or False",
-            "type": "A word's job depends on how it is used in the sentence.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A word's job depends on how it is used in the sentence.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Sentence use matters."
+            "correctAnswer": "True",
+            "reviewNote": "Sentence use matters."
           },
           {
             "section": "Parts of Speech",
@@ -1221,24 +1226,26 @@
           {
             "section": "Sentence Structure",
             "skill": "True or False",
-            "type": "A complete sentence needs to express a complete thought.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A complete sentence needs to express a complete thought.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "A sentence should feel complete."
+            "correctAnswer": "True",
+            "reviewNote": "A sentence should feel complete."
           },
           {
             "section": "Sentence Structure",
             "skill": "True or False",
-            "type": "A run-on can sometimes be fixed by making two separate sentences.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A run-on can sometimes be fixed by making two separate sentences.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "A period can separate complete ideas."
+            "correctAnswer": "True",
+            "reviewNote": "A period can separate complete ideas."
           }
         ]
       },
@@ -1530,24 +1537,26 @@
           {
             "section": "Sentence Combining",
             "skill": "True or False",
-            "type": "So can show that the second idea is a result of the first idea.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "So can show that the second idea is a result of the first idea.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "So often shows result."
+            "correctAnswer": "True",
+            "reviewNote": "So often shows result."
           },
           {
             "section": "Sentence Combining",
             "skill": "True or False",
-            "type": "A sentence is better simply because it is longer.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A sentence is better simply because it is longer.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "False",
-            "correctAnswer": "Clarity matters more than length."
+            "correctAnswer": "False",
+            "reviewNote": "Clarity matters more than length."
           }
         ]
       },
@@ -1839,24 +1848,26 @@
           {
             "section": "Dialogue",
             "skill": "True or False",
-            "type": "A speaker tag tells who said the words.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "A speaker tag tells who said the words.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Speaker tags identify the speaker."
+            "correctAnswer": "True",
+            "reviewNote": "Speaker tags identify the speaker."
           },
           {
             "section": "Dialogue",
             "skill": "True or False",
-            "type": "Punctuation can change how clearly a sentence is understood.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "Punctuation can change how clearly a sentence is understood.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Punctuation guides meaning."
+            "correctAnswer": "True",
+            "reviewNote": "Punctuation guides meaning."
           }
         ]
       },
@@ -2149,24 +2160,26 @@
           {
             "section": "Editing",
             "skill": "True or False",
-            "type": "Revision can improve word choice and sentence order.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "Revision can improve word choice and sentence order.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Revision improves the writing."
+            "correctAnswer": "True",
+            "reviewNote": "Revision improves the writing."
           },
           {
             "section": "Editing",
             "skill": "True or False",
-            "type": "Editing should make a sentence confusing so readers have to work harder.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "Editing should make a sentence confusing so readers have to work harder.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "False",
-            "correctAnswer": "Editing should make writing clearer."
+            "correctAnswer": "False",
+            "reviewNote": "Editing should make writing clearer."
           }
         ]
       },
@@ -2406,13 +2419,14 @@
           {
             "section": "Part E: Editing",
             "skill": "True or False",
-            "type": "Good editing should make writing clearer while keeping the intended meaning.",
-            "prompt": [
+            "type": "trueFalse",
+            "prompt": "Good editing should make writing clearer while keeping the intended meaning.",
+            "choices": [
               "True",
               "False"
             ],
-            "choices": "True",
-            "correctAnswer": "Editing should improve clarity without changing the idea."
+            "correctAnswer": "True",
+            "reviewNote": "Editing should improve clarity without changing the idea."
           }
         ]
       },

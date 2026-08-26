@@ -142,8 +142,8 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("Context Clues", "Example", "multipleChoice", "Aquatic plants, including water lilies and pondweed, grow in water. What does aquatic mean?", ["living or growing in water", "growing in dry soil", "covered in flowers"], "living or growing in water", "The examples grow in water."),
           quizQuestion("Context Clues", "Contrast", "multipleChoice", "The first draft was vague, but the final draft was specific. What does vague most likely mean?", ["not clear enough", "neatly written", "very detailed"], "not clear enough", "The contrast with specific helps."),
           quizQuestion("Context Clues", "Best Fit", "multipleChoice", "The class collaborated, sharing ideas and dividing the work fairly. What does collaborated mean?", ["worked together", "worked silently alone", "finished without planning"], "worked together", "Sharing ideas and dividing work point to working together."),
-          quizQuestion("Context Clues", "True or False", "A contrast clue often uses words such as but, unlike, or however.", ["True", "False"], "True", "Those words can signal contrast."),
-          quizQuestion("Context Clues", "True or False", "The first meaning that pops into your mind is always the best meaning.", ["True", "False"], "False", "A reader should check the context."),
+          quizQuestion("Context Clues", "True or False", "trueFalse", "A contrast clue often uses words such as but, unlike, or however.", ["True", "False"], "True", "Those words can signal contrast."),
+          quizQuestion("Context Clues", "True or False", "trueFalse", "The first meaning that pops into your mind is always the best meaning.", ["True", "False"], "False", "A reader should check the context."),
           quizQuestion("Context Clues", "Inference", "multipleChoice", "The puppy was reluctant to enter the cold water and backed away from the shore. What does reluctant mean?", ["unwilling or hesitant", "eager and excited", "unable to see"], "unwilling or hesitant", "Backing away shows hesitation."),
           quizQuestion("Context Clues", "Precision", "multipleChoice", "Which habit best helps with context clues?", ["Reread the sentence and check which meaning fits.", "Skip every unfamiliar word.", "Choose the longest definition every time."], "Reread the sentence and check which meaning fits.", "The meaning must fit the sentence.")
         ]
@@ -193,8 +193,8 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("Word Parts", "Suffix", "multipleChoice", "Which word names the state of being kind?", ["kindness", "unkind", "kindly"], "kindness", "-ness can name a quality or state."),
           quizQuestion("Word Parts", "Root", "multipleChoice", "What is the base word in repainting?", ["paint", "re", "ing"], "paint", "Paint carries the main meaning."),
           quizQuestion("Word Parts", "Context", "multipleChoice", "The team had to reorganize the supplies after the boxes fell. What does reorganize mean?", ["organize again", "organize badly", "avoid organizing"], "organize again", "Re- means again, and the sentence supports it."),
-          quizQuestion("Word Parts", "True or False", "A prefix is added to the beginning of a word.", ["True", "False"], "True", "Prefixes come before the base word."),
-          quizQuestion("Word Parts", "True or False", "Word parts always give the full meaning without needing the sentence.", ["True", "False"], "False", "Context still matters.")
+          quizQuestion("Word Parts", "True or False", "trueFalse", "A prefix is added to the beginning of a word.", ["True", "False"], "True", "Prefixes come before the base word."),
+          quizQuestion("Word Parts", "True or False", "trueFalse", "Word parts always give the full meaning without needing the sentence.", ["True", "False"], "False", "Context still matters.")
         ]
       }),
       lesson({
@@ -243,7 +243,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("Parts of Speech", "Adverb", "multipleChoice", "Which word is an adverb in 'The team worked steadily'?", ["steadily", "team", "worked"], "steadily", "Steadily tells how they worked."),
           quizQuestion("Parts of Speech", "Pronoun", "multipleChoice", "Which word is a pronoun?", ["they", "mountain", "describe"], "they", "They is a pronoun."),
           quizQuestion("Parts of Speech", "Preposition", "multipleChoice", "Which word is a preposition in 'The keys are beside the lamp'?", ["beside", "keys", "lamp"], "beside", "Beside shows location."),
-          quizQuestion("Parts of Speech", "True or False", "A word's job depends on how it is used in the sentence.", ["True", "False"], "True", "Sentence use matters."),
+          quizQuestion("Parts of Speech", "True or False", "trueFalse", "A word's job depends on how it is used in the sentence.", ["True", "False"], "True", "Sentence use matters."),
           quizQuestion("Parts of Speech", "Precision", "multipleChoice", "Which verb is most precise?", ["whispered", "said", "made"], "whispered", "Whispered gives the clearest action.")
         ]
       }),
@@ -292,8 +292,8 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("Sentence Structure", "Correction", "multipleChoice", "Which best fixes 'Because the road was icy'?", ["Because the road was icy, the bus drove slowly.", "Because the road was icy.", "Road was icy because."], "Because the road was icy, the bus drove slowly.", "It completes the thought."),
           quizQuestion("Sentence Structure", "Correction", "multipleChoice", "Which best fixes 'The lights flickered the room went dark'?", ["The lights flickered, and the room went dark.", "The lights flickered the, room went dark.", "The lights flickered and the room."], "The lights flickered, and the room went dark.", "It joins the ideas correctly."),
           quizQuestion("Sentence Structure", "Subject", "multipleChoice", "In 'The little boat rocked gently,' what is the subject?", ["The little boat", "rocked gently", "gently"], "The little boat", "The subject tells what the sentence is about."),
-          quizQuestion("Sentence Structure", "True or False", "A complete sentence needs to express a complete thought.", ["True", "False"], "True", "A sentence should feel complete."),
-          quizQuestion("Sentence Structure", "True or False", "A run-on can sometimes be fixed by making two separate sentences.", ["True", "False"], "True", "A period can separate complete ideas.")
+          quizQuestion("Sentence Structure", "True or False", "trueFalse", "A complete sentence needs to express a complete thought.", ["True", "False"], "True", "A sentence should feel complete."),
+          quizQuestion("Sentence Structure", "True or False", "trueFalse", "A run-on can sometimes be fixed by making two separate sentences.", ["True", "False"], "True", "A period can separate complete ideas.")
         ]
       }),
       lesson({
@@ -341,8 +341,8 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("Conjunctions", "Result", "multipleChoice", "Which conjunction best fits? 'The lid was loose, ____ the water spilled.'", ["so", "although", "and"], "so", "So shows a result."),
           quizQuestion("Sentence Combining", "Correct Sentence", "multipleChoice", "Which sentence is correctly combined?", ["The bell rang, and the students opened their books.", "The bell rang and, the students opened their books.", "The bell rang the students opened their books."], "The bell rang, and the students opened their books.", "The comma and conjunction join two complete ideas."),
           quizQuestion("Sentence Combining", "Clarity", "multipleChoice", "Which sentence is clearest?", ["Although the problem was difficult, Jonah kept working.", "Although the problem was difficult.", "The problem although difficult Jonah kept."], "Although the problem was difficult, Jonah kept working.", "The although idea is completed."),
-          quizQuestion("Sentence Combining", "True or False", "So can show that the second idea is a result of the first idea.", ["True", "False"], "True", "So often shows result."),
-          quizQuestion("Sentence Combining", "True or False", "A sentence is better simply because it is longer.", ["True", "False"], "False", "Clarity matters more than length.")
+          quizQuestion("Sentence Combining", "True or False", "trueFalse", "So can show that the second idea is a result of the first idea.", ["True", "False"], "True", "So often shows result."),
+          quizQuestion("Sentence Combining", "True or False", "trueFalse", "A sentence is better simply because it is longer.", ["True", "False"], "False", "Clarity matters more than length.")
         ]
       }),
       lesson({
@@ -390,8 +390,8 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("End Marks", "Question Mark", "multipleChoice", "Which sentence needs a question mark?", ["How far is the museum", "The museum is nearby", "Walk to the museum"], "How far is the museum", "It asks a question."),
           quizQuestion("Dialogue", "Quotation Marks", "multipleChoice", "Which sentence is correct?", ["\"The bus is here,\" called Omar.", "The bus is here,\" called Omar.", "\"The bus is here, called Omar.\""], "\"The bus is here,\" called Omar.", "The spoken words are inside quotation marks."),
           quizQuestion("Dialogue", "Question", "multipleChoice", "Which sentence is correct?", ["\"May I borrow a ruler?\" asked Grace.", "\"May I borrow a ruler\"? asked Grace.", "May I borrow a ruler? \"asked Grace.\""], "\"May I borrow a ruler?\" asked Grace.", "The question mark belongs inside the quotation marks."),
-          quizQuestion("Dialogue", "True or False", "A speaker tag tells who said the words.", ["True", "False"], "True", "Speaker tags identify the speaker."),
-          quizQuestion("Dialogue", "True or False", "Punctuation can change how clearly a sentence is understood.", ["True", "False"], "True", "Punctuation guides meaning.")
+          quizQuestion("Dialogue", "True or False", "trueFalse", "A speaker tag tells who said the words.", ["True", "False"], "True", "Speaker tags identify the speaker."),
+          quizQuestion("Dialogue", "True or False", "trueFalse", "Punctuation can change how clearly a sentence is understood.", ["True", "False"], "True", "Punctuation guides meaning.")
         ]
       }),
       lesson({
@@ -439,8 +439,8 @@ window.PracticeStarContent = window.PracticeStarContent || {};
           quizQuestion("Editing", "Pronoun Clarity", "multipleChoice", "Which revision is clearest? 'Mia gave Ava her notebook.'", ["Mia gave Ava Mia's notebook.", "Mia gave Ava her notebook.", "She gave her the notebook."], "Mia gave Ava Mia's notebook.", "This makes the owner clear."),
           quizQuestion("Editing", "Awkward Order", "multipleChoice", "Which sentence is clearest?", ["The student wearing a red scarf carried the books.", "Wearing a red scarf, the books were carried by the student.", "The books wearing a red scarf were carried."], "The student wearing a red scarf carried the books.", "The description is placed clearly."),
           quizQuestion("Editing", "Combining", "multipleChoice", "Which revision connects the ideas best? 'The game was cancelled. The field was flooded.'", ["The game was cancelled because the field was flooded.", "The game was cancelled the field was flooded.", "The flooded game was field cancelled."], "The game was cancelled because the field was flooded.", "Because shows the reason."),
-          quizQuestion("Editing", "True or False", "Revision can improve word choice and sentence order.", ["True", "False"], "True", "Revision improves the writing."),
-          quizQuestion("Editing", "True or False", "Editing should make a sentence confusing so readers have to work harder.", ["True", "False"], "False", "Editing should make writing clearer.")
+          quizQuestion("Editing", "True or False", "trueFalse", "Revision can improve word choice and sentence order.", ["True", "False"], "True", "Revision improves the writing."),
+          quizQuestion("Editing", "True or False", "trueFalse", "Editing should make a sentence confusing so readers have to work harder.", ["True", "False"], "False", "Editing should make writing clearer.")
         ]
       }),
       {
@@ -470,7 +470,7 @@ window.PracticeStarContent = window.PracticeStarContent || {};
             quizQuestion("Part D: Punctuation", "Question Mark", "multipleChoice", "Which sentence needs a question mark?", ["Why did the magnet stick to the nail", "The magnet stuck to the nail", "Put the magnet beside the nail"], "Why did the magnet stick to the nail", "It asks a question."),
             quizQuestion("Part E: Editing", "Word Choice", "multipleChoice", "Which sentence uses the most precise verb?", ["The fox crept through the grass.", "The fox went through the grass.", "The fox did through the grass."], "The fox crept through the grass.", "Crept gives a clearer action."),
             quizQuestion("Part E: Editing", "Clarity", "multipleChoice", "Which revision is clearest? 'The backpack beside the lunch bag with the blue zipper is mine.'", ["The backpack with the blue zipper beside the lunch bag is mine.", "Beside the lunch bag mine is the backpack zipper.", "The lunch bag with mine is beside the blue backpack."], "The backpack with the blue zipper beside the lunch bag is mine.", "The describing phrase is placed more clearly."),
-            quizQuestion("Part E: Editing", "True or False", "Good editing should make writing clearer while keeping the intended meaning.", ["True", "False"], "True", "Editing should improve clarity without changing the idea.")
+            quizQuestion("Part E: Editing", "True or False", "trueFalse", "Good editing should make writing clearer while keeping the intended meaning.", ["True", "False"], "True", "Editing should improve clarity without changing the idea.")
           ]
         },
         unitGradePlan: {
