@@ -19,7 +19,7 @@ window.PracticeStarContent.catalog = {
       "basePath": "content/grade-5/language",
       "indexFile": "content/grade-5/language/index.json",
       "dataKey": "grade5Language",
-      "description": "Language has built-in Grade 5 spelling, vocabulary, grammar, sentence skills, reading comprehension, writing, and research units, with more media and oral communication units planned."
+      "description": "Language has built-in Grade 5 spelling, vocabulary, grammar, sentence skills, reading comprehension, writing, research, and media literacy units, with oral communication planned."
     },
     {
       "id": "grade-5-science",

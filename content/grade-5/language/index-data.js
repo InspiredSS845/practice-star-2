@@ -37,6 +37,14 @@ window.PracticeStarContent.grade5Language = {
       "unitGoal": "Students will plan, draft, revise, edit, and publish writing for different purposes, including narrative, opinion, informational, and research-based writing.",
       "file": "units/unit-4-writing-forms-and-research.json",
       "dataFile": "unit-data/unit-4-writing-forms-and-research.js"
+    },
+    {
+      "id": "grade-5-language-unit-5",
+      "title": "Media Literacy and Digital Texts",
+      "strand": "Literacy Connections and Applications",
+      "unitGoal": "Students will interpret media messages, notice audience and purpose, evaluate digital information, and create responsible media responses.",
+      "file": "units/unit-5-media-literacy-and-digital-texts.json",
+      "dataFile": "unit-data/unit-5-media-literacy-and-digital-texts.js"
     }
   ],
   "units": []

@@ -1,0 +1,2784 @@
+{
+  "id": "grade-5-language-unit-5",
+  "title": "Media Literacy and Digital Texts",
+  "strand": "Literacy Connections and Applications",
+  "unitGoal": "Students will interpret media messages, notice audience and purpose, evaluate digital information, and create responsible media responses.",
+  "lessons": [
+    {
+      "id": "grade-5-language-unit-5-media-message",
+      "title": "What Is a Media Message?",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify media messages and explain what they are trying to communicate.",
+      "successCriteria": [
+        "I can identify a media text.",
+        "I can explain the main message in a media text.",
+        "I can notice how words, images, and sounds work together."
+      ],
+      "vocabulary": [
+        "media",
+        "message",
+        "text",
+        "image",
+        "communicate"
+      ],
+      "teacherOverview": "Students practise identifying media texts and explaining their main messages.",
+      "teacherSummary": "Students practise identifying media texts and explaining their main messages.",
+      "lessonContent": [
+        "A media text shares a message using words, images, sound, video, design, or a mix of these.",
+        "Posters, videos, websites, announcements, maps, labels, and advertisements are all media texts.",
+        "A media message is what the text wants the audience to notice, understand, feel, or do.",
+        "The words and images in a media text usually work together.",
+        "Careful readers look beyond the first impression and ask what message is being sent."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Media Message Detective",
+        "description": "Decide what different media texts are trying to communicate.",
+        "levels": [
+          "Level 1: Notice the Message",
+          "Level 2: Words and Images Together"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "What Is a Media Message? Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Media texts, messages, audience clues, images, words, and purpose"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Media Message Detective",
+        "mission": "Decide what different media texts are trying to communicate.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice the Message",
+            "title": "Before You Begin",
+            "prompt": "Get ready: media texts send messages",
+            "text": "Media is not only television or the internet. A school poster, a cereal box, a bus sign, a website button, or a church bulletin notice can all send a message."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice the Message",
+            "title": "Ask What It Communicates",
+            "prompt": "Look for the main idea",
+            "text": "A media text may inform, invite, warn, explain, entertain, or persuade. To find the message, ask what the creator wants people to notice or do."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice the Message",
+            "title": "Media Text",
+            "prompt": "Which item is a media text?",
+            "choices": [
+              "a poster inviting families to a school open house",
+              "a folder used to carry school notices",
+              "a printer used to make classroom signs"
+            ],
+            "correctAnswer": "a poster inviting families to a school open house",
+            "feedback": "Correct. The poster uses words and design to communicate.",
+            "hint": "Choose the item that sends a message to an audience."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice the Message",
+            "title": "Main Message",
+            "prompt": "A poster says, 'Bring a reusable bottle on field trip day' and shows a bottle beside a backpack. What is the main message?",
+            "choices": [
+              "Students should remember to bring a reusable bottle.",
+              "Students should choose a backpack with side pockets.",
+              "Field trips often include outdoor activities."
+            ],
+            "correctAnswer": "Students should remember to bring a reusable bottle.",
+            "feedback": "Yes. The words and picture point to that reminder.",
+            "hint": "Use both the words and image."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice the Message",
+            "title": "Message Type",
+            "prompt": "A sign near a trail says, 'Stay on marked paths to protect plants.' What is the sign mostly doing?",
+            "choices": [
+              "giving a safety and care instruction",
+              "advertising a new trail map",
+              "telling a story about plant growth"
+            ],
+            "correctAnswer": "giving a safety and care instruction",
+            "feedback": "Correct. The sign tells people what to do and why.",
+            "hint": "Ask what action the sign wants."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice the Message",
+            "title": "True or False",
+            "prompt": "A media text can use both words and images to send one clear message.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Words and images often work together.",
+            "hint": "Media messages can have several parts."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Notice the Message",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying media messages.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Words and Images Together",
+            "title": "Read the Whole Message",
+            "prompt": "Images can change meaning",
+            "text": "A picture, colour, symbol, or layout can change how a message feels. A warning sign and a celebration poster may use very different design choices."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Words and Images Together",
+            "title": "Image Support",
+            "prompt": "A library poster says, 'Try a new book this week' and shows students choosing books from different shelves. How does the image help?",
+            "choices": [
+              "It shows the action the poster is encouraging.",
+              "It gives the exact rules for borrowing books.",
+              "It explains how libraries buy new books."
+            ],
+            "correctAnswer": "It shows the action the poster is encouraging.",
+            "feedback": "Correct. The image supports the message.",
+            "hint": "Look for what the picture adds."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Words and Images Together",
+            "title": "Symbol",
+            "prompt": "A website uses a small magnifying glass icon beside a search box. What does the icon help users understand?",
+            "choices": [
+              "where to search for information",
+              "how to change the website colours",
+              "which page was opened most recently"
+            ],
+            "correctAnswer": "where to search for information",
+            "feedback": "Yes. The symbol gives a quick clue.",
+            "hint": "Think about common symbols."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Words and Images Together",
+            "title": "Best Message",
+            "prompt": "Which message best fits a school announcement that says, 'Concert tickets are available until Friday'?",
+            "choices": [
+              "Families should get tickets before Friday.",
+              "Students should practise music every Friday.",
+              "The concert program will include many songs."
+            ],
+            "correctAnswer": "Families should get tickets before Friday.",
+            "feedback": "Correct. The announcement gives a time-sensitive action.",
+            "hint": "Find what the audience is expected to do."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Words and Images Together",
+            "title": "True or False",
+            "prompt": "A media message is always stated in one sentence at the top.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "feedback": "Correct. The message may come from the whole design.",
+            "hint": "Look at the full text, not just the title."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Words and Images Together",
+            "title": "Mission Complete",
+            "prompt": "You practised reading words and images together.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "What Is a Media Message? Quiz",
+        "questions": [
+          {
+            "section": "Media Messages",
+            "skill": "Media Text",
+            "type": "multipleChoice",
+            "prompt": "Which choice is a media text?",
+            "choices": [
+              "a website page explaining summer reading",
+              "a keyboard used to type a website page",
+              "a camera used to take a website photo"
+            ],
+            "correctAnswer": "a website page explaining summer reading",
+            "reviewNote": "The website page communicates a message."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "Message",
+            "type": "multipleChoice",
+            "prompt": "A classroom poster says, 'Return shared supplies after use.' What is the main message?",
+            "choices": [
+              "Students should put shared supplies back.",
+              "The classroom has many supplies.",
+              "Some supplies are used during lessons."
+            ],
+            "correctAnswer": "Students should put shared supplies back.",
+            "reviewNote": "The poster gives a clear reminder."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A sign says, 'Please wash hands before lunch.' What is the sign mostly doing?",
+            "choices": [
+              "reminding people about a healthy routine",
+              "explaining the history of lunch",
+              "describing different handwashing sinks"
+            ],
+            "correctAnswer": "reminding people about a healthy routine",
+            "reviewNote": "The sign asks people to follow a routine."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "Image",
+            "type": "multipleChoice",
+            "prompt": "A poster about a food drive shows cans being placed in a box. How does the image help?",
+            "choices": [
+              "It shows what people are being asked to donate.",
+              "It lists every family taking part.",
+              "It explains how food is delivered to stores."
+            ],
+            "correctAnswer": "It shows what people are being asked to donate.",
+            "reviewNote": "The image supports the request."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "Symbol",
+            "type": "multipleChoice",
+            "prompt": "On a map, a parking symbol marks a certain area. What does the symbol help readers do?",
+            "choices": [
+              "find where parking is located",
+              "choose the best entrance to start from",
+              "know which route has the most traffic"
+            ],
+            "correctAnswer": "find where parking is located",
+            "reviewNote": "Symbols can give quick information."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "Audience Action",
+            "type": "multipleChoice",
+            "prompt": "A notice says, 'Permission forms are due Thursday.' What should the audience understand?",
+            "choices": [
+              "Forms need to be handed in by Thursday.",
+              "Forms are usually printed on paper.",
+              "Thursday is part of the school week."
+            ],
+            "correctAnswer": "Forms need to be handed in by Thursday.",
+            "reviewNote": "The notice gives a deadline."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Media texts can include posters, signs, websites, videos, and labels.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "These are all ways to communicate messages."
+          },
+          {
+            "section": "Media Messages",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Images in a media text can affect the message.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Images often shape meaning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-audience-purpose",
+      "title": "Audience and Purpose",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify the intended audience and purpose of media texts.",
+      "successCriteria": [
+        "I can decide who a media text is made for.",
+        "I can identify whether a media text informs, persuades, entertains, or warns.",
+        "I can explain which clues helped me decide."
+      ],
+      "vocabulary": [
+        "audience",
+        "purpose",
+        "inform",
+        "persuade",
+        "clue"
+      ],
+      "teacherOverview": "Students practise using clues to identify the audience and purpose of media texts.",
+      "teacherSummary": "Students practise using clues to identify the audience and purpose of media texts.",
+      "lessonContent": [
+        "Audience means who a media text is meant for.",
+        "Purpose means why the media text was made.",
+        "A media text might inform, persuade, entertain, remind, warn, or invite.",
+        "Words, images, examples, and design can all give audience clues.",
+        "A good media reader explains which clues led to an answer."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Audience and Purpose Mission",
+        "description": "Use clues to decide who a media text is for and why it was made.",
+        "levels": [
+          "Level 1: Find the Audience",
+          "Level 2: Name the Purpose"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Audience and Purpose Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Audience clues, purpose, word choice, age fit, and intended action"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Audience and Purpose Mission",
+        "mission": "Use clues to decide who a media text is for and why it was made.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Audience",
+            "title": "Before You Begin",
+            "prompt": "Get ready: media is made for someone",
+            "text": "A media creator makes choices for a particular audience. A poster for Grade 1 students will not sound exactly like a letter to parents."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Find the Audience",
+            "title": "Use Clues",
+            "prompt": "Audience clues are everywhere",
+            "text": "Look at the vocabulary, examples, pictures, topic, and where the message appears. These clues help you decide who the creator had in mind."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Audience",
+            "title": "Audience Clue",
+            "prompt": "A flyer says, 'Parents and guardians are invited to meet the teachers at 6:30 p.m.' Who is the main audience?",
+            "choices": [
+              "parents and guardians",
+              "students choosing a recess game",
+              "newspaper readers studying weather"
+            ],
+            "correctAnswer": "parents and guardians",
+            "feedback": "Correct. The flyer names the audience directly.",
+            "hint": "Look for who is addressed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Audience",
+            "title": "Age Fit",
+            "prompt": "Which media text is most likely meant for younger children?",
+            "choices": [
+              "a picture chart showing how to tie shoes step by step",
+              "a student handbook page about attendance routines",
+              "a family newsletter about school readiness"
+            ],
+            "correctAnswer": "a picture chart showing how to tie shoes step by step",
+            "feedback": "Yes. The topic and pictures fit younger children.",
+            "hint": "Think about what the audience needs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Audience",
+            "title": "Audience Detail",
+            "prompt": "A sports camp website includes prices, drop-off times, and registration forms. Who needs that information most?",
+            "choices": [
+              "families deciding whether to register a child",
+              "players learning a new warm-up drill",
+              "students writing a report about sports"
+            ],
+            "correctAnswer": "families deciding whether to register a child",
+            "feedback": "Correct. Those details help families make a decision.",
+            "hint": "Ask who would use the information."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Find the Audience",
+            "title": "True or False",
+            "prompt": "The same topic can be explained differently for different audiences.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Audience affects wording and detail.",
+            "hint": "Audience changes choices."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Find the Audience",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying audiences.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Name the Purpose",
+            "title": "Purpose Is the Job",
+            "prompt": "What is the media text trying to do?",
+            "text": "A media text can have more than one purpose, but usually one purpose is strongest. It may inform people, persuade them, entertain them, or warn them."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Name the Purpose",
+            "title": "Inform",
+            "prompt": "A school website page lists the date, time, and location of the winter concert. What is its main purpose?",
+            "choices": [
+              "to inform families about event details",
+              "to persuade students to join the choir",
+              "to entertain readers with a concert story"
+            ],
+            "correctAnswer": "to inform families about event details",
+            "feedback": "Correct. It gives information people need.",
+            "hint": "Look for facts and details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Name the Purpose",
+            "title": "Persuade",
+            "prompt": "A poster says, 'Join the cleanup team and help keep our playground ready for everyone.' What is its main purpose?",
+            "choices": [
+              "to persuade students to join",
+              "to explain how playground equipment is built",
+              "to compare two different schoolyards"
+            ],
+            "correctAnswer": "to persuade students to join",
+            "feedback": "Yes. It encourages action.",
+            "hint": "Look for a call to action."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Name the Purpose",
+            "title": "Warn",
+            "prompt": "A digital notice says, 'Do not share your password with anyone.' What is its main purpose?",
+            "choices": [
+              "to warn users about online safety",
+              "to describe how passwords are made",
+              "to invite users to design a new login page"
+            ],
+            "correctAnswer": "to warn users about online safety",
+            "feedback": "Correct. It gives a safety warning.",
+            "hint": "Safety messages often warn."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Name the Purpose",
+            "title": "True or False",
+            "prompt": "A media text can persuade politely without pressuring or misleading people.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Persuasion should still be fair.",
+            "hint": "Persuasion can be respectful."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Name the Purpose",
+            "title": "Mission Complete",
+            "prompt": "You practised identifying purpose.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Audience and Purpose Quiz",
+        "questions": [
+          {
+            "section": "Audience",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A notice says, 'Families may book interview times online.' Who is the main audience?",
+            "choices": [
+              "families of students",
+              "students choosing library books",
+              "people visiting a community museum"
+            ],
+            "correctAnswer": "families of students",
+            "reviewNote": "The notice speaks to families."
+          },
+          {
+            "section": "Audience",
+            "skill": "Clue",
+            "type": "multipleChoice",
+            "prompt": "Which detail is the strongest clue that a webpage is for students?",
+            "choices": [
+              "It uses student login steps and class activity buttons.",
+              "It has a heading at the top of the page.",
+              "It uses a large button for one section."
+            ],
+            "correctAnswer": "It uses student login steps and class activity buttons.",
+            "reviewNote": "The features match student use."
+          },
+          {
+            "section": "Audience",
+            "skill": "Age Fit",
+            "type": "multipleChoice",
+            "prompt": "Which choice best fits directions for Grade 5 students?",
+            "choices": [
+              "Use your notes to choose two facts that support your answer.",
+              "Copy the sentence starter before adding your answer.",
+              "Write a formal proposal with outside references."
+            ],
+            "correctAnswer": "Use your notes to choose two facts that support your answer.",
+            "reviewNote": "The task fits Grade 5 reading and writing."
+          },
+          {
+            "section": "Purpose",
+            "skill": "Inform",
+            "type": "multipleChoice",
+            "prompt": "A schedule shows practice times and room numbers. What is the main purpose?",
+            "choices": [
+              "to inform people where and when to go",
+              "to convince people to change the rooms",
+              "to tell a story about the team"
+            ],
+            "correctAnswer": "to inform people where and when to go",
+            "reviewNote": "A schedule gives information."
+          },
+          {
+            "section": "Purpose",
+            "skill": "Persuade",
+            "type": "multipleChoice",
+            "prompt": "A class poster says, 'Bring one canned item to help stock the food shelf.' What is the purpose?",
+            "choices": [
+              "to persuade people to donate",
+              "to explain where donation boxes are kept",
+              "to describe how the food shelf is organized"
+            ],
+            "correctAnswer": "to persuade people to donate",
+            "reviewNote": "The poster asks for an action."
+          },
+          {
+            "section": "Purpose",
+            "skill": "Warn",
+            "type": "multipleChoice",
+            "prompt": "A message says, 'Check with an adult before downloading a new app.' What is the purpose?",
+            "choices": [
+              "to warn about safe digital choices",
+              "to describe where apps are stored",
+              "to advertise a school tablet"
+            ],
+            "correctAnswer": "to warn about safe digital choices",
+            "reviewNote": "The message gives safety guidance."
+          },
+          {
+            "section": "Purpose",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Audience means the people a media text is mainly meant to reach.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "That is the audience."
+          },
+          {
+            "section": "Purpose",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Purpose means only the colour choices used in a media text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Purpose means why it was made."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-images-layout-design",
+      "title": "Images, Layout, and Design Choices",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how visual and layout choices affect a media message.",
+      "successCriteria": [
+        "I can identify design choices such as colour, size, placement, and spacing.",
+        "I can explain how an image supports or changes a message.",
+        "I can choose a layout that helps readers understand information."
+      ],
+      "vocabulary": [
+        "layout",
+        "design",
+        "image",
+        "font",
+        "emphasis"
+      ],
+      "teacherOverview": "Students practise interpreting visual choices and choosing clear layouts for media texts.",
+      "teacherSummary": "Students practise interpreting visual choices and choosing clear layouts for media texts.",
+      "lessonContent": [
+        "Layout means how words, images, headings, and space are arranged.",
+        "Design choices can make information easier or harder to understand.",
+        "Large text, bold headings, and strong contrast can show importance.",
+        "Images should support the message, not distract from it.",
+        "Good design helps the audience find and understand information."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Design Choices Mission",
+        "description": "Choose design and layout choices that make media messages clearer.",
+        "levels": [
+          "Level 1: Notice Design Choices",
+          "Level 2: Choose Clear Layouts"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Images, Layout, and Design Choices Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Layout, image support, emphasis, readability, and visual organization"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Design Choices Mission",
+        "mission": "Choose design and layout choices that make media messages clearer.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice Design Choices",
+            "title": "Before You Begin",
+            "prompt": "Get ready: design affects meaning",
+            "text": "Design is part of the message. A large headline, a warning colour, a photograph, or a clear icon can guide what the audience notices first."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice Design Choices",
+            "title": "Look at What Stands Out",
+            "prompt": "Emphasis guides attention",
+            "text": "When a media text makes something bigger, brighter, centred, or repeated, it may be showing that this part is important."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Design Choices",
+            "title": "Emphasis",
+            "prompt": "A poster puts 'Registration closes Friday' in the largest text. Why?",
+            "choices": [
+              "The deadline is important for the audience to notice.",
+              "The designer wanted every sentence to look different.",
+              "The poster has no other way to include dates."
+            ],
+            "correctAnswer": "The deadline is important for the audience to notice.",
+            "feedback": "Correct. Larger text creates emphasis.",
+            "hint": "Ask why that part stands out."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Design Choices",
+            "title": "Image Choice",
+            "prompt": "Which image best supports a notice about bicycle safety?",
+            "choices": [
+              "a child wearing a helmet while riding on a path",
+              "a close-up of a bicycle bell",
+              "a photo of many bikes in a shop window"
+            ],
+            "correctAnswer": "a child wearing a helmet while riding on a path",
+            "feedback": "Yes. It directly supports the safety message.",
+            "hint": "Choose the image that matches the message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Design Choices",
+            "title": "Colour Meaning",
+            "prompt": "A weather alert uses a strong red banner behind the warning. What effect does this likely have?",
+            "choices": [
+              "It helps the warning feel urgent.",
+              "It shows the alert is only for adults.",
+              "It proves the forecast will be correct."
+            ],
+            "correctAnswer": "It helps the warning feel urgent.",
+            "feedback": "Correct. Colour can affect mood and importance.",
+            "hint": "Think about how the colour makes the message feel."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Design Choices",
+            "title": "True or False",
+            "prompt": "Images and layout can affect how people understand a media text.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Design is part of meaning.",
+            "hint": "Visual choices communicate."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Notice Design Choices",
+            "title": "Level 1 Complete",
+            "prompt": "You practised noticing design choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Choose Clear Layouts",
+            "title": "Make It Easy to Read",
+            "prompt": "Good layout supports the audience",
+            "text": "A clear layout places information where readers can find it. Headings, spacing, lists, and labels can make a media text easier to use."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Clear Layouts",
+            "title": "Event Poster",
+            "prompt": "Which layout would help people understand a school concert poster?",
+            "choices": [
+              "title at top, date and time together, location clearly labelled",
+              "small date in one corner, location inside a long paragraph, title at bottom",
+              "three different headings for the same event and no time listed"
+            ],
+            "correctAnswer": "title at top, date and time together, location clearly labelled",
+            "feedback": "Correct. Important details are easy to find.",
+            "hint": "Choose the layout that helps the audience use the information."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Clear Layouts",
+            "title": "Website Button",
+            "prompt": "A website wants students to begin an activity. Which button label is clearest?",
+            "choices": [
+              "Start Activity",
+              "Continue to the next learning area",
+              "Click here for possible steps"
+            ],
+            "correctAnswer": "Start Activity",
+            "feedback": "Yes. It is short and direct.",
+            "hint": "Button labels should tell users what will happen."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Clear Layouts",
+            "title": "Readability",
+            "prompt": "Which design choice makes a digital poster easier to read?",
+            "choices": [
+              "dark text on a light background with enough space",
+              "small pale text over a busy picture",
+              "four fonts changing every few words"
+            ],
+            "correctAnswer": "dark text on a light background with enough space",
+            "feedback": "Correct. Contrast and spacing help readers.",
+            "hint": "Readability matters more than decoration."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Choose Clear Layouts",
+            "title": "True or False",
+            "prompt": "A beautiful design can still be weak if the audience cannot find the important information.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Design should help communication.",
+            "hint": "Clear comes before fancy."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Choose Clear Layouts",
+            "title": "Mission Complete",
+            "prompt": "You practised choosing clear layouts.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Images, Layout, and Design Choices Quiz",
+        "questions": [
+          {
+            "section": "Design",
+            "skill": "Emphasis",
+            "type": "multipleChoice",
+            "prompt": "Why might a poster make one deadline larger than the rest of the text?",
+            "choices": [
+              "to show it is important to notice",
+              "to make the poster use more space",
+              "to avoid using a heading"
+            ],
+            "correctAnswer": "to show it is important to notice",
+            "reviewNote": "Size can show importance."
+          },
+          {
+            "section": "Design",
+            "skill": "Image",
+            "type": "multipleChoice",
+            "prompt": "Which image best supports a poster about reading outside?",
+            "choices": [
+              "students reading on a blanket under a tree",
+              "a stack of books beside a closed door",
+              "a school hallway after dismissal"
+            ],
+            "correctAnswer": "students reading on a blanket under a tree",
+            "reviewNote": "The image matches the message."
+          },
+          {
+            "section": "Design",
+            "skill": "Layout",
+            "type": "multipleChoice",
+            "prompt": "Which layout is clearest for a field trip reminder?",
+            "choices": [
+              "date, destination, items to bring, and return time in labelled sections",
+              "one paragraph mixing all details in any order",
+              "large title with most details in very small print"
+            ],
+            "correctAnswer": "date, destination, items to bring, and return time in labelled sections",
+            "reviewNote": "Labels help readers find details."
+          },
+          {
+            "section": "Design",
+            "skill": "Button Label",
+            "type": "multipleChoice",
+            "prompt": "Which button label is clearest for submitting a quiz?",
+            "choices": [
+              "Submit Quiz",
+              "Finish with the thing",
+              "Move forward from here"
+            ],
+            "correctAnswer": "Submit Quiz",
+            "reviewNote": "The label tells what will happen."
+          },
+          {
+            "section": "Design",
+            "skill": "Readability",
+            "type": "multipleChoice",
+            "prompt": "Which design choice improves readability?",
+            "choices": [
+              "clear contrast between text and background",
+              "decorative letters for every sentence",
+              "placing labels far from the items they name"
+            ],
+            "correctAnswer": "clear contrast between text and background",
+            "reviewNote": "Contrast helps readers."
+          },
+          {
+            "section": "Design",
+            "skill": "Image Fit",
+            "type": "multipleChoice",
+            "prompt": "A poster is about washing hands before snack. Which image fits best?",
+            "choices": [
+              "hands being washed at a sink",
+              "students sitting at desks with notebooks",
+              "a lunch bag beside a backpack"
+            ],
+            "correctAnswer": "hands being washed at a sink",
+            "reviewNote": "It supports the message directly."
+          },
+          {
+            "section": "Design",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Layout means how text, images, headings, and space are arranged.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "That is layout."
+          },
+          {
+            "section": "Design",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Design choices should never affect how a media message is understood.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Design choices can strongly affect understanding."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-fact-opinion-persuasion",
+      "title": "Fact, Opinion, and Persuasion",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will distinguish facts, opinions, and persuasive techniques in media texts.",
+      "successCriteria": [
+        "I can identify a fact that can be checked.",
+        "I can identify an opinion or judgement.",
+        "I can notice persuasive words and decide whether support is strong."
+      ],
+      "vocabulary": [
+        "fact",
+        "opinion",
+        "persuasion",
+        "claim",
+        "evidence"
+      ],
+      "teacherOverview": "Students practise telling the difference between checkable facts, opinions, and persuasive messages.",
+      "teacherSummary": "Students practise telling the difference between checkable facts, opinions, and persuasive messages.",
+      "lessonContent": [
+        "A fact can be checked or proven.",
+        "An opinion tells what someone thinks, feels, believes, or prefers.",
+        "Persuasion tries to convince the audience to think, feel, choose, or do something.",
+        "Persuasive media should use fair reasons and evidence.",
+        "Careful readers ask whether a claim is supported."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Fact or Persuasion Mission",
+        "description": "Sort facts, opinions, and persuasive claims in media texts.",
+        "levels": [
+          "Level 1: Fact and Opinion",
+          "Level 2: Persuasion and Support"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Fact, Opinion, and Persuasion Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Facts, opinions, claims, evidence, persuasive wording, and fair support"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Fact or Persuasion Mission",
+        "mission": "Sort facts, opinions, and persuasive claims in media texts.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Fact and Opinion",
+            "title": "Before You Begin",
+            "prompt": "Get ready: not every statement works the same way",
+            "text": "A media text may mix facts and opinions. The reader's job is to know which statements can be checked and which statements are judgements or preferences."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Fact and Opinion",
+            "title": "Checkable or Judgement?",
+            "prompt": "Facts can be checked",
+            "text": "If a statement gives a date, number, location, or proven detail, it may be a fact. If it tells what is best, easiest, most exciting, or most beautiful, it is probably an opinion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Fact and Opinion",
+            "title": "Fact",
+            "prompt": "Which sentence is a fact?",
+            "choices": [
+              "The school concert begins at 7:00 p.m.",
+              "The concert will be the best event of the year.",
+              "Everyone will enjoy the concert more than sports day."
+            ],
+            "correctAnswer": "The school concert begins at 7:00 p.m.",
+            "feedback": "Correct. The time can be checked.",
+            "hint": "Facts can be proven or checked."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Fact and Opinion",
+            "title": "Opinion",
+            "prompt": "Which sentence is an opinion?",
+            "choices": [
+              "The new playground design is more inviting than the old one.",
+              "The playground has two slides and one climbing wall.",
+              "The playground opened on Monday morning."
+            ],
+            "correctAnswer": "The new playground design is more inviting than the old one.",
+            "feedback": "Yes. It gives a judgement.",
+            "hint": "Opinions often use judgement words."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Fact and Opinion",
+            "title": "Mixed Message",
+            "prompt": "A flyer says, 'The bake sale starts at 10:00. These treats are the tastiest way to support our team.' Which part is an opinion?",
+            "choices": [
+              "These treats are the tastiest way to support our team.",
+              "The bake sale starts at 10:00.",
+              "The flyer is about a bake sale."
+            ],
+            "correctAnswer": "These treats are the tastiest way to support our team.",
+            "feedback": "Correct. Tastiest is a judgement.",
+            "hint": "Look for the part that cannot be proven for everyone."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Fact and Opinion",
+            "title": "True or False",
+            "prompt": "A media text can include both facts and opinions.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Many media texts use both.",
+            "hint": "One text can do several things."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Fact and Opinion",
+            "title": "Level 1 Complete",
+            "prompt": "You practised sorting facts and opinions.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Persuasion and Support",
+            "title": "Notice Persuasion",
+            "prompt": "Persuasion tries to convince",
+            "text": "Persuasive media may use strong words, emotional pictures, examples, promises, or reasons. A careful reader asks whether the message is fair and supported."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Persuasion and Support",
+            "title": "Persuasive Claim",
+            "prompt": "Which sentence is trying to persuade?",
+            "choices": [
+              "Choose the library helper club if you want to make reading time better for younger students.",
+              "The library helper club meets on Tuesdays after lunch.",
+              "The library helper club has eight members this term."
+            ],
+            "correctAnswer": "Choose the library helper club if you want to make reading time better for younger students.",
+            "feedback": "Correct. It encourages a choice.",
+            "hint": "Persuasion often asks people to act."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Persuasion and Support",
+            "title": "Strong Support",
+            "prompt": "Claim: A walking school bus would help students arrive safely. Which support is strongest?",
+            "choices": [
+              "Students would walk in a supervised group on planned routes.",
+              "Walking can happen in many neighbourhoods.",
+              "Some students already own comfortable shoes."
+            ],
+            "correctAnswer": "Students would walk in a supervised group on planned routes.",
+            "feedback": "Yes. It explains how safety would improve.",
+            "hint": "Strong support connects directly to the claim."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Persuasion and Support",
+            "title": "Weak Support",
+            "prompt": "Claim: Our class should use labelled recycling bins. Which support is weakest?",
+            "choices": [
+              "The labels could be printed on white paper.",
+              "Labels would help students sort paper, plastic, and cans correctly.",
+              "Clear bin signs would reduce mistakes during cleanup."
+            ],
+            "correctAnswer": "The labels could be printed on white paper.",
+            "feedback": "Correct. It mentions labels but does not strongly support the claim.",
+            "hint": "Weak support may be related but not convincing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Persuasion and Support",
+            "title": "True or False",
+            "prompt": "A persuasive message is stronger when it uses reasons that can be checked or explained.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Support matters.",
+            "hint": "Persuasion should not rely only on strong feelings."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Persuasion and Support",
+            "title": "Mission Complete",
+            "prompt": "You practised finding persuasive support.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Fact, Opinion, and Persuasion Quiz",
+        "questions": [
+          {
+            "section": "Fact and Opinion",
+            "skill": "Fact",
+            "type": "multipleChoice",
+            "prompt": "Which statement is a fact?",
+            "choices": [
+              "The museum opens at 9:30 a.m.",
+              "The museum would be a useful trip choice for our class.",
+              "The museum exhibits seem easier to understand than the website."
+            ],
+            "correctAnswer": "The museum opens at 9:30 a.m.",
+            "reviewNote": "The opening time can be checked."
+          },
+          {
+            "section": "Fact and Opinion",
+            "skill": "Opinion",
+            "type": "multipleChoice",
+            "prompt": "Which statement is an opinion?",
+            "choices": [
+              "The poster uses a photograph of a school garden.",
+              "The garden club meets every second Wednesday.",
+              "The garden club is the best way to spend recess."
+            ],
+            "correctAnswer": "The garden club is the best way to spend recess.",
+            "reviewNote": "Best is a judgement."
+          },
+          {
+            "section": "Fact and Opinion",
+            "skill": "Mixed Text",
+            "type": "multipleChoice",
+            "prompt": "Which phrase is opinion in this sentence: 'The race begins at 2:00, and it will be the most exciting race yet'?",
+            "choices": [
+              "it will be the most exciting race yet",
+              "The race begins at 2:00",
+              "race begins"
+            ],
+            "correctAnswer": "it will be the most exciting race yet",
+            "reviewNote": "Exciting is a judgement."
+          },
+          {
+            "section": "Persuasion",
+            "skill": "Persuasive Wording",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is most persuasive?",
+            "choices": [
+              "Join the reading challenge and help our class reach its goal.",
+              "The reading challenge begins next week.",
+              "Students may record books on a chart."
+            ],
+            "correctAnswer": "Join the reading challenge and help our class reach its goal.",
+            "reviewNote": "It asks the audience to join."
+          },
+          {
+            "section": "Persuasion",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Claim: Bike racks should be added near the front door. Which support is strongest?",
+            "choices": [
+              "More students could lock bikes in a visible, organized place.",
+              "Bike racks can be made from metal.",
+              "The front door is where many people enter."
+            ],
+            "correctAnswer": "More students could lock bikes in a visible, organized place.",
+            "reviewNote": "It supports the claim clearly."
+          },
+          {
+            "section": "Persuasion",
+            "skill": "Weak Support",
+            "type": "multipleChoice",
+            "prompt": "Claim: The class should use reusable containers. Which support is weakest?",
+            "choices": [
+              "Some containers have colourful lids.",
+              "Reusable containers can reduce daily garbage.",
+              "Families can wash and use the same containers again."
+            ],
+            "correctAnswer": "Some containers have colourful lids.",
+            "reviewNote": "It is related but not strong support."
+          },
+          {
+            "section": "Fact and Opinion",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A fact can be checked or proven.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Facts can be checked."
+          },
+          {
+            "section": "Persuasion",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Persuasive media should be read carefully to see whether the claim is supported.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Careful readers check support."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-online-credibility",
+      "title": "Online Information and Credibility",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will evaluate whether online information seems useful, current, and trustworthy.",
+      "successCriteria": [
+        "I can check who made or published online information.",
+        "I can decide whether a source fits my question.",
+        "I can notice clues that information may need to be checked with another source."
+      ],
+      "vocabulary": [
+        "credible",
+        "source",
+        "current",
+        "author",
+        "verify"
+      ],
+      "teacherOverview": "Students practise safe, age-appropriate habits for judging online information.",
+      "teacherSummary": "Students practise safe, age-appropriate habits for judging online information.",
+      "lessonContent": [
+        "Credible information is trustworthy enough to use after careful checking.",
+        "Online readers should ask who made the information and why it was made.",
+        "A source should fit the question being researched.",
+        "Dates can matter because some information changes over time.",
+        "Important information should be checked with more than one reliable source."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Online Source Checker",
+        "description": "Choose online information habits that help readers check sources carefully.",
+        "levels": [
+          "Level 1: Source Clues",
+          "Level 2: Check Before Trusting"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Online Information and Credibility Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Credibility, source fit, author, dates, verification, and careful online reading"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Online Source Checker",
+        "mission": "Choose online information habits that help readers check sources carefully.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Source Clues",
+            "title": "Before You Begin",
+            "prompt": "Get ready: online information needs checking",
+            "text": "Online information can be helpful, but not everything online is equally reliable. A careful reader checks the source before trusting or sharing information."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Source Clues",
+            "title": "Who Made It?",
+            "prompt": "Look for source clues",
+            "text": "Check whether the page names an author, organization, date, and purpose. These clues help you decide whether the information is useful for your question."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Source Clues",
+            "title": "Author",
+            "prompt": "Which source clue is most helpful when deciding whether to trust an article about local weather safety?",
+            "choices": [
+              "the article is published by the city's emergency information page",
+              "the article uses a large weather photograph",
+              "the article has a short title that is easy to remember"
+            ],
+            "correctAnswer": "the article is published by the city's emergency information page",
+            "feedback": "Correct. The publisher connects to the topic.",
+            "hint": "Ask who is responsible for the information."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Source Clues",
+            "title": "Date",
+            "prompt": "You are checking school bus cancellation information. Which date matters most?",
+            "choices": [
+              "today's update date",
+              "the date the website was first designed",
+              "the date of last year's winter break"
+            ],
+            "correctAnswer": "today's update date",
+            "feedback": "Yes. Current information matters for bus cancellations.",
+            "hint": "Some information changes quickly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Source Clues",
+            "title": "Purpose",
+            "prompt": "A webpage about a snack says many good things about one brand and has a 'Buy Now' button. What should readers notice?",
+            "choices": [
+              "the page may be trying to sell the snack",
+              "the page may be written for families choosing snacks",
+              "the page may include facts mixed with advertising"
+            ],
+            "correctAnswer": "the page may be trying to sell the snack",
+            "feedback": "Correct. Selling can affect the message.",
+            "hint": "Look at why the page was made."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Source Clues",
+            "title": "True or False",
+            "prompt": "The person or group behind online information can affect how trustworthy it is.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Source matters.",
+            "hint": "Who made it is an important clue."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Source Clues",
+            "title": "Level 1 Complete",
+            "prompt": "You practised checking source clues.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Check Before Trusting",
+            "title": "Fit and Verify",
+            "prompt": "Use more than one clue",
+            "text": "A source can look polished but still not answer your question. A careful reader checks whether the source fits, whether the information is current, and whether another reliable source agrees."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check Before Trusting",
+            "title": "Source Fit",
+            "prompt": "Question: How do maple trees produce sap? Which source fits best?",
+            "choices": [
+              "a science article about maple sap and tree growth",
+              "a recipe page for maple cookies",
+              "a travel page about fall colours in Canada"
+            ],
+            "correctAnswer": "a science article about maple sap and tree growth",
+            "feedback": "Correct. It directly answers the question.",
+            "hint": "Match the source to the research question."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check Before Trusting",
+            "title": "Verify",
+            "prompt": "A website gives a surprising fact for a science report, but it does not name an author or source. What should a student do?",
+            "choices": [
+              "check the fact with another reliable source",
+              "use it only if it fits the report question",
+              "save the page and look for the date first"
+            ],
+            "correctAnswer": "check the fact with another reliable source",
+            "feedback": "Yes. Important information should be checked.",
+            "hint": "Surprising claims deserve careful checking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check Before Trusting",
+            "title": "Outdated",
+            "prompt": "A page from 2014 lists current tablet prices for students. What is the main concern?",
+            "choices": [
+              "the prices may be outdated",
+              "the page uses numbers",
+              "the topic includes technology"
+            ],
+            "correctAnswer": "the prices may be outdated",
+            "feedback": "Correct. Prices and technology information can change.",
+            "hint": "Dates matter when information changes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check Before Trusting",
+            "title": "True or False",
+            "prompt": "A source can look attractive and still need careful checking.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Design alone does not prove accuracy.",
+            "hint": "Do not judge only by looks."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Check Before Trusting",
+            "title": "Mission Complete",
+            "prompt": "You practised checking online credibility.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Online Information and Credibility Quiz",
+        "questions": [
+          {
+            "section": "Credibility",
+            "skill": "Publisher",
+            "type": "multipleChoice",
+            "prompt": "Which source is likely strongest for school weather closure information?",
+            "choices": [
+              "the school board's official update page",
+              "a student's old slideshow about winter",
+              "a general article about snow activities"
+            ],
+            "correctAnswer": "the school board's official update page",
+            "reviewNote": "The official page fits the information need."
+          },
+          {
+            "section": "Credibility",
+            "skill": "Date",
+            "type": "multipleChoice",
+            "prompt": "Why does the date matter for a webpage about bus routes?",
+            "choices": [
+              "routes may change over time",
+              "the page may use last term's school schedule",
+              "the route names may look similar each year"
+            ],
+            "correctAnswer": "routes may change over time",
+            "reviewNote": "Current information matters for routes."
+          },
+          {
+            "section": "Credibility",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A page praises one backpack brand and includes a shopping link. What is a careful reader's best thought?",
+            "choices": [
+              "The page may be trying to sell the backpack.",
+              "The page must be a neutral school report.",
+              "The page cannot include any useful facts."
+            ],
+            "correctAnswer": "The page may be trying to sell the backpack.",
+            "reviewNote": "A selling purpose can shape the message."
+          },
+          {
+            "section": "Credibility",
+            "skill": "Source Fit",
+            "type": "multipleChoice",
+            "prompt": "Question: Why do leaves change colour in fall? Which source fits best?",
+            "choices": [
+              "a science article about pigments in leaves",
+              "a craft page about leaf rubbings",
+              "a photo gallery of autumn parks"
+            ],
+            "correctAnswer": "a science article about pigments in leaves",
+            "reviewNote": "It directly answers the question."
+          },
+          {
+            "section": "Credibility",
+            "skill": "Verify",
+            "type": "multipleChoice",
+            "prompt": "What should a student do with an important online fact that appears in only one unclear source?",
+            "choices": [
+              "check it with another reliable source",
+              "include it because one source is enough",
+              "make the title more exciting"
+            ],
+            "correctAnswer": "check it with another reliable source",
+            "reviewNote": "Important facts should be verified."
+          },
+          {
+            "section": "Credibility",
+            "skill": "Author",
+            "type": "multipleChoice",
+            "prompt": "Which clue helps readers judge credibility?",
+            "choices": [
+              "the page names the author or organization",
+              "the page has a bright button",
+              "the page loads quickly on a tablet"
+            ],
+            "correctAnswer": "the page names the author or organization",
+            "reviewNote": "The author or organization is an important clue."
+          },
+          {
+            "section": "Credibility",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Online information should be checked before it is used for important work.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Careful checking matters."
+          },
+          {
+            "section": "Credibility",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A polished website design automatically proves the information is accurate.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Design does not prove accuracy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-digital-citizenship",
+      "title": "Digital Citizenship and Respectful Communication",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose safe, respectful, and responsible ways to communicate online.",
+      "successCriteria": [
+        "I can identify private information that should not be shared online.",
+        "I can choose respectful wording for digital communication.",
+        "I can decide when to ask a trusted adult for help."
+      ],
+      "vocabulary": [
+        "digital citizenship",
+        "private information",
+        "respectful",
+        "permission",
+        "trusted adult"
+      ],
+      "teacherOverview": "Students practise wise and respectful digital communication habits.",
+      "teacherSummary": "Students practise wise and respectful digital communication habits.",
+      "lessonContent": [
+        "Digital citizenship means using technology responsibly and respectfully.",
+        "Private information should be protected.",
+        "Online messages should be truthful, kind, and clear.",
+        "Pictures, names, and personal details should not be shared without permission.",
+        "If something online feels unsafe or confusing, students should ask a trusted adult for help."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Digital Citizenship Mission",
+        "description": "Choose safe and respectful responses for common digital situations.",
+        "levels": [
+          "Level 1: Privacy and Permission",
+          "Level 2: Respectful Communication"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Digital Citizenship and Respectful Communication Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Privacy, permission, respectful tone, online choices, and asking for help"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Digital Citizenship Mission",
+        "mission": "Choose safe and respectful responses for common digital situations.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Privacy and Permission",
+            "title": "Before You Begin",
+            "prompt": "Get ready: protect private information",
+            "text": "Digital tools can be useful for learning, but students need wise habits. Some information belongs only with family, teachers, or trusted adults."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Privacy and Permission",
+            "title": "Think Before Sharing",
+            "prompt": "Permission matters",
+            "text": "Before sharing someone's picture, name, work, or personal details online, ask whether you have permission. When unsure, ask a trusted adult."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Privacy and Permission",
+            "title": "Private Information",
+            "prompt": "Which detail should a student avoid posting in a public class comment?",
+            "choices": [
+              "home address",
+              "favourite school subject",
+              "first name only"
+            ],
+            "correctAnswer": "home address",
+            "feedback": "Correct. A home address is private.",
+            "hint": "Choose the detail that could identify where someone lives."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Privacy and Permission",
+            "title": "Permission",
+            "prompt": "A student wants to post a photo of classmates from a project. What should happen first?",
+            "choices": [
+              "check with the teacher or get permission",
+              "post it quickly before anyone leaves",
+              "add more classmates to make the photo better"
+            ],
+            "correctAnswer": "check with the teacher or get permission",
+            "feedback": "Yes. Photos of others need care.",
+            "hint": "Permission protects people."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Privacy and Permission",
+            "title": "Trusted Adult",
+            "prompt": "A message from an unknown person asks a student for personal information. What should the student do?",
+            "choices": [
+              "stop and tell a trusted adult",
+              "answer only one question",
+              "ask the person to explain first"
+            ],
+            "correctAnswer": "stop and tell a trusted adult",
+            "feedback": "Correct. Students should get help.",
+            "hint": "Unknown requests need adult help."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Privacy and Permission",
+            "title": "True or False",
+            "prompt": "Students should protect private information when using digital tools.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Privacy matters.",
+            "hint": "Personal details need care."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Privacy and Permission",
+            "title": "Level 1 Complete",
+            "prompt": "You practised privacy and permission choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Respectful Communication",
+            "title": "Words Still Matter Online",
+            "prompt": "Digital messages should be respectful",
+            "text": "Online writing can feel quick, but it still affects real people. Respectful messages are clear, honest, and kind, even when people disagree."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respectful Communication",
+            "title": "Respectful Reply",
+            "prompt": "Which reply is most respectful after a classmate shares an idea online?",
+            "choices": [
+              "I disagree because the evidence points to a different answer.",
+              "That answer cannot be right because I dislike it.",
+              "Your idea should be replaced with mine."
+            ],
+            "correctAnswer": "I disagree because the evidence points to a different answer.",
+            "feedback": "Correct. It disagrees with a reason and respect.",
+            "hint": "Respectful disagreement explains the idea, not the person."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respectful Communication",
+            "title": "Tone",
+            "prompt": "Which message has the clearest helpful tone?",
+            "choices": [
+              "Could you please add the source for this fact?",
+              "You forgot the source again.",
+              "The source part is missing, so this is not useful."
+            ],
+            "correctAnswer": "Could you please add the source for this fact?",
+            "feedback": "Yes. It is clear and respectful.",
+            "hint": "Helpful tone asks or explains without shaming."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respectful Communication",
+            "title": "Slow Down",
+            "prompt": "A student feels angry after reading a comment. What is the wisest next step?",
+            "choices": [
+              "pause before replying and ask for help if needed",
+              "send a quick reply while still angry",
+              "copy the message to more classmates"
+            ],
+            "correctAnswer": "pause before replying and ask for help if needed",
+            "feedback": "Correct. Pausing helps prevent unwise replies.",
+            "hint": "Strong feelings are a good time to slow down."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respectful Communication",
+            "title": "True or False",
+            "prompt": "Respectful online communication can still include disagreement.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Disagreement can be respectful.",
+            "hint": "Respect is about how ideas are expressed."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Respectful Communication",
+            "title": "Mission Complete",
+            "prompt": "You practised responsible digital communication.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Digital Citizenship and Respectful Communication Quiz",
+        "questions": [
+          {
+            "section": "Digital Citizenship",
+            "skill": "Privacy",
+            "type": "multipleChoice",
+            "prompt": "Which detail should not be shared in a public online comment?",
+            "choices": [
+              "home address",
+              "book title being discussed",
+              "the name of a school subject"
+            ],
+            "correctAnswer": "home address",
+            "reviewNote": "A home address is private."
+          },
+          {
+            "section": "Digital Citizenship",
+            "skill": "Permission",
+            "type": "multipleChoice",
+            "prompt": "Before posting a photo of classmates, what should a student do?",
+            "choices": [
+              "ask the teacher or get permission",
+              "crop the photo without telling anyone",
+              "post it only if the picture is clear"
+            ],
+            "correctAnswer": "ask the teacher or get permission",
+            "reviewNote": "Photos of others need permission."
+          },
+          {
+            "section": "Digital Citizenship",
+            "skill": "Trusted Adult",
+            "type": "multipleChoice",
+            "prompt": "What should a student do if an unknown person asks for personal details online?",
+            "choices": [
+              "tell a trusted adult",
+              "answer with shorter details",
+              "move the conversation to another app"
+            ],
+            "correctAnswer": "tell a trusted adult",
+            "reviewNote": "Students should get adult help."
+          },
+          {
+            "section": "Respectful Communication",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which comment is most respectful?",
+            "choices": [
+              "I see your point, but the paragraph gives different evidence.",
+              "Your answer is not worth using.",
+              "Everyone should choose my answer instead."
+            ],
+            "correctAnswer": "I see your point, but the paragraph gives different evidence.",
+            "reviewNote": "It disagrees respectfully."
+          },
+          {
+            "section": "Respectful Communication",
+            "skill": "Helpful Reply",
+            "type": "multipleChoice",
+            "prompt": "Which reply is most helpful for peer feedback?",
+            "choices": [
+              "Your main idea is clear; adding one example would make it stronger.",
+              "It needs work.",
+              "I would write it differently."
+            ],
+            "correctAnswer": "Your main idea is clear; adding one example would make it stronger.",
+            "reviewNote": "It gives a specific strength and next step."
+          },
+          {
+            "section": "Digital Citizenship",
+            "skill": "Pause",
+            "type": "multipleChoice",
+            "prompt": "What is wise before replying to an upsetting online comment?",
+            "choices": [
+              "pause and think before responding",
+              "reply immediately so the feeling is clear",
+              "send the comment to several friends first"
+            ],
+            "correctAnswer": "pause and think before responding",
+            "reviewNote": "Pausing helps students respond wisely."
+          },
+          {
+            "section": "Digital Citizenship",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Private information should be protected online.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Privacy matters."
+          },
+          {
+            "section": "Respectful Communication",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Online messages should be respectful because real people read them.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Digital words affect people."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-comparing-media-texts",
+      "title": "Comparing Media Texts",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will compare how two media texts communicate similar topics in different ways.",
+      "successCriteria": [
+        "I can identify what two media texts have in common.",
+        "I can compare audience, purpose, and design choices.",
+        "I can explain which text is stronger for a particular job."
+      ],
+      "vocabulary": [
+        "compare",
+        "contrast",
+        "similar",
+        "different",
+        "effective"
+      ],
+      "teacherOverview": "Students practise comparing media texts by audience, purpose, message, and design choices.",
+      "teacherSummary": "Students practise comparing media texts by audience, purpose, message, and design choices.",
+      "lessonContent": [
+        "Two media texts can be about the same topic but communicate differently.",
+        "Comparing means noticing what is similar and what is different.",
+        "Media texts can differ in audience, purpose, wording, images, and layout.",
+        "A text is effective when its choices help it do its job well.",
+        "The stronger text depends on the purpose and audience."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Media Compare Mission",
+        "description": "Compare media texts and decide which choices fit the audience and purpose best.",
+        "levels": [
+          "Level 1: Compare Message and Audience",
+          "Level 2: Compare Effectiveness"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Comparing Media Texts Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Similarities, differences, audience, purpose, design choices, and effectiveness"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Media Compare Mission",
+        "mission": "Compare media texts and decide which choices fit the audience and purpose best.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "Before You Begin",
+            "prompt": "Get ready: same topic, different choices",
+            "text": "Two media texts may both be about reading, recycling, safety, or an event. They can still use different words, images, and designs because they are made for different audiences or purposes."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "Use Fair Comparisons",
+            "prompt": "Compare the same features",
+            "text": "Good comparisons look at message, audience, purpose, design, and evidence. Do not just say one is better; explain why one works better for a certain job."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "Similar Topic",
+            "prompt": "Text A is a school poster asking students to join the choir. Text B is an email giving parents choir concert details. What do they have in common?",
+            "choices": [
+              "Both are about choir.",
+              "Both are mainly asking students to register.",
+              "Both are written for parents only."
+            ],
+            "correctAnswer": "Both are about choir.",
+            "feedback": "Correct. The topic is shared.",
+            "hint": "Find the common topic first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "Different Audience",
+            "prompt": "How are the choir poster and parent email different?",
+            "choices": [
+              "They are made for different audiences.",
+              "They must have the same purpose.",
+              "They cannot share any information."
+            ],
+            "correctAnswer": "They are made for different audiences.",
+            "feedback": "Yes. One is for students and one is for parents.",
+            "hint": "Audience can change the message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "Purpose Difference",
+            "prompt": "One recycling poster says, 'Sort waste correctly.' Another chart shows which items go in each bin. How are their purposes different?",
+            "choices": [
+              "The poster reminds or persuades; the chart gives detailed guidance.",
+              "The poster is about science; the chart is about art.",
+              "The chart tries to sell recycling bins."
+            ],
+            "correctAnswer": "The poster reminds or persuades; the chart gives detailed guidance.",
+            "feedback": "Correct. They help in different ways.",
+            "hint": "Think about the job each text does."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "True or False",
+            "prompt": "Two media texts can share a topic but have different audiences.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Topic and audience are not the same.",
+            "hint": "Same topic does not mean same audience."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Compare Message and Audience",
+            "title": "Level 1 Complete",
+            "prompt": "You practised comparing message and audience.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Compare Effectiveness",
+            "title": "Which Works Better?",
+            "prompt": "Effectiveness depends on the job",
+            "text": "A colourful poster may work well to catch attention. A detailed webpage may work better for directions. The best choice depends on what the audience needs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Effectiveness",
+            "title": "Best for Quick Reminder",
+            "prompt": "Which media text is best for reminding students quickly to bring indoor shoes tomorrow?",
+            "choices": [
+              "a short poster by the classroom door",
+              "a long article about winter footwear",
+              "a slideshow about shoe manufacturing"
+            ],
+            "correctAnswer": "a short poster by the classroom door",
+            "feedback": "Correct. A quick reminder should be easy to see.",
+            "hint": "Match the text to the purpose."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Effectiveness",
+            "title": "Best for Details",
+            "prompt": "Which media text is best for families who need field trip cost, timing, lunch details, and permission information?",
+            "choices": [
+              "a detailed email with labelled sections",
+              "a hallway poster with one large picture",
+              "a short slogan on a bookmark"
+            ],
+            "correctAnswer": "a detailed email with labelled sections",
+            "feedback": "Yes. Families need several specific details.",
+            "hint": "Details need space and organization."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Effectiveness",
+            "title": "Design Choice",
+            "prompt": "Two food drive posters have the same facts. Poster A uses clear headings and a photo of donation boxes. Poster B uses small text in one crowded paragraph. Which is likely more effective?",
+            "choices": [
+              "Poster A, because the information is easier to find.",
+              "Poster B, because crowded text includes more words.",
+              "They are equally effective because facts are the same."
+            ],
+            "correctAnswer": "Poster A, because the information is easier to find.",
+            "feedback": "Correct. Design affects usefulness.",
+            "hint": "Effectiveness includes readability."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Effectiveness",
+            "title": "True or False",
+            "prompt": "The most effective media text is the one that best fits its audience and purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Fit matters.",
+            "hint": "Effective means it does its job well."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Compare Effectiveness",
+            "title": "Mission Complete",
+            "prompt": "You practised comparing media effectiveness.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Comparing Media Texts Quiz",
+        "questions": [
+          {
+            "section": "Compare",
+            "skill": "Common Topic",
+            "type": "multipleChoice",
+            "prompt": "A poster invites students to chess club. An email tells parents chess club pickup time. What do they have in common?",
+            "choices": [
+              "Both are about chess club.",
+              "Both are written mainly for parents.",
+              "Both give pickup instructions only."
+            ],
+            "correctAnswer": "Both are about chess club.",
+            "reviewNote": "They share a topic."
+          },
+          {
+            "section": "Compare",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A lunch menu with pictures is posted for students. A nutrition newsletter is sent to families. How are they different?",
+            "choices": [
+              "They are made for different audiences.",
+              "They cannot include the same foods.",
+              "They must use the same amount of detail."
+            ],
+            "correctAnswer": "They are made for different audiences.",
+            "reviewNote": "Audience changes choices."
+          },
+          {
+            "section": "Compare",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A safety poster says, 'Walk in the hallway.' A handbook page explains all hallway rules. How are their purposes different?",
+            "choices": [
+              "The poster gives a quick reminder; the handbook gives fuller details.",
+              "The handbook is persuasive; the poster is a story.",
+              "The poster is only for teachers; the handbook is only for visitors."
+            ],
+            "correctAnswer": "The poster gives a quick reminder; the handbook gives fuller details.",
+            "reviewNote": "They do different jobs."
+          },
+          {
+            "section": "Compare",
+            "skill": "Best Medium",
+            "type": "multipleChoice",
+            "prompt": "Which text is best for a quick reminder about tomorrow's library books?",
+            "choices": [
+              "a short classroom notice",
+              "a long research report",
+              "a detailed website privacy policy"
+            ],
+            "correctAnswer": "a short classroom notice",
+            "reviewNote": "A quick reminder should be easy to see."
+          },
+          {
+            "section": "Compare",
+            "skill": "Best Details",
+            "type": "multipleChoice",
+            "prompt": "Which text is best for explaining how to complete an online assignment?",
+            "choices": [
+              "a step-by-step guide with screenshots",
+              "a poster with only the assignment title",
+              "a short announcement over the speaker"
+            ],
+            "correctAnswer": "a step-by-step guide with screenshots",
+            "reviewNote": "Detailed instructions need clear steps."
+          },
+          {
+            "section": "Compare",
+            "skill": "Effectiveness",
+            "type": "multipleChoice",
+            "prompt": "Which media text is more effective for a map of a school fair?",
+            "choices": [
+              "a labelled map with entrances, activity areas, and washrooms",
+              "a paragraph describing every table in order",
+              "a poster with only the fair title and date"
+            ],
+            "correctAnswer": "a labelled map with entrances, activity areas, and washrooms",
+            "reviewNote": "A map should help people find places."
+          },
+          {
+            "section": "Compare",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Comparing media texts means noticing similarities and differences.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "That is comparing."
+          },
+          {
+            "section": "Compare",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A media text can be strong for one audience and less useful for another.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Audience affects usefulness."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-creating-media-message",
+      "title": "Creating a Simple Media Message",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will plan a simple media message that fits a clear audience and purpose.",
+      "successCriteria": [
+        "I can choose a clear audience and purpose.",
+        "I can select words and images that support the message.",
+        "I can check whether my media message is truthful, respectful, and easy to understand."
+      ],
+      "vocabulary": [
+        "create",
+        "audience",
+        "purpose",
+        "design",
+        "revise"
+      ],
+      "teacherOverview": "Students practise planning and checking a simple media message before sharing it.",
+      "teacherSummary": "Students practise planning and checking a simple media message before sharing it.",
+      "lessonContent": [
+        "Creating media begins with audience and purpose.",
+        "Words, images, layout, and design should all support the same message.",
+        "A media creator should be truthful and respectful.",
+        "The message should be easy for the audience to understand.",
+        "Revision helps improve clarity before the media text is shared."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored media literacy check.",
+        "Review missed questions before assigning the next Media Literacy and Digital Texts lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Create a Media Message Mission",
+        "description": "Plan and revise simple media messages that fit the audience and purpose.",
+        "levels": [
+          "Level 1: Plan the Message",
+          "Level 2: Check and Revise"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Creating a Simple Media Message Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Audience, purpose, wording, image choice, layout, truthfulness, and revision"
+      },
+      "assessmentPlan": "Use the activity for guided media literacy decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-27-language-unit-5-media-1",
+        "title": "Create a Media Message Mission",
+        "mission": "Plan and revise simple media messages that fit the audience and purpose.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Message",
+            "title": "Before You Begin",
+            "prompt": "Get ready: plan before creating",
+            "text": "A media message works best when the creator knows the audience and purpose first. Then every choice can support the same message."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Message",
+            "title": "Choose Fitting Parts",
+            "prompt": "Words, images, and layout should agree",
+            "text": "If your message asks students to bring library books, the title, image, date, and button or reminder should all point to that job."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Message",
+            "title": "Audience",
+            "prompt": "A student is making a poster to remind Grade 5 classmates about a science fair deadline. Which audience should guide the choices?",
+            "choices": [
+              "Grade 5 classmates",
+              "families reading the school newsletter",
+              "students visiting the science fair later"
+            ],
+            "correctAnswer": "Grade 5 classmates",
+            "feedback": "Correct. The poster is for Grade 5 classmates.",
+            "hint": "Use the audience named in the task."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Message",
+            "title": "Purpose",
+            "prompt": "What is the purpose of a poster that says, 'Bring your science fair display board by Monday'?",
+            "choices": [
+              "to remind students about a deadline",
+              "to explain every step of the science fair",
+              "to entertain students with a science story"
+            ],
+            "correctAnswer": "to remind students about a deadline",
+            "feedback": "Yes. It gives a clear reminder.",
+            "hint": "Ask what the poster wants people to do."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Message",
+            "title": "Image Choice",
+            "prompt": "Which image best fits a poster about bringing a reusable lunch container?",
+            "choices": [
+              "a lunch container beside a lunch bag",
+              "a lunch table with students eating",
+              "a school backpack packed for the day"
+            ],
+            "correctAnswer": "a lunch container beside a lunch bag",
+            "feedback": "Correct. The image supports the message.",
+            "hint": "Choose the image that matches the action."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Message",
+            "title": "True or False",
+            "prompt": "A simple media message should have a clear audience and purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Planning matters.",
+            "hint": "Audience and purpose guide choices."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Plan the Message",
+            "title": "Level 1 Complete",
+            "prompt": "You practised planning media messages.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Check and Revise",
+            "title": "Review Before Sharing",
+            "prompt": "Creators are responsible",
+            "text": "Before sharing a media message, check that it is accurate, respectful, readable, and complete. If something might confuse the audience, revise it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check and Revise",
+            "title": "Truthfulness",
+            "prompt": "A poster says, 'Every participant will win a prize,' but only ten prizes are available. What should the creator do?",
+            "choices": [
+              "revise the message so it is accurate",
+              "change the poster to say prizes are limited",
+              "ask whether the teacher can add more prizes"
+            ],
+            "correctAnswer": "revise the message so it is accurate",
+            "feedback": "Correct. Media messages should be truthful.",
+            "hint": "Accuracy matters before sharing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check and Revise",
+            "title": "Readable Layout",
+            "prompt": "Which revision would make a poster easier to use?",
+            "choices": [
+              "put the date, time, and place in a clear list",
+              "add three more background pictures",
+              "make the title use several different fonts"
+            ],
+            "correctAnswer": "put the date, time, and place in a clear list",
+            "feedback": "Yes. A list helps the audience find details.",
+            "hint": "Choose the revision that improves clarity."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check and Revise",
+            "title": "Respectful Message",
+            "prompt": "Which slogan is best for a poster encouraging careful tablet use?",
+            "choices": [
+              "Use tablets wisely so everyone can learn.",
+              "Careless tablet use slows learning for the class.",
+              "Good tablet habits help devices last longer."
+            ],
+            "correctAnswer": "Use tablets wisely so everyone can learn.",
+            "feedback": "Correct. It is positive and respectful.",
+            "hint": "A strong message can still be respectful."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Check and Revise",
+            "title": "True or False",
+            "prompt": "Creators should revise a media message if the audience might misunderstand it.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Revision improves communication.",
+            "hint": "Clear communication matters."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Check and Revise",
+            "title": "Mission Complete",
+            "prompt": "You practised creating and revising media messages.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Creating a Simple Media Message Quiz",
+        "questions": [
+          {
+            "section": "Create Media",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A poster is made to remind Grade 5 students about indoor shoes. Who is the main audience?",
+            "choices": [
+              "Grade 5 students",
+              "families buying winter coats",
+              "teachers planning report cards"
+            ],
+            "correctAnswer": "Grade 5 students",
+            "reviewNote": "The poster is for Grade 5 students."
+          },
+          {
+            "section": "Create Media",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A message says, 'Sign up for the class cleanup team by Thursday.' What is its purpose?",
+            "choices": [
+              "to persuade students to sign up by a deadline",
+              "to explain how cleaners are trained",
+              "to compare two classroom jobs"
+            ],
+            "correctAnswer": "to persuade students to sign up by a deadline",
+            "reviewNote": "It asks for action."
+          },
+          {
+            "section": "Create Media",
+            "skill": "Image",
+            "type": "multipleChoice",
+            "prompt": "Which image best supports a poster about returning library books?",
+            "choices": [
+              "a library book being placed in a return bin",
+              "a student writing a math answer",
+              "a stack of lunch trays"
+            ],
+            "correctAnswer": "a library book being placed in a return bin",
+            "reviewNote": "The image matches the action."
+          },
+          {
+            "section": "Create Media",
+            "skill": "Layout",
+            "type": "multipleChoice",
+            "prompt": "Which layout helps readers understand an event poster?",
+            "choices": [
+              "event name, date, time, place, and what to bring clearly separated",
+              "title and picture only, with details in tiny print",
+              "several paragraphs with the time mentioned near the end"
+            ],
+            "correctAnswer": "event name, date, time, place, and what to bring clearly separated",
+            "reviewNote": "Important details are easy to find."
+          },
+          {
+            "section": "Create Media",
+            "skill": "Accuracy",
+            "type": "multipleChoice",
+            "prompt": "A flyer says a club meets every Friday, but it meets every second Friday. What should the creator do?",
+            "choices": [
+              "correct the schedule before sharing",
+              "leave it because the flyer looks finished",
+              "add more pictures instead of changing the words"
+            ],
+            "correctAnswer": "correct the schedule before sharing",
+            "reviewNote": "The information must be accurate."
+          },
+          {
+            "section": "Create Media",
+            "skill": "Revision",
+            "type": "multipleChoice",
+            "prompt": "A poster has a good message but the date is hard to find. What revision fits best?",
+            "choices": [
+              "make the date easy to see near the main reminder",
+              "move the date into the paragraph below the title",
+              "add a second picture to balance the layout"
+            ],
+            "correctAnswer": "make the date easy to see near the main reminder",
+            "reviewNote": "The revision solves the problem."
+          },
+          {
+            "section": "Create Media",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A media creator should check that the message is truthful and respectful.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Creators have responsibility."
+          },
+          {
+            "section": "Create Media",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The best design is always the one with the most decoration.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Design should support communication."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-5-final-quiz",
+      "title": "Unit 5 Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherOverview": "Use this quiz after students complete the Media Literacy and Digital Texts lessons.",
+      "teacherSummary": "The Unit 5 final quiz checks media messages, audience and purpose, design choices, fact and opinion, persuasion, online credibility, digital citizenship, media comparison, and media creation.",
+      "quiz": {
+        "title": "Media Literacy and Digital Texts Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Media Messages",
+            "skill": "Media Text",
+            "type": "multipleChoice",
+            "prompt": "Which choice is a media text?",
+            "choices": [
+              "a poster advertising a school play",
+              "a printer used to make theatre programs",
+              "a box used to store stage supplies"
+            ],
+            "correctAnswer": "a poster advertising a school play",
+            "reviewNote": "The poster communicates a message."
+          },
+          {
+            "section": "Part A: Media Messages",
+            "skill": "Message",
+            "type": "multipleChoice",
+            "prompt": "A notice says, 'Bring your recorder for music class on Tuesday.' What is the main message?",
+            "choices": [
+              "Students need their recorders on Tuesday.",
+              "Music class includes instruments.",
+              "Tuesday is part of the school schedule."
+            ],
+            "correctAnswer": "Students need their recorders on Tuesday.",
+            "reviewNote": "The notice tells students what to bring and when."
+          },
+          {
+            "section": "Part B: Audience",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A webpage has student activity buttons, practice stars, and a class code login. Who is the main audience?",
+            "choices": [
+              "students using the learning site",
+              "parents paying school fees",
+              "teachers writing report cards"
+            ],
+            "correctAnswer": "students using the learning site",
+            "reviewNote": "The features are for students."
+          },
+          {
+            "section": "Part B: Purpose",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A poster says, 'Join the lunchtime walking club.' What is its main purpose?",
+            "choices": [
+              "to persuade students to join",
+              "to explain how shoes are made",
+              "to compare gym and outdoor games"
+            ],
+            "correctAnswer": "to persuade students to join",
+            "reviewNote": "It encourages action."
+          },
+          {
+            "section": "Part C: Design",
+            "skill": "Emphasis",
+            "type": "multipleChoice",
+            "prompt": "A poster makes 'Forms due Friday' larger than the other text. Why?",
+            "choices": [
+              "to help the audience notice the deadline",
+              "to make the poster look longer",
+              "to show the date is less important"
+            ],
+            "correctAnswer": "to help the audience notice the deadline",
+            "reviewNote": "Size can show importance."
+          },
+          {
+            "section": "Part C: Design",
+            "skill": "Layout",
+            "type": "multipleChoice",
+            "prompt": "Which layout is clearest for a field trip reminder?",
+            "choices": [
+              "date, place, cost, and what to bring in labelled sections",
+              "one long paragraph with details mixed together",
+              "a large picture with the time placed in tiny print"
+            ],
+            "correctAnswer": "date, place, cost, and what to bring in labelled sections",
+            "reviewNote": "Labels help the audience find information."
+          },
+          {
+            "section": "Part D: Fact and Opinion",
+            "skill": "Fact",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is a fact?",
+            "choices": [
+              "The school fair starts at 5:30 p.m.",
+              "The fair will be the best event of spring.",
+              "The fair games are more fun than the food table."
+            ],
+            "correctAnswer": "The school fair starts at 5:30 p.m.",
+            "reviewNote": "The time can be checked."
+          },
+          {
+            "section": "Part D: Fact and Opinion",
+            "skill": "Opinion",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is an opinion?",
+            "choices": [
+              "The new poster is more eye-catching than the old one.",
+              "The poster has three headings.",
+              "The poster was printed on Monday."
+            ],
+            "correctAnswer": "The new poster is more eye-catching than the old one.",
+            "reviewNote": "Eye-catching is a judgement."
+          },
+          {
+            "section": "Part D: Persuasion",
+            "skill": "Support",
+            "type": "multipleChoice",
+            "prompt": "Claim: Our class should use a homework checklist. Which support is strongest?",
+            "choices": [
+              "A checklist can help students remember each part before handing work in.",
+              "Checklists can be printed on half sheets.",
+              "Many classrooms have paper near the printer."
+            ],
+            "correctAnswer": "A checklist can help students remember each part before handing work in.",
+            "reviewNote": "It explains why the checklist would help."
+          },
+          {
+            "section": "Part E: Credibility",
+            "skill": "Source",
+            "type": "multipleChoice",
+            "prompt": "Which source is likely strongest for current school event dates?",
+            "choices": [
+              "the official school website listing current dates",
+              "a classroom newsletter from last term",
+              "a student's paragraph about favourite school events"
+            ],
+            "correctAnswer": "the official school website listing current dates",
+            "reviewNote": "The official website fits the need."
+          },
+          {
+            "section": "Part E: Credibility",
+            "skill": "Verify",
+            "type": "multipleChoice",
+            "prompt": "A website gives a surprising health fact but does not say where it came from. What should a student do?",
+            "choices": [
+              "check another reliable source or ask a trusted adult",
+              "use it only if it matches the paragraph topic",
+              "write it down and look for the page date"
+            ],
+            "correctAnswer": "check another reliable source or ask a trusted adult",
+            "reviewNote": "Important unclear facts need checking."
+          },
+          {
+            "section": "Part F: Digital Citizenship",
+            "skill": "Privacy",
+            "type": "multipleChoice",
+            "prompt": "Which information should not be posted in a public class comment?",
+            "choices": [
+              "home address",
+              "favourite book genre",
+              "first name only"
+            ],
+            "correctAnswer": "home address",
+            "reviewNote": "A home address is private."
+          },
+          {
+            "section": "Part F: Digital Citizenship",
+            "skill": "Respect",
+            "type": "multipleChoice",
+            "prompt": "Which online reply is most respectful?",
+            "choices": [
+              "I see your idea, but the evidence supports a different answer.",
+              "Your answer should be ignored.",
+              "My answer is better, so use it."
+            ],
+            "correctAnswer": "I see your idea, but the evidence supports a different answer.",
+            "reviewNote": "It disagrees with respect and a reason."
+          },
+          {
+            "section": "Part G: Compare Media",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A student poster invites classmates to a club. A parent email gives pickup details. How are they different?",
+            "choices": [
+              "They are made for different audiences.",
+              "They cannot be about the same club.",
+              "They must use the same amount of detail."
+            ],
+            "correctAnswer": "They are made for different audiences.",
+            "reviewNote": "Audience affects choices."
+          },
+          {
+            "section": "Part G: Compare Media",
+            "skill": "Effectiveness",
+            "type": "multipleChoice",
+            "prompt": "Which media text is best for helping visitors find booths at a school fair?",
+            "choices": [
+              "a labelled map of the fair area",
+              "a slogan about fair day",
+              "a paragraph listing last year's events"
+            ],
+            "correctAnswer": "a labelled map of the fair area",
+            "reviewNote": "A map fits the audience need."
+          },
+          {
+            "section": "Part H: Create Media",
+            "skill": "Plan",
+            "type": "multipleChoice",
+            "prompt": "Before creating a media message, what should the creator decide first?",
+            "choices": [
+              "audience and purpose",
+              "the number of decorations",
+              "where to put the smallest text"
+            ],
+            "correctAnswer": "audience and purpose",
+            "reviewNote": "Audience and purpose guide every choice."
+          },
+          {
+            "section": "Part H: Create Media",
+            "skill": "Accuracy",
+            "type": "multipleChoice",
+            "prompt": "A poster lists an incorrect start time for an event. What should the creator do?",
+            "choices": [
+              "correct the time before sharing",
+              "move the time closer to the title",
+              "ask someone to check the design colours"
+            ],
+            "correctAnswer": "correct the time before sharing",
+            "reviewNote": "Media information should be accurate."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A media text can use words, images, layout, and symbols to communicate.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Media messages can use many features."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A polished website design proves the information is correct.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Design does not prove accuracy."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Respectful online communication can include disagreement.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "People can disagree respectfully."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Media Literacy and Digital Texts mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
+    }
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The final unit quiz checks media messages, audience and purpose, design choices, fact and opinion, persuasion, online credibility, digital citizenship, comparing media texts, and creating a simple media message."
+  }
+}
