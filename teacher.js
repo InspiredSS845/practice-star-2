@@ -313,6 +313,15 @@ function showCurriculumView(viewName, options = {}) {
   }
 }
 
+function showCurriculumHome(options = {}) {
+  const { persist = true } = options;
+  activeCurriculumUnitId = "";
+  activeCurriculumLibraryId = "";
+  activeCurriculumLessonId = "";
+  showDashboardTab(defaultDashboardTabId, { persist });
+  renderCurriculum({ persistView: persist });
+}
+
 async function loadCurriculum() {
   if (curriculumLibraries.length) {
     renderCurriculum();
@@ -2411,13 +2420,16 @@ deleteListButton.addEventListener("click", async () => {
 
 questionType.addEventListener("change", updateCorrectAnswerChoices);
 dashboardTabButtons.forEach((button) => {
-  button.addEventListener("click", () => showDashboardTab(button.id));
+  button.addEventListener("click", () => {
+    if (button.id === defaultDashboardTabId) {
+      showCurriculumHome();
+      return;
+    }
+    showDashboardTab(button.id);
+  });
 });
 backToCurriculumButton.addEventListener("click", () => {
-  activeCurriculumUnitId = "";
-  activeCurriculumLibraryId = "";
-  activeCurriculumLessonId = "";
-  showCurriculumView("home");
+  showCurriculumHome();
 });
 backToUnitButton.addEventListener("click", () => {
   if (activeCurriculumLibraryId && activeCurriculumUnitId) {
