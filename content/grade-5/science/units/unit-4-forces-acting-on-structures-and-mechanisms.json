@@ -7,58 +7,2484 @@
     {
       "id": "grade-5-science-unit-4-structures-and-forces",
       "title": "Structures and Forces",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on identifying structures, mechanisms, pushes, pulls, loads, and real-life force examples."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify structures, mechanisms, forces, and loads in everyday examples.",
+      "successCriteria": [
+        "I can tell the difference between a structure and a mechanism.",
+        "I can identify pushes, pulls, and loads acting on objects.",
+        "I can explain how forces can change motion, shape, or stability."
+      ],
+      "vocabulary": [
+        "structure",
+        "mechanism",
+        "force",
+        "push",
+        "pull",
+        "load"
+      ],
+      "teacherSummary": "Students practise identifying structures, mechanisms, pushes, pulls, and loads.",
+      "teacherOverview": "Students learn that structures are built to support loads and mechanisms use moving parts to transfer force and motion.",
+      "christianFocus": "Students can study design with gratitude for the order in God's created world and with care for the people who use structures and mechanisms.",
+      "lessonContent": [
+        "A structure is something made of parts arranged to support a load or hold a shape.",
+        "A mechanism is a system with moving parts that transfers force or motion.",
+        "A force is a push or a pull.",
+        "Forces can change an object's motion, shape, or stability.",
+        "A load is a force carried by a structure, such as the weight of people, furniture, wind, snow, or the structure itself."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Structures and Forces Mission",
+        "description": "Practise spotting structures, mechanisms, forces, and loads.",
+        "levels": [
+          "Level 1: Structures and Mechanisms",
+          "Level 2: Forces and Loads"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Structures and Forces Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Structures, mechanisms, pushes, pulls, loads, and everyday force examples"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Structures and Forces Mission",
+        "mission": "Practise spotting structures, mechanisms, forces, and loads.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "Before You Begin",
+            "prompt": "Get ready: built things have jobs",
+            "text": "A structure supports something or holds a shape. A mechanism has moving parts that transfer force or motion. Some objects, such as a bicycle, include both structures and mechanisms."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "Look for the Main Job",
+            "prompt": "Support or motion?",
+            "text": "To decide whether something is mainly a structure or mechanism, ask what its main job is. A bridge mainly supports loads. A door hinge mainly helps motion happen in a controlled way."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "Structure Example",
+            "prompt": "Which object is mainly a structure?",
+            "choices": [
+              "a bridge deck that supports traffic",
+              "a gear train that turns another gear",
+              "a wheel and axle that helps a cart roll"
+            ],
+            "correctAnswer": "a bridge deck that supports traffic",
+            "feedback": "Correct. A bridge deck is built to support loads.",
+            "hint": "Look for the choice whose main job is support."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "Mechanism Example",
+            "prompt": "Which object is mainly a mechanism?",
+            "choices": [
+              "a hand-cranked pencil sharpener",
+              "a bookshelf standing against a wall",
+              "a tower holding a sign"
+            ],
+            "correctAnswer": "a hand-cranked pencil sharpener",
+            "feedback": "Yes. It has moving parts that transfer motion.",
+            "hint": "Mechanisms usually include moving parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "Both at Once",
+            "prompt": "Why can a bicycle be described as both a structure and a mechanism?",
+            "choices": [
+              "Its frame supports the rider, and its moving parts transfer force and motion.",
+              "It is colourful, and colourful objects always have two science jobs.",
+              "It has wheels, so its frame no longer needs to support anything."
+            ],
+            "correctAnswer": "Its frame supports the rider, and its moving parts transfer force and motion.",
+            "feedback": "Correct. One object can include both support and motion systems.",
+            "hint": "Think about the frame and the moving parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "True or False",
+            "prompt": "A structure can be designed to hold a shape and support a load.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Support and shape are key structure ideas.",
+            "hint": "A structure is not only a building."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Structures and Mechanisms",
+            "title": "Level 1 Complete",
+            "prompt": "You practised sorting structures and mechanisms.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Forces and Loads",
+            "title": "Forces Are Pushes and Pulls",
+            "prompt": "Loads are forces too",
+            "text": "A force is a push or pull. A load is a force a structure carries. A shelf carries the load of books, and a bridge carries loads from itself, traffic, wind, and weather."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Forces and Loads",
+            "title": "Push or Pull",
+            "prompt": "A student closes a drawer by pressing on it. What force is being used?",
+            "choices": [
+              "a push",
+              "a pull",
+              "a load with no direction"
+            ],
+            "correctAnswer": "a push",
+            "feedback": "Correct. Pressing the drawer inward is a push.",
+            "hint": "A push moves away from the person applying it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Forces and Loads",
+            "title": "Load Example",
+            "prompt": "Which is a load on a classroom chair?",
+            "choices": [
+              "a student sitting on it",
+              "the colour of the seat",
+              "the distance from the door"
+            ],
+            "correctAnswer": "a student sitting on it",
+            "feedback": "Yes. The chair must support the student's weight.",
+            "hint": "A load is a force the structure carries."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Forces and Loads",
+            "title": "Force Effect",
+            "prompt": "A heavy backpack bends a hook slightly downward. What effect did the force have?",
+            "choices": [
+              "It changed the hook's shape a little.",
+              "It turned the hook into a mechanism.",
+              "It removed all load from the hook."
+            ],
+            "correctAnswer": "It changed the hook's shape a little.",
+            "feedback": "Correct. Forces can change shape.",
+            "hint": "The hook bent under the load."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Forces and Loads",
+            "title": "True or False",
+            "prompt": "Wind can act as a load on a tall outdoor structure.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Wind can push on a structure.",
+            "hint": "Loads are not only people or boxes."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Forces and Loads",
+            "title": "Mission Complete",
+            "prompt": "You practised identifying forces and loads.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Structures and Forces Quiz",
+        "questions": [
+          {
+            "section": "Structures",
+            "skill": "Definition",
+            "type": "multipleChoice",
+            "prompt": "What is a structure?",
+            "choices": [
+              "parts arranged to support a load or hold a shape",
+              "any object that must include a battery",
+              "a material that cannot bend under any load"
+            ],
+            "correctAnswer": "parts arranged to support a load or hold a shape",
+            "reviewNote": "Structures support loads or hold shapes."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "Definition",
+            "type": "multipleChoice",
+            "prompt": "What is a mechanism?",
+            "choices": [
+              "a system with moving parts that transfers force or motion",
+              "a structure that can never move",
+              "a load that is only caused by weather"
+            ],
+            "correctAnswer": "a system with moving parts that transfers force or motion",
+            "reviewNote": "Mechanisms use moving parts."
+          },
+          {
+            "section": "Forces",
+            "skill": "Push Pull",
+            "type": "multipleChoice",
+            "prompt": "What is a force?",
+            "choices": [
+              "a push or pull",
+              "only the weight of an object",
+              "only something caused by machines"
+            ],
+            "correctAnswer": "a push or pull",
+            "reviewNote": "A force is a push or pull."
+          },
+          {
+            "section": "Loads",
+            "skill": "Example",
+            "type": "multipleChoice",
+            "prompt": "Which is a load on a bridge?",
+            "choices": [
+              "cars travelling across it",
+              "the name painted on a sign",
+              "the colour of the railing"
+            ],
+            "correctAnswer": "cars travelling across it",
+            "reviewNote": "Traffic is a load the bridge carries."
+          },
+          {
+            "section": "Effects",
+            "skill": "Shape",
+            "type": "multipleChoice",
+            "prompt": "A shelf sags under heavy books. What has the load affected?",
+            "choices": [
+              "the shelf's shape",
+              "the meaning of the word shelf",
+              "the fact that the books are books"
+            ],
+            "correctAnswer": "the shelf's shape",
+            "reviewNote": "The shelf has bent under the load."
+          },
+          {
+            "section": "Structures and Mechanisms",
+            "skill": "Bicycle",
+            "type": "multipleChoice",
+            "prompt": "Why can a bicycle include both a structure and mechanisms?",
+            "choices": [
+              "The frame supports the rider, and the moving parts transfer motion.",
+              "The wheels are round, so the frame cannot support anything.",
+              "It has many parts, and every object with many parts is a mechanism only."
+            ],
+            "correctAnswer": "The frame supports the rider, and the moving parts transfer motion.",
+            "reviewNote": "A bicycle frame supports, while pedals, chain, and wheels move."
+          },
+          {
+            "section": "Forces",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A force can be a push or a pull.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Forces are pushes or pulls."
+          },
+          {
+            "section": "Loads",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Wind can be a load on an outdoor structure.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Wind can push against structures."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-compression-tension-torsion-shear",
       "title": "Compression, Tension, Torsion, and Shear",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on major force types using age-appropriate examples and diagrams."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify four common types of forces and explain how they affect structures.",
+      "successCriteria": [
+        "I can describe compression, tension, torsion, and shear.",
+        "I can match force types to everyday examples.",
+        "I can explain why knowing force types helps with safer design."
+      ],
+      "vocabulary": [
+        "compression",
+        "tension",
+        "torsion",
+        "shear",
+        "twist",
+        "stretch"
+      ],
+      "teacherSummary": "Students practise identifying compression, tension, torsion, and shear in everyday examples.",
+      "teacherOverview": "Students learn that different forces affect structures in different ways and that designers must plan for those forces.",
+      "christianFocus": "Students connect careful design with loving their neighbours by thinking about safety, reliability, and wise use of materials.",
+      "lessonContent": [
+        "Compression is a squeezing or pressing force.",
+        "Tension is a stretching or pulling force.",
+        "Torsion is a twisting force.",
+        "Shear is a force that pushes parts of a material in opposite directions so they may slide or tear.",
+        "A structure may face more than one kind of force at the same time."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Force Types Mission",
+        "description": "Practise naming force types in real examples.",
+        "levels": [
+          "Level 1: Name the Force",
+          "Level 2: Explain the Effect"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Compression, Tension, Torsion, and Shear Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Four force types, examples, effects, and design thinking"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Force Types Mission",
+        "mission": "Practise naming force types in real examples.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Force",
+            "title": "Before You Begin",
+            "prompt": "Get ready: forces have different patterns",
+            "text": "Forces do not all act the same way. A force may squeeze, stretch, twist, or make parts slide past each other. Naming the force helps explain what is happening."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Force",
+            "title": "Four Force Words",
+            "prompt": "Compression, tension, torsion, shear",
+            "text": "Compression squeezes. Tension stretches. Torsion twists. Shear pushes parts in opposite directions, like when scissors cut paper."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Force",
+            "title": "Compression",
+            "prompt": "A stack of books presses down on a cardboard box. Which force is the box experiencing?",
+            "choices": [
+              "compression",
+              "torsion",
+              "shear"
+            ],
+            "correctAnswer": "compression",
+            "feedback": "Correct. The box is being squeezed by the load.",
+            "hint": "Compression presses or squeezes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Force",
+            "title": "Tension",
+            "prompt": "A rope is pulled tight during a tug-of-war. Which force is acting on the rope?",
+            "choices": [
+              "tension",
+              "compression",
+              "settling"
+            ],
+            "correctAnswer": "tension",
+            "feedback": "Yes. Tension stretches or pulls a material.",
+            "hint": "Think about the rope being pulled."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Force",
+            "title": "Torsion",
+            "prompt": "A screwdriver twists a screw into wood. Which force is being applied?",
+            "choices": [
+              "torsion",
+              "compression only",
+              "filtering"
+            ],
+            "correctAnswer": "torsion",
+            "feedback": "Correct. Torsion is a twisting force.",
+            "hint": "Look for twisting."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Force",
+            "title": "True or False",
+            "prompt": "Shear can happen when forces push parts of a material in opposite directions.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Shear can cause sliding, tearing, or cutting.",
+            "hint": "Scissors cutting paper show shear."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Name the Force",
+            "title": "Level 1 Complete",
+            "prompt": "You practised naming force types.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Explain the Effect",
+            "title": "Forces Affect Design",
+            "prompt": "Designers plan for force",
+            "text": "A safe structure needs to handle the forces it will face. Designers choose materials, shapes, and supports that resist compression, tension, torsion, and shear."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain the Effect",
+            "title": "Bridge Cable",
+            "prompt": "A bridge cable is pulled tight while supporting part of a bridge. Which force is most important in the cable?",
+            "choices": [
+              "tension",
+              "compression",
+              "evaporation"
+            ],
+            "correctAnswer": "tension",
+            "feedback": "Correct. Cables often work well in tension.",
+            "hint": "Cables are pulled."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain the Effect",
+            "title": "Table Leg",
+            "prompt": "A table leg supports weight pressing downward from the tabletop. Which force is most likely acting on the leg?",
+            "choices": [
+              "compression",
+              "torsion",
+              "magnetism"
+            ],
+            "correctAnswer": "compression",
+            "feedback": "Yes. The leg is being squeezed by the load.",
+            "hint": "Table legs carry downward loads."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain the Effect",
+            "title": "Scissors",
+            "prompt": "Why do scissors show shear force?",
+            "choices": [
+              "The blades push material in opposite directions to cut it.",
+              "The handles make paper dissolve.",
+              "The metal changes state when the blades touch."
+            ],
+            "correctAnswer": "The blades push material in opposite directions to cut it.",
+            "feedback": "Correct. Shear can cut or tear material.",
+            "hint": "Think about how the blades pass each other."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain the Effect",
+            "title": "True or False",
+            "prompt": "A real structure can experience more than one type of force at the same time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Structures often face several forces at once.",
+            "hint": "A bridge may face weight, wind, and movement."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Explain the Effect",
+            "title": "Mission Complete",
+            "prompt": "You practised explaining force effects.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Compression, Tension, Torsion, and Shear Quiz",
+        "questions": [
+          {
+            "section": "Force Types",
+            "skill": "Compression",
+            "type": "multipleChoice",
+            "prompt": "Which force squeezes or presses a material?",
+            "choices": [
+              "compression",
+              "tension",
+              "torsion"
+            ],
+            "correctAnswer": "compression",
+            "reviewNote": "Compression squeezes."
+          },
+          {
+            "section": "Force Types",
+            "skill": "Tension",
+            "type": "multipleChoice",
+            "prompt": "Which force stretches or pulls a material?",
+            "choices": [
+              "tension",
+              "shear",
+              "compression"
+            ],
+            "correctAnswer": "tension",
+            "reviewNote": "Tension stretches or pulls."
+          },
+          {
+            "section": "Force Types",
+            "skill": "Torsion",
+            "type": "multipleChoice",
+            "prompt": "Which force twists a material?",
+            "choices": [
+              "torsion",
+              "tension",
+              "settling"
+            ],
+            "correctAnswer": "torsion",
+            "reviewNote": "Torsion twists."
+          },
+          {
+            "section": "Force Types",
+            "skill": "Shear",
+            "type": "multipleChoice",
+            "prompt": "Which example best shows shear?",
+            "choices": [
+              "scissors cutting paper",
+              "a table leg being pressed downward",
+              "a rope being pulled tight"
+            ],
+            "correctAnswer": "scissors cutting paper",
+            "reviewNote": "Shear can cut or tear as parts move in opposite directions."
+          },
+          {
+            "section": "Examples",
+            "skill": "Cable",
+            "type": "multipleChoice",
+            "prompt": "A cable pulled tight on a bridge mainly experiences...",
+            "choices": [
+              "tension",
+              "compression",
+              "evaporation"
+            ],
+            "correctAnswer": "tension",
+            "reviewNote": "Cables are pulled."
+          },
+          {
+            "section": "Examples",
+            "skill": "Column",
+            "type": "multipleChoice",
+            "prompt": "A column holding up a roof mainly experiences...",
+            "choices": [
+              "compression",
+              "magnetism",
+              "dissolving"
+            ],
+            "correctAnswer": "compression",
+            "reviewNote": "Columns are pressed by loads."
+          },
+          {
+            "section": "Design",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Designers should think about the forces a structure will face.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Forces affect safety and strength."
+          },
+          {
+            "section": "Design",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A structure can face compression and tension at the same time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Real structures often face several forces."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-loads-and-stability",
       "title": "Loads and Stability",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on live loads, dead loads, balance, centre of gravity, and stability."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how loads, centre of gravity, base size, and balance affect stability.",
+      "successCriteria": [
+        "I can compare live loads, dead loads, and environmental loads.",
+        "I can explain how centre of gravity and base size affect stability.",
+        "I can choose design changes that improve stability."
+      ],
+      "vocabulary": [
+        "live load",
+        "dead load",
+        "environmental load",
+        "stability",
+        "base",
+        "centre of gravity"
+      ],
+      "teacherSummary": "Students practise reasoning about loads, balance, centre of gravity, and stability.",
+      "teacherOverview": "Students learn that stable structures resist tipping, sliding, or collapsing under expected loads.",
+      "christianFocus": "Students learn that safe design is one way people can serve and protect others.",
+      "lessonContent": [
+        "A dead load is the weight of the structure itself.",
+        "A live load is the weight of things added to or moving on a structure, such as people, books, or vehicles.",
+        "Environmental loads include wind, rain, snow, ice, and earthquakes.",
+        "Stability means a structure resists tipping, sliding, or collapsing.",
+        "A lower centre of gravity and a wider base often make a structure more stable."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Stability Mission",
+        "description": "Practise identifying loads and choosing ways to improve stability.",
+        "levels": [
+          "Level 1: Identify Loads",
+          "Level 2: Improve Stability"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Loads and Stability Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Dead loads, live loads, environmental loads, centre of gravity, base size, and stability"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Stability Mission",
+        "mission": "Practise identifying loads and choosing ways to improve stability.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify Loads",
+            "title": "Before You Begin",
+            "prompt": "Get ready: structures carry different loads",
+            "text": "Structures must carry their own weight and other forces added to them. Designers think about expected loads before building."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify Loads",
+            "title": "Three Load Types",
+            "prompt": "Dead, live, environmental",
+            "text": "Dead load is the structure's own weight. Live load is added weight such as people or vehicles. Environmental load comes from wind, snow, rain, ice, or ground movement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Loads",
+            "title": "Dead Load",
+            "prompt": "Which is part of a bridge's dead load?",
+            "choices": [
+              "the weight of the bridge materials",
+              "cars crossing during rush hour",
+              "wind pushing from the side"
+            ],
+            "correctAnswer": "the weight of the bridge materials",
+            "feedback": "Correct. Dead load is the structure's own weight.",
+            "hint": "Dead load is built in."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Loads",
+            "title": "Live Load",
+            "prompt": "Which is a live load on a school floor?",
+            "choices": [
+              "students walking across it",
+              "the weight of the floor itself",
+              "wind against the outside wall"
+            ],
+            "correctAnswer": "students walking across it",
+            "feedback": "Yes. People moving on a structure are live loads.",
+            "hint": "Live loads can change."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Loads",
+            "title": "Environmental Load",
+            "prompt": "Which is an environmental load on a roof?",
+            "choices": [
+              "heavy snow after a storm",
+              "the wooden beams in the roof",
+              "a chair placed in the classroom"
+            ],
+            "correctAnswer": "heavy snow after a storm",
+            "feedback": "Correct. Snow is an environmental load.",
+            "hint": "Weather can add loads."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Loads",
+            "title": "True or False",
+            "prompt": "A safe design should consider loads that may change over time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Live and environmental loads can change.",
+            "hint": "Think about people, weather, and use."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Identify Loads",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying load types.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Improve Stability",
+            "title": "What Makes Structures Stable?",
+            "prompt": "Balance matters",
+            "text": "A stable structure resists tipping, sliding, or collapsing. A wide base, lower centre of gravity, strong connections, and balanced loads can improve stability."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve Stability",
+            "title": "Wider Base",
+            "prompt": "A tall tower model tips easily. Which change would likely improve stability?",
+            "choices": [
+              "widen the base",
+              "make the top heavier",
+              "remove supports from the bottom"
+            ],
+            "correctAnswer": "widen the base",
+            "feedback": "Correct. A wider base can improve stability.",
+            "hint": "A broad base helps resist tipping."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve Stability",
+            "title": "Centre of Gravity",
+            "prompt": "Why can placing heavy parts lower make a structure more stable?",
+            "choices": [
+              "It lowers the centre of gravity.",
+              "It removes all environmental loads.",
+              "It changes tension into dissolving."
+            ],
+            "correctAnswer": "It lowers the centre of gravity.",
+            "feedback": "Yes. A lower centre of gravity often improves stability.",
+            "hint": "Think about balance."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve Stability",
+            "title": "Balanced Load",
+            "prompt": "A shelf has all heavy books on one far end. What is a reasonable improvement?",
+            "choices": [
+              "spread the load more evenly if the shelf is designed for it",
+              "add more heavy books to the same end",
+              "ignore it because loads cannot affect stability"
+            ],
+            "correctAnswer": "spread the load more evenly if the shelf is designed for it",
+            "feedback": "Correct. Better load distribution can improve stability.",
+            "hint": "Uneven loads can matter."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Improve Stability",
+            "title": "True or False",
+            "prompt": "A structure can be strong in one situation but unstable if the load changes.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Load conditions affect stability.",
+            "hint": "A structure must match the load it faces."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Improve Stability",
+            "title": "Mission Complete",
+            "prompt": "You practised improving stability.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Loads and Stability Quiz",
+        "questions": [
+          {
+            "section": "Loads",
+            "skill": "Dead Load",
+            "type": "multipleChoice",
+            "prompt": "What is a dead load?",
+            "choices": [
+              "the weight of the structure itself",
+              "people moving across a structure",
+              "wind pushing against a structure"
+            ],
+            "correctAnswer": "the weight of the structure itself",
+            "reviewNote": "Dead load is built-in weight."
+          },
+          {
+            "section": "Loads",
+            "skill": "Live Load",
+            "type": "multipleChoice",
+            "prompt": "Which is a live load on a bridge?",
+            "choices": [
+              "a truck crossing it",
+              "the concrete in the bridge deck",
+              "snow resting on the bridge overnight"
+            ],
+            "correctAnswer": "a truck crossing it",
+            "reviewNote": "Vehicles are live loads."
+          },
+          {
+            "section": "Loads",
+            "skill": "Environmental Load",
+            "type": "multipleChoice",
+            "prompt": "Which is an environmental load?",
+            "choices": [
+              "wind pushing against a tower",
+              "the tower's own metal frame",
+              "a person climbing indoor stairs"
+            ],
+            "correctAnswer": "wind pushing against a tower",
+            "reviewNote": "Wind is an environmental load."
+          },
+          {
+            "section": "Stability",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "What does stability mean?",
+            "choices": [
+              "resisting tipping, sliding, or collapsing",
+              "having the tallest possible shape",
+              "using only one type of material"
+            ],
+            "correctAnswer": "resisting tipping, sliding, or collapsing",
+            "reviewNote": "Stable structures resist unwanted movement or failure."
+          },
+          {
+            "section": "Stability",
+            "skill": "Base",
+            "type": "multipleChoice",
+            "prompt": "Which change often makes a tower model more stable?",
+            "choices": [
+              "a wider base",
+              "a heavier top",
+              "a smaller bottom support"
+            ],
+            "correctAnswer": "a wider base",
+            "reviewNote": "A wider base can resist tipping."
+          },
+          {
+            "section": "Stability",
+            "skill": "Centre of Gravity",
+            "type": "multipleChoice",
+            "prompt": "Why can a lower centre of gravity improve stability?",
+            "choices": [
+              "The structure is less likely to tip.",
+              "The structure no longer has dead load.",
+              "The structure cannot be affected by wind."
+            ],
+            "correctAnswer": "The structure is less likely to tip.",
+            "reviewNote": "A lower centre of gravity helps with balance."
+          },
+          {
+            "section": "Loads",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Live loads can change while a structure is being used.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "People, vehicles, and movable objects can change."
+          },
+          {
+            "section": "Stability",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A safe design should consider likely loads before the structure is used.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Designers plan for loads."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-materials-shapes-and-strength",
       "title": "Materials, Shapes, and Strength",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on how material choices, triangles, arches, tubes, and bracing affect strength."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how materials, shapes, and bracing can make structures stronger or more stable.",
+      "successCriteria": [
+        "I can compare materials by useful properties for structure design.",
+        "I can explain how shapes such as triangles, arches, and tubes can add strength.",
+        "I can choose design improvements using evidence from a test."
+      ],
+      "vocabulary": [
+        "material",
+        "strength",
+        "brace",
+        "triangle",
+        "arch",
+        "beam"
+      ],
+      "teacherSummary": "Students practise connecting material properties, shapes, and bracing to structure strength.",
+      "teacherOverview": "Students learn that structures are not made stronger only by adding more material; shape and arrangement matter too.",
+      "christianFocus": "Students consider wise stewardship by choosing materials thoughtfully instead of wasting them.",
+      "lessonContent": [
+        "Materials have properties that affect how they perform in structures.",
+        "Strong structures often use shapes that spread forces well.",
+        "Triangles are often used because they resist changing shape.",
+        "Arches can spread loads outward and downward.",
+        "Tubes, folded shapes, and bracing can add strength without simply using much more material.",
+        "A good design uses evidence from testing to improve the structure."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Shape and Strength Mission",
+        "description": "Practise choosing materials, shapes, and supports for stronger structures.",
+        "levels": [
+          "Level 1: Materials and Properties",
+          "Level 2: Shapes and Bracing"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Materials, Shapes, and Strength Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Material properties, triangles, arches, tubes, bracing, strength, and testing evidence"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Shape and Strength Mission",
+        "mission": "Practise choosing materials, shapes, and supports for stronger structures.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Materials and Properties",
+            "title": "Before You Begin",
+            "prompt": "Get ready: material choices matter",
+            "text": "Different materials have different properties. A designer may think about strength, flexibility, mass, cost, water resistance, and how safely the material can be used."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Materials and Properties",
+            "title": "Strength Is Not the Only Property",
+            "prompt": "Choose for the job",
+            "text": "A material that is good for one structure may not be best for another. A bridge, umbrella, desk, and tent each need materials with different properties."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Materials and Properties",
+            "title": "Bridge Material",
+            "prompt": "A model bridge bends too much under a load. Which material property should the designer consider first?",
+            "choices": [
+              "stiffness and strength under load",
+              "whether the material is the brightest colour",
+              "whether the material floats in a cup"
+            ],
+            "correctAnswer": "stiffness and strength under load",
+            "feedback": "Correct. The bridge needs to resist bending under load.",
+            "hint": "Think about the problem shown in the test."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Materials and Properties",
+            "title": "Water Resistance",
+            "prompt": "A structure will be used outdoors in rain. Which property may matter?",
+            "choices": [
+              "water resistance",
+              "how loudly it falls",
+              "whether it tastes salty"
+            ],
+            "correctAnswer": "water resistance",
+            "feedback": "Yes. Rain can affect material choice.",
+            "hint": "Outdoor use adds weather concerns."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Materials and Properties",
+            "title": "Wise Use",
+            "prompt": "Why should a designer avoid using far more material than needed?",
+            "choices": [
+              "It may waste resources without improving the design much.",
+              "More material always makes every structure safer.",
+              "Using extra material removes the need for testing."
+            ],
+            "correctAnswer": "It may waste resources without improving the design much.",
+            "feedback": "Correct. Wise design balances strength, safety, and resource use.",
+            "hint": "Stewardship means using resources carefully."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Materials and Properties",
+            "title": "True or False",
+            "prompt": "A material should be chosen based on the job the structure needs to do.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Materials should fit the design problem.",
+            "hint": "Different jobs need different properties."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Materials and Properties",
+            "title": "Level 1 Complete",
+            "prompt": "You practised choosing materials by properties.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Shapes and Bracing",
+            "title": "Shape Can Add Strength",
+            "prompt": "Arrangement matters",
+            "text": "A structure's shape can help it carry loads. Triangles often resist changing shape. Arches spread loads. Braces can stop parts from bending or leaning too far."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Shapes and Bracing",
+            "title": "Triangle Brace",
+            "prompt": "A rectangular frame wobbles side to side. Which change would likely help?",
+            "choices": [
+              "add a diagonal brace to make triangles",
+              "paint the frame a darker colour",
+              "remove one corner connection"
+            ],
+            "correctAnswer": "add a diagonal brace to make triangles",
+            "feedback": "Correct. Diagonal bracing can reduce wobbling.",
+            "hint": "Triangles resist changing shape."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Shapes and Bracing",
+            "title": "Arch",
+            "prompt": "Why can an arch be useful in a structure?",
+            "choices": [
+              "It helps spread a load outward and downward.",
+              "It removes all forces from the structure.",
+              "It works only when no load is present."
+            ],
+            "correctAnswer": "It helps spread a load outward and downward.",
+            "feedback": "Yes. An arch spreads forces.",
+            "hint": "Think about how the load travels through the shape."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Shapes and Bracing",
+            "title": "Testing Evidence",
+            "prompt": "A student tests two paper beams. One folded beam holds more washers than a flat sheet. What does the evidence suggest?",
+            "choices": [
+              "Folding changed the shape in a way that improved strength.",
+              "The washers became lighter during the second test.",
+              "Flat paper is not matter if it cannot hold a load."
+            ],
+            "correctAnswer": "Folding changed the shape in a way that improved strength.",
+            "feedback": "Correct. Shape can affect strength.",
+            "hint": "The material may be the same, but the shape changed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Shapes and Bracing",
+            "title": "True or False",
+            "prompt": "Adding braces can help a structure resist bending or leaning.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Bracing can strengthen a structure.",
+            "hint": "Braces support parts of a frame."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Shapes and Bracing",
+            "title": "Mission Complete",
+            "prompt": "You practised using shapes and bracing to improve structures.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Materials, Shapes, and Strength Quiz",
+        "questions": [
+          {
+            "section": "Materials",
+            "skill": "Properties",
+            "type": "multipleChoice",
+            "prompt": "Which property is important for a bridge material?",
+            "choices": [
+              "strength under load",
+              "whether everyone likes its colour",
+              "whether it is stored near scissors"
+            ],
+            "correctAnswer": "strength under load",
+            "reviewNote": "Bridge materials must carry loads."
+          },
+          {
+            "section": "Materials",
+            "skill": "Outdoor Use",
+            "type": "multipleChoice",
+            "prompt": "Which property may matter for an outdoor structure?",
+            "choices": [
+              "water resistance",
+              "how sweet it smells",
+              "whether it dissolves instantly"
+            ],
+            "correctAnswer": "water resistance",
+            "reviewNote": "Rain and moisture can affect materials."
+          },
+          {
+            "section": "Stewardship",
+            "skill": "Material Use",
+            "type": "multipleChoice",
+            "prompt": "Why should designers avoid wasting materials?",
+            "choices": [
+              "Resources should be used wisely while still meeting safety needs.",
+              "Less planning always makes structures stronger.",
+              "Testing is unnecessary if extra material is added."
+            ],
+            "correctAnswer": "Resources should be used wisely while still meeting safety needs.",
+            "reviewNote": "Good design considers stewardship and safety."
+          },
+          {
+            "section": "Shapes",
+            "skill": "Triangles",
+            "type": "multipleChoice",
+            "prompt": "Why are triangles often used in structures?",
+            "choices": [
+              "They resist changing shape.",
+              "They remove all live loads.",
+              "They turn every force into magnetism."
+            ],
+            "correctAnswer": "They resist changing shape.",
+            "reviewNote": "Triangles are strong shapes for frames."
+          },
+          {
+            "section": "Shapes",
+            "skill": "Arches",
+            "type": "multipleChoice",
+            "prompt": "How can an arch help a structure?",
+            "choices": [
+              "It spreads a load outward and downward.",
+              "It makes the structure have no dead load.",
+              "It keeps all force in one tiny point."
+            ],
+            "correctAnswer": "It spreads a load outward and downward.",
+            "reviewNote": "Arches spread forces."
+          },
+          {
+            "section": "Shapes",
+            "skill": "Bracing",
+            "type": "multipleChoice",
+            "prompt": "A frame wobbles. Which change is most likely to help?",
+            "choices": [
+              "add diagonal bracing",
+              "remove one support",
+              "place all weight on one side"
+            ],
+            "correctAnswer": "add diagonal bracing",
+            "reviewNote": "Bracing can reduce wobbling."
+          },
+          {
+            "section": "Testing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A change in shape can make the same material stronger in a structure.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Shape affects strength."
+          },
+          {
+            "section": "Materials",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The best material depends on the structure's purpose and conditions.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Designers choose materials for the job."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-mechanisms-and-motion",
       "title": "Mechanisms and Motion",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on how simple mechanisms transfer force and motion in useful ways."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how simple mechanisms transfer force and motion to do useful work.",
+      "successCriteria": [
+        "I can identify simple mechanisms in everyday objects.",
+        "I can explain how a mechanism changes or transfers motion.",
+        "I can connect mechanism design to safety and usefulness."
+      ],
+      "vocabulary": [
+        "mechanism",
+        "motion",
+        "lever",
+        "wheel and axle",
+        "gear",
+        "pulley"
+      ],
+      "teacherSummary": "Students practise identifying mechanisms and explaining how they transfer force and motion.",
+      "teacherOverview": "Students learn that mechanisms use moving parts to make tasks easier, change direction, change speed, or transfer motion.",
+      "christianFocus": "Students can think about technology as a tool that should be designed and used to serve people wisely.",
+      "lessonContent": [
+        "A mechanism has moving parts that transfer force or motion.",
+        "Levers, wheels and axles, gears, pulleys, hinges, and ramps are common mechanism examples.",
+        "A mechanism may change the direction of a force, change speed, or make a task easier.",
+        "Mechanisms need safe design because moving parts can pinch, slip, or break.",
+        "Useful technology should solve real problems without ignoring safety."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Mechanisms and Motion Mission",
+        "description": "Practise explaining how mechanisms transfer force and motion.",
+        "levels": [
+          "Level 1: Identify Mechanisms",
+          "Level 2: Explain Motion"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Mechanisms and Motion Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Levers, wheels and axles, gears, pulleys, hinges, ramps, motion transfer, and safety"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Mechanisms and Motion Mission",
+        "mission": "Practise explaining how mechanisms transfer force and motion.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "Before You Begin",
+            "prompt": "Get ready: moving parts have jobs",
+            "text": "A mechanism uses moving parts to transfer force or motion. Mechanisms are found in scissors, bicycles, door hinges, can openers, clocks, and many machines."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "Simple Mechanisms",
+            "prompt": "Know common examples",
+            "text": "Levers, wheels and axles, gears, pulleys, hinges, and ramps can help people move loads, change direction, or make work easier."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "Lever",
+            "prompt": "Which object uses a lever?",
+            "choices": [
+              "a seesaw lifting one side as the other side goes down",
+              "a plain brick wall holding its shape",
+              "a glass window that does not open"
+            ],
+            "correctAnswer": "a seesaw lifting one side as the other side goes down",
+            "feedback": "Correct. A seesaw is a lever.",
+            "hint": "A lever pivots around a point."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "Wheel and Axle",
+            "prompt": "Which example uses a wheel and axle?",
+            "choices": [
+              "a doorknob turning a spindle",
+              "a fixed shelf holding books",
+              "a paper tower standing still"
+            ],
+            "correctAnswer": "a doorknob turning a spindle",
+            "feedback": "Yes. A doorknob uses wheel-and-axle motion.",
+            "hint": "Look for round turning parts."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "Gears",
+            "prompt": "Why are gears useful in some mechanisms?",
+            "choices": [
+              "They can transfer turning motion between parts.",
+              "They make a structure support loads without materials.",
+              "They dissolve when force is added."
+            ],
+            "correctAnswer": "They can transfer turning motion between parts.",
+            "feedback": "Correct. Gears transfer turning motion.",
+            "hint": "Gears have teeth that mesh."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "True or False",
+            "prompt": "A mechanism must have some part that moves.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Mechanisms transfer force or motion through moving parts.",
+            "hint": "Moving parts are key."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Identify Mechanisms",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying mechanisms.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Explain Motion",
+            "title": "Motion Can Change",
+            "prompt": "Direction, speed, or effort",
+            "text": "Mechanisms can change the direction of motion, transfer motion from one part to another, or make a task require less effort. Safe mechanisms also control motion so people are protected."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain Motion",
+            "title": "Pulley",
+            "prompt": "How can a pulley help lift a flag?",
+            "choices": [
+              "It changes the direction of the pulling force.",
+              "It makes the flag have no weight.",
+              "It changes the rope into a solid beam."
+            ],
+            "correctAnswer": "It changes the direction of the pulling force.",
+            "feedback": "Correct. Pulling down on the rope can lift the flag up.",
+            "hint": "Think about direction."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain Motion",
+            "title": "Ramp",
+            "prompt": "Why can a ramp help move a load upward?",
+            "choices": [
+              "It spreads the lifting over a longer distance.",
+              "It removes the force of gravity completely.",
+              "It turns the load into a gas."
+            ],
+            "correctAnswer": "It spreads the lifting over a longer distance.",
+            "feedback": "Yes. A ramp can reduce effort by increasing distance.",
+            "hint": "A ramp is an inclined plane."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain Motion",
+            "title": "Safety",
+            "prompt": "Why should moving parts be designed carefully?",
+            "choices": [
+              "They can pinch, slip, jam, or break if used poorly.",
+              "Moving parts never affect safety.",
+              "Fast-moving parts always make a mechanism safer."
+            ],
+            "correctAnswer": "They can pinch, slip, jam, or break if used poorly.",
+            "feedback": "Correct. Mechanism design must include safety.",
+            "hint": "Think about fingers, loads, and control."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain Motion",
+            "title": "True or False",
+            "prompt": "A useful mechanism should solve a problem while still being safe to use.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Usefulness and safety both matter.",
+            "hint": "Good design serves people."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Explain Motion",
+            "title": "Mission Complete",
+            "prompt": "You practised explaining mechanisms and motion.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Mechanisms and Motion Quiz",
+        "questions": [
+          {
+            "section": "Mechanisms",
+            "skill": "Definition",
+            "type": "multipleChoice",
+            "prompt": "What does a mechanism do?",
+            "choices": [
+              "transfers force or motion using moving parts",
+              "supports a load only by standing still",
+              "measures weather without any movement"
+            ],
+            "correctAnswer": "transfers force or motion using moving parts",
+            "reviewNote": "Mechanisms involve moving parts."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "Lever",
+            "type": "multipleChoice",
+            "prompt": "Which example is a lever?",
+            "choices": [
+              "a seesaw",
+              "a solid wall",
+              "a still tabletop"
+            ],
+            "correctAnswer": "a seesaw",
+            "reviewNote": "A seesaw pivots like a lever."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "Wheel and Axle",
+            "type": "multipleChoice",
+            "prompt": "Which object uses a wheel and axle?",
+            "choices": [
+              "a doorknob",
+              "a flat sheet of paper",
+              "a brick tower"
+            ],
+            "correctAnswer": "a doorknob",
+            "reviewNote": "A doorknob turns around an axle."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "Gears",
+            "type": "multipleChoice",
+            "prompt": "What can gears transfer?",
+            "choices": [
+              "turning motion",
+              "only water pressure",
+              "only dead loads"
+            ],
+            "correctAnswer": "turning motion",
+            "reviewNote": "Gears transfer rotation."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "Pulley",
+            "type": "multipleChoice",
+            "prompt": "How can a pulley help raise a flag?",
+            "choices": [
+              "It changes the direction of the pulling force.",
+              "It removes all weight from the flag.",
+              "It makes the rope rigid like a beam."
+            ],
+            "correctAnswer": "It changes the direction of the pulling force.",
+            "reviewNote": "A pulley redirects force."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "Ramp",
+            "type": "multipleChoice",
+            "prompt": "Why can a ramp help move something upward?",
+            "choices": [
+              "It spreads the work over a longer distance.",
+              "It makes gravity stop acting on the load.",
+              "It turns sliding into dissolving."
+            ],
+            "correctAnswer": "It spreads the work over a longer distance.",
+            "reviewNote": "A ramp can make lifting easier by increasing distance."
+          },
+          {
+            "section": "Safety",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Moving parts can create safety concerns if they pinch, jam, or break.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Moving parts need careful design."
+          },
+          {
+            "section": "Mechanisms",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A mechanism can change the direction of a force.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Some mechanisms redirect force."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-designing-and-testing",
       "title": "Designing and Testing a Structure",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on designing, testing, improving, and explaining a structure using evidence."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will use the engineering design process to build, test, improve, and explain a structure.",
+      "successCriteria": [
+        "I can identify design criteria and constraints.",
+        "I can plan a fair test for a structure.",
+        "I can use test evidence to improve a design."
+      ],
+      "vocabulary": [
+        "design criteria",
+        "constraint",
+        "prototype",
+        "test",
+        "improve",
+        "evidence"
+      ],
+      "teacherSummary": "Students practise designing, testing, improving, and explaining a structure using evidence.",
+      "teacherOverview": "Students learn that good design uses criteria, constraints, fair tests, evidence, and improvement.",
+      "christianFocus": "Students practise perseverance, honesty, and stewardship as they improve designs and use materials wisely.",
+      "lessonContent": [
+        "Design criteria tell what a design must do to be successful.",
+        "Constraints are limits such as time, materials, size, cost, or safety rules.",
+        "A prototype is a test version of a design.",
+        "A fair test changes one important thing at a time when possible and measures results carefully.",
+        "A good redesign is based on evidence, not just guessing or copying."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Design and Test Mission",
+        "description": "Practise planning fair structure tests and improving designs with evidence.",
+        "levels": [
+          "Level 1: Plan the Design",
+          "Level 2: Test and Improve"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Designing and Testing a Structure Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Criteria, constraints, prototypes, fair tests, measurements, redesign, and evidence"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Design and Test Mission",
+        "mission": "Practise planning fair structure tests and improving designs with evidence.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Design",
+            "title": "Before You Begin",
+            "prompt": "Get ready: design has a goal",
+            "text": "A design problem needs clear criteria and constraints. Criteria tell what success means. Constraints tell the limits you must work within."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Design",
+            "title": "Prototype First",
+            "prompt": "Test versions help learning",
+            "text": "A prototype is a test version. It may not work perfectly at first. Testing helps a designer learn what to improve."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "Criteria",
+            "prompt": "A class must build a paper bridge that holds at least 20 washers. What is the design criterion?",
+            "choices": [
+              "It must hold at least 20 washers.",
+              "It must be made during science class.",
+              "It must use only the paper provided."
+            ],
+            "correctAnswer": "It must hold at least 20 washers.",
+            "feedback": "Correct. Criteria tell what success means.",
+            "hint": "Look for the goal the design must meet."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "Constraint",
+            "prompt": "A group may use only 2 sheets of paper and 30 cm of tape. What is this?",
+            "choices": [
+              "a constraint",
+              "a live load",
+              "a chemical change"
+            ],
+            "correctAnswer": "a constraint",
+            "feedback": "Yes. Material limits are constraints.",
+            "hint": "Constraints are limits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "Prototype",
+            "prompt": "Why build a prototype?",
+            "choices": [
+              "to test and improve a design before treating it as finished",
+              "to avoid measuring anything",
+              "to prove the first idea is always best"
+            ],
+            "correctAnswer": "to test and improve a design before treating it as finished",
+            "feedback": "Correct. Prototypes help designers learn.",
+            "hint": "A prototype is a test version."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Design",
+            "title": "True or False",
+            "prompt": "A design can have both criteria and constraints.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Designs have goals and limits.",
+            "hint": "Most real design problems have both."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Plan the Design",
+            "title": "Level 1 Complete",
+            "prompt": "You practised planning a design.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Test and Improve",
+            "title": "Evidence Guides Redesign",
+            "prompt": "Measure before changing",
+            "text": "A fair test uses careful measurements and clear conditions. If a bridge fails, the designer should notice where and how it failed before making changes."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "Fair Test",
+            "prompt": "Two bridge designs are tested. Which setup is fairest?",
+            "choices": [
+              "Use the same supports and add washers one at a time in the same place.",
+              "Use different supports and different loads for each bridge.",
+              "Stop testing the second bridge when it looks weaker."
+            ],
+            "correctAnswer": "Use the same supports and add washers one at a time in the same place.",
+            "feedback": "Correct. Fair tests keep important conditions the same.",
+            "hint": "Compare one design difference at a time when possible."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "Useful Evidence",
+            "prompt": "A bridge bends in the middle after 12 washers. Which note is most useful for redesign?",
+            "choices": [
+              "The middle span needs better support or shape.",
+              "The bridge did not like the washers.",
+              "The group should choose the answer before testing."
+            ],
+            "correctAnswer": "The middle span needs better support or shape.",
+            "feedback": "Yes. It uses evidence from where the bridge failed.",
+            "hint": "Look for the evidence-based improvement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "Redesign",
+            "prompt": "Which redesign choice is most responsible?",
+            "choices": [
+              "Improve one part based on test evidence and retest.",
+              "Add random materials until the bridge looks larger.",
+              "Ignore the failed test and submit the same prototype."
+            ],
+            "correctAnswer": "Improve one part based on test evidence and retest.",
+            "feedback": "Correct. Redesign should use evidence.",
+            "hint": "Good improvement is not random."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Test and Improve",
+            "title": "True or False",
+            "prompt": "A design that fails a test can still teach useful information.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Testing helps reveal what to improve.",
+            "hint": "A failed test is evidence, not wasted learning."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Test and Improve",
+            "title": "Mission Complete",
+            "prompt": "You practised testing and improving a structure.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Designing and Testing a Structure Quiz",
+        "questions": [
+          {
+            "section": "Design",
+            "skill": "Criteria",
+            "type": "multipleChoice",
+            "prompt": "What are design criteria?",
+            "choices": [
+              "the features a design must have to be successful",
+              "the weather around an outdoor structure",
+              "the total weight of a finished bridge only"
+            ],
+            "correctAnswer": "the features a design must have to be successful",
+            "reviewNote": "Criteria define success."
+          },
+          {
+            "section": "Design",
+            "skill": "Constraints",
+            "type": "multipleChoice",
+            "prompt": "What are constraints?",
+            "choices": [
+              "limits such as materials, time, size, cost, or safety rules",
+              "extra loads added after testing only",
+              "opinions that replace evidence"
+            ],
+            "correctAnswer": "limits such as materials, time, size, cost, or safety rules",
+            "reviewNote": "Constraints are limits."
+          },
+          {
+            "section": "Design",
+            "skill": "Prototype",
+            "type": "multipleChoice",
+            "prompt": "What is a prototype?",
+            "choices": [
+              "a test version of a design",
+              "a final answer that cannot change",
+              "a material with no measurable properties"
+            ],
+            "correctAnswer": "a test version of a design",
+            "reviewNote": "A prototype is built to test and learn."
+          },
+          {
+            "section": "Testing",
+            "skill": "Fair Test",
+            "type": "multipleChoice",
+            "prompt": "Which testing setup is fairest?",
+            "choices": [
+              "same supports and same way of adding load for each bridge",
+              "different supports and different load positions for each bridge",
+              "testing only the design that looks strongest"
+            ],
+            "correctAnswer": "same supports and same way of adding load for each bridge",
+            "reviewNote": "Fair tests keep conditions consistent."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Redesign",
+            "type": "multipleChoice",
+            "prompt": "What should guide a redesign?",
+            "choices": [
+              "evidence from testing",
+              "only the first idea",
+              "only which design looks tallest"
+            ],
+            "correctAnswer": "evidence from testing",
+            "reviewNote": "Evidence guides improvement."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Failure",
+            "type": "multipleChoice",
+            "prompt": "A tower tips when weight is added high up. Which improvement fits the evidence?",
+            "choices": [
+              "lower the heavy part or widen the base",
+              "make the top heavier again",
+              "remove the base supports"
+            ],
+            "correctAnswer": "lower the heavy part or widen the base",
+            "reviewNote": "This addresses the stability problem."
+          },
+          {
+            "section": "Design",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A design problem can include both criteria and constraints.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Designs usually have goals and limits."
+          },
+          {
+            "section": "Testing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A failed prototype can provide useful evidence for improvement.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Failures can show what needs redesign."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-real-world-structures",
       "title": "Real-World Structures and Safety",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on bridges, towers, buildings, playground equipment, maintenance, and safety."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will connect structure and mechanism ideas to real-world safety, maintenance, and responsible design.",
+      "successCriteria": [
+        "I can identify forces and loads in real-world structures.",
+        "I can explain why inspection and maintenance matter.",
+        "I can choose responsible design decisions that consider safety and use."
+      ],
+      "vocabulary": [
+        "maintenance",
+        "inspection",
+        "safety factor",
+        "failure point",
+        "user",
+        "stewardship"
+      ],
+      "teacherSummary": "Students practise applying structure and mechanism ideas to bridges, towers, buildings, playground equipment, and safety decisions.",
+      "teacherOverview": "Students learn that real-world structures must be designed, inspected, maintained, and used responsibly.",
+      "christianFocus": "Students connect safety and maintenance with loving their neighbours and caring for the built world responsibly.",
+      "lessonContent": [
+        "Real-world structures and mechanisms are designed for users and conditions.",
+        "Designers must consider loads, forces, materials, shapes, weather, and how people will use the object.",
+        "Inspection means checking for damage, wear, weakness, or unsafe conditions.",
+        "Maintenance means caring for and repairing a structure or mechanism so it keeps working safely.",
+        "Responsible design thinks about safety, usefulness, cost, materials, and care for people."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Forces Acting on Structures and Mechanisms lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Real-World Safety Mission",
+        "description": "Practise applying forces, structures, mechanisms, and safety ideas to real examples.",
+        "levels": [
+          "Level 1: Real-World Clues",
+          "Level 2: Safety and Maintenance"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Real-World Structures and Safety Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Real-world forces, loads, inspection, maintenance, safety, users, and responsible design"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-4-forces-1",
+        "title": "Real-World Safety Mission",
+        "mission": "Practise applying forces, structures, mechanisms, and safety ideas to real examples.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Real-World Clues",
+            "title": "Before You Begin",
+            "prompt": "Get ready: real structures face real conditions",
+            "text": "Bridges, towers, shelves, playground equipment, bicycles, and buildings all face forces. Designers must think about how each structure or mechanism will actually be used."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Real-World Clues",
+            "title": "Users and Conditions",
+            "prompt": "Design for real life",
+            "text": "A real design should consider users, loads, weather, materials, motion, and safety. A structure that works indoors may need changes before it is safe outdoors."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Real-World Clues",
+            "title": "Bridge Use",
+            "prompt": "Why must a pedestrian bridge be designed for more than its own weight?",
+            "choices": [
+              "It must also support people, weather loads, and movement.",
+              "Its colour controls how much force exists.",
+              "A bridge's own weight is never a load."
+            ],
+            "correctAnswer": "It must also support people, weather loads, and movement.",
+            "feedback": "Correct. Real bridges face several loads.",
+            "hint": "Think about dead, live, and environmental loads."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Real-World Clues",
+            "title": "Playground Equipment",
+            "prompt": "Which question is most important for playground safety?",
+            "choices": [
+              "Can it support expected users and remain stable during use?",
+              "Does it look like the tallest structure nearby?",
+              "Can every moving part be hidden from view?"
+            ],
+            "correctAnswer": "Can it support expected users and remain stable during use?",
+            "feedback": "Yes. Safety depends on loads, stability, and proper use.",
+            "hint": "Think about the children who use it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Real-World Clues",
+            "title": "Outdoor Conditions",
+            "prompt": "A structure is moved from a dry classroom to an outdoor garden. What new condition may matter?",
+            "choices": [
+              "rain, wind, sun, and changing temperature",
+              "whether the structure has a title",
+              "whether it was tested by only one student"
+            ],
+            "correctAnswer": "rain, wind, sun, and changing temperature",
+            "feedback": "Correct. Outdoor conditions can affect design.",
+            "hint": "Weather creates new loads and material concerns."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Real-World Clues",
+            "title": "True or False",
+            "prompt": "A real-world structure should be designed for the way people will actually use it.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. User needs and real conditions matter.",
+            "hint": "Design is for real use, not just appearance."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Real-World Clues",
+            "title": "Level 1 Complete",
+            "prompt": "You practised noticing real-world design clues.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Safety and Maintenance",
+            "title": "Structures Need Care",
+            "prompt": "Safe today and later",
+            "text": "Even a well-designed structure can wear out or become damaged. Inspection and maintenance help people notice problems before they become dangerous."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Safety and Maintenance",
+            "title": "Inspection",
+            "prompt": "What is the purpose of inspecting a structure?",
+            "choices": [
+              "to look for damage, wear, weakness, or unsafe conditions",
+              "to prove no structure can ever fail",
+              "to replace design criteria with opinions"
+            ],
+            "correctAnswer": "to look for damage, wear, weakness, or unsafe conditions",
+            "feedback": "Correct. Inspection checks for possible problems.",
+            "hint": "Inspection means careful checking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Safety and Maintenance",
+            "title": "Maintenance",
+            "prompt": "Why does maintenance matter?",
+            "choices": [
+              "It helps a structure or mechanism keep working safely over time.",
+              "It makes all loads disappear from the structure.",
+              "It means no testing was ever needed."
+            ],
+            "correctAnswer": "It helps a structure or mechanism keep working safely over time.",
+            "feedback": "Yes. Maintenance supports safety and function.",
+            "hint": "Think about repairs and care."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Safety and Maintenance",
+            "title": "Responsible Design",
+            "prompt": "Which design choice best shows care for users?",
+            "choices": [
+              "include safety, expected loads, and clear use instructions",
+              "focus only on appearance and ignore load tests",
+              "make moving parts faster without checking pinch points"
+            ],
+            "correctAnswer": "include safety, expected loads, and clear use instructions",
+            "feedback": "Correct. Responsible design protects users.",
+            "hint": "Safety is part of serving people well."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Safety and Maintenance",
+            "title": "True or False",
+            "prompt": "A structure that was safe when new may still need inspection later.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Wear, damage, and changing conditions can matter.",
+            "hint": "Safe design includes care over time."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Safety and Maintenance",
+            "title": "Mission Complete",
+            "prompt": "You practised applying safety and maintenance ideas.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Real-World Structures and Safety Quiz",
+        "questions": [
+          {
+            "section": "Real Structures",
+            "skill": "Loads",
+            "type": "multipleChoice",
+            "prompt": "Why must a bridge be designed for more than its own weight?",
+            "choices": [
+              "It may carry people, vehicles, wind, snow, and movement.",
+              "Its colour changes all loads into dead loads.",
+              "Its own weight is never part of design."
+            ],
+            "correctAnswer": "It may carry people, vehicles, wind, snow, and movement.",
+            "reviewNote": "Bridges face dead, live, and environmental loads."
+          },
+          {
+            "section": "Real Structures",
+            "skill": "Outdoor Use",
+            "type": "multipleChoice",
+            "prompt": "Which outdoor condition can affect a structure?",
+            "choices": [
+              "wind and rain",
+              "the number of words in its name",
+              "whether it has been drawn in a notebook"
+            ],
+            "correctAnswer": "wind and rain",
+            "reviewNote": "Weather can affect structures."
+          },
+          {
+            "section": "Safety",
+            "skill": "Playground",
+            "type": "multipleChoice",
+            "prompt": "Which question matters most for playground equipment?",
+            "choices": [
+              "Is it stable and strong enough for expected users?",
+              "Is it the brightest object outside?",
+              "Can it avoid all inspection forever?"
+            ],
+            "correctAnswer": "Is it stable and strong enough for expected users?",
+            "reviewNote": "Safety depends on expected use."
+          },
+          {
+            "section": "Maintenance",
+            "skill": "Inspection",
+            "type": "multipleChoice",
+            "prompt": "What does inspection mean?",
+            "choices": [
+              "checking for damage, wear, weakness, or unsafe conditions",
+              "using a structure without looking at it",
+              "choosing the tallest possible design"
+            ],
+            "correctAnswer": "checking for damage, wear, weakness, or unsafe conditions",
+            "reviewNote": "Inspection is careful checking."
+          },
+          {
+            "section": "Maintenance",
+            "skill": "Repair",
+            "type": "multipleChoice",
+            "prompt": "Why is maintenance important?",
+            "choices": [
+              "It helps structures and mechanisms keep working safely.",
+              "It means forces no longer act on structures.",
+              "It replaces the need for responsible use."
+            ],
+            "correctAnswer": "It helps structures and mechanisms keep working safely.",
+            "reviewNote": "Maintenance supports safety over time."
+          },
+          {
+            "section": "Safety",
+            "skill": "Users",
+            "type": "multipleChoice",
+            "prompt": "Which design choice best shows care for users?",
+            "choices": [
+              "testing expected loads and giving clear use instructions",
+              "hiding weak parts because they look untidy",
+              "choosing only the cheapest material without testing"
+            ],
+            "correctAnswer": "testing expected loads and giving clear use instructions",
+            "reviewNote": "Responsible design considers users."
+          },
+          {
+            "section": "Real Structures",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Real structures should be designed for the conditions they will face.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Conditions affect safety and performance."
+          },
+          {
+            "section": "Maintenance",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A safe structure may still need inspection as it gets older.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Structures can wear or become damaged."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-4-final-quiz",
       "title": "Unit 4 Final Quiz",
-      "type": "plannedQuiz",
-      "status": "planned",
-      "teacherOverview": "Planned final quiz on forces, loads, stability, materials, shapes, mechanisms, and structure design choices."
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "The Unit 4 final quiz checks structures, mechanisms, forces, loads, stability, material choices, shapes, mechanisms, design testing, real-world safety, and maintenance.",
+      "teacherOverview": "Use this quiz after students complete the Forces Acting on Structures and Mechanisms lessons.",
+      "quiz": {
+        "title": "Forces Acting on Structures and Mechanisms Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Structures and Mechanisms",
+            "skill": "Structure",
+            "type": "multipleChoice",
+            "prompt": "What is a structure?",
+            "choices": [
+              "parts arranged to support a load or hold a shape",
+              "any object that must have a motor",
+              "a moving part with no load"
+            ],
+            "correctAnswer": "parts arranged to support a load or hold a shape",
+            "reviewNote": "Structures support loads or hold shape."
+          },
+          {
+            "section": "Part A: Structures and Mechanisms",
+            "skill": "Mechanism",
+            "type": "multipleChoice",
+            "prompt": "What is a mechanism?",
+            "choices": [
+              "a system with moving parts that transfers force or motion",
+              "a solid material that can never move",
+              "a weather load on a bridge"
+            ],
+            "correctAnswer": "a system with moving parts that transfers force or motion",
+            "reviewNote": "Mechanisms transfer force or motion."
+          },
+          {
+            "section": "Part A: Forces",
+            "skill": "Force",
+            "type": "multipleChoice",
+            "prompt": "What is a force?",
+            "choices": [
+              "a push or pull",
+              "only the colour of a material",
+              "only the height of a structure"
+            ],
+            "correctAnswer": "a push or pull",
+            "reviewNote": "A force is a push or pull."
+          },
+          {
+            "section": "Part B: Force Types",
+            "skill": "Compression",
+            "type": "multipleChoice",
+            "prompt": "Which force squeezes a material?",
+            "choices": [
+              "compression",
+              "tension",
+              "torsion"
+            ],
+            "correctAnswer": "compression",
+            "reviewNote": "Compression squeezes."
+          },
+          {
+            "section": "Part B: Force Types",
+            "skill": "Tension",
+            "type": "multipleChoice",
+            "prompt": "Which force stretches or pulls a material?",
+            "choices": [
+              "tension",
+              "shear",
+              "settling"
+            ],
+            "correctAnswer": "tension",
+            "reviewNote": "Tension stretches or pulls."
+          },
+          {
+            "section": "Part B: Force Types",
+            "skill": "Torsion",
+            "type": "multipleChoice",
+            "prompt": "Which example shows torsion?",
+            "choices": [
+              "twisting a screw with a screwdriver",
+              "placing books on a shelf",
+              "letting sand settle in water"
+            ],
+            "correctAnswer": "twisting a screw with a screwdriver",
+            "reviewNote": "Torsion twists."
+          },
+          {
+            "section": "Part B: Force Types",
+            "skill": "Shear",
+            "type": "multipleChoice",
+            "prompt": "Which example shows shear?",
+            "choices": [
+              "scissors cutting paper",
+              "a rope being pulled tight",
+              "a column carrying a roof"
+            ],
+            "correctAnswer": "scissors cutting paper",
+            "reviewNote": "Shear can happen when parts are pushed in opposite directions."
+          },
+          {
+            "section": "Part C: Loads",
+            "skill": "Dead Load",
+            "type": "multipleChoice",
+            "prompt": "What is a dead load?",
+            "choices": [
+              "the weight of the structure itself",
+              "a person walking across a floor",
+              "wind pushing against a tower"
+            ],
+            "correctAnswer": "the weight of the structure itself",
+            "reviewNote": "Dead load is built-in weight."
+          },
+          {
+            "section": "Part C: Loads",
+            "skill": "Live Load",
+            "type": "multipleChoice",
+            "prompt": "Which is a live load?",
+            "choices": [
+              "students sitting on classroom chairs",
+              "the wood in the chair frame",
+              "snow on the school roof"
+            ],
+            "correctAnswer": "students sitting on classroom chairs",
+            "reviewNote": "People using a structure are live loads."
+          },
+          {
+            "section": "Part C: Loads",
+            "skill": "Environmental Load",
+            "type": "multipleChoice",
+            "prompt": "Which is an environmental load?",
+            "choices": [
+              "heavy snow on a roof",
+              "the roof's own beams",
+              "a backpack placed on a desk"
+            ],
+            "correctAnswer": "heavy snow on a roof",
+            "reviewNote": "Weather can create environmental loads."
+          },
+          {
+            "section": "Part D: Stability",
+            "skill": "Stable Design",
+            "type": "multipleChoice",
+            "prompt": "Which change often improves a tower's stability?",
+            "choices": [
+              "widen the base",
+              "make the top heavier",
+              "remove lower supports"
+            ],
+            "correctAnswer": "widen the base",
+            "reviewNote": "A wider base can resist tipping."
+          },
+          {
+            "section": "Part D: Stability",
+            "skill": "Centre of Gravity",
+            "type": "multipleChoice",
+            "prompt": "Why can heavy parts lower down improve stability?",
+            "choices": [
+              "They lower the centre of gravity.",
+              "They remove all live loads.",
+              "They turn compression into evaporation."
+            ],
+            "correctAnswer": "They lower the centre of gravity.",
+            "reviewNote": "A lower centre of gravity can reduce tipping."
+          },
+          {
+            "section": "Part E: Materials",
+            "skill": "Material Choice",
+            "type": "multipleChoice",
+            "prompt": "Which property matters for a structure used outdoors?",
+            "choices": [
+              "water resistance",
+              "whether it has the nicest name",
+              "whether it can be tasted safely"
+            ],
+            "correctAnswer": "water resistance",
+            "reviewNote": "Outdoor structures may face rain or moisture."
+          },
+          {
+            "section": "Part E: Shapes",
+            "skill": "Triangle",
+            "type": "multipleChoice",
+            "prompt": "Why are triangles often used in frames?",
+            "choices": [
+              "They resist changing shape.",
+              "They remove the need for connections.",
+              "They make all materials magnetic."
+            ],
+            "correctAnswer": "They resist changing shape.",
+            "reviewNote": "Triangles are useful for strength."
+          },
+          {
+            "section": "Part E: Shapes",
+            "skill": "Bracing",
+            "type": "multipleChoice",
+            "prompt": "A rectangular frame wobbles. What is a likely improvement?",
+            "choices": [
+              "add diagonal bracing",
+              "remove a corner support",
+              "place every load on one side"
+            ],
+            "correctAnswer": "add diagonal bracing",
+            "reviewNote": "Bracing can reduce wobbling."
+          },
+          {
+            "section": "Part F: Mechanisms",
+            "skill": "Pulley",
+            "type": "multipleChoice",
+            "prompt": "How can a pulley help lift a flag?",
+            "choices": [
+              "It changes the direction of the pulling force.",
+              "It removes the flag's weight.",
+              "It changes the rope into a beam."
+            ],
+            "correctAnswer": "It changes the direction of the pulling force.",
+            "reviewNote": "Pulleys can redirect force."
+          },
+          {
+            "section": "Part F: Mechanisms",
+            "skill": "Gear",
+            "type": "multipleChoice",
+            "prompt": "What can gears transfer?",
+            "choices": [
+              "turning motion",
+              "only dead load",
+              "only water pressure"
+            ],
+            "correctAnswer": "turning motion",
+            "reviewNote": "Gears transfer rotation."
+          },
+          {
+            "section": "Part G: Design",
+            "skill": "Fair Test",
+            "type": "multipleChoice",
+            "prompt": "Which bridge test is fairest?",
+            "choices": [
+              "same supports and same method for adding load",
+              "different supports and different loads each time",
+              "testing only the bridge that looks strongest"
+            ],
+            "correctAnswer": "same supports and same method for adding load",
+            "reviewNote": "Fair tests keep conditions consistent."
+          },
+          {
+            "section": "Part G: Design",
+            "skill": "Redesign",
+            "type": "multipleChoice",
+            "prompt": "What should guide a redesign?",
+            "choices": [
+              "evidence from testing",
+              "only the first idea",
+              "only which design looks larger"
+            ],
+            "correctAnswer": "evidence from testing",
+            "reviewNote": "Evidence guides improvement."
+          },
+          {
+            "section": "Part H: Safety",
+            "skill": "Maintenance",
+            "type": "multipleChoice",
+            "prompt": "Why are inspection and maintenance important?",
+            "choices": [
+              "They help structures and mechanisms stay safe over time.",
+              "They make all loads disappear.",
+              "They mean testing was never needed."
+            ],
+            "correctAnswer": "They help structures and mechanisms stay safe over time.",
+            "reviewNote": "Structures need care after they are built."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Forces Acting on Structures and Mechanisms mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
     }
-  ]
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each Forces Acting on Structures and Mechanisms lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The unit quiz checks structures, mechanisms, forces, compression, tension, torsion, shear, dead loads, live loads, environmental loads, stability, materials, shapes, mechanisms, design testing, safety, and maintenance. Recommended weighting remains 40% lesson quizzes and 60% unit quiz."
+  }
 }

@@ -217,6 +217,7 @@
       "strand": "Structures and Mechanisms",
       "unitGoal": "Students will identify forces, loads, materials, shapes, and design choices that help structures and mechanisms work safely.",
       "file": "units/unit-4-forces-acting-on-structures-and-mechanisms.json",
+      "dataFile": "unit-data/unit-4-forces-acting-on-structures-and-mechanisms.js",
       "lessons": [
         {
           "id": "grade-5-science-unit-4-structures-and-forces",
