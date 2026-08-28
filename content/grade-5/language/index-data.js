@@ -45,6 +45,14 @@ window.PracticeStarContent.grade5Language = {
       "unitGoal": "Students will interpret media messages, notice audience and purpose, evaluate digital information, and create responsible media responses.",
       "file": "units/unit-5-media-literacy-and-digital-texts.json",
       "dataFile": "unit-data/unit-5-media-literacy-and-digital-texts.js"
+    },
+    {
+      "id": "grade-5-language-unit-6",
+      "title": "Oral Communication and Presentation",
+      "strand": "Literacy Connections and Applications",
+      "unitGoal": "Students will listen actively, contribute to discussion, organize ideas for speaking, use clear voice and body language, and present information respectfully.",
+      "file": "units/unit-6-oral-communication-and-presentation.json",
+      "dataFile": "unit-data/unit-6-oral-communication-and-presentation.js"
     }
   ],
   "units": []

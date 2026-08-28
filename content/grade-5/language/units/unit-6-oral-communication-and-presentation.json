@@ -1,0 +1,2785 @@
+{
+  "id": "grade-5-language-unit-6",
+  "title": "Oral Communication and Presentation",
+  "strand": "Literacy Connections and Applications",
+  "unitGoal": "Students will listen actively, contribute to discussion, organize ideas for speaking, use clear voice and body language, and present information respectfully.",
+  "lessons": [
+    {
+      "id": "grade-5-language-unit-6-active-listening",
+      "title": "Active Listening",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will listen for main ideas, important details, and meaning before responding.",
+      "successCriteria": [
+        "I can listen for the main idea and key details.",
+        "I can ask for clarification when something is unclear.",
+        "I can respond in a way that shows I understood the speaker."
+      ],
+      "vocabulary": [
+        "active listening",
+        "main idea",
+        "key detail",
+        "clarify",
+        "respond"
+      ],
+      "teacherOverview": "Students practise listening closely, checking meaning, and responding thoughtfully.",
+      "teacherSummary": "Students practise listening closely, checking meaning, and responding thoughtfully.",
+      "lessonContent": [
+        "Active listening means paying attention to what the speaker is saying and what the speaker means.",
+        "A careful listener listens for the main idea, not just a few separate words.",
+        "Important details help explain, prove, or support the main idea.",
+        "When something is unclear, a listener can ask a specific question.",
+        "A good response connects to what the speaker actually said."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Active Listening Mission",
+        "description": "Choose listening choices that help you understand and respond well.",
+        "levels": [
+          "Level 1: Listen for Meaning",
+          "Level 2: Respond Thoughtfully"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Active Listening Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Main ideas, key details, clarification, note-taking, and thoughtful responses"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Active Listening Mission",
+        "mission": "Choose listening choices that help you understand and respond well.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Listen for Meaning",
+            "title": "Before You Begin",
+            "prompt": "Get ready: listening is active work",
+            "text": "Listening is more than staying quiet. A listener has to think about the speaker's main idea, notice important details, and decide what still needs to be clarified."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Listen for Meaning",
+            "title": "Main Idea and Details",
+            "prompt": "Find the point first",
+            "text": "The main idea is the speaker's biggest point. Details are the examples, reasons, or facts that help explain that point."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Listen for Meaning",
+            "title": "Listening Goal",
+            "prompt": "During a class talk about a science investigation, what is the strongest listening goal?",
+            "choices": [
+              "understand the speaker's main point and the evidence used",
+              "copy as many exact words as possible into notes",
+              "think of a related story to share after the talk"
+            ],
+            "correctAnswer": "understand the speaker's main point and the evidence used",
+            "feedback": "Correct. Listening should focus on meaning and support.",
+            "hint": "The best goal helps you understand the message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Listen for Meaning",
+            "title": "Main Idea",
+            "prompt": "A speaker says, 'Our group changed the amount of sunlight each plant received. The plant with steady sunlight grew the tallest.' What is the main idea?",
+            "choices": [
+              "Sunlight affected the plant growth in the investigation.",
+              "The group measured plant height during science class.",
+              "The tallest plant received attention from the group."
+            ],
+            "correctAnswer": "Sunlight affected the plant growth in the investigation.",
+            "feedback": "Yes. That answer explains the speaker's main point.",
+            "hint": "Look for the idea the details support."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Listen for Meaning",
+            "title": "Clarifying",
+            "prompt": "A speaker uses the term 'controlled variable,' and you are not sure what it means. Which question is most helpful?",
+            "choices": [
+              "Could you explain which part stayed the same in your test?",
+              "Could you repeat your whole talk from the beginning?",
+              "Did your group enjoy doing the investigation?"
+            ],
+            "correctAnswer": "Could you explain which part stayed the same in your test?",
+            "feedback": "Correct. The question targets the unclear idea.",
+            "hint": "A clarification question should be specific."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Listen for Meaning",
+            "title": "True or False",
+            "prompt": "Active listening includes thinking about how details connect to the speaker's main idea.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Active listeners connect details to meaning.",
+            "hint": "Details are useful when they support an idea."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Listen for Meaning",
+            "title": "Level 1 Complete",
+            "prompt": "You practised listening for meaning.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Respond Thoughtfully",
+            "title": "Show You Understood",
+            "prompt": "Respond to the speaker's idea",
+            "text": "A thoughtful response often summarizes, asks a follow-up question, or adds a related point. It should show that you heard the speaker before adding your own thinking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respond Thoughtfully",
+            "title": "Best Response",
+            "prompt": "A classmate explains that a character changed because she learned to trust her friend. Which response best shows active listening?",
+            "choices": [
+              "So your point is that the character's trust changed her choices later in the story.",
+              "That reminds me of a different book with a friendship problem.",
+              "I wrote about the setting because it was easier to describe."
+            ],
+            "correctAnswer": "So your point is that the character's trust changed her choices later in the story.",
+            "feedback": "Correct. It connects directly to the speaker's idea.",
+            "hint": "Choose the response that proves you heard the point."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respond Thoughtfully",
+            "title": "Helpful Notes",
+            "prompt": "Which note would be most useful while listening to a short presentation?",
+            "choices": [
+              "main idea plus two details that support it",
+              "every date and number even if their purpose is unclear",
+              "questions to ask before the speaker gives the conclusion"
+            ],
+            "correctAnswer": "main idea plus two details that support it",
+            "feedback": "Yes. Useful notes help you remember meaning.",
+            "hint": "Notes should help you respond later."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respond Thoughtfully",
+            "title": "Respectful Disagreement",
+            "prompt": "Which response respectfully disagrees with a speaker's conclusion?",
+            "choices": [
+              "I understand your reason, but the paragraph gives different evidence.",
+              "I heard the topic, but I chose a different answer earlier.",
+              "The conclusion may need one more example before I agree with it."
+            ],
+            "correctAnswer": "I understand your reason, but the paragraph gives different evidence.",
+            "feedback": "Correct. It disagrees respectfully and gives a reason.",
+            "hint": "Respectful disagreement should connect to evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Respond Thoughtfully",
+            "title": "True or False",
+            "prompt": "A good response can include a question if the question builds on what the speaker said.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Follow-up questions can show careful listening.",
+            "hint": "Questions can be part of active listening."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Respond Thoughtfully",
+            "title": "Mission Complete",
+            "prompt": "You practised thoughtful listening responses.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Active Listening Quiz",
+        "questions": [
+          {
+            "section": "Active Listening",
+            "skill": "Main Idea",
+            "type": "multipleChoice",
+            "prompt": "What should a listener usually find first?",
+            "choices": [
+              "the speaker's main idea",
+              "the speaker's exact first sentence",
+              "the longest word the speaker used"
+            ],
+            "correctAnswer": "the speaker's main idea",
+            "reviewNote": "The main idea helps the listener understand the message."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "Details",
+            "type": "multipleChoice",
+            "prompt": "Which detail best supports the idea that the class garden needs more watering?",
+            "choices": [
+              "Several plants had dry soil by noon.",
+              "The garden has six rows of plants.",
+              "The watering can is stored near the door."
+            ],
+            "correctAnswer": "Several plants had dry soil by noon.",
+            "reviewNote": "Dry soil supports the need for watering."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "Clarify",
+            "type": "multipleChoice",
+            "prompt": "Which question asks for clarification?",
+            "choices": [
+              "Could you explain what you mean by 'reliable source'?",
+              "Which colour did you use on your title page?",
+              "How long did it take you to finish the poster?"
+            ],
+            "correctAnswer": "Could you explain what you mean by 'reliable source'?",
+            "reviewNote": "That question asks about an unclear term."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "Notes",
+            "type": "multipleChoice",
+            "prompt": "Which notes would best help after a presentation?",
+            "choices": [
+              "main idea, two supporting details, and one question",
+              "a list of side comments from nearby classmates",
+              "only the speaker's last sentence"
+            ],
+            "correctAnswer": "main idea, two supporting details, and one question",
+            "reviewNote": "Those notes focus on understanding."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "Response",
+            "type": "multipleChoice",
+            "prompt": "Which response shows the listener understood?",
+            "choices": [
+              "Your main point is that the evidence changed your first prediction.",
+              "I noticed the chart during your presentation.",
+              "I was thinking about my own presentation topic."
+            ],
+            "correctAnswer": "Your main point is that the evidence changed your first prediction.",
+            "reviewNote": "It summarizes the speaker's idea."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "Disagreement",
+            "type": "multipleChoice",
+            "prompt": "Which response disagrees respectfully?",
+            "choices": [
+              "I see your point, but the data table shows another pattern.",
+              "My answer is different from yours.",
+              "The topic has more than one possible detail."
+            ],
+            "correctAnswer": "I see your point, but the data table shows another pattern.",
+            "reviewNote": "It gives a respectful reason."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Active listening means thinking about meaning while the speaker is talking.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Listening includes thinking."
+          },
+          {
+            "section": "Active Listening",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A listener should ask every question that comes to mind before the speaker finishes.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "A listener should choose helpful questions at a suitable time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-asking-good-questions",
+      "title": "Asking Good Questions",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will ask clear questions that deepen understanding and keep discussion focused.",
+      "successCriteria": [
+        "I can ask questions that match the topic.",
+        "I can choose questions that ask for evidence, explanation, or clarification.",
+        "I can use follow-up questions to learn more."
+      ],
+      "vocabulary": [
+        "question",
+        "clarify",
+        "follow-up",
+        "evidence",
+        "open question"
+      ],
+      "teacherOverview": "Students practise choosing questions that help a speaker explain, clarify, and support ideas.",
+      "teacherSummary": "Students practise choosing questions that help a speaker explain, clarify, and support ideas.",
+      "lessonContent": [
+        "Good questions help people understand a topic more deeply.",
+        "A clarifying question asks a speaker to explain something that is unclear.",
+        "A follow-up question connects to what the speaker already said.",
+        "Some questions ask for evidence or examples.",
+        "Strong questions stay connected to the topic and purpose."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Question Builder Mission",
+        "description": "Choose questions that help a discussion or presentation become clearer.",
+        "levels": [
+          "Level 1: Match the Question",
+          "Level 2: Deepen the Thinking"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Asking Good Questions Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Clarifying questions, follow-up questions, evidence questions, topic fit, and open questions"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Question Builder Mission",
+        "mission": "Choose questions that help a discussion or presentation become clearer.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Match the Question",
+            "title": "Before You Begin",
+            "prompt": "Get ready: questions have jobs",
+            "text": "A question can ask for a fact, an explanation, an example, evidence, or clarification. The strongest question depends on what you need to understand."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Match the Question",
+            "title": "Stay on Topic",
+            "prompt": "Useful questions connect",
+            "text": "A good question grows out of the presentation or discussion. It should help the speaker explain the idea, not move the group to a different subject."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match the Question",
+            "title": "Clarifying Question",
+            "prompt": "A speaker says, 'The narrator is unreliable.' Which question best asks for clarification?",
+            "choices": [
+              "What does unreliable mean in this part of the story?",
+              "Which page number has your favourite sentence?",
+              "Did you use a chart to plan your answer?"
+            ],
+            "correctAnswer": "What does unreliable mean in this part of the story?",
+            "feedback": "Correct. It asks the speaker to explain the unclear term.",
+            "hint": "Clarifying questions target confusion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match the Question",
+            "title": "Evidence Question",
+            "prompt": "Which question asks a speaker to support an opinion with evidence?",
+            "choices": [
+              "Which detail from the text made you think that?",
+              "How many slides did you include in your talk?",
+              "Would you choose the same topic next time?"
+            ],
+            "correctAnswer": "Which detail from the text made you think that?",
+            "feedback": "Yes. It asks for evidence.",
+            "hint": "Evidence questions ask how the speaker knows."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match the Question",
+            "title": "Topic Fit",
+            "prompt": "A student presents about how bees help plants. Which question best fits the topic?",
+            "choices": [
+              "How does pollination help a plant make seeds?",
+              "How long did it take to decorate your poster?",
+              "Which animal topic will you study next month?"
+            ],
+            "correctAnswer": "How does pollination help a plant make seeds?",
+            "feedback": "Correct. It stays with bees and plants.",
+            "hint": "Choose the question connected to the topic."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Match the Question",
+            "title": "True or False",
+            "prompt": "A helpful question can ask the speaker to explain an important word.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Important words sometimes need explanation.",
+            "hint": "Clarifying vocabulary can help everyone."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Match the Question",
+            "title": "Level 1 Complete",
+            "prompt": "You practised matching questions to their purpose.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Deepen the Thinking",
+            "title": "Ask More Than One Kind",
+            "prompt": "Questions can go deeper",
+            "text": "Some questions need only a short answer. Other questions invite explanation, evidence, or comparison. Both can be useful, but deeper questions often help discussion grow."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Deepen the Thinking",
+            "title": "Open Question",
+            "prompt": "Which question would most likely lead to a deeper answer?",
+            "choices": [
+              "Why do you think the author chose that ending?",
+              "What is the title of the story?",
+              "How many paragraphs did you read?"
+            ],
+            "correctAnswer": "Why do you think the author chose that ending?",
+            "feedback": "Correct. It asks for thinking and explanation.",
+            "hint": "Open questions often begin with why or how."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Deepen the Thinking",
+            "title": "Follow-Up",
+            "prompt": "A speaker says, 'Our group changed our design after the first test.' Which follow-up question fits best?",
+            "choices": [
+              "What did the first test show that made you change it?",
+              "What colour was the final design?",
+              "Did you finish before the other groups?"
+            ],
+            "correctAnswer": "What did the first test show that made you change it?",
+            "feedback": "Yes. It builds on what the speaker said.",
+            "hint": "A follow-up connects to the previous answer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Deepen the Thinking",
+            "title": "Compare Question",
+            "prompt": "Which question asks the speaker to compare ideas?",
+            "choices": [
+              "How is this solution different from the one your group tried first?",
+              "Where did you put your conclusion on the display?",
+              "Which classmate read the introduction?"
+            ],
+            "correctAnswer": "How is this solution different from the one your group tried first?",
+            "feedback": "Correct. It asks about similarities or differences.",
+            "hint": "Compare questions ask how ideas relate."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Deepen the Thinking",
+            "title": "True or False",
+            "prompt": "A question can be polite and still ask the speaker to explain evidence more clearly.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Respectful questions can be thoughtful and specific.",
+            "hint": "Good questions can be both kind and challenging."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Deepen the Thinking",
+            "title": "Mission Complete",
+            "prompt": "You practised asking deeper questions.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Asking Good Questions Quiz",
+        "questions": [
+          {
+            "section": "Good Questions",
+            "skill": "Clarify",
+            "type": "multipleChoice",
+            "prompt": "Which question asks for clarification?",
+            "choices": [
+              "Could you explain what you mean by 'theme'?",
+              "Did you use three colours in your chart?",
+              "What did you name your project?"
+            ],
+            "correctAnswer": "Could you explain what you mean by 'theme'?",
+            "reviewNote": "It asks the speaker to explain a meaning."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Which question asks for evidence?",
+            "choices": [
+              "Which sentence from the text supports your idea?",
+              "How long did you spend reading?",
+              "Which font did you choose for your title?"
+            ],
+            "correctAnswer": "Which sentence from the text supports your idea?",
+            "reviewNote": "It asks for support from the text."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "Follow-Up",
+            "type": "multipleChoice",
+            "prompt": "A speaker says, 'The second strategy worked better.' Which follow-up question fits best?",
+            "choices": [
+              "What made the second strategy work better?",
+              "Which strategy did you write down first?",
+              "Did your group use lined paper?"
+            ],
+            "correctAnswer": "What made the second strategy work better?",
+            "reviewNote": "It asks for more about the speaker's point."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "Topic Fit",
+            "type": "multipleChoice",
+            "prompt": "A talk is about healthy sleep routines. Which question best fits?",
+            "choices": [
+              "How can bedtime routines affect energy the next day?",
+              "Which colour is used on the sleep chart?",
+              "How many chairs are near the poster?"
+            ],
+            "correctAnswer": "How can bedtime routines affect energy the next day?",
+            "reviewNote": "It matches the topic and invites explanation."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "Open Question",
+            "type": "multipleChoice",
+            "prompt": "Which question is most open-ended?",
+            "choices": [
+              "How did the setting affect the character's choice?",
+              "What is the character's name?",
+              "How many chapters are in the book?"
+            ],
+            "correctAnswer": "How did the setting affect the character's choice?",
+            "reviewNote": "It asks for explanation."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "Why might a listener ask a question after a presentation?",
+            "choices": [
+              "to understand the speaker's idea more clearly",
+              "to change the presentation topic",
+              "to make the question time longer"
+            ],
+            "correctAnswer": "to understand the speaker's idea more clearly",
+            "reviewNote": "Questions should support understanding."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A strong question can ask for an example.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Examples can make ideas clearer."
+          },
+          {
+            "section": "Good Questions",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A follow-up question should connect to what the speaker just said.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Follow-up questions build on previous ideas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-speaking-clearly",
+      "title": "Speaking Clearly",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will choose speaking habits that make ideas easier for an audience to hear and understand.",
+      "successCriteria": [
+        "I can choose an appropriate volume and pace.",
+        "I can explain why clear pronunciation and pauses help listeners.",
+        "I can keep my spoken message focused on the purpose."
+      ],
+      "vocabulary": [
+        "volume",
+        "pace",
+        "pronunciation",
+        "pause",
+        "focus"
+      ],
+      "teacherOverview": "Students practise decisions about volume, pace, pronunciation, pauses, and focused speaking.",
+      "teacherSummary": "Students practise decisions about volume, pace, pronunciation, pauses, and focused speaking.",
+      "lessonContent": [
+        "Clear speaking helps the audience follow the message.",
+        "Volume should be loud enough for the room without sounding forced.",
+        "Pace means how quickly or slowly a person speaks.",
+        "Pauses give listeners time to understand important ideas.",
+        "Clear speakers stay focused on the purpose and use words the audience can understand."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Clear Speaker Mission",
+        "description": "Choose speaking choices that help an audience understand a message.",
+        "levels": [
+          "Level 1: Voice Choices",
+          "Level 2: Clear Message"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Speaking Clearly Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Volume, pace, pauses, pronunciation, audience fit, and focused messages"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Clear Speaker Mission",
+        "mission": "Choose speaking choices that help an audience understand a message.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Voice Choices",
+            "title": "Before You Begin",
+            "prompt": "Get ready: your voice guides listeners",
+            "text": "When you speak, your voice helps the audience follow your ideas. Volume, pace, pronunciation, and pauses all affect understanding."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Voice Choices",
+            "title": "Choose for the Room",
+            "prompt": "Clear is the goal",
+            "text": "A speaker should adjust for the room, the audience, and the purpose. A small group discussion and a class presentation may need different volume and pace."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Choices",
+            "title": "Volume",
+            "prompt": "A student is presenting to the whole class. Which volume choice is strongest?",
+            "choices": [
+              "speak loudly enough for the back row to hear without forcing the voice",
+              "use the same soft voice used for a partner conversation",
+              "raise the voice only when saying the final sentence"
+            ],
+            "correctAnswer": "speak loudly enough for the back row to hear without forcing the voice",
+            "feedback": "Correct. Volume should fit the room.",
+            "hint": "Think about everyone in the audience."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Choices",
+            "title": "Pace",
+            "prompt": "A speaker notices classmates are missing important points. Which change would help most?",
+            "choices": [
+              "slow down slightly and pause after key ideas",
+              "add more details without changing the pace",
+              "finish the talk and answer questions later"
+            ],
+            "correctAnswer": "slow down slightly and pause after key ideas",
+            "feedback": "Yes. Pace and pauses help listeners follow.",
+            "hint": "The problem is understanding while listening."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Choices",
+            "title": "Pronunciation",
+            "prompt": "Why should a speaker practise difficult words before presenting?",
+            "choices": [
+              "so listeners can understand important terms clearly",
+              "so the introduction has more formal wording",
+              "so the speaker can use fewer examples"
+            ],
+            "correctAnswer": "so listeners can understand important terms clearly",
+            "feedback": "Correct. Practising words supports understanding.",
+            "hint": "Pronunciation affects meaning."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Choices",
+            "title": "True or False",
+            "prompt": "Pauses can help listeners understand an important idea.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Pauses give listeners time to think.",
+            "hint": "A pause can support meaning."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Voice Choices",
+            "title": "Level 1 Complete",
+            "prompt": "You practised voice choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Clear Message",
+            "title": "Keep the Message Focused",
+            "prompt": "Clear speaking needs clear thinking",
+            "text": "A strong speaker chooses details that fit the purpose. Extra details can be interesting, but they should not make the main point harder to follow."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Message",
+            "title": "Focus",
+            "prompt": "A student gives a short talk about how to care for a class plant. Which detail best belongs?",
+            "choices": [
+              "how much water the plant needs each week",
+              "where the plant pot was bought",
+              "which window has the best view of recess"
+            ],
+            "correctAnswer": "how much water the plant needs each week",
+            "feedback": "Correct. It fits the purpose of plant care.",
+            "hint": "Choose the detail the audience needs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Message",
+            "title": "Audience Words",
+            "prompt": "Which sentence is clearest for Grade 5 classmates?",
+            "choices": [
+              "The experiment showed that more sunlight helped the seedlings grow.",
+              "The data suggest phototropic response variation across specimens.",
+              "The thing with the plants changed because light was involved."
+            ],
+            "correctAnswer": "The experiment showed that more sunlight helped the seedlings grow.",
+            "feedback": "Yes. It is clear and precise for the audience.",
+            "hint": "Choose wording that is accurate and easy to follow."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Message",
+            "title": "Transition",
+            "prompt": "Which phrase helps listeners follow a sequence?",
+            "choices": [
+              "The next step is",
+              "Another interesting thing is",
+              "I also remembered"
+            ],
+            "correctAnswer": "The next step is",
+            "feedback": "Correct. It signals order.",
+            "hint": "Transitions guide the audience."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Clear Message",
+            "title": "True or False",
+            "prompt": "A clear speaker chooses details that match the purpose of the talk.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Purpose guides the details.",
+            "hint": "Clear messages stay focused."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Clear Message",
+            "title": "Mission Complete",
+            "prompt": "You practised clear speaking choices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Speaking Clearly Quiz",
+        "questions": [
+          {
+            "section": "Speaking Clearly",
+            "skill": "Volume",
+            "type": "multipleChoice",
+            "prompt": "Which volume choice fits a class presentation?",
+            "choices": [
+              "loud enough for the audience to hear comfortably",
+              "soft enough that only nearby students hear",
+              "loud only when reading headings"
+            ],
+            "correctAnswer": "loud enough for the audience to hear comfortably",
+            "reviewNote": "Volume should fit the audience and room."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "Pace",
+            "type": "multipleChoice",
+            "prompt": "What should a speaker do if the audience looks confused during key points?",
+            "choices": [
+              "slow down and pause after important ideas",
+              "add extra examples as quickly as possible",
+              "skip the next point to save time"
+            ],
+            "correctAnswer": "slow down and pause after important ideas",
+            "reviewNote": "Pace and pauses can improve understanding."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "Pronunciation",
+            "type": "multipleChoice",
+            "prompt": "Why practise unfamiliar words before a talk?",
+            "choices": [
+              "to say important words clearly",
+              "to avoid using examples",
+              "to make the talk sound more formal"
+            ],
+            "correctAnswer": "to say important words clearly",
+            "reviewNote": "Clear words help listeners."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "Focus",
+            "type": "multipleChoice",
+            "prompt": "A talk explains how to use a class website. Which detail belongs?",
+            "choices": [
+              "where to click to open the assignment",
+              "which browser icon looks best",
+              "how many students used the website last term"
+            ],
+            "correctAnswer": "where to click to open the assignment",
+            "reviewNote": "It helps the audience use the website."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "Which wording is clearest for Grade 5 listeners?",
+            "choices": [
+              "The character changes because he learns from his mistake.",
+              "The protagonist experiences a major developmental shift.",
+              "The person in the book becomes different somehow."
+            ],
+            "correctAnswer": "The character changes because he learns from his mistake.",
+            "reviewNote": "It is clear and accurate."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "Transition",
+            "type": "multipleChoice",
+            "prompt": "Which phrase helps listeners follow the order of steps?",
+            "choices": [
+              "After that",
+              "Another thought",
+              "For a different reason"
+            ],
+            "correctAnswer": "After that",
+            "reviewNote": "It shows sequence."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Speaking clearly includes choosing a suitable pace.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Pace affects understanding."
+          },
+          {
+            "section": "Speaking Clearly",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A speaker should include every interesting fact even if it does not fit the purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Details should support the purpose."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-organizing-a-short-talk",
+      "title": "Organizing a Short Talk",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will organize a short talk with a clear opening, connected points, and a closing idea.",
+      "successCriteria": [
+        "I can plan an opening that tells the topic and purpose.",
+        "I can arrange points in a logical order.",
+        "I can use a closing sentence that brings the talk together."
+      ],
+      "vocabulary": [
+        "opening",
+        "main point",
+        "sequence",
+        "transition",
+        "closing"
+      ],
+      "teacherOverview": "Students practise planning short talks with logical order, transitions, and clear conclusions.",
+      "teacherSummary": "Students practise planning short talks with logical order, transitions, and clear conclusions.",
+      "lessonContent": [
+        "A short talk needs a clear beginning, middle, and ending.",
+        "The opening tells the audience the topic and purpose.",
+        "The middle gives main points with examples or evidence.",
+        "Transitions help listeners move from one idea to the next.",
+        "The closing reminds the audience of the most important idea."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Short Talk Organizer",
+        "description": "Choose strong ways to organize and connect ideas in a short talk.",
+        "levels": [
+          "Level 1: Build the Structure",
+          "Level 2: Connect the Ideas"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Organizing a Short Talk Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Opening, main points, order, transitions, support, and closing"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Short Talk Organizer",
+        "mission": "Choose strong ways to organize and connect ideas in a short talk.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Build the Structure",
+            "title": "Before You Begin",
+            "prompt": "Get ready: structure helps listeners",
+            "text": "A short talk is easier to follow when the speaker has a plan. The audience should know the topic, hear connected points, and understand the final message."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Build the Structure",
+            "title": "Opening, Middle, Closing",
+            "prompt": "Every part has a job",
+            "text": "The opening introduces the topic. The middle explains the main points. The closing brings the ideas together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Structure",
+            "title": "Opening",
+            "prompt": "Which opening is strongest for a talk about keeping a reading journal?",
+            "choices": [
+              "Today I will explain how a reading journal helps readers track ideas.",
+              "A reading journal can be kept in many kinds of notebooks.",
+              "Reading journals are something we used last month."
+            ],
+            "correctAnswer": "Today I will explain how a reading journal helps readers track ideas.",
+            "feedback": "Correct. It states the topic and purpose.",
+            "hint": "A strong opening helps the audience know what to expect."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Structure",
+            "title": "Main Points",
+            "prompt": "A student's topic is 'three ways to prepare for a quiz.' Which set of main points fits best?",
+            "choices": [
+              "review notes, practise sample questions, get supplies ready",
+              "choose materials, open notes, write a title",
+              "read a chapter, organize a binder, write a story"
+            ],
+            "correctAnswer": "review notes, practise sample questions, get supplies ready",
+            "feedback": "Yes. All three points fit the topic.",
+            "hint": "Main points should work together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Structure",
+            "title": "Logical Order",
+            "prompt": "Which order works best for explaining how to make a simple slideshow?",
+            "choices": [
+              "choose topic, gather information, make slides, practise speaking",
+              "practise speaking, choose topic, make slides, gather information",
+              "make slides, gather information, practise speaking, choose topic"
+            ],
+            "correctAnswer": "choose topic, gather information, make slides, practise speaking",
+            "feedback": "Correct. The steps are in a sensible order.",
+            "hint": "Think about what must happen first."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Build the Structure",
+            "title": "True or False",
+            "prompt": "An organized talk helps the audience follow the speaker's thinking.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Organization supports understanding.",
+            "hint": "Structure helps listeners."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Build the Structure",
+            "title": "Level 1 Complete",
+            "prompt": "You practised building a short talk structure.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Connect the Ideas",
+            "title": "Use Transitions",
+            "prompt": "Guide the audience",
+            "text": "Transitions are words and phrases that show how ideas connect. They can show order, add another point, give an example, or signal a conclusion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect the Ideas",
+            "title": "Transition",
+            "prompt": "Which transition would best introduce a second reason?",
+            "choices": [
+              "Another reason is",
+              "In conclusion",
+              "Before the topic begins"
+            ],
+            "correctAnswer": "Another reason is",
+            "feedback": "Correct. It signals an added reason.",
+            "hint": "Look for a phrase that adds a point."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect the Ideas",
+            "title": "Support",
+            "prompt": "A speaker says, 'Daily reading builds stamina.' Which sentence best supports the point?",
+            "choices": [
+              "Reading a little each day can help students focus for longer texts.",
+              "Some books have chapter titles and page numbers.",
+              "Many people choose different places to read."
+            ],
+            "correctAnswer": "Reading a little each day can help students focus for longer texts.",
+            "feedback": "Yes. It explains how the point works.",
+            "hint": "Support should explain or prove the point."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect the Ideas",
+            "title": "Closing",
+            "prompt": "Which closing best fits a talk about using a planner?",
+            "choices": [
+              "A planner can help students remember tasks, manage time, and prepare for learning.",
+              "The planner has a calendar section near the front.",
+              "I used my planner yesterday and wrote homework in it."
+            ],
+            "correctAnswer": "A planner can help students remember tasks, manage time, and prepare for learning.",
+            "feedback": "Correct. It brings the main points together.",
+            "hint": "A closing should leave the main message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Connect the Ideas",
+            "title": "True or False",
+            "prompt": "Transitions can help listeners hear how one idea connects to the next.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Transitions guide listeners.",
+            "hint": "Transitions are guide words."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Connect the Ideas",
+            "title": "Mission Complete",
+            "prompt": "You practised connecting ideas in a short talk.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Organizing a Short Talk Quiz",
+        "questions": [
+          {
+            "section": "Short Talk",
+            "skill": "Opening",
+            "type": "multipleChoice",
+            "prompt": "Which opening clearly introduces a talk about safe online research?",
+            "choices": [
+              "Today I will explain three habits that make online research safer.",
+              "Online research can happen on different devices.",
+              "My presentation has four slides and a title."
+            ],
+            "correctAnswer": "Today I will explain three habits that make online research safer.",
+            "reviewNote": "It names the topic and purpose."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "Main Points",
+            "type": "multipleChoice",
+            "prompt": "Which main points fit a talk about preparing for a field trip?",
+            "choices": [
+              "check permission form, pack needed items, review behaviour expectations",
+              "choose lunch items, reread class notes, review a spelling list",
+              "open a laptop, write a paragraph, count supplies"
+            ],
+            "correctAnswer": "check permission form, pack needed items, review behaviour expectations",
+            "reviewNote": "All three match the topic."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "Order",
+            "type": "multipleChoice",
+            "prompt": "Which order best explains how to write a paragraph?",
+            "choices": [
+              "choose idea, plan details, draft, revise",
+              "draft, revise, choose idea, plan details",
+              "revise, plan details, draft, choose idea"
+            ],
+            "correctAnswer": "choose idea, plan details, draft, revise",
+            "reviewNote": "The order is logical."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "Transition",
+            "type": "multipleChoice",
+            "prompt": "Which phrase adds another point?",
+            "choices": [
+              "In addition",
+              "To sum up",
+              "Before the topic"
+            ],
+            "correctAnswer": "In addition",
+            "reviewNote": "It adds information."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "Support",
+            "type": "multipleChoice",
+            "prompt": "Which sentence supports the point 'A checklist helps teamwork'?",
+            "choices": [
+              "It lets group members see which jobs are finished and which still need work.",
+              "A checklist can be written on paper or typed on a screen.",
+              "Some checklists use boxes beside each line."
+            ],
+            "correctAnswer": "It lets group members see which jobs are finished and which still need work.",
+            "reviewNote": "It explains why the checklist helps."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "Closing",
+            "type": "multipleChoice",
+            "prompt": "Which closing fits a talk about choosing reliable sources?",
+            "choices": [
+              "Reliable sources help readers trust that information has been checked.",
+              "Some websites use menus at the top of the page.",
+              "I found three websites during research time."
+            ],
+            "correctAnswer": "Reliable sources help readers trust that information has been checked.",
+            "reviewNote": "It leaves the main message."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A short talk should have connected points instead of unrelated facts.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Connected points help the audience."
+          },
+          {
+            "section": "Short Talk",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The closing should help the audience remember the main idea.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A closing brings the talk together."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-voice-and-body-language",
+      "title": "Using Voice and Body Language",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how voice, posture, gestures, and eye contact support a spoken message.",
+      "successCriteria": [
+        "I can match voice choices to the purpose of a message.",
+        "I can choose body language that helps the audience listen.",
+        "I can identify gestures or movement that support meaning."
+      ],
+      "vocabulary": [
+        "tone",
+        "expression",
+        "posture",
+        "gesture",
+        "eye contact"
+      ],
+      "teacherOverview": "Students practise choosing voice and body language that supports meaning without distracting from the message.",
+      "teacherSummary": "Students practise choosing voice and body language that supports meaning without distracting from the message.",
+      "lessonContent": [
+        "Voice and body language are part of oral communication.",
+        "Tone and expression help show the feeling or purpose of a message.",
+        "Posture and eye contact can show confidence and respect for the audience.",
+        "Gestures should support the message instead of distracting from it.",
+        "Different purposes may call for different voice and body choices."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Voice and Body Language Mission",
+        "description": "Choose presentation choices that support the spoken message.",
+        "levels": [
+          "Level 1: Voice Meaning",
+          "Level 2: Body Language Choices"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Using Voice and Body Language Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Tone, expression, posture, eye contact, gesture, and audience support"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Voice and Body Language Mission",
+        "mission": "Choose presentation choices that support the spoken message.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Voice Meaning",
+            "title": "Before You Begin",
+            "prompt": "Get ready: voice carries meaning",
+            "text": "The same words can sound different depending on tone, expression, pace, and volume. Voice choices should match the purpose and audience."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Voice Meaning",
+            "title": "Match the Purpose",
+            "prompt": "Use voice intentionally",
+            "text": "A safety announcement, a story reading, and a research presentation do not need exactly the same voice. The speaker should choose a tone that fits the message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Meaning",
+            "title": "Tone",
+            "prompt": "Which tone best fits a reminder about careful hallway movement?",
+            "choices": [
+              "calm and serious",
+              "excited and dramatic",
+              "quiet and uncertain"
+            ],
+            "correctAnswer": "calm and serious",
+            "feedback": "Correct. The tone matches a safety reminder.",
+            "hint": "Think about the purpose of the message."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Meaning",
+            "title": "Expression",
+            "prompt": "A student reads a funny moment from a story. Which choice would help the audience understand the mood?",
+            "choices": [
+              "use light expression while still reading clearly",
+              "use the same flat voice for every sentence",
+              "rush through the sentence before explaining it"
+            ],
+            "correctAnswer": "use light expression while still reading clearly",
+            "feedback": "Yes. Expression can support mood.",
+            "hint": "Voice can show feeling without losing clarity."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Meaning",
+            "title": "Emphasis",
+            "prompt": "A speaker wants listeners to remember one key word. What voice choice could help?",
+            "choices": [
+              "pause briefly before the key word and say it clearly",
+              "make every word sound equally important",
+              "add a new detail right after the key word"
+            ],
+            "correctAnswer": "pause briefly before the key word and say it clearly",
+            "feedback": "Correct. A pause and clear voice can create emphasis.",
+            "hint": "Emphasis shows importance."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Voice Meaning",
+            "title": "True or False",
+            "prompt": "Tone can change how listeners understand a spoken message.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Tone affects meaning.",
+            "hint": "Voice choices communicate."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Voice Meaning",
+            "title": "Level 1 Complete",
+            "prompt": "You practised matching voice to meaning.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Body Language Choices",
+            "title": "Support the Message",
+            "prompt": "Body language should help",
+            "text": "Posture, eye contact, gestures, and movement can help the audience follow a presentation. The goal is to support the message, not take attention away from it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Body Language Choices",
+            "title": "Posture",
+            "prompt": "Which body language choice best supports a class presentation?",
+            "choices": [
+              "stand in a balanced way and face the audience",
+              "turn toward the screen for most of the talk",
+              "shift position each time a new sentence begins"
+            ],
+            "correctAnswer": "stand in a balanced way and face the audience",
+            "feedback": "Correct. It helps the audience listen.",
+            "hint": "Body language should make communication easier."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Body Language Choices",
+            "title": "Gesture",
+            "prompt": "A speaker explains three steps in a process. Which gesture would support the message?",
+            "choices": [
+              "show one, two, and three with fingers as each step is named",
+              "tap the notes each time a word is read",
+              "point to different parts of the room between steps"
+            ],
+            "correctAnswer": "show one, two, and three with fingers as each step is named",
+            "feedback": "Yes. The gesture matches the structure.",
+            "hint": "Gestures should connect to meaning."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Body Language Choices",
+            "title": "Eye Contact",
+            "prompt": "What is a good way to use eye contact during a presentation?",
+            "choices": [
+              "look up from notes regularly to include different parts of the audience",
+              "look only at the first row to stay focused",
+              "read every sentence from notes before looking up"
+            ],
+            "correctAnswer": "look up from notes regularly to include different parts of the audience",
+            "feedback": "Correct. It helps connect with the audience.",
+            "hint": "Eye contact can be brief and natural."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Body Language Choices",
+            "title": "True or False",
+            "prompt": "Gestures are most helpful when they support what the speaker is saying.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Gestures should fit the message.",
+            "hint": "Useful gestures add meaning."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Body Language Choices",
+            "title": "Mission Complete",
+            "prompt": "You practised voice and body language choices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Using Voice and Body Language Quiz",
+        "questions": [
+          {
+            "section": "Voice and Body",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which tone best fits a report about a science result?",
+            "choices": [
+              "clear and thoughtful",
+              "playful and exaggerated",
+              "uncertain and barely audible"
+            ],
+            "correctAnswer": "clear and thoughtful",
+            "reviewNote": "The tone fits an informational report."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "Expression",
+            "type": "multipleChoice",
+            "prompt": "Why use expression when reading part of a story aloud?",
+            "choices": [
+              "to help listeners understand the mood and speaker",
+              "to make the reading sound longer",
+              "to replace the need to understand the words"
+            ],
+            "correctAnswer": "to help listeners understand the mood and speaker",
+            "reviewNote": "Expression can support meaning."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "Emphasis",
+            "type": "multipleChoice",
+            "prompt": "How can a speaker emphasize an important point?",
+            "choices": [
+              "pause before it and say it clearly",
+              "add several extra points right after it",
+              "look down while saying it"
+            ],
+            "correctAnswer": "pause before it and say it clearly",
+            "reviewNote": "A pause can help important ideas stand out."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "Posture",
+            "type": "multipleChoice",
+            "prompt": "Which posture helps during a presentation?",
+            "choices": [
+              "balanced and facing the audience",
+              "turned away while reading slides",
+              "leaning over notes for most of the talk"
+            ],
+            "correctAnswer": "balanced and facing the audience",
+            "reviewNote": "It supports communication."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "Gesture",
+            "type": "multipleChoice",
+            "prompt": "Which gesture best supports directions with three steps?",
+            "choices": [
+              "briefly count the steps with fingers",
+              "move the hands the same way for each sentence",
+              "hold the paper higher during the conclusion"
+            ],
+            "correctAnswer": "briefly count the steps with fingers",
+            "reviewNote": "It matches the structure."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "Eye Contact",
+            "type": "multipleChoice",
+            "prompt": "Which eye contact choice is strongest?",
+            "choices": [
+              "look up regularly and include different parts of the audience",
+              "look at one friend for the whole talk",
+              "look only at the notes until question time"
+            ],
+            "correctAnswer": "look up regularly and include different parts of the audience",
+            "reviewNote": "It helps include the audience."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Body language can support or weaken a spoken message.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Body language affects communication."
+          },
+          {
+            "section": "Voice and Body",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The same tone is best for every speaking purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Tone should fit the purpose."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-group-discussion-skills",
+      "title": "Group Discussion Skills",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will contribute to group discussions by listening, building on ideas, and sharing respectfully.",
+      "successCriteria": [
+        "I can add an idea that connects to the discussion.",
+        "I can build on another person's idea with a reason or example.",
+        "I can help a group stay respectful and focused."
+      ],
+      "vocabulary": [
+        "discussion",
+        "contribute",
+        "build on",
+        "turn-taking",
+        "respectful"
+      ],
+      "teacherOverview": "Students practise discussion choices that keep group work focused, respectful, and useful.",
+      "teacherSummary": "Students practise discussion choices that keep group work focused, respectful, and useful.",
+      "lessonContent": [
+        "A group discussion works best when members listen and contribute.",
+        "A contribution should connect to the topic or task.",
+        "Building on an idea means adding a reason, example, question, or connection.",
+        "Turn-taking helps more voices be heard.",
+        "Respectful discussion can include different opinions when people use reasons and listen well."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Discussion Team Mission",
+        "description": "Choose discussion moves that help a group think and work together.",
+        "levels": [
+          "Level 1: Contribute Clearly",
+          "Level 2: Build Together"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Group Discussion Skills Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Topic fit, building on ideas, turn-taking, respectful disagreement, and group focus"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Discussion Team Mission",
+        "mission": "Choose discussion moves that help a group think and work together.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Contribute Clearly",
+            "title": "Before You Begin",
+            "prompt": "Get ready: discussion is shared work",
+            "text": "In a discussion, the goal is not only to say something. The goal is to help the group understand the topic, solve a problem, or make a thoughtful decision."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Contribute Clearly",
+            "title": "Connect to the Topic",
+            "prompt": "Useful contributions fit",
+            "text": "A strong contribution connects to the question or task. It can add a reason, example, question, or careful disagreement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Contribute Clearly",
+            "title": "Topic Fit",
+            "prompt": "A group is discussing which source is best for a research project. Which comment best fits?",
+            "choices": [
+              "The official museum page has dates and author information, so it may be reliable.",
+              "I found a website with a bright homepage and many pictures.",
+              "Our group should decide who will print the final copy."
+            ],
+            "correctAnswer": "The official museum page has dates and author information, so it may be reliable.",
+            "feedback": "Correct. It fits the discussion and gives a reason.",
+            "hint": "Choose the comment that helps the group think about sources."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Contribute Clearly",
+            "title": "Add a Reason",
+            "prompt": "A student says, 'I think paragraph two is the strongest.' Which addition would help most?",
+            "choices": [
+              "It gives two examples that support the topic sentence.",
+              "It is near the middle of the page.",
+              "It was the paragraph I read first."
+            ],
+            "correctAnswer": "It gives two examples that support the topic sentence.",
+            "feedback": "Yes. It gives a useful reason.",
+            "hint": "A reason should explain the thinking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Contribute Clearly",
+            "title": "Question Move",
+            "prompt": "Which question would help a group choose evidence for an answer?",
+            "choices": [
+              "Which detail best proves our main point?",
+              "Who wants to read the next paragraph aloud?",
+              "How much space is left on the poster?"
+            ],
+            "correctAnswer": "Which detail best proves our main point?",
+            "feedback": "Correct. It focuses on evidence.",
+            "hint": "Evidence questions help academic discussion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Contribute Clearly",
+            "title": "True or False",
+            "prompt": "A discussion contribution should connect to the group's topic or task.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Topic fit matters.",
+            "hint": "Connected ideas help the group."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Contribute Clearly",
+            "title": "Level 1 Complete",
+            "prompt": "You practised clear discussion contributions.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Build Together",
+            "title": "Build on Ideas",
+            "prompt": "Use what others say",
+            "text": "Building on someone else's idea shows listening. You might add an example, compare ideas, ask a follow-up question, or offer a reasoned disagreement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build Together",
+            "title": "Build On",
+            "prompt": "A classmate says, 'The character seems nervous.' Which response builds on that idea?",
+            "choices": [
+              "Yes, and the repeated short sentences show how rushed her thoughts are.",
+              "I chose a different character for my answer.",
+              "The chapter also has a setting description."
+            ],
+            "correctAnswer": "Yes, and the repeated short sentences show how rushed her thoughts are.",
+            "feedback": "Correct. It adds evidence to the idea.",
+            "hint": "Build by adding support or connection."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build Together",
+            "title": "Turn-Taking",
+            "prompt": "Two students have spoken several times, and one student has not shared yet. Which group move is strongest?",
+            "choices": [
+              "invite the student to share if they would like to add an idea",
+              "continue with the speakers who have the most prepared notes",
+              "switch to writing so the group can finish faster"
+            ],
+            "correctAnswer": "invite the student to share if they would like to add an idea",
+            "feedback": "Yes. It makes room without forcing.",
+            "hint": "Good discussion includes others respectfully."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build Together",
+            "title": "Respectful Difference",
+            "prompt": "Which sentence gives a different opinion respectfully?",
+            "choices": [
+              "I see the evidence differently because the last paragraph changes the meaning.",
+              "That answer is not the one our group should use.",
+              "My idea has more details, so it should go first."
+            ],
+            "correctAnswer": "I see the evidence differently because the last paragraph changes the meaning.",
+            "feedback": "Correct. It gives a reason and stays respectful.",
+            "hint": "Different opinions should include reasons."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Build Together",
+            "title": "True or False",
+            "prompt": "A group can disagree respectfully when members explain their reasons and listen.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Respectful disagreement can improve thinking.",
+            "hint": "Discussion is not only agreement."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Build Together",
+            "title": "Mission Complete",
+            "prompt": "You practised building ideas together.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Group Discussion Skills Quiz",
+        "questions": [
+          {
+            "section": "Discussion",
+            "skill": "Topic Fit",
+            "type": "multipleChoice",
+            "prompt": "A group is choosing evidence for a reading response. Which comment fits best?",
+            "choices": [
+              "This sentence supports our answer because it shows the character's motive.",
+              "The book cover uses dark colours.",
+              "We should decide who writes the title."
+            ],
+            "correctAnswer": "This sentence supports our answer because it shows the character's motive.",
+            "reviewNote": "It fits the evidence task."
+          },
+          {
+            "section": "Discussion",
+            "skill": "Reason",
+            "type": "multipleChoice",
+            "prompt": "Which contribution includes a reason?",
+            "choices": [
+              "I think the first source is better because it lists the author and date.",
+              "I found the first source before the second one.",
+              "The first source has a longer title."
+            ],
+            "correctAnswer": "I think the first source is better because it lists the author and date.",
+            "reviewNote": "It explains the thinking."
+          },
+          {
+            "section": "Discussion",
+            "skill": "Question",
+            "type": "multipleChoice",
+            "prompt": "Which question helps a group check its answer?",
+            "choices": [
+              "Does our evidence match the question we were asked?",
+              "Who has the neatest handwriting?",
+              "Which paragraph is closest to the top?"
+            ],
+            "correctAnswer": "Does our evidence match the question we were asked?",
+            "reviewNote": "It checks the quality of the answer."
+          },
+          {
+            "section": "Discussion",
+            "skill": "Build On",
+            "type": "multipleChoice",
+            "prompt": "Which sentence builds on a classmate's idea?",
+            "choices": [
+              "I agree, and the chart gives another example of that pattern.",
+              "I also have a different idea about the next topic.",
+              "I remember seeing a chart in another book."
+            ],
+            "correctAnswer": "I agree, and the chart gives another example of that pattern.",
+            "reviewNote": "It adds support."
+          },
+          {
+            "section": "Discussion",
+            "skill": "Turn-Taking",
+            "type": "multipleChoice",
+            "prompt": "What helps a group hear more voices?",
+            "choices": [
+              "make space for students who have not shared yet",
+              "let the fastest speaker lead each answer",
+              "choose one person to answer every question"
+            ],
+            "correctAnswer": "make space for students who have not shared yet",
+            "reviewNote": "Turn-taking supports participation."
+          },
+          {
+            "section": "Discussion",
+            "skill": "Disagreement",
+            "type": "multipleChoice",
+            "prompt": "Which disagreement is respectful and useful?",
+            "choices": [
+              "I read that sentence differently because it describes the opposite effect.",
+              "I do not think that answer should count.",
+              "Our group already has enough ideas."
+            ],
+            "correctAnswer": "I read that sentence differently because it describes the opposite effect.",
+            "reviewNote": "It gives a reason."
+          },
+          {
+            "section": "Discussion",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Building on an idea can include adding evidence or an example.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "That is one way to build."
+          },
+          {
+            "section": "Discussion",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A group discussion should stay connected to the task.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Focus helps the group."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-giving-and-receiving-feedback",
+      "title": "Giving and Receiving Feedback",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will give and receive feedback that is specific, respectful, and useful for revision.",
+      "successCriteria": [
+        "I can identify feedback that is specific and helpful.",
+        "I can give feedback that names a strength and a next step.",
+        "I can use feedback to decide what to revise."
+      ],
+      "vocabulary": [
+        "feedback",
+        "specific",
+        "revision",
+        "strength",
+        "next step"
+      ],
+      "teacherOverview": "Students practise recognizing helpful feedback and using it to improve speaking or writing.",
+      "teacherSummary": "Students practise recognizing helpful feedback and using it to improve speaking or writing.",
+      "lessonContent": [
+        "Feedback is information that helps a learner improve.",
+        "Helpful feedback is specific, respectful, and connected to the goal.",
+        "A strength names something that is already working.",
+        "A next step suggests one useful improvement.",
+        "Receiving feedback well means considering it and deciding what revision would help."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Helpful Feedback Mission",
+        "description": "Choose feedback that helps a speaker or writer improve.",
+        "levels": [
+          "Level 1: Spot Helpful Feedback",
+          "Level 2: Use Feedback Well"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Giving and Receiving Feedback Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Specific feedback, strengths, next steps, revision choices, and respectful response"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Helpful Feedback Mission",
+        "mission": "Choose feedback that helps a speaker or writer improve.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "Before You Begin",
+            "prompt": "Get ready: feedback should help",
+            "text": "Feedback is useful when it helps someone understand what is working and what could improve. It should be specific enough to guide the next revision."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "Strength and Next Step",
+            "prompt": "Name what works and what to try next",
+            "text": "Good feedback often includes a strength and a next step. The strength tells what to keep. The next step tells what to revise."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "Specific Feedback",
+            "prompt": "Which feedback is most useful after a short talk?",
+            "choices": [
+              "Your opening clearly tells the topic; add one example to support your second point.",
+              "Your talk was interesting and had a good topic.",
+              "You should make the middle part better."
+            ],
+            "correctAnswer": "Your opening clearly tells the topic; add one example to support your second point.",
+            "feedback": "Correct. It names a strength and a specific next step.",
+            "hint": "Useful feedback gives clear information."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "Strength",
+            "prompt": "Which comment names a clear strength?",
+            "choices": [
+              "Your voice was easy to hear from the back of the room.",
+              "Your presentation had several parts.",
+              "You finished close to the time limit."
+            ],
+            "correctAnswer": "Your voice was easy to hear from the back of the room.",
+            "feedback": "Yes. It names a clear speaking strength.",
+            "hint": "A strength says what worked well."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "Next Step",
+            "prompt": "A student's presentation has good facts but no closing sentence. Which next step fits best?",
+            "choices": [
+              "Add a closing sentence that reminds listeners of the main idea.",
+              "Use a larger title on the first slide.",
+              "Practise saying the first sentence more slowly."
+            ],
+            "correctAnswer": "Add a closing sentence that reminds listeners of the main idea.",
+            "feedback": "Correct. It matches the need.",
+            "hint": "The next step should solve the problem."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "True or False",
+            "prompt": "Helpful feedback should connect to the assignment goal.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Feedback should match the goal.",
+            "hint": "Goal-connected feedback is easier to use."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Spot Helpful Feedback",
+            "title": "Level 1 Complete",
+            "prompt": "You practised spotting helpful feedback.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Use Feedback Well",
+            "title": "Decide What to Revise",
+            "prompt": "Feedback is a tool",
+            "text": "You do not need to change everything at once. A learner should look for the feedback that best matches the goal and choose a clear revision step."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Feedback Well",
+            "title": "Revision Choice",
+            "prompt": "Feedback says, 'Your examples are strong, but your main point is not clear until the end.' What revision fits best?",
+            "choices": [
+              "Move the main point into the opening and keep the examples.",
+              "Replace the examples with shorter sentences.",
+              "Add a new picture before each example."
+            ],
+            "correctAnswer": "Move the main point into the opening and keep the examples.",
+            "feedback": "Correct. It keeps the strength and fixes the issue.",
+            "hint": "Use the feedback to guide one helpful change."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Feedback Well",
+            "title": "Receiving Feedback",
+            "prompt": "Which response shows a student is using feedback well?",
+            "choices": [
+              "I will check whether my second point needs clearer evidence.",
+              "I will revise the whole presentation before checking the goal.",
+              "I will keep the presentation the same because it is finished."
+            ],
+            "correctAnswer": "I will check whether my second point needs clearer evidence.",
+            "feedback": "Yes. It considers a specific improvement.",
+            "hint": "Good response focuses on revision."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Feedback Well",
+            "title": "Peer Feedback",
+            "prompt": "Which peer feedback would best help a classmate improve a visual aid?",
+            "choices": [
+              "The chart supports your point, but the labels need to be easier to read.",
+              "The chart is my favourite part of the whole presentation.",
+              "The chart has lines, labels, and two colours."
+            ],
+            "correctAnswer": "The chart supports your point, but the labels need to be easier to read.",
+            "feedback": "Correct. It names what works and what to fix.",
+            "hint": "Specific feedback helps revision."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Use Feedback Well",
+            "title": "True or False",
+            "prompt": "Receiving feedback well means thinking about it before deciding what to revise.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Feedback needs thoughtful use.",
+            "hint": "Feedback is considered, not copied without thought."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Use Feedback Well",
+            "title": "Mission Complete",
+            "prompt": "You practised giving and using feedback.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Giving and Receiving Feedback Quiz",
+        "questions": [
+          {
+            "section": "Feedback",
+            "skill": "Specific",
+            "type": "multipleChoice",
+            "prompt": "Which feedback is most specific?",
+            "choices": [
+              "Your second reason is clear; add evidence from the article to support it.",
+              "Your work is good and easy to read.",
+              "You should improve the answer a bit."
+            ],
+            "correctAnswer": "Your second reason is clear; add evidence from the article to support it.",
+            "reviewNote": "It gives a clear strength and next step."
+          },
+          {
+            "section": "Feedback",
+            "skill": "Strength",
+            "type": "multipleChoice",
+            "prompt": "Which comment names a strength?",
+            "choices": [
+              "Your conclusion connects back to the main idea.",
+              "Your paragraph is about the topic.",
+              "Your work has a title and sentences."
+            ],
+            "correctAnswer": "Your conclusion connects back to the main idea.",
+            "reviewNote": "It names what is working."
+          },
+          {
+            "section": "Feedback",
+            "skill": "Next Step",
+            "type": "multipleChoice",
+            "prompt": "A talk has strong facts but no order. Which next step fits best?",
+            "choices": [
+              "Put the facts into an order that helps listeners follow.",
+              "Choose a different topic for the talk.",
+              "Read the final sentence with more expression."
+            ],
+            "correctAnswer": "Put the facts into an order that helps listeners follow.",
+            "reviewNote": "It addresses the problem."
+          },
+          {
+            "section": "Feedback",
+            "skill": "Revision",
+            "type": "multipleChoice",
+            "prompt": "Feedback says, 'Your voice is clear, but your visual has too much small text.' What should the student revise?",
+            "choices": [
+              "make the visual easier to read",
+              "change the speaking voice completely",
+              "add more facts to the visual"
+            ],
+            "correctAnswer": "make the visual easier to read",
+            "reviewNote": "The feedback points to readability."
+          },
+          {
+            "section": "Feedback",
+            "skill": "Response",
+            "type": "multipleChoice",
+            "prompt": "Which response to feedback is most useful?",
+            "choices": [
+              "I will decide which suggestion best helps my goal.",
+              "I will change whatever my partner mentions first.",
+              "I will focus only on the positive comment."
+            ],
+            "correctAnswer": "I will decide which suggestion best helps my goal.",
+            "reviewNote": "The student thinks about the goal."
+          },
+          {
+            "section": "Feedback",
+            "skill": "Visual Aid",
+            "type": "multipleChoice",
+            "prompt": "Which feedback helps improve a poster?",
+            "choices": [
+              "Your headings are clear; make the date easier to find.",
+              "Your poster uses a clear title and one image.",
+              "Your topic is one many students know."
+            ],
+            "correctAnswer": "Your headings are clear; make the date easier to find.",
+            "reviewNote": "It gives a useful next step."
+          },
+          {
+            "section": "Feedback",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Helpful feedback is specific, respectful, and connected to the goal.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Those qualities make feedback useful."
+          },
+          {
+            "section": "Feedback",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A next step should help the learner know what to try next.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A next step guides revision."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-preparing-a-presentation",
+      "title": "Preparing a Presentation",
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will prepare a presentation by planning audience, purpose, content, visuals, practice, and final checks.",
+      "successCriteria": [
+        "I can plan a presentation for a clear audience and purpose.",
+        "I can choose notes and visuals that support the message.",
+        "I can practise and revise before presenting."
+      ],
+      "vocabulary": [
+        "presentation",
+        "audience",
+        "purpose",
+        "visual aid",
+        "practice"
+      ],
+      "teacherOverview": "Students practise planning presentation choices from purpose and audience through final revision.",
+      "teacherSummary": "Students practise planning presentation choices from purpose and audience through final revision.",
+      "lessonContent": [
+        "A strong presentation starts with audience and purpose.",
+        "The speaker should choose main points that fit the purpose.",
+        "Notes should guide the speaker without becoming a script to read word for word.",
+        "Visual aids should make ideas clearer for the audience.",
+        "Practising helps the speaker check timing, clarity, voice, and confidence."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as a scored oral communication check.",
+        "Review missed questions before assigning the next Oral Communication and Presentation lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Presentation Prep Mission",
+        "description": "Choose preparation steps that make a presentation clear and ready.",
+        "levels": [
+          "Level 1: Plan the Presentation",
+          "Level 2: Practise and Revise"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Preparing a Presentation Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Audience, purpose, main points, notes, visuals, practice, timing, and final checks"
+      },
+      "assessmentPlan": "Use the activity for guided speaking and listening decisions and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "languageQuestionSet",
+        "version": "2026-08-28-language-unit-6-oral-1",
+        "title": "Presentation Prep Mission",
+        "mission": "Choose preparation steps that make a presentation clear and ready.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Presentation",
+            "title": "Before You Begin",
+            "prompt": "Get ready: preparation starts early",
+            "text": "A presentation is easier to give when the speaker knows the audience, purpose, main points, and support before making slides or notes."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Plan the Presentation",
+            "title": "Audience and Purpose",
+            "prompt": "Decide what listeners need",
+            "text": "Audience and purpose guide almost every choice. A talk for classmates may use different examples than a talk for parents or younger students."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Presentation",
+            "title": "Audience",
+            "prompt": "A student is presenting to Grade 2 students about playground safety. Which choice best fits the audience?",
+            "choices": [
+              "use simple examples from recess routines",
+              "include a detailed report about school policy",
+              "compare several playground designs from different schools"
+            ],
+            "correctAnswer": "use simple examples from recess routines",
+            "feedback": "Correct. The examples fit younger listeners.",
+            "hint": "Choose what the audience can use."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Presentation",
+            "title": "Purpose",
+            "prompt": "A presentation is meant to teach classmates how to check a source. Which main point belongs?",
+            "choices": [
+              "Look for the author, date, and evidence before trusting information.",
+              "Websites can use menus, images, and search boxes.",
+              "Some students prefer doing research with a partner."
+            ],
+            "correctAnswer": "Look for the author, date, and evidence before trusting information.",
+            "feedback": "Yes. It fits the teaching purpose.",
+            "hint": "Choose the point that matches the goal."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Presentation",
+            "title": "Main Points",
+            "prompt": "Which plan is strongest for a short presentation about a favourite Canadian animal?",
+            "choices": [
+              "habitat, diet, adaptations, and one interesting fact",
+              "animal name, poster colour, project partner, and font choice",
+              "book title, class period, drawing size, and presentation day"
+            ],
+            "correctAnswer": "habitat, diet, adaptations, and one interesting fact",
+            "feedback": "Correct. The points fit the topic.",
+            "hint": "Main points should help the audience learn."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Plan the Presentation",
+            "title": "True or False",
+            "prompt": "Audience and purpose should guide presentation choices.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. They shape content, wording, and visuals.",
+            "hint": "Planning begins with audience and purpose."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Plan the Presentation",
+            "title": "Level 1 Complete",
+            "prompt": "You practised planning presentation choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Practise and Revise",
+            "title": "Check Before Sharing",
+            "prompt": "Preparation includes practice",
+            "text": "Practising helps a speaker notice unclear parts, timing problems, missing support, or visual aids that are hard to read."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Practise and Revise",
+            "title": "Notes",
+            "prompt": "Which note style would best support a student during a presentation?",
+            "choices": [
+              "short cue words for each main point and key example",
+              "full paragraphs to read from the page",
+              "only the title and the final sentence"
+            ],
+            "correctAnswer": "short cue words for each main point and key example",
+            "feedback": "Correct. Cue words help the speaker speak naturally.",
+            "hint": "Notes should guide, not replace speaking."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Practise and Revise",
+            "title": "Visual Aid",
+            "prompt": "Which visual aid best supports a talk comparing two habitats?",
+            "choices": [
+              "a simple labelled chart showing key similarities and differences",
+              "a large decorative title with small facts below",
+              "a photo that looks interesting but is not explained"
+            ],
+            "correctAnswer": "a simple labelled chart showing key similarities and differences",
+            "feedback": "Yes. It helps the audience compare.",
+            "hint": "Visuals should make ideas clearer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Practise and Revise",
+            "title": "Practice Check",
+            "prompt": "What should a student check while practising a presentation?",
+            "choices": [
+              "timing, clear voice, order of ideas, and hard words",
+              "whether every slide uses the same number of words",
+              "whether the longest section comes first"
+            ],
+            "correctAnswer": "timing, clear voice, order of ideas, and hard words",
+            "feedback": "Correct. Those checks improve delivery.",
+            "hint": "Practice helps find problems before presenting."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Practise and Revise",
+            "title": "True or False",
+            "prompt": "A speaker can revise a presentation after practising it.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Practice often shows what needs revision.",
+            "hint": "Practise, notice, revise."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Practise and Revise",
+            "title": "Mission Complete",
+            "prompt": "You practised preparing a presentation.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Preparing a Presentation Quiz",
+        "questions": [
+          {
+            "section": "Presentation Prep",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A talk is for younger students learning library routines. Which choice fits best?",
+            "choices": [
+              "simple steps with familiar school examples",
+              "a long explanation of library classification",
+              "a comparison of several research databases"
+            ],
+            "correctAnswer": "simple steps with familiar school examples",
+            "reviewNote": "The audience needs clear, familiar examples."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "Purpose",
+            "type": "multipleChoice",
+            "prompt": "A presentation is meant to persuade classmates to join a cleanup team. Which point belongs?",
+            "choices": [
+              "The team helps keep shared spaces ready for everyone.",
+              "The sign-up sheet is printed on white paper.",
+              "The classroom has several recycling containers."
+            ],
+            "correctAnswer": "The team helps keep shared spaces ready for everyone.",
+            "reviewNote": "It supports the persuasive purpose."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "Main Points",
+            "type": "multipleChoice",
+            "prompt": "Which set of main points fits a presentation about a book character?",
+            "choices": [
+              "goal, challenge, important choice, and how the character changes",
+              "cover colour, chapter count, page numbers, and font size",
+              "author name, library shelf, due date, and reading spot"
+            ],
+            "correctAnswer": "goal, challenge, important choice, and how the character changes",
+            "reviewNote": "Those points help explain a character."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "Notes",
+            "type": "multipleChoice",
+            "prompt": "Which notes are best for speaking naturally?",
+            "choices": [
+              "cue words and key examples",
+              "full paragraphs to read word for word",
+              "only the opening sentence"
+            ],
+            "correctAnswer": "cue words and key examples",
+            "reviewNote": "Cue words guide the speaker."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "Visual Aid",
+            "type": "multipleChoice",
+            "prompt": "Which visual aid best supports a presentation about a process?",
+            "choices": [
+              "a labelled sequence chart",
+              "a background picture with small text",
+              "a title page with no details"
+            ],
+            "correctAnswer": "a labelled sequence chart",
+            "reviewNote": "A sequence chart shows process order."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "Practice",
+            "type": "multipleChoice",
+            "prompt": "Why practise before presenting?",
+            "choices": [
+              "to check timing, clarity, and order",
+              "to memorize every possible audience question",
+              "to make the presentation longer"
+            ],
+            "correctAnswer": "to check timing, clarity, and order",
+            "reviewNote": "Practice helps a speaker revise."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Visual aids should support the message, not distract from it.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Visuals should help communication."
+          },
+          {
+            "section": "Presentation Prep",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A presentation plan should begin with audience and purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Audience and purpose guide the plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "grade-5-language-unit-6-final-quiz",
+      "title": "Unit 6 Final Quiz",
+      "type": "unitTest",
+      "status": "model",
+      "teacherOverview": "Use this quiz after students complete the Oral Communication and Presentation lessons.",
+      "teacherSummary": "The Unit 6 final quiz checks active listening, good questions, clear speaking, short talk organization, voice and body language, group discussion, feedback, and presentation preparation.",
+      "quiz": {
+        "title": "Oral Communication and Presentation Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Active Listening",
+            "skill": "Main Idea",
+            "type": "multipleChoice",
+            "prompt": "A speaker says, 'Our group tested three materials. The felt kept the ice cold longest.' What is the main idea?",
+            "choices": [
+              "The test showed felt worked best as an insulator.",
+              "The group used three materials in a test.",
+              "The speaker used ice during the investigation."
+            ],
+            "correctAnswer": "The test showed felt worked best as an insulator.",
+            "reviewNote": "The main idea explains what the test showed."
+          },
+          {
+            "section": "Part A: Active Listening",
+            "skill": "Clarify",
+            "type": "multipleChoice",
+            "prompt": "Which question best clarifies an unclear word?",
+            "choices": [
+              "What do you mean by 'conclusion' in this investigation?",
+              "Which slide has your chart on it?",
+              "How long did your group practise?"
+            ],
+            "correctAnswer": "What do you mean by 'conclusion' in this investigation?",
+            "reviewNote": "It asks for the meaning of the unclear word."
+          },
+          {
+            "section": "Part A: Active Listening",
+            "skill": "Response",
+            "type": "multipleChoice",
+            "prompt": "Which response shows active listening?",
+            "choices": [
+              "So your evidence is that the character changes after chapter four.",
+              "I chose a different book for my project.",
+              "Your presentation had five slides."
+            ],
+            "correctAnswer": "So your evidence is that the character changes after chapter four.",
+            "reviewNote": "It connects to the speaker's idea."
+          },
+          {
+            "section": "Part B: Good Questions",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Which question asks for evidence?",
+            "choices": [
+              "Which fact from your source supports that claim?",
+              "How many pictures did your source include?",
+              "Did you find the source yesterday?"
+            ],
+            "correctAnswer": "Which fact from your source supports that claim?",
+            "reviewNote": "It asks for support."
+          },
+          {
+            "section": "Part B: Good Questions",
+            "skill": "Follow-Up",
+            "type": "multipleChoice",
+            "prompt": "A speaker says, 'The second design was stronger.' Which follow-up question fits?",
+            "choices": [
+              "What change made the second design stronger?",
+              "Which colour was the first design?",
+              "Who carried the materials to the table?"
+            ],
+            "correctAnswer": "What change made the second design stronger?",
+            "reviewNote": "It builds on the speaker's statement."
+          },
+          {
+            "section": "Part C: Speaking Clearly",
+            "skill": "Volume",
+            "type": "multipleChoice",
+            "prompt": "Which voice choice helps in a classroom presentation?",
+            "choices": [
+              "speak loudly enough for the audience to hear comfortably",
+              "use the same quiet voice as a partner talk",
+              "make only the introduction louder"
+            ],
+            "correctAnswer": "speak loudly enough for the audience to hear comfortably",
+            "reviewNote": "Volume should fit the room."
+          },
+          {
+            "section": "Part C: Speaking Clearly",
+            "skill": "Pace",
+            "type": "multipleChoice",
+            "prompt": "What should a speaker do when listeners seem to miss key points?",
+            "choices": [
+              "slow down and pause after important ideas",
+              "add more details before moving on",
+              "read the rest from notes without stopping"
+            ],
+            "correctAnswer": "slow down and pause after important ideas",
+            "reviewNote": "Pace and pauses help understanding."
+          },
+          {
+            "section": "Part D: Short Talk",
+            "skill": "Opening",
+            "type": "multipleChoice",
+            "prompt": "Which opening is strongest?",
+            "choices": [
+              "Today I will explain how three safety habits help during science investigations.",
+              "Science investigations can use several kinds of materials.",
+              "My presentation has a title and a conclusion."
+            ],
+            "correctAnswer": "Today I will explain how three safety habits help during science investigations.",
+            "reviewNote": "It names topic and purpose."
+          },
+          {
+            "section": "Part D: Short Talk",
+            "skill": "Transition",
+            "type": "multipleChoice",
+            "prompt": "Which phrase signals a final summary?",
+            "choices": [
+              "To sum up",
+              "For example",
+              "Another reason"
+            ],
+            "correctAnswer": "To sum up",
+            "reviewNote": "It signals a closing summary."
+          },
+          {
+            "section": "Part D: Short Talk",
+            "skill": "Support",
+            "type": "multipleChoice",
+            "prompt": "Which sentence supports the point 'Practice improves a presentation'?",
+            "choices": [
+              "Practice helps a speaker notice unclear words and timing problems.",
+              "Practice can happen at a desk or in front of a mirror.",
+              "Some students practise during the morning."
+            ],
+            "correctAnswer": "Practice helps a speaker notice unclear words and timing problems.",
+            "reviewNote": "It explains why practice helps."
+          },
+          {
+            "section": "Part E: Voice and Body",
+            "skill": "Tone",
+            "type": "multipleChoice",
+            "prompt": "Which tone fits a serious safety reminder?",
+            "choices": [
+              "calm and clear",
+              "playful and dramatic",
+              "uncertain and rushed"
+            ],
+            "correctAnswer": "calm and clear",
+            "reviewNote": "The tone fits the purpose."
+          },
+          {
+            "section": "Part E: Voice and Body",
+            "skill": "Gesture",
+            "type": "multipleChoice",
+            "prompt": "Which gesture best supports explaining three steps?",
+            "choices": [
+              "briefly count the steps with fingers",
+              "hold notes higher each time",
+              "move to a new spot for every sentence"
+            ],
+            "correctAnswer": "briefly count the steps with fingers",
+            "reviewNote": "The gesture supports the structure."
+          },
+          {
+            "section": "Part F: Discussion",
+            "skill": "Build On",
+            "type": "multipleChoice",
+            "prompt": "Which sentence builds on another student's idea?",
+            "choices": [
+              "I agree, and the chart gives another example of that pattern.",
+              "I want to talk about a different part now.",
+              "I wrote down the same answer earlier."
+            ],
+            "correctAnswer": "I agree, and the chart gives another example of that pattern.",
+            "reviewNote": "It adds support to the idea."
+          },
+          {
+            "section": "Part F: Discussion",
+            "skill": "Respectful Difference",
+            "type": "multipleChoice",
+            "prompt": "Which response gives a different opinion respectfully?",
+            "choices": [
+              "I read the evidence differently because the last sentence changes the meaning.",
+              "Our group should use my answer instead.",
+              "That idea is not the one I wrote down."
+            ],
+            "correctAnswer": "I read the evidence differently because the last sentence changes the meaning.",
+            "reviewNote": "It disagrees with a reason."
+          },
+          {
+            "section": "Part G: Feedback",
+            "skill": "Specific Feedback",
+            "type": "multipleChoice",
+            "prompt": "Which feedback is most useful?",
+            "choices": [
+              "Your main idea is clear; add one example to support your second point.",
+              "Your presentation is nice and has good parts.",
+              "You should change the part in the middle."
+            ],
+            "correctAnswer": "Your main idea is clear; add one example to support your second point.",
+            "reviewNote": "It is specific and useful."
+          },
+          {
+            "section": "Part G: Feedback",
+            "skill": "Use Feedback",
+            "type": "multipleChoice",
+            "prompt": "Feedback says, 'Your facts are strong, but the order is hard to follow.' What should the student revise?",
+            "choices": [
+              "organize the facts in a clearer order",
+              "replace the facts with shorter ones",
+              "change the title and leave the facts"
+            ],
+            "correctAnswer": "organize the facts in a clearer order",
+            "reviewNote": "The revision matches the feedback."
+          },
+          {
+            "section": "Part H: Presentation Prep",
+            "skill": "Audience",
+            "type": "multipleChoice",
+            "prompt": "A talk is for younger students. Which choice fits best?",
+            "choices": [
+              "use simple examples they already understand",
+              "include technical terms from older grades",
+              "focus mainly on how the slideshow was made"
+            ],
+            "correctAnswer": "use simple examples they already understand",
+            "reviewNote": "Audience affects word choice and examples."
+          },
+          {
+            "section": "Part H: Presentation Prep",
+            "skill": "Notes",
+            "type": "multipleChoice",
+            "prompt": "Which notes best support natural speaking?",
+            "choices": [
+              "cue words for main points and examples",
+              "full paragraphs to read word for word",
+              "only the title and closing sentence"
+            ],
+            "correctAnswer": "cue words for main points and examples",
+            "reviewNote": "Cue words guide the speaker."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A strong oral response should connect to what the speaker said.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Responses should show listening."
+          },
+          {
+            "section": "Part I: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A visual aid should make the message easier for the audience to understand.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Visual aids should support the message."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Oral Communication and Presentation mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
+    }
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The final unit quiz checks active listening, good questions, clear speaking, short talk organization, voice and body language, group discussion, feedback, and presentation preparation."
+  }
+}
