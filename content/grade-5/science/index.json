@@ -151,6 +151,7 @@
       "strand": "Matter and Energy",
       "unitGoal": "Students will describe matter by its properties, compare physical and chemical changes, and investigate mixtures, solutions, and changes of state.",
       "file": "units/unit-3-properties-and-changes-of-matter.json",
+      "dataFile": "unit-data/unit-3-properties-and-changes-of-matter.js",
       "lessons": [
         {
           "id": "grade-5-science-unit-3-describing-matter",
