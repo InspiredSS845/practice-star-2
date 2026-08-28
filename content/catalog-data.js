@@ -30,7 +30,7 @@ window.PracticeStarContent.catalog = {
       "basePath": "content/grade-5/science",
       "indexFile": "content/grade-5/science/index.json",
       "dataKey": "grade5Science",
-      "description": "Science and Technology has five Grade 5 Ontario-aligned unit cards ready for student activity development."
+      "description": "Science and Technology has student-shareable Grade 5 STEM Skills and Human Health units, with the remaining unit cards planned."
     },
     {
       "id": "grade-5-social-studies",

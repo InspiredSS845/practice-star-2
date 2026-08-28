@@ -7,58 +7,2474 @@
     {
       "id": "grade-5-science-unit-2-body-systems-work-together",
       "title": "Body Systems Work Together",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on how organs and body systems have different jobs but work together as one body."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify major body systems and explain how systems work together to keep the body alive and active.",
+      "successCriteria": [
+        "I can name major body systems and describe their jobs.",
+        "I can explain how two or more systems work together.",
+        "I can use evidence from a scenario to decide which systems are involved."
+      ],
+      "vocabulary": [
+        "body system",
+        "organ",
+        "function",
+        "interact",
+        "cell"
+      ],
+      "teacherSummary": "Students practise identifying body systems and explaining how systems interact.",
+      "teacherOverview": "Students learn that organs and body systems have different jobs, but they work together as one body.",
+      "christianFocus": "The human body is wonderfully made by God. Students should study it with care, gratitude, and respect.",
+      "lessonContent": [
+        "A body system is a group of organs and tissues that work together to do an important job.",
+        "Major body systems include the digestive, respiratory, circulatory, skeletal, muscular, nervous, and excretory systems.",
+        "No body system works completely by itself. Systems interact so the whole body can function.",
+        "Cells need oxygen, nutrients, water, and waste removal to keep working.",
+        "When one system has trouble, other systems may also be affected."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Body Systems Team Mission",
+        "description": "Practise matching body systems to their jobs and connections.",
+        "levels": [
+          "Level 1: System Jobs",
+          "Level 2: Systems Working Together"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Body Systems Work Together Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Major body systems, organ jobs, system interaction, cells, and evidence from scenarios"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Body Systems Team Mission",
+        "mission": "Practise matching body systems to their jobs and connections.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: System Jobs",
+            "title": "Before You Begin",
+            "prompt": "Get ready: the body works as one",
+            "text": "Your body is made of many parts with different jobs. A body system is a group of organs and tissues that work together. The systems are different, but they are connected."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: System Jobs",
+            "title": "Know the Main Jobs",
+            "prompt": "Each system has a role",
+            "text": "The digestive system breaks down food. The respiratory system brings in oxygen. The circulatory system moves materials in the blood. The skeletal and muscular systems help with support and movement. The nervous system sends messages."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: System Jobs",
+            "title": "System Match",
+            "prompt": "Which system moves oxygen, nutrients, and wastes through the body in the blood?",
+            "choices": [
+              "circulatory system",
+              "respiratory system",
+              "digestive system"
+            ],
+            "correctAnswer": "circulatory system",
+            "feedback": "Correct. The circulatory system moves blood through the body.",
+            "hint": "Think about which system includes the heart and blood vessels."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: System Jobs",
+            "title": "Organ Job",
+            "prompt": "Which statement best describes the lungs?",
+            "choices": [
+              "They help oxygen enter the body and carbon dioxide leave.",
+              "They pump blood to body cells.",
+              "They break food into smaller nutrient pieces."
+            ],
+            "correctAnswer": "They help oxygen enter the body and carbon dioxide leave.",
+            "feedback": "Yes. The lungs are part of the respiratory system.",
+            "hint": "The lungs are linked to breathing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: System Jobs",
+            "title": "Support and Movement",
+            "prompt": "Which two systems work most directly when you raise your hand?",
+            "choices": [
+              "skeletal and muscular systems",
+              "digestive and respiratory systems",
+              "circulatory and excretory systems"
+            ],
+            "correctAnswer": "skeletal and muscular systems",
+            "feedback": "Correct. Bones support the arm, and muscles move it.",
+            "hint": "Movement usually needs bones and muscles."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: System Jobs",
+            "title": "True or False",
+            "prompt": "Body systems have separate jobs, but they also depend on each other.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. The systems are connected.",
+            "hint": "Different jobs can still work together."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: System Jobs",
+            "title": "Level 1 Complete",
+            "prompt": "You practised body system jobs.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Systems Working Together",
+            "title": "Connections Matter",
+            "prompt": "Cells need several systems",
+            "text": "Body cells need oxygen and nutrients. They also need wastes carried away. This means the respiratory, digestive, circulatory, and excretory systems all support cells in different ways."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Systems Working Together",
+            "title": "Oxygen Path",
+            "prompt": "A student breathes in before running. Which systems work together to bring oxygen to leg muscles?",
+            "choices": [
+              "respiratory and circulatory systems",
+              "digestive and skeletal systems",
+              "nervous and excretory systems"
+            ],
+            "correctAnswer": "respiratory and circulatory systems",
+            "feedback": "Correct. The lungs take in oxygen, and blood carries it.",
+            "hint": "Oxygen enters through breathing and travels in blood."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Systems Working Together",
+            "title": "Food to Energy",
+            "prompt": "After lunch, nutrients from food are absorbed and carried to cells. Which systems are most involved?",
+            "choices": [
+              "digestive and circulatory systems",
+              "skeletal and muscular systems",
+              "respiratory and nervous systems"
+            ],
+            "correctAnswer": "digestive and circulatory systems",
+            "feedback": "Yes. Digestion breaks down food, and blood carries nutrients.",
+            "hint": "Think about food first, then transport."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Systems Working Together",
+            "title": "Body Response",
+            "prompt": "A student touches a warm mug and pulls a hand away. Which system quickly sends the message?",
+            "choices": [
+              "nervous system",
+              "digestive system",
+              "circulatory system"
+            ],
+            "correctAnswer": "nervous system",
+            "feedback": "Correct. The nervous system sends fast messages.",
+            "hint": "This is about sensing and responding."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Systems Working Together",
+            "title": "True or False",
+            "prompt": "A healthy body needs systems to interact, not just do separate jobs.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Interaction keeps the body functioning.",
+            "hint": "The whole body works together."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Systems Working Together",
+            "title": "Mission Complete",
+            "prompt": "You practised explaining body system connections.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Body Systems Work Together Quiz",
+        "questions": [
+          {
+            "section": "Body Systems",
+            "skill": "Circulatory",
+            "type": "multipleChoice",
+            "prompt": "Which system moves materials through the body in blood?",
+            "choices": [
+              "circulatory system",
+              "digestive system",
+              "skeletal system"
+            ],
+            "correctAnswer": "circulatory system",
+            "reviewNote": "The circulatory system includes the heart, blood, and blood vessels."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "Respiratory",
+            "type": "multipleChoice",
+            "prompt": "Which organ helps oxygen enter the body?",
+            "choices": [
+              "lungs",
+              "stomach",
+              "skull"
+            ],
+            "correctAnswer": "lungs",
+            "reviewNote": "The lungs are part of the respiratory system."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "Movement",
+            "type": "multipleChoice",
+            "prompt": "Which systems work together most directly when a student walks across the room?",
+            "choices": [
+              "skeletal and muscular systems",
+              "digestive and excretory systems",
+              "respiratory and digestive systems"
+            ],
+            "correctAnswer": "skeletal and muscular systems",
+            "reviewNote": "Bones and muscles work together for movement."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "Interaction",
+            "type": "multipleChoice",
+            "prompt": "Why do body systems need to interact?",
+            "choices": [
+              "Cells need oxygen, nutrients, messages, support, and waste removal.",
+              "Each system can do every body job by itself.",
+              "Organs change systems whenever the body is active."
+            ],
+            "correctAnswer": "Cells need oxygen, nutrients, messages, support, and waste removal.",
+            "reviewNote": "Different systems meet different body needs."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "Scenario",
+            "type": "multipleChoice",
+            "prompt": "A runner breathes faster and the heart beats faster. Which systems are clearly working together?",
+            "choices": [
+              "respiratory and circulatory systems",
+              "digestive and skeletal systems",
+              "excretory and muscular systems"
+            ],
+            "correctAnswer": "respiratory and circulatory systems",
+            "reviewNote": "Breathing brings oxygen in, and blood moves it."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "Messages",
+            "type": "multipleChoice",
+            "prompt": "Which system sends messages between the brain and body?",
+            "choices": [
+              "nervous system",
+              "circulatory system",
+              "digestive system"
+            ],
+            "correctAnswer": "nervous system",
+            "reviewNote": "The nervous system sends and receives messages."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Organs in a body system work together to do a job.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "A body system is made of working parts."
+          },
+          {
+            "section": "Body Systems",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The digestive system and circulatory system can both be involved after a meal.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Digestion breaks down food, and blood carries nutrients."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-digestion-and-nutrients",
       "title": "Digestion and Nutrients",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on the digestive system, nutrients, energy, and healthy food choices."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will describe how digestion breaks food into nutrients and how nutrients support body cells.",
+      "successCriteria": [
+        "I can explain the main job of digestion.",
+        "I can identify how nutrients help the body.",
+        "I can connect digestion to energy, growth, repair, and body care."
+      ],
+      "vocabulary": [
+        "digestion",
+        "nutrient",
+        "energy",
+        "absorb",
+        "fibre"
+      ],
+      "teacherSummary": "Students practise understanding digestion, nutrients, and healthy food choices without personal food tracking.",
+      "teacherOverview": "Students learn that digestion breaks down food and that nutrients support body energy, growth, and repair.",
+      "christianFocus": "Food is part of God's provision. Students can learn wise habits without judging people by what they eat.",
+      "lessonContent": [
+        "Digestion breaks food into smaller parts that the body can use.",
+        "Nutrients include carbohydrates, proteins, fats, vitamins, minerals, water, and fibre.",
+        "Different nutrients support different needs such as energy, growth, repair, and healthy body processes.",
+        "The small intestine absorbs many nutrients into the blood.",
+        "Wise food choices over time can support health, but one snack or meal does not tell a person's whole health story."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Digestion and Nutrients Mission",
+        "description": "Practise explaining how food is broken down and used by the body.",
+        "levels": [
+          "Level 1: Digestion Jobs",
+          "Level 2: Nutrient Choices"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Digestion and Nutrients Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Digestive organs, nutrient jobs, absorption, energy, fibre, and balanced choices"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Digestion and Nutrients Mission",
+        "mission": "Practise explaining how food is broken down and used by the body.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Digestion Jobs",
+            "title": "Before You Begin",
+            "prompt": "Get ready: food must be broken down",
+            "text": "Food cannot help body cells until it is broken into usable parts. Digestion uses chewing, stomach mixing, and chemical changes to break food down."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Digestion Jobs",
+            "title": "From Food to Nutrients",
+            "prompt": "Absorption matters",
+            "text": "After food is broken down, many nutrients are absorbed through the small intestine into the blood. Then the circulatory system carries them where they are needed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Digestion Jobs",
+            "title": "Main Job",
+            "prompt": "What is the main job of the digestive system?",
+            "choices": [
+              "break food into parts the body can use",
+              "move oxygen from the lungs to cells",
+              "send messages from the brain to muscles"
+            ],
+            "correctAnswer": "break food into parts the body can use",
+            "feedback": "Correct. Digestion breaks food into usable parts.",
+            "hint": "Think about what happens to food."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Digestion Jobs",
+            "title": "Organ Role",
+            "prompt": "Which organ mixes food with digestive juices after it is swallowed?",
+            "choices": [
+              "stomach",
+              "heart",
+              "lungs"
+            ],
+            "correctAnswer": "stomach",
+            "feedback": "Yes. The stomach mixes food during digestion.",
+            "hint": "Food goes to this organ after the esophagus."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Digestion Jobs",
+            "title": "Absorption",
+            "prompt": "Why is the small intestine important?",
+            "choices": [
+              "Many nutrients are absorbed there into the blood.",
+              "It pumps blood through arteries.",
+              "It protects the brain from injury."
+            ],
+            "correctAnswer": "Many nutrients are absorbed there into the blood.",
+            "feedback": "Correct. Absorption is a key job of the small intestine.",
+            "hint": "Think about nutrients entering the blood."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Digestion Jobs",
+            "title": "True or False",
+            "prompt": "Digestion and circulation can work together after a meal.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Digestion breaks food down, and blood carries nutrients.",
+            "hint": "Food and transport connect."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Digestion Jobs",
+            "title": "Level 1 Complete",
+            "prompt": "You practised digestion jobs.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Nutrient Choices",
+            "title": "Different Nutrients Help Different Ways",
+            "prompt": "The body needs variety",
+            "text": "Nutrients do different jobs. Carbohydrates can provide energy. Protein helps growth and repair. Vitamins and minerals support body processes. Water helps many body systems work."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nutrient Choices",
+            "title": "Energy",
+            "prompt": "Which nutrient group is often a main source of quick energy for the body?",
+            "choices": [
+              "carbohydrates",
+              "minerals",
+              "water"
+            ],
+            "correctAnswer": "carbohydrates",
+            "feedback": "Correct. Carbohydrates often provide energy.",
+            "hint": "Bread, rice, fruit, and potatoes contain carbohydrates."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nutrient Choices",
+            "title": "Growth and Repair",
+            "prompt": "Why does the body need protein?",
+            "choices": [
+              "to help build and repair body tissues",
+              "to replace the job of drinking water",
+              "to make bones bend like muscles"
+            ],
+            "correctAnswer": "to help build and repair body tissues",
+            "feedback": "Yes. Protein supports growth and repair.",
+            "hint": "Think about building and fixing tissues."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nutrient Choices",
+            "title": "Fibre",
+            "prompt": "Which choice best explains fibre?",
+            "choices": [
+              "It helps food move through the digestive system.",
+              "It carries oxygen in red blood cells.",
+              "It sends nerve messages from the spinal cord."
+            ],
+            "correctAnswer": "It helps food move through the digestive system.",
+            "feedback": "Correct. Fibre supports digestion.",
+            "hint": "Fibre is connected to digestion."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Nutrient Choices",
+            "title": "True or False",
+            "prompt": "A balanced eating pattern includes different kinds of nutrients over time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Variety helps meet body needs.",
+            "hint": "One food cannot provide every need."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Nutrient Choices",
+            "title": "Mission Complete",
+            "prompt": "You practised connecting nutrients to body needs.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Digestion and Nutrients Quiz",
+        "questions": [
+          {
+            "section": "Digestion",
+            "skill": "Main Job",
+            "type": "multipleChoice",
+            "prompt": "What does digestion do?",
+            "choices": [
+              "breaks food into usable parts",
+              "moves air through the lungs",
+              "protects the spinal cord"
+            ],
+            "correctAnswer": "breaks food into usable parts",
+            "reviewNote": "Digestion helps the body use food."
+          },
+          {
+            "section": "Digestion",
+            "skill": "Stomach",
+            "type": "multipleChoice",
+            "prompt": "Which organ mixes food after it is swallowed?",
+            "choices": [
+              "stomach",
+              "heart",
+              "kidney"
+            ],
+            "correctAnswer": "stomach",
+            "reviewNote": "The stomach mixes food with digestive juices."
+          },
+          {
+            "section": "Digestion",
+            "skill": "Small Intestine",
+            "type": "multipleChoice",
+            "prompt": "Why is the small intestine important?",
+            "choices": [
+              "It absorbs many nutrients into the blood.",
+              "It controls the heartbeat.",
+              "It moves bones at joints."
+            ],
+            "correctAnswer": "It absorbs many nutrients into the blood.",
+            "reviewNote": "Many nutrients enter the blood there."
+          },
+          {
+            "section": "Nutrients",
+            "skill": "Energy",
+            "type": "multipleChoice",
+            "prompt": "Which nutrient group often gives the body energy?",
+            "choices": [
+              "carbohydrates",
+              "bones",
+              "nerves"
+            ],
+            "correctAnswer": "carbohydrates",
+            "reviewNote": "Carbohydrates are a common energy source."
+          },
+          {
+            "section": "Nutrients",
+            "skill": "Protein",
+            "type": "multipleChoice",
+            "prompt": "Protein helps the body mainly by...",
+            "choices": [
+              "supporting growth and repair",
+              "bringing oxygen into the lungs",
+              "filtering light through the eyes"
+            ],
+            "correctAnswer": "supporting growth and repair",
+            "reviewNote": "Protein helps build and repair tissues."
+          },
+          {
+            "section": "Nutrients",
+            "skill": "Water",
+            "type": "multipleChoice",
+            "prompt": "Why does the body need water?",
+            "choices": [
+              "Many body processes depend on it.",
+              "It becomes oxygen in the lungs.",
+              "It replaces all other nutrients."
+            ],
+            "correctAnswer": "Many body processes depend on it.",
+            "reviewNote": "Water supports many systems."
+          },
+          {
+            "section": "Nutrients",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The digestive and circulatory systems work together when nutrients enter the blood.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Nutrients are carried in blood."
+          },
+          {
+            "section": "Nutrients",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "One food choice tells everything about a person's health.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "False",
+            "reviewNote": "Health is supported by many habits over time."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-breathing-blood-and-heart",
       "title": "Breathing, Blood, and the Heart",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on the respiratory and circulatory systems and how oxygen moves through the body."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how the respiratory and circulatory systems work together to move oxygen and carbon dioxide.",
+      "successCriteria": [
+        "I can describe the job of the respiratory system.",
+        "I can describe the job of the heart, blood, and blood vessels.",
+        "I can explain how oxygen and carbon dioxide move through the body."
+      ],
+      "vocabulary": [
+        "respiratory system",
+        "circulatory system",
+        "oxygen",
+        "carbon dioxide",
+        "blood vessel"
+      ],
+      "teacherSummary": "Students practise connecting breathing, blood flow, oxygen movement, and carbon dioxide removal.",
+      "teacherOverview": "Students learn how the lungs, heart, blood, and blood vessels work together to support cells.",
+      "christianFocus": "Breathing and heartbeat remind students that life is a precious gift and the body should be treated with care.",
+      "lessonContent": [
+        "The respiratory system brings oxygen into the body and removes carbon dioxide.",
+        "The lungs are the main organs of the respiratory system.",
+        "The circulatory system includes the heart, blood, and blood vessels.",
+        "Blood carries oxygen and nutrients to cells and carries wastes away.",
+        "During exercise, breathing and heart rate may increase because cells need more oxygen and produce more carbon dioxide."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Oxygen Delivery Mission",
+        "description": "Practise tracing how breathing and blood flow help body cells.",
+        "levels": [
+          "Level 1: Breathing and Blood",
+          "Level 2: Changing Body Needs"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Breathing, Blood, and the Heart Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Respiratory system, circulatory system, oxygen, carbon dioxide, heart rate, and exercise"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Oxygen Delivery Mission",
+        "mission": "Practise tracing how breathing and blood flow help body cells.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Breathing and Blood",
+            "title": "Before You Begin",
+            "prompt": "Get ready: oxygen has a path",
+            "text": "When you breathe in, oxygen enters the lungs. From there, oxygen moves into the blood. The heart pumps blood so oxygen can reach body cells."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Breathing and Blood",
+            "title": "Carbon Dioxide Leaves",
+            "prompt": "The path works both ways",
+            "text": "Cells use oxygen and give off carbon dioxide. Blood carries carbon dioxide back to the lungs, and the respiratory system removes it when you breathe out."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Breathing and Blood",
+            "title": "Respiratory Job",
+            "prompt": "What is one main job of the respiratory system?",
+            "choices": [
+              "bring oxygen into the body",
+              "break food into nutrients",
+              "hold bones together at joints"
+            ],
+            "correctAnswer": "bring oxygen into the body",
+            "feedback": "Correct. Breathing brings oxygen into the body.",
+            "hint": "The respiratory system is linked to lungs and breathing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Breathing and Blood",
+            "title": "Circulatory Job",
+            "prompt": "What is one main job of the circulatory system?",
+            "choices": [
+              "move blood through the body",
+              "digest protein in the stomach",
+              "sense heat through the skin"
+            ],
+            "correctAnswer": "move blood through the body",
+            "feedback": "Yes. The heart pumps blood through blood vessels.",
+            "hint": "Think about the heart and blood."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Breathing and Blood",
+            "title": "Oxygen Delivery",
+            "prompt": "Which order best shows oxygen reaching body cells?",
+            "choices": [
+              "lungs, blood, heart, body cells",
+              "stomach, bones, blood, lungs",
+              "brain, stomach, muscles, skin"
+            ],
+            "correctAnswer": "lungs, blood, heart, body cells",
+            "feedback": "Correct. Oxygen enters at the lungs and travels in blood.",
+            "hint": "Start with breathing in."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Breathing and Blood",
+            "title": "True or False",
+            "prompt": "Blood can carry both useful materials and wastes.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Blood carries oxygen and nutrients, and it helps carry wastes away.",
+            "hint": "Blood is a transport system."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Breathing and Blood",
+            "title": "Level 1 Complete",
+            "prompt": "You practised breathing and blood flow.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Changing Body Needs",
+            "title": "Activity Changes Demand",
+            "prompt": "Cells need more during movement",
+            "text": "When muscles work harder, they need more oxygen and nutrients. They also produce more carbon dioxide. Breathing and heart rate often change to meet that need."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Changing Body Needs",
+            "title": "Exercise",
+            "prompt": "Why might breathing become faster during a long run?",
+            "choices": [
+              "Working muscles need more oxygen and must get rid of more carbon dioxide.",
+              "The stomach needs extra time to absorb fibre.",
+              "Bones need to make new blood vessels quickly."
+            ],
+            "correctAnswer": "Working muscles need more oxygen and must get rid of more carbon dioxide.",
+            "feedback": "Correct. Breathing changes when cells need more gas exchange.",
+            "hint": "Think about active muscles."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Changing Body Needs",
+            "title": "Heart Rate",
+            "prompt": "Why might the heart beat faster during exercise?",
+            "choices": [
+              "to move blood more quickly to and from active muscles",
+              "to make air enter the stomach more quickly",
+              "to stop bones from bending at joints"
+            ],
+            "correctAnswer": "to move blood more quickly to and from active muscles",
+            "feedback": "Yes. Faster blood flow can help meet increased needs.",
+            "hint": "The heart pumps blood."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Changing Body Needs",
+            "title": "Carbon Dioxide",
+            "prompt": "What happens to carbon dioxide made by body cells?",
+            "choices": [
+              "Blood carries it to the lungs so it can be breathed out.",
+              "The stomach changes it into nutrients.",
+              "Bones store it until the body rests."
+            ],
+            "correctAnswer": "Blood carries it to the lungs so it can be breathed out.",
+            "feedback": "Correct. Carbon dioxide is removed through breathing.",
+            "hint": "Carbon dioxide leaves through the lungs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Changing Body Needs",
+            "title": "True or False",
+            "prompt": "Respiratory and circulatory systems work together to support active muscles.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Breathing and blood flow work together.",
+            "hint": "Oxygen enters through breathing and travels in blood."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Changing Body Needs",
+            "title": "Mission Complete",
+            "prompt": "You practised connecting breathing, blood, and body needs.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Breathing, Blood, and the Heart Quiz",
+        "questions": [
+          {
+            "section": "Breathing",
+            "skill": "Respiratory",
+            "type": "multipleChoice",
+            "prompt": "What does the respiratory system do?",
+            "choices": [
+              "brings in oxygen and removes carbon dioxide",
+              "breaks food into nutrients",
+              "controls bone shape"
+            ],
+            "correctAnswer": "brings in oxygen and removes carbon dioxide",
+            "reviewNote": "That is the gas exchange job."
+          },
+          {
+            "section": "Breathing",
+            "skill": "Lungs",
+            "type": "multipleChoice",
+            "prompt": "Which organs are central to breathing?",
+            "choices": [
+              "lungs",
+              "stomach",
+              "muscles"
+            ],
+            "correctAnswer": "lungs",
+            "reviewNote": "The lungs are part of the respiratory system."
+          },
+          {
+            "section": "Circulation",
+            "skill": "Heart",
+            "type": "multipleChoice",
+            "prompt": "What does the heart do?",
+            "choices": [
+              "pumps blood through the body",
+              "stores oxygen inside bones",
+              "digests food in the intestine"
+            ],
+            "correctAnswer": "pumps blood through the body",
+            "reviewNote": "The heart pumps blood."
+          },
+          {
+            "section": "Circulation",
+            "skill": "Blood",
+            "type": "multipleChoice",
+            "prompt": "What does blood carry to body cells?",
+            "choices": [
+              "oxygen and nutrients",
+              "light and sound",
+              "bones and muscles"
+            ],
+            "correctAnswer": "oxygen and nutrients",
+            "reviewNote": "Blood transports useful materials."
+          },
+          {
+            "section": "Gas Exchange",
+            "skill": "Carbon Dioxide",
+            "type": "multipleChoice",
+            "prompt": "How does carbon dioxide leave the body?",
+            "choices": [
+              "It is carried to the lungs and breathed out.",
+              "It is turned into bones.",
+              "It is stored in the stomach."
+            ],
+            "correctAnswer": "It is carried to the lungs and breathed out.",
+            "reviewNote": "Carbon dioxide leaves through breathing."
+          },
+          {
+            "section": "Exercise",
+            "skill": "Heart Rate",
+            "type": "multipleChoice",
+            "prompt": "Why can heart rate increase during exercise?",
+            "choices": [
+              "Active muscles need materials moved more quickly.",
+              "The digestive system stops needing nutrients.",
+              "The nervous system turns into a muscle."
+            ],
+            "correctAnswer": "Active muscles need materials moved more quickly.",
+            "reviewNote": "Blood flow supports active muscles."
+          },
+          {
+            "section": "Breathing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The respiratory and circulatory systems work together.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Oxygen enters through lungs and travels in blood."
+          },
+          {
+            "section": "Breathing",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Carbon dioxide is a waste gas made by cells.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Cells produce carbon dioxide."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-bones-muscles-and-nerves",
       "title": "Bones, Muscles, and Nerves",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on the skeletal, muscular, and nervous systems and how the body moves and responds."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain how the skeletal, muscular, and nervous systems support movement, protection, and response.",
+      "successCriteria": [
+        "I can describe jobs of bones, muscles, and nerves.",
+        "I can explain how muscles and bones work together at joints.",
+        "I can use a scenario to identify nervous system messages."
+      ],
+      "vocabulary": [
+        "skeletal system",
+        "muscular system",
+        "nervous system",
+        "joint",
+        "reflex"
+      ],
+      "teacherSummary": "Students practise connecting bones, muscles, joints, nerves, and body responses.",
+      "teacherOverview": "Students learn how the skeletal, muscular, and nervous systems work together for support, movement, protection, and response.",
+      "christianFocus": "Students study the body's design with respect and care, recognizing that each person should be treated with dignity.",
+      "lessonContent": [
+        "The skeletal system supports the body and protects important organs.",
+        "Muscles pull on bones to create movement.",
+        "Joints are places where bones meet and movement can happen.",
+        "The nervous system includes the brain, spinal cord, and nerves.",
+        "Nerves carry messages that help the body sense, decide, and respond."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Movement and Messages Mission",
+        "description": "Practise explaining how bones, muscles, joints, and nerves work together.",
+        "levels": [
+          "Level 1: Support and Movement",
+          "Level 2: Messages and Responses"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Bones, Muscles, and Nerves Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Skeleton, muscles, joints, protection, nervous system messages, senses, and responses"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Movement and Messages Mission",
+        "mission": "Practise explaining how bones, muscles, joints, and nerves work together.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Support and Movement",
+            "title": "Before You Begin",
+            "prompt": "Get ready: movement needs teamwork",
+            "text": "Your skeleton gives support and shape. Muscles pull on bones to move body parts. Joints allow many movements to happen in controlled ways."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Support and Movement",
+            "title": "Bones Protect",
+            "prompt": "Support is not the only job",
+            "text": "Some bones protect important organs. The skull protects the brain, and the ribs help protect the heart and lungs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Support and Movement",
+            "title": "Skeleton Job",
+            "prompt": "Which statement best describes one job of the skeletal system?",
+            "choices": [
+              "It supports the body and protects some organs.",
+              "It breaks food into nutrients in the stomach.",
+              "It carries oxygen into the lungs."
+            ],
+            "correctAnswer": "It supports the body and protects some organs.",
+            "feedback": "Correct. Support and protection are skeletal system jobs.",
+            "hint": "Think about bones."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Support and Movement",
+            "title": "Muscle Job",
+            "prompt": "How do muscles help the body move?",
+            "choices": [
+              "They pull on bones at joints.",
+              "They pump blood through arteries.",
+              "They absorb nutrients from food."
+            ],
+            "correctAnswer": "They pull on bones at joints.",
+            "feedback": "Yes. Muscles pull to create movement.",
+            "hint": "Muscles and bones work together."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Support and Movement",
+            "title": "Protection",
+            "prompt": "Which body part is protected by the skull?",
+            "choices": [
+              "brain",
+              "stomach",
+              "calf muscle"
+            ],
+            "correctAnswer": "brain",
+            "feedback": "Correct. The skull protects the brain.",
+            "hint": "The skull is the bone structure around the head."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Support and Movement",
+            "title": "True or False",
+            "prompt": "A joint is a place where two bones meet.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Joints are places where bones meet.",
+            "hint": "Joints help movement happen."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Support and Movement",
+            "title": "Level 1 Complete",
+            "prompt": "You practised support, protection, and movement.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Messages and Responses",
+            "title": "Nerves Carry Messages",
+            "prompt": "The body senses and responds",
+            "text": "The nervous system sends messages between the brain, spinal cord, and body. These messages help you notice your surroundings, move, and respond."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Messages and Responses",
+            "title": "Nervous System",
+            "prompt": "Which parts belong to the nervous system?",
+            "choices": [
+              "brain, spinal cord, and nerves",
+              "heart, blood, and blood vessels",
+              "stomach, small intestine, and large intestine"
+            ],
+            "correctAnswer": "brain, spinal cord, and nerves",
+            "feedback": "Correct. These parts send and receive messages.",
+            "hint": "Think about messages and control."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Messages and Responses",
+            "title": "Fast Response",
+            "prompt": "A student touches a hot pan handle and pulls the hand away quickly. Which system helps with this quick response?",
+            "choices": [
+              "nervous system",
+              "digestive system",
+              "circulatory system"
+            ],
+            "correctAnswer": "nervous system",
+            "feedback": "Yes. The nervous system helps the body respond quickly.",
+            "hint": "This scenario is about sensing heat and responding."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Messages and Responses",
+            "title": "Coordinated Movement",
+            "prompt": "Which systems work together when a student catches a ball?",
+            "choices": [
+              "nervous, muscular, and skeletal systems",
+              "digestive, excretory, and respiratory systems",
+              "circulatory, digestive, and excretory systems"
+            ],
+            "correctAnswer": "nervous, muscular, and skeletal systems",
+            "feedback": "Correct. The body senses, decides, and moves.",
+            "hint": "Catching needs messages and movement."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Messages and Responses",
+            "title": "True or False",
+            "prompt": "The nervous system helps the body respond to information from the senses.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Senses send information through the nervous system.",
+            "hint": "The body responds to messages."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Messages and Responses",
+            "title": "Mission Complete",
+            "prompt": "You practised movement and nervous system responses.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Bones, Muscles, and Nerves Quiz",
+        "questions": [
+          {
+            "section": "Movement",
+            "skill": "Skeleton",
+            "type": "multipleChoice",
+            "prompt": "Which is a job of the skeletal system?",
+            "choices": [
+              "supporting the body and protecting organs",
+              "absorbing nutrients into blood",
+              "bringing air into lungs"
+            ],
+            "correctAnswer": "supporting the body and protecting organs",
+            "reviewNote": "Bones provide support and protection."
+          },
+          {
+            "section": "Movement",
+            "skill": "Muscles",
+            "type": "multipleChoice",
+            "prompt": "How do muscles move body parts?",
+            "choices": [
+              "by pulling on bones",
+              "by pumping blood",
+              "by digesting food"
+            ],
+            "correctAnswer": "by pulling on bones",
+            "reviewNote": "Muscles pull to create movement."
+          },
+          {
+            "section": "Movement",
+            "skill": "Joints",
+            "type": "multipleChoice",
+            "prompt": "What is a joint?",
+            "choices": [
+              "a place where bones meet",
+              "a tube that carries blood",
+              "a part that absorbs nutrients"
+            ],
+            "correctAnswer": "a place where bones meet",
+            "reviewNote": "Joints are where bones meet."
+          },
+          {
+            "section": "Protection",
+            "skill": "Skull",
+            "type": "multipleChoice",
+            "prompt": "What does the skull protect?",
+            "choices": [
+              "brain",
+              "stomach",
+              "lungs"
+            ],
+            "correctAnswer": "brain",
+            "reviewNote": "The skull protects the brain."
+          },
+          {
+            "section": "Messages",
+            "skill": "Nervous System",
+            "type": "multipleChoice",
+            "prompt": "Which parts belong to the nervous system?",
+            "choices": [
+              "brain, spinal cord, and nerves",
+              "heart, lungs, and stomach",
+              "bones, joints, and blood"
+            ],
+            "correctAnswer": "brain, spinal cord, and nerves",
+            "reviewNote": "These parts send messages."
+          },
+          {
+            "section": "Messages",
+            "skill": "Response",
+            "type": "multipleChoice",
+            "prompt": "A student hears a whistle and stops running. Which system helps process the sound and response?",
+            "choices": [
+              "nervous system",
+              "digestive system",
+              "excretory system"
+            ],
+            "correctAnswer": "nervous system",
+            "reviewNote": "The nervous system helps sense and respond."
+          },
+          {
+            "section": "Messages",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Bones and muscles work together during movement.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Muscles pull on bones."
+          },
+          {
+            "section": "Messages",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "The nervous system sends messages that help the body respond.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Messages help the body respond."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-healthy-habits",
       "title": "Healthy Habits and Body Care",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on sleep, movement, nutrition, hygiene, and caring for the body without asking private health details."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will connect wise health habits with body systems while respecting privacy and individual needs.",
+      "successCriteria": [
+        "I can explain how sleep, movement, nutrition, hygiene, and hydration support body systems.",
+        "I can choose general health advice that is safe and respectful.",
+        "I can avoid judging a person by one habit, meal, or moment."
+      ],
+      "vocabulary": [
+        "habit",
+        "hydration",
+        "hygiene",
+        "nutrition",
+        "well-being"
+      ],
+      "teacherSummary": "Students practise general health-habit reasoning without personal health disclosure.",
+      "teacherOverview": "Students learn how general healthy habits support the body while avoiding private personal sharing or judging others.",
+      "christianFocus": "The body is a gift from God. Students can learn wise care while showing kindness and respect to every person.",
+      "lessonContent": [
+        "Healthy habits can support many body systems over time.",
+        "Sleep helps the body rest, grow, repair, learn, and focus.",
+        "Movement strengthens muscles, bones, heart, lungs, and coordination.",
+        "Hygiene habits, such as handwashing, help reduce the spread of germs.",
+        "Health advice should be general, respectful, and safe. Private health questions should go to a parent, guardian, teacher, or health professional."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Body Care Choices Mission",
+        "description": "Practise choosing general habits that support body systems wisely and respectfully.",
+        "levels": [
+          "Level 1: Habits and Systems",
+          "Level 2: Wise and Respectful Choices"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Healthy Habits and Body Care Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Sleep, movement, nutrition, water, hygiene, respectful advice, and privacy"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Body Care Choices Mission",
+        "mission": "Practise choosing general habits that support body systems wisely and respectfully.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Habits and Systems",
+            "title": "Before You Begin",
+            "prompt": "Get ready: habits support systems",
+            "text": "Healthy habits do not make every person the same, but they can support the body over time. Sleep, movement, water, nutrition, and hygiene can help several systems work well."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Habits and Systems",
+            "title": "Think Generally",
+            "prompt": "No private sharing needed",
+            "text": "This lesson uses general science examples. Students do not need to share private health details, family routines, medical information, or personal food records."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Habits and Systems",
+            "title": "Sleep",
+            "prompt": "Why is sleep important for the body?",
+            "choices": [
+              "It supports rest, growth, repair, learning, and focus.",
+              "It replaces the need for food and water.",
+              "It makes the digestive system do every body job."
+            ],
+            "correctAnswer": "It supports rest, growth, repair, learning, and focus.",
+            "feedback": "Correct. Sleep supports many body needs.",
+            "hint": "Think about what rest helps the body do."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Habits and Systems",
+            "title": "Movement",
+            "prompt": "Which statement best connects movement to body systems?",
+            "choices": [
+              "Movement can strengthen muscles, bones, heart, lungs, and coordination.",
+              "Movement mainly strengthens muscles but has little effect on breathing.",
+              "Movement supports bones but does not connect much to coordination."
+            ],
+            "correctAnswer": "Movement can strengthen muscles, bones, heart, lungs, and coordination.",
+            "feedback": "Yes. Movement can support several systems.",
+            "hint": "Many systems are involved when the body moves."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Habits and Systems",
+            "title": "Hydration",
+            "prompt": "Why does the body need water?",
+            "choices": [
+              "Water supports many body processes and helps transport materials.",
+              "Water changes directly into protein.",
+              "Water keeps the skeleton from needing joints."
+            ],
+            "correctAnswer": "Water supports many body processes and helps transport materials.",
+            "feedback": "Correct. Water helps many body systems.",
+            "hint": "Water is used throughout the body."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Habits and Systems",
+            "title": "True or False",
+            "prompt": "Handwashing can help reduce the spread of germs.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Handwashing is an important hygiene habit.",
+            "hint": "Hygiene can help prevent illness."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Habits and Systems",
+            "title": "Level 1 Complete",
+            "prompt": "You practised connecting habits to body systems.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Wise and Respectful Choices",
+            "title": "Respect People",
+            "prompt": "Health is not for judging",
+            "text": "Good health learning should not be used to embarrass or judge people. A student can learn general habits while remembering that families, bodies, medical needs, and circumstances can be different."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Wise and Respectful Choices",
+            "title": "Respectful Advice",
+            "prompt": "Which advice is most respectful and useful for a class health poster?",
+            "choices": [
+              "Choose water often and ask a trusted adult if you are unsure about health needs.",
+              "Choose a routine that works for one student and use it as the class rule.",
+              "Compare meals to decide which student has the healthiest habits."
+            ],
+            "correctAnswer": "Choose water often and ask a trusted adult if you are unsure about health needs.",
+            "feedback": "Correct. It is general, safe, and respectful.",
+            "hint": "Look for advice that helps without judging."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Wise and Respectful Choices",
+            "title": "Privacy",
+            "prompt": "Which question should not be required for a class science activity?",
+            "choices": [
+              "What private medical condition has your family dealt with?",
+              "Which body system helps move oxygen?",
+              "What general habit can help reduce germs?"
+            ],
+            "correctAnswer": "What private medical condition has your family dealt with?",
+            "feedback": "Yes. Private medical details should not be required.",
+            "hint": "Science class can learn without private health sharing."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Wise and Respectful Choices",
+            "title": "Trusted Help",
+            "prompt": "A student has a personal health question after a lesson. Which response is best?",
+            "choices": [
+              "Ask a parent, guardian, teacher, or health professional for help.",
+              "Compare class notes and decide what the answer must be.",
+              "Ask classmates what they think before telling an adult."
+            ],
+            "correctAnswer": "Ask a parent, guardian, teacher, or health professional for help.",
+            "feedback": "Correct. Personal health questions need trusted help.",
+            "hint": "Personal health questions need care."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Wise and Respectful Choices",
+            "title": "True or False",
+            "prompt": "General health learning should be respectful and should not require private health details.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Privacy and respect matter.",
+            "hint": "Health learning should be safe."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Wise and Respectful Choices",
+            "title": "Mission Complete",
+            "prompt": "You practised wise and respectful body-care choices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Healthy Habits and Body Care Quiz",
+        "questions": [
+          {
+            "section": "Healthy Habits",
+            "skill": "Sleep",
+            "type": "multipleChoice",
+            "prompt": "Which statement about sleep is most accurate?",
+            "choices": [
+              "Sleep supports rest, learning, growth, and repair.",
+              "Sleep replaces oxygen during the day.",
+              "Sleep makes bones move without muscles."
+            ],
+            "correctAnswer": "Sleep supports rest, learning, growth, and repair.",
+            "reviewNote": "Sleep supports many body needs."
+          },
+          {
+            "section": "Healthy Habits",
+            "skill": "Movement",
+            "type": "multipleChoice",
+            "prompt": "Which systems can movement support?",
+            "choices": [
+              "muscular, skeletal, respiratory, circulatory, and nervous systems",
+              "only the digestive system",
+              "only the skin and hair"
+            ],
+            "correctAnswer": "muscular, skeletal, respiratory, circulatory, and nervous systems",
+            "reviewNote": "Movement uses and supports several systems."
+          },
+          {
+            "section": "Healthy Habits",
+            "skill": "Water",
+            "type": "multipleChoice",
+            "prompt": "Why is water important?",
+            "choices": [
+              "It supports many body processes.",
+              "It becomes every nutrient.",
+              "It controls every system by itself."
+            ],
+            "correctAnswer": "It supports many body processes.",
+            "reviewNote": "Water has many roles in the body."
+          },
+          {
+            "section": "Healthy Habits",
+            "skill": "Hygiene",
+            "type": "multipleChoice",
+            "prompt": "Why is handwashing useful?",
+            "choices": [
+              "It can reduce the spread of germs.",
+              "It replaces sleep when a student is tired.",
+              "It makes blood carry less oxygen."
+            ],
+            "correctAnswer": "It can reduce the spread of germs.",
+            "reviewNote": "Handwashing is a hygiene habit."
+          },
+          {
+            "section": "Respect",
+            "skill": "Advice",
+            "type": "multipleChoice",
+            "prompt": "Which health advice is best for a general class poster?",
+            "choices": [
+              "Choose habits that support your body, and ask a trusted adult when unsure.",
+              "Every student must follow the same private family routine.",
+              "One snack choice shows whether someone is healthy."
+            ],
+            "correctAnswer": "Choose habits that support your body, and ask a trusted adult when unsure.",
+            "reviewNote": "It is general and respectful."
+          },
+          {
+            "section": "Respect",
+            "skill": "Privacy",
+            "type": "multipleChoice",
+            "prompt": "Which question is suitable for class science?",
+            "choices": [
+              "Which system helps oxygen travel through the body?",
+              "What medicine does your family use?",
+              "Which private health concern has affected your home?"
+            ],
+            "correctAnswer": "Which system helps oxygen travel through the body?",
+            "reviewNote": "It checks science understanding without private details."
+          },
+          {
+            "section": "Respect",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Health learning should avoid embarrassing or judging people.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Respect matters."
+          },
+          {
+            "section": "Respect",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Personal health questions should be handled with trusted adults or health professionals.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Personal health needs careful guidance."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-prevention-and-wise-choices",
       "title": "Prevention and Wise Choices",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on safety, illness prevention, asking trusted adults for help, and making wise choices."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify prevention habits and wise choices that reduce risk and support body health.",
+      "successCriteria": [
+        "I can explain how prevention habits can reduce risk.",
+        "I can choose safe actions in age-appropriate health and safety scenarios.",
+        "I can identify when a trusted adult should be involved."
+      ],
+      "vocabulary": [
+        "prevention",
+        "risk",
+        "germ",
+        "safety",
+        "trusted adult"
+      ],
+      "teacherSummary": "Students practise prevention and safety choices, including illness prevention and trusted adult support.",
+      "teacherOverview": "Students learn that prevention means taking wise steps before harm or illness happens.",
+      "christianFocus": "Wise choices show stewardship of the body God has given and care for neighbours who may be affected by our actions.",
+      "lessonContent": [
+        "Prevention means taking wise steps to reduce risk before a problem happens.",
+        "Some prevention habits reduce the spread of germs, such as handwashing and staying home when truly sick.",
+        "Safety habits reduce the chance of injury during activity, tools, travel, and experiments.",
+        "Trusted adults can help when a situation is confusing, unsafe, or personal.",
+        "Wise choices can protect both the person making the choice and other people nearby."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Prevention Choices Mission",
+        "description": "Practise choosing prevention and safety actions in everyday scenarios.",
+        "levels": [
+          "Level 1: Reduce Risk",
+          "Level 2: Ask for Help"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Prevention and Wise Choices Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Prevention, germs, safety habits, risk reduction, trusted adults, and care for others"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Prevention Choices Mission",
+        "mission": "Practise choosing prevention and safety actions in everyday scenarios.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Reduce Risk",
+            "title": "Before You Begin",
+            "prompt": "Get ready: prevention happens early",
+            "text": "Prevention means making a wise choice before a problem happens. It does not remove every risk, but it can lower the chance of harm or illness."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Reduce Risk",
+            "title": "Care for Others",
+            "prompt": "Choices can affect people nearby",
+            "text": "Health and safety choices often affect more than one person. Washing hands, using tools properly, and following safety instructions can help protect a whole group."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Reduce Risk",
+            "title": "Germs",
+            "prompt": "Which action helps reduce the spread of germs before snack time?",
+            "choices": [
+              "wash hands carefully with soap and water",
+              "check whether the snack package has a label",
+              "move desks so everyone has more space"
+            ],
+            "correctAnswer": "wash hands carefully with soap and water",
+            "feedback": "Correct. Handwashing can reduce germs.",
+            "hint": "Think about hygiene before eating."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Reduce Risk",
+            "title": "Safety Gear",
+            "prompt": "Why might a helmet be important when cycling?",
+            "choices": [
+              "It helps protect the head if a fall happens.",
+              "It makes the bike move with less effort.",
+              "It improves how the legs push the pedals."
+            ],
+            "correctAnswer": "It helps protect the head if a fall happens.",
+            "feedback": "Yes. Safety gear reduces risk.",
+            "hint": "Think about preventing injury."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Reduce Risk",
+            "title": "Science Safety",
+            "prompt": "A student is not sure whether a material is safe to touch during an investigation. What should the student do?",
+            "choices": [
+              "ask the teacher before handling it",
+              "read the label and decide alone",
+              "move it with another tool to save time"
+            ],
+            "correctAnswer": "ask the teacher before handling it",
+            "feedback": "Correct. Unknown materials need adult guidance.",
+            "hint": "Unclear safety instructions require help."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Reduce Risk",
+            "title": "True or False",
+            "prompt": "Prevention means taking wise steps before a problem happens.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Prevention happens before the problem when possible.",
+            "hint": "Prevention is early action."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Reduce Risk",
+            "title": "Level 1 Complete",
+            "prompt": "You practised risk-reducing choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Ask for Help",
+            "title": "Trusted Adults Matter",
+            "prompt": "Some choices need guidance",
+            "text": "Students do not need to solve every health or safety problem alone. A parent, guardian, teacher, or health professional can help with personal, confusing, or unsafe situations."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Ask for Help",
+            "title": "Personal Health",
+            "prompt": "A student has a personal question about a symptom that is not part of a class activity. Which choice is best?",
+            "choices": [
+              "talk with a parent, guardian, teacher, or health professional",
+              "compare class notes and decide what the symptom means",
+              "ask classmates whether they have heard of the symptom"
+            ],
+            "correctAnswer": "talk with a parent, guardian, teacher, or health professional",
+            "feedback": "Correct. Personal health questions need trusted help.",
+            "hint": "Personal health needs care."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Ask for Help",
+            "title": "Unsafe Situation",
+            "prompt": "A teammate wants to skip safety instructions during a science task. What is the wisest response?",
+            "choices": [
+              "pause and ask the teacher to review the instructions",
+              "continue only with the steps that seem familiar",
+              "let the teammate decide because speed is helpful"
+            ],
+            "correctAnswer": "pause and ask the teacher to review the instructions",
+            "feedback": "Yes. Safety is worth pausing for.",
+            "hint": "Unsafe pressure needs adult support."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Ask for Help",
+            "title": "Careful Information",
+            "prompt": "Which source is strongest for a personal health question?",
+            "choices": [
+              "a trusted adult or health professional",
+              "a comment from an unknown person online",
+              "a short video that does not name its source"
+            ],
+            "correctAnswer": "a trusted adult or health professional",
+            "feedback": "Correct. Personal health questions need reliable guidance.",
+            "hint": "Think about safety and reliability."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Ask for Help",
+            "title": "True or False",
+            "prompt": "Asking for help can be a wise prevention choice.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Help can prevent unsafe choices.",
+            "hint": "Help is part of safety."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Ask for Help",
+            "title": "Mission Complete",
+            "prompt": "You practised prevention and trusted-help choices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Prevention and Wise Choices Quiz",
+        "questions": [
+          {
+            "section": "Prevention",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "What does prevention mean?",
+            "choices": [
+              "taking wise steps before a problem happens",
+              "waiting until every risk is gone",
+              "choosing the fastest option in a task"
+            ],
+            "correctAnswer": "taking wise steps before a problem happens",
+            "reviewNote": "Prevention is early risk reduction."
+          },
+          {
+            "section": "Prevention",
+            "skill": "Germs",
+            "type": "multipleChoice",
+            "prompt": "Which action can reduce the spread of germs?",
+            "choices": [
+              "washing hands before eating",
+              "checking a food label before eating",
+              "wiping crumbs from a desk after eating"
+            ],
+            "correctAnswer": "washing hands before eating",
+            "reviewNote": "Handwashing is a prevention habit."
+          },
+          {
+            "section": "Prevention",
+            "skill": "Helmet",
+            "type": "multipleChoice",
+            "prompt": "Why use a helmet for cycling?",
+            "choices": [
+              "to help protect the head during a fall",
+              "to make the bicycle easier to steer",
+              "to help the lungs take in more oxygen"
+            ],
+            "correctAnswer": "to help protect the head during a fall",
+            "reviewNote": "A helmet helps reduce injury risk."
+          },
+          {
+            "section": "Prevention",
+            "skill": "Science Safety",
+            "type": "multipleChoice",
+            "prompt": "What should a student do if a science instruction is unclear?",
+            "choices": [
+              "ask the teacher before continuing",
+              "try the step and see what happens",
+              "skip the safety part of the task"
+            ],
+            "correctAnswer": "ask the teacher before continuing",
+            "reviewNote": "Asking protects safety."
+          },
+          {
+            "section": "Trusted Help",
+            "skill": "Personal Question",
+            "type": "multipleChoice",
+            "prompt": "Who should help with a personal health question?",
+            "choices": [
+              "a parent, guardian, teacher, or health professional",
+              "a website comment from someone not known to the student",
+              "a classmate who once had a similar question"
+            ],
+            "correctAnswer": "a parent, guardian, teacher, or health professional",
+            "reviewNote": "Personal health questions need trusted help."
+          },
+          {
+            "section": "Trusted Help",
+            "skill": "Pressure",
+            "type": "multipleChoice",
+            "prompt": "A group wants to rush through a safety step. What is the best choice?",
+            "choices": [
+              "pause and check with the teacher",
+              "rush only if the materials look familiar",
+              "let the quickest student choose"
+            ],
+            "correctAnswer": "pause and check with the teacher",
+            "reviewNote": "Safety comes before speed."
+          },
+          {
+            "section": "Prevention",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Prevention choices can help protect other people too.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Many safety and health choices affect others."
+          },
+          {
+            "section": "Prevention",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A careful student can ask for help when a situation feels unsafe or confusing.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Asking for help is wise."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-body-systems-case-studies",
       "title": "Body Systems Case Studies",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set using simple scenarios to reason about how body systems interact."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will use body-system evidence to reason through simple health and activity scenarios.",
+      "successCriteria": [
+        "I can identify which systems are involved in a scenario.",
+        "I can explain a body-system connection using evidence.",
+        "I can choose a wise next step when a scenario includes safety or health concerns."
+      ],
+      "vocabulary": [
+        "case study",
+        "scenario",
+        "evidence",
+        "interaction",
+        "technology"
+      ],
+      "teacherSummary": "Students practise applying body-system knowledge to case studies and health technology scenarios.",
+      "teacherOverview": "Students use age-appropriate scenarios to reason about interacting body systems, evidence, and wise choices.",
+      "christianFocus": "Students learn to apply knowledge with humility, care for the body, and respect for people who may need support or medical technology.",
+      "lessonContent": [
+        "A case study is a short scenario used for careful thinking.",
+        "Body-system case studies ask which systems are involved and what evidence supports the answer.",
+        "Health technologies can help people observe, protect, or support body systems.",
+        "A good explanation connects the scenario details to body-system jobs.",
+        "Some scenarios need a trusted adult or health professional instead of a student guess."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Human Health and Body Systems lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Body Systems Case Mission",
+        "description": "Practise using evidence to explain body-system scenarios.",
+        "levels": [
+          "Level 1: Identify the Systems",
+          "Level 2: Explain and Choose Wisely"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Body Systems Case Studies Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Scenario evidence, interacting systems, activity changes, health technology, and wise next steps"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-2-body-systems-1",
+        "title": "Body Systems Case Mission",
+        "mission": "Practise using evidence to explain body-system scenarios.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify the Systems",
+            "title": "Before You Begin",
+            "prompt": "Get ready: use clues from the case",
+            "text": "A body-system case study gives clues. Look for breathing, blood flow, movement, digestion, messages, support, waste removal, or safety needs."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Identify the Systems",
+            "title": "Evidence First",
+            "prompt": "Do not guess from one word",
+            "text": "A careful explanation uses details from the scenario. If a student is running, the muscular system may be involved, but breathing and blood flow may also matter."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Systems",
+            "title": "Running Scenario",
+            "prompt": "During a relay, a student's breathing and heart rate increase. Which systems are most clearly involved?",
+            "choices": [
+              "respiratory and circulatory systems",
+              "digestive and skeletal systems",
+              "excretory and digestive systems"
+            ],
+            "correctAnswer": "respiratory and circulatory systems",
+            "feedback": "Correct. The scenario mentions breathing and heart rate.",
+            "hint": "Use the clues in the sentence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Systems",
+            "title": "Lunch Scenario",
+            "prompt": "After lunch, nutrients from food are carried through the blood. Which systems are most clearly connected?",
+            "choices": [
+              "digestive and circulatory systems",
+              "nervous and skeletal systems",
+              "muscular and respiratory systems"
+            ],
+            "correctAnswer": "digestive and circulatory systems",
+            "feedback": "Yes. Food is digested, and nutrients travel in blood.",
+            "hint": "Food plus blood gives the clue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Systems",
+            "title": "Reaction Scenario",
+            "prompt": "A student hears the teacher's signal and stops moving. Which systems work together?",
+            "choices": [
+              "nervous, muscular, and skeletal systems",
+              "digestive and excretory systems",
+              "circulatory and digestive systems"
+            ],
+            "correctAnswer": "nervous, muscular, and skeletal systems",
+            "feedback": "Correct. The student senses a signal and changes movement.",
+            "hint": "Sensing and movement are both involved."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Identify the Systems",
+            "title": "True or False",
+            "prompt": "A scenario can involve more than one body system at the same time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Many body activities need several systems.",
+            "hint": "Body systems interact."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Identify the Systems",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying systems in scenarios.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Explain and Choose Wisely",
+            "title": "Explain With Evidence",
+            "prompt": "Show your thinking",
+            "text": "A strong answer says which systems are involved and why. If a scenario includes an injury, illness, or personal health concern, the wise next step may involve a trusted adult."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain and Choose Wisely",
+            "title": "Evidence Explanation",
+            "prompt": "Which explanation best fits this case: A student climbs stairs and begins breathing faster.",
+            "choices": [
+              "Muscles need more oxygen, so breathing and blood flow help meet the need.",
+              "The stomach is absorbing more fibre, so the lungs slow down.",
+              "Bones begin pumping blood, so breathing becomes less important."
+            ],
+            "correctAnswer": "Muscles need more oxygen, so breathing and blood flow help meet the need.",
+            "feedback": "Correct. It connects movement to oxygen needs.",
+            "hint": "Look for systems connected by evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain and Choose Wisely",
+            "title": "Health Technology",
+            "prompt": "Why might a thermometer be useful during a health concern?",
+            "choices": [
+              "It measures body temperature, which can be useful information for a trusted adult.",
+              "It tells which nutrients are in a meal.",
+              "It shows how fast blood is moving through every vessel."
+            ],
+            "correctAnswer": "It measures body temperature, which can be useful information for a trusted adult.",
+            "feedback": "Yes. A thermometer gives information that can help decision-making.",
+            "hint": "Think about what the tool actually measures."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain and Choose Wisely",
+            "title": "Wise Next Step",
+            "prompt": "A student feels unwell during class and is unsure what to do. Which next step is best?",
+            "choices": [
+              "tell the teacher or another trusted adult",
+              "wait until the end of class before deciding what to do",
+              "compare symptoms with classmates before asking for help"
+            ],
+            "correctAnswer": "tell the teacher or another trusted adult",
+            "feedback": "Correct. Personal health concerns need trusted help.",
+            "hint": "Students should not handle personal health concerns alone."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Explain and Choose Wisely",
+            "title": "True or False",
+            "prompt": "A good body-system explanation should connect evidence from the case to the system's job.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Evidence supports the explanation.",
+            "hint": "Explain why the system fits."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Explain and Choose Wisely",
+            "title": "Mission Complete",
+            "prompt": "You practised explaining body-system case studies.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Body Systems Case Studies Quiz",
+        "questions": [
+          {
+            "section": "Case Studies",
+            "skill": "Running",
+            "type": "multipleChoice",
+            "prompt": "A student runs across the playground and breathes faster. Which systems are clearly involved?",
+            "choices": [
+              "respiratory, circulatory, and muscular systems",
+              "digestive, excretory, and skeletal systems",
+              "nervous, digestive, and excretory systems"
+            ],
+            "correctAnswer": "respiratory, circulatory, and muscular systems",
+            "reviewNote": "Running uses muscles and increases oxygen needs."
+          },
+          {
+            "section": "Case Studies",
+            "skill": "Lunch",
+            "type": "multipleChoice",
+            "prompt": "Nutrients from lunch enter the blood and travel to cells. Which systems are connected?",
+            "choices": [
+              "digestive and circulatory systems",
+              "skeletal and nervous systems",
+              "respiratory and muscular systems"
+            ],
+            "correctAnswer": "digestive and circulatory systems",
+            "reviewNote": "Digestion and blood transport are connected."
+          },
+          {
+            "section": "Case Studies",
+            "skill": "Reaction",
+            "type": "multipleChoice",
+            "prompt": "A student sees a ball coming and moves hands to catch it. Which systems are involved?",
+            "choices": [
+              "nervous, muscular, and skeletal systems",
+              "digestive and respiratory systems",
+              "circulatory and excretory systems"
+            ],
+            "correctAnswer": "nervous, muscular, and skeletal systems",
+            "reviewNote": "Seeing, deciding, and moving are involved."
+          },
+          {
+            "section": "Case Studies",
+            "skill": "Evidence",
+            "type": "multipleChoice",
+            "prompt": "Which explanation uses evidence well?",
+            "choices": [
+              "The heart and lungs are involved because the case mentions faster heartbeat and breathing.",
+              "The stomach is involved because all activities use energy.",
+              "The skeleton is involved because the student is in Grade 5."
+            ],
+            "correctAnswer": "The heart and lungs are involved because the case mentions faster heartbeat and breathing.",
+            "reviewNote": "It connects details to systems."
+          },
+          {
+            "section": "Technology",
+            "skill": "Thermometer",
+            "type": "multipleChoice",
+            "prompt": "What does a thermometer measure?",
+            "choices": [
+              "temperature",
+              "oxygen in blood vessels",
+              "nutrients in food"
+            ],
+            "correctAnswer": "temperature",
+            "reviewNote": "A thermometer measures temperature."
+          },
+          {
+            "section": "Wise Choice",
+            "skill": "Trusted Adult",
+            "type": "multipleChoice",
+            "prompt": "What should a student do with a personal health concern at school?",
+            "choices": [
+              "tell a teacher or trusted adult",
+              "keep guessing until it goes away",
+              "ask classmates for a diagnosis"
+            ],
+            "correctAnswer": "tell a teacher or trusted adult",
+            "reviewNote": "Trusted adults can help."
+          },
+          {
+            "section": "Case Studies",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A case study can involve several body systems.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Many scenarios involve interacting systems."
+          },
+          {
+            "section": "Case Studies",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Evidence from the scenario should support the body-system explanation.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Evidence makes the explanation stronger."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-2-final-quiz",
       "title": "Unit 2 Final Quiz",
-      "type": "plannedQuiz",
-      "status": "planned",
-      "teacherOverview": "Planned final quiz on body systems, system interactions, healthy habits, and age-appropriate health choices."
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "The Unit 2 final quiz checks body systems, digestion, nutrients, breathing, blood flow, movement, healthy habits, prevention, trusted adults, and case-study reasoning.",
+      "teacherOverview": "Use this quiz after students complete the Human Health and Body Systems lessons.",
+      "quiz": {
+        "title": "Human Health and Body Systems Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Body Systems",
+            "skill": "System Jobs",
+            "type": "multipleChoice",
+            "prompt": "Which system moves blood through the body?",
+            "choices": [
+              "circulatory system",
+              "digestive system",
+              "skeletal system"
+            ],
+            "correctAnswer": "circulatory system",
+            "reviewNote": "The circulatory system moves blood."
+          },
+          {
+            "section": "Part A: Body Systems",
+            "skill": "System Interaction",
+            "type": "multipleChoice",
+            "prompt": "Why do body systems need to work together?",
+            "choices": [
+              "Cells need oxygen, nutrients, messages, support, and waste removal.",
+              "Most systems do similar jobs and can switch roles when needed.",
+              "Organs usually work best when systems stay separate."
+            ],
+            "correctAnswer": "Cells need oxygen, nutrients, messages, support, and waste removal.",
+            "reviewNote": "Systems meet different needs."
+          },
+          {
+            "section": "Part B: Digestion",
+            "skill": "Digestive Job",
+            "type": "multipleChoice",
+            "prompt": "What is the main job of the digestive system?",
+            "choices": [
+              "break food into parts the body can use",
+              "send messages between brain and body",
+              "pump blood through vessels"
+            ],
+            "correctAnswer": "break food into parts the body can use",
+            "reviewNote": "Digestion breaks down food."
+          },
+          {
+            "section": "Part B: Digestion",
+            "skill": "Absorption",
+            "type": "multipleChoice",
+            "prompt": "Why is the small intestine important?",
+            "choices": [
+              "Many nutrients are absorbed there into the blood.",
+              "It protects the brain from injury.",
+              "It helps air move into the lungs."
+            ],
+            "correctAnswer": "Many nutrients are absorbed there into the blood.",
+            "reviewNote": "Absorption is a key job of the small intestine."
+          },
+          {
+            "section": "Part B: Nutrients",
+            "skill": "Protein",
+            "type": "multipleChoice",
+            "prompt": "Which nutrient job is connected to protein?",
+            "choices": [
+              "growth and tissue repair",
+              "moving oxygen into the lungs",
+              "protecting the brain with bone"
+            ],
+            "correctAnswer": "growth and tissue repair",
+            "reviewNote": "Protein supports growth and repair."
+          },
+          {
+            "section": "Part C: Breathing and Blood",
+            "skill": "Respiratory",
+            "type": "multipleChoice",
+            "prompt": "What does the respiratory system do?",
+            "choices": [
+              "brings in oxygen and removes carbon dioxide",
+              "absorbs nutrients and fibre",
+              "holds the body upright"
+            ],
+            "correctAnswer": "brings in oxygen and removes carbon dioxide",
+            "reviewNote": "Breathing supports gas exchange."
+          },
+          {
+            "section": "Part C: Breathing and Blood",
+            "skill": "Oxygen Path",
+            "type": "multipleChoice",
+            "prompt": "Which path best shows oxygen reaching cells?",
+            "choices": [
+              "lungs, blood, heart, body cells",
+              "stomach, bones, blood, body cells",
+              "kidneys, muscles, lungs, body cells"
+            ],
+            "correctAnswer": "lungs, blood, heart, body cells",
+            "reviewNote": "Oxygen enters through lungs and travels in blood."
+          },
+          {
+            "section": "Part C: Exercise",
+            "skill": "Heart Rate",
+            "type": "multipleChoice",
+            "prompt": "Why can heart rate increase during exercise?",
+            "choices": [
+              "Active muscles need materials moved more quickly.",
+              "The stomach stops digesting all food.",
+              "The skeleton begins carrying oxygen by itself."
+            ],
+            "correctAnswer": "Active muscles need materials moved more quickly.",
+            "reviewNote": "Blood flow supports active muscles."
+          },
+          {
+            "section": "Part D: Bones and Muscles",
+            "skill": "Skeleton",
+            "type": "multipleChoice",
+            "prompt": "Which is a job of the skeletal system?",
+            "choices": [
+              "supporting the body and protecting organs",
+              "absorbing nutrients into blood",
+              "moving air through the nose"
+            ],
+            "correctAnswer": "supporting the body and protecting organs",
+            "reviewNote": "Bones support and protect."
+          },
+          {
+            "section": "Part D: Bones and Muscles",
+            "skill": "Movement",
+            "type": "multipleChoice",
+            "prompt": "How do muscles help body parts move?",
+            "choices": [
+              "They pull on bones at joints.",
+              "They carry carbon dioxide out of the body.",
+              "They break food into vitamins."
+            ],
+            "correctAnswer": "They pull on bones at joints.",
+            "reviewNote": "Muscles pull on bones."
+          },
+          {
+            "section": "Part D: Nervous System",
+            "skill": "Messages",
+            "type": "multipleChoice",
+            "prompt": "Which system sends messages between the brain and body?",
+            "choices": [
+              "nervous system",
+              "digestive system",
+              "excretory system"
+            ],
+            "correctAnswer": "nervous system",
+            "reviewNote": "The nervous system sends messages."
+          },
+          {
+            "section": "Part E: Healthy Habits",
+            "skill": "Sleep",
+            "type": "multipleChoice",
+            "prompt": "Which statement about sleep is most accurate?",
+            "choices": [
+              "Sleep supports rest, growth, repair, learning, and focus.",
+              "Sleep replaces oxygen and nutrients.",
+              "Sleep makes every body system stop working."
+            ],
+            "correctAnswer": "Sleep supports rest, growth, repair, learning, and focus.",
+            "reviewNote": "Sleep supports the body in many ways."
+          },
+          {
+            "section": "Part E: Healthy Habits",
+            "skill": "Movement",
+            "type": "multipleChoice",
+            "prompt": "Which statement about movement is most accurate?",
+            "choices": [
+              "Movement can support muscles, bones, heart, lungs, and coordination.",
+              "Movement only affects one body system.",
+              "Movement prevents the body from needing rest."
+            ],
+            "correctAnswer": "Movement can support muscles, bones, heart, lungs, and coordination.",
+            "reviewNote": "Movement connects to several systems."
+          },
+          {
+            "section": "Part E: Healthy Habits",
+            "skill": "Privacy",
+            "type": "multipleChoice",
+            "prompt": "Which question is suitable for a class science activity?",
+            "choices": [
+              "Which system carries oxygen in blood?",
+              "What private health condition has your family faced?",
+              "What medicine does someone in your home use?"
+            ],
+            "correctAnswer": "Which system carries oxygen in blood?",
+            "reviewNote": "It checks science without private sharing."
+          },
+          {
+            "section": "Part F: Prevention",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "What does prevention mean?",
+            "choices": [
+              "taking wise steps before a problem happens",
+              "waiting until a problem has become worse",
+              "choosing a faster option instead of a safer one"
+            ],
+            "correctAnswer": "taking wise steps before a problem happens",
+            "reviewNote": "Prevention happens early."
+          },
+          {
+            "section": "Part F: Prevention",
+            "skill": "Safety",
+            "type": "multipleChoice",
+            "prompt": "What should a student do if science safety instructions are unclear?",
+            "choices": [
+              "ask the teacher before continuing",
+              "continue with the parts that seem familiar",
+              "let a classmate decide the next step"
+            ],
+            "correctAnswer": "ask the teacher before continuing",
+            "reviewNote": "Safety needs clear instructions."
+          },
+          {
+            "section": "Part G: Case Studies",
+            "skill": "Scenario",
+            "type": "multipleChoice",
+            "prompt": "A student hears a signal and moves to stop. Which systems are clearly involved?",
+            "choices": [
+              "nervous, muscular, and skeletal systems",
+              "digestive and excretory systems",
+              "respiratory and digestive systems"
+            ],
+            "correctAnswer": "nervous, muscular, and skeletal systems",
+            "reviewNote": "The student senses, decides, and moves."
+          },
+          {
+            "section": "Part G: Case Studies",
+            "skill": "Technology",
+            "type": "multipleChoice",
+            "prompt": "What does a thermometer measure?",
+            "choices": [
+              "temperature",
+              "mass",
+              "blood speed"
+            ],
+            "correctAnswer": "temperature",
+            "reviewNote": "A thermometer measures temperature."
+          },
+          {
+            "section": "Part H: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Body systems often work together during one activity.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Activities usually involve several systems."
+          },
+          {
+            "section": "Part H: Review",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A personal health concern should be handled with help from a trusted adult or health professional.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Personal health concerns need trusted help."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Human Health and Body Systems mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
     }
-  ]
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each Human Health and Body Systems lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The unit quiz checks major body systems, system interactions, digestion, nutrients, breathing, blood flow, bones, muscles, nerves, healthy habits, prevention, trusted adults, health technology, and case-study reasoning. Recommended weighting remains 40% lesson quizzes and 60% unit quiz."
+  }
 }

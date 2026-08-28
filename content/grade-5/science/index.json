@@ -85,6 +85,7 @@
       "strand": "Life Systems",
       "unitGoal": "Students will learn how major body systems work together and how wise habits support health, safety, and care for the body.",
       "file": "units/unit-2-human-health-and-body-systems.json",
+      "dataFile": "unit-data/unit-2-human-health-and-body-systems.js",
       "lessons": [
         {
           "id": "grade-5-science-unit-2-body-systems-work-together",
