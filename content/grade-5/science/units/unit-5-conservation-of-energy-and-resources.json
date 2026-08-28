@@ -7,58 +7,2488 @@
     {
       "id": "grade-5-science-unit-5-forms-of-energy",
       "title": "Forms of Energy in Everyday Life",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on light, sound, heat, electrical, mechanical, and chemical energy in everyday examples."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify common forms of energy and describe how they are used in everyday devices and systems.",
+      "successCriteria": [
+        "I can identify light, sound, thermal, electrical, mechanical, and chemical energy.",
+        "I can match forms of energy to everyday examples.",
+        "I can explain that useful devices often involve more than one form of energy."
+      ],
+      "vocabulary": [
+        "energy",
+        "light energy",
+        "sound energy",
+        "thermal energy",
+        "electrical energy",
+        "mechanical energy",
+        "chemical energy"
+      ],
+      "teacherSummary": "Students practise identifying common forms of energy in everyday examples.",
+      "teacherOverview": "Students learn that energy is needed for change and motion and that energy appears in several useful forms.",
+      "christianFocus": "Students study energy as part of God's orderly created world and consider how energy should be used wisely.",
+      "lessonContent": [
+        "Energy is the ability to cause change or do work.",
+        "Light energy lets us see and can be produced by the sun, lamps, and screens.",
+        "Sound energy is produced by vibrations.",
+        "Thermal energy is connected to temperature and heat transfer.",
+        "Electrical energy powers many devices and can be changed into other forms.",
+        "Mechanical energy is connected to movement and position.",
+        "Chemical energy is stored in substances such as food, batteries, and fuels."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Forms of Energy Mission",
+        "description": "Practise spotting forms of energy in everyday examples.",
+        "levels": [
+          "Level 1: Name the Energy",
+          "Level 2: Energy in Devices"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Forms of Energy in Everyday Life Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Forms of energy, examples, device use, and careful matching"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Forms of Energy Mission",
+        "mission": "Practise spotting forms of energy in everyday examples.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Energy",
+            "title": "Before You Begin",
+            "prompt": "Get ready: energy has different forms",
+            "text": "Energy is needed for motion, light, sound, heat, and many changes. Grade 5 students should be able to name common forms of energy and match them to examples."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Energy",
+            "title": "Six Common Forms",
+            "prompt": "Look for what is happening",
+            "text": "Light, sound, thermal, electrical, mechanical, and chemical energy are common forms. A device or living thing may involve more than one form at the same time."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Energy",
+            "title": "Light",
+            "prompt": "Which example mainly shows light energy being used?",
+            "choices": [
+              "a lamp helping a student read",
+              "a backpack resting on the floor",
+              "a closed book sitting on a shelf"
+            ],
+            "correctAnswer": "a lamp helping a student read",
+            "feedback": "Correct. The lamp gives off light energy.",
+            "hint": "Look for seeing or illumination."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Energy",
+            "title": "Sound",
+            "prompt": "Which example mainly shows sound energy?",
+            "choices": [
+              "a bell vibrating after it is struck",
+              "a cup holding cold water",
+              "a battery stored in a drawer"
+            ],
+            "correctAnswer": "a bell vibrating after it is struck",
+            "feedback": "Yes. Sound comes from vibrations.",
+            "hint": "Sound needs vibrations."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Energy",
+            "title": "Chemical",
+            "prompt": "Which example includes stored chemical energy?",
+            "choices": [
+              "food that the body can use",
+              "a mirror reflecting sunlight",
+              "a pencil lying still on a desk"
+            ],
+            "correctAnswer": "food that the body can use",
+            "feedback": "Correct. Food stores chemical energy.",
+            "hint": "Think about stored energy in substances."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Energy",
+            "title": "True or False",
+            "prompt": "Thermal energy is connected to temperature and heat transfer.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Thermal energy is linked to heat.",
+            "hint": "Warm and cool objects involve thermal energy."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Name the Energy",
+            "title": "Level 1 Complete",
+            "prompt": "You practised naming forms of energy.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Energy in Devices",
+            "title": "Devices Can Use Several Forms",
+            "prompt": "Follow the energy",
+            "text": "A device may take in one form of energy and give off another. A speaker uses electrical energy to produce sound. A toaster uses electrical energy to produce thermal energy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Energy in Devices",
+            "title": "Speaker",
+            "prompt": "A small speaker plays music from a tablet. Which energy change is most important?",
+            "choices": [
+              "electrical energy to sound energy",
+              "thermal energy to chemical energy",
+              "mechanical energy to stored food energy"
+            ],
+            "correctAnswer": "electrical energy to sound energy",
+            "feedback": "Correct. The speaker uses electrical energy to make sound.",
+            "hint": "The output is music you hear."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Energy in Devices",
+            "title": "Toaster",
+            "prompt": "A toaster warms bread. Which energy form is the useful output?",
+            "choices": [
+              "thermal energy",
+              "sound energy",
+              "magnetic energy"
+            ],
+            "correctAnswer": "thermal energy",
+            "feedback": "Yes. The toaster's useful output is heat.",
+            "hint": "The bread gets warmer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Energy in Devices",
+            "title": "Moving Fan",
+            "prompt": "An electric fan spins its blades. Which energy form is shown by the moving blades?",
+            "choices": [
+              "mechanical energy",
+              "chemical energy",
+              "light energy only"
+            ],
+            "correctAnswer": "mechanical energy",
+            "feedback": "Correct. Moving parts show mechanical energy.",
+            "hint": "Movement is the clue."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Energy in Devices",
+            "title": "True or False",
+            "prompt": "A device can involve more than one form of energy.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Many devices transform energy.",
+            "hint": "Think about a lamp that gives light and also warms up."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Energy in Devices",
+            "title": "Mission Complete",
+            "prompt": "You practised identifying energy in devices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Forms of Energy in Everyday Life Quiz",
+        "questions": [
+          {
+            "section": "Energy Forms",
+            "skill": "Energy Meaning",
+            "type": "multipleChoice",
+            "prompt": "Which statement best describes energy?",
+            "choices": [
+              "Energy is the ability to cause change or do work.",
+              "Energy is only electricity from a wall outlet.",
+              "Energy is only found in machines."
+            ],
+            "correctAnswer": "Energy is the ability to cause change or do work.",
+            "reviewNote": "Energy is needed for work and change."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "Light",
+            "type": "multipleChoice",
+            "prompt": "Which example uses light energy?",
+            "choices": [
+              "a flashlight shining on a path",
+              "a rock resting under a bench",
+              "a folded paper towel"
+            ],
+            "correctAnswer": "a flashlight shining on a path",
+            "reviewNote": "A flashlight gives light."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "Sound",
+            "type": "multipleChoice",
+            "prompt": "Sound energy is produced by...",
+            "choices": [
+              "vibrations",
+              "all silent objects",
+              "stored water only"
+            ],
+            "correctAnswer": "vibrations",
+            "reviewNote": "Sound comes from vibrations."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "Thermal",
+            "type": "multipleChoice",
+            "prompt": "Which example is connected to thermal energy?",
+            "choices": [
+              "a mug of hot soup cooling on a table",
+              "a ruler measuring length",
+              "a pencil mark being erased"
+            ],
+            "correctAnswer": "a mug of hot soup cooling on a table",
+            "reviewNote": "Thermal energy is linked to heat."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "Chemical",
+            "type": "multipleChoice",
+            "prompt": "Which item stores chemical energy?",
+            "choices": [
+              "a battery",
+              "a mirror",
+              "a glass window"
+            ],
+            "correctAnswer": "a battery",
+            "reviewNote": "Batteries store chemical energy."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "Mechanical",
+            "type": "multipleChoice",
+            "prompt": "Which example shows mechanical energy?",
+            "choices": [
+              "a bicycle wheel turning",
+              "a paper label on a bottle",
+              "a light switch label"
+            ],
+            "correctAnswer": "a bicycle wheel turning",
+            "reviewNote": "Motion is mechanical energy."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A device can involve more than one form of energy.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Many devices transform energy."
+          },
+          {
+            "section": "Energy Forms",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Food can store chemical energy that the body uses.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Food contains stored chemical energy."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-energy-sources",
       "title": "Renewable and Non-Renewable Energy Sources",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on comparing energy sources, benefits, limits, reliability, and stewardship questions."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will compare renewable and non-renewable energy sources using benefits, limits, reliability, and stewardship concerns.",
+      "successCriteria": [
+        "I can identify renewable and non-renewable energy sources.",
+        "I can compare benefits and limits of different energy sources.",
+        "I can explain why energy choices often involve trade-offs."
+      ],
+      "vocabulary": [
+        "renewable",
+        "non-renewable",
+        "energy source",
+        "fuel",
+        "reliable",
+        "trade-off"
+      ],
+      "teacherSummary": "Students practise comparing energy sources without oversimplifying their benefits and limits.",
+      "teacherOverview": "Students learn that energy sources can be renewable or non-renewable and that wise decisions compare reliability, cost, impact, and use.",
+      "christianFocus": "Students practise stewardship by thinking carefully about how people use the resources God has provided.",
+      "lessonContent": [
+        "An energy source is something people use to get useful energy.",
+        "Renewable energy sources can be replenished naturally in a relatively short time, such as sunlight, wind, moving water, and plant material.",
+        "Non-renewable energy sources are used much faster than they are replaced, such as coal, oil, natural gas, and uranium.",
+        "Every energy source has benefits and limits.",
+        "Good decisions compare reliability, cost, location, technology, environmental effects, and human needs."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Energy Sources Mission",
+        "description": "Practise comparing renewable and non-renewable energy sources.",
+        "levels": [
+          "Level 1: Sort Energy Sources",
+          "Level 2: Compare Trade-Offs"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Renewable and Non-Renewable Energy Sources Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Energy sources, renewable and non-renewable examples, benefits, limits, reliability, and trade-offs"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Energy Sources Mission",
+        "mission": "Practise comparing renewable and non-renewable energy sources.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "Before You Begin",
+            "prompt": "Get ready: energy comes from sources",
+            "text": "People use different energy sources for heat, electricity, transportation, and machines. Some sources are renewable, and some are non-renewable."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "Renewable and Non-Renewable",
+            "prompt": "Think about replacement time",
+            "text": "Renewable sources are replenished naturally in a short time. Non-renewable sources are used much faster than they are replaced. Both kinds should be studied honestly."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "Renewable Example",
+            "prompt": "Which energy source is renewable?",
+            "choices": [
+              "wind",
+              "natural gas",
+              "coal"
+            ],
+            "correctAnswer": "wind",
+            "feedback": "Correct. Wind is naturally replenished.",
+            "hint": "Think about what can be replaced in a short time."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "Non-Renewable Example",
+            "prompt": "Which energy source is non-renewable?",
+            "choices": [
+              "oil",
+              "sunlight",
+              "moving water"
+            ],
+            "correctAnswer": "oil",
+            "feedback": "Yes. Oil is used much faster than it is replaced.",
+            "hint": "Think about underground fuels."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "Uranium",
+            "prompt": "Why is uranium usually classified as non-renewable?",
+            "choices": [
+              "It is a limited resource mined from the earth.",
+              "It is produced daily by wind turbines.",
+              "It is the same as sunlight in every way."
+            ],
+            "correctAnswer": "It is a limited resource mined from the earth.",
+            "feedback": "Correct. Uranium is limited and mined.",
+            "hint": "Non-renewable does not only mean fuel that burns."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "True or False",
+            "prompt": "Renewable means the source is naturally replenished in a relatively short time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Replacement time matters.",
+            "hint": "Renewable sources can be renewed naturally."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Sort Energy Sources",
+            "title": "Level 1 Complete",
+            "prompt": "You practised sorting energy sources.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "No Source Is Perfect",
+            "prompt": "Compare benefits and limits",
+            "text": "Energy choices involve trade-offs. A source might be renewable but depend on weather. Another source might be reliable but create pollution or use a limited resource."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Wind Trade-Off",
+            "prompt": "Which comparison is most accurate for wind energy?",
+            "choices": [
+              "It is renewable, but its output can change with wind conditions.",
+              "It is non-renewable because turbines have moving parts.",
+              "It works exactly the same in every location."
+            ],
+            "correctAnswer": "It is renewable, but its output can change with wind conditions.",
+            "feedback": "Correct. Wind is renewable but variable.",
+            "hint": "Think about both benefit and limit."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Fuel Trade-Off",
+            "prompt": "Which statement is most accurate about coal, oil, and natural gas?",
+            "choices": [
+              "They can provide useful energy, but they are limited and can affect air quality.",
+              "They are renewable because people use them often.",
+              "They have no environmental effects when burned."
+            ],
+            "correctAnswer": "They can provide useful energy, but they are limited and can affect air quality.",
+            "feedback": "Yes. This answer names both usefulness and concern.",
+            "hint": "A fair comparison includes benefits and costs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Location",
+            "prompt": "Why does location matter when choosing an energy source?",
+            "choices": [
+              "Some places have more wind, sunlight, moving water, or fuel access than others.",
+              "Location changes renewable sources into non-renewable sources.",
+              "All energy sources work equally well everywhere."
+            ],
+            "correctAnswer": "Some places have more wind, sunlight, moving water, or fuel access than others.",
+            "feedback": "Correct. Local conditions matter.",
+            "hint": "Energy decisions depend on place."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "True or False",
+            "prompt": "A wise energy decision should compare benefits, limits, and human needs.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Energy decisions involve trade-offs.",
+            "hint": "Simple one-word answers are usually not enough."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Mission Complete",
+            "prompt": "You practised comparing energy-source trade-offs.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Renewable and Non-Renewable Energy Sources Quiz",
+        "questions": [
+          {
+            "section": "Energy Sources",
+            "skill": "Renewable",
+            "type": "multipleChoice",
+            "prompt": "Which source is renewable?",
+            "choices": [
+              "sunlight",
+              "coal",
+              "natural gas"
+            ],
+            "correctAnswer": "sunlight",
+            "reviewNote": "Sunlight is naturally replenished."
+          },
+          {
+            "section": "Energy Sources",
+            "skill": "Non-Renewable",
+            "type": "multipleChoice",
+            "prompt": "Which source is non-renewable?",
+            "choices": [
+              "oil",
+              "wind",
+              "moving water"
+            ],
+            "correctAnswer": "oil",
+            "reviewNote": "Oil is used faster than it is replaced."
+          },
+          {
+            "section": "Energy Sources",
+            "skill": "Uranium",
+            "type": "multipleChoice",
+            "prompt": "Why is uranium non-renewable?",
+            "choices": [
+              "It is a limited mined resource.",
+              "It is created whenever sunlight shines.",
+              "It grows again each spring."
+            ],
+            "correctAnswer": "It is a limited mined resource.",
+            "reviewNote": "Uranium is limited and mined."
+          },
+          {
+            "section": "Trade-Offs",
+            "skill": "Wind",
+            "type": "multipleChoice",
+            "prompt": "Which statement about wind energy is most accurate?",
+            "choices": [
+              "It is renewable, but output depends on wind conditions.",
+              "It is non-renewable because turbines are built from materials.",
+              "It has the same output in every location."
+            ],
+            "correctAnswer": "It is renewable, but output depends on wind conditions.",
+            "reviewNote": "Wind energy is renewable but variable."
+          },
+          {
+            "section": "Trade-Offs",
+            "skill": "Fuels",
+            "type": "multipleChoice",
+            "prompt": "Which statement about coal, oil, and natural gas is most accurate?",
+            "choices": [
+              "They provide useful energy but are limited and can affect air quality.",
+              "They are renewable because they are used often.",
+              "They have no effects when burned."
+            ],
+            "correctAnswer": "They provide useful energy but are limited and can affect air quality.",
+            "reviewNote": "This compares benefit and concern."
+          },
+          {
+            "section": "Trade-Offs",
+            "skill": "Location",
+            "type": "multipleChoice",
+            "prompt": "Why does location matter for energy choices?",
+            "choices": [
+              "Energy sources and conditions differ from place to place.",
+              "Location removes all trade-offs.",
+              "Location makes every source renewable."
+            ],
+            "correctAnswer": "Energy sources and conditions differ from place to place.",
+            "reviewNote": "Local conditions affect choices."
+          },
+          {
+            "section": "Energy Sources",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Renewable energy sources are replenished naturally in a relatively short time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Renewable sources can be replenished."
+          },
+          {
+            "section": "Trade-Offs",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A fair comparison should include both benefits and limits.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Energy decisions need careful comparison."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-electricity-heat-and-energy-choices",
       "title": "Electricity, Heat, and Energy Choices",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on electricity use, heat transfer, insulation, and choosing efficient tools and habits."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will explain energy transformations in electrical devices and describe how heat can be conserved or wasted.",
+      "successCriteria": [
+        "I can identify energy transformations in common devices.",
+        "I can explain that some transformed energy may spread into the environment as heat, light, or sound.",
+        "I can choose technology or habits that reduce wasted energy."
+      ],
+      "vocabulary": [
+        "transformation",
+        "electrical energy",
+        "thermal energy",
+        "insulation",
+        "efficiency",
+        "waste energy"
+      ],
+      "teacherSummary": "Students practise tracking energy transformations and choosing efficient habits and technologies.",
+      "teacherOverview": "Students learn that energy changes form in devices and that thoughtful design can reduce wasted energy.",
+      "christianFocus": "Students practise stewardship by noticing ways to use energy wisely rather than carelessly.",
+      "lessonContent": [
+        "Energy can be transformed from one form to another.",
+        "Electrical devices often transform electrical energy into light, sound, thermal energy, or motion.",
+        "Energy is not created or destroyed by a device; it changes form and may spread into the environment.",
+        "Some energy transformations are useful, while some energy spreads away as heat, light, or sound that was not the main purpose.",
+        "Insulation, efficient devices, and wise habits can reduce unnecessary energy loss."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Energy Transformation Mission",
+        "description": "Practise following energy transformations and choosing efficient energy habits.",
+        "levels": [
+          "Level 1: Follow the Transformation",
+          "Level 2: Reduce Waste"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Electricity, Heat, and Energy Choices Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Energy transformations, useful output, waste energy, insulation, efficiency, and technology choices"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Energy Transformation Mission",
+        "mission": "Practise following energy transformations and choosing efficient energy habits.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Follow the Transformation",
+            "title": "Before You Begin",
+            "prompt": "Get ready: energy changes form",
+            "text": "Energy can change from one form to another. A device usually takes in one form of energy and produces one or more outputs."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Follow the Transformation",
+            "title": "Useful and Unwanted Outputs",
+            "prompt": "Not every output is the goal",
+            "text": "A lamp is meant to give light, but it may also get warm. A blender is meant to move blades, but it also makes sound. Some energy spreads away instead of doing the main job."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Follow the Transformation",
+            "title": "Lamp",
+            "prompt": "In a lamp, what is the main useful energy output?",
+            "choices": [
+              "light energy",
+              "stored chemical energy",
+              "sound energy"
+            ],
+            "correctAnswer": "light energy",
+            "feedback": "Correct. A lamp's main job is to give light.",
+            "hint": "Think about why people turn on a lamp."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Follow the Transformation",
+            "title": "Blender",
+            "prompt": "A blender changes electrical energy mainly into what useful form?",
+            "choices": [
+              "mechanical energy of moving blades",
+              "chemical energy stored in the cord",
+              "solar energy in the jar"
+            ],
+            "correctAnswer": "mechanical energy of moving blades",
+            "feedback": "Yes. The blades move.",
+            "hint": "Look at the device's main job."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Follow the Transformation",
+            "title": "Waste Heat",
+            "prompt": "A phone charger feels warm after use. What does this show?",
+            "choices": [
+              "Some energy spread into the environment as thermal energy.",
+              "The charger created new energy from nothing.",
+              "Electrical energy stopped existing completely."
+            ],
+            "correctAnswer": "Some energy spread into the environment as thermal energy.",
+            "feedback": "Correct. Some transformed energy can spread as heat.",
+            "hint": "Warmth is linked to thermal energy."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Follow the Transformation",
+            "title": "True or False",
+            "prompt": "Energy can be transformed from one form to another.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Energy transformations happen in many devices.",
+            "hint": "Think about electricity becoming light or motion."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Follow the Transformation",
+            "title": "Level 1 Complete",
+            "prompt": "You practised following energy transformations.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Reduce Waste",
+            "title": "Efficiency and Insulation",
+            "prompt": "Use energy wisely",
+            "text": "Efficiency means getting more useful output from the energy used. Insulation slows heat transfer, which can help keep warm things warm or cool things cool."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reduce Waste",
+            "title": "Insulation",
+            "prompt": "Why does a travel mug help a hot drink stay warm longer?",
+            "choices": [
+              "Insulation slows heat transfer to the surroundings.",
+              "The mug creates extra heat from the air.",
+              "The mug removes the drink's thermal energy."
+            ],
+            "correctAnswer": "Insulation slows heat transfer to the surroundings.",
+            "feedback": "Correct. Insulation slows heat movement.",
+            "hint": "Insulation does not create heat; it slows transfer."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reduce Waste",
+            "title": "Efficient Bulb",
+            "prompt": "Why might an LED bulb be chosen instead of an older bulb?",
+            "choices": [
+              "It can provide useful light while wasting less energy as heat.",
+              "It changes all electricity into sound.",
+              "It makes electricity renewable by itself."
+            ],
+            "correctAnswer": "It can provide useful light while wasting less energy as heat.",
+            "feedback": "Yes. Efficient technology can reduce wasted energy.",
+            "hint": "Think about useful light and unwanted heat."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reduce Waste",
+            "title": "Habit Choice",
+            "prompt": "Which habit reduces unnecessary electricity use?",
+            "choices": [
+              "turning off lights in an empty room",
+              "opening a fridge door to cool the kitchen",
+              "running two devices when one is enough"
+            ],
+            "correctAnswer": "turning off lights in an empty room",
+            "feedback": "Correct. Turning off unused devices conserves energy.",
+            "hint": "Use energy when it is needed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Reduce Waste",
+            "title": "True or False",
+            "prompt": "Energy-saving choices can include both better technology and wiser habits.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Devices and habits both matter.",
+            "hint": "Conservation is not only about one tool."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Reduce Waste",
+            "title": "Mission Complete",
+            "prompt": "You practised reducing wasted energy.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Electricity, Heat, and Energy Choices Quiz",
+        "questions": [
+          {
+            "section": "Transformations",
+            "skill": "Lamp",
+            "type": "multipleChoice",
+            "prompt": "A lamp mainly transforms electrical energy into...",
+            "choices": [
+              "light energy",
+              "stored food energy",
+              "water energy"
+            ],
+            "correctAnswer": "light energy",
+            "reviewNote": "The useful output is light."
+          },
+          {
+            "section": "Transformations",
+            "skill": "Fan",
+            "type": "multipleChoice",
+            "prompt": "An electric fan mainly transforms electrical energy into...",
+            "choices": [
+              "mechanical energy",
+              "chemical energy",
+              "magnetic north"
+            ],
+            "correctAnswer": "mechanical energy",
+            "reviewNote": "The blades move."
+          },
+          {
+            "section": "Transformations",
+            "skill": "Waste Heat",
+            "type": "multipleChoice",
+            "prompt": "A charger gets warm. Which idea fits best?",
+            "choices": [
+              "Some energy has spread as thermal energy.",
+              "The charger created energy from nothing.",
+              "The cord became a renewable source."
+            ],
+            "correctAnswer": "Some energy has spread as thermal energy.",
+            "reviewNote": "Warmth shows thermal energy spreading."
+          },
+          {
+            "section": "Insulation",
+            "skill": "Travel Mug",
+            "type": "multipleChoice",
+            "prompt": "How does insulation help a hot drink?",
+            "choices": [
+              "It slows heat transfer.",
+              "It changes the drink into electricity.",
+              "It removes all thermal energy."
+            ],
+            "correctAnswer": "It slows heat transfer.",
+            "reviewNote": "Insulation slows heat movement."
+          },
+          {
+            "section": "Efficiency",
+            "skill": "LED",
+            "type": "multipleChoice",
+            "prompt": "Why can an efficient bulb conserve energy?",
+            "choices": [
+              "It gives useful light while wasting less energy as heat.",
+              "It uses no energy at all.",
+              "It turns every kind of energy into coal."
+            ],
+            "correctAnswer": "It gives useful light while wasting less energy as heat.",
+            "reviewNote": "Efficiency means more useful output for the energy used."
+          },
+          {
+            "section": "Conservation",
+            "skill": "Habit",
+            "type": "multipleChoice",
+            "prompt": "Which habit conserves electricity?",
+            "choices": [
+              "turn off lights in an empty room",
+              "leave a screen on overnight when not needed",
+              "open the fridge often to cool the room"
+            ],
+            "correctAnswer": "turn off lights in an empty room",
+            "reviewNote": "Turning off unused devices conserves energy."
+          },
+          {
+            "section": "Transformations",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Energy can be transformed from one form to another.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Energy transformations happen in devices."
+          },
+          {
+            "section": "Efficiency",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Some energy may spread into the environment as heat, light, or sound that was not the device's main purpose.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Some output is not useful for the main task."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-conservation-at-home-and-school",
       "title": "Conservation at Home and School",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on practical conservation choices without asking students to reveal private home details."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify practical conservation choices while respecting privacy and different family situations.",
+      "successCriteria": [
+        "I can explain what conservation means.",
+        "I can identify conservation choices for shared spaces such as classrooms.",
+        "I can make respectful suggestions without judging private family choices."
+      ],
+      "vocabulary": [
+        "conservation",
+        "reduce",
+        "reuse",
+        "waste",
+        "shared space",
+        "respectful suggestion"
+      ],
+      "teacherSummary": "Students practise conservation choices for school and community without requiring private home details.",
+      "teacherOverview": "Students learn that conservation means using energy and resources wisely and that suggestions should be respectful and realistic.",
+      "christianFocus": "Students connect conservation with stewardship, gratitude, and loving neighbours through responsible use of shared resources.",
+      "lessonContent": [
+        "Conservation means using energy and resources wisely and avoiding unnecessary waste.",
+        "Students can practise conservation in shared spaces such as classrooms, libraries, church buildings, and community spaces.",
+        "Helpful conservation ideas are specific, realistic, and respectful.",
+        "Students should not be required to share private details about family income, bills, appliances, or home routines.",
+        "Small repeated habits can matter when many people practise them over time."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Conservation Choices Mission",
+        "description": "Practise choosing respectful ways to conserve energy and resources.",
+        "levels": [
+          "Level 1: Spot Conservation Choices",
+          "Level 2: Make Respectful Suggestions"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Conservation at Home and School Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Conservation meaning, classroom choices, respectful wording, privacy, and realistic action"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Conservation Choices Mission",
+        "mission": "Practise choosing respectful ways to conserve energy and resources.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "Before You Begin",
+            "prompt": "Get ready: conservation means wise use",
+            "text": "Conservation is not only about using less. It means using energy and resources wisely, avoiding waste, and thinking about how choices affect others."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "Shared Spaces",
+            "prompt": "Practise with school examples",
+            "text": "It is often best to practise conservation with shared spaces. Students can discuss classroom lights, paper use, water use, and device charging without sharing private home details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "Classroom Lights",
+            "prompt": "Which choice best shows energy conservation in a classroom?",
+            "choices": [
+              "turn off lights when the room will be empty",
+              "turn on every light before leaving",
+              "cover the windows so daylight is never used"
+            ],
+            "correctAnswer": "turn off lights when the room will be empty",
+            "feedback": "Correct. Turning off unused lights avoids waste.",
+            "hint": "Think about using energy only when needed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "Paper Use",
+            "prompt": "Which choice best conserves paper during a draft-writing activity?",
+            "choices": [
+              "use both sides or revise digitally when appropriate",
+              "throw away every draft after one sentence",
+              "print several copies before checking for mistakes"
+            ],
+            "correctAnswer": "use both sides or revise digitally when appropriate",
+            "feedback": "Yes. This reduces unnecessary paper use.",
+            "hint": "Think about avoiding waste while still learning well."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "Water Use",
+            "prompt": "Which habit conserves water?",
+            "choices": [
+              "turn off the tap while it is not being used",
+              "let the tap run while finding supplies",
+              "use extra water so the sink looks clean"
+            ],
+            "correctAnswer": "turn off the tap while it is not being used",
+            "feedback": "Correct. Turning off unused water avoids waste.",
+            "hint": "Use water when needed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "True or False",
+            "prompt": "Conservation means using energy and resources wisely, not wasting them carelessly.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Conservation is wise use.",
+            "hint": "Think stewardship."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Spot Conservation Choices",
+            "title": "Level 1 Complete",
+            "prompt": "You practised spotting conservation choices.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Make Respectful Suggestions",
+            "title": "Respect and Privacy",
+            "prompt": "Suggestions should be kind",
+            "text": "Good conservation suggestions do not shame people or demand private information. They name a realistic action and explain why it may help."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make Respectful Suggestions",
+            "title": "Respectful Wording",
+            "prompt": "Which suggestion is most respectful?",
+            "choices": [
+              "Could we turn off unused lights to save energy?",
+              "Your family must be wasting energy if your bill is high.",
+              "Only people with new appliances can conserve energy."
+            ],
+            "correctAnswer": "Could we turn off unused lights to save energy?",
+            "feedback": "Correct. It is specific and respectful.",
+            "hint": "Avoid judging private situations."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make Respectful Suggestions",
+            "title": "Privacy",
+            "prompt": "Which question should a class conservation activity avoid asking students to share?",
+            "choices": [
+              "How much does your family pay for electricity?",
+              "What is one way a classroom could waste less paper?",
+              "Why might a closed door help keep heat in a room?"
+            ],
+            "correctAnswer": "How much does your family pay for electricity?",
+            "feedback": "Yes. Family bills are private.",
+            "hint": "Choose the question that asks for private information."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make Respectful Suggestions",
+            "title": "Realistic Plan",
+            "prompt": "Which classroom plan is most realistic?",
+            "choices": [
+              "Assign a helper to check unused lights and devices at the end of the day.",
+              "Stop using every device even when the teacher needs one for learning.",
+              "Never use paper again for any subject."
+            ],
+            "correctAnswer": "Assign a helper to check unused lights and devices at the end of the day.",
+            "feedback": "Correct. It is practical and respectful.",
+            "hint": "A good plan can actually be followed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make Respectful Suggestions",
+            "title": "True or False",
+            "prompt": "A conservation idea should be respectful of different family situations.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Conservation should not become shaming.",
+            "hint": "Stewardship should be gracious."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Make Respectful Suggestions",
+            "title": "Mission Complete",
+            "prompt": "You practised respectful conservation suggestions.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Conservation at Home and School Quiz",
+        "questions": [
+          {
+            "section": "Conservation",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "What does conservation mean?",
+            "choices": [
+              "using energy and resources wisely and avoiding waste",
+              "never using any resources at all",
+              "using more materials so a project looks larger"
+            ],
+            "correctAnswer": "using energy and resources wisely and avoiding waste",
+            "reviewNote": "Conservation is wise use."
+          },
+          {
+            "section": "Conservation",
+            "skill": "Lights",
+            "type": "multipleChoice",
+            "prompt": "Which classroom action conserves energy?",
+            "choices": [
+              "turn off lights in an empty room",
+              "leave every screen on overnight",
+              "turn on unused equipment"
+            ],
+            "correctAnswer": "turn off lights in an empty room",
+            "reviewNote": "Unused lights waste energy."
+          },
+          {
+            "section": "Conservation",
+            "skill": "Paper",
+            "type": "multipleChoice",
+            "prompt": "Which choice conserves paper?",
+            "choices": [
+              "use both sides when appropriate",
+              "print extra copies before editing",
+              "throw away paper after one sentence"
+            ],
+            "correctAnswer": "use both sides when appropriate",
+            "reviewNote": "Using both sides can reduce waste."
+          },
+          {
+            "section": "Conservation",
+            "skill": "Water",
+            "type": "multipleChoice",
+            "prompt": "Which choice conserves water?",
+            "choices": [
+              "turn off the tap while not using it",
+              "let the tap run while walking away",
+              "use extra water to make a sink sound busy"
+            ],
+            "correctAnswer": "turn off the tap while not using it",
+            "reviewNote": "Turning off unused water avoids waste."
+          },
+          {
+            "section": "Respect",
+            "skill": "Suggestion",
+            "type": "multipleChoice",
+            "prompt": "Which suggestion is most respectful?",
+            "choices": [
+              "Could we unplug unused chargers at the end of the day?",
+              "Your home must waste energy.",
+              "Only one kind of family can conserve resources."
+            ],
+            "correctAnswer": "Could we unplug unused chargers at the end of the day?",
+            "reviewNote": "It is specific and respectful."
+          },
+          {
+            "section": "Privacy",
+            "skill": "Question",
+            "type": "multipleChoice",
+            "prompt": "Which question should a class avoid asking students to share?",
+            "choices": [
+              "What does your family pay for electricity?",
+              "How can a classroom reduce paper waste?",
+              "Why should taps be turned off when not in use?"
+            ],
+            "correctAnswer": "What does your family pay for electricity?",
+            "reviewNote": "Bills and private home details should not be required."
+          },
+          {
+            "section": "Conservation",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Small repeated habits can help conserve resources over time.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Repeated choices can matter."
+          },
+          {
+            "section": "Respect",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Conservation suggestions should be realistic and respectful.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Good suggestions avoid shame and respect different situations."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-natural-resources-and-stewardship",
       "title": "Natural Resources and Stewardship",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on water, forests, minerals, fuels, materials, and responsible care for creation."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will identify natural resources and explain how stewardship guides responsible use.",
+      "successCriteria": [
+        "I can identify natural resources used in everyday life.",
+        "I can explain why resources should be used responsibly.",
+        "I can connect stewardship to reducing waste, reusing, repairing, and recycling when appropriate."
+      ],
+      "vocabulary": [
+        "natural resource",
+        "stewardship",
+        "renewable resource",
+        "non-renewable resource",
+        "reuse",
+        "repair"
+      ],
+      "teacherSummary": "Students practise identifying resources and making stewardship-minded choices.",
+      "teacherOverview": "Students learn that natural resources support daily life and should be used with gratitude, care, and responsibility.",
+      "christianFocus": "Students learn that the world belongs to God and people are called to steward resources wisely, not worship creation or waste it.",
+      "lessonContent": [
+        "A natural resource is something from the earth that people use, such as water, soil, trees, minerals, plants, animals, sunlight, and fuels.",
+        "Some resources are renewable if managed wisely, while others are non-renewable or very slow to replace.",
+        "Stewardship means caring responsibly for what God has made and provided.",
+        "Reducing waste, reusing, repairing, recycling, and choosing durable materials can be stewardship actions.",
+        "Good stewardship considers people, the environment, cost, safety, and long-term needs."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Resource Stewardship Mission",
+        "description": "Practise identifying resources and choosing responsible ways to use them.",
+        "levels": [
+          "Level 1: Name the Resource",
+          "Level 2: Stewardship Choices"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Natural Resources and Stewardship Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Natural resources, renewable and non-renewable resources, stewardship, waste reduction, reuse, repair, and recycling"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Resource Stewardship Mission",
+        "mission": "Practise identifying resources and choosing responsible ways to use them.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Resource",
+            "title": "Before You Begin",
+            "prompt": "Get ready: resources support daily life",
+            "text": "People use natural resources every day. Water, trees, soil, minerals, fuels, plants, animals, and sunlight all support human needs in different ways."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Name the Resource",
+            "title": "Renewable and Non-Renewable",
+            "prompt": "Management matters",
+            "text": "Some resources can be renewed if managed wisely. Others are limited or take a very long time to replace. Responsible choices help resources serve people now and later."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Resource",
+            "title": "Paper",
+            "prompt": "Paper usually comes from which natural resource?",
+            "choices": [
+              "trees",
+              "iron ore",
+              "natural gas"
+            ],
+            "correctAnswer": "trees",
+            "feedback": "Correct. Paper is made from wood fibres from trees.",
+            "hint": "Think about wood pulp."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Resource",
+            "title": "Metal",
+            "prompt": "A metal spoon is made from materials that began as what kind of resource?",
+            "choices": [
+              "minerals mined from the earth",
+              "fresh sunlight stored in clouds",
+              "water vapour gathered from air"
+            ],
+            "correctAnswer": "minerals mined from the earth",
+            "feedback": "Yes. Metals come from minerals or ores.",
+            "hint": "Think about mining."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Resource",
+            "title": "Water",
+            "prompt": "Why is clean water an important resource?",
+            "choices": [
+              "People, plants, animals, and many systems need it.",
+              "It is useful only when it becomes electricity.",
+              "It can replace every other resource."
+            ],
+            "correctAnswer": "People, plants, animals, and many systems need it.",
+            "feedback": "Correct. Clean water supports life and many human activities.",
+            "hint": "Water has many uses."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Name the Resource",
+            "title": "True or False",
+            "prompt": "Natural resources are used in many everyday objects and activities.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Resources support daily life.",
+            "hint": "Look around a classroom and notice materials."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Name the Resource",
+            "title": "Level 1 Complete",
+            "prompt": "You practised identifying natural resources.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Stewardship Choices",
+            "title": "Stewardship Is Wise Care",
+            "prompt": "Use resources responsibly",
+            "text": "Christian stewardship means caring responsibly for what God made and provided. It includes gratitude, wise use, avoiding waste, and caring about people affected by resource choices."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Stewardship Choices",
+            "title": "Repair",
+            "prompt": "A backpack zipper breaks, but the bag is otherwise strong. Which choice often shows good stewardship?",
+            "choices": [
+              "repair the zipper if it is reasonable",
+              "throw away the bag immediately without checking",
+              "buy several replacements just in case"
+            ],
+            "correctAnswer": "repair the zipper if it is reasonable",
+            "feedback": "Correct. Repair can reduce waste.",
+            "hint": "Think about using resources wisely."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Stewardship Choices",
+            "title": "Reuse",
+            "prompt": "Which choice reuses a resource?",
+            "choices": [
+              "using a clean jar to store craft supplies",
+              "throwing away a container that could safely be used again",
+              "printing the same page several times by mistake"
+            ],
+            "correctAnswer": "using a clean jar to store craft supplies",
+            "feedback": "Yes. Reuse gives an item another helpful purpose.",
+            "hint": "Reuse means using again."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Stewardship Choices",
+            "title": "Balanced Stewardship",
+            "prompt": "Which statement best fits stewardship?",
+            "choices": [
+              "Use resources wisely while considering people, safety, and long-term care.",
+              "Never use any resource for any reason.",
+              "Use resources as fast as possible before others do."
+            ],
+            "correctAnswer": "Use resources wisely while considering people, safety, and long-term care.",
+            "feedback": "Correct. Stewardship includes wise, responsible use.",
+            "hint": "Stewardship is not wastefulness or fear."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Stewardship Choices",
+            "title": "True or False",
+            "prompt": "Stewardship can include reducing waste, repairing, reusing, and recycling when appropriate.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. These can be stewardship choices.",
+            "hint": "Think about wise care of resources."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Stewardship Choices",
+            "title": "Mission Complete",
+            "prompt": "You practised stewardship-minded resource choices.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Natural Resources and Stewardship Quiz",
+        "questions": [
+          {
+            "section": "Resources",
+            "skill": "Definition",
+            "type": "multipleChoice",
+            "prompt": "What is a natural resource?",
+            "choices": [
+              "something from the earth that people use",
+              "only a thing made in a factory",
+              "any object that has no value"
+            ],
+            "correctAnswer": "something from the earth that people use",
+            "reviewNote": "Natural resources come from the earth."
+          },
+          {
+            "section": "Resources",
+            "skill": "Trees",
+            "type": "multipleChoice",
+            "prompt": "Paper is usually made from...",
+            "choices": [
+              "trees",
+              "copper ore only",
+              "natural gas only"
+            ],
+            "correctAnswer": "trees",
+            "reviewNote": "Paper comes from wood fibres."
+          },
+          {
+            "section": "Resources",
+            "skill": "Minerals",
+            "type": "multipleChoice",
+            "prompt": "Metal objects often begin as...",
+            "choices": [
+              "minerals or ores mined from the earth",
+              "fresh rain that hardens in a mould",
+              "sunlight stored in glass"
+            ],
+            "correctAnswer": "minerals or ores mined from the earth",
+            "reviewNote": "Metals come from mined minerals or ores."
+          },
+          {
+            "section": "Resources",
+            "skill": "Water",
+            "type": "multipleChoice",
+            "prompt": "Why is clean water important?",
+            "choices": [
+              "It supports people, plants, animals, and many systems.",
+              "It is useful only when no one drinks it.",
+              "It replaces every material people use."
+            ],
+            "correctAnswer": "It supports people, plants, animals, and many systems.",
+            "reviewNote": "Clean water supports life and human needs."
+          },
+          {
+            "section": "Stewardship",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "Which statement best describes stewardship?",
+            "choices": [
+              "responsible care and wise use of what God has made and provided",
+              "using resources carelessly before someone else can",
+              "never making any product from natural resources"
+            ],
+            "correctAnswer": "responsible care and wise use of what God has made and provided",
+            "reviewNote": "Stewardship means wise care."
+          },
+          {
+            "section": "Stewardship",
+            "skill": "Repair",
+            "type": "multipleChoice",
+            "prompt": "Which choice can reduce waste?",
+            "choices": [
+              "repairing a usable item when reasonable",
+              "throwing away every item after one use",
+              "buying extras with no purpose"
+            ],
+            "correctAnswer": "repairing a usable item when reasonable",
+            "reviewNote": "Repair can extend usefulness."
+          },
+          {
+            "section": "Resources",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Some resources can be renewed if managed wisely.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Renewable resources still require wise management."
+          },
+          {
+            "section": "Stewardship",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Stewardship should consider both people and the created world.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Responsible care includes people and creation."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-environmental-effects-and-trade-offs",
       "title": "Environmental Effects and Trade-Offs",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on comparing choices honestly, noticing benefits and costs, and avoiding oversimplified answers."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will compare effects of energy and resource use on society and the environment using evidence and balanced reasoning.",
+      "successCriteria": [
+        "I can describe possible effects of energy and resource use.",
+        "I can explain that choices can have benefits and costs.",
+        "I can use careful, respectful wording when discussing environmental concerns."
+      ],
+      "vocabulary": [
+        "environmental effect",
+        "society",
+        "atmosphere",
+        "carbon dioxide",
+        "trade-off",
+        "mitigate"
+      ],
+      "teacherSummary": "Students practise balanced reasoning about energy use, environmental effects, technology, and mitigation.",
+      "teacherOverview": "Students learn that energy and resource decisions affect people and the environment and should be compared honestly.",
+      "christianFocus": "Students practise truthful thinking, stewardship, and neighbour-love by considering how resource choices affect people and creation.",
+      "lessonContent": [
+        "Energy and resource use can affect society and the environment.",
+        "Benefits may include heat, electricity, transportation, jobs, food production, and useful materials.",
+        "Costs may include pollution, habitat damage, waste, higher expenses, or health and safety concerns.",
+        "Burning coal, oil, and natural gas can add gases such as carbon dioxide to the atmosphere.",
+        "Students should discuss environmental concerns with evidence, humility, and hope, not fear or blame.",
+        "To mitigate an effect means to reduce its harm."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Trade-Off Thinking Mission",
+        "description": "Practise comparing benefits, costs, and mitigation choices.",
+        "levels": [
+          "Level 1: Notice Effects",
+          "Level 2: Compare Trade-Offs"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Environmental Effects and Trade-Offs Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Benefits, costs, atmosphere, mitigation, evidence, technology, and balanced reasoning"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Trade-Off Thinking Mission",
+        "mission": "Practise comparing benefits, costs, and mitigation choices.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice Effects",
+            "title": "Before You Begin",
+            "prompt": "Get ready: choices have effects",
+            "text": "Energy and resource use can help people, but it can also create problems. A careful student looks at both benefits and costs before making a judgement."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Notice Effects",
+            "title": "Use Evidence, Not Fear",
+            "prompt": "Think clearly and respectfully",
+            "text": "Environmental discussions should use evidence and careful wording. Christian stewardship includes truthfulness, neighbour-love, and hope instead of fear or blame."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Effects",
+            "title": "Benefit",
+            "prompt": "Which is a benefit of using energy resources?",
+            "choices": [
+              "homes can be heated and tools can operate",
+              "all waste automatically disappears",
+              "every energy source becomes perfect"
+            ],
+            "correctAnswer": "homes can be heated and tools can operate",
+            "feedback": "Correct. Energy use provides real benefits.",
+            "hint": "Think about human needs."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Effects",
+            "title": "Cost",
+            "prompt": "Which is a possible cost of using some energy resources?",
+            "choices": [
+              "air pollution from burning fuels",
+              "electricity having no useful purpose",
+              "solar panels making sunlight disappear"
+            ],
+            "correctAnswer": "air pollution from burning fuels",
+            "feedback": "Yes. Some energy use can affect air quality.",
+            "hint": "Think about environmental effects."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Effects",
+            "title": "Atmosphere",
+            "prompt": "Burning coal, oil, and natural gas can add which gas to the atmosphere?",
+            "choices": [
+              "carbon dioxide",
+              "table salt",
+              "liquid water only"
+            ],
+            "correctAnswer": "carbon dioxide",
+            "feedback": "Correct. Carbon dioxide is one gas added by burning these fuels.",
+            "hint": "Think about gases released during burning."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Notice Effects",
+            "title": "True or False",
+            "prompt": "A fair discussion of energy use should consider both benefits and possible harms.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Balanced reasoning considers both.",
+            "hint": "Avoid one-sided thinking."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Notice Effects",
+            "title": "Level 1 Complete",
+            "prompt": "You practised noticing benefits and costs.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Mitigate Means Reduce Harm",
+            "prompt": "Look for wise actions",
+            "text": "To mitigate an effect means to reduce its harm. Conservation, cleaner technology, careful planning, repair, reuse, and better habits may help reduce harmful effects."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Mitigation",
+            "prompt": "Which choice best shows mitigation?",
+            "choices": [
+              "using insulation to reduce heating energy waste",
+              "using more fuel because conservation takes planning",
+              "ignoring pollution if a product is useful"
+            ],
+            "correctAnswer": "using insulation to reduce heating energy waste",
+            "feedback": "Correct. Insulation can reduce energy waste and related impacts.",
+            "hint": "Mitigation reduces harm."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Technology",
+            "prompt": "Which statement about technology is most balanced?",
+            "choices": [
+              "Technology can solve some problems but should be evaluated for cost, materials, safety, and effects.",
+              "Every new technology is automatically better in every way.",
+              "Technology cannot affect energy use."
+            ],
+            "correctAnswer": "Technology can solve some problems but should be evaluated for cost, materials, safety, and effects.",
+            "feedback": "Yes. Technology choices need careful evaluation.",
+            "hint": "Look for benefits and limits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Respectful Reasoning",
+            "prompt": "Which sentence is best for a science discussion?",
+            "choices": [
+              "This choice may reduce energy use, but we should compare cost, safety, and usefulness.",
+              "Anyone who disagrees is careless.",
+              "Only one detail matters, so no evidence is needed."
+            ],
+            "correctAnswer": "This choice may reduce energy use, but we should compare cost, safety, and usefulness.",
+            "feedback": "Correct. It is careful and respectful.",
+            "hint": "Good reasoning compares evidence."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "True or False",
+            "prompt": "Mitigation means reducing harm from a problem or effect.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Mitigation reduces harm.",
+            "hint": "Think about making a problem smaller."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Compare Trade-Offs",
+            "title": "Mission Complete",
+            "prompt": "You practised balanced trade-off thinking.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Environmental Effects and Trade-Offs Quiz",
+        "questions": [
+          {
+            "section": "Effects",
+            "skill": "Benefit",
+            "type": "multipleChoice",
+            "prompt": "Which is a benefit of energy use?",
+            "choices": [
+              "heating homes and powering tools",
+              "making all resources unlimited",
+              "removing every need for conservation"
+            ],
+            "correctAnswer": "heating homes and powering tools",
+            "reviewNote": "Energy use provides real benefits."
+          },
+          {
+            "section": "Effects",
+            "skill": "Cost",
+            "type": "multipleChoice",
+            "prompt": "Which can be a cost of burning some fuels?",
+            "choices": [
+              "air pollution",
+              "sunlight disappearing",
+              "water becoming non-matter"
+            ],
+            "correctAnswer": "air pollution",
+            "reviewNote": "Burning fuels can affect air quality."
+          },
+          {
+            "section": "Atmosphere",
+            "skill": "Carbon Dioxide",
+            "type": "multipleChoice",
+            "prompt": "Burning coal, oil, and natural gas can add which gas to the atmosphere?",
+            "choices": [
+              "carbon dioxide",
+              "table sugar",
+              "solid copper"
+            ],
+            "correctAnswer": "carbon dioxide",
+            "reviewNote": "Carbon dioxide is released when these fuels burn."
+          },
+          {
+            "section": "Trade-Offs",
+            "skill": "Balanced View",
+            "type": "multipleChoice",
+            "prompt": "Which statement shows balanced reasoning?",
+            "choices": [
+              "Energy choices can have benefits and costs.",
+              "Only benefits matter in science.",
+              "Only costs matter in science."
+            ],
+            "correctAnswer": "Energy choices can have benefits and costs.",
+            "reviewNote": "Balanced reasoning considers both."
+          },
+          {
+            "section": "Mitigation",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "What does mitigate mean?",
+            "choices": [
+              "reduce harm",
+              "make a problem larger",
+              "ignore evidence"
+            ],
+            "correctAnswer": "reduce harm",
+            "reviewNote": "Mitigation means reducing harm."
+          },
+          {
+            "section": "Technology",
+            "skill": "Evaluation",
+            "type": "multipleChoice",
+            "prompt": "How should an energy-saving technology be evaluated?",
+            "choices": [
+              "by comparing usefulness, cost, materials, safety, and effects",
+              "by assuming it is perfect because it is new",
+              "by ignoring how people will use it"
+            ],
+            "correctAnswer": "by comparing usefulness, cost, materials, safety, and effects",
+            "reviewNote": "Technology should be evaluated carefully."
+          },
+          {
+            "section": "Reasoning",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Environmental discussions should use evidence and respectful wording.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Evidence and respect matter."
+          },
+          {
+            "section": "Stewardship",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "Christian stewardship can include reducing waste and caring about how choices affect neighbours.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Stewardship includes care for people and creation."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-energy-saving-plan",
       "title": "Design an Energy-Saving Plan",
-      "type": "plannedActivity",
-      "status": "planned",
-      "teacherOverview": "Planned student activity set on designing a realistic energy-saving plan using evidence and respectful recommendations."
+      "type": "lesson",
+      "status": "model",
+      "learningGoal": "Students will design a realistic energy-saving plan using observations, criteria, constraints, and respectful recommendations.",
+      "successCriteria": [
+        "I can identify a conservation problem in a shared space.",
+        "I can use criteria and constraints to choose a realistic plan.",
+        "I can explain my recommendation with evidence and respectful wording."
+      ],
+      "vocabulary": [
+        "energy audit",
+        "criteria",
+        "constraints",
+        "recommendation",
+        "evidence",
+        "action plan"
+      ],
+      "teacherSummary": "Students practise designing a conservation plan for a shared space using evidence and respectful recommendations.",
+      "teacherOverview": "Students learn to apply the design process to an energy-saving plan that is realistic, safe, respectful, and evidence-based.",
+      "christianFocus": "Students practise stewardship, humility, and service by proposing practical ways to care for shared spaces and people.",
+      "lessonContent": [
+        "An energy-saving plan should begin with observations, not guesses.",
+        "An energy audit is a careful check of how energy is being used in a space.",
+        "Criteria describe what a successful plan should do.",
+        "Constraints include time, cost, safety, permission, materials, and privacy.",
+        "A good recommendation explains the evidence, action, expected benefit, and possible limit.",
+        "Plans should be respectful and should not require private family information."
+      ],
+      "practiceIdeas": [
+        "Share the student mission for practice stars.",
+        "Use the lesson quiz as the scored check.",
+        "Review missed ideas before assigning the next Conservation of Energy and Resources lesson."
+      ],
+      "studentActivityPlan": {
+        "title": "Energy-Saving Plan Mission",
+        "description": "Practise building a realistic conservation plan for a shared space.",
+        "levels": [
+          "Level 1: Gather Evidence",
+          "Level 2: Make the Plan"
+        ],
+        "reward": "10 practice stars after each completed level"
+      },
+      "quizPlan": {
+        "title": "Design an Energy-Saving Plan Quiz",
+        "questionCount": 8,
+        "format": "Multiple choice and true/false questions with one score at the end.",
+        "focus": "Energy audits, criteria, constraints, evidence, recommendations, respectful plans, and action steps"
+      },
+      "assessmentPlan": "Use the activity to build confidence and the quiz to check independent understanding.",
+      "studentActivity": {
+        "type": "scienceQuestionSet",
+        "version": "2026-08-28-science-unit-5-energy-resources-1",
+        "title": "Energy-Saving Plan Mission",
+        "mission": "Practise building a realistic conservation plan for a shared space.",
+        "reward": {
+          "stars": 20
+        },
+        "steps": [
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Gather Evidence",
+            "title": "Before You Begin",
+            "prompt": "Get ready: observe before recommending",
+            "text": "A good energy-saving plan starts with evidence. Instead of accusing people of wasting energy, a student can observe lights, devices, heating, cooling, paper use, water use, or routines in a shared space."
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 1: Gather Evidence",
+            "title": "Energy Audit",
+            "prompt": "A careful check",
+            "text": "An energy audit is a careful check of energy use. In Grade 5, an audit can be simple: list what is being used, when it is needed, and where waste might happen."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Gather Evidence",
+            "title": "Audit Evidence",
+            "prompt": "Which note is best evidence for a classroom energy audit?",
+            "choices": [
+              "The projector was on during lunch when no one was using it.",
+              "The room feels like it probably wastes energy.",
+              "The class next door must be worse than ours."
+            ],
+            "correctAnswer": "The projector was on during lunch when no one was using it.",
+            "feedback": "Correct. It is a specific observation.",
+            "hint": "Look for evidence, not blame."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Gather Evidence",
+            "title": "Privacy",
+            "prompt": "Which audit focus is safest for a class project?",
+            "choices": [
+              "shared classroom lights and devices",
+              "private family electricity bills",
+              "personal bedroom routines"
+            ],
+            "correctAnswer": "shared classroom lights and devices",
+            "feedback": "Yes. Shared spaces protect privacy.",
+            "hint": "Avoid private family details."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Gather Evidence",
+            "title": "Criteria",
+            "prompt": "A plan must save energy without interrupting needed lessons. What is this?",
+            "choices": [
+              "a design criterion",
+              "a chemical reaction",
+              "a non-renewable fuel"
+            ],
+            "correctAnswer": "a design criterion",
+            "feedback": "Correct. Criteria describe what the plan should accomplish.",
+            "hint": "Criteria tell what success means."
+          },
+          {
+            "kind": "question",
+            "level": "Level 1: Gather Evidence",
+            "title": "True or False",
+            "prompt": "Evidence should come before recommendations in an energy-saving plan.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Good plans use evidence.",
+            "hint": "Observe first, then recommend."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 1: Gather Evidence",
+            "title": "Level 1 Complete",
+            "prompt": "You practised gathering evidence for a plan.",
+            "stars": 10
+          },
+          {
+            "kind": "lessonIntro",
+            "level": "Level 2: Make the Plan",
+            "title": "Criteria and Constraints",
+            "prompt": "Make it realistic",
+            "text": "A strong plan considers criteria and constraints. A recommendation should be possible, safe, respectful, and clear enough that others can understand it."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make the Plan",
+            "title": "Constraint",
+            "prompt": "A classroom plan cannot move plugs or change wiring. What is this limit?",
+            "choices": [
+              "a constraint",
+              "a form of chemical energy",
+              "a live load"
+            ],
+            "correctAnswer": "a constraint",
+            "feedback": "Correct. Safety and permission limits are constraints.",
+            "hint": "Constraints are limits."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make the Plan",
+            "title": "Recommendation",
+            "prompt": "Which recommendation is strongest?",
+            "choices": [
+              "Put a reminder near the door so the last person checks unused lights and devices.",
+              "Never use classroom technology again.",
+              "Tell students they are careless if a light is left on."
+            ],
+            "correctAnswer": "Put a reminder near the door so the last person checks unused lights and devices.",
+            "feedback": "Yes. It is specific, realistic, and respectful.",
+            "hint": "A good plan can be followed."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make the Plan",
+            "title": "Explain the Plan",
+            "prompt": "Which explanation best supports a recommendation?",
+            "choices": [
+              "The projector was unused during lunch three times, so turning it off then could reduce wasted electricity.",
+              "I like posters, so the plan must work.",
+              "The plan is best because no one should ask questions."
+            ],
+            "correctAnswer": "The projector was unused during lunch three times, so turning it off then could reduce wasted electricity.",
+            "feedback": "Correct. It uses evidence and explains the expected benefit.",
+            "hint": "Look for observation plus reason."
+          },
+          {
+            "kind": "question",
+            "level": "Level 2: Make the Plan",
+            "title": "True or False",
+            "prompt": "A good plan can include a possible limit or trade-off.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "feedback": "Correct. Honest plans can name limits.",
+            "hint": "Real plans are not perfect."
+          },
+          {
+            "kind": "levelComplete",
+            "level": "Level 2: Make the Plan",
+            "title": "Mission Complete",
+            "prompt": "You practised designing an energy-saving plan.",
+            "stars": 10
+          }
+        ]
+      },
+      "quiz": {
+        "title": "Design an Energy-Saving Plan Quiz",
+        "questions": [
+          {
+            "section": "Planning",
+            "skill": "Energy Audit",
+            "type": "multipleChoice",
+            "prompt": "What is an energy audit?",
+            "choices": [
+              "a careful check of how energy is being used",
+              "a guess about who is wasting energy",
+              "a rule that bans every device"
+            ],
+            "correctAnswer": "a careful check of how energy is being used",
+            "reviewNote": "An audit gathers evidence."
+          },
+          {
+            "section": "Evidence",
+            "skill": "Observation",
+            "type": "multipleChoice",
+            "prompt": "Which note is best evidence?",
+            "choices": [
+              "The computer cart was left plugged in after all devices were charged.",
+              "Someone probably forgot something.",
+              "This room is worse than every other room."
+            ],
+            "correctAnswer": "The computer cart was left plugged in after all devices were charged.",
+            "reviewNote": "It is a specific observation."
+          },
+          {
+            "section": "Privacy",
+            "skill": "Shared Space",
+            "type": "multipleChoice",
+            "prompt": "Which focus best protects student privacy?",
+            "choices": [
+              "classroom energy use",
+              "family electricity bills",
+              "personal bedroom routines"
+            ],
+            "correctAnswer": "classroom energy use",
+            "reviewNote": "Shared spaces avoid private family details."
+          },
+          {
+            "section": "Design",
+            "skill": "Criteria",
+            "type": "multipleChoice",
+            "prompt": "What do criteria tell?",
+            "choices": [
+              "what a successful plan should do",
+              "which family uses the most electricity",
+              "why evidence is not needed"
+            ],
+            "correctAnswer": "what a successful plan should do",
+            "reviewNote": "Criteria define success."
+          },
+          {
+            "section": "Design",
+            "skill": "Constraints",
+            "type": "multipleChoice",
+            "prompt": "What are constraints?",
+            "choices": [
+              "limits such as time, cost, safety, permission, and materials",
+              "the final score on a quiz only",
+              "claims made without evidence"
+            ],
+            "correctAnswer": "limits such as time, cost, safety, permission, and materials",
+            "reviewNote": "Constraints are limits."
+          },
+          {
+            "section": "Recommendation",
+            "skill": "Strong Plan",
+            "type": "multipleChoice",
+            "prompt": "Which recommendation is strongest?",
+            "choices": [
+              "Use a checklist to turn off unused classroom lights and devices.",
+              "Stop all lessons that need electricity.",
+              "Blame one student for every wasted watt."
+            ],
+            "correctAnswer": "Use a checklist to turn off unused classroom lights and devices.",
+            "reviewNote": "It is practical and respectful."
+          },
+          {
+            "section": "Evidence",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A recommendation should be connected to evidence.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Evidence supports recommendations."
+          },
+          {
+            "section": "Planning",
+            "skill": "True or False",
+            "type": "trueFalse",
+            "prompt": "A realistic plan may mention a limit or trade-off.",
+            "choices": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "True",
+            "reviewNote": "Honest plans can name limits."
+          }
+        ]
+      }
     },
     {
       "id": "grade-5-science-unit-5-final-quiz",
       "title": "Unit 5 Final Quiz",
-      "type": "plannedQuiz",
-      "status": "planned",
-      "teacherOverview": "Planned final quiz on energy forms, sources, conservation, natural resources, stewardship, and trade-offs."
+      "type": "unitTest",
+      "status": "model",
+      "teacherSummary": "The Unit 5 final quiz checks energy forms, transformations, renewable and non-renewable energy sources, conservation, resource stewardship, environmental effects, trade-offs, and energy-saving plans.",
+      "teacherOverview": "Use this quiz after students complete the Conservation of Energy and Resources lessons.",
+      "quiz": {
+        "title": "Conservation of Energy and Resources Unit Quiz",
+        "type": "unitTest",
+        "questions": [
+          {
+            "section": "Part A: Energy Forms",
+            "skill": "Energy Meaning",
+            "type": "multipleChoice",
+            "prompt": "Which statement best describes energy?",
+            "choices": [
+              "Energy is the ability to cause change or do work.",
+              "Energy is only electricity from an outlet.",
+              "Energy is only found in moving vehicles."
+            ],
+            "correctAnswer": "Energy is the ability to cause change or do work.",
+            "reviewNote": "Energy causes work or change."
+          },
+          {
+            "section": "Part A: Energy Forms",
+            "skill": "Light",
+            "type": "multipleChoice",
+            "prompt": "Which example uses light energy?",
+            "choices": [
+              "a lamp shining on a desk",
+              "a closed backpack on the floor",
+              "a silent book on a shelf"
+            ],
+            "correctAnswer": "a lamp shining on a desk",
+            "reviewNote": "A lamp gives light."
+          },
+          {
+            "section": "Part A: Energy Forms",
+            "skill": "Chemical",
+            "type": "multipleChoice",
+            "prompt": "Which item stores chemical energy?",
+            "choices": [
+              "a battery",
+              "a mirror",
+              "a clear window"
+            ],
+            "correctAnswer": "a battery",
+            "reviewNote": "Batteries store chemical energy."
+          },
+          {
+            "section": "Part B: Transformations",
+            "skill": "Speaker",
+            "type": "multipleChoice",
+            "prompt": "A speaker mainly changes electrical energy into...",
+            "choices": [
+              "sound energy",
+              "soil energy",
+              "stored water energy"
+            ],
+            "correctAnswer": "sound energy",
+            "reviewNote": "Speakers make sound."
+          },
+          {
+            "section": "Part B: Transformations",
+            "skill": "Fan",
+            "type": "multipleChoice",
+            "prompt": "A fan changes electrical energy mainly into...",
+            "choices": [
+              "mechanical energy",
+              "chemical energy",
+              "food energy"
+            ],
+            "correctAnswer": "mechanical energy",
+            "reviewNote": "The blades move."
+          },
+          {
+            "section": "Part B: Transformations",
+            "skill": "Waste Heat",
+            "type": "multipleChoice",
+            "prompt": "A charger gets warm. What is likely happening?",
+            "choices": [
+              "Some energy is spreading as thermal energy.",
+              "The charger is creating energy from nothing.",
+              "The cord is turning into a fuel source."
+            ],
+            "correctAnswer": "Some energy is spreading as thermal energy.",
+            "reviewNote": "Warmth shows thermal energy."
+          },
+          {
+            "section": "Part C: Sources",
+            "skill": "Renewable",
+            "type": "multipleChoice",
+            "prompt": "Which source is renewable?",
+            "choices": [
+              "moving water",
+              "coal",
+              "oil"
+            ],
+            "correctAnswer": "moving water",
+            "reviewNote": "Moving water can be replenished naturally."
+          },
+          {
+            "section": "Part C: Sources",
+            "skill": "Non-Renewable",
+            "type": "multipleChoice",
+            "prompt": "Which source is non-renewable?",
+            "choices": [
+              "natural gas",
+              "sunlight",
+              "wind"
+            ],
+            "correctAnswer": "natural gas",
+            "reviewNote": "Natural gas is limited and used faster than it is replaced."
+          },
+          {
+            "section": "Part C: Sources",
+            "skill": "Trade-Off",
+            "type": "multipleChoice",
+            "prompt": "Which statement is most balanced?",
+            "choices": [
+              "Wind energy is renewable, but output can change with wind conditions.",
+              "Wind energy is non-renewable because turbines move.",
+              "Wind energy works exactly the same everywhere."
+            ],
+            "correctAnswer": "Wind energy is renewable, but output can change with wind conditions.",
+            "reviewNote": "It names a benefit and a limit."
+          },
+          {
+            "section": "Part D: Conservation",
+            "skill": "Meaning",
+            "type": "multipleChoice",
+            "prompt": "What does conservation mean?",
+            "choices": [
+              "using energy and resources wisely and avoiding waste",
+              "never using any material for any reason",
+              "using extra energy whenever it is available"
+            ],
+            "correctAnswer": "using energy and resources wisely and avoiding waste",
+            "reviewNote": "Conservation is wise use."
+          },
+          {
+            "section": "Part D: Conservation",
+            "skill": "Classroom",
+            "type": "multipleChoice",
+            "prompt": "Which action conserves energy in a classroom?",
+            "choices": [
+              "turn off unused lights",
+              "leave every screen on overnight",
+              "open windows while heating on purpose"
+            ],
+            "correctAnswer": "turn off unused lights",
+            "reviewNote": "Turning off unused lights avoids waste."
+          },
+          {
+            "section": "Part D: Conservation",
+            "skill": "Privacy",
+            "type": "multipleChoice",
+            "prompt": "Which question should a class activity avoid requiring?",
+            "choices": [
+              "How much does your family pay for electricity?",
+              "How can a classroom reduce paper waste?",
+              "Why might insulation slow heat transfer?"
+            ],
+            "correctAnswer": "How much does your family pay for electricity?",
+            "reviewNote": "Family bills are private."
+          },
+          {
+            "section": "Part E: Resources",
+            "skill": "Natural Resource",
+            "type": "multipleChoice",
+            "prompt": "What is a natural resource?",
+            "choices": [
+              "something from the earth that people use",
+              "only a product made entirely in a factory",
+              "a material with no useful properties"
+            ],
+            "correctAnswer": "something from the earth that people use",
+            "reviewNote": "Natural resources come from the earth."
+          },
+          {
+            "section": "Part E: Resources",
+            "skill": "Stewardship",
+            "type": "multipleChoice",
+            "prompt": "Which statement best describes Christian stewardship?",
+            "choices": [
+              "responsible care and wise use of what God has made and provided",
+              "using resources carelessly before others can",
+              "never using any resource for human needs"
+            ],
+            "correctAnswer": "responsible care and wise use of what God has made and provided",
+            "reviewNote": "Stewardship is wise care."
+          },
+          {
+            "section": "Part E: Resources",
+            "skill": "Repair",
+            "type": "multipleChoice",
+            "prompt": "Which choice can reduce waste?",
+            "choices": [
+              "repairing a usable item when reasonable",
+              "throwing away every item after one use",
+              "buying several replacements with no purpose"
+            ],
+            "correctAnswer": "repairing a usable item when reasonable",
+            "reviewNote": "Repair can extend usefulness."
+          },
+          {
+            "section": "Part F: Environmental Effects",
+            "skill": "Air",
+            "type": "multipleChoice",
+            "prompt": "Burning coal, oil, and natural gas can add which gas to the atmosphere?",
+            "choices": [
+              "carbon dioxide",
+              "table salt",
+              "solid copper"
+            ],
+            "correctAnswer": "carbon dioxide",
+            "reviewNote": "Burning these fuels can release carbon dioxide."
+          },
+          {
+            "section": "Part F: Environmental Effects",
+            "skill": "Mitigation",
+            "type": "multipleChoice",
+            "prompt": "What does mitigate mean?",
+            "choices": [
+              "reduce harm",
+              "ignore evidence",
+              "make a problem larger"
+            ],
+            "correctAnswer": "reduce harm",
+            "reviewNote": "Mitigation reduces harm."
+          },
+          {
+            "section": "Part F: Environmental Effects",
+            "skill": "Technology",
+            "type": "multipleChoice",
+            "prompt": "How should energy-saving technology be evaluated?",
+            "choices": [
+              "by comparing usefulness, cost, materials, safety, and effects",
+              "by assuming every new device is perfect",
+              "by ignoring how people will use it"
+            ],
+            "correctAnswer": "by comparing usefulness, cost, materials, safety, and effects",
+            "reviewNote": "Technology should be evaluated carefully."
+          },
+          {
+            "section": "Part G: Energy Plan",
+            "skill": "Audit",
+            "type": "multipleChoice",
+            "prompt": "What is an energy audit?",
+            "choices": [
+              "a careful check of how energy is being used",
+              "a guess about who wasted energy",
+              "a rule that bans electricity"
+            ],
+            "correctAnswer": "a careful check of how energy is being used",
+            "reviewNote": "An audit gathers evidence."
+          },
+          {
+            "section": "Part G: Energy Plan",
+            "skill": "Recommendation",
+            "type": "multipleChoice",
+            "prompt": "Which recommendation is strongest?",
+            "choices": [
+              "Use a checklist to turn off unused classroom lights and devices.",
+              "Stop every activity that ever uses electricity.",
+              "Blame classmates when a light is left on."
+            ],
+            "correctAnswer": "Use a checklist to turn off unused classroom lights and devices.",
+            "reviewNote": "It is practical, specific, and respectful."
+          }
+        ]
+      },
+      "unitGradePlan": {
+        "unitTestWeight": 60,
+        "lessonQuizAverageWeight": 40,
+        "note": "Final Conservation of Energy and Resources mark recommendation: 60% unit quiz and 40% average of lesson quizzes."
+      }
     }
-  ]
+  ],
+  "unitAssessmentPlan": {
+    "lessonQuizzes": "Each Conservation of Energy and Resources lesson has a short scored quiz to check the lesson focus.",
+    "unitTest": "The unit quiz checks forms of energy, transformations, renewable and non-renewable sources, conservation, stewardship, resource use, environmental effects, technology trade-offs, and energy-saving plans. Recommended weighting remains 40% lesson quizzes and 60% unit quiz."
+  }
 }

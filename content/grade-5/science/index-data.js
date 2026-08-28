@@ -4,7 +4,7 @@ window.PracticeStarContent.grade5Science = {
   "grade": 5,
   "title": "Science and Technology - Grade 5",
   "description": "Grade 5 Science and Technology organized around Ontario strands, with student-shareable lessons and quizzes to be built one unit at a time.",
-  "status": "shell",
+  "status": "active",
   "contentGuardrails": [
     "Use the official Ontario Grade 5 Science and Technology curriculum as the academic guide.",
     "Present science as careful observation of God's created world.",
@@ -284,6 +284,7 @@ window.PracticeStarContent.grade5Science = {
       "strand": "Earth and Space Systems",
       "unitGoal": "Students will compare energy sources, understand resource use, and practise stewardship-minded choices that conserve energy and materials.",
       "file": "units/unit-5-conservation-of-energy-and-resources.json",
+      "dataFile": "unit-data/unit-5-conservation-of-energy-and-resources.js",
       "lessons": [
         {
           "id": "grade-5-science-unit-5-forms-of-energy",
